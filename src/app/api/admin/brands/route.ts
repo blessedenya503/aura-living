@@ -45,7 +45,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Non-greasy formula that immediately soothes razor burn, tight skin, and reinforces the lipid barrier.",
     keyIngredients: ["Aloe Vera Extract", "Provitamin B5", "Glycerin"],
     benefits: ["Soothes post-shave redness instantly", "Deep non-greasy 48h hydration", "Fast absorbing"],
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/81rRPI-rNNL._AC_UL320_.jpg",
   },
   {
     id: "imp-nivea-cellular-filler",
@@ -65,7 +65,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Stimulates skin cells to produce their own hyaluronic acid and collagen, filling deep wrinkles.",
     keyIngredients: ["Micro-Hyaluronic Acid", "Collagen Booster", "SPF 30 Broad Spectrum"],
     benefits: ["Reduces wrinkle depth in 14 days", "SPF 30 prevents photo-aging", "Plumps cellular bounce"],
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61UOLtv9P0L._AC_UL320_.jpg",
   },
   {
     id: "imp-nivea-repair-care-72h",
@@ -85,7 +85,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Formulated with soothing Dexpanthenol and Deep Moisture Serum to strengthen skin barrier for 72 hours.",
     keyIngredients: ["Dexpanthenol", "Deep Moisture Serum", "Glycerin"],
     benefits: ["Calms rough, tight skin with 1 application", "Reinforces moisture barrier for 72 hours", "Fast absorbing pump"],
-    image: "https://images.unsplash.com/photo-1556228722-d0b5de73170b?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61nIWVHSZzL._AC_UL320_.jpg",
   },
 
   // --- EUCERIN ---
@@ -107,7 +107,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Restores moisture balance and strengthens the skin barrier to prevent future dryness.",
     keyIngredients: ["Ceramide-3", "Natural Moisturizing Factors (NMFs)", "Lactic Acid", "Urea"],
     benefits: ["Strengthens barrier to lock in moisture for 48 hours", "Gentle non-greasy exfoliation via gentle NMFs", "Dye and fragrance free"],
-    image: "https://images.unsplash.com/photo-1608248597359-001099e0fbfa?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg",
   },
   {
     id: "imp-eucerin-anti-pigment",
@@ -127,7 +127,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Combines active Thiamidol to reduce hyperpigmentation with concentrated Hyaluronic Acid for deep radiance.",
     keyIngredients: ["Patented Thiamidol®", "Concentrated Hyaluronic Acid", "Isoquercitrin"],
     benefits: ["First visible results in 2 weeks of twice-daily use", "Prevents spot reappearance", "Plumping hydration"],
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg",
   },
   {
     id: "imp-eucerin-aquaphor-healing",
@@ -147,7 +147,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Clinically proven to restore smooth, healthy skin on cracked heels, dry hands, and compromised barriers.",
     keyIngredients: ["41% Petrolatum", "Panthenol (Pro-Vit B5)", "Glycerin", "Bisabolol"],
     benefits: ["Semi-permeable barrier allows oxygen flow", "Soothes chapped lips, dry hands, cuticles, cracked feet", "Preservative-free"],
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71fhghOVS7L._AC_UL320_.jpg",
   },
 
   // --- AVÈNE ---
@@ -169,7 +169,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Infused with postbiotic C+-Restore™ and Copper-Zinc sulfate complex to purify and restore delicate skin barriers.",
     keyIngredients: ["Postbiotic C+-Restore™", "Copper & Zinc Sulfate Complex", "Avène Thermal Spring Water 45%"],
     benefits: ["Accelerates barrier recovery 4x faster", "Maintains optimal moisture environment", "Safe for infants, children, and adults"],
-    image: "https://images.unsplash.com/photo-1608248597359-001099e0fbfa?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg",
   },
   {
     id: "imp-avene-thermal-spring-water",
@@ -189,7 +189,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Clinically shown to soothe redness, tightness, and itching with unique low mineral content and neutral pH.",
     keyIngredients: ["100% Avène Thermal Spring Water", "Silica", "Optimal Calcium/Magnesium Ratio"],
     benefits: ["Instantly relieves irritation and post-procedure warmth", "Restores cutaneous balance and microflora", "Preservative-free sterile packaging"],
-    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg",
   },
 
   // --- DRUNK ELEPHANT ---
@@ -211,7 +211,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and supportive amino acids.",
     keyIngredients: ["9 Signal Peptide Complex", "Pygmy Waterlily Stem Cell Extract", "Soybean Folic Acid Ferment"],
     benefits: ["Restores bounce and cellular resilience", "Reduces appearance of lines and sun damage", "Silky airless pump dispenser"],
-    image: "https://images.unsplash.com/photo-1608248597359-001099e0fbfa?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg",
   },
   {
     id: "imp-drunk-elephant-cfirma",
@@ -231,7 +231,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Packed with 15% pure Vitamin C, 1% Vitamin E, and 0.5% Ferulic Acid plus pumpkin ferment for uniform luminosity.",
     keyIngredients: ["15% L-Ascorbic Acid", "0.5% Ferulic Acid", "1.0% Vitamin E", "Pumpkin Ferment Extract"],
     benefits: ["Brightens and refines complexion", "Dissolves dead surface cells enzymatically", "72-hour reservoir effect"],
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg",
   },
 
   // --- BIODERMA ---
@@ -253,7 +253,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Biomimetic micellar technology that captures impurities and heavy makeup while preserving the physiological microbiome.",
     keyIngredients: ["Biomimetic Micelles", "Cucumis Sativus (Cucumber) Extract", "Highly Purified Pharmaceutical Water"],
     benefits: ["Removes 99% of makeup and pollution particles", "Physiological pH 5.5 matches natural skin barrier", "No rinsing required"],
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
   },
   {
     id: "imp-bioderma-atoderm-baume",
@@ -273,7 +273,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Enriched with Skin Barrier Therapy™ and Lipigenium™ to immediately stop itching and biologically rebuild the skin barrier.",
     keyIngredients: ["Skin Barrier Therapy™ Patent", "Lipigenium™ Complex", "PEA Anti-Pruritus Agent"],
     benefits: ["Quickly stops itching urges within 2 minutes", "Replenishes essential skin lipids for 24 hours", "Fragrance free and non-sticky"],
-    image: "https://images.unsplash.com/photo-1556228722-d0b5de73170b?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
   },
 
   // --- GLOW RECIPE ---
@@ -295,7 +295,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time.",
     keyIngredients: ["Niacinamide (Vitamin B3)", "Watermelon Extract", "Hyaluronic Acid", "Moringa Seed Oil"],
     benefits: ["Instant glass skin glow with zero glitter", "Diminishes hyperpigmentation and clears pores", "Can be worn alone or under makeup"],
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg",
   },
   {
     id: "imp-glow-recipe-plum-plump",
@@ -315,7 +315,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Weightless whipped gel cream bursting with Kakadu Plum and 5 molecular weights of hyaluronic acid.",
     keyIngredients: ["Kakadu Plum Extract", "5 Molecular Weights of HA", "Polyglutamic Acid", "Willowherb"],
     benefits: ["Multi-depth cellular hydration", "Controls excess oil while deeply plumping", "Refillable jar design"],
-    image: "https://images.unsplash.com/photo-1608248597359-001099e0fbfa?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg",
   },
 
   // --- TATCHA ---
@@ -337,7 +337,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Infuses skin with Japanese purple rice, Okinawa algae, and hyaluronic acid for an instant dewy bounce.",
     keyIngredients: ["Japanese Purple Rice", "Okinawa Algae Complex", "Hyaluronic Acid", "Botanical Extracts"],
     benefits: ["Deeply hydrates and locks in rich moisture", "Replenishes ceramides for youthful bounce", "Leaves an exquisite dewy sheen"],
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
   },
   {
     id: "imp-tatcha-water-cream",
@@ -357,7 +357,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Unique water-burst formula breaks upon application to deliver deep moisture without grease or stickiness.",
     keyIngredients: ["Japanese Wild Rose", "Japanese Leopard Lily", "Hadasei-3 Trinity Complex"],
     benefits: ["Refines and clarifies pore texture", "Balances excess sebum production", "Imparts subtle 23k gold luminescence"],
-    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg",
   },
 
   // --- NEUTROGENA ---
@@ -379,7 +379,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Formulated with purified hyaluronic acid, this oil-free gel absorbs instantly and acts like a water reservoir.",
     keyIngredients: ["Purified Hyaluronic Acid", "Olive Extract Derivative", "Glycerin"],
     benefits: ["Instantly quenches extra dry skin", "Non-comedogenic oil-free formulation", "Fast absorption under makeup"],
-    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/71CBKcM0AhL._AC_UL320_.jpg",
   },
 
   // --- SUNDAY RILEY ---
@@ -401,7 +401,7 @@ const VERIFIED_SKINCARE_CATALOG: VerifiedBrandItem[] = [
     shortDescription: "Clinically proven to plump fine lines and clarify dark hyperpigmented spots in just 3 minutes.",
     keyIngredients: ["Purified Grade Lactic Acid", "Licorice Extract", "Lemongrass", "Arnica"],
     benefits: ["Smooths texture and plumps fine lines in 3 minutes", "Fades dark spots from sun and post-blemish scars", "Gentler than glycolic acid"],
-    image: "https://images.unsplash.com/photo-1617897903246-719242758050?q=80&w=1000&auto=format&fit=crop",
+    image: "https://m.media-amazon.com/images/I/61hawgGTxLL._AC_UL320_.jpg",
   },
 ];
 
