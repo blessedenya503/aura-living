@@ -1,0 +1,1994 @@
+{
+ "matched": [
+  {
+   "id": "prod-eucerin-52",
+   "name": "Eucerin Roughness Relief Lotion with Urea & Ceramide",
+   "obfName": "Eucerin, Roughness Relief Lotion, Fragrance Free",
+   "img": "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-eucerin-53",
+   "name": "Eucerin Aquaphor Advanced Therapy Healing Ointment",
+   "obfName": "Aquaphor Healing Ointment",
+   "img": "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg",
+   "score": 0.71
+  },
+  {
+   "id": "prod-eucerin-55",
+   "name": "Eucerin UreaRepair PLUS 10% Urea Intensive Foot Cream",
+   "obfName": "UreaRepair Plus 5% Urea",
+   "img": "https://images.openbeautyfacts.org/images/products/400/580/016/2442/front_de.3.400.jpg",
+   "score": 0.63
+  },
+  {
+   "id": "prod-eucerin-57",
+   "name": "Eucerin Hyaluron-Filler + 3x Effect Night Cream",
+   "obfName": "eucerin hyaluron-filler 3x effect",
+   "img": "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg",
+   "score": 0.9
+  },
+  {
+   "id": "prod-eucerin-60",
+   "name": "Eucerin Sun Gel-Cream Oil Control Dry Touch SPF 50+",
+   "obfName": "Sun Protection Oil Control 50+",
+   "img": "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg",
+   "score": 0.62
+  },
+  {
+   "id": "prod-eucerin-70",
+   "name": "Eucerin Sun Sensitive Protect Sun Spray Transparent SPF 50",
+   "obfName": "Sun Sensitive Protect Kids SPF 50+ Spray Corps",
+   "img": "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg",
+   "score": 0.93
+  },
+  {
+   "id": "prod-eucerin-75",
+   "name": "Eucerin Complete Repair Intensive Lotion 5% Urea",
+   "obfName": "Eucerin urea repair Plus 10% lotion",
+   "img": "https://images.openbeautyfacts.org/images/products/600/105/100/1606/front_en.3.400.jpg",
+   "score": 0.63
+  },
+  {
+   "id": "prod-avne-78",
+   "name": "Avène Cleanance Cleansing Gel Soap-Free Blemish Control",
+   "obfName": "Cleanance Cleansing Gel",
+   "img": "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-avne-80",
+   "name": "Avène XeraCalm A.D Lipid-Replenishing Balm Anti-Itch",
+   "obfName": "Xeracalm lipid-replenishing cleansing oil",
+   "img": "https://images.openbeautyfacts.org/images/products/328/277/038/9883/front_en.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-avne-84",
+   "name": "Avène Hyaluron Activ B3 Concentrated Plumping Serum",
+   "obfName": "Avène Hyaluron Activ B3 Concentrated Plumping Serum",
+   "img": "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg",
+   "score": 1
+  },
+  {
+   "id": "prod-avne-85",
+   "name": "Avène Hyaluron Activ B3 Cell Renewal Cream Refillable",
+   "obfName": "Hyaluron Activ B3",
+   "img": "https://images.openbeautyfacts.org/images/products/328/277/015/3200/front_fr.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-avne-88",
+   "name": "Avène Very High Protection Fluid SPF 50+ TriAsorB™",
+   "obfName": "Avene very high protection spf50 lotion",
+   "img": "https://images.openbeautyfacts.org/images/products/328/277/020/2113/front_en.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-avne-97",
+   "name": "Avène Intense Protect 50+ Ultra Water-Resistant Ocean Safe",
+   "obfName": "Intense Protect 50+",
+   "img": "https://images.openbeautyfacts.org/images/products/328/277/014/1214/front_fr.6.400.jpg",
+   "score": 0.71
+  },
+  {
+   "id": "prod-bioderma-101",
+   "name": "Bioderma Sensibio H2O Micellar Water Makeup Remover",
+   "obfName": "Sensibio H2O Lingettes Micellar Water Makup Remover Wipes",
+   "img": "https://images.openbeautyfacts.org/images/products/370/112/981/2112/front_en.3.400.jpg",
+   "score": 0.92
+  },
+  {
+   "id": "prod-bioderma-103",
+   "name": "Bioderma Sensibio AR Anti-Redness Daily Moisturizing Cream",
+   "obfName": "Creme anti-vermelhidão sensibio ar",
+   "img": "https://images.openbeautyfacts.org/images/products/340/134/369/6245/front_pt.3.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-bioderma-106",
+   "name": "Bioderma Photoderm Max Crème SPF 50+ Invisible Fluid",
+   "obfName": "Photoderm Max SPF 50+ - Aquafluide",
+   "img": "https://images.openbeautyfacts.org/images/products/340/156/119/7715/front_fr.4.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-bioderma-114",
+   "name": "Bioderma Sebium Gel Moussant Purifying Foaming Cleanser",
+   "obfName": "Sébium - gel moussant",
+   "img": "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-bioderma-116",
+   "name": "Bioderma Sensibio Gel Moussant Gentle Soothing Cleanser",
+   "obfName": "Bioderma sensibio gel moussant 200ml",
+   "img": "https://images.openbeautyfacts.org/images/products/340/138/150/7565/front_en.16.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-bioderma-117",
+   "name": "Bioderma Photoderm Spot-Age SPF 50+ Anti-Dark Spot Sun Care",
+   "obfName": "Bioderma Photoderm Spot-Age SPF50+ 40ml",
+   "img": "https://images.openbeautyfacts.org/images/products/370/112/980/3738/front_fr.5.400.jpg",
+   "score": 0.72
+  },
+  {
+   "id": "prod-cosrx-121",
+   "name": "COSRX Low pH Good Morning Gel Cleanser Gentle Botanical",
+   "obfName": "Low PH good morning gel cleanser",
+   "img": "https://images.openbeautyfacts.org/images/products/880/941/647/0511/front_en.15.400.jpg",
+   "score": 0.93
+  },
+  {
+   "id": "prod-cosrx-122",
+   "name": "COSRX BHA Blackhead Power Liquid Exfoliating Toner",
+   "obfName": "Cosrx BHA Blackhead Power Liquid",
+   "img": "https://images.openbeautyfacts.org/images/products/880/941/647/0054/front_en.3.400.jpg",
+   "score": 0.83
+  },
+  {
+   "id": "prod-cosrx-129",
+   "name": "COSRX The 6 Peptide Skin Booster Serum Multi-Active Prep",
+   "obfName": "Cosrx The 6 Peptide Skin Booster Serum",
+   "img": "https://images.openbeautyfacts.org/images/products/880/959/845/5658/front_nl.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-beautyofjoseon-131",
+   "name": "Beauty of Joseon Ginseng Essence Water Traditional Hanbang",
+   "obfName": "Beauty of Joseon Ginseng Essence Water",
+   "img": "https://images.openbeautyfacts.org/images/products/880/973/831/0960/front_en.3.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-beautyofjoseon-133",
+   "name": "Beauty of Joseon Revive Eye Serum: Ginseng + Retinal",
+   "obfName": "Beauty of Joseon Revive Eye Serum",
+   "img": "https://images.openbeautyfacts.org/images/products/880/973/831/6146/front_nl.16.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-anua-141",
+   "name": "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam",
+   "obfName": "Anua Heartleaf Quercetinol Cleansing Foam",
+   "img": "https://images.openbeautyfacts.org/images/products/880/964/073/5622/front_nl.4.400.jpg",
+   "score": 0.67
+  },
+  {
+   "id": "prod-anua-143",
+   "name": "Anua Heartleaf 80% Moisture Soothing Ampoule Serum",
+   "obfName": "Anua Heartleaf 80 + Panthenol Moisture Soothing Ampoule",
+   "img": "https://images.openbeautyfacts.org/images/products/880/964/073/4717/front_nl.3.400.jpg",
+   "score": 0.67
+  },
+  {
+   "id": "prod-anua-145",
+   "name": "Anua Heartleaf Pore Control Cleansing Oil Waterproof Melt",
+   "obfName": "Anua Heartleaf Pore Control Cleansing Oil",
+   "img": "https://images.openbeautyfacts.org/images/products/880/964/073/2829/front_en.9.400.jpg",
+   "score": 0.86
+  },
+  {
+   "id": "prod-skin1004-151",
+   "name": "Skin1004 Madagascar Centella Asiatica 100% Ampoule",
+   "obfName": "SKIN1004 Madagascar Centella Ampoule 55ml",
+   "img": "https://images.openbeautyfacts.org/images/products/880/957/626/0601/front_en.3.400.jpg",
+   "score": 0.63
+  },
+  {
+   "id": "prod-skin1004-156",
+   "name": "Skin1004 Madagascar Centella Hyalu-Cica Sleeping Pack Gel",
+   "obfName": "SKIN1004 Madagascar Centella SPF50+ Hyalu-Cica Silky-Fit Sun Stick",
+   "img": "https://images.openbeautyfacts.org/images/products/880/991/383/0214/front_nl.3.400.jpg",
+   "score": 0.79
+  },
+  {
+   "id": "prod-skin1004-158",
+   "name": "Skin1004 Madagascar Centella Tea-Trica Relief Ampoule Acne",
+   "obfName": "SKIN1004 Madagascar Centella Tea-Trica B5 Cream",
+   "img": "https://images.openbeautyfacts.org/images/products/880/991/383/0047/front_en.10.400.jpg",
+   "score": 0.79
+  },
+  {
+   "id": "prod-skin1004-159",
+   "name": "Skin1004 Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick SPF 50+",
+   "obfName": "SKIN1004 Madagascar Centella Hyalu-Cica Blue Serum",
+   "img": "https://images.openbeautyfacts.org/images/products/880/957/626/1059/front_nl.3.400.jpg",
+   "score": 0.72
+  },
+  {
+   "id": "prod-skin1004-160",
+   "name": "Skin1004 Madagascar Centella Probio-Cica Intensive Ampoule",
+   "obfName": "SKIN1004 Madagascar Centella Probio-Cica Bakuchiol Eye Cream",
+   "img": "https://images.openbeautyfacts.org/images/products/880/991/383/0177/front_fr.3.400.jpg",
+   "score": 0.9
+  },
+  {
+   "id": "prod-theordinary-162",
+   "name": "The Ordinary Caffeine Solution 5% + EGCG Under-Eye Contour",
+   "obfName": "Caffeine Solution 5% + EGCG",
+   "img": "https://images.openbeautyfacts.org/images/products/076/991/519/0670/front_en.21.400.jpg",
+   "score": 0.79
+  },
+  {
+   "id": "prod-theordinary-163",
+   "name": "The Ordinary Natural Moisturizing Factors + HA Surface Hydration",
+   "obfName": "Natural Moisturizing Factors + HA",
+   "img": "https://images.openbeautyfacts.org/images/products/076/991/519/0731/front_en.3.400.jpg",
+   "score": 0.83
+  },
+  {
+   "id": "prod-theordinary-166",
+   "name": "The Ordinary Lactic Acid 10% + HA Superficial Peeling",
+   "obfName": "Lactic Acid 10% + HA",
+   "img": "https://images.openbeautyfacts.org/images/products/076/991/519/0373/front_en.12.400.jpg",
+   "score": 0.83
+  },
+  {
+   "id": "prod-theordinary-167",
+   "name": "The Ordinary AHA 30% + BHA 2% Peeling Solution 10-Min Exfoliating",
+   "obfName": "The Ordinary AHA 30% + BHA 2% Peeling Solution",
+   "img": "https://images.openbeautyfacts.org/images/products/076/991/519/5606/front_en.6.400.jpg",
+   "score": 0.83
+  },
+  {
+   "id": "prod-theordinary-176",
+   "name": "The Ordinary Granactive Retinoid 2% Emulsion Next-Gen Vitamin A",
+   "obfName": "granactive retinoid 2% emulsion",
+   "img": "https://images.openbeautyfacts.org/images/products/076/991/519/0045/front_en.7.400.jpg",
+   "score": 0.79
+  },
+  {
+   "id": "prod-theordinary-178",
+   "name": "The Ordinary 100% Organic Cold-Pressed Rose Hip Seed Oil",
+   "obfName": "100% Organic Cold Pressed Rose Hip Seed Oil",
+   "img": "https://images.openbeautyfacts.org/images/products/076/991/519/0342/front_en.3.400.jpg",
+   "score": 1
+  },
+  {
+   "id": "prod-drunkelephant-182",
+   "name": "Drunk Elephant Lala Retro Whipped Cream 6 Rare African Oils",
+   "obfName": "Lala Retro Whipped Cream",
+   "img": "https://images.openbeautyfacts.org/images/products/200/000/015/1852/front_en.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-neutrogena-281",
+   "name": "Neutrogena Hydro Boost Water Gel Hyaluronic Acid",
+   "obfName": "Hydro Boost Hyaluronic Acid Water Gel",
+   "img": "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg",
+   "score": 1
+  },
+  {
+   "id": "prod-neutrogena-283",
+   "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 70",
+   "obfName": "Ultra sheer dry touch sunscreen 70",
+   "img": "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg",
+   "score": 1
+  },
+  {
+   "id": "prod-neutrogena-284",
+   "name": "Neutrogena Hydro Boost Hydrating Cleansing Gel",
+   "obfName": "Neutrogena Hydro Boost Hydrating Fluid met SPF50",
+   "img": "https://images.openbeautyfacts.org/images/products/357/466/177/4640/front_nl.3.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-neutrogena-287",
+   "name": "Neutrogena Hydro Boost Eye Gel-Cream Smooth Hydration",
+   "obfName": "Neutrogena hydro boost awakening eye cream",
+   "img": "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-neutrogena-288",
+   "name": "Neutrogena Deep Clean Facial Cleanser Oil-Free Beta-Hydroxy",
+   "obfName": "Deep Clean Facial Cleanser",
+   "img": "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-neutrogena-291",
+   "name": "Neutrogena Skin Balancing Clay Cleanser 2% Polyhydroxy Acid",
+   "obfName": "Skin Balancing Clay Cleanser",
+   "img": "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-neutrogena-295",
+   "name": "Neutrogena Oil-Free Daily Acne Wash MicroClear Technology",
+   "obfName": "Oil-Free Acne Wash",
+   "img": "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg",
+   "score": 0.8
+  },
+  {
+   "id": "prod-roundlab-296",
+   "name": "Round Lab 1025 Dokdo Toner Gentle Exfoliating Deep Sea",
+   "obfName": "Round Lab 1025 Dokdo Toner",
+   "img": "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-roundlab-305",
+   "name": "Round Lab 1025 Dokdo Eye Cream Peptide Anti-Puffiness",
+   "obfName": "Round Lab 1025 DOKDO EYE CREAM",
+   "img": "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg",
+   "score": 0.75
+  },
+  {
+   "id": "prod-haruharuwonder-312",
+   "name": "Haruharu Wonder Black Rice Moisture Deep Cleansing Oil",
+   "obfName": "Haruharu wonder Black Rice Moisture Airyfit Daily Sunscreen SPF50+/PA++++",
+   "img": "https://images.openbeautyfacts.org/images/products/880/953/222/1707/front_en.3.400.jpg",
+   "score": 0.75
+  }
+ ],
+ "unmatched": [
+  {
+   "id": "prod-guangzhouausmeticsbiotech-42",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM 24K Gold Snail Peptide Anti-Wrinkle Eye Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-43",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Caviar & Black Truffle Multi-Peptide Night Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-44",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Glutathione 5000mg & Kojic Acid Ultra-Radiance Body Butter",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-45",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Centella Asiatica 95% Pure Cica Soothing Recovery Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-46",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM 8D Micro-Molecular Hyaluronic Acid Deep Moisture Water Gel",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-47",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Colloidal Oatmeal 2% Intensive Eczema Relief Therapy Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-48",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Urea 20% + Salicylic Acid 2% Intensive Heel & Callus Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-49",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Astaxanthin 6000x Antioxidant Defense Night Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-50",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Mugwort & Heartleaf Calming Recovery Gel Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-eucerin-51",
+   "brand": "Eucerin",
+   "name": "Eucerin Advanced Repair Cream for Very Dry Skin",
+   "bestGuess": "Advanced Repair Hand Cream",
+   "score": 0.33
+  },
+  {
+   "id": "prod-eucerin-54",
+   "brand": "Eucerin",
+   "name": "Eucerin Daily Hydration Broad Spectrum SPF 30 Body Cream",
+   "bestGuess": "Daily Hydration Lotion",
+   "score": 0.27
+  },
+  {
+   "id": "prod-eucerin-56",
+   "brand": "Eucerin",
+   "name": "Eucerin Anti-Pigment Dual Serum Thiamidol Active",
+   "bestGuess": "Anti pigment",
+   "score": 0.5
+  },
+  {
+   "id": "prod-eucerin-58",
+   "brand": "Eucerin",
+   "name": "Eucerin AtopiControl Acute Care Cream for Itch Relief",
+   "bestGuess": "Eucerin Lip Activ Soin Actif Levres Stick 4.8G (lip Care)",
+   "score": 0.27
+  },
+  {
+   "id": "prod-eucerin-59",
+   "brand": "Eucerin",
+   "name": "Eucerin Q10 Anti-Wrinkle Face Cream with Vitamin E",
+   "bestGuess": "Anti pigment",
+   "score": 0.29
+  },
+  {
+   "id": "prod-eucerin-61",
+   "brand": "Eucerin",
+   "name": "Eucerin DermoPurifyer Oil Control Cleansing Gel",
+   "bestGuess": "Oil control",
+   "score": 0.53
+  },
+  {
+   "id": "prod-eucerin-62",
+   "brand": "Eucerin",
+   "name": "Eucerin Hyaluron-Filler Eye Cream SPF 15 UVA Protection",
+   "bestGuess": "Hyaluron-filler",
+   "score": 0.5
+  },
+  {
+   "id": "prod-eucerin-63",
+   "brand": "Eucerin",
+   "name": "Eucerin Original Healing Cream Extremely Dry Compromised Skin",
+   "bestGuess": "Skin Calming Body Lotion for Dry and Itchy Skin",
+   "score": 0.1
+  },
+  {
+   "id": "prod-eucerin-64",
+   "brand": "Eucerin",
+   "name": "Eucerin Skin Calming Itch Relief Treatment Lotion",
+   "bestGuess": "Skin Calming Body Lotion for Dry and Itchy Skin",
+   "score": 0.37
+  },
+  {
+   "id": "prod-eucerin-65",
+   "brand": "Eucerin",
+   "name": "Eucerin Redness Relief Night Creme Calming Formula",
+   "bestGuess": "Eczema Relief Cream",
+   "score": 0.27
+  },
+  {
+   "id": "prod-eucerin-66",
+   "brand": "Eucerin",
+   "name": "Eucerin Hyaluron-Filler Moisture Booster Ultralight Gel",
+   "bestGuess": "Hyaluron-filler",
+   "score": 0.5
+  },
+  {
+   "id": "prod-eucerin-67",
+   "brand": "Eucerin",
+   "name": "Eucerin Anti-Pigment Day Cream SPF 30 with Thiamidol",
+   "bestGuess": "Anti pigment",
+   "score": 0.53
+  },
+  {
+   "id": "prod-eucerin-68",
+   "brand": "Eucerin",
+   "name": "Eucerin DermoPurifyer Skin Renovation Triple Effect Serum",
+   "bestGuess": "dermoPure triple effect serum",
+   "score": 0.47
+  },
+  {
+   "id": "prod-eucerin-69",
+   "brand": "Eucerin",
+   "name": "Eucerin pH5 Shower Oil Sensitive & Dry Skin Defense",
+   "bestGuess": "Oil control",
+   "score": 0.25
+  },
+  {
+   "id": "prod-eucerin-71",
+   "brand": "Eucerin",
+   "name": "Eucerin Hyaluron-Filler + Elasticity Day Cream SPF 20",
+   "bestGuess": "Hyaluron-filler",
+   "score": 0.53
+  },
+  {
+   "id": "prod-eucerin-72",
+   "brand": "Eucerin",
+   "name": "Eucerin Aquaphor Lip Repair Immediate Relief Ointment",
+   "bestGuess": "Advanced Repair Hand Cream",
+   "score": 0.25
+  },
+  {
+   "id": "prod-eucerin-73",
+   "brand": "Eucerin",
+   "name": "Eucerin AtopiControl Bath and Shower Oil 20% Omega",
+   "bestGuess": "Atopicontrol",
+   "score": 0.25
+  },
+  {
+   "id": "prod-eucerin-74",
+   "brand": "Eucerin",
+   "name": "Eucerin DermoCapillaire Calming Urea Shampoo Scalp Relief",
+   "bestGuess": "Skin Calming Body Lotion for Dry and Itchy Skin",
+   "score": 0.25
+  },
+  {
+   "id": "prod-avne-76",
+   "brand": "Avène",
+   "name": "Avène Cicalfate+ Restorative Protective Cream",
+   "bestGuess": "Cicalfate +",
+   "score": 0.33
+  },
+  {
+   "id": "prod-avne-77",
+   "brand": "Avène",
+   "name": "Avène Thermal Spring Water Soothing Facial Spray",
+   "bestGuess": "Avene thermal spray 300ml",
+   "score": 0.37
+  },
+  {
+   "id": "prod-avne-79",
+   "brand": "Avène",
+   "name": "Avène Hydrance Rich Hydrating Cream for Dehydrated Skin",
+   "bestGuess": "Hydrance",
+   "score": 0.33
+  },
+  {
+   "id": "prod-avne-81",
+   "brand": "Avène",
+   "name": "Avène Tolerance Control Soothing Skin Recovery Cream",
+   "bestGuess": "Tolérance control",
+   "score": 0.58
+  },
+  {
+   "id": "prod-avne-82",
+   "brand": "Avène",
+   "name": "Avène A-Oxitive Antioxidant Defense Serum Vitamin C & E",
+   "bestGuess": "Eau Thermale Avéne A-Oxitive Nuit",
+   "score": 0.27
+  },
+  {
+   "id": "prod-avne-83",
+   "brand": "Avène",
+   "name": "Avène Cleanance Comedomed Anti-Blemishes Concentrate",
+   "bestGuess": "cleanance comedomed",
+   "score": 0.53
+  },
+  {
+   "id": "prod-avne-86",
+   "brand": "Avène",
+   "name": "Avène Cicalfate+ Scar Gel Massage Texture Post-Procedure",
+   "bestGuess": "AVÈNE CICALFATE ÉMULSION RÉPARATRICE POST-ACTE 40ML",
+   "score": 0.31
+  },
+  {
+   "id": "prod-avne-87",
+   "brand": "Avène",
+   "name": "Avène Soothing Eye Contour Cream Sensitive Puffy Lids",
+   "bestGuess": "Avene cleanance hydra soothing cleansing cream 200ml",
+   "score": 0.25
+  },
+  {
+   "id": "prod-avne-89",
+   "brand": "Avène",
+   "name": "Avène Extremely Gentle Cleanser Lotion Wipe-Off Sensitive",
+   "bestGuess": "Gentle Milk Cleanser",
+   "score": 0.25
+  },
+  {
+   "id": "prod-avne-90",
+   "brand": "Avène",
+   "name": "Avène Antirougeurs Fort Relief Concentrate Anti-Redness",
+   "bestGuess": "Eau Thermale Avène Peaux sensibles Avene Apaisante, anti-irritante hermal Spring Wa EAU THERMALE",
+   "score": 0.08
+  },
+  {
+   "id": "prod-avne-91",
+   "brand": "Avène",
+   "name": "Avène Hydrance Aqua-Gel 3-in-1 Hydrating Overnight Mask",
+   "bestGuess": "Avene cleanance Aqua gel",
+   "score": 0.5
+  },
+  {
+   "id": "prod-avne-92",
+   "brand": "Avène",
+   "name": "Avène Tolerance Extremely Gentle Cleansing Lotion Sterile",
+   "bestGuess": "Tolérance control",
+   "score": 0.27
+  },
+  {
+   "id": "prod-avne-93",
+   "brand": "Avène",
+   "name": "Avène XeraCalm A.D Soothing Cleansing Oil Atopic Skin",
+   "bestGuess": "Avene cleanance hydra soothing cleansing cream 200ml",
+   "score": 0.53
+  },
+  {
+   "id": "prod-avne-94",
+   "brand": "Avène",
+   "name": "Avène Cleanance Women Corrective Serum Adult Acne Marks",
+   "bestGuess": "cleanance",
+   "score": 0.24
+  },
+  {
+   "id": "prod-avne-95",
+   "brand": "Avène",
+   "name": "Avène DermAbsolu Defining Day Cream Mature Skin Density",
+   "bestGuess": "DermAbsolu",
+   "score": 0.27
+  },
+  {
+   "id": "prod-avne-96",
+   "brand": "Avène",
+   "name": "Avène Cold Cream Ultra-Rich Nourishing Lip Butter",
+   "bestGuess": "Lip butter",
+   "score": 0.42
+  },
+  {
+   "id": "prod-avne-98",
+   "brand": "Avène",
+   "name": "Avène Cleanance Mask Detox Exfoliating Clay Scrub",
+   "bestGuess": "Cleanance mask",
+   "score": 0.5
+  },
+  {
+   "id": "prod-avne-99",
+   "brand": "Avène",
+   "name": "Avène Antirougeurs Day Soothing Cream SPF 30 Rosacea",
+   "bestGuess": "Avene cleanance hydra soothing cleansing cream 200ml",
+   "score": 0.27
+  },
+  {
+   "id": "prod-avne-100",
+   "brand": "Avène",
+   "name": "Avène Hydrance Boost Concentrated Hydrating Serum 48H",
+   "bestGuess": "Hydrance",
+   "score": 0.25
+  },
+  {
+   "id": "prod-bioderma-102",
+   "brand": "Bioderma",
+   "name": "Bioderma Atoderm Intensive Baume Ultra-Soothing Emollient",
+   "bestGuess": "Atoderm intensive baume",
+   "score": 0.58
+  },
+  {
+   "id": "prod-bioderma-104",
+   "brand": "Bioderma",
+   "name": "Bioderma Sebium Pore Refiner Corrective Pore Tightening Cream",
+   "bestGuess": "BIODERMA Sébium Pore retiner 30 ml e",
+   "score": 0.58
+  },
+  {
+   "id": "prod-bioderma-105",
+   "brand": "Bioderma",
+   "name": "Bioderma Cicabio Creme+ Epidermal Soothing Restoring Balm",
+   "bestGuess": "Cicabio crème",
+   "score": 0.27
+  },
+  {
+   "id": "prod-bioderma-107",
+   "brand": "Bioderma",
+   "name": "Bioderma Hydrabio Serum Concentrated Moisture Generator",
+   "bestGuess": "Hydrabio H2O",
+   "score": 0.27
+  },
+  {
+   "id": "prod-bioderma-108",
+   "brand": "Bioderma",
+   "name": "Bioderma Atoderm Shower Oil 24H Hydration Anti-Irritation",
+   "bestGuess": "Atoderm",
+   "score": 0.24
+  },
+  {
+   "id": "prod-bioderma-109",
+   "brand": "Bioderma",
+   "name": "Bioderma Sensibio Defensive Active Soothing Cream",
+   "bestGuess": "Bioderma sensibio gel moussant 200ml",
+   "score": 0.29
+  },
+  {
+   "id": "prod-bioderma-110",
+   "brand": "Bioderma",
+   "name": "Bioderma Sebium Kerato+ Anti-Blemish Gel-Cream BHA + AHA",
+   "bestGuess": "Bioderma sebium kerato+",
+   "score": 0.48
+  },
+  {
+   "id": "prod-bioderma-111",
+   "brand": "Bioderma",
+   "name": "Bioderma Sensibio Eye Contour Gel Puffiness & Fine Lines",
+   "bestGuess": "Bioderma Sensibio eye+",
+   "score": 0.48
+  },
+  {
+   "id": "prod-bioderma-112",
+   "brand": "Bioderma",
+   "name": "Bioderma Pigmentbio C-Concentrate Brightening Pigment Corrector",
+   "bestGuess": "Pigmentio c-concentrate",
+   "score": 0.27
+  },
+  {
+   "id": "prod-bioderma-113",
+   "brand": "Bioderma",
+   "name": "Bioderma Atoderm Lip Stick Ultra-Nourishing Daily Balm",
+   "bestGuess": "Bioderma Atoderm Intensive Balm",
+   "score": 0.37
+  },
+  {
+   "id": "prod-bioderma-115",
+   "brand": "Bioderma",
+   "name": "Bioderma Hydrabio Gel-Crème Light Radiance Moisturizer",
+   "bestGuess": "Bioderma sensibio gel moussant 200ml",
+   "score": 0.27
+  },
+  {
+   "id": "prod-bioderma-118",
+   "brand": "Bioderma",
+   "name": "Bioderma Atoderm Cream Ultra Nourishing Daily Moisturizer",
+   "bestGuess": "Atoderm",
+   "score": 0.33
+  },
+  {
+   "id": "prod-bioderma-119",
+   "brand": "Bioderma",
+   "name": "Bioderma Node DS+ Anti-Recurrence Dandruff Shampoo",
+   "bestGuess": "Node Ds+",
+   "score": 0.5
+  },
+  {
+   "id": "prod-bioderma-120",
+   "brand": "Bioderma",
+   "name": "Bioderma Pigmentbio Daily Care SPF 50+ Brightening Day Cream",
+   "bestGuess": "Cicabio crème+ SPF 50+",
+   "score": 0.27
+  },
+  {
+   "id": "prod-cosrx-123",
+   "brand": "COSRX",
+   "name": "COSRX AHA 7 Whitehead Power Liquid Glycolic Acid",
+   "bestGuess": "Cosrx AHA BHA Vitamin C Daily Toner",
+   "score": 0.25
+  },
+  {
+   "id": "prod-cosrx-124",
+   "brand": "COSRX",
+   "name": "COSRX Full Fit Propolis Light Ampoule Honey Glow",
+   "bestGuess": "Cosrx SPF50 Ultra-Light Invisible Sunscreen",
+   "score": 0.07
+  },
+  {
+   "id": "prod-cosrx-125",
+   "brand": "COSRX",
+   "name": "COSRX Centella Blemish Cream Spot Treatment",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-cosrx-126",
+   "brand": "COSRX",
+   "name": "COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap",
+   "bestGuess": "Hydrium Triple Hyaluronic Moisturizing Cleanser",
+   "score": 0.27
+  },
+  {
+   "id": "prod-cosrx-127",
+   "brand": "COSRX",
+   "name": "COSRX The Retinol 0.1 Cream Gentle Anti-Aging Starter",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-cosrx-128",
+   "brand": "COSRX",
+   "name": "COSRX The Vitamin C 23 Serum Pure Ascorbic Brightening",
+   "bestGuess": "Cosrx AHA BHA Vitamin C Daily Toner",
+   "score": 0.27
+  },
+  {
+   "id": "prod-cosrx-130",
+   "brand": "COSRX",
+   "name": "COSRX Balancium Comfort Ceramide Cream Barrier Rescue",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-beautyofjoseon-132",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Glow Serum: Propolis + Niacinamide",
+   "bestGuess": "Beauty of Joseon Glow Serum",
+   "score": 0.58
+  },
+  {
+   "id": "prod-beautyofjoseon-134",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Calming Serum: Green Tea + Panthenol",
+   "bestGuess": "Beauty of Joseon Calming Serum",
+   "score": 0.53
+  },
+  {
+   "id": "prod-beautyofjoseon-135",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Glow Deep Serum: Rice + Arbutin",
+   "bestGuess": "Beauty of Joseon Glow Serum",
+   "score": 0.53
+  },
+  {
+   "id": "prod-beautyofjoseon-136",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Matte Sun Stick: Mugwort + Camelia SPF 50+",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-beautyofjoseon-137",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Ginseng Cleansing Oil Hanbang Makeup Melt",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-beautyofjoseon-138",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Red Bean Refreshing Pore Mask Detox",
+   "bestGuess": "beauty of joseon red bean water gel",
+   "score": 0.5
+  },
+  {
+   "id": "prod-beautyofjoseon-139",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Apricot Blossom Peeling Gel Gommage Scrub",
+   "bestGuess": "beauty of joseon red bean water gel",
+   "score": 0.08
+  },
+  {
+   "id": "prod-beautyofjoseon-140",
+   "brand": "Beauty of Joseon",
+   "name": "Beauty of Joseon Radiance Cleansing Balm Rice Bran Melting",
+   "bestGuess": "Beauty of Joseon Glow Replenishing Rice Milk Toner",
+   "score": 0.08
+  },
+  {
+   "id": "prod-anua-142",
+   "brand": "Anua",
+   "name": "Anua Heartleaf 70% Daily Relief Lotion Lightweight",
+   "bestGuess": "Anua Heartleaf Pore Control Cleansing Oil",
+   "score": 0.27
+  },
+  {
+   "id": "prod-anua-144",
+   "brand": "Anua",
+   "name": "Anua Niacinamide 10% + TXA 4% Dark Spot Correcting Serum",
+   "bestGuess": "Anua Azelaic Acid Hyaluron Redness Soothing Serum",
+   "score": 0.06
+  },
+  {
+   "id": "prod-anua-146",
+   "brand": "Anua",
+   "name": "Anua Birch Moisture Boosting Toner Deep Forest Hydration",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-anua-147",
+   "brand": "Anua",
+   "name": "Anua Peach 70% Niacin Serum Glass Skin Illuminating",
+   "bestGuess": "Anua Azelaic Acid Hyaluron Redness Soothing Serum",
+   "score": 0.08
+  },
+  {
+   "id": "prod-anua-148",
+   "brand": "Anua",
+   "name": "Anua Heartleaf Silky Moisture Sun Cream SPF 50+ PA++++",
+   "bestGuess": "Anua Heartleaf Pore Control Cleansing Oil",
+   "score": 0.25
+  },
+  {
+   "id": "prod-anua-149",
+   "brand": "Anua",
+   "name": "Anua Heartleaf 77% Clear Pad Pore Tightening Toner Pads",
+   "bestGuess": "Anua Heartleaf Pore Control Cleansing Oil",
+   "score": 0.29
+  },
+  {
+   "id": "prod-anua-150",
+   "brand": "Anua",
+   "name": "Anua Rice 70 Glow Milky Toner Fermented Ceramide Radiance",
+   "bestGuess": "Anua Pdrn + Hyaluron Glow Pads",
+   "score": 0.23
+  },
+  {
+   "id": "prod-skin1004-152",
+   "brand": "Skin1004",
+   "name": "Skin1004 Madagascar Centella Light Cleansing Oil",
+   "bestGuess": "SKIN1004 Madagascar Centella Probio-Cica Bakuchiol Eye Cream",
+   "score": 0.53
+  },
+  {
+   "id": "prod-skin1004-153",
+   "brand": "Skin1004",
+   "name": "Skin1004 Madagascar Centella Soothing Cream Gel Moisture",
+   "bestGuess": "SKIN1004 Madagascar Centella Probio-Cica Bakuchiol Eye Cream",
+   "score": 0.53
+  },
+  {
+   "id": "prod-skin1004-154",
+   "brand": "Skin1004",
+   "name": "Skin1004 Madagascar Centella Tone Brightening Capsule Ampoule",
+   "bestGuess": "SKIN1004 Madagascar Centella Probio-Cica Bakuchiol Eye Cream",
+   "score": 0.5
+  },
+  {
+   "id": "prod-skin1004-155",
+   "brand": "Skin1004",
+   "name": "Skin1004 Madagascar Centella Poremizing Fresh Ampoule Pink Salt",
+   "bestGuess": "SKIN1004 Madagascar Centella Probio-Cica Bakuchiol Eye Cream",
+   "score": 0.48
+  },
+  {
+   "id": "prod-skin1004-157",
+   "brand": "Skin1004",
+   "name": "Skin1004 Madagascar Centella Ampoule Foam PH 5.5 Cleanser",
+   "bestGuess": "SKIN1004 Madagascar Centella Probio-Cica Bakuchiol Eye Cream",
+   "score": 0.5
+  },
+  {
+   "id": "prod-theordinary-161",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Buffet Multi-Peptide + HA Peptide Matrix Serum",
+   "bestGuess": "Lactic Acid 10% + HA",
+   "score": 0.07
+  },
+  {
+   "id": "prod-theordinary-164",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Retinol 0.5% in Squalane Pure Active",
+   "bestGuess": "Granactive Retinoid 5% in Squalane",
+   "score": 0.58
+  },
+  {
+   "id": "prod-theordinary-165",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Salicylic Acid 2% Masque Blemish-Prone Skin",
+   "bestGuess": "Hyaluronic Acid 2% + B5",
+   "score": 0.5
+  },
+  {
+   "id": "prod-theordinary-168",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Squalane Cleanser Gentle Lipophilic Melting Balm",
+   "bestGuess": "Squalene Cleanser",
+   "score": 0.27
+  },
+  {
+   "id": "prod-theordinary-169",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Alpha Arbutin 2% + HA Hyperpigmentation Serum",
+   "bestGuess": "Hyaluronic Acid 2% + B5",
+   "score": 0.25
+  },
+  {
+   "id": "prod-theordinary-170",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Azelaic Acid Suspension 10% Multifunctional Brightening",
+   "bestGuess": "Hyaluronic Acid 2% + B5",
+   "score": 0.25
+  },
+  {
+   "id": "prod-theordinary-171",
+   "brand": "The Ordinary",
+   "name": "The Ordinary 100% Plant-Derived Squalane Surface Occlusive",
+   "bestGuess": "100% Organic Cold Pressed Rose Hip Seed Oil",
+   "score": 0.25
+  },
+  {
+   "id": "prod-theordinary-172",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Argireline Solution 10% Dynamic Wrinkle Target",
+   "bestGuess": "Caffeine solution",
+   "score": 0.25
+  },
+  {
+   "id": "prod-theordinary-173",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Marine Hyaluronics Ultra-Lightweight Reservoirs",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-theordinary-174",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Mandelic Acid 10% + HA Gentle Chemical Exfoliant",
+   "bestGuess": "Hyaluronic Acid 2% + B5",
+   "score": 0.25
+  },
+  {
+   "id": "prod-theordinary-175",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Natural Moisturizing Factors + PhytoCeramides Rich",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-theordinary-177",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Ascorbyl Glucoside Solution 12% Gentle Vitamin C",
+   "bestGuess": "Caffeine solution",
+   "score": 0.27
+  },
+  {
+   "id": "prod-theordinary-179",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Matrixyl 10% + HA High-Strength Peptide Formulation",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-theordinary-180",
+   "brand": "The Ordinary",
+   "name": "The Ordinary Resveratrol 3% + Ferulic Acid 3% Potent Antioxidant",
+   "bestGuess": "Hyaluronic Acid 2% + B5",
+   "score": 0.07
+  },
+  {
+   "id": "prod-drunkelephant-181",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant Protini Polypeptide Cream Signal Peptide Firming",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-drunkelephant-183",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant B-Hydra Intensive Hydration Serum Pro-Vitamin B5",
+   "bestGuess": "C-Firma™ Vitamin C Day Serum",
+   "score": 0.33
+  },
+  {
+   "id": "prod-drunkelephant-184",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant C-Firma Fresh Day Serum 15% L-Ascorbic Acid",
+   "bestGuess": "C-Firma™ Vitamin C Day Serum",
+   "score": 0.55
+  },
+  {
+   "id": "prod-drunkelephant-185",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant T.L.C. Framboos Glycolic Night Serum AHA/BHA",
+   "bestGuess": "C-Firma™ Vitamin C Day Serum",
+   "score": 0.08
+  },
+  {
+   "id": "prod-drunkelephant-186",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant Virgin Marula Luxury Facial Oil Pure Antioxidant",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-drunkelephant-187",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant Beste No. 9 Jelly Cleanser Gentle Surfactants",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-drunkelephant-188",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant C-Tango Multivitamin Eye Cream 5 Forms Vitamin C",
+   "bestGuess": "C-Firma™ Vitamin C Day Serum",
+   "score": 0.1
+  },
+  {
+   "id": "prod-drunkelephant-189",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant A-Passioni Retinol Cream 1% Vegan Retinol",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-drunkelephant-190",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant Umbra Sheer Physical Daily Defense SPF 30",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-drunkelephant-191",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant F-Balm Electrolyte Waterfacial Overnight Mask",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-drunkelephant-192",
+   "brand": "Drunk Elephant",
+   "name": "Drunk Elephant Slaai Makeup-Melting Butter Cleanser Botanical",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-193",
+   "brand": "Tatcha",
+   "name": "Tatcha The Water Cream Oil-Free Pore-Refining Water Burst",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-194",
+   "brand": "Tatcha",
+   "name": "Tatcha The Dewy Skin Cream Rich Replenishing Plumping Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-195",
+   "brand": "Tatcha",
+   "name": "Tatcha The Rice Polish Classic Gentle Enzymatic Exfoliant",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-196",
+   "brand": "Tatcha",
+   "name": "Tatcha The Camellia Cleansing Oil 2-in-1 Makeup Melting",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-197",
+   "brand": "Tatcha",
+   "name": "Tatcha The Silk Canvas Protective Primer Blur Velvet Finish",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-198",
+   "brand": "Tatcha",
+   "name": "Tatcha The Essence 100% Hadasei-3 Dual Fermented Plumping Water",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-199",
+   "brand": "Tatcha",
+   "name": "Tatcha Luminous Dewy Skin Mist 20% Botanical Oils & Humectants",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-200",
+   "brand": "Tatcha",
+   "name": "Tatcha The Silk Peony Melting Eye Cream Dual Action Line Minimizer",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-201",
+   "brand": "Tatcha",
+   "name": "Tatcha The Indigo Calming Cream Colloidal Oatmeal Barrier Relief",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-202",
+   "brand": "Tatcha",
+   "name": "Tatcha The Deep Cleanse Exfoliating Gentle Gel Cleanser",
+   "bestGuess": "Cleanser",
+   "score": 0.1
+  },
+  {
+   "id": "prod-tatcha-203",
+   "brand": "Tatcha",
+   "name": "Tatcha The Serum Stick Treatment & Touch-Up 80% Squalane",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-204",
+   "brand": "Tatcha",
+   "name": "Tatcha Silken Pore Perfecting Sunscreen Broad Spectrum SPF 35",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-tatcha-205",
+   "brand": "Tatcha",
+   "name": "Tatcha The Kissu Lip Mask Japanese Peach Extract Smoothing",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-206",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM 5% Niacinamide + Alpha-Arbutin Radiance Milk Emulsion",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-207",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Marine Collagen & Copper Tripeptide-1 Bounce Serum",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-208",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Pro-Xylane 30% Dermal Re-Densifying Night Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-209",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Tranexamic Acid 3% Spot Fading Day Cream SPF 30",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-210",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Black Truffle & Retinol Liposome Firming Eye Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-211",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Rice Bran Ferment Ceramide 5-Complex Ultra Barrier Gel",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-212",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Salicylic Acid 2% + Zinc PCA Clarifying Gel Cleanser",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-213",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Centella 95% Pure Madecassoside Cica Recovery Ointment",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-214",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Squalane 100% Botanical Barrier Sealing Drops",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-215",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM 24K Pure Gold Collagen Peptide Facial Thread Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-216",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Multi-Molecule Hyaluronic Acid 8D Deep Infusion Ampoule",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-217",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Azelaic Acid 15% Micronized Post-Blemish Soothing Balm",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-218",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Coenzyme Q10 + Ferulic Acid Antioxidant Defense Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-219",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Witch Hazel & Tea Tree Blemish Control Mud Mask",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guangzhouausmeticsbiotech-220",
+   "brand": "Guangzhou Ausmetics Bio-Tech",
+   "name": "Alibaba OEM Bifida Ferment Lysate 90% DNA Repairing First Essence",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-221",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Alpha-Arbutin 3% + Kojic Acid Dipalmitate Body Glow Milk",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-222",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Glutathione 10,000mg Liposomal High-Radiance Lotion",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-223",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM African Shea Butter & Ceramide Intensive Eczema Repair",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-224",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Turmeric & Vitamin C Brightening Body Butter Souffle",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-225",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Glycolic Acid 12% Exfoliating Keratosis Pilaris Lotion",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-226",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Snail Secretion Filtrate 92% Intensive Body Slugging Balm",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-227",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Retinol 0.2% Rejuvenating Body Firming Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-228",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Goat Milk & Honey Deep Moisture Nourishing Shower Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-229",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Vitamin E 70,000 IU Deep Scar & Stretch Mark Oil",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-230",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Urea 40% Intensive Heel & Callus Treatment Gel",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-231",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Arabica Coffee Bean & Caffeine Cellulite Firming Scrub",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-232",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Niacinamide 10% Underarm & Inner Thigh Even Tone Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-233",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Castor Oil & Biotin Lash & Brow Growth Densifying Serum",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-234",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Magnesium Chloride 25% Calming Sleep Recovery Lotion",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-yilongbiocosmeticsodm-235",
+   "brand": "Yilong Bio-Cosmetics ODM",
+   "name": "Alibaba ODM Hydrolyzed Pearl Powder Brightening Night Mask",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-236",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Oligopeptide-1 Epidermal Growth Factor Healing Spray",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-237",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Medical Grade Recombinant Collagen Repairing Dressing Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-238",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Ectoine 2% Extreme Climate Barrier Shielding Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-239",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Tranexamic Acid 5% Post-Laser Melasma Neutralizer Gel",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-240",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Polyglutamic Acid 3% Ultra-Hydrating Plump Jelly",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-241",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM PDRN Salmon DNA Cellular Regenerative Serum",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-242",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Ergothioneine 1% Mitochondrial Longevity Serum",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-243",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Panthenol 10% B5 Barrier Bandage Recovery Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-244",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Retinaldehyde 0.1% Stabilized Micro-Encapsulated Emulsion",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-245",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Centella Asiatica Exosome Cellular Soothing Mist",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-246",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Zinc Sulfate & Copper Peptide Acne Clarifying Tonic",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-247",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Idebenone 0.5% Super-Antioxidant Radiance Ampoule",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-248",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Spicule Micro-Needle Bio-Resurfacing Night Essence",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-249",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Ceramide 3000ppm Intensive Stratum Corneum Fluid",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-shinvabeautytechnologies-250",
+   "brand": "Shinva Beauty Technologies",
+   "name": "Alibaba OEM Ceramide Lip Balm Medical Healing Stick",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-251",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Botanical Squalane & Bakuchiol 2% Restorative Nectar",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-252",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Rosehip Seed & Marula Cold-Pressed Glow Elixir",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-253",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Chamomile & Bisabolol Ultra-Sensitive Calming Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-254",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Hyaluronic Acid 2% + Vitamin B5 Drench Mask 5-Pack",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-255",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Vitamin C 15% Ethyl Ascorbic Acid Illuminating Drops",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-256",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Green Tea Seed & Matcha Balancing Water Toner",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-257",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Fermented Yeast Galactomyces 95% Pure Glow Filtrate",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-258",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Caffeine 3% & Peptide Awakening Roll-On Eye Fluid",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-259",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Sea Buckthorn Berry Oil 100% Pure Omegas Glow",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-260",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Tea Tree & Willow Bark Anti-Blemish Clarifying Dots",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-261",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Papaya Enzyme & Pineapple Exfoliating Cleansing Powder",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-262",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Probiotic Lactobacillus Barrier Strengthening Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-263",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Gotu Kola & Niacinamide Elasticity Recovery Jelly",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-264",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Aloe Vera 99% Pure Organic Cold-Pressed Soothing Gel",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-zhongshanbellcosmetics-265",
+   "brand": "Zhongshan Bell Cosmetics",
+   "name": "Alibaba OEM Volcanic Ash & Dead Sea Mineral Pore Detox Mud",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-266",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Astaxanthin 10,000x Antioxidant Defense Day Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-267",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Carnosine 2% Anti-Glycation Youth Renewal Serum",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-268",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Resveratrol 5% + Ferulic Acid 2% Brightening Concentrate",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-269",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Beta-Glucan 98% Pure Oat Deep Recovery Ampoule",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-270",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Black Currant & Borage Omega-6 Rich Barrier Oil",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-271",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Niacinamide 12% + Zinc PCA 1.5% Pore Reducer Essence",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-272",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Centella Asiatica & Asiatic Acid Soothing Sheet Mask 10-Pack",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-273",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Licorice Root Glabridin 40% Pigment Corrector Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-274",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Peppermint & Rosemary Scalp Barrier Clarifying Drops",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-275",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Marine Seaweed & Algae Hyaluronic Water Gel Cream",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-276",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Ceramide 3 Barrier Lip Repair Butter Balm",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-277",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Collagen & Peptide Eye Lift Firming Patches 60-Pack",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-278",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Mandelic Acid 10% + Lactic Acid 5% Resurfacing Tonic",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-279",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Camellia Seed & Argan Deep Moisture Hair & Body Butter",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-guandongbioactivelab-280",
+   "brand": "Guandong Bio-Active Lab",
+   "name": "Alibaba OEM Multi-Vitamin A, C, E & K Youth Recovery Facial Nectar",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-neutrogena-282",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Rapid Wrinkle Repair Retinol Regenerating Cream",
+   "bestGuess": "intense repair",
+   "score": 0.27
+  },
+  {
+   "id": "prod-neutrogena-285",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Stubborn Acne AM Treatment Micronized Benzoyl",
+   "bestGuess": "Stubborn Acne Blemish Patches, Hydrocolloid Spot Treatment, Pimple Care Patch, Hypoallergenic",
+   "score": 0.58
+  },
+  {
+   "id": "prod-neutrogena-286",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Triple Age Repair Anti-Aging Night Cream SPF 25",
+   "bestGuess": "Neutrogena",
+   "score": 0.31
+  },
+  {
+   "id": "prod-neutrogena-289",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Norwegian Formula Hand Cream Concentrated",
+   "bestGuess": "Neutrogena Lipcare Stick Norwegian Formula",
+   "score": 0.58
+  },
+  {
+   "id": "prod-neutrogena-290",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Invisible Daily Defense Sunscreen Face Serum SPF 60+",
+   "bestGuess": "Clear face Serum Sunscreen",
+   "score": 0.37
+  },
+  {
+   "id": "prod-neutrogena-292",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Rapid Tone Repair Vitamin C Dark Spot Serum",
+   "bestGuess": "intense repair",
+   "score": 0.24
+  },
+  {
+   "id": "prod-neutrogena-293",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Hydro Boost Night Pressed Serum Restorative",
+   "bestGuess": "Neutrogena Hydro Boost 10% Niacinamide Serum",
+   "score": 0.58
+  },
+  {
+   "id": "prod-neutrogena-294",
+   "brand": "Neutrogena",
+   "name": "Neutrogena Clear Face Breakout-Free Sunscreen Lotion SPF 50",
+   "bestGuess": "Clear face Serum Sunscreen",
+   "score": 0.53
+  },
+  {
+   "id": "prod-roundlab-297",
+   "brand": "Round Lab",
+   "name": "Round Lab 1025 Dokdo Cleanser Low pH Subacid Dense Foam",
+   "bestGuess": "Round Lab 1025 DOKDO EYE CREAM",
+   "score": 0.46
+  },
+  {
+   "id": "prod-roundlab-298",
+   "brand": "Round Lab",
+   "name": "Round Lab Birch Juice Moisturizing Sun Cream SPF 50+ PA++++",
+   "bestGuess": "Round Lab Birch Juice Toner",
+   "score": 0.5
+  },
+  {
+   "id": "prod-roundlab-299",
+   "brand": "Round Lab",
+   "name": "Round Lab Birch Juice Moisturizing Cream Capsule Burst",
+   "bestGuess": "Round Lab Birch Juice Toner",
+   "score": 0.53
+  },
+  {
+   "id": "prod-roundlab-300",
+   "brand": "Round Lab",
+   "name": "Round Lab Soybean Nourishing Toner Ceramide Milk",
+   "bestGuess": "Round Lab Birch Juice Toner",
+   "score": 0.27
+  },
+  {
+   "id": "prod-roundlab-301",
+   "brand": "Round Lab",
+   "name": "Round Lab Soybean Nourishing Cream Elasticity Barrier",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-roundlab-302",
+   "brand": "Round Lab",
+   "name": "Round Lab Mugwort Calming Toner Relieving Dermal Stings",
+   "bestGuess": "Round Lab Mugwort Toner",
+   "score": 0.5
+  },
+  {
+   "id": "prod-roundlab-303",
+   "brand": "Round Lab",
+   "name": "Round Lab Mugwort Calming Cream Lightweight Calming Gel",
+   "bestGuess": "Round Lab Mugwort Toner",
+   "score": 0.27
+  },
+  {
+   "id": "prod-roundlab-304",
+   "brand": "Round Lab",
+   "name": "Round Lab Pine Calming Cica Ampoule Rapid Pore Relief",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-roundlab-306",
+   "brand": "Round Lab",
+   "name": "Round Lab Birch Juice Moisturizing Cleanser Gel to Foam",
+   "bestGuess": "Round Lab Birch Juice Cleanser",
+   "score": 0.58
+  },
+  {
+   "id": "prod-roundlab-307",
+   "brand": "Round Lab",
+   "name": "Round Lab 1025 Dokdo Cleansing Oil Blackhead Melting",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-roundlab-308",
+   "brand": "Round Lab",
+   "name": "Round Lab Birch Juice Moisturizing Sun Stick SPF 50+",
+   "bestGuess": "Round Lab Birch Juice Toner",
+   "score": 0.5
+  },
+  {
+   "id": "prod-roundlab-309",
+   "brand": "Round Lab",
+   "name": "Round Lab 1025 Dokdo Mud Pack Pore Purifying Mineral Mask",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-roundlab-310",
+   "brand": "Round Lab",
+   "name": "Round Lab Soybean Cleansing Oil Dense Protein Melt",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-311",
+   "brand": "Haruharu Wonder",
+   "name": "Haruharu Wonder Black Rice Hyaluronic Toner Fragrance-Free",
+   "bestGuess": "Haruharu wonder Black Rice Moisture Airyfit Daily Sunscreen SPF50+/PA++++",
+   "score": 0.53
+  },
+  {
+   "id": "prod-haruharuwonder-313",
+   "brand": "Haruharu Wonder",
+   "name": "Haruharu Wonder Black Rice Pure Mineral Relief Daily Sunscreen SPF 50+",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-314",
+   "brand": "Haruharu Wonder",
+   "name": "Haruharu Wonder Black Rice Facial Oil 100% Natural Nourishing",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-315",
+   "brand": "Haruharu Wonder",
+   "name": "Haruharu Wonder Centella 4% TXA Dark Spot Go Away Serum",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-316",
+   "brand": "Haruharu Wonder",
+   "name": "Haruharu Wonder Black Rice Probiotics Barrier Essence",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-317",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Zero Pore Pad 2.0 Dual-Textured Exfoliating Toner Pads",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-318",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Deep Vita C Ampoule 14.5% Pure Ascorbic Radiance",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-319",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Collagen Jelly Cream Volumizing Glow Hydro-Lock",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-320",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Red Foam Cleanser Acne Prevention Salicylic Acid",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-321",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Soyxidil Scalp Shampoo Hair Thinning Defense",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-322",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Triple Collagen Cream 20,000ppm Elasticity Matrix",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-323",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Super Cica Daily Quick Mask Calming 30-Day Pack",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-324",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Collagen Night Wrapping Mask Peel-Off Barrier Lock",
+   "bestGuess": null,
+   "score": 0
+  },
+  {
+   "id": "prod-haruharuwonder-325",
+   "brand": "Haruharu Wonder",
+   "name": "Medicube Zero Pore One Day Serum Daily Pore Tightening AHA BHA PHA",
+   "bestGuess": null,
+   "score": 0
+  }
+ ]
+}

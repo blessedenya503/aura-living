@@ -1,0 +1,526 @@
+"use client";
+
+import React, { useState } from "react";
+import Link from "next/link";
+import {
+  X,
+  Lock,
+  CheckCircle2,
+  CreditCard,
+  ArrowRight,
+  PackageSearch,
+  Sparkles,
+  ShieldCheck,
+  KeyRound,
+} from "lucide-react";
+import { useCart } from "@/context/CartContext";
+import {
+  VerveLogo,
+  VisaLogo,
+  MastercardLogo,
+  ApplePayLogo,
+  GooglePayLogo,
+  PaymentLogosStrip,
+} from "@/components/PaymentLogos";
+
+export default function CheckoutModal() {
+  const {
+    items,
+    isCheckoutOpen,
+    setIsCheckoutOpen,
+    currency,
+    formatPrice,
+    subtotalUsd,
+    discountAmountUsd,
+    shippingCostUsd,
+    shippingProtection,
+    shippingProtectionCostUsd,
+    finalTotalUsd,
+    clearCart,
+  } = useCart();
+
+  const [paymentMethod, setPaymentMethod] = useState<
+    "Verve Card" | "Stripe Card" | "Apple Pay" | "Google Pay"
+  >("Verve Card");
+
+  const [customerName, setCustomerName] = useState("");
+  const [customerEmail, setCustomerEmail] = useState("");
+  const [shippingAddress, setShippingAddress] = useState("");
+  const [city, setCity] = useState("");
+  const [postalCode, setPostalCode] = useState("");
+  const [country, setCountry] = useState("Nigeria");
+
+  // Card details
+  const [cardNumber, setCardNumber] = useState("");
+  const [expiry, setExpiry] = useState("");
+  const [cvc, setCvc] = useState("");
+  const [cardPin, setCardPin] = useState("");
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [confirmedOrder, setConfirmedOrder] = useState<{
+    id: string;
+    totalPaidUsd: number;
+    estimatedDelivery: string;
+  } | null>(null);
+
+  if (!isCheckoutOpen) return null;
+
+  const handleCheckoutSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (items.length === 0) return;
+
+    setIsSubmitting(true);
+    try {
+      const payload = {
+        customerName: customerName || "Skincare Client",
+        customerEmail: customerEmail || "guest@auraliving.store",
+        shippingAddress: shippingAddress || "42 Victoria Island Way",
+        city: city || "Lagos",
+        country,
+        postalCode: postalCode || "101241",
+        currency,
+        paymentMethod,
+        shippingProtection,
+        discountUsd: discountAmountUsd,
+        items: items.map((item) => ({
+          productId: item.product.id,
+          variantName: item.selectedVariant.name,
+          bundleTier: item.bundleTier,
+          quantity: item.quantity,
+          unitPriceUsd: item.unitPriceUsd,
+        })),
+      };
+
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await res.json();
+      if (data.order) {
+        setConfirmedOrder({
+          id: data.order.id,
+          totalPaidUsd: data.order.totalPaidUsd,
+          estimatedDelivery:
+            data.order.estimatedDelivery || "2–4 Business Days (Express)",
+        });
+        clearCart();
+      }
+    } catch (err) {
+      console.error("Checkout failed:", err);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleClose = () => {
+    setIsCheckoutOpen(false);
+    setConfirmedOrder(null);
+  };
+
+  return (
+    <div
+      onClick={handleClose}
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6 bg-slate-950/75 backdrop-blur-sm overflow-y-auto"
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="relative w-full max-w-2xl bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden sm:my-auto max-h-[94dvh] sm:max-h-[92vh] flex flex-col"
+      >
+        {/* Top Header */}
+        <div className="px-5 py-4 bg-[#002B7F] text-white flex items-center justify-between shrink-0">
+          <div className="flex items-center gap-2">
+            <Lock className="w-4 h-4 text-emerald-300 shrink-0" />
+            <span className="font-bold text-xs sm:text-sm tracking-tight">
+              AURA 256-Bit Encrypted Express Checkout
+            </span>
+          </div>
+          <button
+            onClick={handleClose}
+            className="p-1.5 rounded-full bg-blue-800/80 hover:bg-blue-700 text-blue-100 transition-colors cursor-pointer"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+
+        <div className="overflow-y-auto p-5 sm:p-8">
+          {confirmedOrder ? (
+            <div className="text-center max-w-md mx-auto py-6 space-y-5">
+              <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto shadow-xs">
+                <CheckCircle2 className="w-10 h-10" />
+              </div>
+
+              <div className="space-y-1.5">
+                <span className="text-[11px] font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full">
+                  Payment Captured via {paymentMethod}
+                </span>
+                <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
+                  Thank You! Order #{confirmedOrder.id}
+                </h3>
+                <p className="text-xs text-slate-600">
+                  Receipt sent to <strong>{customerEmail || "your email"}</strong>.
+                  Estimated delivery: {confirmedOrder.estimatedDelivery}.
+                </p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200/90 rounded-2xl p-4 text-left space-y-2 text-xs">
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Order ID:</span>
+                  <span className="font-mono font-bold text-slate-900">
+                    {confirmedOrder.id}
+                  </span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Payment Option:</span>
+                  <span className="font-bold text-slate-900">
+                    {paymentMethod}
+                  </span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Total Paid:</span>
+                  <span className="font-bold text-emerald-700 font-mono text-sm">
+                    {formatPrice(confirmedOrder.totalPaidUsd)}
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+                <Link
+                  href={`/track-order?q=${confirmedOrder.id}`}
+                  onClick={handleClose}
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-[#002B7F] hover:bg-blue-800 text-white font-bold text-xs shadow-md transition-colors"
+                >
+                  <PackageSearch className="w-4 h-4" />
+                  <span>Track Order #{confirmedOrder.id}</span>
+                </Link>
+                <button
+                  onClick={handleClose}
+                  className="w-full sm:w-auto px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs"
+                >
+                  Continue Shopping
+                </button>
+              </div>
+            </div>
+          ) : (
+            <form onSubmit={handleCheckoutSubmit} className="space-y-5">
+              {/* Payment Methods with Official Logos */}
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-xs font-bold text-slate-800 uppercase tracking-wider">
+                    Select Payment Option
+                  </p>
+                  <span className="text-[11px] text-slate-500">
+                    256-Bit SSL Secure
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                  {/* Option 1: Verve Card */}
+                  <button
+                    type="button"
+                    onClick={() => setPaymentMethod("Verve Card")}
+                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                      paymentMethod === "Verve Card"
+                        ? "border-[#EE3124] bg-red-50/50 ring-2 ring-[#EE3124]/30 shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
+                    }`}
+                  >
+                    <div className="flex items-center justify-between w-full">
+                      <VerveLogo className="h-4.5 w-auto" />
+                      {paymentMethod === "Verve Card" && (
+                        <span className="w-2 h-2 rounded-full bg-[#EE3124]" />
+                      )}
+                    </div>
+                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
+                      Verve Card
+                    </span>
+                  </button>
+
+                  {/* Option 2: Visa / Mastercard */}
+                  <button
+                    type="button"
+                    onClick={() => setPaymentMethod("Stripe Card")}
+                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                      paymentMethod === "Stripe Card"
+                        ? "border-[#002B7F] bg-blue-50/50 ring-2 ring-[#002B7F]/30 shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
+                    }`}
+                  >
+                    <div className="flex items-center gap-1.5">
+                      <VisaLogo className="h-4 w-auto" />
+                      <MastercardLogo className="h-4 w-auto" />
+                    </div>
+                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
+                      Visa / Mastercard
+                    </span>
+                  </button>
+
+                  {/* Option 3: Apple Pay */}
+                  <button
+                    type="button"
+                    onClick={() => setPaymentMethod("Apple Pay")}
+                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                      paymentMethod === "Apple Pay"
+                        ? "border-slate-950 bg-slate-100 ring-2 ring-slate-900/30 shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
+                    }`}
+                  >
+                    <ApplePayLogo className="h-4 w-auto" />
+                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
+                      Apple Pay
+                    </span>
+                  </button>
+
+                  {/* Option 4: Google Pay */}
+                  <button
+                    type="button"
+                    onClick={() => setPaymentMethod("Google Pay")}
+                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                      paymentMethod === "Google Pay"
+                        ? "border-blue-500 bg-blue-50/50 ring-2 ring-blue-500/30 shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
+                    }`}
+                  >
+                    <GooglePayLogo className="h-4 w-auto" />
+                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
+                      Google Pay
+                    </span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Contact Details */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    Customer Full Name
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Adekunle Olawale"
+                    value={customerName}
+                    onChange={(e) => setCustomerName(e.target.value)}
+                    className="w-full px-3 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    required
+                    placeholder="adekunle@domain.com"
+                    value={customerEmail}
+                    onChange={(e) => setCustomerEmail(e.target.value)}
+                    className="w-full px-3 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
+                  />
+                </div>
+              </div>
+
+              {/* Shipping Address */}
+              <div className="space-y-3">
+                <div>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    Delivery Address
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Plot 14 Admiralty Way, Lekki Phase 1"
+                    value={shippingAddress}
+                    onChange={(e) => setShippingAddress(e.target.value)}
+                    className="w-full px-3 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
+                  />
+                </div>
+                <div className="grid grid-cols-3 gap-2">
+                  <div className="col-span-1">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      City
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="Lagos"
+                      value={city}
+                      onChange={(e) => setCity(e.target.value)}
+                      className="w-full px-3 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
+                    />
+                  </div>
+                  <div className="col-span-1">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      Postal Code
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="101241"
+                      value={postalCode}
+                      onChange={(e) => setPostalCode(e.target.value)}
+                      className="w-full px-3 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
+                    />
+                  </div>
+                  <div className="col-span-1">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      Country
+                    </label>
+                    <select
+                      value={country}
+                      onChange={(e) => setCountry(e.target.value)}
+                      className="w-full px-2 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
+                    >
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="United States">United States</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Germany">Germany</option>
+                      <option value="France">France</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="Kenya">Kenya</option>
+                      <option value="South Africa">South Africa</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              {/* Verve Card Specific Inputs */}
+              {paymentMethod === "Verve Card" && (
+                <div className="p-4 bg-red-50/40 border border-red-200/80 rounded-2xl space-y-3 animate-fadeIn">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2 text-xs font-bold text-slate-900">
+                      <VerveLogo className="h-4.5 w-auto" />
+                      <span>Verve Secure Debit / Credit Card</span>
+                    </div>
+                    <span className="text-[10px] font-semibold text-[#EE3124] bg-white px-2 py-0.5 rounded-full border border-red-200">
+                      PIN Protected
+                    </span>
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-semibold text-slate-700 mb-1">
+                      Verve Card Number (16 to 19 Digits)
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="5061 •••• •••• ••••"
+                      value={cardNumber}
+                      onChange={(e) => setCardNumber(e.target.value)}
+                      className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono tracking-wider"
+                    />
+                  </div>
+
+                  <div className="grid grid-cols-3 gap-2">
+                    <div>
+                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">
+                        Expiry Date
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="MM / YY"
+                        value={expiry}
+                        onChange={(e) => setExpiry(e.target.value)}
+                        className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">
+                        CVV
+                      </label>
+                      <input
+                        type="password"
+                        maxLength={4}
+                        placeholder="•••"
+                        value={cvc}
+                        onChange={(e) => setCvc(e.target.value)}
+                        className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">
+                        Card PIN
+                      </label>
+                      <input
+                        type="password"
+                        maxLength={4}
+                        placeholder="••••"
+                        value={cardPin}
+                        onChange={(e) => setCardPin(e.target.value)}
+                        className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono"
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Standard Stripe Card (Visa / Mastercard) Inputs */}
+              {paymentMethod === "Stripe Card" && (
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded-2xl space-y-3 animate-fadeIn">
+                  <div className="flex items-center gap-2 text-xs font-bold text-slate-900">
+                    <VisaLogo className="h-3.5 w-auto" />
+                    <MastercardLogo className="h-3.5 w-auto" />
+                    <span>Card Information</span>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="4242 •••• •••• 4242"
+                    value={cardNumber}
+                    onChange={(e) => setCardNumber(e.target.value)}
+                    className="w-full px-3 py-2 text-xs bg-white border border-slate-200 rounded-xl focus:outline-hidden font-mono"
+                  />
+                  <div className="grid grid-cols-2 gap-2">
+                    <input
+                      type="text"
+                      placeholder="MM / YY"
+                      value={expiry}
+                      onChange={(e) => setExpiry(e.target.value)}
+                      className="w-full px-3 py-2 text-xs bg-white border border-slate-200 rounded-xl focus:outline-hidden font-mono"
+                    />
+                    <input
+                      type="text"
+                      placeholder="CVC"
+                      value={cvc}
+                      onChange={(e) => setCvc(e.target.value)}
+                      className="w-full px-3 py-2 text-xs bg-white border border-slate-200 rounded-xl focus:outline-hidden font-mono"
+                    />
+                  </div>
+                </div>
+              )}
+
+              {/* Order Summary & Submit */}
+              <div className="pt-3 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <span className="text-[11px] text-slate-500 block">Total Due</span>
+                  <span className="text-xl font-bold font-mono text-slate-950">
+                    {formatPrice(finalTotalUsd)}
+                  </span>
+                </div>
+
+                <div className="flex flex-col sm:items-end gap-2">
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="bg-[#002B7F] hover:bg-blue-800 text-white font-bold px-6 py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] cursor-pointer disabled:opacity-70"
+                  >
+                    {isSubmitting ? (
+                      <span>Authorizing {paymentMethod}...</span>
+                    ) : (
+                      <>
+                        <span>Pay {formatPrice(finalTotalUsd)}</span>
+                        <ArrowRight className="w-4 h-4" />
+                      </>
+                    )}
+                  </button>
+
+                  {/* Payment Logos Trust Strip */}
+                  <PaymentLogosStrip className="flex items-center gap-1.5 self-center sm:self-end" />
+                </div>
+              </div>
+            </form>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
