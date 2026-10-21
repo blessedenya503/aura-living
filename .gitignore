@@ -38,3 +38,4 @@ next-env.d.ts
 temp_*
 data/uploads/*
 !data/uploads/.gitkeep
+/src/data/cj-token.json

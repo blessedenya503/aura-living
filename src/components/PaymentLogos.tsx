@@ -1,33 +1,31 @@
 import React from "react";
 
-export function VerveLogo({ className = "h-5 w-auto" }: { className?: string }) {
+export function PaystackLogo({ className = "h-5 w-auto" }: { className?: string }) {
   return (
     <svg
-      viewBox="0 0 100 32"
+      viewBox="0 0 110 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
-      aria-label="Verve Card"
+      aria-label="Paystack"
     >
-      <rect width="100" height="32" rx="6" fill="#1C1C1E" />
+      <rect width="110" height="32" rx="6" fill="#0BA4DB" />
       <path
-        d="M20 9L13.5 23H8L14.5 9H20Z"
-        fill="#EE3124"
-      />
-      <path
-        d="M26.5 9L20 23H14.5L21 9H26.5Z"
-        fill="#009245"
+        d="M14 10H26M14 16H22M14 22H26"
+        stroke="#FFFFFF"
+        strokeWidth="2.8"
+        strokeLinecap="round"
       />
       <text
-        x="32"
+        x="34"
         y="21"
         fill="#FFFFFF"
         fontFamily="system-ui, -apple-system, sans-serif"
-        fontSize="14"
+        fontSize="13"
         fontWeight="800"
-        letterSpacing="-0.5"
+        letterSpacing="-0.3"
       >
-        verve
+        paystack
       </text>
     </svg>
   );
@@ -154,7 +152,7 @@ export function GooglePayLogo({ className = "h-5 w-auto" }: { className?: string
 export function PaymentLogosStrip({ className = "flex items-center gap-2" }: { className?: string }) {
   return (
     <div className={className}>
-      <VerveLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
+      <PaystackLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
       <VisaLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
       <MastercardLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
       <ApplePayLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />

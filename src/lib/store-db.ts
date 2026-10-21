@@ -40,7 +40,13 @@ export interface CustomerOrder {
   totalPaidUsd: number;
   supplierTotalCostUsd: number;
   netProfitUsd: number;
-  paymentMethod: "Stripe Card" | "Apple Pay" | "Google Pay" | "Verve Card";
+  paymentMethod:
+    | "Paystack (Cards / Bank Transfer)"
+    | "Stripe Card"
+    | "Debit / Credit Card"
+    | "Apple Pay"
+    | "Google Pay"
+    | "Verve Card";
   paymentStatus: "Paid" | "Refunded";
   fulfillmentStatus: "Unfulfilled" | "Processing" | "In Transit" | "Delivered";
   trackingNumber?: string;

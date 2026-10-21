@@ -1,29 +1,10 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { computeSessionToken } from "@/lib/admin-session";
 
 const ADMIN_COOKIE_NAME = "aura_owner_session";
 
-function computeExpectedToken(): string {
-  const email = (process.env.ADMIN_EMAIL || "owner@auraliving.store")
-    .trim()
-    .toLowerCase();
-  const secret =
-    process.env.ADMIN_SESSION_SECRET ||
-    "aura_super_secret_hmac_key_2026_skincare_living";
-  const raw = `${email}::${secret}::aura-owner-skincare-v1`;
-  let hash = 2166136261;
-  for (let i = 0; i < raw.length; i++) {
-    hash ^= raw.charCodeAt(i);
-    hash = Math.imul(hash, 16777619);
-  }
-  const base64Email = btoa(email)
-    .replace(/\+/g, "-")
-    .replace(/\//g, "_")
-    .replace(/=+$/, "");
-  return `aura_sess_${(hash >>> 0).toString(16)}_${base64Email}`;
-}
-
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const host = request.headers.get("host") || "";
   const isPort3003 = host.includes(":3003");
@@ -48,10 +29,13 @@ export function middleware(request: NextRequest) {
   if (pathname.startsWith("/owner-portal")) {
     const isLoginPage = pathname === "/owner-portal/login";
     const sessionCookie = request.cookies.get(ADMIN_COOKIE_NAME)?.value;
-    const expectedToken = computeExpectedToken();
-    const isAuthenticated =
-      sessionCookie === expectedToken ||
-      Boolean(sessionCookie && sessionCookie.startsWith("aura_sess_"));
+    const email = process.env.ADMIN_EMAIL?.trim().toLowerCase();
+    const secret = process.env.ADMIN_SESSION_SECRET;
+    const expectedToken =
+      email && secret ? await computeSessionToken(email, secret) : null;
+    const isAuthenticated = Boolean(
+      sessionCookie && expectedToken && sessionCookie === expectedToken
+    );
 
     if (!isAuthenticated && !isLoginPage) {
       const loginUrl = new URL("/owner-portal/login", request.url);

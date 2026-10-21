@@ -2,12 +2,12 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Lock, ShieldAlert, ArrowRight, Sparkles, KeyRound } from "lucide-react";
+import { Lock, ShieldAlert, ArrowRight, Sparkles } from "lucide-react";
 
 export default function OwnerLoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("owner@auraliving.store");
-  const [password, setPassword] = useState("SkinCare2026!");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -23,7 +23,7 @@ export default function OwnerLoginPage() {
       });
       const data = await res.json();
       if (!res.ok) {
-        setError(data.error || "Invalid credentials. Try owner@auraliving.store / SkinCare2026!");
+        setError(data.error || "Invalid owner credentials.");
       } else {
         router.push("/owner-portal");
         router.refresh();
@@ -33,11 +33,6 @@ export default function OwnerLoginPage() {
     } finally {
       setLoading(false);
     }
-  };
-
-  const fillQuickDemo = () => {
-    setEmail("owner@auraliving.store");
-    setPassword("SkinCare2026!");
   };
 
   return (
@@ -109,17 +104,6 @@ export default function OwnerLoginPage() {
           </button>
         </form>
 
-        <div className="pt-4 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
-          <span>Preset: owner@auraliving.store</span>
-          <button
-            type="button"
-            onClick={fillQuickDemo}
-            className="text-blue-400 hover:text-blue-300 font-semibold flex items-center gap-1 cursor-pointer"
-          >
-            <KeyRound className="w-3 h-3" />
-            Auto-fill credentials
-          </button>
-        </div>
       </div>
     </div>
   );

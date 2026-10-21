@@ -1,4 +1,4 @@
-# AURA — Next.js 15 E-Commerce & Multi-Supplier Dropshipping Platform
+# AURA — Skincare E-Commerce Platform
 
 A modern, full-stack, high-conversion direct-to-consumer (D2C) e-commerce storefront and private administration portal designed for viral beauty, health, and medical-grade skincare brands.
 
@@ -57,39 +57,48 @@ cd aura-skincare-ecommerce
 npm install
 ```
 
-### 3. Environment Variables
+### 3. Configure Environment Variables
 Copy the `.env.example` file to `.env.local`:
 ```bash
 cp .env.example .env.local
 ```
 
-Fill in your respective API keys:
-```env
-# Admin Authentication
-ADMIN_EMAIL=owner@auraliving.store
-ADMIN_PASSWORD=SkinCare2026!
-ADMIN_SESSION_SECRET=your_super_secret_session_key
+Set a unique admin email and password, and generate a random session secret of at least 32 characters. Add provider keys only for integrations you plan to use. Never commit `.env.local` or real credentials.
 
-# Live Dropship & Data APIs
+For example, generate a session secret with:
+```bash
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+```
+
+Configure these values in `.env.local`:
+```env
+# Required for owner portal authentication
+ADMIN_EMAIL=your-admin-email@example.com
+ADMIN_PASSWORD=replace-with-a-unique-strong-password
+ADMIN_SESSION_SECRET=replace-with-a-random-secret-at-least-32-characters-long
+
+# Optional integrations
 CJ_API_KEY=your_cj_api_key_here
 RAINFOREST_API_KEY=your_rainforest_api_key_here
 GEMINI_API_KEY=your_gemini_api_key_here
-
-# Payment Integration (Optional)
-STRIPE_SECRET_KEY=
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+PAYSTACK_SECRET_KEY=your_paystack_secret_key_here
+NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=your_paystack_public_key_here
+NEXT_PUBLIC_SITE_URL=http://localhost:3003
 ```
 
-### 4. Run the Development Server
+Paystack checkout requires `PAYSTACK_SECRET_KEY`; the API returns an error when the key is missing instead of simulating a successful payment.
+
+The owner portal is available at `http://localhost:3002/owner-portal`; the storefront runs at `http://localhost:3003`. The admin login is disabled until all three admin variables are set.
+
+### 4. Run the Development Servers
 ```bash
 npm run dev
 ```
 
 Open your browser:
-* **Storefront:** [http://localhost:3000](http://localhost:3000)
-* **Customer Login:** [http://localhost:3000/login](http://localhost:3000/login)
-* **Owner Portal:** [http://localhost:3000/owner-portal](http://localhost:3000/owner-portal)
-  *(Default Credentials: `owner@auraliving.store` / `SkinCare2026!`)*
+* **Storefront:** [http://localhost:3003](http://localhost:3003)
+* **Customer Login:** [http://localhost:3003/login](http://localhost:3003/login)
+* **Owner Portal:** [http://localhost:3002/owner-portal](http://localhost:3002/owner-portal)
 
 ---
 

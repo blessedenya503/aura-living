@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { computeSessionToken } from "@/lib/admin-session";
 import {
   ADMIN_COOKIE_NAME,
-  computeSessionToken,
   getExpectedAdminCredentials,
   isRequestAdminAuthenticated,
 } from "@/lib/admin-auth";
@@ -15,39 +15,47 @@ export async function GET() {
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const inputEmail = (body.email || "").trim().toLowerCase();
-    const inputPassword = (body.password || "").trim();
+    const inputEmail =
+      typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+    const inputPassword =
+      typeof body.password === "string" ? body.password : "";
+    const credentials = getExpectedAdminCredentials();
 
-    const { email, password, secret } = getExpectedAdminCredentials();
-
-    // Check credentials against configured or default allowed values
-    const validEmails = [email, "owner@auraliving.store", "owner@preppulse.com", "admin@skincare.com"];
-    const validPasswords = [password, "SkinCare2026!", "admin123", "PrepPulseAdmin2026!"];
+    if (!credentials) {
+      return NextResponse.json(
+        { error: "Admin authentication is not configured." },
+        { status: 503 }
+      );
+    }
 
     const isMatch =
-      validEmails.includes(inputEmail) && validPasswords.includes(inputPassword);
+      inputEmail === credentials.email && inputPassword === credentials.password;
 
     if (!isMatch) {
       return NextResponse.json(
-        { error: "Invalid owner credentials. Please verify your email and password." },
+        { error: "Invalid owner credentials." },
         { status: 401 }
       );
     }
 
-    const token = computeSessionToken(email, secret);
+    const token = await computeSessionToken(
+      credentials.email,
+      credentials.secret
+    );
     const cookieStore = await cookies();
     cookieStore.set(ADMIN_COOKIE_NAME, token, {
       httpOnly: true,
       sameSite: "lax",
+      secure: process.env.NODE_ENV === "production",
       path: "/",
       maxAge: 60 * 60 * 24 * 7, // 7 days
     });
 
     return NextResponse.json({ success: true });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("Auth error:", err);
     return NextResponse.json(
-      { error: "Authentication request failed: " + (err?.message || String(err)) },
+      { error: "Authentication request failed." },
       { status: 400 }
     );
   }

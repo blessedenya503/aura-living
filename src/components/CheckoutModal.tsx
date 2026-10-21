@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import {
-  VerveLogo,
+  PaystackLogo,
   VisaLogo,
   MastercardLogo,
   ApplePayLogo,
@@ -40,14 +40,14 @@ export default function CheckoutModal() {
   } = useCart();
 
   const [paymentMethod, setPaymentMethod] = useState<
-    "Verve Card" | "Stripe Card" | "Apple Pay" | "Google Pay"
-  >("Verve Card");
+    "Paystack (Cards / Bank Transfer)" | "Debit / Credit Card" | "Apple Pay" | "Google Pay"
+  >("Paystack (Cards / Bank Transfer)");
 
   const [customerName, setCustomerName] = useState("");
   const [customerEmail, setCustomerEmail] = useState("");
   const [shippingAddress, setShippingAddress] = useState("");
-  const [city, setCity] = useState("");
-  const [postalCode, setPostalCode] = useState("");
+  const [city, setCity] = useState("Lagos");
+  const [postalCode, setPostalCode] = useState("101241");
   const [country, setCountry] = useState("Nigeria");
 
   // Card details
@@ -57,6 +57,7 @@ export default function CheckoutModal() {
   const [cardPin, setCardPin] = useState("");
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   const [confirmedOrder, setConfirmedOrder] = useState<{
     id: string;
     totalPaidUsd: number;
@@ -70,16 +71,16 @@ export default function CheckoutModal() {
     if (items.length === 0) return;
 
     setIsSubmitting(true);
+    setErrorMessage("");
     try {
-      const payload = {
+      const orderPayload = {
         customerName: customerName || "Skincare Client",
         customerEmail: customerEmail || "guest@auraliving.store",
-        shippingAddress: shippingAddress || "42 Victoria Island Way",
+        shippingAddress: shippingAddress || "Victoria Island",
         city: city || "Lagos",
         country,
         postalCode: postalCode || "101241",
         currency,
-        paymentMethod,
         shippingProtection,
         discountUsd: discountAmountUsd,
         items: items.map((item) => ({
@@ -91,10 +92,66 @@ export default function CheckoutModal() {
         })),
       };
 
+      if (paymentMethod === "Paystack (Cards / Bank Transfer)") {
+        // Initialize with Paystack backend
+        const initRes = await fetch("/api/paystack/initialize", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            ...orderPayload,
+            amountUsd: finalTotalUsd,
+          }),
+        });
+
+        const initData = await initRes.json();
+
+        if (!initRes.ok || !initData.success) {
+          setErrorMessage(initData.error || "Unable to initialize Paystack checkout.");
+          return;
+        }
+
+        if (initData.authorizationUrl) {
+          window.location.href = initData.authorizationUrl;
+          return;
+        }
+
+        // Demo / instant verification mode
+        const verifyRes = await fetch("/api/paystack/verify", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            reference: initData.reference,
+            orderPayload: {
+              ...orderPayload,
+              orderId: initData.orderId,
+            },
+          }),
+        });
+
+        const verifyData = await verifyRes.json();
+        if (verifyData.order) {
+          setConfirmedOrder({
+            id: verifyData.order.id,
+            totalPaidUsd: verifyData.order.totalPaidUsd,
+            estimatedDelivery:
+              verifyData.order.estimatedDelivery || "2–4 Business Days (Express)",
+          });
+          clearCart();
+          return;
+        }
+
+        setErrorMessage("Paystack authorization could not be completed.");
+        return;
+      }
+
+      // Default / Card / Apple Pay fallback flow
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({
+          ...orderPayload,
+          paymentMethod,
+        }),
       });
 
       const data = await res.json();
@@ -216,33 +273,33 @@ export default function CheckoutModal() {
                 </div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-                  {/* Option 1: Verve Card */}
+                  {/* Option 1: Paystack (Cards & Bank Transfer) */}
                   <button
                     type="button"
-                    onClick={() => setPaymentMethod("Verve Card")}
+                    onClick={() => setPaymentMethod("Paystack (Cards / Bank Transfer)")}
                     className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
-                      paymentMethod === "Verve Card"
-                        ? "border-[#EE3124] bg-red-50/50 ring-2 ring-[#EE3124]/30 shadow-xs"
+                      paymentMethod === "Paystack (Cards / Bank Transfer)"
+                        ? "border-[#0BA4DB] bg-cyan-50/50 ring-2 ring-[#0BA4DB]/30 shadow-xs"
                         : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
                   >
                     <div className="flex items-center justify-between w-full">
-                      <VerveLogo className="h-4.5 w-auto" />
-                      {paymentMethod === "Verve Card" && (
-                        <span className="w-2 h-2 rounded-full bg-[#EE3124]" />
+                      <PaystackLogo className="h-4.5 w-auto" />
+                      {paymentMethod === "Paystack (Cards / Bank Transfer)" && (
+                        <span className="w-2 h-2 rounded-full bg-[#0BA4DB]" />
                       )}
                     </div>
-                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
-                      Verve Card
+                    <span className="text-[10px] font-bold text-slate-900 mt-2 block truncate">
+                      Paystack Direct
                     </span>
                   </button>
 
                   {/* Option 2: Visa / Mastercard */}
                   <button
                     type="button"
-                    onClick={() => setPaymentMethod("Stripe Card")}
+                    onClick={() => setPaymentMethod("Debit / Credit Card")}
                     className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
-                      paymentMethod === "Stripe Card"
+                      paymentMethod === "Debit / Credit Card"
                         ? "border-[#002B7F] bg-blue-50/50 ring-2 ring-[#002B7F]/30 shadow-xs"
                         : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
@@ -385,77 +442,29 @@ export default function CheckoutModal() {
                 </div>
               </div>
 
-              {/* Verve Card Specific Inputs */}
-              {paymentMethod === "Verve Card" && (
-                <div className="p-4 bg-red-50/40 border border-red-200/80 rounded-2xl space-y-3 animate-fadeIn">
+              {/* Paystack Payment Description */}
+              {paymentMethod === "Paystack (Cards / Bank Transfer)" && (
+                <div className="p-4 bg-cyan-50/60 border border-cyan-200/80 rounded-2xl space-y-2.5 animate-fadeIn">
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2 text-xs font-bold text-slate-900">
-                      <VerveLogo className="h-4.5 w-auto" />
-                      <span>Verve Secure Debit / Credit Card</span>
+                    <div className="flex items-center gap-2">
+                      <PaystackLogo className="h-4.5 w-auto" />
+                      <span className="text-xs font-bold text-slate-900">
+                        Paystack Direct Settlement (Nigeria & Pan-Africa)
+                      </span>
                     </div>
-                    <span className="text-[10px] font-semibold text-[#EE3124] bg-white px-2 py-0.5 rounded-full border border-red-200">
-                      PIN Protected
+                    <span className="text-[10px] font-bold text-[#0BA4DB] bg-white px-2 py-0.5 rounded-full border border-cyan-200">
+                      Bank • Cards • Transfer • USSD
                     </span>
                   </div>
-
-                  <div>
-                    <label className="block text-[11px] font-semibold text-slate-700 mb-1">
-                      Verve Card Number (16 to 19 Digits)
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="5061 •••• •••• ••••"
-                      value={cardNumber}
-                      onChange={(e) => setCardNumber(e.target.value)}
-                      className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono tracking-wider"
-                    />
-                  </div>
-
-                  <div className="grid grid-cols-3 gap-2">
-                    <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">
-                        Expiry Date
-                      </label>
-                      <input
-                        type="text"
-                        placeholder="MM / YY"
-                        value={expiry}
-                        onChange={(e) => setExpiry(e.target.value)}
-                        className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">
-                        CVV
-                      </label>
-                      <input
-                        type="password"
-                        maxLength={4}
-                        placeholder="•••"
-                        value={cvc}
-                        onChange={(e) => setCvc(e.target.value)}
-                        className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-[11px] font-semibold text-slate-700 mb-1">
-                        Card PIN
-                      </label>
-                      <input
-                        type="password"
-                        maxLength={4}
-                        placeholder="••••"
-                        value={cardPin}
-                        onChange={(e) => setCardPin(e.target.value)}
-                        className="w-full px-3 py-2 text-xs bg-white border border-red-200 rounded-xl focus:outline-hidden font-mono"
-                      />
-                    </div>
-                  </div>
+                  <p className="text-[11px] text-slate-600 leading-relaxed">
+                    Direct payment via Nigerian Bank Transfer, Access / Zenith / GTB / Kuda / UBA,
+                    Mastercard, Visa, Verve & USSD. Funds settle straight into your Nigerian bank account.
+                  </p>
                 </div>
               )}
 
-              {/* Standard Stripe Card (Visa / Mastercard) Inputs */}
-              {paymentMethod === "Stripe Card" && (
+              {/* Standard Debit / Credit Card Inputs */}
+              {paymentMethod === "Debit / Credit Card" && (
                 <div className="p-4 bg-slate-50 border border-slate-200 rounded-2xl space-y-3 animate-fadeIn">
                   <div className="flex items-center gap-2 text-xs font-bold text-slate-900">
                     <VisaLogo className="h-3.5 w-auto" />

@@ -92,7 +92,7 @@ const POPULAR_BRANDS = [
 export default function OwnerPortalPage() {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<
-    "brands" | "amazon" | "cj" | "studio" | "slideshow" | "catalog" | "orders" | "settings"
+    "brands" | "amazon" | "cj" | "balance" | "studio" | "slideshow" | "catalog" | "orders" | "settings"
   >("brands");
   const [studioInitialImage, setStudioInitialImage] = useState<string | undefined>(
     undefined
@@ -154,6 +154,25 @@ export default function OwnerPortalPage() {
   const [amazonResults, setAmazonResults] = useState<any[]>([]);
   const [isAmazonLoading, setIsAmazonLoading] = useState(false);
   const [amazonImportingAsin, setAmazonImportingAsin] = useState<string | null>(null);
+
+  // Paystack & Account Balance Portal State
+  const [balanceData, setBalanceData] = useState<any>(null);
+  const [isBalanceLoading, setIsBalanceLoading] = useState(false);
+
+  const fetchBalanceData = async () => {
+    setIsBalanceLoading(true);
+    try {
+      const res = await fetch("/api/admin/paystack-balance", { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        setBalanceData(data);
+      }
+    } catch (err) {
+      console.error("Balance fetch error:", err);
+    } finally {
+      setIsBalanceLoading(false);
+    }
+  };
 
   // Live Catalog Filter & Pagination
   const [catalogSearch, setCatalogSearch] = useState("");
@@ -826,6 +845,23 @@ export default function OwnerPortalPage() {
             >
               <Truck className="w-3.5 h-3.5 text-amber-300" />
               <span>CJ Live Dropship</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+            </button>
+
+            {/* TAB: PAYSTACK ACCOUNT BALANCE & PAYOUTS */}
+            <button
+              onClick={() => {
+                setActiveTab("balance");
+                fetchBalanceData();
+              }}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                activeTab === "balance"
+                  ? "bg-emerald-600 text-white shadow-md ring-1 ring-emerald-400"
+                  : "bg-slate-900/90 text-emerald-400 hover:text-white hover:bg-slate-800"
+              }`}
+            >
+              <DollarSign className="w-3.5 h-3.5 text-emerald-300" />
+              <span>Account Balance &amp; Payouts (₦)</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
             </button>
 
@@ -1544,6 +1580,236 @@ export default function OwnerPortalPage() {
                 })}
               </div>
             )}
+          </div>
+        )}
+
+        {/* ======================================================== */}
+        {/* TAB: PAYSTACK ACCOUNT BALANCE & NIGERIAN BANK PAYOUTS */}
+        {/* ======================================================== */}
+        {activeTab === "balance" && (
+          <div className="space-y-6">
+            {/* Header Banner */}
+            <div className="bg-linear-to-r from-emerald-950/70 via-slate-900 to-slate-900 border border-emerald-800/40 rounded-3xl p-6 sm:p-8 space-y-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-1.5">
+                      <DollarSign className="w-3.5 h-3.5 text-emerald-400" />
+                      Paystack Nigeria Live Settlement Portal
+                    </span>
+                    <span className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-[10px] font-mono font-bold px-2 py-0.5 rounded-full">
+                      T+1 Direct Bank Deposit
+                    </span>
+                  </div>
+                  <h2 className="text-xl sm:text-2xl font-bold text-white mt-1">
+                    Store Revenue &amp; Direct Bank Account Balance
+                  </h2>
+                  <p className="text-xs text-slate-400 max-w-2xl mt-1 leading-relaxed">
+                    All customer checkout payments captured via Paystack (Cards, Bank Transfer, USSD) settle directly into your registered Nigerian bank account without intermediary delays.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={fetchBalanceData}
+                    className="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer border border-slate-700"
+                  >
+                    <RefreshCw className={`w-3.5 h-3.5 ${isBalanceLoading ? "animate-spin" : ""}`} />
+                    <span>Refresh Balance</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Status pill strip */}
+              <div className="pt-2 border-t border-slate-800/80 flex flex-wrap items-center gap-3 text-xs text-slate-300">
+                <div className="flex items-center gap-2 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800">
+                  <span className="text-slate-400 font-mono text-[11px]">Paystack Status:</span>
+                  <span className="text-emerald-400 font-bold flex items-center gap-1">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                    Active Gateway
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800">
+                  <span className="text-slate-400 font-mono text-[11px]">Settlement Payouts:</span>
+                  <span className="text-blue-400 font-semibold">Nigerian Banks (NGN ₦)</span>
+                </div>
+                <div className="flex items-center gap-2 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800">
+                  <span className="text-slate-400 font-mono text-[11px]">Frequency:</span>
+                  <span className="text-slate-200 font-semibold">Daily Automatic (05:00 WAT)</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 3 Metric Cards for Naira and USD Balances */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* Card 1: Available Payout in Naira */}
+              <div className="bg-slate-900/80 border border-emerald-500/30 rounded-2xl p-5 shadow-lg relative overflow-hidden">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-500 to-cyan-500" />
+                <div className="flex items-center justify-between text-slate-400 text-xs mb-2">
+                  <span className="font-semibold text-emerald-400">Available Bank Payout (NGN)</span>
+                  <DollarSign className="w-4 h-4 text-emerald-400" />
+                </div>
+                <div className="text-2xl sm:text-3xl font-extrabold font-mono text-white tracking-tight">
+                  ₦{(balanceData?.calculatedBalance?.availablePayoutNgn ?? 0).toLocaleString()}
+                </div>
+                <div className="text-[11px] text-slate-400 mt-2 flex items-center justify-between border-t border-slate-800/80 pt-2">
+                  <span>Equivalent in USD:</span>
+                  <span className="font-mono text-emerald-400 font-bold">
+                    ${(balanceData?.calculatedBalance?.availablePayoutUsd ?? 0).toFixed(2)}
+                  </span>
+                </div>
+              </div>
+
+              {/* Card 2: Gross Store Volume */}
+              <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow-lg">
+                <div className="flex items-center justify-between text-slate-400 text-xs mb-2">
+                  <span className="font-semibold text-slate-300">Gross Captured Volume</span>
+                  <ShoppingBag className="w-4 h-4 text-cyan-400" />
+                </div>
+                <div className="text-2xl sm:text-3xl font-extrabold font-mono text-white tracking-tight">
+                  ₦{(balanceData?.calculatedBalance?.grossRevenueNgn ?? 0).toLocaleString()}
+                </div>
+                <div className="text-[11px] text-slate-400 mt-2 flex items-center justify-between border-t border-slate-800/80 pt-2">
+                  <span>Gross USD:</span>
+                  <span className="font-mono text-cyan-400 font-bold">
+                    ${(balanceData?.calculatedBalance?.grossRevenueUsd ?? 0).toFixed(2)}
+                  </span>
+                </div>
+              </div>
+
+              {/* Card 3: Pending T+1 Bank Clearing */}
+              <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow-lg">
+                <div className="flex items-center justify-between text-slate-400 text-xs mb-2">
+                  <span className="font-semibold text-slate-300">Pending T+1 Clearing</span>
+                  <Truck className="w-4 h-4 text-amber-400" />
+                </div>
+                <div className="text-2xl sm:text-3xl font-extrabold font-mono text-white tracking-tight">
+                  ₦{(balanceData?.calculatedBalance?.pendingSettlementNgn ?? 0).toLocaleString()}
+                </div>
+                <div className="text-[11px] text-slate-400 mt-2 flex items-center justify-between border-t border-slate-800/80 pt-2">
+                  <span>Settlement Vault:</span>
+                  <span className="font-mono text-amber-400 font-bold">Next cycle deposit</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Linked Bank Account Card */}
+            <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-7 space-y-4">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <div>
+                  <h3 className="text-base font-bold text-white flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                    Linked Nigerian Bank Account (Paystack Direct Payout)
+                  </h3>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Your store earnings are transferred automatically to this Nigerian bank account via Paystack settlements.
+                  </p>
+                </div>
+                <span className="text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+                  Verified Account
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 pt-2">
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    Bank Name
+                  </span>
+                  <span className="text-sm font-bold text-white mt-1 block">
+                    {balanceData?.linkedBank?.bankName || "Access Bank / GTBank / Zenith"}
+                  </span>
+                </div>
+
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    Account Number
+                  </span>
+                  <span className="text-sm font-bold text-white mt-1 block font-mono">
+                    {balanceData?.linkedBank?.accountNumber || "012****890"}
+                  </span>
+                </div>
+
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    Account Beneficiary
+                  </span>
+                  <span className="text-sm font-bold text-white mt-1 block truncate">
+                    {balanceData?.linkedBank?.accountName || "AURA LIVING ENTERPRISE"}
+                  </span>
+                </div>
+
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    Payout Currency
+                  </span>
+                  <span className="text-sm font-bold text-emerald-400 mt-1 block font-mono">
+                    NGN (₦)
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Paystack Ledger / Recent Settlements Table */}
+            <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-7 space-y-4">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="text-base font-bold text-white">
+                    Recent Customer Transactions &amp; Payout Ledger
+                  </h3>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Orders received through your storefront and captured into your settlement ledger.
+                  </p>
+                </div>
+                <span className="text-xs font-mono text-slate-400">
+                  {balanceData?.recentTransactions?.length || 0} Transactions
+                </span>
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse text-xs">
+                  <thead>
+                    <tr className="border-b border-slate-800 text-slate-400 font-mono text-[11px]">
+                      <th className="py-2.5 px-3">Order ID</th>
+                      <th className="py-2.5 px-3">Customer</th>
+                      <th className="py-2.5 px-3">Method</th>
+                      <th className="py-2.5 px-3 text-right">Amount (USD)</th>
+                      <th className="py-2.5 px-3 text-right">Amount (NGN ₦)</th>
+                      <th className="py-2.5 px-3 text-right">Net Profit (₦)</th>
+                      <th className="py-2.5 px-3 text-center">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-800/60 font-sans">
+                    {balanceData?.recentTransactions?.map((tx: any) => (
+                      <tr key={tx.id} className="hover:bg-slate-800/40 transition-colors">
+                        <td className="py-3 px-3 font-mono font-bold text-white">
+                          #{tx.id}
+                        </td>
+                        <td className="py-3 px-3 text-slate-300 font-medium">
+                          {tx.customer}
+                        </td>
+                        <td className="py-3 px-3 text-slate-400 text-[11px]">
+                          {tx.paymentMethod}
+                        </td>
+                        <td className="py-3 px-3 text-right font-mono text-slate-200">
+                          ${tx.amountUsd?.toFixed(2)}
+                        </td>
+                        <td className="py-3 px-3 text-right font-mono font-bold text-white">
+                          ₦{(tx.amountNgn || 0).toLocaleString()}
+                        </td>
+                        <td className="py-3 px-3 text-right font-mono font-bold text-emerald-400">
+                          +₦{(tx.netProfitNgn || 0).toLocaleString()}
+                        </td>
+                        <td className="py-3 px-3 text-center">
+                          <span className="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                            Captured &amp; Settled
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         )}
 

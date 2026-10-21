@@ -10,7 +10,13 @@ export async function GET(request: Request) {
 
   const { searchParams } = new URL(request.url);
   const term = (searchParams.get("q") || "nivea creme").trim();
-  const apiKey = process.env.RAINFOREST_API_KEY || "C051194DA4E549E993DABCBA690621DC";
+  const apiKey = process.env.RAINFOREST_API_KEY;
+  if (!apiKey) {
+    return NextResponse.json(
+      { error: "Amazon product search is not configured." },
+      { status: 503 }
+    );
+  }
 
   try {
     const res = await fetch(
