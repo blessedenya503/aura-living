@@ -750,7 +750,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Restores even skin radiance and deep softness",
       "Velvety non-sticky finish"
     ],
-    "image": "https://images.openbeautyfacts.org/images/products/400/590/092/5022/front_fr.3.400.jpg",
+    "image": "https://images.openbeautyfacts.org/images/products/400/590/088/4152/front_de.3.400.jpg",
     "gallery": [
       "https://images.openbeautyfacts.org/images/products/400/590/092/5022/front_fr.3.400.jpg"
     ],
@@ -845,7 +845,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Silky moisture with subtle natural luminescence",
       "Fast-absorbing daily pump formula"
     ],
-    "image": "https://images.openbeautyfacts.org/images/products/400/590/041/8135/front_en.11.400.jpg",
+    "image": "https://images.openbeautyfacts.org/images/products/400/590/088/4152/front_de.3.400.jpg",
     "gallery": [
       "https://images.openbeautyfacts.org/images/products/400/590/041/8135/front_en.11.400.jpg"
     ],
@@ -4081,16 +4081,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Cooling metal applicator tip stimulates lymphatic micro-drainage",
       "Factory Trade Assurance certified dropship dispatch"
     ],
-    "image": "https://images.pexels.com/photos/33756874/pexels-photo-33756874.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/71HGVhtvV-L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/33756874/pexels-photo-33756874.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/71HGVhtvV-L._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/33756874/pexels-photo-33756874.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/71HGVhtvV-L._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4176,16 +4176,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Rich velvety emollient that melts into deep dermal layers",
       "Factory audited laboratory grade purity"
     ],
-    "image": "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/71+qSoSkaJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/71+qSoSkaJL._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/71+qSoSkaJL._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4271,16 +4271,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Deeply moisturizing rich whipped body butter texture",
       "Suppresses excess melanin formation safely"
     ],
-    "image": "https://images.pexels.com/photos/4465829/pexels-photo-4465829.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/61Ob6E5N9GL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4465829/pexels-photo-4465829.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/61Ob6E5N9GL._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4465829/pexels-photo-4465829.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/61Ob6E5N9GL._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4367,16 +4367,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Sealed aluminum packaging ensures zero oxidation",
       "Recommended for post-chemical peel recovery"
     ],
-    "image": "https://images.pexels.com/photos/9496412/pexels-photo-9496412.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/51pYLvRWT-L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/9496412/pexels-photo-9496412.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/51pYLvRWT-L._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/9496412/pexels-photo-9496412.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/51pYLvRWT-L._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4462,16 +4462,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Cooling gel texture that absorbs instantly",
       "Non-sticky, glass skin priming finish"
     ],
-    "image": "https://images.pexels.com/photos/4119559/pexels-photo-4119559.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/71DuHxbMmiL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4119559/pexels-photo-4119559.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/71DuHxbMmiL._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4119559/pexels-photo-4119559.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/71DuHxbMmiL._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4558,16 +4558,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Restores lost epidermal lipids",
       "Steroid-free and safe for long-term daily use"
     ],
-    "image": "https://images.pexels.com/photos/29755259/pexels-photo-29755259.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/61vJOOtiHUL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/29755259/pexels-photo-29755259.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/61vJOOtiHUL._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/29755259/pexels-photo-29755259.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/61vJOOtiHUL._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4653,16 +4653,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Antibacterial tea tree prevents odor and micro-infections",
       "Intense softening for elbows and knees"
     ],
-    "image": "https://images.pexels.com/photos/9775408/pexels-photo-9775408.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/71x-bdcripL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/9775408/pexels-photo-9775408.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/71x-bdcripL._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/9775408/pexels-photo-9775408.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/71x-bdcripL._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4749,16 +4749,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Noticeably improves skin density and elasticity",
       "Natural rich peach-orange color from unbleached astaxanthin"
     ],
-    "image": "https://images.pexels.com/photos/17891765/pexels-photo-17891765.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/51Hi9CT8GCL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/17891765/pexels-photo-17891765.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/51Hi9CT8GCL._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/17891765/pexels-photo-17891765.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/51Hi9CT8GCL._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4844,16 +4844,16 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Rebalances sebum without clogging pores",
       "Lightweight, refreshing non-comedogenic hydration"
     ],
-    "image": "https://images.pexels.com/photos/16008945/pexels-photo-16008945.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://m.media-amazon.com/images/I/71LMW1xRt3L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/16008945/pexels-photo-16008945.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://m.media-amazon.com/images/I/71LMW1xRt3L._AC_UL320_.jpg"
     ],
     "variants": [
       {
         "name": "Standard Size",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/16008945/pexels-photo-16008945.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "image": "https://m.media-amazon.com/images/I/71LMW1xRt3L._AC_UL320_.jpg"
       },
       {
         "name": "Value Pack (2 Units)",
@@ -4927,9 +4927,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1503,
-    "image": "https://images.pexels.com/photos/5797992/pexels-photo-5797992.jpeg?auto=compress&cs=tinysrgb&w=800&entry=52",
+    "image": "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797992/pexels-photo-5797992.jpeg?auto=compress&cs=tinysrgb&w=800&entry=52"
+      "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ceramide-3",
@@ -4946,7 +4946,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797992/pexels-photo-5797992.jpeg?auto=compress&cs=tinysrgb&w=800&entry=52"
+        "image": "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -4980,9 +4980,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1576,
-    "image": "https://images.pexels.com/photos/5797993/pexels-photo-5797993.jpeg?auto=compress&cs=tinysrgb&w=800&entry=53",
+    "image": "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797993/pexels-photo-5797993.jpeg?auto=compress&cs=tinysrgb&w=800&entry=53"
+      "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg"
     ],
     "keyIngredients": [
       "Urea 10%",
@@ -5000,7 +5000,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797993/pexels-photo-5797993.jpeg?auto=compress&cs=tinysrgb&w=800&entry=53"
+        "image": "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5034,9 +5034,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1649,
-    "image": "https://images.pexels.com/photos/5797994/pexels-photo-5797994.jpeg?auto=compress&cs=tinysrgb&w=800&entry=54",
+    "image": "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797994/pexels-photo-5797994.jpeg?auto=compress&cs=tinysrgb&w=800&entry=54"
+      "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Petrolatum 41%",
@@ -5055,7 +5055,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797994/pexels-photo-5797994.jpeg?auto=compress&cs=tinysrgb&w=800&entry=54"
+        "image": "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5089,9 +5089,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1722,
-    "image": "https://images.pexels.com/photos/5797995/pexels-photo-5797995.jpeg?auto=compress&cs=tinysrgb&w=800&entry=55",
+    "image": "https://m.media-amazon.com/images/I/61yOVTDmzLL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797995/pexels-photo-5797995.jpeg?auto=compress&cs=tinysrgb&w=800&entry=55"
+      "https://m.media-amazon.com/images/I/61yOVTDmzLL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Avobenzone 3%",
@@ -5109,7 +5109,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797995/pexels-photo-5797995.jpeg?auto=compress&cs=tinysrgb&w=800&entry=55"
+        "image": "https://m.media-amazon.com/images/I/61yOVTDmzLL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5144,9 +5144,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1795,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/5797996/pexels-photo-5797996.jpeg?auto=compress&cs=tinysrgb&w=800&entry=56",
+    "image": "https://m.media-amazon.com/images/I/519Ec1efxTL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797996/pexels-photo-5797996.jpeg?auto=compress&cs=tinysrgb&w=800&entry=56"
+      "https://m.media-amazon.com/images/I/519Ec1efxTL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Urea 10%",
@@ -5164,7 +5164,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797996/pexels-photo-5797996.jpeg?auto=compress&cs=tinysrgb&w=800&entry=56"
+        "image": "https://m.media-amazon.com/images/I/519Ec1efxTL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5199,9 +5199,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1868,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/5797997/pexels-photo-5797997.jpeg?auto=compress&cs=tinysrgb&w=800&entry=57",
+    "image": "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797997/pexels-photo-5797997.jpeg?auto=compress&cs=tinysrgb&w=800&entry=57"
+      "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Thiamidol®",
@@ -5218,7 +5218,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797997/pexels-photo-5797997.jpeg?auto=compress&cs=tinysrgb&w=800&entry=57"
+        "image": "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5252,9 +5252,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1941,
-    "image": "https://images.pexels.com/photos/5797998/pexels-photo-5797998.jpeg?auto=compress&cs=tinysrgb&w=800&entry=58",
+    "image": "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797998/pexels-photo-5797998.jpeg?auto=compress&cs=tinysrgb&w=800&entry=58"
+      "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Macro & Micro Hyaluronic Acid",
@@ -5272,7 +5272,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797998/pexels-photo-5797998.jpeg?auto=compress&cs=tinysrgb&w=800&entry=58"
+        "image": "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5306,9 +5306,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2014,
-    "image": "https://images.pexels.com/photos/5797999/pexels-photo-5797999.jpeg?auto=compress&cs=tinysrgb&w=800&entry=59",
+    "image": "https://m.media-amazon.com/images/I/718z5mbxxFL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5797999/pexels-photo-5797999.jpeg?auto=compress&cs=tinysrgb&w=800&entry=59"
+      "https://m.media-amazon.com/images/I/718z5mbxxFL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Licochalcone A",
@@ -5326,7 +5326,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5797999/pexels-photo-5797999.jpeg?auto=compress&cs=tinysrgb&w=800&entry=59"
+        "image": "https://m.media-amazon.com/images/I/718z5mbxxFL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5360,9 +5360,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2087,
-    "image": "https://images.pexels.com/photos/5798000/pexels-photo-5798000.jpeg?auto=compress&cs=tinysrgb&w=800&entry=60",
+    "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5798000/pexels-photo-5798000.jpeg?auto=compress&cs=tinysrgb&w=800&entry=60"
+      "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Coenzyme Q10",
@@ -5380,7 +5380,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5798000/pexels-photo-5798000.jpeg?auto=compress&cs=tinysrgb&w=800&entry=60"
+        "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5415,9 +5415,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 2160,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621430/pexels-photo-6621430.jpeg?auto=compress&cs=tinysrgb&w=800&entry=61",
+    "image": "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621430/pexels-photo-6621430.jpeg?auto=compress&cs=tinysrgb&w=800&entry=61"
+      "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg"
     ],
     "keyIngredients": [
       "L-Carnitine",
@@ -5435,7 +5435,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621430/pexels-photo-6621430.jpeg?auto=compress&cs=tinysrgb&w=800&entry=61"
+        "image": "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5469,9 +5469,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2233,
-    "image": "https://images.pexels.com/photos/6621431/pexels-photo-6621431.jpeg?auto=compress&cs=tinysrgb&w=800&entry=62",
+    "image": "https://m.media-amazon.com/images/I/61aGcpsxXoL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621431/pexels-photo-6621431.jpeg?auto=compress&cs=tinysrgb&w=800&entry=62"
+      "https://m.media-amazon.com/images/I/61aGcpsxXoL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Amphoteric Surfactants 6%",
@@ -5488,7 +5488,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621431/pexels-photo-6621431.jpeg?auto=compress&cs=tinysrgb&w=800&entry=62"
+        "image": "https://m.media-amazon.com/images/I/61aGcpsxXoL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5522,9 +5522,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2306,
-    "image": "https://images.pexels.com/photos/6621432/pexels-photo-6621432.jpeg?auto=compress&cs=tinysrgb&w=800&entry=63",
+    "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621432/pexels-photo-6621432.jpeg?auto=compress&cs=tinysrgb&w=800&entry=63"
+      "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hyaluronic Acid",
@@ -5541,7 +5541,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621432/pexels-photo-6621432.jpeg?auto=compress&cs=tinysrgb&w=800&entry=63"
+        "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5576,9 +5576,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 2379,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621433/pexels-photo-6621433.jpeg?auto=compress&cs=tinysrgb&w=800&entry=64",
+    "image": "https://m.media-amazon.com/images/I/71wNnvzg2IL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621433/pexels-photo-6621433.jpeg?auto=compress&cs=tinysrgb&w=800&entry=64"
+      "https://m.media-amazon.com/images/I/71wNnvzg2IL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Petrolatum",
@@ -5597,7 +5597,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621433/pexels-photo-6621433.jpeg?auto=compress&cs=tinysrgb&w=800&entry=64"
+        "image": "https://m.media-amazon.com/images/I/71wNnvzg2IL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5631,9 +5631,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2452,
-    "image": "https://images.pexels.com/photos/6621434/pexels-photo-6621434.jpeg?auto=compress&cs=tinysrgb&w=800&entry=65",
+    "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621434/pexels-photo-6621434.jpeg?auto=compress&cs=tinysrgb&w=800&entry=65"
+      "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Colloidal Oatmeal",
@@ -5651,7 +5651,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621434/pexels-photo-6621434.jpeg?auto=compress&cs=tinysrgb&w=800&entry=65"
+        "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5686,9 +5686,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 2525,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621435/pexels-photo-6621435.jpeg?auto=compress&cs=tinysrgb&w=800&entry=66",
+    "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621435/pexels-photo-6621435.jpeg?auto=compress&cs=tinysrgb&w=800&entry=66"
+      "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Natural Licochalcone",
@@ -5706,7 +5706,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621435/pexels-photo-6621435.jpeg?auto=compress&cs=tinysrgb&w=800&entry=66"
+        "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5740,9 +5740,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 198,
-    "image": "https://images.pexels.com/photos/6621436/pexels-photo-6621436.jpeg?auto=compress&cs=tinysrgb&w=800&entry=67",
+    "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621436/pexels-photo-6621436.jpeg?auto=compress&cs=tinysrgb&w=800&entry=67"
+      "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Medium & Short Chain Hyaluronic Acid",
@@ -5759,7 +5759,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621436/pexels-photo-6621436.jpeg?auto=compress&cs=tinysrgb&w=800&entry=67"
+        "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5793,9 +5793,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 271,
-    "image": "https://images.pexels.com/photos/6621437/pexels-photo-6621437.jpeg?auto=compress&cs=tinysrgb&w=800&entry=68",
+    "image": "https://m.media-amazon.com/images/I/71SUJ8xvN+L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621437/pexels-photo-6621437.jpeg?auto=compress&cs=tinysrgb&w=800&entry=68"
+      "https://m.media-amazon.com/images/I/71SUJ8xvN+L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Thiamidol®",
@@ -5812,7 +5812,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621437/pexels-photo-6621437.jpeg?auto=compress&cs=tinysrgb&w=800&entry=68"
+        "image": "https://m.media-amazon.com/images/I/71SUJ8xvN+L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5846,9 +5846,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 344,
-    "image": "https://images.pexels.com/photos/6621438/pexels-photo-6621438.jpeg?auto=compress&cs=tinysrgb&w=800&entry=69",
+    "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621438/pexels-photo-6621438.jpeg?auto=compress&cs=tinysrgb&w=800&entry=69"
+      "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Thiamidol",
@@ -5866,7 +5866,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621438/pexels-photo-6621438.jpeg?auto=compress&cs=tinysrgb&w=800&entry=69"
+        "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5900,9 +5900,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 417,
-    "image": "https://images.pexels.com/photos/6621439/pexels-photo-6621439.jpeg?auto=compress&cs=tinysrgb&w=800&entry=70",
+    "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621439/pexels-photo-6621439.jpeg?auto=compress&cs=tinysrgb&w=800&entry=70"
+      "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Glycine Soja Oil",
@@ -5920,7 +5920,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621439/pexels-photo-6621439.jpeg?auto=compress&cs=tinysrgb&w=800&entry=70"
+        "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -5955,9 +5955,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 490,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621440/pexels-photo-6621440.jpeg?auto=compress&cs=tinysrgb&w=800&entry=71",
+    "image": "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621440/pexels-photo-6621440.jpeg?auto=compress&cs=tinysrgb&w=800&entry=71"
+      "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg"
     ],
     "keyIngredients": [
       "Advanced Spectral Technology",
@@ -5974,7 +5974,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621440/pexels-photo-6621440.jpeg?auto=compress&cs=tinysrgb&w=800&entry=71"
+        "image": "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6008,9 +6008,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 563,
-    "image": "https://images.pexels.com/photos/6621441/pexels-photo-6621441.jpeg?auto=compress&cs=tinysrgb&w=800&entry=72",
+    "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621441/pexels-photo-6621441.jpeg?auto=compress&cs=tinysrgb&w=800&entry=72"
+      "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Arctiin",
@@ -6028,7 +6028,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621441/pexels-photo-6621441.jpeg?auto=compress&cs=tinysrgb&w=800&entry=72"
+        "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6062,9 +6062,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 636,
-    "image": "https://images.pexels.com/photos/6621442/pexels-photo-6621442.jpeg?auto=compress&cs=tinysrgb&w=800&entry=73",
+    "image": "https://m.media-amazon.com/images/I/719w7q58vRL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621442/pexels-photo-6621442.jpeg?auto=compress&cs=tinysrgb&w=800&entry=73"
+      "https://m.media-amazon.com/images/I/719w7q58vRL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Shea Butter",
@@ -6082,7 +6082,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621442/pexels-photo-6621442.jpeg?auto=compress&cs=tinysrgb&w=800&entry=73"
+        "image": "https://m.media-amazon.com/images/I/719w7q58vRL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6116,9 +6116,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 709,
-    "image": "https://images.pexels.com/photos/6621443/pexels-photo-6621443.jpeg?auto=compress&cs=tinysrgb&w=800&entry=74",
+    "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621443/pexels-photo-6621443.jpeg?auto=compress&cs=tinysrgb&w=800&entry=74"
+      "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Omega 3 & 6 Fatty Acids",
@@ -6135,7 +6135,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621443/pexels-photo-6621443.jpeg?auto=compress&cs=tinysrgb&w=800&entry=74"
+        "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6169,9 +6169,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 782,
-    "image": "https://images.pexels.com/photos/6621444/pexels-photo-6621444.jpeg?auto=compress&cs=tinysrgb&w=800&entry=75",
+    "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621444/pexels-photo-6621444.jpeg?auto=compress&cs=tinysrgb&w=800&entry=75"
+      "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Urea 5%",
@@ -6189,7 +6189,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621444/pexels-photo-6621444.jpeg?auto=compress&cs=tinysrgb&w=800&entry=75"
+        "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6224,9 +6224,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 855,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621445/pexels-photo-6621445.jpeg?auto=compress&cs=tinysrgb&w=800&entry=76",
+    "image": "https://m.media-amazon.com/images/I/61i8t1DKUaL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621445/pexels-photo-6621445.jpeg?auto=compress&cs=tinysrgb&w=800&entry=76"
+      "https://m.media-amazon.com/images/I/61i8t1DKUaL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Urea 5%",
@@ -6244,7 +6244,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621445/pexels-photo-6621445.jpeg?auto=compress&cs=tinysrgb&w=800&entry=76"
+        "image": "https://m.media-amazon.com/images/I/61i8t1DKUaL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6278,9 +6278,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 928,
-    "image": "https://images.pexels.com/photos/6621446/pexels-photo-6621446.jpeg?auto=compress&cs=tinysrgb&w=800&entry=77",
+    "image": "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621446/pexels-photo-6621446.jpeg?auto=compress&cs=tinysrgb&w=800&entry=77"
+      "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "[C+-Restore]™ Postbiotic",
@@ -6298,7 +6298,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621446/pexels-photo-6621446.jpeg?auto=compress&cs=tinysrgb&w=800&entry=77"
+        "image": "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6333,9 +6333,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1001,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621447/pexels-photo-6621447.jpeg?auto=compress&cs=tinysrgb&w=800&entry=78",
+    "image": "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621447/pexels-photo-6621447.jpeg?auto=compress&cs=tinysrgb&w=800&entry=78"
+      "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "100% Avène Thermal Spring Water",
@@ -6352,7 +6352,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621447/pexels-photo-6621447.jpeg?auto=compress&cs=tinysrgb&w=800&entry=78"
+        "image": "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6386,9 +6386,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1074,
-    "image": "https://images.pexels.com/photos/6621448/pexels-photo-6621448.jpeg?auto=compress&cs=tinysrgb&w=800&entry=79",
+    "image": "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621448/pexels-photo-6621448.jpeg?auto=compress&cs=tinysrgb&w=800&entry=79"
+      "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg"
     ],
     "keyIngredients": [
       "Comedoclastin™",
@@ -6406,7 +6406,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621448/pexels-photo-6621448.jpeg?auto=compress&cs=tinysrgb&w=800&entry=79"
+        "image": "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6440,9 +6440,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1147,
-    "image": "https://images.pexels.com/photos/6621449/pexels-photo-6621449.jpeg?auto=compress&cs=tinysrgb&w=800&entry=80",
+    "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621449/pexels-photo-6621449.jpeg?auto=compress&cs=tinysrgb&w=800&entry=80"
+      "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Cohederm™ Complex",
@@ -6460,7 +6460,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621449/pexels-photo-6621449.jpeg?auto=compress&cs=tinysrgb&w=800&entry=80"
+        "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6495,9 +6495,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1220,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621450/pexels-photo-6621450.jpeg?auto=compress&cs=tinysrgb&w=800&entry=81",
+    "image": "https://m.media-amazon.com/images/I/61RIR5NMbxL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621450/pexels-photo-6621450.jpeg?auto=compress&cs=tinysrgb&w=800&entry=81"
+      "https://m.media-amazon.com/images/I/61RIR5NMbxL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "I-modulia® Postbiotic",
@@ -6515,7 +6515,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621450/pexels-photo-6621450.jpeg?auto=compress&cs=tinysrgb&w=800&entry=81"
+        "image": "https://m.media-amazon.com/images/I/61RIR5NMbxL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6549,9 +6549,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1293,
-    "image": "https://images.pexels.com/photos/6621451/pexels-photo-6621451.jpeg?auto=compress&cs=tinysrgb&w=800&entry=82",
+    "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621451/pexels-photo-6621451.jpeg?auto=compress&cs=tinysrgb&w=800&entry=82"
+      "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "D-Sensinose™ Postbiotic",
@@ -6569,7 +6569,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621451/pexels-photo-6621451.jpeg?auto=compress&cs=tinysrgb&w=800&entry=82"
+        "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6603,9 +6603,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1366,
-    "image": "https://images.pexels.com/photos/6621452/pexels-photo-6621452.jpeg?auto=compress&cs=tinysrgb&w=800&entry=83",
+    "image": "https://m.media-amazon.com/images/I/61zRR3dkdzL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621452/pexels-photo-6621452.jpeg?auto=compress&cs=tinysrgb&w=800&entry=83"
+      "https://m.media-amazon.com/images/I/61zRR3dkdzL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ascorbyl Glucoside 15%",
@@ -6623,7 +6623,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621452/pexels-photo-6621452.jpeg?auto=compress&cs=tinysrgb&w=800&entry=83"
+        "image": "https://m.media-amazon.com/images/I/61zRR3dkdzL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6657,9 +6657,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1439,
-    "image": "https://images.pexels.com/photos/6621453/pexels-photo-6621453.jpeg?auto=compress&cs=tinysrgb&w=800&entry=84",
+    "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621453/pexels-photo-6621453.jpeg?auto=compress&cs=tinysrgb&w=800&entry=84"
+      "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Comedoclastin™ 25%",
@@ -6676,7 +6676,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621453/pexels-photo-6621453.jpeg?auto=compress&cs=tinysrgb&w=800&entry=84"
+        "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6711,9 +6711,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1512,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621454/pexels-photo-6621454.jpeg?auto=compress&cs=tinysrgb&w=800&entry=85",
+    "image": "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621454/pexels-photo-6621454.jpeg?auto=compress&cs=tinysrgb&w=800&entry=85"
+      "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg"
     ],
     "keyIngredients": [
       "Niacinamide 6%",
@@ -6730,7 +6730,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621454/pexels-photo-6621454.jpeg?auto=compress&cs=tinysrgb&w=800&entry=85"
+        "image": "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6765,9 +6765,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1585,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621455/pexels-photo-6621455.jpeg?auto=compress&cs=tinysrgb&w=800&entry=86",
+    "image": "https://m.media-amazon.com/images/I/61jxI8NmPZL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621455/pexels-photo-6621455.jpeg?auto=compress&cs=tinysrgb&w=800&entry=86"
+      "https://m.media-amazon.com/images/I/61jxI8NmPZL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Niacinamide 6%",
@@ -6785,7 +6785,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621455/pexels-photo-6621455.jpeg?auto=compress&cs=tinysrgb&w=800&entry=86"
+        "image": "https://m.media-amazon.com/images/I/61jxI8NmPZL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6819,9 +6819,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1658,
-    "image": "https://images.pexels.com/photos/6621456/pexels-photo-6621456.jpeg?auto=compress&cs=tinysrgb&w=800&entry=87",
+    "image": "https://m.media-amazon.com/images/I/51gOvchpLUL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621456/pexels-photo-6621456.jpeg?auto=compress&cs=tinysrgb&w=800&entry=87"
+      "https://m.media-amazon.com/images/I/51gOvchpLUL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Dimethicone Polymer",
@@ -6839,7 +6839,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621456/pexels-photo-6621456.jpeg?auto=compress&cs=tinysrgb&w=800&entry=87"
+        "image": "https://m.media-amazon.com/images/I/51gOvchpLUL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6873,9 +6873,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1731,
-    "image": "https://images.pexels.com/photos/6621457/pexels-photo-6621457.jpeg?auto=compress&cs=tinysrgb&w=800&entry=88",
+    "image": "https://m.media-amazon.com/images/I/61qyfYQ8uCL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621457/pexels-photo-6621457.jpeg?auto=compress&cs=tinysrgb&w=800&entry=88"
+      "https://m.media-amazon.com/images/I/61qyfYQ8uCL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Dextran Sulfate",
@@ -6893,7 +6893,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621457/pexels-photo-6621457.jpeg?auto=compress&cs=tinysrgb&w=800&entry=88"
+        "image": "https://m.media-amazon.com/images/I/61qyfYQ8uCL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6927,9 +6927,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1804,
-    "image": "https://images.pexels.com/photos/6621458/pexels-photo-6621458.jpeg?auto=compress&cs=tinysrgb&w=800&entry=89",
+    "image": "https://images.openbeautyfacts.org/images/products/328/277/020/2113/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621458/pexels-photo-6621458.jpeg?auto=compress&cs=tinysrgb&w=800&entry=89"
+      "https://images.openbeautyfacts.org/images/products/328/277/020/2113/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "TriAsorB™ Blue Light Filter",
@@ -6947,7 +6947,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621458/pexels-photo-6621458.jpeg?auto=compress&cs=tinysrgb&w=800&entry=89"
+        "image": "https://images.openbeautyfacts.org/images/products/328/277/020/2113/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -6981,9 +6981,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1877,
-    "image": "https://images.pexels.com/photos/6621459/pexels-photo-6621459.jpeg?auto=compress&cs=tinysrgb&w=800&entry=90",
+    "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621459/pexels-photo-6621459.jpeg?auto=compress&cs=tinysrgb&w=800&entry=90"
+      "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Parcerine®",
@@ -7000,7 +7000,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621459/pexels-photo-6621459.jpeg?auto=compress&cs=tinysrgb&w=800&entry=90"
+        "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7035,9 +7035,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1950,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621460/pexels-photo-6621460.jpeg?auto=compress&cs=tinysrgb&w=800&entry=91",
+    "image": "https://m.media-amazon.com/images/I/61ZfUMlxeFL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621460/pexels-photo-6621460.jpeg?auto=compress&cs=tinysrgb&w=800&entry=91"
+      "https://m.media-amazon.com/images/I/61ZfUMlxeFL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ruscus Extract",
@@ -7055,7 +7055,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621460/pexels-photo-6621460.jpeg?auto=compress&cs=tinysrgb&w=800&entry=91"
+        "image": "https://m.media-amazon.com/images/I/61ZfUMlxeFL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7090,9 +7090,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 2023,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621461/pexels-photo-6621461.jpeg?auto=compress&cs=tinysrgb&w=800&entry=92",
+    "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621461/pexels-photo-6621461.jpeg?auto=compress&cs=tinysrgb&w=800&entry=92"
+      "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Cohederm™",
@@ -7110,7 +7110,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621461/pexels-photo-6621461.jpeg?auto=compress&cs=tinysrgb&w=800&entry=92"
+        "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7144,9 +7144,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2096,
-    "image": "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800&entry=93",
+    "image": "https://m.media-amazon.com/images/I/61MZCaoQv8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800&entry=93"
+      "https://m.media-amazon.com/images/I/61MZCaoQv8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "D-Sensinose™",
@@ -7163,7 +7163,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800&entry=93"
+        "image": "https://m.media-amazon.com/images/I/61MZCaoQv8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7197,9 +7197,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2169,
-    "image": "https://images.pexels.com/photos/6621463/pexels-photo-6621463.jpeg?auto=compress&cs=tinysrgb&w=800&entry=94",
+    "image": "https://m.media-amazon.com/images/I/71JS1ve0y0L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621463/pexels-photo-6621463.jpeg?auto=compress&cs=tinysrgb&w=800&entry=94"
+      "https://m.media-amazon.com/images/I/71JS1ve0y0L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "I-modulia®",
@@ -7217,7 +7217,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621463/pexels-photo-6621463.jpeg?auto=compress&cs=tinysrgb&w=800&entry=94"
+        "image": "https://m.media-amazon.com/images/I/71JS1ve0y0L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7251,9 +7251,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2242,
-    "image": "https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg?auto=compress&cs=tinysrgb&w=800&entry=95",
+    "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg?auto=compress&cs=tinysrgb&w=800&entry=95"
+      "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Synovea™ HR",
@@ -7271,7 +7271,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg?auto=compress&cs=tinysrgb&w=800&entry=95"
+        "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7306,9 +7306,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 2315,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621465/pexels-photo-6621465.jpeg?auto=compress&cs=tinysrgb&w=800&entry=96",
+    "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621465/pexels-photo-6621465.jpeg?auto=compress&cs=tinysrgb&w=800&entry=96"
+      "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Vanilla Polyphenols",
@@ -7326,7 +7326,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621465/pexels-photo-6621465.jpeg?auto=compress&cs=tinysrgb&w=800&entry=96"
+        "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7360,9 +7360,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2388,
-    "image": "https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg?auto=compress&cs=tinysrgb&w=800&entry=97",
+    "image": "https://m.media-amazon.com/images/I/61DCqTZ2YNL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg?auto=compress&cs=tinysrgb&w=800&entry=97"
+      "https://m.media-amazon.com/images/I/61DCqTZ2YNL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "White Beeswax",
@@ -7380,7 +7380,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg?auto=compress&cs=tinysrgb&w=800&entry=97"
+        "image": "https://m.media-amazon.com/images/I/61DCqTZ2YNL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7414,9 +7414,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2461,
-    "image": "https://images.pexels.com/photos/6621467/pexels-photo-6621467.jpeg?auto=compress&cs=tinysrgb&w=800&entry=98",
+    "image": "https://images.openbeautyfacts.org/images/products/328/277/014/1214/front_fr.6.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621467/pexels-photo-6621467.jpeg?auto=compress&cs=tinysrgb&w=800&entry=98"
+      "https://images.openbeautyfacts.org/images/products/328/277/014/1214/front_fr.6.400.jpg"
     ],
     "keyIngredients": [
       "TriAsorB™",
@@ -7433,7 +7433,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621467/pexels-photo-6621467.jpeg?auto=compress&cs=tinysrgb&w=800&entry=98"
+        "image": "https://images.openbeautyfacts.org/images/products/328/277/014/1214/front_fr.6.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7468,9 +7468,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2534,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621468/pexels-photo-6621468.jpeg?auto=compress&cs=tinysrgb&w=800&entry=99",
+    "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621468/pexels-photo-6621468.jpeg?auto=compress&cs=tinysrgb&w=800&entry=99"
+      "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Kaolin Clay 15%",
@@ -7488,7 +7488,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621468/pexels-photo-6621468.jpeg?auto=compress&cs=tinysrgb&w=800&entry=99"
+        "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7522,9 +7522,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 207,
-    "image": "https://images.pexels.com/photos/6621469/pexels-photo-6621469.jpeg?auto=compress&cs=tinysrgb&w=800&entry=100",
+    "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621469/pexels-photo-6621469.jpeg?auto=compress&cs=tinysrgb&w=800&entry=100"
+      "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pongamia Oil",
@@ -7542,7 +7542,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621469/pexels-photo-6621469.jpeg?auto=compress&cs=tinysrgb&w=800&entry=100"
+        "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7577,9 +7577,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 280,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621470/pexels-photo-6621470.jpeg?auto=compress&cs=tinysrgb&w=800&entry=101",
+    "image": "https://m.media-amazon.com/images/I/71yFh07UdPL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621470/pexels-photo-6621470.jpeg?auto=compress&cs=tinysrgb&w=800&entry=101"
+      "https://m.media-amazon.com/images/I/71yFh07UdPL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hyaluronic Acid",
@@ -7597,7 +7597,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621470/pexels-photo-6621470.jpeg?auto=compress&cs=tinysrgb&w=800&entry=101"
+        "image": "https://m.media-amazon.com/images/I/71yFh07UdPL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7631,9 +7631,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 353,
-    "image": "https://images.pexels.com/photos/6621471/pexels-photo-6621471.jpeg?auto=compress&cs=tinysrgb&w=800&entry=102",
+    "image": "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621471/pexels-photo-6621471.jpeg?auto=compress&cs=tinysrgb&w=800&entry=102"
+      "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Micellar Technology",
@@ -7651,7 +7651,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621471/pexels-photo-6621471.jpeg?auto=compress&cs=tinysrgb&w=800&entry=102"
+        "image": "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7685,9 +7685,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 426,
-    "image": "https://images.pexels.com/photos/6621472/pexels-photo-6621472.jpeg?auto=compress&cs=tinysrgb&w=800&entry=103",
+    "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621472/pexels-photo-6621472.jpeg?auto=compress&cs=tinysrgb&w=800&entry=103"
+      "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Lipigenium™ Technology",
@@ -7705,7 +7705,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621472/pexels-photo-6621472.jpeg?auto=compress&cs=tinysrgb&w=800&entry=103"
+        "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7739,9 +7739,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 499,
-    "image": "https://images.pexels.com/photos/6621473/pexels-photo-6621473.jpeg?auto=compress&cs=tinysrgb&w=800&entry=104",
+    "image": "https://images.openbeautyfacts.org/images/products/340/134/369/6245/front_pt.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621473/pexels-photo-6621473.jpeg?auto=compress&cs=tinysrgb&w=800&entry=104"
+      "https://images.openbeautyfacts.org/images/products/340/134/369/6245/front_pt.3.400.jpg"
     ],
     "keyIngredients": [
       "Rosactiv™ Patent",
@@ -7760,7 +7760,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621473/pexels-photo-6621473.jpeg?auto=compress&cs=tinysrgb&w=800&entry=104"
+        "image": "https://images.openbeautyfacts.org/images/products/340/134/369/6245/front_pt.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7794,9 +7794,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 572,
-    "image": "https://images.pexels.com/photos/6621474/pexels-photo-6621474.jpeg?auto=compress&cs=tinysrgb&w=800&entry=105",
+    "image": "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621474/pexels-photo-6621474.jpeg?auto=compress&cs=tinysrgb&w=800&entry=105"
+      "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Fluidactiv™ Patent",
@@ -7815,7 +7815,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621474/pexels-photo-6621474.jpeg?auto=compress&cs=tinysrgb&w=800&entry=105"
+        "image": "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7850,9 +7850,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 645,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621475/pexels-photo-6621475.jpeg?auto=compress&cs=tinysrgb&w=800&entry=106",
+    "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621475/pexels-photo-6621475.jpeg?auto=compress&cs=tinysrgb&w=800&entry=106"
+      "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Antalgicine™ Patent",
@@ -7870,7 +7870,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621475/pexels-photo-6621475.jpeg?auto=compress&cs=tinysrgb&w=800&entry=106"
+        "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7904,9 +7904,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 718,
-    "image": "https://images.pexels.com/photos/6621476/pexels-photo-6621476.jpeg?auto=compress&cs=tinysrgb&w=800&entry=107",
+    "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621476/pexels-photo-6621476.jpeg?auto=compress&cs=tinysrgb&w=800&entry=107"
+      "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Cellular Bioprotection™",
@@ -7924,7 +7924,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621476/pexels-photo-6621476.jpeg?auto=compress&cs=tinysrgb&w=800&entry=107"
+        "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -7958,9 +7958,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 791,
-    "image": "https://images.pexels.com/photos/6621477/pexels-photo-6621477.jpeg?auto=compress&cs=tinysrgb&w=800&entry=108",
+    "image": "https://m.media-amazon.com/images/I/41CK0WkjshL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621477/pexels-photo-6621477.jpeg?auto=compress&cs=tinysrgb&w=800&entry=108"
+      "https://m.media-amazon.com/images/I/41CK0WkjshL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Aquagenium™ Patent",
@@ -7978,7 +7978,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621477/pexels-photo-6621477.jpeg?auto=compress&cs=tinysrgb&w=800&entry=108"
+        "image": "https://m.media-amazon.com/images/I/41CK0WkjshL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8012,9 +8012,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 864,
-    "image": "https://images.pexels.com/photos/6621478/pexels-photo-6621478.jpeg?auto=compress&cs=tinysrgb&w=800&entry=109",
+    "image": "https://m.media-amazon.com/images/I/61TyxMNn9PL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621478/pexels-photo-6621478.jpeg?auto=compress&cs=tinysrgb&w=800&entry=109"
+      "https://m.media-amazon.com/images/I/61TyxMNn9PL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Vegetal Biolipids",
@@ -8032,7 +8032,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621478/pexels-photo-6621478.jpeg?auto=compress&cs=tinysrgb&w=800&entry=109"
+        "image": "https://m.media-amazon.com/images/I/61TyxMNn9PL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8066,9 +8066,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 937,
-    "image": "https://images.pexels.com/photos/6621479/pexels-photo-6621479.jpeg?auto=compress&cs=tinysrgb&w=800&entry=110",
+    "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621479/pexels-photo-6621479.jpeg?auto=compress&cs=tinysrgb&w=800&entry=110"
+      "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Defensive Technology",
@@ -8087,7 +8087,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621479/pexels-photo-6621479.jpeg?auto=compress&cs=tinysrgb&w=800&entry=110"
+        "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8122,9 +8122,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1010,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621480/pexels-photo-6621480.jpeg?auto=compress&cs=tinysrgb&w=800&entry=111",
+    "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621480/pexels-photo-6621480.jpeg?auto=compress&cs=tinysrgb&w=800&entry=111"
+      "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Salicylic Acid 1.8%",
@@ -8142,7 +8142,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621480/pexels-photo-6621480.jpeg?auto=compress&cs=tinysrgb&w=800&entry=111"
+        "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8176,9 +8176,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1083,
-    "image": "https://images.pexels.com/photos/6621481/pexels-photo-6621481.jpeg?auto=compress&cs=tinysrgb&w=800&entry=112",
+    "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621481/pexels-photo-6621481.jpeg?auto=compress&cs=tinysrgb&w=800&entry=112"
+      "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Toleridine™ Patent",
@@ -8196,7 +8196,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621481/pexels-photo-6621481.jpeg?auto=compress&cs=tinysrgb&w=800&entry=112"
+        "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8231,9 +8231,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1156,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621482/pexels-photo-6621482.jpeg?auto=compress&cs=tinysrgb&w=800&entry=113",
+    "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621482/pexels-photo-6621482.jpeg?auto=compress&cs=tinysrgb&w=800&entry=113"
+      "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Fresh Vitamin C 2%",
@@ -8251,7 +8251,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621482/pexels-photo-6621482.jpeg?auto=compress&cs=tinysrgb&w=800&entry=113"
+        "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8285,9 +8285,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1229,
-    "image": "https://images.pexels.com/photos/6621483/pexels-photo-6621483.jpeg?auto=compress&cs=tinysrgb&w=800&entry=114",
+    "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621483/pexels-photo-6621483.jpeg?auto=compress&cs=tinysrgb&w=800&entry=114"
+      "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Shea Butter",
@@ -8305,7 +8305,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621483/pexels-photo-6621483.jpeg?auto=compress&cs=tinysrgb&w=800&entry=114"
+        "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8339,9 +8339,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1302,
-    "image": "https://images.pexels.com/photos/6621484/pexels-photo-6621484.jpeg?auto=compress&cs=tinysrgb&w=800&entry=115",
+    "image": "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621484/pexels-photo-6621484.jpeg?auto=compress&cs=tinysrgb&w=800&entry=115"
+      "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg"
     ],
     "keyIngredients": [
       "Zinc Sulfate",
@@ -8359,7 +8359,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621484/pexels-photo-6621484.jpeg?auto=compress&cs=tinysrgb&w=800&entry=115"
+        "image": "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8394,9 +8394,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1375,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621485/pexels-photo-6621485.jpeg?auto=compress&cs=tinysrgb&w=800&entry=116",
+    "image": "https://m.media-amazon.com/images/I/41j8uqtCSAL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621485/pexels-photo-6621485.jpeg?auto=compress&cs=tinysrgb&w=800&entry=116"
+      "https://m.media-amazon.com/images/I/41j8uqtCSAL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Salicylic Acid",
@@ -8414,7 +8414,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621485/pexels-photo-6621485.jpeg?auto=compress&cs=tinysrgb&w=800&entry=116"
+        "image": "https://m.media-amazon.com/images/I/41j8uqtCSAL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8448,9 +8448,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1448,
-    "image": "https://images.pexels.com/photos/6621486/pexels-photo-6621486.jpeg?auto=compress&cs=tinysrgb&w=800&entry=117",
+    "image": "https://images.openbeautyfacts.org/images/products/340/138/150/7565/front_en.16.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621486/pexels-photo-6621486.jpeg?auto=compress&cs=tinysrgb&w=800&entry=117"
+      "https://images.openbeautyfacts.org/images/products/340/138/150/7565/front_en.16.400.jpg"
     ],
     "keyIngredients": [
       "Coco-Glucoside",
@@ -8468,7 +8468,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621486/pexels-photo-6621486.jpeg?auto=compress&cs=tinysrgb&w=800&entry=117"
+        "image": "https://images.openbeautyfacts.org/images/products/340/138/150/7565/front_en.16.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8502,9 +8502,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1521,
-    "image": "https://images.pexels.com/photos/6621487/pexels-photo-6621487.jpeg?auto=compress&cs=tinysrgb&w=800&entry=118",
+    "image": "https://images.openbeautyfacts.org/images/products/370/112/980/3738/front_fr.5.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621487/pexels-photo-6621487.jpeg?auto=compress&cs=tinysrgb&w=800&entry=118"
+      "https://images.openbeautyfacts.org/images/products/370/112/980/3738/front_fr.5.400.jpg"
     ],
     "keyIngredients": [
       "Vitamin C Glucoside",
@@ -8522,7 +8522,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621487/pexels-photo-6621487.jpeg?auto=compress&cs=tinysrgb&w=800&entry=118"
+        "image": "https://images.openbeautyfacts.org/images/products/370/112/980/3738/front_fr.5.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8556,9 +8556,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1594,
-    "image": "https://images.pexels.com/photos/6621488/pexels-photo-6621488.jpeg?auto=compress&cs=tinysrgb&w=800&entry=119",
+    "image": "https://m.media-amazon.com/images/I/71nSJZGO0tL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621488/pexels-photo-6621488.jpeg?auto=compress&cs=tinysrgb&w=800&entry=119"
+      "https://m.media-amazon.com/images/I/71nSJZGO0tL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Skin Protect™ Complex",
@@ -8576,7 +8576,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621488/pexels-photo-6621488.jpeg?auto=compress&cs=tinysrgb&w=800&entry=119"
+        "image": "https://m.media-amazon.com/images/I/71nSJZGO0tL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8611,9 +8611,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1667,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621489/pexels-photo-6621489.jpeg?auto=compress&cs=tinysrgb&w=800&entry=120",
+    "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621489/pexels-photo-6621489.jpeg?auto=compress&cs=tinysrgb&w=800&entry=120"
+      "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "DSactive® Patent",
@@ -8631,7 +8631,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621489/pexels-photo-6621489.jpeg?auto=compress&cs=tinysrgb&w=800&entry=120"
+        "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8666,9 +8666,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1740,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621490/pexels-photo-6621490.jpeg?auto=compress&cs=tinysrgb&w=800&entry=121",
+    "image": "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621490/pexels-photo-6621490.jpeg?auto=compress&cs=tinysrgb&w=800&entry=121"
+      "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "LumiReveal™",
@@ -8686,7 +8686,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621490/pexels-photo-6621490.jpeg?auto=compress&cs=tinysrgb&w=800&entry=121"
+        "image": "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8720,9 +8720,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1813,
-    "image": "https://images.pexels.com/photos/6621491/pexels-photo-6621491.jpeg?auto=compress&cs=tinysrgb&w=800&entry=122",
+    "image": "https://images.openbeautyfacts.org/images/products/880/941/647/0511/front_en.15.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621491/pexels-photo-6621491.jpeg?auto=compress&cs=tinysrgb&w=800&entry=122"
+      "https://images.openbeautyfacts.org/images/products/880/941/647/0511/front_en.15.400.jpg"
     ],
     "keyIngredients": [
       "Tea Tree Oil 0.5%",
@@ -8739,7 +8739,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621491/pexels-photo-6621491.jpeg?auto=compress&cs=tinysrgb&w=800&entry=122"
+        "image": "https://images.openbeautyfacts.org/images/products/880/941/647/0511/front_en.15.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8773,9 +8773,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1886,
-    "image": "https://images.pexels.com/photos/6621492/pexels-photo-6621492.jpeg?auto=compress&cs=tinysrgb&w=800&entry=123",
+    "image": "https://images.openbeautyfacts.org/images/products/880/941/647/0054/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621492/pexels-photo-6621492.jpeg?auto=compress&cs=tinysrgb&w=800&entry=123"
+      "https://images.openbeautyfacts.org/images/products/880/941/647/0054/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Willow Bark Water 67.8%",
@@ -8792,7 +8792,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621492/pexels-photo-6621492.jpeg?auto=compress&cs=tinysrgb&w=800&entry=123"
+        "image": "https://images.openbeautyfacts.org/images/products/880/941/647/0054/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8826,9 +8826,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1959,
-    "image": "https://images.pexels.com/photos/6621493/pexels-photo-6621493.jpeg?auto=compress&cs=tinysrgb&w=800&entry=124",
+    "image": "https://m.media-amazon.com/images/I/61UvDq1AmhL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621493/pexels-photo-6621493.jpeg?auto=compress&cs=tinysrgb&w=800&entry=124"
+      "https://m.media-amazon.com/images/I/61UvDq1AmhL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Apple Fruit Water 78%",
@@ -8845,7 +8845,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621493/pexels-photo-6621493.jpeg?auto=compress&cs=tinysrgb&w=800&entry=124"
+        "image": "https://m.media-amazon.com/images/I/61UvDq1AmhL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8879,9 +8879,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2032,
-    "image": "https://images.pexels.com/photos/6621494/pexels-photo-6621494.jpeg?auto=compress&cs=tinysrgb&w=800&entry=125",
+    "image": "https://m.media-amazon.com/images/I/61vnYzjDQJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621494/pexels-photo-6621494.jpeg?auto=compress&cs=tinysrgb&w=800&entry=125"
+      "https://m.media-amazon.com/images/I/61vnYzjDQJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Black Bee Propolis Extract 83.25%",
@@ -8898,7 +8898,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621494/pexels-photo-6621494.jpeg?auto=compress&cs=tinysrgb&w=800&entry=125"
+        "image": "https://m.media-amazon.com/images/I/61vnYzjDQJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8933,9 +8933,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 2105,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621495/pexels-photo-6621495.jpeg?auto=compress&cs=tinysrgb&w=800&entry=126",
+    "image": "https://m.media-amazon.com/images/I/61ce87E4qFL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621495/pexels-photo-6621495.jpeg?auto=compress&cs=tinysrgb&w=800&entry=126"
+      "https://m.media-amazon.com/images/I/61ce87E4qFL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Centella Asiatica Leaf Water 50.79%",
@@ -8952,7 +8952,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621495/pexels-photo-6621495.jpeg?auto=compress&cs=tinysrgb&w=800&entry=126"
+        "image": "https://m.media-amazon.com/images/I/61ce87E4qFL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -8987,9 +8987,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2178,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621496/pexels-photo-6621496.jpeg?auto=compress&cs=tinysrgb&w=800&entry=127",
+    "image": "https://m.media-amazon.com/images/I/61gDng4BKcL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621496/pexels-photo-6621496.jpeg?auto=compress&cs=tinysrgb&w=800&entry=127"
+      "https://m.media-amazon.com/images/I/61gDng4BKcL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Betula Platyphylla Japonica Juice 70.85%",
@@ -9006,7 +9006,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621496/pexels-photo-6621496.jpeg?auto=compress&cs=tinysrgb&w=800&entry=127"
+        "image": "https://m.media-amazon.com/images/I/61gDng4BKcL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9040,9 +9040,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2251,
-    "image": "https://images.pexels.com/photos/6621497/pexels-photo-6621497.jpeg?auto=compress&cs=tinysrgb&w=800&entry=128",
+    "image": "https://m.media-amazon.com/images/I/71nUiC925zL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621497/pexels-photo-6621497.jpeg?auto=compress&cs=tinysrgb&w=800&entry=128"
+      "https://m.media-amazon.com/images/I/71nUiC925zL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Retinol 0.1%",
@@ -9060,7 +9060,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621497/pexels-photo-6621497.jpeg?auto=compress&cs=tinysrgb&w=800&entry=128"
+        "image": "https://m.media-amazon.com/images/I/71nUiC925zL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9094,9 +9094,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2324,
-    "image": "https://images.pexels.com/photos/6621498/pexels-photo-6621498.jpeg?auto=compress&cs=tinysrgb&w=800&entry=129",
+    "image": "https://m.media-amazon.com/images/I/71LzZAsVE+L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621498/pexels-photo-6621498.jpeg?auto=compress&cs=tinysrgb&w=800&entry=129"
+      "https://m.media-amazon.com/images/I/71LzZAsVE+L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Vitamin C 23%",
@@ -9114,7 +9114,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621498/pexels-photo-6621498.jpeg?auto=compress&cs=tinysrgb&w=800&entry=129"
+        "image": "https://m.media-amazon.com/images/I/71LzZAsVE+L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9148,9 +9148,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2397,
-    "image": "https://images.pexels.com/photos/6621499/pexels-photo-6621499.jpeg?auto=compress&cs=tinysrgb&w=800&entry=130",
+    "image": "https://images.openbeautyfacts.org/images/products/880/959/845/5658/front_nl.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621499/pexels-photo-6621499.jpeg?auto=compress&cs=tinysrgb&w=800&entry=130"
+      "https://images.openbeautyfacts.org/images/products/880/959/845/5658/front_nl.3.400.jpg"
     ],
     "keyIngredients": [
       "6 Peptide Complex",
@@ -9168,7 +9168,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621499/pexels-photo-6621499.jpeg?auto=compress&cs=tinysrgb&w=800&entry=130"
+        "image": "https://images.openbeautyfacts.org/images/products/880/959/845/5658/front_nl.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9203,9 +9203,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2470,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621500/pexels-photo-6621500.jpeg?auto=compress&cs=tinysrgb&w=800&entry=131",
+    "image": "https://m.media-amazon.com/images/I/61xRhjJvAJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621500/pexels-photo-6621500.jpeg?auto=compress&cs=tinysrgb&w=800&entry=131"
+      "https://m.media-amazon.com/images/I/61xRhjJvAJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ceramide NP 10,000ppm",
@@ -9222,7 +9222,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621500/pexels-photo-6621500.jpeg?auto=compress&cs=tinysrgb&w=800&entry=131"
+        "image": "https://m.media-amazon.com/images/I/61xRhjJvAJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9256,9 +9256,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2543,
-    "image": "https://images.pexels.com/photos/6621501/pexels-photo-6621501.jpeg?auto=compress&cs=tinysrgb&w=800&entry=132",
+    "image": "https://images.openbeautyfacts.org/images/products/880/973/831/0960/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621501/pexels-photo-6621501.jpeg?auto=compress&cs=tinysrgb&w=800&entry=132"
+      "https://images.openbeautyfacts.org/images/products/880/973/831/0960/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Ginseng Root Water 80%",
@@ -9276,7 +9276,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621501/pexels-photo-6621501.jpeg?auto=compress&cs=tinysrgb&w=800&entry=132"
+        "image": "https://images.openbeautyfacts.org/images/products/880/973/831/0960/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9310,9 +9310,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 216,
-    "image": "https://images.pexels.com/photos/6621502/pexels-photo-6621502.jpeg?auto=compress&cs=tinysrgb&w=800&entry=133",
+    "image": "https://m.media-amazon.com/images/I/61c0Hy2FRiL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621502/pexels-photo-6621502.jpeg?auto=compress&cs=tinysrgb&w=800&entry=133"
+      "https://m.media-amazon.com/images/I/61c0Hy2FRiL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Propolis Extract 60%",
@@ -9330,7 +9330,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621502/pexels-photo-6621502.jpeg?auto=compress&cs=tinysrgb&w=800&entry=133"
+        "image": "https://m.media-amazon.com/images/I/61c0Hy2FRiL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9365,9 +9365,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 289,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621503/pexels-photo-6621503.jpeg?auto=compress&cs=tinysrgb&w=800&entry=134",
+    "image": "https://images.openbeautyfacts.org/images/products/880/973/831/6146/front_nl.16.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621503/pexels-photo-6621503.jpeg?auto=compress&cs=tinysrgb&w=800&entry=134"
+      "https://images.openbeautyfacts.org/images/products/880/973/831/6146/front_nl.16.400.jpg"
     ],
     "keyIngredients": [
       "Ginseng Root Extract 10%",
@@ -9384,7 +9384,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621503/pexels-photo-6621503.jpeg?auto=compress&cs=tinysrgb&w=800&entry=134"
+        "image": "https://images.openbeautyfacts.org/images/products/880/973/831/6146/front_nl.16.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9418,9 +9418,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 362,
-    "image": "https://images.pexels.com/photos/6621504/pexels-photo-6621504.jpeg?auto=compress&cs=tinysrgb&w=800&entry=135",
+    "image": "https://m.media-amazon.com/images/I/51EPIGQMYGL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621504/pexels-photo-6621504.jpeg?auto=compress&cs=tinysrgb&w=800&entry=135"
+      "https://m.media-amazon.com/images/I/51EPIGQMYGL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Camellia Sinensis Leaf Water 76%",
@@ -9437,7 +9437,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621504/pexels-photo-6621504.jpeg?auto=compress&cs=tinysrgb&w=800&entry=135"
+        "image": "https://m.media-amazon.com/images/I/51EPIGQMYGL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9472,9 +9472,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 435,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621505/pexels-photo-6621505.jpeg?auto=compress&cs=tinysrgb&w=800&entry=136",
+    "image": "https://m.media-amazon.com/images/I/51nbUmsxrIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621505/pexels-photo-6621505.jpeg?auto=compress&cs=tinysrgb&w=800&entry=136"
+      "https://m.media-amazon.com/images/I/51nbUmsxrIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Rice Bran Water 68%",
@@ -9491,7 +9491,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621505/pexels-photo-6621505.jpeg?auto=compress&cs=tinysrgb&w=800&entry=136"
+        "image": "https://m.media-amazon.com/images/I/51nbUmsxrIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9525,9 +9525,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 508,
-    "image": "https://images.pexels.com/photos/6621506/pexels-photo-6621506.jpeg?auto=compress&cs=tinysrgb&w=800&entry=137",
+    "image": "https://m.media-amazon.com/images/I/51PbZMgofCL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621506/pexels-photo-6621506.jpeg?auto=compress&cs=tinysrgb&w=800&entry=137"
+      "https://m.media-amazon.com/images/I/51PbZMgofCL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Artemisia Capillaris Extract",
@@ -9545,7 +9545,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621506/pexels-photo-6621506.jpeg?auto=compress&cs=tinysrgb&w=800&entry=137"
+        "image": "https://m.media-amazon.com/images/I/51PbZMgofCL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9579,9 +9579,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 581,
-    "image": "https://images.pexels.com/photos/6621507/pexels-photo-6621507.jpeg?auto=compress&cs=tinysrgb&w=800&entry=138",
+    "image": "https://m.media-amazon.com/images/I/51PUm3SfmqL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621507/pexels-photo-6621507.jpeg?auto=compress&cs=tinysrgb&w=800&entry=138"
+      "https://m.media-amazon.com/images/I/51PUm3SfmqL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Soybean Oil 50%",
@@ -9598,7 +9598,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621507/pexels-photo-6621507.jpeg?auto=compress&cs=tinysrgb&w=800&entry=138"
+        "image": "https://m.media-amazon.com/images/I/51PUm3SfmqL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9632,9 +9632,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 654,
-    "image": "https://images.pexels.com/photos/6621508/pexels-photo-6621508.jpeg?auto=compress&cs=tinysrgb&w=800&entry=139",
+    "image": "https://m.media-amazon.com/images/I/71HiwBtA82L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621508/pexels-photo-6621508.jpeg?auto=compress&cs=tinysrgb&w=800&entry=139"
+      "https://m.media-amazon.com/images/I/71HiwBtA82L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Haenam Red Bean Extract 30%",
@@ -9651,7 +9651,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621508/pexels-photo-6621508.jpeg?auto=compress&cs=tinysrgb&w=800&entry=139"
+        "image": "https://m.media-amazon.com/images/I/71HiwBtA82L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9685,9 +9685,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 727,
-    "image": "https://images.pexels.com/photos/6621509/pexels-photo-6621509.jpeg?auto=compress&cs=tinysrgb&w=800&entry=140",
+    "image": "https://m.media-amazon.com/images/I/51c3U+Ru7UL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621509/pexels-photo-6621509.jpeg?auto=compress&cs=tinysrgb&w=800&entry=140"
+      "https://m.media-amazon.com/images/I/51c3U+Ru7UL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Prunus Mume Flower Water 19%",
@@ -9704,7 +9704,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621509/pexels-photo-6621509.jpeg?auto=compress&cs=tinysrgb&w=800&entry=140"
+        "image": "https://m.media-amazon.com/images/I/51c3U+Ru7UL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9739,9 +9739,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 800,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621510/pexels-photo-6621510.jpeg?auto=compress&cs=tinysrgb&w=800&entry=141",
+    "image": "https://m.media-amazon.com/images/I/51auhOZqB2L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621510/pexels-photo-6621510.jpeg?auto=compress&cs=tinysrgb&w=800&entry=141"
+      "https://m.media-amazon.com/images/I/51auhOZqB2L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Rice Water",
@@ -9759,7 +9759,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621510/pexels-photo-6621510.jpeg?auto=compress&cs=tinysrgb&w=800&entry=141"
+        "image": "https://m.media-amazon.com/images/I/51auhOZqB2L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9793,9 +9793,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 873,
-    "image": "https://images.pexels.com/photos/6621511/pexels-photo-6621511.jpeg?auto=compress&cs=tinysrgb&w=800&entry=142",
+    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/5622/front_nl.4.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621511/pexels-photo-6621511.jpeg?auto=compress&cs=tinysrgb&w=800&entry=142"
+      "https://images.openbeautyfacts.org/images/products/880/964/073/5622/front_nl.4.400.jpg"
     ],
     "keyIngredients": [
       "Houttuynia Cordata Powder 3,000ppm",
@@ -9813,7 +9813,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621511/pexels-photo-6621511.jpeg?auto=compress&cs=tinysrgb&w=800&entry=142"
+        "image": "https://images.openbeautyfacts.org/images/products/880/964/073/5622/front_nl.4.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9847,9 +9847,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 946,
-    "image": "https://images.pexels.com/photos/6621512/pexels-photo-6621512.jpeg?auto=compress&cs=tinysrgb&w=800&entry=143",
+    "image": "https://m.media-amazon.com/images/I/41Mcg1xUvHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621512/pexels-photo-6621512.jpeg?auto=compress&cs=tinysrgb&w=800&entry=143"
+      "https://m.media-amazon.com/images/I/41Mcg1xUvHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Heartleaf Extract 70%",
@@ -9867,7 +9867,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621512/pexels-photo-6621512.jpeg?auto=compress&cs=tinysrgb&w=800&entry=143"
+        "image": "https://m.media-amazon.com/images/I/41Mcg1xUvHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9901,9 +9901,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1019,
-    "image": "https://images.pexels.com/photos/6621513/pexels-photo-6621513.jpeg?auto=compress&cs=tinysrgb&w=800&entry=144",
+    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/4717/front_nl.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621513/pexels-photo-6621513.jpeg?auto=compress&cs=tinysrgb&w=800&entry=144"
+      "https://images.openbeautyfacts.org/images/products/880/964/073/4717/front_nl.3.400.jpg"
     ],
     "keyIngredients": [
       "Heartleaf Extract 80%",
@@ -9921,7 +9921,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621513/pexels-photo-6621513.jpeg?auto=compress&cs=tinysrgb&w=800&entry=144"
+        "image": "https://images.openbeautyfacts.org/images/products/880/964/073/4717/front_nl.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -9955,9 +9955,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1092,
-    "image": "https://images.pexels.com/photos/6621514/pexels-photo-6621514.jpeg?auto=compress&cs=tinysrgb&w=800&entry=145",
+    "image": "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621514/pexels-photo-6621514.jpeg?auto=compress&cs=tinysrgb&w=800&entry=145"
+      "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Niacinamide 10%",
@@ -9975,7 +9975,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621514/pexels-photo-6621514.jpeg?auto=compress&cs=tinysrgb&w=800&entry=145"
+        "image": "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10010,9 +10010,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1165,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621515/pexels-photo-6621515.jpeg?auto=compress&cs=tinysrgb&w=800&entry=146",
+    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/2829/front_en.9.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621515/pexels-photo-6621515.jpeg?auto=compress&cs=tinysrgb&w=800&entry=146"
+      "https://images.openbeautyfacts.org/images/products/880/964/073/2829/front_en.9.400.jpg"
     ],
     "keyIngredients": [
       "Non-Comedogenic Heartleaf Oil",
@@ -10030,7 +10030,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621515/pexels-photo-6621515.jpeg?auto=compress&cs=tinysrgb&w=800&entry=146"
+        "image": "https://images.openbeautyfacts.org/images/products/880/964/073/2829/front_en.9.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10064,9 +10064,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1238,
-    "image": "https://images.pexels.com/photos/6621516/pexels-photo-6621516.jpeg?auto=compress&cs=tinysrgb&w=800&entry=147",
+    "image": "https://m.media-amazon.com/images/I/51Kpw2r-pIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621516/pexels-photo-6621516.jpeg?auto=compress&cs=tinysrgb&w=800&entry=147"
+      "https://m.media-amazon.com/images/I/51Kpw2r-pIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese White Birch Sap 70%",
@@ -10084,7 +10084,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621516/pexels-photo-6621516.jpeg?auto=compress&cs=tinysrgb&w=800&entry=147"
+        "image": "https://m.media-amazon.com/images/I/51Kpw2r-pIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10119,9 +10119,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1311,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621517/pexels-photo-6621517.jpeg?auto=compress&cs=tinysrgb&w=800&entry=148",
+    "image": "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621517/pexels-photo-6621517.jpeg?auto=compress&cs=tinysrgb&w=800&entry=148"
+      "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Prunus Persica (Peach) Fruit Extract 70%",
@@ -10139,7 +10139,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621517/pexels-photo-6621517.jpeg?auto=compress&cs=tinysrgb&w=800&entry=148"
+        "image": "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10173,9 +10173,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1384,
-    "image": "https://images.pexels.com/photos/6621518/pexels-photo-6621518.jpeg?auto=compress&cs=tinysrgb&w=800&entry=149",
+    "image": "https://m.media-amazon.com/images/I/51uZLdXk0cL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621518/pexels-photo-6621518.jpeg?auto=compress&cs=tinysrgb&w=800&entry=149"
+      "https://m.media-amazon.com/images/I/51uZLdXk0cL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Houttuynia Cordata Extract",
@@ -10192,7 +10192,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621518/pexels-photo-6621518.jpeg?auto=compress&cs=tinysrgb&w=800&entry=149"
+        "image": "https://m.media-amazon.com/images/I/51uZLdXk0cL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10226,9 +10226,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1457,
-    "image": "https://images.pexels.com/photos/6621519/pexels-photo-6621519.jpeg?auto=compress&cs=tinysrgb&w=800&entry=150",
+    "image": "https://m.media-amazon.com/images/I/61eq5y8sE6L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621519/pexels-photo-6621519.jpeg?auto=compress&cs=tinysrgb&w=800&entry=150"
+      "https://m.media-amazon.com/images/I/61eq5y8sE6L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Heartleaf Extract 77%",
@@ -10245,7 +10245,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621519/pexels-photo-6621519.jpeg?auto=compress&cs=tinysrgb&w=800&entry=150"
+        "image": "https://m.media-amazon.com/images/I/61eq5y8sE6L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10280,9 +10280,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1530,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621520/pexels-photo-6621520.jpeg?auto=compress&cs=tinysrgb&w=800&entry=151",
+    "image": "https://m.media-amazon.com/images/I/61P6dNyR6TL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621520/pexels-photo-6621520.jpeg?auto=compress&cs=tinysrgb&w=800&entry=151"
+      "https://m.media-amazon.com/images/I/61P6dNyR6TL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Rice Bran Extract 70%",
@@ -10300,7 +10300,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621520/pexels-photo-6621520.jpeg?auto=compress&cs=tinysrgb&w=800&entry=151"
+        "image": "https://m.media-amazon.com/images/I/61P6dNyR6TL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10334,9 +10334,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1603,
-    "image": "https://images.pexels.com/photos/6621521/pexels-photo-6621521.jpeg?auto=compress&cs=tinysrgb&w=800&entry=152",
+    "image": "https://images.openbeautyfacts.org/images/products/880/957/626/0601/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621521/pexels-photo-6621521.jpeg?auto=compress&cs=tinysrgb&w=800&entry=152"
+      "https://images.openbeautyfacts.org/images/products/880/957/626/0601/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Pure Madagascar Centella Asiatica Extract 100%"
@@ -10352,7 +10352,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621521/pexels-photo-6621521.jpeg?auto=compress&cs=tinysrgb&w=800&entry=152"
+        "image": "https://images.openbeautyfacts.org/images/products/880/957/626/0601/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10386,9 +10386,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1676,
-    "image": "https://images.pexels.com/photos/6621522/pexels-photo-6621522.jpeg?auto=compress&cs=tinysrgb&w=800&entry=153",
+    "image": "https://m.media-amazon.com/images/I/61ZG5xWuA+L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621522/pexels-photo-6621522.jpeg?auto=compress&cs=tinysrgb&w=800&entry=153"
+      "https://m.media-amazon.com/images/I/61ZG5xWuA+L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Centella Oil",
@@ -10406,7 +10406,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621522/pexels-photo-6621522.jpeg?auto=compress&cs=tinysrgb&w=800&entry=153"
+        "image": "https://m.media-amazon.com/images/I/61ZG5xWuA+L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10440,9 +10440,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1749,
-    "image": "https://images.pexels.com/photos/6621523/pexels-photo-6621523.jpeg?auto=compress&cs=tinysrgb&w=800&entry=154",
+    "image": "https://m.media-amazon.com/images/I/411cuvlydfL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621523/pexels-photo-6621523.jpeg?auto=compress&cs=tinysrgb&w=800&entry=154"
+      "https://m.media-amazon.com/images/I/411cuvlydfL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Centella Extract 72%",
@@ -10459,7 +10459,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621523/pexels-photo-6621523.jpeg?auto=compress&cs=tinysrgb&w=800&entry=154"
+        "image": "https://m.media-amazon.com/images/I/411cuvlydfL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10494,9 +10494,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1822,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621524/pexels-photo-6621524.jpeg?auto=compress&cs=tinysrgb&w=800&entry=155",
+    "image": "https://m.media-amazon.com/images/I/614+q9ycXHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621524/pexels-photo-6621524.jpeg?auto=compress&cs=tinysrgb&w=800&entry=155"
+      "https://m.media-amazon.com/images/I/614+q9ycXHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "MadeWhite™ (Madecassoside)",
@@ -10514,7 +10514,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621524/pexels-photo-6621524.jpeg?auto=compress&cs=tinysrgb&w=800&entry=155"
+        "image": "https://m.media-amazon.com/images/I/614+q9ycXHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10549,9 +10549,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1895,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621525/pexels-photo-6621525.jpeg?auto=compress&cs=tinysrgb&w=800&entry=156",
+    "image": "https://m.media-amazon.com/images/I/61suN9iH4LL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621525/pexels-photo-6621525.jpeg?auto=compress&cs=tinysrgb&w=800&entry=156"
+      "https://m.media-amazon.com/images/I/61suN9iH4LL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Himalayan Pink Salt",
@@ -10569,7 +10569,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621525/pexels-photo-6621525.jpeg?auto=compress&cs=tinysrgb&w=800&entry=156"
+        "image": "https://m.media-amazon.com/images/I/61suN9iH4LL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10603,9 +10603,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1968,
-    "image": "https://images.pexels.com/photos/6621526/pexels-photo-6621526.jpeg?auto=compress&cs=tinysrgb&w=800&entry=157",
+    "image": "https://m.media-amazon.com/images/I/61fZuOmOMZL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621526/pexels-photo-6621526.jpeg?auto=compress&cs=tinysrgb&w=800&entry=157"
+      "https://m.media-amazon.com/images/I/61fZuOmOMZL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hyalu-Cica Formula",
@@ -10623,7 +10623,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621526/pexels-photo-6621526.jpeg?auto=compress&cs=tinysrgb&w=800&entry=157"
+        "image": "https://m.media-amazon.com/images/I/61fZuOmOMZL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10657,9 +10657,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2041,
-    "image": "https://images.pexels.com/photos/6621527/pexels-photo-6621527.jpeg?auto=compress&cs=tinysrgb&w=800&entry=158",
+    "image": "https://m.media-amazon.com/images/I/71d4b0WSJXL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621527/pexels-photo-6621527.jpeg?auto=compress&cs=tinysrgb&w=800&entry=158"
+      "https://m.media-amazon.com/images/I/71d4b0WSJXL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Centella Extract 33%",
@@ -10676,7 +10676,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621527/pexels-photo-6621527.jpeg?auto=compress&cs=tinysrgb&w=800&entry=158"
+        "image": "https://m.media-amazon.com/images/I/71d4b0WSJXL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10710,9 +10710,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2114,
-    "image": "https://images.pexels.com/photos/6621528/pexels-photo-6621528.jpeg?auto=compress&cs=tinysrgb&w=800&entry=159",
+    "image": "https://m.media-amazon.com/images/I/812b82s2qWL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621528/pexels-photo-6621528.jpeg?auto=compress&cs=tinysrgb&w=800&entry=159"
+      "https://m.media-amazon.com/images/I/812b82s2qWL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Tea Tree Leaf Water",
@@ -10730,7 +10730,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621528/pexels-photo-6621528.jpeg?auto=compress&cs=tinysrgb&w=800&entry=159"
+        "image": "https://m.media-amazon.com/images/I/812b82s2qWL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10764,9 +10764,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2187,
-    "image": "https://images.pexels.com/photos/6621529/pexels-photo-6621529.jpeg?auto=compress&cs=tinysrgb&w=800&entry=160",
+    "image": "https://images.openbeautyfacts.org/images/products/880/991/383/0214/front_nl.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621529/pexels-photo-6621529.jpeg?auto=compress&cs=tinysrgb&w=800&entry=160"
+      "https://images.openbeautyfacts.org/images/products/880/991/383/0214/front_nl.3.400.jpg"
     ],
     "keyIngredients": [
       "Hyalu-Cica Complex",
@@ -10784,7 +10784,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621529/pexels-photo-6621529.jpeg?auto=compress&cs=tinysrgb&w=800&entry=160"
+        "image": "https://images.openbeautyfacts.org/images/products/880/991/383/0214/front_nl.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10819,9 +10819,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 2260,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621530/pexels-photo-6621530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=161",
+    "image": "https://m.media-amazon.com/images/I/61CIxJ0VQ2L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621530/pexels-photo-6621530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=161"
+      "https://m.media-amazon.com/images/I/61CIxJ0VQ2L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Fermented Centella Asiatica",
@@ -10839,7 +10839,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621530/pexels-photo-6621530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=161"
+        "image": "https://m.media-amazon.com/images/I/61CIxJ0VQ2L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10874,9 +10874,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 2333,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621531/pexels-photo-6621531.jpeg?auto=compress&cs=tinysrgb&w=800&entry=162",
+    "image": "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621531/pexels-photo-6621531.jpeg?auto=compress&cs=tinysrgb&w=800&entry=162"
+      "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Matrixyl 3000",
@@ -10895,7 +10895,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621531/pexels-photo-6621531.jpeg?auto=compress&cs=tinysrgb&w=800&entry=162"
+        "image": "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10929,9 +10929,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2406,
-    "image": "https://images.pexels.com/photos/6621532/pexels-photo-6621532.jpeg?auto=compress&cs=tinysrgb&w=800&entry=163",
+    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0670/front_en.21.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621532/pexels-photo-6621532.jpeg?auto=compress&cs=tinysrgb&w=800&entry=163"
+      "https://images.openbeautyfacts.org/images/products/076/991/519/0670/front_en.21.400.jpg"
     ],
     "keyIngredients": [
       "High Solubility Caffeine 5%",
@@ -10948,7 +10948,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621532/pexels-photo-6621532.jpeg?auto=compress&cs=tinysrgb&w=800&entry=163"
+        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0670/front_en.21.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -10982,9 +10982,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2479,
-    "image": "https://images.pexels.com/photos/6621533/pexels-photo-6621533.jpeg?auto=compress&cs=tinysrgb&w=800&entry=164",
+    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0731/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621533/pexels-photo-6621533.jpeg?auto=compress&cs=tinysrgb&w=800&entry=164"
+      "https://images.openbeautyfacts.org/images/products/076/991/519/0731/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "11 Amino Acids",
@@ -11003,7 +11003,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621533/pexels-photo-6621533.jpeg?auto=compress&cs=tinysrgb&w=800&entry=164"
+        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0731/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11037,9 +11037,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2552,
-    "image": "https://images.pexels.com/photos/6621534/pexels-photo-6621534.jpeg?auto=compress&cs=tinysrgb&w=800&entry=165",
+    "image": "https://m.media-amazon.com/images/I/51bWH5AIi0L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621534/pexels-photo-6621534.jpeg?auto=compress&cs=tinysrgb&w=800&entry=165"
+      "https://m.media-amazon.com/images/I/51bWH5AIi0L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Retinol 0.5%",
@@ -11057,7 +11057,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621534/pexels-photo-6621534.jpeg?auto=compress&cs=tinysrgb&w=800&entry=165"
+        "image": "https://m.media-amazon.com/images/I/51bWH5AIi0L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11092,9 +11092,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 225,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621535/pexels-photo-6621535.jpeg?auto=compress&cs=tinysrgb&w=800&entry=166",
+    "image": "https://m.media-amazon.com/images/I/613CFOwbuGL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621535/pexels-photo-6621535.jpeg?auto=compress&cs=tinysrgb&w=800&entry=166"
+      "https://m.media-amazon.com/images/I/613CFOwbuGL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Salicylic Acid 2%",
@@ -11112,7 +11112,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621535/pexels-photo-6621535.jpeg?auto=compress&cs=tinysrgb&w=800&entry=166"
+        "image": "https://m.media-amazon.com/images/I/613CFOwbuGL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11146,9 +11146,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 298,
-    "image": "https://images.pexels.com/photos/6621536/pexels-photo-6621536.jpeg?auto=compress&cs=tinysrgb&w=800&entry=167",
+    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0373/front_en.12.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621536/pexels-photo-6621536.jpeg?auto=compress&cs=tinysrgb&w=800&entry=167"
+      "https://images.openbeautyfacts.org/images/products/076/991/519/0373/front_en.12.400.jpg"
     ],
     "keyIngredients": [
       "Lactic Acid 10%",
@@ -11166,7 +11166,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621536/pexels-photo-6621536.jpeg?auto=compress&cs=tinysrgb&w=800&entry=167"
+        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0373/front_en.12.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11200,9 +11200,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 371,
-    "image": "https://images.pexels.com/photos/6621537/pexels-photo-6621537.jpeg?auto=compress&cs=tinysrgb&w=800&entry=168",
+    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5606/front_en.6.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621537/pexels-photo-6621537.jpeg?auto=compress&cs=tinysrgb&w=800&entry=168"
+      "https://images.openbeautyfacts.org/images/products/076/991/519/5606/front_en.6.400.jpg"
     ],
     "keyIngredients": [
       "Glycolic, Lactic, Tartaric, Citric 30%",
@@ -11219,7 +11219,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621537/pexels-photo-6621537.jpeg?auto=compress&cs=tinysrgb&w=800&entry=168"
+        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5606/front_en.6.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11254,9 +11254,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 444,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621538/pexels-photo-6621538.jpeg?auto=compress&cs=tinysrgb&w=800&entry=169",
+    "image": "https://m.media-amazon.com/images/I/51x6tGfZdoL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621538/pexels-photo-6621538.jpeg?auto=compress&cs=tinysrgb&w=800&entry=169"
+      "https://m.media-amazon.com/images/I/51x6tGfZdoL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Plant Squalane",
@@ -11274,7 +11274,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621538/pexels-photo-6621538.jpeg?auto=compress&cs=tinysrgb&w=800&entry=169"
+        "image": "https://m.media-amazon.com/images/I/51x6tGfZdoL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11308,9 +11308,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 517,
-    "image": "https://images.pexels.com/photos/6621539/pexels-photo-6621539.jpeg?auto=compress&cs=tinysrgb&w=800&entry=170",
+    "image": "https://m.media-amazon.com/images/I/71WVodf35WL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621539/pexels-photo-6621539.jpeg?auto=compress&cs=tinysrgb&w=800&entry=170"
+      "https://m.media-amazon.com/images/I/71WVodf35WL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Purified Alpha Arbutin 2%",
@@ -11327,7 +11327,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621539/pexels-photo-6621539.jpeg?auto=compress&cs=tinysrgb&w=800&entry=170"
+        "image": "https://m.media-amazon.com/images/I/71WVodf35WL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11362,9 +11362,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 590,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621540/pexels-photo-6621540.jpeg?auto=compress&cs=tinysrgb&w=800&entry=171",
+    "image": "https://m.media-amazon.com/images/I/51LloWpF62L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621540/pexels-photo-6621540.jpeg?auto=compress&cs=tinysrgb&w=800&entry=171"
+      "https://m.media-amazon.com/images/I/51LloWpF62L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "High Purity Azelaic Acid 10%",
@@ -11381,7 +11381,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621540/pexels-photo-6621540.jpeg?auto=compress&cs=tinysrgb&w=800&entry=171"
+        "image": "https://m.media-amazon.com/images/I/51LloWpF62L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11415,9 +11415,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 663,
-    "image": "https://images.pexels.com/photos/6621541/pexels-photo-6621541.jpeg?auto=compress&cs=tinysrgb&w=800&entry=172",
+    "image": "https://m.media-amazon.com/images/I/51R2JOtTD4L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621541/pexels-photo-6621541.jpeg?auto=compress&cs=tinysrgb&w=800&entry=172"
+      "https://m.media-amazon.com/images/I/51R2JOtTD4L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "100% Pure Plant Squalane ECOCERT Approved"
@@ -11433,7 +11433,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621541/pexels-photo-6621541.jpeg?auto=compress&cs=tinysrgb&w=800&entry=172"
+        "image": "https://m.media-amazon.com/images/I/51R2JOtTD4L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11467,9 +11467,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 736,
-    "image": "https://images.pexels.com/photos/6621542/pexels-photo-6621542.jpeg?auto=compress&cs=tinysrgb&w=800&entry=173",
+    "image": "https://m.media-amazon.com/images/I/519SdiGIxZL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621542/pexels-photo-6621542.jpeg?auto=compress&cs=tinysrgb&w=800&entry=173"
+      "https://m.media-amazon.com/images/I/519SdiGIxZL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Acetyl Hexapeptide-8 (Argireline) 10%"
@@ -11485,7 +11485,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621542/pexels-photo-6621542.jpeg?auto=compress&cs=tinysrgb&w=800&entry=173"
+        "image": "https://m.media-amazon.com/images/I/519SdiGIxZL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11519,9 +11519,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 809,
-    "image": "https://images.pexels.com/photos/6621543/pexels-photo-6621543.jpeg?auto=compress&cs=tinysrgb&w=800&entry=174",
+    "image": "https://m.media-amazon.com/images/I/71pu0nR4CGL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621543/pexels-photo-6621543.jpeg?auto=compress&cs=tinysrgb&w=800&entry=174"
+      "https://m.media-amazon.com/images/I/71pu0nR4CGL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hawaiian Red Algae",
@@ -11538,7 +11538,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621543/pexels-photo-6621543.jpeg?auto=compress&cs=tinysrgb&w=800&entry=174"
+        "image": "https://m.media-amazon.com/images/I/71pu0nR4CGL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11572,9 +11572,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 882,
-    "image": "https://images.pexels.com/photos/6621544/pexels-photo-6621544.jpeg?auto=compress&cs=tinysrgb&w=800&entry=175",
+    "image": "https://m.media-amazon.com/images/I/51UAHAF+brL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621544/pexels-photo-6621544.jpeg?auto=compress&cs=tinysrgb&w=800&entry=175"
+      "https://m.media-amazon.com/images/I/51UAHAF+brL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Mandelic Acid 10%",
@@ -11591,7 +11591,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621544/pexels-photo-6621544.jpeg?auto=compress&cs=tinysrgb&w=800&entry=175"
+        "image": "https://m.media-amazon.com/images/I/51UAHAF+brL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11626,9 +11626,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 955,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621545/pexels-photo-6621545.jpeg?auto=compress&cs=tinysrgb&w=800&entry=176",
+    "image": "https://m.media-amazon.com/images/I/51HIfJHD1fL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621545/pexels-photo-6621545.jpeg?auto=compress&cs=tinysrgb&w=800&entry=176"
+      "https://m.media-amazon.com/images/I/51HIfJHD1fL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Phytoceramides",
@@ -11646,7 +11646,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621545/pexels-photo-6621545.jpeg?auto=compress&cs=tinysrgb&w=800&entry=176"
+        "image": "https://m.media-amazon.com/images/I/51HIfJHD1fL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11680,9 +11680,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1028,
-    "image": "https://images.pexels.com/photos/6621546/pexels-photo-6621546.jpeg?auto=compress&cs=tinysrgb&w=800&entry=177",
+    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0045/front_en.7.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621546/pexels-photo-6621546.jpeg?auto=compress&cs=tinysrgb&w=800&entry=177"
+      "https://images.openbeautyfacts.org/images/products/076/991/519/0045/front_en.7.400.jpg"
     ],
     "keyIngredients": [
       "Hydroxypinacolone Retinoate 2%",
@@ -11699,7 +11699,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621546/pexels-photo-6621546.jpeg?auto=compress&cs=tinysrgb&w=800&entry=177"
+        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0045/front_en.7.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11733,9 +11733,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1101,
-    "image": "https://images.pexels.com/photos/6621547/pexels-photo-6621547.jpeg?auto=compress&cs=tinysrgb&w=800&entry=178",
+    "image": "https://m.media-amazon.com/images/I/61zCZjpVrgL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621547/pexels-photo-6621547.jpeg?auto=compress&cs=tinysrgb&w=800&entry=178"
+      "https://m.media-amazon.com/images/I/61zCZjpVrgL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Water-Soluble Vitamin C Derivative 12%"
@@ -11751,7 +11751,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621547/pexels-photo-6621547.jpeg?auto=compress&cs=tinysrgb&w=800&entry=178"
+        "image": "https://m.media-amazon.com/images/I/61zCZjpVrgL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11785,9 +11785,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1174,
-    "image": "https://images.pexels.com/photos/6621548/pexels-photo-6621548.jpeg?auto=compress&cs=tinysrgb&w=800&entry=179",
+    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0342/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621548/pexels-photo-6621548.jpeg?auto=compress&cs=tinysrgb&w=800&entry=179"
+      "https://images.openbeautyfacts.org/images/products/076/991/519/0342/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "100% Pure Rosa Canina Seed Oil",
@@ -11805,7 +11805,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621548/pexels-photo-6621548.jpeg?auto=compress&cs=tinysrgb&w=800&entry=179"
+        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0342/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11839,9 +11839,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1247,
-    "image": "https://images.pexels.com/photos/6621549/pexels-photo-6621549.jpeg?auto=compress&cs=tinysrgb&w=800&entry=180",
+    "image": "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621549/pexels-photo-6621549.jpeg?auto=compress&cs=tinysrgb&w=800&entry=180"
+      "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Matrixyl 3000",
@@ -11859,7 +11859,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621549/pexels-photo-6621549.jpeg?auto=compress&cs=tinysrgb&w=800&entry=180"
+        "image": "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11894,9 +11894,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1320,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621550/pexels-photo-6621550.jpeg?auto=compress&cs=tinysrgb&w=800&entry=181",
+    "image": "https://m.media-amazon.com/images/I/61NiKBIheJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621550/pexels-photo-6621550.jpeg?auto=compress&cs=tinysrgb&w=800&entry=181"
+      "https://m.media-amazon.com/images/I/61NiKBIheJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Resveratrol 3%",
@@ -11913,7 +11913,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621550/pexels-photo-6621550.jpeg?auto=compress&cs=tinysrgb&w=800&entry=181"
+        "image": "https://m.media-amazon.com/images/I/61NiKBIheJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -11947,9 +11947,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1393,
-    "image": "https://images.pexels.com/photos/6621551/pexels-photo-6621551.jpeg?auto=compress&cs=tinysrgb&w=800&entry=182",
+    "image": "https://m.media-amazon.com/images/I/51HzPP4D9KL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621551/pexels-photo-6621551.jpeg?auto=compress&cs=tinysrgb&w=800&entry=182"
+      "https://m.media-amazon.com/images/I/51HzPP4D9KL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "9 Signal Peptides Complex",
@@ -11967,7 +11967,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621551/pexels-photo-6621551.jpeg?auto=compress&cs=tinysrgb&w=800&entry=182"
+        "image": "https://m.media-amazon.com/images/I/51HzPP4D9KL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12002,9 +12002,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1466,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621552/pexels-photo-6621552.jpeg?auto=compress&cs=tinysrgb&w=800&entry=183",
+    "image": "https://images.openbeautyfacts.org/images/products/200/000/015/1852/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621552/pexels-photo-6621552.jpeg?auto=compress&cs=tinysrgb&w=800&entry=183"
+      "https://images.openbeautyfacts.org/images/products/200/000/015/1852/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "6 Rare African Oils",
@@ -12022,7 +12022,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621552/pexels-photo-6621552.jpeg?auto=compress&cs=tinysrgb&w=800&entry=183"
+        "image": "https://images.openbeautyfacts.org/images/products/200/000/015/1852/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12056,9 +12056,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1539,
-    "image": "https://images.pexels.com/photos/6621553/pexels-photo-6621553.jpeg?auto=compress&cs=tinysrgb&w=800&entry=184",
+    "image": "https://m.media-amazon.com/images/I/51A6Er4ymfL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621553/pexels-photo-6621553.jpeg?auto=compress&cs=tinysrgb&w=800&entry=184"
+      "https://m.media-amazon.com/images/I/51A6Er4ymfL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pro-Vitamin B5",
@@ -12076,7 +12076,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621553/pexels-photo-6621553.jpeg?auto=compress&cs=tinysrgb&w=800&entry=184"
+        "image": "https://m.media-amazon.com/images/I/51A6Er4ymfL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12110,9 +12110,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1612,
-    "image": "https://images.pexels.com/photos/6621554/pexels-photo-6621554.jpeg?auto=compress&cs=tinysrgb&w=800&entry=185",
+    "image": "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621554/pexels-photo-6621554.jpeg?auto=compress&cs=tinysrgb&w=800&entry=185"
+      "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Potent L-Ascorbic Acid 15%",
@@ -12130,7 +12130,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621554/pexels-photo-6621554.jpeg?auto=compress&cs=tinysrgb&w=800&entry=185"
+        "image": "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12165,9 +12165,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1685,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621555/pexels-photo-6621555.jpeg?auto=compress&cs=tinysrgb&w=800&entry=186",
+    "image": "https://m.media-amazon.com/images/I/71EHQjdGjAL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621555/pexels-photo-6621555.jpeg?auto=compress&cs=tinysrgb&w=800&entry=186"
+      "https://m.media-amazon.com/images/I/71EHQjdGjAL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "12% AHA Blend (Glycolic, Tartaric, Lactic, Citric)",
@@ -12184,7 +12184,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621555/pexels-photo-6621555.jpeg?auto=compress&cs=tinysrgb&w=800&entry=186"
+        "image": "https://m.media-amazon.com/images/I/71EHQjdGjAL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12218,9 +12218,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1758,
-    "image": "https://images.pexels.com/photos/6621556/pexels-photo-6621556.jpeg?auto=compress&cs=tinysrgb&w=800&entry=187",
+    "image": "https://m.media-amazon.com/images/I/51-LpnmnuBL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621556/pexels-photo-6621556.jpeg?auto=compress&cs=tinysrgb&w=800&entry=187"
+      "https://m.media-amazon.com/images/I/51-LpnmnuBL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "100% Unrefined Sclerocarya Birrea Seed Oil",
@@ -12237,7 +12237,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621556/pexels-photo-6621556.jpeg?auto=compress&cs=tinysrgb&w=800&entry=187"
+        "image": "https://m.media-amazon.com/images/I/51-LpnmnuBL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12271,9 +12271,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1831,
-    "image": "https://images.pexels.com/photos/6621557/pexels-photo-6621557.jpeg?auto=compress&cs=tinysrgb&w=800&entry=188",
+    "image": "https://m.media-amazon.com/images/I/71ZRtPDEpGL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621557/pexels-photo-6621557.jpeg?auto=compress&cs=tinysrgb&w=800&entry=188"
+      "https://m.media-amazon.com/images/I/71ZRtPDEpGL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Mild Surfactant Blend",
@@ -12291,7 +12291,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621557/pexels-photo-6621557.jpeg?auto=compress&cs=tinysrgb&w=800&entry=188"
+        "image": "https://m.media-amazon.com/images/I/71ZRtPDEpGL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12325,9 +12325,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1904,
-    "image": "https://images.pexels.com/photos/6621558/pexels-photo-6621558.jpeg?auto=compress&cs=tinysrgb&w=800&entry=189",
+    "image": "https://m.media-amazon.com/images/I/51ay+OmmysL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621558/pexels-photo-6621558.jpeg?auto=compress&cs=tinysrgb&w=800&entry=189"
+      "https://m.media-amazon.com/images/I/51ay+OmmysL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "5 Forms of Vitamin C",
@@ -12346,7 +12346,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621558/pexels-photo-6621558.jpeg?auto=compress&cs=tinysrgb&w=800&entry=189"
+        "image": "https://m.media-amazon.com/images/I/51ay+OmmysL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12381,9 +12381,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1977,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621559/pexels-photo-6621559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=190",
+    "image": "https://m.media-amazon.com/images/I/51doUMCsi7L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621559/pexels-photo-6621559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=190"
+      "https://m.media-amazon.com/images/I/51doUMCsi7L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "1% Vegan Pure Retinol",
@@ -12401,7 +12401,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621559/pexels-photo-6621559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=190"
+        "image": "https://m.media-amazon.com/images/I/51doUMCsi7L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12436,9 +12436,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2050,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621560/pexels-photo-6621560.jpeg?auto=compress&cs=tinysrgb&w=800&entry=191",
+    "image": "https://m.media-amazon.com/images/I/51sPrVUSAAL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621560/pexels-photo-6621560.jpeg?auto=compress&cs=tinysrgb&w=800&entry=191"
+      "https://m.media-amazon.com/images/I/51sPrVUSAAL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Zinc Oxide 20%",
@@ -12456,7 +12456,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621560/pexels-photo-6621560.jpeg?auto=compress&cs=tinysrgb&w=800&entry=191"
+        "image": "https://m.media-amazon.com/images/I/51sPrVUSAAL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12490,9 +12490,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2123,
-    "image": "https://images.pexels.com/photos/6621561/pexels-photo-6621561.jpeg?auto=compress&cs=tinysrgb&w=800&entry=192",
+    "image": "https://m.media-amazon.com/images/I/51IjoeOMgyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621561/pexels-photo-6621561.jpeg?auto=compress&cs=tinysrgb&w=800&entry=192"
+      "https://m.media-amazon.com/images/I/51IjoeOMgyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "4-Electrolyte Blend",
@@ -12510,7 +12510,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621561/pexels-photo-6621561.jpeg?auto=compress&cs=tinysrgb&w=800&entry=192"
+        "image": "https://m.media-amazon.com/images/I/51IjoeOMgyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12544,9 +12544,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2196,
-    "image": "https://images.pexels.com/photos/6621562/pexels-photo-6621562.jpeg?auto=compress&cs=tinysrgb&w=800&entry=193",
+    "image": "https://m.media-amazon.com/images/I/619pEcUikRL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621562/pexels-photo-6621562.jpeg?auto=compress&cs=tinysrgb&w=800&entry=193"
+      "https://m.media-amazon.com/images/I/619pEcUikRL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "African Oil Blend",
@@ -12564,7 +12564,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621562/pexels-photo-6621562.jpeg?auto=compress&cs=tinysrgb&w=800&entry=193"
+        "image": "https://m.media-amazon.com/images/I/619pEcUikRL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12598,9 +12598,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2269,
-    "image": "https://images.pexels.com/photos/6621563/pexels-photo-6621563.jpeg?auto=compress&cs=tinysrgb&w=800&entry=194",
+    "image": "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621563/pexels-photo-6621563.jpeg?auto=compress&cs=tinysrgb&w=800&entry=194"
+      "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese Wild Rose",
@@ -12619,7 +12619,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621563/pexels-photo-6621563.jpeg?auto=compress&cs=tinysrgb&w=800&entry=194"
+        "image": "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12653,9 +12653,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2342,
-    "image": "https://images.pexels.com/photos/6621564/pexels-photo-6621564.jpeg?auto=compress&cs=tinysrgb&w=800&entry=195",
+    "image": "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621564/pexels-photo-6621564.jpeg?auto=compress&cs=tinysrgb&w=800&entry=195"
+      "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese Purple Rice",
@@ -12674,7 +12674,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621564/pexels-photo-6621564.jpeg?auto=compress&cs=tinysrgb&w=800&entry=195"
+        "image": "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12709,9 +12709,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 2415,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621565/pexels-photo-6621565.jpeg?auto=compress&cs=tinysrgb&w=800&entry=196",
+    "image": "https://m.media-amazon.com/images/I/41GA6oOyaNL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621565/pexels-photo-6621565.jpeg?auto=compress&cs=tinysrgb&w=800&entry=196"
+      "https://m.media-amazon.com/images/I/41GA6oOyaNL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese Rice Bran",
@@ -12729,7 +12729,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621565/pexels-photo-6621565.jpeg?auto=compress&cs=tinysrgb&w=800&entry=196"
+        "image": "https://m.media-amazon.com/images/I/41GA6oOyaNL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12764,9 +12764,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 2488,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621566/pexels-photo-6621566.jpeg?auto=compress&cs=tinysrgb&w=800&entry=197",
+    "image": "https://m.media-amazon.com/images/I/41fwz50QOYL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621566/pexels-photo-6621566.jpeg?auto=compress&cs=tinysrgb&w=800&entry=197"
+      "https://m.media-amazon.com/images/I/41fwz50QOYL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese Camellia Seed Oil",
@@ -12784,7 +12784,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621566/pexels-photo-6621566.jpeg?auto=compress&cs=tinysrgb&w=800&entry=197"
+        "image": "https://m.media-amazon.com/images/I/41fwz50QOYL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12818,9 +12818,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2561,
-    "image": "https://images.pexels.com/photos/6621567/pexels-photo-6621567.jpeg?auto=compress&cs=tinysrgb&w=800&entry=198",
+    "image": "https://m.media-amazon.com/images/I/41rWdRBDPkL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621567/pexels-photo-6621567.jpeg?auto=compress&cs=tinysrgb&w=800&entry=198"
+      "https://m.media-amazon.com/images/I/41rWdRBDPkL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Silk Extracts (Fibroin, Sericin)",
@@ -12838,7 +12838,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621567/pexels-photo-6621567.jpeg?auto=compress&cs=tinysrgb&w=800&entry=198"
+        "image": "https://m.media-amazon.com/images/I/41rWdRBDPkL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12872,9 +12872,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 234,
-    "image": "https://images.pexels.com/photos/6621568/pexels-photo-6621568.jpeg?auto=compress&cs=tinysrgb&w=800&entry=199",
+    "image": "https://m.media-amazon.com/images/I/41pLrsp0-xL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621568/pexels-photo-6621568.jpeg?auto=compress&cs=tinysrgb&w=800&entry=199"
+      "https://m.media-amazon.com/images/I/41pLrsp0-xL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Akita Rice",
@@ -12892,7 +12892,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621568/pexels-photo-6621568.jpeg?auto=compress&cs=tinysrgb&w=800&entry=199"
+        "image": "https://m.media-amazon.com/images/I/41pLrsp0-xL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12926,9 +12926,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 307,
-    "image": "https://images.pexels.com/photos/6621569/pexels-photo-6621569.jpeg?auto=compress&cs=tinysrgb&w=800&entry=200",
+    "image": "https://m.media-amazon.com/images/I/41l8K+InK8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621569/pexels-photo-6621569.jpeg?auto=compress&cs=tinysrgb&w=800&entry=200"
+      "https://m.media-amazon.com/images/I/41l8K+InK8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hadasei-3™",
@@ -12947,7 +12947,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621569/pexels-photo-6621569.jpeg?auto=compress&cs=tinysrgb&w=800&entry=200"
+        "image": "https://m.media-amazon.com/images/I/41l8K+InK8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -12982,9 +12982,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 380,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621570/pexels-photo-6621570.jpeg?auto=compress&cs=tinysrgb&w=800&entry=201",
+    "image": "https://m.media-amazon.com/images/I/411XWeOGItL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621570/pexels-photo-6621570.jpeg?auto=compress&cs=tinysrgb&w=800&entry=201"
+      "https://m.media-amazon.com/images/I/411XWeOGItL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese White Peony Extract",
@@ -13002,7 +13002,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621570/pexels-photo-6621570.jpeg?auto=compress&cs=tinysrgb&w=800&entry=201"
+        "image": "https://m.media-amazon.com/images/I/411XWeOGItL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -13036,9 +13036,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 453,
-    "image": "https://images.pexels.com/photos/6621571/pexels-photo-6621571.jpeg?auto=compress&cs=tinysrgb&w=800&entry=202",
+    "image": "https://m.media-amazon.com/images/I/5114YoGORjL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621571/pexels-photo-6621571.jpeg?auto=compress&cs=tinysrgb&w=800&entry=202"
+      "https://m.media-amazon.com/images/I/5114YoGORjL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Natural Japanese Indigo",
@@ -13056,7 +13056,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621571/pexels-photo-6621571.jpeg?auto=compress&cs=tinysrgb&w=800&entry=202"
+        "image": "https://m.media-amazon.com/images/I/5114YoGORjL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -13090,9 +13090,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 526,
-    "image": "https://images.pexels.com/photos/6621572/pexels-photo-6621572.jpeg?auto=compress&cs=tinysrgb&w=800&entry=203",
+    "image": "https://m.media-amazon.com/images/I/413dfN69ggL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621572/pexels-photo-6621572.jpeg?auto=compress&cs=tinysrgb&w=800&entry=203"
+      "https://m.media-amazon.com/images/I/413dfN69ggL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese Luffa Fruit",
@@ -13110,7 +13110,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621572/pexels-photo-6621572.jpeg?auto=compress&cs=tinysrgb&w=800&entry=203"
+        "image": "https://m.media-amazon.com/images/I/413dfN69ggL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -13145,9 +13145,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 599,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621573/pexels-photo-6621573.jpeg?auto=compress&cs=tinysrgb&w=800&entry=204",
+    "image": "https://m.media-amazon.com/images/I/41NNh5sDsiL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621573/pexels-photo-6621573.jpeg?auto=compress&cs=tinysrgb&w=800&entry=204"
+      "https://m.media-amazon.com/images/I/41NNh5sDsiL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese Lemon Balm",
@@ -13165,7 +13165,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621573/pexels-photo-6621573.jpeg?auto=compress&cs=tinysrgb&w=800&entry=204"
+        "image": "https://m.media-amazon.com/images/I/41NNh5sDsiL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -13199,9 +13199,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 672,
-    "image": "https://images.pexels.com/photos/6621574/pexels-photo-6621574.jpeg?auto=compress&cs=tinysrgb&w=800&entry=205",
+    "image": "https://m.media-amazon.com/images/I/51lH+mSw7PL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621574/pexels-photo-6621574.jpeg?auto=compress&cs=tinysrgb&w=800&entry=205"
+      "https://m.media-amazon.com/images/I/51lH+mSw7PL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Zinc Oxide 15%",
@@ -13219,7 +13219,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621574/pexels-photo-6621574.jpeg?auto=compress&cs=tinysrgb&w=800&entry=205"
+        "image": "https://m.media-amazon.com/images/I/51lH+mSw7PL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -13254,9 +13254,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 745,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621575/pexels-photo-6621575.jpeg?auto=compress&cs=tinysrgb&w=800&entry=206",
+    "image": "https://m.media-amazon.com/images/I/51IJErLxxBL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621575/pexels-photo-6621575.jpeg?auto=compress&cs=tinysrgb&w=800&entry=206"
+      "https://m.media-amazon.com/images/I/51IJErLxxBL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Japanese Peach Seed Extract",
@@ -13274,7 +13274,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621575/pexels-photo-6621575.jpeg?auto=compress&cs=tinysrgb&w=800&entry=206"
+        "image": "https://m.media-amazon.com/images/I/51IJErLxxBL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -13308,9 +13308,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 818,
-    "image": "https://images.pexels.com/photos/6621576/pexels-photo-6621576.jpeg?auto=compress&cs=tinysrgb&w=800&entry=207",
+    "image": "https://m.media-amazon.com/images/I/61e8V6J6uDL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621576/pexels-photo-6621576.jpeg?auto=compress&cs=tinysrgb&w=800&entry=207"
+      "https://m.media-amazon.com/images/I/61e8V6J6uDL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Niacinamide 5%",
@@ -13328,7 +13328,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621576/pexels-photo-6621576.jpeg?auto=compress&cs=tinysrgb&w=800&entry=207"
+        "image": "https://m.media-amazon.com/images/I/61e8V6J6uDL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13362,9 +13362,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 891,
-    "image": "https://images.pexels.com/photos/6621577/pexels-photo-6621577.jpeg?auto=compress&cs=tinysrgb&w=800&entry=208",
+    "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621577/pexels-photo-6621577.jpeg?auto=compress&cs=tinysrgb&w=800&entry=208"
+      "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Copper Tripeptide-1 (GHK-Cu)",
@@ -13381,7 +13381,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621577/pexels-photo-6621577.jpeg?auto=compress&cs=tinysrgb&w=800&entry=208"
+        "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13415,9 +13415,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 964,
-    "image": "https://images.pexels.com/photos/6621578/pexels-photo-6621578.jpeg?auto=compress&cs=tinysrgb&w=800&entry=209",
+    "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621578/pexels-photo-6621578.jpeg?auto=compress&cs=tinysrgb&w=800&entry=209"
+      "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pro-Xylane (Hydroxypropyl Tetrahydropyrantriol) 30%",
@@ -13434,7 +13434,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621578/pexels-photo-6621578.jpeg?auto=compress&cs=tinysrgb&w=800&entry=209"
+        "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13468,9 +13468,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1037,
-    "image": "https://images.pexels.com/photos/6621579/pexels-photo-6621579.jpeg?auto=compress&cs=tinysrgb&w=800&entry=210",
+    "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621579/pexels-photo-6621579.jpeg?auto=compress&cs=tinysrgb&w=800&entry=210"
+      "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Tranexamic Acid 3%",
@@ -13488,7 +13488,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621579/pexels-photo-6621579.jpeg?auto=compress&cs=tinysrgb&w=800&entry=210"
+        "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13523,9 +13523,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1110,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621580/pexels-photo-6621580.jpeg?auto=compress&cs=tinysrgb&w=800&entry=211",
+    "image": "https://m.media-amazon.com/images/I/61QRZ2BDgbL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621580/pexels-photo-6621580.jpeg?auto=compress&cs=tinysrgb&w=800&entry=211"
+      "https://m.media-amazon.com/images/I/61QRZ2BDgbL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "French Black Truffle Extract",
@@ -13543,7 +13543,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621580/pexels-photo-6621580.jpeg?auto=compress&cs=tinysrgb&w=800&entry=211"
+        "image": "https://m.media-amazon.com/images/I/61QRZ2BDgbL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13577,9 +13577,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1183,
-    "image": "https://images.pexels.com/photos/6621581/pexels-photo-6621581.jpeg?auto=compress&cs=tinysrgb&w=800&entry=212",
+    "image": "https://m.media-amazon.com/images/I/61ioO3X1J9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621581/pexels-photo-6621581.jpeg?auto=compress&cs=tinysrgb&w=800&entry=212"
+      "https://m.media-amazon.com/images/I/61ioO3X1J9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Rice Bran Ferment Filtrate 65%",
@@ -13596,7 +13596,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621581/pexels-photo-6621581.jpeg?auto=compress&cs=tinysrgb&w=800&entry=212"
+        "image": "https://m.media-amazon.com/images/I/61ioO3X1J9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13630,9 +13630,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1256,
-    "image": "https://images.pexels.com/photos/6621582/pexels-photo-6621582.jpeg?auto=compress&cs=tinysrgb&w=800&entry=213",
+    "image": "https://m.media-amazon.com/images/I/61TR9nS9B8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621582/pexels-photo-6621582.jpeg?auto=compress&cs=tinysrgb&w=800&entry=213"
+      "https://m.media-amazon.com/images/I/61TR9nS9B8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Encapsulated Salicylic Acid 2%",
@@ -13650,7 +13650,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621582/pexels-photo-6621582.jpeg?auto=compress&cs=tinysrgb&w=800&entry=213"
+        "image": "https://m.media-amazon.com/images/I/61TR9nS9B8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13684,9 +13684,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1329,
-    "image": "https://images.pexels.com/photos/6621583/pexels-photo-6621583.jpeg?auto=compress&cs=tinysrgb&w=800&entry=214",
+    "image": "https://m.media-amazon.com/images/I/71sYf+kx5RL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621583/pexels-photo-6621583.jpeg?auto=compress&cs=tinysrgb&w=800&entry=214"
+      "https://m.media-amazon.com/images/I/71sYf+kx5RL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Madecassoside 0.5%",
@@ -13704,7 +13704,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621583/pexels-photo-6621583.jpeg?auto=compress&cs=tinysrgb&w=800&entry=214"
+        "image": "https://m.media-amazon.com/images/I/71sYf+kx5RL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13738,9 +13738,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1402,
-    "image": "https://images.pexels.com/photos/6621584/pexels-photo-6621584.jpeg?auto=compress&cs=tinysrgb&w=800&entry=215",
+    "image": "https://m.media-amazon.com/images/I/71yYM4c8xtL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621584/pexels-photo-6621584.jpeg?auto=compress&cs=tinysrgb&w=800&entry=215"
+      "https://m.media-amazon.com/images/I/71yYM4c8xtL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "100% Olive-Derived Squalane",
@@ -13757,7 +13757,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621584/pexels-photo-6621584.jpeg?auto=compress&cs=tinysrgb&w=800&entry=215"
+        "image": "https://m.media-amazon.com/images/I/71yYM4c8xtL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13792,9 +13792,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1475,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621585/pexels-photo-6621585.jpeg?auto=compress&cs=tinysrgb&w=800&entry=216",
+    "image": "https://m.media-amazon.com/images/I/61e8V6J6uDL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621585/pexels-photo-6621585.jpeg?auto=compress&cs=tinysrgb&w=800&entry=216"
+      "https://m.media-amazon.com/images/I/61e8V6J6uDL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "24K Pure Gold Foil",
@@ -13812,7 +13812,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621585/pexels-photo-6621585.jpeg?auto=compress&cs=tinysrgb&w=800&entry=216"
+        "image": "https://m.media-amazon.com/images/I/61e8V6J6uDL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13846,9 +13846,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1548,
-    "image": "https://images.pexels.com/photos/6621586/pexels-photo-6621586.jpeg?auto=compress&cs=tinysrgb&w=800&entry=217",
+    "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621586/pexels-photo-6621586.jpeg?auto=compress&cs=tinysrgb&w=800&entry=217"
+      "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "8D Hyaluronic Acid Matrix",
@@ -13865,7 +13865,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621586/pexels-photo-6621586.jpeg?auto=compress&cs=tinysrgb&w=800&entry=217"
+        "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13900,9 +13900,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1621,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621587/pexels-photo-6621587.jpeg?auto=compress&cs=tinysrgb&w=800&entry=218",
+    "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621587/pexels-photo-6621587.jpeg?auto=compress&cs=tinysrgb&w=800&entry=218"
+      "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Micronized Azelaic Acid 15%",
@@ -13920,7 +13920,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621587/pexels-photo-6621587.jpeg?auto=compress&cs=tinysrgb&w=800&entry=218"
+        "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -13954,9 +13954,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1694,
-    "image": "https://images.pexels.com/photos/6621588/pexels-photo-6621588.jpeg?auto=compress&cs=tinysrgb&w=800&entry=219",
+    "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621588/pexels-photo-6621588.jpeg?auto=compress&cs=tinysrgb&w=800&entry=219"
+      "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ubiquinone (CoQ10) 1%",
@@ -13974,7 +13974,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621588/pexels-photo-6621588.jpeg?auto=compress&cs=tinysrgb&w=800&entry=219"
+        "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14008,9 +14008,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1767,
-    "image": "https://images.pexels.com/photos/6621589/pexels-photo-6621589.jpeg?auto=compress&cs=tinysrgb&w=800&entry=220",
+    "image": "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621589/pexels-photo-6621589.jpeg?auto=compress&cs=tinysrgb&w=800&entry=220"
+      "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Australian Tea Tree Oil",
@@ -14028,7 +14028,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621589/pexels-photo-6621589.jpeg?auto=compress&cs=tinysrgb&w=800&entry=220"
+        "image": "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14063,9 +14063,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1840,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621590/pexels-photo-6621590.jpeg?auto=compress&cs=tinysrgb&w=800&entry=221",
+    "image": "https://m.media-amazon.com/images/I/61ioO3X1J9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621590/pexels-photo-6621590.jpeg?auto=compress&cs=tinysrgb&w=800&entry=221"
+      "https://m.media-amazon.com/images/I/61ioO3X1J9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Bifida Ferment Lysate 90%",
@@ -14083,7 +14083,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621590/pexels-photo-6621590.jpeg?auto=compress&cs=tinysrgb&w=800&entry=221"
+        "image": "https://m.media-amazon.com/images/I/61ioO3X1J9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14117,9 +14117,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1913,
-    "image": "https://images.pexels.com/photos/6621591/pexels-photo-6621591.jpeg?auto=compress&cs=tinysrgb&w=800&entry=222",
+    "image": "https://m.media-amazon.com/images/I/71PHU8rwXTL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621591/pexels-photo-6621591.jpeg?auto=compress&cs=tinysrgb&w=800&entry=222"
+      "https://m.media-amazon.com/images/I/71PHU8rwXTL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Alpha-Arbutin 3%",
@@ -14137,7 +14137,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621591/pexels-photo-6621591.jpeg?auto=compress&cs=tinysrgb&w=800&entry=222"
+        "image": "https://m.media-amazon.com/images/I/71PHU8rwXTL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14171,9 +14171,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1986,
-    "image": "https://images.pexels.com/photos/6621592/pexels-photo-6621592.jpeg?auto=compress&cs=tinysrgb&w=800&entry=223",
+    "image": "https://m.media-amazon.com/images/I/81nZAF-gRKL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621592/pexels-photo-6621592.jpeg?auto=compress&cs=tinysrgb&w=800&entry=223"
+      "https://m.media-amazon.com/images/I/81nZAF-gRKL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Liposomal Glutathione",
@@ -14191,7 +14191,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621592/pexels-photo-6621592.jpeg?auto=compress&cs=tinysrgb&w=800&entry=223"
+        "image": "https://m.media-amazon.com/images/I/81nZAF-gRKL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14225,9 +14225,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2059,
-    "image": "https://images.pexels.com/photos/6621593/pexels-photo-6621593.jpeg?auto=compress&cs=tinysrgb&w=800&entry=224",
+    "image": "https://m.media-amazon.com/images/I/61KFLJUftbL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621593/pexels-photo-6621593.jpeg?auto=compress&cs=tinysrgb&w=800&entry=224"
+      "https://m.media-amazon.com/images/I/61KFLJUftbL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Raw Grade A Shea Butter 30%",
@@ -14245,7 +14245,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621593/pexels-photo-6621593.jpeg?auto=compress&cs=tinysrgb&w=800&entry=224"
+        "image": "https://m.media-amazon.com/images/I/61KFLJUftbL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14280,9 +14280,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 2132,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621594/pexels-photo-6621594.jpeg?auto=compress&cs=tinysrgb&w=800&entry=225",
+    "image": "https://m.media-amazon.com/images/I/61Q+1UCIuIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621594/pexels-photo-6621594.jpeg?auto=compress&cs=tinysrgb&w=800&entry=225"
+      "https://m.media-amazon.com/images/I/61Q+1UCIuIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Curcuma Longa (Turmeric) Root Extract",
@@ -14300,7 +14300,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621594/pexels-photo-6621594.jpeg?auto=compress&cs=tinysrgb&w=800&entry=225"
+        "image": "https://m.media-amazon.com/images/I/61Q+1UCIuIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14335,9 +14335,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 2205,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621595/pexels-photo-6621595.jpeg?auto=compress&cs=tinysrgb&w=800&entry=226",
+    "image": "https://m.media-amazon.com/images/I/81NvznQ2yKL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621595/pexels-photo-6621595.jpeg?auto=compress&cs=tinysrgb&w=800&entry=226"
+      "https://m.media-amazon.com/images/I/81NvznQ2yKL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Glycolic Acid 12%",
@@ -14355,7 +14355,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621595/pexels-photo-6621595.jpeg?auto=compress&cs=tinysrgb&w=800&entry=226"
+        "image": "https://m.media-amazon.com/images/I/81NvznQ2yKL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14389,9 +14389,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2278,
-    "image": "https://images.pexels.com/photos/6621596/pexels-photo-6621596.jpeg?auto=compress&cs=tinysrgb&w=800&entry=227",
+    "image": "https://m.media-amazon.com/images/I/41M8qBdYvJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621596/pexels-photo-6621596.jpeg?auto=compress&cs=tinysrgb&w=800&entry=227"
+      "https://m.media-amazon.com/images/I/41M8qBdYvJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Snail Secretion Filtrate 92%",
@@ -14409,7 +14409,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621596/pexels-photo-6621596.jpeg?auto=compress&cs=tinysrgb&w=800&entry=227"
+        "image": "https://m.media-amazon.com/images/I/41M8qBdYvJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14443,9 +14443,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2351,
-    "image": "https://images.pexels.com/photos/6621597/pexels-photo-6621597.jpeg?auto=compress&cs=tinysrgb&w=800&entry=228",
+    "image": "https://m.media-amazon.com/images/I/71YpdRJWPdL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621597/pexels-photo-6621597.jpeg?auto=compress&cs=tinysrgb&w=800&entry=228"
+      "https://m.media-amazon.com/images/I/71YpdRJWPdL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Microencapsulated Retinol 0.2%",
@@ -14463,7 +14463,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621597/pexels-photo-6621597.jpeg?auto=compress&cs=tinysrgb&w=800&entry=228"
+        "image": "https://m.media-amazon.com/images/I/71YpdRJWPdL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14497,9 +14497,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2424,
-    "image": "https://images.pexels.com/photos/6621598/pexels-photo-6621598.jpeg?auto=compress&cs=tinysrgb&w=800&entry=229",
+    "image": "https://m.media-amazon.com/images/I/81M8l5dX96L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621598/pexels-photo-6621598.jpeg?auto=compress&cs=tinysrgb&w=800&entry=229"
+      "https://m.media-amazon.com/images/I/81M8l5dX96L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pasture Goat Milk 15%",
@@ -14517,7 +14517,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621598/pexels-photo-6621598.jpeg?auto=compress&cs=tinysrgb&w=800&entry=229"
+        "image": "https://m.media-amazon.com/images/I/81M8l5dX96L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14551,9 +14551,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2497,
-    "image": "https://images.pexels.com/photos/6621599/pexels-photo-6621599.jpeg?auto=compress&cs=tinysrgb&w=800&entry=230",
+    "image": "https://m.media-amazon.com/images/I/71OuyL6-spL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621599/pexels-photo-6621599.jpeg?auto=compress&cs=tinysrgb&w=800&entry=230"
+      "https://m.media-amazon.com/images/I/71OuyL6-spL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Tocopheryl Acetate 70,000 IU",
@@ -14571,7 +14571,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621599/pexels-photo-6621599.jpeg?auto=compress&cs=tinysrgb&w=800&entry=230"
+        "image": "https://m.media-amazon.com/images/I/71OuyL6-spL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14606,9 +14606,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2570,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621600/pexels-photo-6621600.jpeg?auto=compress&cs=tinysrgb&w=800&entry=231",
+    "image": "https://m.media-amazon.com/images/I/71PHU8rwXTL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621600/pexels-photo-6621600.jpeg?auto=compress&cs=tinysrgb&w=800&entry=231"
+      "https://m.media-amazon.com/images/I/71PHU8rwXTL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pharmaceutical Grade Urea 40%",
@@ -14626,7 +14626,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621600/pexels-photo-6621600.jpeg?auto=compress&cs=tinysrgb&w=800&entry=231"
+        "image": "https://m.media-amazon.com/images/I/71PHU8rwXTL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14661,9 +14661,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 243,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621601/pexels-photo-6621601.jpeg?auto=compress&cs=tinysrgb&w=800&entry=232",
+    "image": "https://m.media-amazon.com/images/I/81nZAF-gRKL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621601/pexels-photo-6621601.jpeg?auto=compress&cs=tinysrgb&w=800&entry=232"
+      "https://m.media-amazon.com/images/I/81nZAF-gRKL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Organic Roasted Arabica Grounds",
@@ -14681,7 +14681,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621601/pexels-photo-6621601.jpeg?auto=compress&cs=tinysrgb&w=800&entry=232"
+        "image": "https://m.media-amazon.com/images/I/81nZAF-gRKL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14715,9 +14715,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 316,
-    "image": "https://images.pexels.com/photos/6621602/pexels-photo-6621602.jpeg?auto=compress&cs=tinysrgb&w=800&entry=233",
+    "image": "https://m.media-amazon.com/images/I/61KFLJUftbL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621602/pexels-photo-6621602.jpeg?auto=compress&cs=tinysrgb&w=800&entry=233"
+      "https://m.media-amazon.com/images/I/61KFLJUftbL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Niacinamide 10%",
@@ -14735,7 +14735,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621602/pexels-photo-6621602.jpeg?auto=compress&cs=tinysrgb&w=800&entry=233"
+        "image": "https://m.media-amazon.com/images/I/61KFLJUftbL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14769,9 +14769,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 389,
-    "image": "https://images.pexels.com/photos/6621603/pexels-photo-6621603.jpeg?auto=compress&cs=tinysrgb&w=800&entry=234",
+    "image": "https://m.media-amazon.com/images/I/61Q+1UCIuIL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621603/pexels-photo-6621603.jpeg?auto=compress&cs=tinysrgb&w=800&entry=234"
+      "https://m.media-amazon.com/images/I/61Q+1UCIuIL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Organic Cold-Pressed Castor Oil",
@@ -14789,7 +14789,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621603/pexels-photo-6621603.jpeg?auto=compress&cs=tinysrgb&w=800&entry=234"
+        "image": "https://m.media-amazon.com/images/I/61Q+1UCIuIL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14823,9 +14823,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 462,
-    "image": "https://images.pexels.com/photos/6621604/pexels-photo-6621604.jpeg?auto=compress&cs=tinysrgb&w=800&entry=235",
+    "image": "https://m.media-amazon.com/images/I/81NvznQ2yKL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621604/pexels-photo-6621604.jpeg?auto=compress&cs=tinysrgb&w=800&entry=235"
+      "https://m.media-amazon.com/images/I/81NvznQ2yKL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Zechstein Magnesium Chloride 25%",
@@ -14843,7 +14843,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621604/pexels-photo-6621604.jpeg?auto=compress&cs=tinysrgb&w=800&entry=235"
+        "image": "https://m.media-amazon.com/images/I/81NvznQ2yKL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14878,9 +14878,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 535,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621605/pexels-photo-6621605.jpeg?auto=compress&cs=tinysrgb&w=800&entry=236",
+    "image": "https://m.media-amazon.com/images/I/41M8qBdYvJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621605/pexels-photo-6621605.jpeg?auto=compress&cs=tinysrgb&w=800&entry=236"
+      "https://m.media-amazon.com/images/I/41M8qBdYvJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Nano Micronized Pearl Powder 5%",
@@ -14898,7 +14898,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621605/pexels-photo-6621605.jpeg?auto=compress&cs=tinysrgb&w=800&entry=236"
+        "image": "https://m.media-amazon.com/images/I/41M8qBdYvJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14932,9 +14932,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 608,
-    "image": "https://images.pexels.com/photos/6621606/pexels-photo-6621606.jpeg?auto=compress&cs=tinysrgb&w=800&entry=237",
+    "image": "https://m.media-amazon.com/images/I/811xCK+mkiL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621606/pexels-photo-6621606.jpeg?auto=compress&cs=tinysrgb&w=800&entry=237"
+      "https://m.media-amazon.com/images/I/811xCK+mkiL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Oligopeptide-1 (EGF)",
@@ -14952,7 +14952,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621606/pexels-photo-6621606.jpeg?auto=compress&cs=tinysrgb&w=800&entry=237"
+        "image": "https://m.media-amazon.com/images/I/811xCK+mkiL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -14986,9 +14986,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 681,
-    "image": "https://images.pexels.com/photos/6621607/pexels-photo-6621607.jpeg?auto=compress&cs=tinysrgb&w=800&entry=238",
+    "image": "https://m.media-amazon.com/images/I/81qEikvaoHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621607/pexels-photo-6621607.jpeg?auto=compress&cs=tinysrgb&w=800&entry=238"
+      "https://m.media-amazon.com/images/I/81qEikvaoHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Recombinant Type III Collagen 3%",
@@ -15006,7 +15006,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621607/pexels-photo-6621607.jpeg?auto=compress&cs=tinysrgb&w=800&entry=238"
+        "image": "https://m.media-amazon.com/images/I/81qEikvaoHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15041,9 +15041,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 754,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621608/pexels-photo-6621608.jpeg?auto=compress&cs=tinysrgb&w=800&entry=239",
+    "image": "https://m.media-amazon.com/images/I/51y0KkRkQ9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621608/pexels-photo-6621608.jpeg?auto=compress&cs=tinysrgb&w=800&entry=239"
+      "https://m.media-amazon.com/images/I/51y0KkRkQ9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Natural Ectoine 2%",
@@ -15061,7 +15061,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621608/pexels-photo-6621608.jpeg?auto=compress&cs=tinysrgb&w=800&entry=239"
+        "image": "https://m.media-amazon.com/images/I/51y0KkRkQ9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15095,9 +15095,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 827,
-    "image": "https://images.pexels.com/photos/6621609/pexels-photo-6621609.jpeg?auto=compress&cs=tinysrgb&w=800&entry=240",
+    "image": "https://m.media-amazon.com/images/I/81-E4cRJFEL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621609/pexels-photo-6621609.jpeg?auto=compress&cs=tinysrgb&w=800&entry=240"
+      "https://m.media-amazon.com/images/I/81-E4cRJFEL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Tranexamic Acid 5%",
@@ -15115,7 +15115,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621609/pexels-photo-6621609.jpeg?auto=compress&cs=tinysrgb&w=800&entry=240"
+        "image": "https://m.media-amazon.com/images/I/81-E4cRJFEL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15150,9 +15150,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 900,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621610/pexels-photo-6621610.jpeg?auto=compress&cs=tinysrgb&w=800&entry=241",
+    "image": "https://m.media-amazon.com/images/I/6189w27LQHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621610/pexels-photo-6621610.jpeg?auto=compress&cs=tinysrgb&w=800&entry=241"
+      "https://m.media-amazon.com/images/I/6189w27LQHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Polyglutamic Acid (PGA) 3%",
@@ -15170,7 +15170,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621610/pexels-photo-6621610.jpeg?auto=compress&cs=tinysrgb&w=800&entry=241"
+        "image": "https://m.media-amazon.com/images/I/6189w27LQHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15204,9 +15204,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 973,
-    "image": "https://images.pexels.com/photos/6621611/pexels-photo-6621611.jpeg?auto=compress&cs=tinysrgb&w=800&entry=242",
+    "image": "https://m.media-amazon.com/images/I/610PPxmrh9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621611/pexels-photo-6621611.jpeg?auto=compress&cs=tinysrgb&w=800&entry=242"
+      "https://m.media-amazon.com/images/I/610PPxmrh9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Sodium DNA (PDRN) 2000ppm",
@@ -15224,7 +15224,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621611/pexels-photo-6621611.jpeg?auto=compress&cs=tinysrgb&w=800&entry=242"
+        "image": "https://m.media-amazon.com/images/I/610PPxmrh9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15258,9 +15258,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1046,
-    "image": "https://images.pexels.com/photos/6621612/pexels-photo-6621612.jpeg?auto=compress&cs=tinysrgb&w=800&entry=243",
+    "image": "https://m.media-amazon.com/images/I/61ch8cDkDzL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621612/pexels-photo-6621612.jpeg?auto=compress&cs=tinysrgb&w=800&entry=243"
+      "https://m.media-amazon.com/images/I/61ch8cDkDzL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "EGT (L-Ergothioneine) 1%",
@@ -15278,7 +15278,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621612/pexels-photo-6621612.jpeg?auto=compress&cs=tinysrgb&w=800&entry=243"
+        "image": "https://m.media-amazon.com/images/I/61ch8cDkDzL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15312,9 +15312,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1119,
-    "image": "https://images.pexels.com/photos/6621613/pexels-photo-6621613.jpeg?auto=compress&cs=tinysrgb&w=800&entry=244",
+    "image": "https://m.media-amazon.com/images/I/81BzDM311qL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621613/pexels-photo-6621613.jpeg?auto=compress&cs=tinysrgb&w=800&entry=244"
+      "https://m.media-amazon.com/images/I/81BzDM311qL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "D-Panthenol (Provitamin B5) 10%",
@@ -15332,7 +15332,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621613/pexels-photo-6621613.jpeg?auto=compress&cs=tinysrgb&w=800&entry=244"
+        "image": "https://m.media-amazon.com/images/I/81BzDM311qL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15366,9 +15366,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1192,
-    "image": "https://images.pexels.com/photos/6621614/pexels-photo-6621614.jpeg?auto=compress&cs=tinysrgb&w=800&entry=245",
+    "image": "https://m.media-amazon.com/images/I/71KIl4anawL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621614/pexels-photo-6621614.jpeg?auto=compress&cs=tinysrgb&w=800&entry=245"
+      "https://m.media-amazon.com/images/I/71KIl4anawL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Retinaldehyde 0.1%",
@@ -15386,7 +15386,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621614/pexels-photo-6621614.jpeg?auto=compress&cs=tinysrgb&w=800&entry=245"
+        "image": "https://m.media-amazon.com/images/I/71KIl4anawL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15421,9 +15421,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1265,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621615/pexels-photo-6621615.jpeg?auto=compress&cs=tinysrgb&w=800&entry=246",
+    "image": "https://m.media-amazon.com/images/I/811xCK+mkiL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621615/pexels-photo-6621615.jpeg?auto=compress&cs=tinysrgb&w=800&entry=246"
+      "https://m.media-amazon.com/images/I/811xCK+mkiL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Plant Exosomes (Cica)",
@@ -15441,7 +15441,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621615/pexels-photo-6621615.jpeg?auto=compress&cs=tinysrgb&w=800&entry=246"
+        "image": "https://m.media-amazon.com/images/I/811xCK+mkiL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15475,9 +15475,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1338,
-    "image": "https://images.pexels.com/photos/6621616/pexels-photo-6621616.jpeg?auto=compress&cs=tinysrgb&w=800&entry=247",
+    "image": "https://m.media-amazon.com/images/I/81qEikvaoHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621616/pexels-photo-6621616.jpeg?auto=compress&cs=tinysrgb&w=800&entry=247"
+      "https://m.media-amazon.com/images/I/81qEikvaoHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Copper Tripeptide-1",
@@ -15495,7 +15495,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621616/pexels-photo-6621616.jpeg?auto=compress&cs=tinysrgb&w=800&entry=247"
+        "image": "https://m.media-amazon.com/images/I/81qEikvaoHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15529,9 +15529,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1411,
-    "image": "https://images.pexels.com/photos/6621617/pexels-photo-6621617.jpeg?auto=compress&cs=tinysrgb&w=800&entry=248",
+    "image": "https://m.media-amazon.com/images/I/51y0KkRkQ9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621617/pexels-photo-6621617.jpeg?auto=compress&cs=tinysrgb&w=800&entry=248"
+      "https://m.media-amazon.com/images/I/51y0KkRkQ9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hydroxydecyl Ubiquinone (Idebenone) 0.5%",
@@ -15548,7 +15548,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621617/pexels-photo-6621617.jpeg?auto=compress&cs=tinysrgb&w=800&entry=248"
+        "image": "https://m.media-amazon.com/images/I/51y0KkRkQ9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15582,9 +15582,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1484,
-    "image": "https://images.pexels.com/photos/6621618/pexels-photo-6621618.jpeg?auto=compress&cs=tinysrgb&w=800&entry=249",
+    "image": "https://m.media-amazon.com/images/I/81-E4cRJFEL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621618/pexels-photo-6621618.jpeg?auto=compress&cs=tinysrgb&w=800&entry=249"
+      "https://m.media-amazon.com/images/I/81-E4cRJFEL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hydrolyzed Sea Sponge Spicules",
@@ -15602,7 +15602,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621618/pexels-photo-6621618.jpeg?auto=compress&cs=tinysrgb&w=800&entry=249"
+        "image": "https://m.media-amazon.com/images/I/81-E4cRJFEL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15636,9 +15636,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1557,
-    "image": "https://images.pexels.com/photos/6621619/pexels-photo-6621619.jpeg?auto=compress&cs=tinysrgb&w=800&entry=250",
+    "image": "https://m.media-amazon.com/images/I/714vqUO0LlL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621619/pexels-photo-6621619.jpeg?auto=compress&cs=tinysrgb&w=800&entry=250"
+      "https://m.media-amazon.com/images/I/714vqUO0LlL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ceramides 1, 3, 6-II",
@@ -15656,7 +15656,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621619/pexels-photo-6621619.jpeg?auto=compress&cs=tinysrgb&w=800&entry=250"
+        "image": "https://m.media-amazon.com/images/I/714vqUO0LlL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15691,9 +15691,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1630,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621620/pexels-photo-6621620.jpeg?auto=compress&cs=tinysrgb&w=800&entry=251",
+    "image": "https://m.media-amazon.com/images/I/610PPxmrh9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621620/pexels-photo-6621620.jpeg?auto=compress&cs=tinysrgb&w=800&entry=251"
+      "https://m.media-amazon.com/images/I/610PPxmrh9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ceramide NP",
@@ -15712,7 +15712,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621620/pexels-photo-6621620.jpeg?auto=compress&cs=tinysrgb&w=800&entry=251"
+        "image": "https://m.media-amazon.com/images/I/610PPxmrh9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15746,9 +15746,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1703,
-    "image": "https://images.pexels.com/photos/6621621/pexels-photo-6621621.jpeg?auto=compress&cs=tinysrgb&w=800&entry=252",
+    "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621621/pexels-photo-6621621.jpeg?auto=compress&cs=tinysrgb&w=800&entry=252"
+      "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Bakuchiol 2%",
@@ -15766,7 +15766,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621621/pexels-photo-6621621.jpeg?auto=compress&cs=tinysrgb&w=800&entry=252"
+        "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15801,9 +15801,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1776,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621622/pexels-photo-6621622.jpeg?auto=compress&cs=tinysrgb&w=800&entry=253",
+    "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621622/pexels-photo-6621622.jpeg?auto=compress&cs=tinysrgb&w=800&entry=253"
+      "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Rosa Canina Seed Oil",
@@ -15821,7 +15821,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621622/pexels-photo-6621622.jpeg?auto=compress&cs=tinysrgb&w=800&entry=253"
+        "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15855,9 +15855,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1849,
-    "image": "https://images.pexels.com/photos/6621623/pexels-photo-6621623.jpeg?auto=compress&cs=tinysrgb&w=800&entry=254",
+    "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621623/pexels-photo-6621623.jpeg?auto=compress&cs=tinysrgb&w=800&entry=254"
+      "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Matricaria Chamomilla Extract 5%",
@@ -15875,7 +15875,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621623/pexels-photo-6621623.jpeg?auto=compress&cs=tinysrgb&w=800&entry=254"
+        "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15909,9 +15909,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1922,
-    "image": "https://images.pexels.com/photos/6621624/pexels-photo-6621624.jpeg?auto=compress&cs=tinysrgb&w=800&entry=255",
+    "image": "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621624/pexels-photo-6621624.jpeg?auto=compress&cs=tinysrgb&w=800&entry=255"
+      "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Sodium Hyaluronate 2%",
@@ -15929,7 +15929,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621624/pexels-photo-6621624.jpeg?auto=compress&cs=tinysrgb&w=800&entry=255"
+        "image": "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -15964,9 +15964,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1995,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621625/pexels-photo-6621625.jpeg?auto=compress&cs=tinysrgb&w=800&entry=256",
+    "image": "https://m.media-amazon.com/images/I/61yZNQDfbqL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621625/pexels-photo-6621625.jpeg?auto=compress&cs=tinysrgb&w=800&entry=256"
+      "https://m.media-amazon.com/images/I/61yZNQDfbqL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "3-O-Ethyl Ascorbic Acid 15%",
@@ -15984,7 +15984,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621625/pexels-photo-6621625.jpeg?auto=compress&cs=tinysrgb&w=800&entry=256"
+        "image": "https://m.media-amazon.com/images/I/61yZNQDfbqL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16018,9 +16018,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2068,
-    "image": "https://images.pexels.com/photos/6621626/pexels-photo-6621626.jpeg?auto=compress&cs=tinysrgb&w=800&entry=257",
+    "image": "https://m.media-amazon.com/images/I/61zQdEY2TJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621626/pexels-photo-6621626.jpeg?auto=compress&cs=tinysrgb&w=800&entry=257"
+      "https://m.media-amazon.com/images/I/61zQdEY2TJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Organic Matcha Green Tea Water 85%",
@@ -16038,7 +16038,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621626/pexels-photo-6621626.jpeg?auto=compress&cs=tinysrgb&w=800&entry=257"
+        "image": "https://m.media-amazon.com/images/I/61zQdEY2TJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16072,9 +16072,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2141,
-    "image": "https://images.pexels.com/photos/6621627/pexels-photo-6621627.jpeg?auto=compress&cs=tinysrgb&w=800&entry=258",
+    "image": "https://m.media-amazon.com/images/I/819MgdFHU4L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621627/pexels-photo-6621627.jpeg?auto=compress&cs=tinysrgb&w=800&entry=258"
+      "https://m.media-amazon.com/images/I/819MgdFHU4L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Galactomyces Ferment Filtrate 95%",
@@ -16091,7 +16091,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621627/pexels-photo-6621627.jpeg?auto=compress&cs=tinysrgb&w=800&entry=258"
+        "image": "https://m.media-amazon.com/images/I/819MgdFHU4L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16125,9 +16125,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2214,
-    "image": "https://images.pexels.com/photos/6621628/pexels-photo-6621628.jpeg?auto=compress&cs=tinysrgb&w=800&entry=259",
+    "image": "https://m.media-amazon.com/images/I/81lrM6+5aLL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621628/pexels-photo-6621628.jpeg?auto=compress&cs=tinysrgb&w=800&entry=259"
+      "https://m.media-amazon.com/images/I/81lrM6+5aLL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Anhydrous Caffeine 3%",
@@ -16145,7 +16145,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621628/pexels-photo-6621628.jpeg?auto=compress&cs=tinysrgb&w=800&entry=259"
+        "image": "https://m.media-amazon.com/images/I/81lrM6+5aLL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16180,9 +16180,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 2287,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621629/pexels-photo-6621629.jpeg?auto=compress&cs=tinysrgb&w=800&entry=260",
+    "image": "https://m.media-amazon.com/images/I/51h3SKNXJjL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621629/pexels-photo-6621629.jpeg?auto=compress&cs=tinysrgb&w=800&entry=260"
+      "https://m.media-amazon.com/images/I/51h3SKNXJjL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hippophae Rhamnoides (Sea Buckthorn) Fruit Oil",
@@ -16199,7 +16199,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621629/pexels-photo-6621629.jpeg?auto=compress&cs=tinysrgb&w=800&entry=260"
+        "image": "https://m.media-amazon.com/images/I/51h3SKNXJjL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16234,9 +16234,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 2360,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621630/pexels-photo-6621630.jpeg?auto=compress&cs=tinysrgb&w=800&entry=261",
+    "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621630/pexels-photo-6621630.jpeg?auto=compress&cs=tinysrgb&w=800&entry=261"
+      "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Medical Hydrocolloid",
@@ -16254,7 +16254,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621630/pexels-photo-6621630.jpeg?auto=compress&cs=tinysrgb&w=800&entry=261"
+        "image": "https://m.media-amazon.com/images/I/51EsTPWcYHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16288,9 +16288,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2433,
-    "image": "https://images.pexels.com/photos/6621631/pexels-photo-6621631.jpeg?auto=compress&cs=tinysrgb&w=800&entry=262",
+    "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621631/pexels-photo-6621631.jpeg?auto=compress&cs=tinysrgb&w=800&entry=262"
+      "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Papain Enzyme",
@@ -16309,7 +16309,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621631/pexels-photo-6621631.jpeg?auto=compress&cs=tinysrgb&w=800&entry=262"
+        "image": "https://m.media-amazon.com/images/I/61lPFhD1y4L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16343,9 +16343,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 2506,
-    "image": "https://images.pexels.com/photos/6621632/pexels-photo-6621632.jpeg?auto=compress&cs=tinysrgb&w=800&entry=263",
+    "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621632/pexels-photo-6621632.jpeg?auto=compress&cs=tinysrgb&w=800&entry=263"
+      "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Lactobacillus Ferment Lysate",
@@ -16363,7 +16363,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621632/pexels-photo-6621632.jpeg?auto=compress&cs=tinysrgb&w=800&entry=263"
+        "image": "https://m.media-amazon.com/images/I/618fA++cqyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16397,9 +16397,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2579,
-    "image": "https://images.pexels.com/photos/6621633/pexels-photo-6621633.jpeg?auto=compress&cs=tinysrgb&w=800&entry=264",
+    "image": "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621633/pexels-photo-6621633.jpeg?auto=compress&cs=tinysrgb&w=800&entry=264"
+      "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Centella (Gotu Kola) Extract 60%",
@@ -16417,7 +16417,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621633/pexels-photo-6621633.jpeg?auto=compress&cs=tinysrgb&w=800&entry=264"
+        "image": "https://m.media-amazon.com/images/I/51L06Gx+d8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16451,9 +16451,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 252,
-    "image": "https://images.pexels.com/photos/6621634/pexels-photo-6621634.jpeg?auto=compress&cs=tinysrgb&w=800&entry=265",
+    "image": "https://m.media-amazon.com/images/I/61yZNQDfbqL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621634/pexels-photo-6621634.jpeg?auto=compress&cs=tinysrgb&w=800&entry=265"
+      "https://m.media-amazon.com/images/I/61yZNQDfbqL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Organic Aloe Barbadensis Leaf Juice 99%",
@@ -16471,7 +16471,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621634/pexels-photo-6621634.jpeg?auto=compress&cs=tinysrgb&w=800&entry=265"
+        "image": "https://m.media-amazon.com/images/I/61yZNQDfbqL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16506,9 +16506,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 325,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621635/pexels-photo-6621635.jpeg?auto=compress&cs=tinysrgb&w=800&entry=266",
+    "image": "https://m.media-amazon.com/images/I/61zQdEY2TJL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621635/pexels-photo-6621635.jpeg?auto=compress&cs=tinysrgb&w=800&entry=266"
+      "https://m.media-amazon.com/images/I/61zQdEY2TJL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Dead Sea Mud 35%",
@@ -16526,7 +16526,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621635/pexels-photo-6621635.jpeg?auto=compress&cs=tinysrgb&w=800&entry=266"
+        "image": "https://m.media-amazon.com/images/I/61zQdEY2TJL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16561,9 +16561,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 398,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621636/pexels-photo-6621636.jpeg?auto=compress&cs=tinysrgb&w=800&entry=267",
+    "image": "https://m.media-amazon.com/images/I/51OIJDv30eL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621636/pexels-photo-6621636.jpeg?auto=compress&cs=tinysrgb&w=800&entry=267"
+      "https://m.media-amazon.com/images/I/51OIJDv30eL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Haematococcus Pluvialis Astaxanthin",
@@ -16581,7 +16581,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621636/pexels-photo-6621636.jpeg?auto=compress&cs=tinysrgb&w=800&entry=267"
+        "image": "https://m.media-amazon.com/images/I/51OIJDv30eL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16615,9 +16615,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 471,
-    "image": "https://images.pexels.com/photos/6621637/pexels-photo-6621637.jpeg?auto=compress&cs=tinysrgb&w=800&entry=268",
+    "image": "https://m.media-amazon.com/images/I/51yUq1son8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621637/pexels-photo-6621637.jpeg?auto=compress&cs=tinysrgb&w=800&entry=268"
+      "https://m.media-amazon.com/images/I/51yUq1son8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure L-Carnosine 2%",
@@ -16635,7 +16635,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621637/pexels-photo-6621637.jpeg?auto=compress&cs=tinysrgb&w=800&entry=268"
+        "image": "https://m.media-amazon.com/images/I/51yUq1son8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16669,9 +16669,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 544,
-    "image": "https://images.pexels.com/photos/6621638/pexels-photo-6621638.jpeg?auto=compress&cs=tinysrgb&w=800&entry=269",
+    "image": "https://m.media-amazon.com/images/I/714zihsAPEL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621638/pexels-photo-6621638.jpeg?auto=compress&cs=tinysrgb&w=800&entry=269"
+      "https://m.media-amazon.com/images/I/714zihsAPEL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Polygonum Cuspidatum Resveratrol 5%",
@@ -16688,7 +16688,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621638/pexels-photo-6621638.jpeg?auto=compress&cs=tinysrgb&w=800&entry=269"
+        "image": "https://m.media-amazon.com/images/I/714zihsAPEL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16722,9 +16722,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 617,
-    "image": "https://images.pexels.com/photos/6621639/pexels-photo-6621639.jpeg?auto=compress&cs=tinysrgb&w=800&entry=270",
+    "image": "https://m.media-amazon.com/images/I/61rhUdJcWCL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621639/pexels-photo-6621639.jpeg?auto=compress&cs=tinysrgb&w=800&entry=270"
+      "https://m.media-amazon.com/images/I/61rhUdJcWCL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Oat Beta-Glucan 98%",
@@ -16742,7 +16742,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621639/pexels-photo-6621639.jpeg?auto=compress&cs=tinysrgb&w=800&entry=270"
+        "image": "https://m.media-amazon.com/images/I/61rhUdJcWCL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16777,9 +16777,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 690,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621640/pexels-photo-6621640.jpeg?auto=compress&cs=tinysrgb&w=800&entry=271",
+    "image": "https://m.media-amazon.com/images/I/61RVp2NTpnL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621640/pexels-photo-6621640.jpeg?auto=compress&cs=tinysrgb&w=800&entry=271"
+      "https://m.media-amazon.com/images/I/61RVp2NTpnL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Borage Seed Oil (GLA 22%)",
@@ -16797,7 +16797,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621640/pexels-photo-6621640.jpeg?auto=compress&cs=tinysrgb&w=800&entry=271"
+        "image": "https://m.media-amazon.com/images/I/61RVp2NTpnL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16831,9 +16831,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 763,
-    "image": "https://images.pexels.com/photos/6621641/pexels-photo-6621641.jpeg?auto=compress&cs=tinysrgb&w=800&entry=272",
+    "image": "https://m.media-amazon.com/images/I/81c+9aALxjL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621641/pexels-photo-6621641.jpeg?auto=compress&cs=tinysrgb&w=800&entry=272"
+      "https://m.media-amazon.com/images/I/81c+9aALxjL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Niacinamide (Vitamin B3) 12%",
@@ -16851,7 +16851,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621641/pexels-photo-6621641.jpeg?auto=compress&cs=tinysrgb&w=800&entry=272"
+        "image": "https://m.media-amazon.com/images/I/81c+9aALxjL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16885,9 +16885,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 836,
-    "image": "https://images.pexels.com/photos/6621642/pexels-photo-6621642.jpeg?auto=compress&cs=tinysrgb&w=800&entry=273",
+    "image": "https://m.media-amazon.com/images/I/71c+boES22L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621642/pexels-photo-6621642.jpeg?auto=compress&cs=tinysrgb&w=800&entry=273"
+      "https://m.media-amazon.com/images/I/71c+boES22L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Asiatic Acid 0.2%",
@@ -16905,7 +16905,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621642/pexels-photo-6621642.jpeg?auto=compress&cs=tinysrgb&w=800&entry=273"
+        "image": "https://m.media-amazon.com/images/I/71c+boES22L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16940,9 +16940,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 909,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621643/pexels-photo-6621643.jpeg?auto=compress&cs=tinysrgb&w=800&entry=274",
+    "image": "https://m.media-amazon.com/images/I/71vuBODmN0L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621643/pexels-photo-6621643.jpeg?auto=compress&cs=tinysrgb&w=800&entry=274"
+      "https://m.media-amazon.com/images/I/71vuBODmN0L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Glabridin 40% Pure Extract",
@@ -16960,7 +16960,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621643/pexels-photo-6621643.jpeg?auto=compress&cs=tinysrgb&w=800&entry=274"
+        "image": "https://m.media-amazon.com/images/I/71vuBODmN0L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -16994,9 +16994,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 982,
-    "image": "https://images.pexels.com/photos/6621644/pexels-photo-6621644.jpeg?auto=compress&cs=tinysrgb&w=800&entry=275",
+    "image": "https://m.media-amazon.com/images/I/713TBeGO30L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621644/pexels-photo-6621644.jpeg?auto=compress&cs=tinysrgb&w=800&entry=275"
+      "https://m.media-amazon.com/images/I/713TBeGO30L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Rosemary Leaf Oil",
@@ -17015,7 +17015,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621644/pexels-photo-6621644.jpeg?auto=compress&cs=tinysrgb&w=800&entry=275"
+        "image": "https://m.media-amazon.com/images/I/713TBeGO30L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -17050,9 +17050,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1055,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621645/pexels-photo-6621645.jpeg?auto=compress&cs=tinysrgb&w=800&entry=276",
+    "image": "https://m.media-amazon.com/images/I/51OIJDv30eL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621645/pexels-photo-6621645.jpeg?auto=compress&cs=tinysrgb&w=800&entry=276"
+      "https://m.media-amazon.com/images/I/51OIJDv30eL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Spirulina Platensis Extract",
@@ -17070,7 +17070,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621645/pexels-photo-6621645.jpeg?auto=compress&cs=tinysrgb&w=800&entry=276"
+        "image": "https://m.media-amazon.com/images/I/51OIJDv30eL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -17104,9 +17104,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1128,
-    "image": "https://images.pexels.com/photos/6621646/pexels-photo-6621646.jpeg?auto=compress&cs=tinysrgb&w=800&entry=277",
+    "image": "https://m.media-amazon.com/images/I/51yUq1son8L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621646/pexels-photo-6621646.jpeg?auto=compress&cs=tinysrgb&w=800&entry=277"
+      "https://m.media-amazon.com/images/I/51yUq1son8L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Ceramide 3 (NP)",
@@ -17125,7 +17125,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621646/pexels-photo-6621646.jpeg?auto=compress&cs=tinysrgb&w=800&entry=277"
+        "image": "https://m.media-amazon.com/images/I/51yUq1son8L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -17159,9 +17159,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1201,
-    "image": "https://images.pexels.com/photos/6621647/pexels-photo-6621647.jpeg?auto=compress&cs=tinysrgb&w=800&entry=278",
+    "image": "https://m.media-amazon.com/images/I/714zihsAPEL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621647/pexels-photo-6621647.jpeg?auto=compress&cs=tinysrgb&w=800&entry=278"
+      "https://m.media-amazon.com/images/I/714zihsAPEL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Soluble Marine Collagen",
@@ -17179,7 +17179,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621647/pexels-photo-6621647.jpeg?auto=compress&cs=tinysrgb&w=800&entry=278"
+        "image": "https://m.media-amazon.com/images/I/714zihsAPEL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -17213,9 +17213,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1274,
-    "image": "https://images.pexels.com/photos/6621648/pexels-photo-6621648.jpeg?auto=compress&cs=tinysrgb&w=800&entry=279",
+    "image": "https://m.media-amazon.com/images/I/61rhUdJcWCL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621648/pexels-photo-6621648.jpeg?auto=compress&cs=tinysrgb&w=800&entry=279"
+      "https://m.media-amazon.com/images/I/61rhUdJcWCL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Mandelic Acid 10%",
@@ -17233,7 +17233,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621648/pexels-photo-6621648.jpeg?auto=compress&cs=tinysrgb&w=800&entry=279"
+        "image": "https://m.media-amazon.com/images/I/61rhUdJcWCL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -17267,9 +17267,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1347,
-    "image": "https://images.pexels.com/photos/6621649/pexels-photo-6621649.jpeg?auto=compress&cs=tinysrgb&w=800&entry=280",
+    "image": "https://m.media-amazon.com/images/I/51vADPsvxsL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621649/pexels-photo-6621649.jpeg?auto=compress&cs=tinysrgb&w=800&entry=280"
+      "https://m.media-amazon.com/images/I/51vADPsvxsL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Camellia Japonica Seed Oil",
@@ -17287,7 +17287,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621649/pexels-photo-6621649.jpeg?auto=compress&cs=tinysrgb&w=800&entry=280"
+        "image": "https://m.media-amazon.com/images/I/51vADPsvxsL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -17322,9 +17322,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1420,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621650/pexels-photo-6621650.jpeg?auto=compress&cs=tinysrgb&w=800&entry=281",
+    "image": "https://m.media-amazon.com/images/I/81c+9aALxjL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621650/pexels-photo-6621650.jpeg?auto=compress&cs=tinysrgb&w=800&entry=281"
+      "https://m.media-amazon.com/images/I/81c+9aALxjL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Retinyl Palmitate",
@@ -17343,7 +17343,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621650/pexels-photo-6621650.jpeg?auto=compress&cs=tinysrgb&w=800&entry=281"
+        "image": "https://m.media-amazon.com/images/I/81c+9aALxjL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "4–7 Days (Direct Air Freight)",
@@ -17377,9 +17377,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1493,
-    "image": "https://images.pexels.com/photos/6621651/pexels-photo-6621651.jpeg?auto=compress&cs=tinysrgb&w=800&entry=282",
+    "image": "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621651/pexels-photo-6621651.jpeg?auto=compress&cs=tinysrgb&w=800&entry=282"
+      "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Purified Hyaluronic Acid",
@@ -17397,7 +17397,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621651/pexels-photo-6621651.jpeg?auto=compress&cs=tinysrgb&w=800&entry=282"
+        "image": "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17431,9 +17431,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1566,
-    "image": "https://images.pexels.com/photos/6621652/pexels-photo-6621652.jpeg?auto=compress&cs=tinysrgb&w=800&entry=283",
+    "image": "https://m.media-amazon.com/images/I/71u46v1y9IL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621652/pexels-photo-6621652.jpeg?auto=compress&cs=tinysrgb&w=800&entry=283"
+      "https://m.media-amazon.com/images/I/71u46v1y9IL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Accelerated Retinol SA",
@@ -17451,7 +17451,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621652/pexels-photo-6621652.jpeg?auto=compress&cs=tinysrgb&w=800&entry=283"
+        "image": "https://m.media-amazon.com/images/I/71u46v1y9IL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17485,9 +17485,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1639,
-    "image": "https://images.pexels.com/photos/6621653/pexels-photo-6621653.jpeg?auto=compress&cs=tinysrgb&w=800&entry=284",
+    "image": "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621653/pexels-photo-6621653.jpeg?auto=compress&cs=tinysrgb&w=800&entry=284"
+      "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Helioplex® Technology",
@@ -17504,7 +17504,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621653/pexels-photo-6621653.jpeg?auto=compress&cs=tinysrgb&w=800&entry=284"
+        "image": "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17538,9 +17538,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1712,
-    "image": "https://images.pexels.com/photos/6621654/pexels-photo-6621654.jpeg?auto=compress&cs=tinysrgb&w=800&entry=285",
+    "image": "https://m.media-amazon.com/images/I/712QLKOFIzL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621654/pexels-photo-6621654.jpeg?auto=compress&cs=tinysrgb&w=800&entry=285"
+      "https://m.media-amazon.com/images/I/712QLKOFIzL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hyaluronic Acid",
@@ -17557,7 +17557,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621654/pexels-photo-6621654.jpeg?auto=compress&cs=tinysrgb&w=800&entry=285"
+        "image": "https://m.media-amazon.com/images/I/712QLKOFIzL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17592,9 +17592,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 1785,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621655/pexels-photo-6621655.jpeg?auto=compress&cs=tinysrgb&w=800&entry=286",
+    "image": "https://m.media-amazon.com/images/I/71QwjtKdWsL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621655/pexels-photo-6621655.jpeg?auto=compress&cs=tinysrgb&w=800&entry=286"
+      "https://m.media-amazon.com/images/I/71QwjtKdWsL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Micronized Benzoyl Peroxide 2.5%"
@@ -17610,7 +17610,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621655/pexels-photo-6621655.jpeg?auto=compress&cs=tinysrgb&w=800&entry=286"
+        "image": "https://m.media-amazon.com/images/I/71QwjtKdWsL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17644,9 +17644,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1858,
-    "image": "https://images.pexels.com/photos/6621656/pexels-photo-6621656.jpeg?auto=compress&cs=tinysrgb&w=800&entry=287",
+    "image": "https://m.media-amazon.com/images/I/71Rr+8Xs4+L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621656/pexels-photo-6621656.jpeg?auto=compress&cs=tinysrgb&w=800&entry=287"
+      "https://m.media-amazon.com/images/I/71Rr+8Xs4+L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Hexinol™ Technology",
@@ -17664,7 +17664,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621656/pexels-photo-6621656.jpeg?auto=compress&cs=tinysrgb&w=800&entry=287"
+        "image": "https://m.media-amazon.com/images/I/71Rr+8Xs4+L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17699,9 +17699,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1931,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621657/pexels-photo-6621657.jpeg?auto=compress&cs=tinysrgb&w=800&entry=288",
+    "image": "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621657/pexels-photo-6621657.jpeg?auto=compress&cs=tinysrgb&w=800&entry=288"
+      "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg"
     ],
     "keyIngredients": [
       "Purified Hyaluronic Acid",
@@ -17718,7 +17718,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621657/pexels-photo-6621657.jpeg?auto=compress&cs=tinysrgb&w=800&entry=288"
+        "image": "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17752,9 +17752,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2004,
-    "image": "https://images.pexels.com/photos/6621658/pexels-photo-6621658.jpeg?auto=compress&cs=tinysrgb&w=800&entry=289",
+    "image": "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621658/pexels-photo-6621658.jpeg?auto=compress&cs=tinysrgb&w=800&entry=289"
+      "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg"
     ],
     "keyIngredients": [
       "Salicylic Acid (BHA)",
@@ -17771,7 +17771,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621658/pexels-photo-6621658.jpeg?auto=compress&cs=tinysrgb&w=800&entry=289"
+        "image": "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17805,9 +17805,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2077,
-    "image": "https://images.pexels.com/photos/6621659/pexels-photo-6621659.jpeg?auto=compress&cs=tinysrgb&w=800&entry=290",
+    "image": "https://m.media-amazon.com/images/I/71rLbIn09VL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621659/pexels-photo-6621659.jpeg?auto=compress&cs=tinysrgb&w=800&entry=290"
+      "https://m.media-amazon.com/images/I/71rLbIn09VL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Concentrated Glycerin 40%",
@@ -17824,7 +17824,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621659/pexels-photo-6621659.jpeg?auto=compress&cs=tinysrgb&w=800&entry=290"
+        "image": "https://m.media-amazon.com/images/I/71rLbIn09VL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17859,9 +17859,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2150,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621660/pexels-photo-6621660.jpeg?auto=compress&cs=tinysrgb&w=800&entry=291",
+    "image": "https://m.media-amazon.com/images/I/817grWxxPVL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621660/pexels-photo-6621660.jpeg?auto=compress&cs=tinysrgb&w=800&entry=291"
+      "https://m.media-amazon.com/images/I/817grWxxPVL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Antioxidant Complex",
@@ -17879,7 +17879,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621660/pexels-photo-6621660.jpeg?auto=compress&cs=tinysrgb&w=800&entry=291"
+        "image": "https://m.media-amazon.com/images/I/817grWxxPVL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17913,9 +17913,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2223,
-    "image": "https://images.pexels.com/photos/6621661/pexels-photo-6621661.jpeg?auto=compress&cs=tinysrgb&w=800&entry=292",
+    "image": "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621661/pexels-photo-6621661.jpeg?auto=compress&cs=tinysrgb&w=800&entry=292"
+      "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg"
     ],
     "keyIngredients": [
       "Polyhydroxy Acid (PHA) 2%",
@@ -17932,7 +17932,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621661/pexels-photo-6621661.jpeg?auto=compress&cs=tinysrgb&w=800&entry=292"
+        "image": "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -17966,9 +17966,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2296,
-    "image": "https://images.pexels.com/photos/6621662/pexels-photo-6621662.jpeg?auto=compress&cs=tinysrgb&w=800&entry=293",
+    "image": "https://m.media-amazon.com/images/I/71QNd-OV07L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621662/pexels-photo-6621662.jpeg?auto=compress&cs=tinysrgb&w=800&entry=293"
+      "https://m.media-amazon.com/images/I/71QNd-OV07L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Vitamin C 20%",
@@ -17986,7 +17986,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621662/pexels-photo-6621662.jpeg?auto=compress&cs=tinysrgb&w=800&entry=293"
+        "image": "https://m.media-amazon.com/images/I/71QNd-OV07L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18020,9 +18020,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2369,
-    "image": "https://images.pexels.com/photos/6621663/pexels-photo-6621663.jpeg?auto=compress&cs=tinysrgb&w=800&entry=294",
+    "image": "https://m.media-amazon.com/images/I/81RaJNazDRL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621663/pexels-photo-6621663.jpeg?auto=compress&cs=tinysrgb&w=800&entry=294"
+      "https://m.media-amazon.com/images/I/81RaJNazDRL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Purified Hyaluronic Acid",
@@ -18040,7 +18040,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621663/pexels-photo-6621663.jpeg?auto=compress&cs=tinysrgb&w=800&entry=294"
+        "image": "https://m.media-amazon.com/images/I/81RaJNazDRL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18075,9 +18075,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2442,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/6621664/pexels-photo-6621664.jpeg?auto=compress&cs=tinysrgb&w=800&entry=295",
+    "image": "https://m.media-amazon.com/images/I/71R2JbsMMZL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621664/pexels-photo-6621664.jpeg?auto=compress&cs=tinysrgb&w=800&entry=295"
+      "https://m.media-amazon.com/images/I/71R2JbsMMZL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Helioplex®",
@@ -18094,7 +18094,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621664/pexels-photo-6621664.jpeg?auto=compress&cs=tinysrgb&w=800&entry=295"
+        "image": "https://m.media-amazon.com/images/I/71R2JbsMMZL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18129,9 +18129,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 2515,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/6621665/pexels-photo-6621665.jpeg?auto=compress&cs=tinysrgb&w=800&entry=296",
+    "image": "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621665/pexels-photo-6621665.jpeg?auto=compress&cs=tinysrgb&w=800&entry=296"
+      "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg"
     ],
     "keyIngredients": [
       "Salicylic Acid 2%",
@@ -18148,7 +18148,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621665/pexels-photo-6621665.jpeg?auto=compress&cs=tinysrgb&w=800&entry=296"
+        "image": "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18182,9 +18182,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 188,
-    "image": "https://images.pexels.com/photos/6621666/pexels-photo-6621666.jpeg?auto=compress&cs=tinysrgb&w=800&entry=297",
+    "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621666/pexels-photo-6621666.jpeg?auto=compress&cs=tinysrgb&w=800&entry=297"
+      "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg"
     ],
     "keyIngredients": [
       "Ulleungdo Deep Sea Water",
@@ -18202,7 +18202,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621666/pexels-photo-6621666.jpeg?auto=compress&cs=tinysrgb&w=800&entry=297"
+        "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18236,9 +18236,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 261,
-    "image": "https://images.pexels.com/photos/6621667/pexels-photo-6621667.jpeg?auto=compress&cs=tinysrgb&w=800&entry=298",
+    "image": "https://m.media-amazon.com/images/I/41UNJoN9WHL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621667/pexels-photo-6621667.jpeg?auto=compress&cs=tinysrgb&w=800&entry=298"
+      "https://m.media-amazon.com/images/I/41UNJoN9WHL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "74 Deep Sea Natural Minerals",
@@ -18256,7 +18256,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621667/pexels-photo-6621667.jpeg?auto=compress&cs=tinysrgb&w=800&entry=298"
+        "image": "https://m.media-amazon.com/images/I/41UNJoN9WHL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18290,9 +18290,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 334,
-    "image": "https://images.pexels.com/photos/6621668/pexels-photo-6621668.jpeg?auto=compress&cs=tinysrgb&w=800&entry=299",
+    "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621668/pexels-photo-6621668.jpeg?auto=compress&cs=tinysrgb&w=800&entry=299"
+      "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Inje Silver Birch Sap",
@@ -18310,7 +18310,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621668/pexels-photo-6621668.jpeg?auto=compress&cs=tinysrgb&w=800&entry=299"
+        "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18344,9 +18344,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 407,
-    "image": "https://images.pexels.com/photos/6621669/pexels-photo-6621669.jpeg?auto=compress&cs=tinysrgb&w=800&entry=300",
+    "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/6621669/pexels-photo-6621669.jpeg?auto=compress&cs=tinysrgb&w=800&entry=300"
+      "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Inje Birch Tree Sap",
@@ -18364,7 +18364,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/6621669/pexels-photo-6621669.jpeg?auto=compress&cs=tinysrgb&w=800&entry=300"
+        "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18399,9 +18399,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 480,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/33756874/pexels-photo-33756874.jpeg?auto=compress&cs=tinysrgb&w=800&entry=301",
+    "image": "https://m.media-amazon.com/images/I/41-idUi+vTL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/33756874/pexels-photo-33756874.jpeg?auto=compress&cs=tinysrgb&w=800&entry=301"
+      "https://m.media-amazon.com/images/I/41-idUi+vTL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Jeongseon Black Soybean Extract",
@@ -18419,7 +18419,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/33756874/pexels-photo-33756874.jpeg?auto=compress&cs=tinysrgb&w=800&entry=301"
+        "image": "https://m.media-amazon.com/images/I/41-idUi+vTL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18454,9 +18454,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 553,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=800&entry=302",
+    "image": "https://m.media-amazon.com/images/I/51yKz-A3+xL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=800&entry=302"
+      "https://m.media-amazon.com/images/I/51yKz-A3+xL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Black Soybean Extract",
@@ -18474,7 +18474,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=800&entry=302"
+        "image": "https://m.media-amazon.com/images/I/51yKz-A3+xL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18508,9 +18508,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 626,
-    "image": "https://images.pexels.com/photos/4465829/pexels-photo-4465829.jpeg?auto=compress&cs=tinysrgb&w=800&entry=303",
+    "image": "https://m.media-amazon.com/images/I/61YqzMZvbOL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4465829/pexels-photo-4465829.jpeg?auto=compress&cs=tinysrgb&w=800&entry=303"
+      "https://m.media-amazon.com/images/I/61YqzMZvbOL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Geomundo Sea Breeze Mugwort",
@@ -18528,7 +18528,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4465829/pexels-photo-4465829.jpeg?auto=compress&cs=tinysrgb&w=800&entry=303"
+        "image": "https://m.media-amazon.com/images/I/61YqzMZvbOL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18562,9 +18562,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 699,
-    "image": "https://images.pexels.com/photos/9496412/pexels-photo-9496412.jpeg?auto=compress&cs=tinysrgb&w=800&entry=304",
+    "image": "https://m.media-amazon.com/images/I/41vWNYhBxuL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/9496412/pexels-photo-9496412.jpeg?auto=compress&cs=tinysrgb&w=800&entry=304"
+      "https://m.media-amazon.com/images/I/41vWNYhBxuL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Artemisia Extract",
@@ -18582,7 +18582,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/9496412/pexels-photo-9496412.jpeg?auto=compress&cs=tinysrgb&w=800&entry=304"
+        "image": "https://m.media-amazon.com/images/I/41vWNYhBxuL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18616,9 +18616,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 772,
-    "image": "https://images.pexels.com/photos/4119559/pexels-photo-4119559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=305",
+    "image": "https://m.media-amazon.com/images/I/51LUDhsEtbL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4119559/pexels-photo-4119559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=305"
+      "https://m.media-amazon.com/images/I/51LUDhsEtbL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pine Tree Leaf Extract",
@@ -18636,7 +18636,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4119559/pexels-photo-4119559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=305"
+        "image": "https://m.media-amazon.com/images/I/51LUDhsEtbL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18671,9 +18671,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 845,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/29755259/pexels-photo-29755259.jpeg?auto=compress&cs=tinysrgb&w=800&entry=306",
+    "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/29755259/pexels-photo-29755259.jpeg?auto=compress&cs=tinysrgb&w=800&entry=306"
+      "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg"
     ],
     "keyIngredients": [
       "Deep Sea Water",
@@ -18691,7 +18691,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/29755259/pexels-photo-29755259.jpeg?auto=compress&cs=tinysrgb&w=800&entry=306"
+        "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18725,9 +18725,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 918,
-    "image": "https://images.pexels.com/photos/9775408/pexels-photo-9775408.jpeg?auto=compress&cs=tinysrgb&w=800&entry=307",
+    "image": "https://m.media-amazon.com/images/I/51A2b2L5sqL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/9775408/pexels-photo-9775408.jpeg?auto=compress&cs=tinysrgb&w=800&entry=307"
+      "https://m.media-amazon.com/images/I/51A2b2L5sqL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Inje Birch Sap",
@@ -18745,7 +18745,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/9775408/pexels-photo-9775408.jpeg?auto=compress&cs=tinysrgb&w=800&entry=307"
+        "image": "https://m.media-amazon.com/images/I/51A2b2L5sqL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18779,9 +18779,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 991,
-    "image": "https://images.pexels.com/photos/17891765/pexels-photo-17891765.jpeg?auto=compress&cs=tinysrgb&w=800&entry=308",
+    "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/17891765/pexels-photo-17891765.jpeg?auto=compress&cs=tinysrgb&w=800&entry=308"
+      "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Evening Primrose Oil",
@@ -18799,7 +18799,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/17891765/pexels-photo-17891765.jpeg?auto=compress&cs=tinysrgb&w=800&entry=308"
+        "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18834,9 +18834,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1064,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/16008945/pexels-photo-16008945.jpeg?auto=compress&cs=tinysrgb&w=800&entry=309",
+    "image": "https://m.media-amazon.com/images/I/41uBBJcLghL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/16008945/pexels-photo-16008945.jpeg?auto=compress&cs=tinysrgb&w=800&entry=309"
+      "https://m.media-amazon.com/images/I/41uBBJcLghL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Birch Tree Sap",
@@ -18854,7 +18854,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/16008945/pexels-photo-16008945.jpeg?auto=compress&cs=tinysrgb&w=800&entry=309"
+        "image": "https://m.media-amazon.com/images/I/41uBBJcLghL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18888,9 +18888,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1137,
-    "image": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=310",
+    "image": "https://m.media-amazon.com/images/I/71ab9YRL99L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=310"
+      "https://m.media-amazon.com/images/I/71ab9YRL99L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Mineral-rich Deep Sea Mud 40%",
@@ -18908,7 +18908,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=310"
+        "image": "https://m.media-amazon.com/images/I/71ab9YRL99L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18943,9 +18943,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 1210,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800&entry=311",
+    "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800&entry=311"
+      "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Black Soybean Seed Oil",
@@ -18963,7 +18963,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800&entry=311"
+        "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -18997,9 +18997,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1283,
-    "image": "https://images.pexels.com/photos/4041391/pexels-photo-4041391.jpeg?auto=compress&cs=tinysrgb&w=800&entry=312",
+    "image": "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4041391/pexels-photo-4041391.jpeg?auto=compress&cs=tinysrgb&w=800&entry=312"
+      "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Fermented Oryza Sativa (Rice) Extract",
@@ -19017,7 +19017,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4041391/pexels-photo-4041391.jpeg?auto=compress&cs=tinysrgb&w=800&entry=312"
+        "image": "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19051,9 +19051,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1356,
-    "image": "https://images.pexels.com/photos/4041396/pexels-photo-4041396.jpeg?auto=compress&cs=tinysrgb&w=800&entry=313",
+    "image": "https://m.media-amazon.com/images/I/415f53111DL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4041396/pexels-photo-4041396.jpeg?auto=compress&cs=tinysrgb&w=800&entry=313"
+      "https://m.media-amazon.com/images/I/415f53111DL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "100% Natural Plant Oils",
@@ -19071,7 +19071,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4041396/pexels-photo-4041396.jpeg?auto=compress&cs=tinysrgb&w=800&entry=313"
+        "image": "https://m.media-amazon.com/images/I/415f53111DL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19105,9 +19105,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1429,
-    "image": "https://images.pexels.com/photos/4041397/pexels-photo-4041397.jpeg?auto=compress&cs=tinysrgb&w=800&entry=314",
+    "image": "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4041397/pexels-photo-4041397.jpeg?auto=compress&cs=tinysrgb&w=800&entry=314"
+      "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Zinc Oxide Non-Nano",
@@ -19125,7 +19125,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4041397/pexels-photo-4041397.jpeg?auto=compress&cs=tinysrgb&w=800&entry=314"
+        "image": "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19159,9 +19159,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1502,
-    "image": "https://images.pexels.com/photos/3738349/pexels-photo-3738349.jpeg?auto=compress&cs=tinysrgb&w=800&entry=315",
+    "image": "https://m.media-amazon.com/images/I/41XYPEJMTyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/3738349/pexels-photo-3738349.jpeg?auto=compress&cs=tinysrgb&w=800&entry=315"
+      "https://m.media-amazon.com/images/I/41XYPEJMTyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Oryza Sativa (Rice) Bran Oil",
@@ -19179,7 +19179,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/3738349/pexels-photo-3738349.jpeg?auto=compress&cs=tinysrgb&w=800&entry=315"
+        "image": "https://m.media-amazon.com/images/I/41XYPEJMTyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19214,9 +19214,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 1575,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/3738350/pexels-photo-3738350.jpeg?auto=compress&cs=tinysrgb&w=800&entry=316",
+    "image": "https://m.media-amazon.com/images/I/41yfIHRd+yL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/3738350/pexels-photo-3738350.jpeg?auto=compress&cs=tinysrgb&w=800&entry=316"
+      "https://m.media-amazon.com/images/I/41yfIHRd+yL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Tranexamic Acid 4%",
@@ -19234,7 +19234,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/3738350/pexels-photo-3738350.jpeg?auto=compress&cs=tinysrgb&w=800&entry=316"
+        "image": "https://m.media-amazon.com/images/I/41yfIHRd+yL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19268,9 +19268,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 1648,
-    "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=800&entry=317",
+    "image": "https://m.media-amazon.com/images/I/61b4pxtsZoL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=800&entry=317"
+      "https://m.media-amazon.com/images/I/61b4pxtsZoL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Black Rice Ferment",
@@ -19288,7 +19288,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=800&entry=317"
+        "image": "https://m.media-amazon.com/images/I/61b4pxtsZoL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19322,9 +19322,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 1721,
-    "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=800&entry=318",
+    "image": "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=800&entry=318"
+      "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "AHA Fruit Complex",
@@ -19342,7 +19342,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=800&entry=318"
+        "image": "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19376,9 +19376,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.8,
     "reviewCount": 1794,
-    "image": "https://images.pexels.com/photos/4465125/pexels-photo-4465125.jpeg?auto=compress&cs=tinysrgb&w=800&entry=319",
+    "image": "https://m.media-amazon.com/images/I/61TtIinB7UL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4465125/pexels-photo-4465125.jpeg?auto=compress&cs=tinysrgb&w=800&entry=319"
+      "https://m.media-amazon.com/images/I/61TtIinB7UL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Pure Vitamin C 14.5%",
@@ -19396,7 +19396,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4465125/pexels-photo-4465125.jpeg?auto=compress&cs=tinysrgb&w=800&entry=319"
+        "image": "https://m.media-amazon.com/images/I/61TtIinB7UL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19430,9 +19430,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 1867,
-    "image": "https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&w=800&entry=320",
+    "image": "https://m.media-amazon.com/images/I/71QTqW3wk9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&w=800&entry=320"
+      "https://m.media-amazon.com/images/I/71QTqW3wk9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Freeze-Dried Hydrolyzed Collagen",
@@ -19450,7 +19450,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&w=800&entry=320"
+        "image": "https://m.media-amazon.com/images/I/71QTqW3wk9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19485,9 +19485,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.6,
     "reviewCount": 1940,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg?auto=compress&cs=tinysrgb&w=800&entry=321",
+    "image": "https://m.media-amazon.com/images/I/41Ob1n2fTfL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg?auto=compress&cs=tinysrgb&w=800&entry=321"
+      "https://m.media-amazon.com/images/I/41Ob1n2fTfL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Salicylic Acid 0.5%",
@@ -19505,7 +19505,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg?auto=compress&cs=tinysrgb&w=800&entry=321"
+        "image": "https://m.media-amazon.com/images/I/41Ob1n2fTfL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19539,9 +19539,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.7,
     "reviewCount": 2013,
-    "image": "https://images.pexels.com/photos/5069408/pexels-photo-5069408.jpeg?auto=compress&cs=tinysrgb&w=800&entry=322",
+    "image": "https://m.media-amazon.com/images/I/51nEld7QzyL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5069408/pexels-photo-5069408.jpeg?auto=compress&cs=tinysrgb&w=800&entry=322"
+      "https://m.media-amazon.com/images/I/51nEld7QzyL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "SoyAct™ Protein Complex",
@@ -19560,7 +19560,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5069408/pexels-photo-5069408.jpeg?auto=compress&cs=tinysrgb&w=800&entry=322"
+        "image": "https://m.media-amazon.com/images/I/51nEld7QzyL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19595,9 +19595,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 2086,
     "badge": "Derm Recommended",
-    "image": "https://images.pexels.com/photos/5069409/pexels-photo-5069409.jpeg?auto=compress&cs=tinysrgb&w=800&entry=323",
+    "image": "https://m.media-amazon.com/images/I/71QTqW3wk9L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5069409/pexels-photo-5069409.jpeg?auto=compress&cs=tinysrgb&w=800&entry=323"
+      "https://m.media-amazon.com/images/I/71QTqW3wk9L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Triple Collagen Complex",
@@ -19615,7 +19615,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5069409/pexels-photo-5069409.jpeg?auto=compress&cs=tinysrgb&w=800&entry=323"
+        "image": "https://m.media-amazon.com/images/I/71QTqW3wk9L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19649,9 +19649,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.9,
     "reviewCount": 2159,
-    "image": "https://images.pexels.com/photos/5069432/pexels-photo-5069432.jpeg?auto=compress&cs=tinysrgb&w=800&entry=324",
+    "image": "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5069432/pexels-photo-5069432.jpeg?auto=compress&cs=tinysrgb&w=800&entry=324"
+      "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Super Cica 7 Complex",
@@ -19669,7 +19669,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5069432/pexels-photo-5069432.jpeg?auto=compress&cs=tinysrgb&w=800&entry=324"
+        "image": "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19703,9 +19703,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "skinType": "All Skin Types • Clinically Tested Sensitive",
     "rating": 4.6,
     "reviewCount": 2232,
-    "image": "https://images.pexels.com/photos/5069433/pexels-photo-5069433.jpeg?auto=compress&cs=tinysrgb&w=800&entry=325",
+    "image": "https://m.media-amazon.com/images/I/41QN4p9Bc5L._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5069433/pexels-photo-5069433.jpeg?auto=compress&cs=tinysrgb&w=800&entry=325"
+      "https://m.media-amazon.com/images/I/41QN4p9Bc5L._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "Type 1 Hydrolyzed Collagen",
@@ -19723,7 +19723,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5069433/pexels-photo-5069433.jpeg?auto=compress&cs=tinysrgb&w=800&entry=325"
+        "image": "https://m.media-amazon.com/images/I/41QN4p9Bc5L._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
@@ -19758,9 +19758,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.7,
     "reviewCount": 2305,
     "badge": "Best Seller",
-    "image": "https://images.pexels.com/photos/5069434/pexels-photo-5069434.jpeg?auto=compress&cs=tinysrgb&w=800&entry=326",
+    "image": "https://m.media-amazon.com/images/I/61pmoBh+hgL._AC_UL320_.jpg",
     "gallery": [
-      "https://images.pexels.com/photos/5069434/pexels-photo-5069434.jpeg?auto=compress&cs=tinysrgb&w=800&entry=326"
+      "https://m.media-amazon.com/images/I/61pmoBh+hgL._AC_UL320_.jpg"
     ],
     "keyIngredients": [
       "AHA+BHA+PHA 15.2%",
@@ -19777,7 +19777,7 @@ export const INITIAL_PRODUCTS: Product[] = [
         "name": "Standard Pack",
         "colorHex": "#002B7F",
         "inStock": true,
-        "image": "https://images.pexels.com/photos/5069434/pexels-photo-5069434.jpeg?auto=compress&cs=tinysrgb&w=800&entry=326"
+        "image": "https://m.media-amazon.com/images/I/61pmoBh+hgL._AC_UL320_.jpg"
       }
     ],
     "shippingDays": "1–3 Days (Prime Dropship)",
