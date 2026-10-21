@@ -14,7 +14,7 @@ interface BeforeAfterSliderProps {
 
 export default function BeforeAfterSlider({
   beforeLabel = "Standard Manual Knife Prep",
-  afterLabel = "PrepPulse Engineered System",
+  afterLabel = "AURA Clinical System",
   beforeDescription,
   afterDescription,
   beforeTime = "22 Mins Prep + Cleanup",
@@ -48,7 +48,7 @@ export default function BeforeAfterSlider({
         }}
         className="relative h-48 sm:h-52 rounded-2xl overflow-hidden border border-slate-200 cursor-ew-resize shadow-inner"
       >
-        {/* Background Layer: AFTER (PrepPulse Engineered Solution) */}
+        {/* Background Layer: AFTER (AURA Clinical Solution) */}
         <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950 text-white p-5 sm:p-6 flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="inline-flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-widest bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-1 rounded-full">

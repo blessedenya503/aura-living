@@ -49,8 +49,6 @@ app.prepare().then(() => {
     console.log(`✓ [PUBLIC WEBSITE] Customer storefront live at http://localhost:${PORT_PUBLIC}`);
     console.log(`  Owner portal hidden from public view.`);
     console.log(`✓ [PORT ALLOCATION PRESERVED]`);
-    console.log(`  - Port 3000: PrepPulse`);
-    console.log(`  - Port 3001: PrepPulse Owner Portal`);
     console.log(`  - Port 3002: AURA Owner Portal`);
     console.log(`  - Port 3003: AURA Public Website`);
     console.log(`================================================================\n`);

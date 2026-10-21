@@ -4,9 +4,9 @@ import { computeSessionToken } from "@/lib/admin-session";
 export const ADMIN_COOKIE_NAME = "aura_owner_session";
 
 export function getExpectedAdminCredentials() {
-  const email = (process.env.ADMIN_EMAIL || "owner@preppulse.com").trim().toLowerCase();
-  const password = process.env.ADMIN_PASSWORD || "PrepPulseAdmin2026!";
-  const secret = process.env.ADMIN_SESSION_SECRET || "preppulse_super_secret_hmac_key_2026_x99";
+  const email = (process.env.ADMIN_EMAIL || "owner@auraliving.store").trim().toLowerCase();
+  const password = process.env.ADMIN_PASSWORD || "SkinCare2026!";
+  const secret = process.env.ADMIN_SESSION_SECRET || "aura_living_super_secret_hmac_key_2026_x99";
 
   return { email, password, secret };
 }
