@@ -163,8 +163,8 @@ export default function AuraDermAI() {
                   onClick={() => setSelectedProduct(p)}
                   className="bg-slate-900/90 border border-slate-800 hover:border-cyan-500/50 rounded-xl p-2.5 flex items-center gap-2.5 transition-all cursor-pointer group"
                 >
-                  <div className="w-12 h-12 rounded-lg overflow-hidden bg-slate-950 shrink-0 border border-slate-800">
-                    <img src={p.image} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                  <div className="w-12 h-12 rounded-lg overflow-hidden bg-slate-950 shrink-0 border border-slate-800 p-1 flex items-center justify-center">
+                    <img src={p.image} alt={p.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <span className="text-[9px] font-bold uppercase text-cyan-400 block">{p.brand}</span>

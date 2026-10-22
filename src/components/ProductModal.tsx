@@ -78,7 +78,7 @@ export default function ProductModal() {
         <div className="grid grid-cols-1 md:grid-cols-2 max-h-[88vh] overflow-y-auto">
           {/* Visual Gallery */}
           <div className="p-4 sm:p-6 bg-slate-50 flex flex-col justify-between">
-            <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs">
+            <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-4">
               <img
                 src={
                   images[activeImageIndex] ||
@@ -86,7 +86,7 @@ export default function ProductModal() {
                   "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop"
                 }
                 alt={selectedProduct.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain p-2"
               />
               <div className="absolute top-3 left-3 flex flex-col gap-1 items-start">
                 <span className="bg-[#002B7F] text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-xs">
@@ -116,7 +116,7 @@ export default function ProductModal() {
                     <img
                       src={img}
                       alt="Thumbnail"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain p-1 bg-white"
                     />
                   </button>
                 ))}

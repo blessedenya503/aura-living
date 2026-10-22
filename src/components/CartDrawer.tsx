@@ -162,14 +162,14 @@ export default function CartDrawer() {
                       key={`${item.product.id}-${item.selectedVariant.name}`}
                       className="flex gap-3 p-3 rounded-2xl border border-slate-200/80 bg-slate-50/50"
                     >
-                      <div className="relative w-16 h-16 rounded-xl overflow-hidden bg-white shrink-0 border border-slate-200">
+                      <div className="relative w-16 h-16 rounded-xl overflow-hidden bg-white shrink-0 border border-slate-200 p-1 flex items-center justify-center">
                         <img
                           src={
                             item.product.image ||
                             "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop"
                           }
                           alt={item.product.name}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         />
                       </div>
                       <div className="flex-1 flex flex-col justify-between min-w-0">

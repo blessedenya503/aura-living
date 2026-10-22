@@ -265,11 +265,11 @@ export default function HomePage() {
                           : "Barrier Lock"}
                       </span>
                     </div>
-                    <div className="relative w-full h-40 rounded-xl overflow-hidden bg-slate-100 mb-3 border border-slate-200">
+                    <div className="relative w-full h-40 rounded-xl overflow-hidden bg-white mb-3 border border-slate-200 p-2 flex items-center justify-center">
                       <img
                         src={prod.image}
                         alt={prod.name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                     </div>
                     <span className="text-[10px] uppercase font-bold text-slate-500 tracking-wider block">

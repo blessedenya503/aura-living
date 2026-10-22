@@ -1067,11 +1067,11 @@ export default function OwnerPortalPage() {
                   >
                     <div>
                       {/* Thumbnail & Badges */}
-                      <div className="relative w-full h-44 rounded-2xl overflow-hidden bg-slate-950 mb-4 border border-slate-800">
+                      <div className="relative w-full h-44 rounded-2xl overflow-hidden bg-slate-950 mb-4 border border-slate-800 p-2 flex items-center justify-center">
                         <img
                           src={item.image}
                           alt={item.name}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                         />
                         <div className="absolute top-2.5 left-2.5 flex flex-col gap-1 items-start">
                           <span className="bg-[#002B7F] text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full shadow-xs">
@@ -1494,11 +1494,11 @@ export default function OwnerPortalPage() {
                     >
                       <div>
                         {/* Image stage */}
-                        <div className="relative w-full h-48 bg-slate-950 rounded-xl overflow-hidden mb-3 border border-slate-800/80">
+                        <div className="relative w-full h-48 bg-slate-950 rounded-xl overflow-hidden mb-3 border border-slate-800/80 p-2 flex items-center justify-center">
                           <img
                             src={item.image}
                             alt={item.name}
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                             loading="lazy"
                           />
                           <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-black/80 text-amber-300 text-[10px] font-mono font-bold border border-amber-500/30">
@@ -1964,11 +1964,11 @@ export default function OwnerPortalPage() {
                           className="hover:bg-slate-800/40 transition-colors"
                         >
                           <td className="p-3.5 flex items-center gap-3">
-                            <div className="relative w-11 h-11 rounded-lg overflow-hidden bg-slate-950 shrink-0 border border-slate-800">
+                            <div className="relative w-11 h-11 rounded-lg overflow-hidden bg-slate-950 shrink-0 border border-slate-800 p-0.5 flex items-center justify-center">
                               <img
                                 src={prod.image}
                                 alt={prod.name}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                               />
                             </div>
                             <div className="min-w-0 max-w-[220px]">

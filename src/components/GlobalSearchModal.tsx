@@ -358,11 +358,11 @@ export default function GlobalSearchModal() {
                     onClick={() => handleSelectProduct(prod)}
                     className="p-3 bg-slate-950/80 hover:bg-slate-800/90 border border-slate-800 hover:border-slate-700 rounded-2xl flex items-center gap-3 transition-all cursor-pointer group"
                   >
-                    <div className="w-14 h-14 rounded-xl overflow-hidden bg-slate-900 shrink-0 border border-slate-800">
+                    <div className="w-14 h-14 rounded-xl overflow-hidden bg-slate-900 shrink-0 border border-slate-800 p-1 flex items-center justify-center">
                       <img
                         src={prod.image}
                         alt={prod.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        className="w-full h-full object-contain group-hover:scale-105 transition-transform"
                       />
                     </div>
                     <div className="min-w-0 flex-1">
@@ -431,11 +431,11 @@ export default function GlobalSearchModal() {
                       onClick={() => handleSelectProduct(prod)}
                       className="p-3 bg-slate-950/90 hover:bg-slate-800/90 border border-slate-800 hover:border-cyan-500/40 rounded-2xl flex items-center gap-3 transition-all cursor-pointer group"
                     >
-                      <div className="w-14 h-14 rounded-xl overflow-hidden bg-slate-900 shrink-0 border border-slate-800">
+                      <div className="w-14 h-14 rounded-xl overflow-hidden bg-slate-900 shrink-0 border border-slate-800 p-1 flex items-center justify-center">
                         <img
                           src={prod.image}
                           alt={prod.name}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                          className="w-full h-full object-contain group-hover:scale-105 transition-transform"
                         />
                       </div>
                       <div className="min-w-0 flex-1">

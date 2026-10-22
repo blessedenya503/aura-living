@@ -56,7 +56,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       className="group relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-xs hover:shadow-lg hover:border-blue-300 transition-all duration-300 flex flex-col cursor-pointer"
     >
       {/* Product Image Stage */}
-      <div className="relative w-full h-44 sm:h-60 bg-slate-100 overflow-hidden">
+      <div className="relative w-full h-48 sm:h-64 bg-white p-3 overflow-hidden flex items-center justify-center border-b border-slate-100">
         {/* Badges */}
         <div className="absolute top-3 left-3 z-10 flex flex-col gap-1 items-start">
           <span className="bg-[#002B7F] text-white text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full shadow-xs">
@@ -110,7 +110,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <img
           src={imgSrc}
           alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
           onError={() => setImgSrc(DEFAULT_SKINCARE_IMAGE)}
         />
