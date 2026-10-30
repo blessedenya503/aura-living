@@ -3,17 +3,24 @@ import { getStoreDb, sanitizeProductForPublic } from "@/lib/store-db";
 
 export async function GET() {
   const db = await getStoreDb();
-  return NextResponse.json({
-    products: db.products.map(sanitizeProductForPublic),
-    settings: {
-      storeName: db.settings.storeName,
-      supportEmail: db.settings.supportEmail,
-      freeShippingThresholdUsd: db.settings.freeShippingThresholdUsd,
-      shippingProtectionPriceUsd: db.settings.shippingProtectionPriceUsd,
-      announcementText: db.settings.announcementText,
-      tiktokTrendingProductId: db.settings.tiktokTrendingProductId || "prod-cosrx-snail-96",
-      tiktokTrendingViews: db.settings.tiktokTrendingViews || "4.8B TikTok Views",
-      tiktokTrendingTagline: db.settings.tiktokTrendingTagline || "#TikTokMadeMeBuyIt • Viral Glass Skin Sensation",
+  return NextResponse.json(
+    {
+      products: db.products.map(sanitizeProductForPublic),
+      settings: {
+        storeName: db.settings.storeName,
+        supportEmail: db.settings.supportEmail,
+        freeShippingThresholdUsd: db.settings.freeShippingThresholdUsd,
+        shippingProtectionPriceUsd: db.settings.shippingProtectionPriceUsd,
+        announcementText: db.settings.announcementText,
+        tiktokTrendingProductId: db.settings.tiktokTrendingProductId || "prod-cosrx-snail-96",
+        tiktokTrendingViews: db.settings.tiktokTrendingViews || "4.8B TikTok Views",
+        tiktokTrendingTagline: db.settings.tiktokTrendingTagline || "#TikTokMadeMeBuyIt • Viral Glass Skin Sensation",
+      },
     },
-  });
+    {
+      headers: {
+        "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
+      },
+    }
+  );
 }

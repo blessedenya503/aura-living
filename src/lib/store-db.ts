@@ -343,8 +343,15 @@ export const INITIAL_SAMPLE_ORDERS: CustomerOrder[] = [
 ];
 
 let cachedDb: StoreDatabase | null = null;
+let lastNeonFetch = 0;
+const MEMORY_CACHE_TTL = 60 * 1000; // 60s memory cache to avoid cold Neon queries on every request
 
 export async function getStoreDb(): Promise<StoreDatabase> {
+  const now = Date.now();
+  if (cachedDb && now - lastNeonFetch < MEMORY_CACHE_TTL) {
+    return cachedDb;
+  }
+
   const sql = getNeonSql();
   if (sql) {
     try {
@@ -353,6 +360,7 @@ export async function getStoreDb(): Promise<StoreDatabase> {
       `) as any[];
       if (Array.isArray(rows) && rows.length > 0 && rows[0]?.data) {
         cachedDb = rows[0].data as StoreDatabase;
+        lastNeonFetch = now;
         return cachedDb;
       }
     } catch (err) {
@@ -363,11 +371,13 @@ export async function getStoreDb(): Promise<StoreDatabase> {
   if (cachedDb) return cachedDb;
   const local = readStoreDb();
   cachedDb = local;
+  lastNeonFetch = now;
   return local;
 }
 
 export async function saveStoreDb(db: StoreDatabase): Promise<void> {
   cachedDb = db;
+  lastNeonFetch = Date.now();
   try {
     fs.mkdirSync(path.dirname(DB_FILE_PATH), { recursive: true });
     fs.writeFileSync(DB_FILE_PATH, JSON.stringify(db, null, 2), "utf-8");

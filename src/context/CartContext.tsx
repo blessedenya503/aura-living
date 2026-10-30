@@ -151,7 +151,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   const refreshCatalog = async () => {
     try {
-      const res = await fetch("/api/store", { cache: "no-store" });
+      const res = await fetch("/api/store");
       if (res.ok) {
         const data = await res.json();
         if (Array.isArray(data.products) && data.products.length > 0) {
