@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { computeSessionToken } from "@/lib/admin-session";
+import { getExpectedAdminCredentials } from "@/lib/admin-auth";
 
 const ADMIN_COOKIE_NAME = "aura_owner_session";
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const host = request.headers.get("host") || "";
-  const isPort3003 = host.includes(":3003");
   const isPort3002 = host.includes(":3002");
 
   // The owner portal is accessible on both port 3002 and port 3003
@@ -20,10 +20,10 @@ export async function middleware(request: NextRequest) {
   if (pathname.startsWith("/owner-portal")) {
     const isLoginPage = pathname === "/owner-portal/login";
     const sessionCookie = request.cookies.get(ADMIN_COOKIE_NAME)?.value;
-    const email = process.env.ADMIN_EMAIL?.trim().toLowerCase();
-    const secret = process.env.ADMIN_SESSION_SECRET;
-    const expectedToken =
-      email && secret ? await computeSessionToken(email, secret) : null;
+    const credentials = getExpectedAdminCredentials();
+    const expectedToken = credentials
+      ? await computeSessionToken(credentials.email, credentials.secret)
+      : null;
     const isAuthenticated = Boolean(
       sessionCookie && expectedToken && sessionCookie === expectedToken
     );

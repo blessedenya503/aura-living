@@ -30,13 +30,20 @@ export async function POST(req: Request) {
     const input = Buffer.from(await file.arrayBuffer());
     const out = await sharp(input)
       .rotate()
-      .resize({ width: 1400, height: 1400, fit: "inside", withoutEnlargement: true })
-      .jpeg({ quality: 86 })
+      .resize({ width: 1200, height: 1200, fit: "inside", withoutEnlargement: true })
+      .jpeg({ quality: 84 })
       .toBuffer();
-    fs.mkdirSync(UPLOAD_DIR, { recursive: true });
-    const name = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}.jpg`;
-    fs.writeFileSync(path.join(UPLOAD_DIR, name), out);
-    return NextResponse.json({ success: true, url: `/api/media/${name}` });
+
+    // Try local disk write first; fall back to data URL on read-only serverless environments (Vercel)
+    try {
+      fs.mkdirSync(UPLOAD_DIR, { recursive: true });
+      const name = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}.jpg`;
+      fs.writeFileSync(path.join(UPLOAD_DIR, name), out);
+      return NextResponse.json({ success: true, url: `/api/media/${name}` });
+    } catch {
+      const dataUrl = `data:image/jpeg;base64,${out.toString("base64")}`;
+      return NextResponse.json({ success: true, url: dataUrl });
+    }
   } catch (err: any) {
     return NextResponse.json({ error: err?.message || "Upload failed" }, { status: 500 });
   }

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { isRequestAdminAuthenticated } from "@/lib/admin-auth";
-import { readStoreDb, writeStoreDb } from "@/lib/store-db";
+import { getStoreDb, saveStoreDb } from "@/lib/store-db";
 import { DEFAULT_CLINICAL_CASES, type ClinicalStudyCase } from "@/lib/clinical-cases";
 
 export const dynamic = "force-dynamic";
@@ -34,7 +34,7 @@ export async function GET() {
   if (!(await isRequestAdminAuthenticated())) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
-  const db = readStoreDb();
+  const db = await getStoreDb();
   const cases =
     Array.isArray(db.clinicalCases) && db.clinicalCases.length > 0
       ? db.clinicalCases
@@ -48,11 +48,11 @@ export async function PUT(req: Request) {
   }
   try {
     const body = await req.json();
-    const db = readStoreDb();
+    const db = await getStoreDb();
 
     if (body?.reset === true) {
       delete db.clinicalCases;
-      writeStoreDb(db);
+      await saveStoreDb(db);
       return NextResponse.json({ success: true, cases: DEFAULT_CLINICAL_CASES });
     }
 
@@ -68,7 +68,7 @@ export async function PUT(req: Request) {
       );
     }
     db.clinicalCases = cases;
-    writeStoreDb(db);
+    await saveStoreDb(db);
     return NextResponse.json({ success: true, cases });
   } catch (err: any) {
     return NextResponse.json({ error: err?.message || "Failed to save slides" }, { status: 500 });

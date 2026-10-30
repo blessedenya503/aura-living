@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { isRequestAdminAuthenticated } from "@/lib/admin-auth";
-import { readStoreDb, writeStoreDb } from "@/lib/store-db";
+import { getStoreDb, saveStoreDb } from "@/lib/store-db";
 import { Product, ProductCategory } from "@/data/products";
 
 export interface VerifiedBrandItem {
@@ -461,7 +461,7 @@ export async function GET(request: Request) {
 
   const { searchParams } = new URL(request.url);
   const query = (searchParams.get("q") || "").trim().toLowerCase();
-  const db = readStoreDb();
+  const db = await getStoreDb();
   const existingProductIds = new Set(db.products.map((p) => p.id));
   const existingProductNames = new Set(db.products.map((p) => p.name.toLowerCase()));
 
@@ -518,7 +518,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "No items provided" }, { status: 400 });
     }
 
-    const db = readStoreDb();
+    const db = await getStoreDb();
     let addedCount = 0;
 
     for (const item of itemsToUpload) {
@@ -570,7 +570,7 @@ export async function POST(request: Request) {
       }
     }
 
-    writeStoreDb(db);
+    await saveStoreDb(db);
 
     return NextResponse.json({
       success: true,

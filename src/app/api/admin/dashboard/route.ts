@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { isRequestAdminAuthenticated } from "@/lib/admin-auth";
-import { getStoreDb, saveStoreDb, writeStoreDb, CustomerOrder } from "@/lib/store-db";
+import { getStoreDb, saveStoreDb, CustomerOrder } from "@/lib/store-db";
 import { Product } from "@/data/products";
 
 export async function GET() {
@@ -52,7 +52,7 @@ export async function POST(request: Request) {
   // If action is clear all orders / simulation data
   if (body.action === "clear_orders") {
     db.orders = [];
-    writeStoreDb(db);
+    await saveStoreDb(db);
     return NextResponse.json({ success: true, message: "All simulation orders cleared" });
   }
 
@@ -112,7 +112,7 @@ export async function POST(request: Request) {
     };
 
     db.orders.unshift(sampleOrder);
-    writeStoreDb(db);
+    await saveStoreDb(db);
     return NextResponse.json({ order: sampleOrder, success: true });
   }
 
@@ -156,7 +156,7 @@ export async function POST(request: Request) {
   };
 
   db.products.unshift(newProduct);
-  writeStoreDb(db);
+  await saveStoreDb(db);
 
   return NextResponse.json({ product: newProduct, success: true });
 }
@@ -182,7 +182,7 @@ export async function PATCH(request: Request) {
       if (body.carrier) {
         db.orders[oIdx].carrier = body.carrier;
       }
-      writeStoreDb(db);
+      await saveStoreDb(db);
       return NextResponse.json({ order: db.orders[oIdx], success: true });
     }
   }
@@ -199,7 +199,7 @@ export async function PATCH(request: Request) {
         supplierCost: Number(body.product.supplierCost) || db.products[idx].supplierCost,
         stockLeft: Number(body.product.stockLeft) ?? db.products[idx].stockLeft,
       };
-      writeStoreDb(db);
+      await saveStoreDb(db);
       return NextResponse.json({ product: db.products[idx], success: true });
     }
   }
@@ -216,7 +216,7 @@ export async function PATCH(request: Request) {
         body.settings.defaultMarkupMultiplier ?? db.settings.defaultMarkupMultiplier
       ),
     };
-    writeStoreDb(db);
+    await saveStoreDb(db);
     return NextResponse.json({ settings: db.settings, success: true });
   }
 
@@ -236,7 +236,7 @@ export async function DELETE(request: Request) {
 
   if (orderId) {
     db.orders = db.orders.filter((o) => o.id !== orderId);
-    writeStoreDb(db);
+    await saveStoreDb(db);
     return NextResponse.json({ success: true });
   }
 
@@ -246,7 +246,7 @@ export async function DELETE(request: Request) {
     } else {
       db.products = db.products.filter((p) => p.id !== productId);
     }
-    writeStoreDb(db);
+    await saveStoreDb(db);
     return NextResponse.json({ success: true });
   }
 

@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import { readStoreDb, writeStoreDb } from "@/lib/store-db";
+import { getStoreDb, saveStoreDb } from "@/lib/store-db";
 
 export async function POST() {
   try {
-    const db = readStoreDb();
+    const db = await getStoreDb();
     const now = new Date();
     const nextWeek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
 
@@ -15,7 +15,7 @@ export async function POST() {
       weeklySyncSchedule: "Every Sunday at 00:00 UTC",
     };
 
-    writeStoreDb(db);
+    await saveStoreDb(db);
 
     return NextResponse.json({
       success: true,
@@ -30,7 +30,7 @@ export async function POST() {
 }
 
 export async function GET() {
-  const db = readStoreDb();
+  const db = await getStoreDb();
   return NextResponse.json({
     success: true,
     weeklySyncEnabled: db.settings.weeklySyncEnabled ?? true,
