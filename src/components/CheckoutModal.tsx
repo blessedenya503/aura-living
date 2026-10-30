@@ -92,80 +92,60 @@ export default function CheckoutModal() {
         })),
       };
 
-      if (paymentMethod === "Paystack (Cards / Bank Transfer)") {
-        // Initialize with Paystack backend
-        const initRes = await fetch("/api/paystack/initialize", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            ...orderPayload,
-            amountUsd: finalTotalUsd,
-          }),
-        });
-
-        const initData = await initRes.json();
-
-        if (!initRes.ok || !initData.success) {
-          setErrorMessage(initData.error || "Unable to initialize Paystack checkout.");
-          return;
-        }
-
-        if (initData.authorizationUrl) {
-          window.location.href = initData.authorizationUrl;
-          return;
-        }
-
-        // Demo / instant verification mode
-        const verifyRes = await fetch("/api/paystack/verify", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            reference: initData.reference,
-            orderPayload: {
-              ...orderPayload,
-              orderId: initData.orderId,
-            },
-          }),
-        });
-
-        const verifyData = await verifyRes.json();
-        if (verifyData.order) {
-          setConfirmedOrder({
-            id: verifyData.order.id,
-            totalPaidUsd: verifyData.order.totalPaidUsd,
-            estimatedDelivery:
-              verifyData.order.estimatedDelivery || "2–4 Business Days (Express)",
-          });
-          clearCart();
-          return;
-        }
-
-        setErrorMessage("Paystack authorization could not be completed.");
-        return;
-      }
-
-      // Default / Card / Apple Pay fallback flow
-      const res = await fetch("/api/checkout", {
+      // All real payment methods (Paystack Direct, Visa/Mastercard, Apple Pay, Google Pay)
+      // route through Paystack's encrypted live checkout gateway
+      const initRes = await fetch("/api/paystack/initialize", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...orderPayload,
           paymentMethod,
+          amountUsd: finalTotalUsd,
         }),
       });
 
-      const data = await res.json();
-      if (data.order) {
+      const initData = await initRes.json();
+
+      if (!initRes.ok || !initData.success) {
+        setErrorMessage(initData.error || "Unable to initialize Paystack checkout.");
+        return;
+      }
+
+      if (initData.authorizationUrl) {
+        window.location.href = initData.authorizationUrl;
+        return;
+      }
+
+      // Demo / instant verification mode fallback
+      const verifyRes = await fetch("/api/paystack/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          reference: initData.reference,
+          orderPayload: {
+            ...orderPayload,
+            orderId: initData.orderId,
+          },
+        }),
+      });
+
+      const verifyData = await verifyRes.json();
+      if (verifyData.order) {
         setConfirmedOrder({
-          id: data.order.id,
-          totalPaidUsd: data.order.totalPaidUsd,
+          id: verifyData.order.id,
+          totalPaidUsd: verifyData.order.totalPaidUsd,
           estimatedDelivery:
-            data.order.estimatedDelivery || "2–4 Business Days (Express)",
+            verifyData.order.estimatedDelivery || "2–4 Business Days (Express)",
         });
         clearCart();
+        return;
       }
+
+      setErrorMessage("Payment authorization could not be completed.");
+      return;
     } catch (err) {
       console.error("Checkout failed:", err);
+      setErrorMessage("Network error while connecting to payment gateway. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -442,58 +422,37 @@ export default function CheckoutModal() {
                 </div>
               </div>
 
-              {/* Paystack Payment Description */}
-              {paymentMethod === "Paystack (Cards / Bank Transfer)" && (
-                <div className="p-4 bg-cyan-50/60 border border-cyan-200/80 rounded-2xl space-y-2.5 animate-fadeIn">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <PaystackLogo className="h-4.5 w-auto" />
-                      <span className="text-xs font-bold text-slate-900">
-                        Paystack Direct Settlement (Nigeria & Pan-Africa)
-                      </span>
-                    </div>
-                    <span className="text-[10px] font-bold text-[#0BA4DB] bg-white px-2 py-0.5 rounded-full border border-cyan-200">
-                      Bank • Cards • Transfer • USSD
+              {/* Payment Gateway Description */}
+              <div className="p-4 bg-cyan-50/60 border border-cyan-200/80 rounded-2xl space-y-2.5 animate-fadeIn">
+                <div className="flex items-center justify-between flex-wrap gap-2">
+                  <div className="flex items-center gap-2">
+                    <PaystackLogo className="h-4.5 w-auto" />
+                    <span className="text-xs font-bold text-slate-900">
+                      {paymentMethod === "Debit / Credit Card"
+                        ? "Encrypted Card Checkout (Visa / Mastercard / Verve)"
+                        : paymentMethod === "Apple Pay"
+                        ? "Apple Pay Express via Paystack"
+                        : paymentMethod === "Google Pay"
+                        ? "Google Pay Express via Paystack"
+                        : "Paystack Direct Settlement (Nigeria & Global)"}
                     </span>
                   </div>
-                  <p className="text-[11px] text-slate-600 leading-relaxed">
-                    Direct payment via Nigerian Bank Transfer, Access / Zenith / GTB / Kuda / UBA,
-                    Mastercard, Visa, Verve & USSD. Funds settle straight into your Nigerian bank account.
-                  </p>
+                  <span className="text-[10px] font-bold text-[#0BA4DB] bg-white px-2.5 py-0.5 rounded-full border border-cyan-200">
+                    3D Secure • Instant Verification
+                  </span>
                 </div>
-              )}
+                <p className="text-[11px] text-slate-600 leading-relaxed">
+                  {paymentMethod === "Debit / Credit Card"
+                    ? "Clicking Pay securely opens Paystack's PCI-DSS Level 1 encrypted card terminal where you enter your Visa, Mastercard, or Verve card details and complete your bank's 3D Secure OTP."
+                    : paymentMethod === "Apple Pay"
+                    ? "Clicking Pay opens Paystack's encrypted checkout where you can authorize instantly with Apple Pay (Face ID / Touch ID) on supported Apple devices, or pay via Card / Bank Transfer."
+                    : "Direct payment via Nigerian Bank Transfer (OPay, Access, Zenith, GTB, Kuda, UBA), Visa, Mastercard, Verve & USSD. Your order is verified automatically upon payment."}
+                </p>
+              </div>
 
-              {/* Standard Debit / Credit Card Inputs */}
-              {paymentMethod === "Debit / Credit Card" && (
-                <div className="p-4 bg-slate-50 border border-slate-200 rounded-2xl space-y-3 animate-fadeIn">
-                  <div className="flex items-center gap-2 text-xs font-bold text-slate-900">
-                    <VisaLogo className="h-3.5 w-auto" />
-                    <MastercardLogo className="h-3.5 w-auto" />
-                    <span>Card Information</span>
-                  </div>
-                  <input
-                    type="text"
-                    placeholder="4242 •••• •••• 4242"
-                    value={cardNumber}
-                    onChange={(e) => setCardNumber(e.target.value)}
-                    className="w-full px-3 py-2 text-xs bg-white border border-slate-200 rounded-xl focus:outline-hidden font-mono"
-                  />
-                  <div className="grid grid-cols-2 gap-2">
-                    <input
-                      type="text"
-                      placeholder="MM / YY"
-                      value={expiry}
-                      onChange={(e) => setExpiry(e.target.value)}
-                      className="w-full px-3 py-2 text-xs bg-white border border-slate-200 rounded-xl focus:outline-hidden font-mono"
-                    />
-                    <input
-                      type="text"
-                      placeholder="CVC"
-                      value={cvc}
-                      onChange={(e) => setCvc(e.target.value)}
-                      className="w-full px-3 py-2 text-xs bg-white border border-slate-200 rounded-xl focus:outline-hidden font-mono"
-                    />
-                  </div>
+              {errorMessage && (
+                <div className="p-3.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
+                  {errorMessage}
                 </div>
               )}
 
