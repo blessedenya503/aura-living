@@ -23,9 +23,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "AURA Living & Skincare — Modern Dermatological Creams & Essential Longevity",
+  title: "AURA.STORE — Dermatological Skincare & Essential Longevity",
   description:
-    "Targeted skin longevity, barrier repair, and 48H deep hydration featuring authentic NIVEA and premier dermatologist formulations.",
+    "Authentic dermatologist-approved skincare featuring COSRX, NIVEA, CeraVe, and La Roche-Posay. Fast tracked delivery across Nigeria & Worldwide.",
   icons: {
     icon: [
       { url: "/favicon.jpg", type: "image/jpeg" },

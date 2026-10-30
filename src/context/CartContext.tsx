@@ -91,7 +91,7 @@ export function getBundleUnitPrice(basePriceUsd: number, tier: 1 | 2 | 3): numbe
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [products, setProducts] = useState<Product[]>(INITIAL_PRODUCTS);
   const [storeSettings, setStoreSettings] = useState<StorePublicSettings>({
-    storeName: "AURA Living & Skincare",
+    storeName: "AURA.STORE",
     supportEmail: "concierge@auraliving.store",
     freeShippingThresholdUsd: 35,
     shippingProtectionPriceUsd: 2.49,

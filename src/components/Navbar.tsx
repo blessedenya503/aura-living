@@ -76,7 +76,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Emergent "AURA" Wordmark Flowing Out of the Logo */}
+          {/* Emergent "AURA.STORE" Wordmark Flowing Out of the Logo */}
           <div className="flex flex-col justify-center">
             <div className="flex items-center gap-1.5">
               <span
@@ -86,16 +86,16 @@ export default function Navbar() {
                     : "text-slate-950 group-hover:text-[#002B7F]"
                 }`}
               >
-                AURA
+                AURA<span className="text-blue-600">.STORE</span>
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#FE2C55] shadow-[0_0_6px_#FE2C55] animate-ping" />
             </div>
             <span
-              className={`text-[9.5px] uppercase tracking-[0.22em] font-extrabold mt-0.5 transition-colors ${
+              className={`text-[9px] uppercase tracking-[0.22em] font-extrabold mt-0.5 transition-colors ${
                 isNightRecovery ? "text-cyan-300/90" : "text-slate-500"
               }`}
             >
-              Health &amp; Skincare
+              Dermatological Skincare
             </span>
           </div>
         </Link>

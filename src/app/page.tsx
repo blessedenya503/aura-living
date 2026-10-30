@@ -601,7 +601,7 @@ export default function HomePage() {
                 AU
               </div>
               <span className="font-bold text-white tracking-tight text-sm">
-                AURA Health &amp; Skincare
+                AURA<span className="text-blue-400">.STORE</span>
               </span>
             </div>
 
@@ -619,7 +619,7 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-6 text-[11px] text-slate-500">
-            <p>© {new Date().getFullYear()} AURA Health &amp; Living. Real Skincare Data.</p>
+            <p>© {new Date().getFullYear()} AURA.STORE. Authentic Dermatological Skincare.</p>
             <p>21st.dev Component Architecture • SSL 256-Bit Encrypted</p>
           </div>
         </div>

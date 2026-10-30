@@ -99,7 +99,7 @@ export interface StoreDatabase {
 const DB_FILE_PATH = path.join(process.cwd(), "src", "data", "store-db.json");
 
 export const INITIAL_SETTINGS: StoreSettings = {
-  storeName: "AURA Living & Skincare",
+  storeName: "AURA.STORE",
   supportEmail: "concierge@auraliving.store",
   freeShippingThresholdUsd: 35,
   shippingProtectionPriceUsd: 2.49,
