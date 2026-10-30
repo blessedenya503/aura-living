@@ -31,6 +31,13 @@ function TikTokIcon({ className = "w-4 h-4" }: { className?: string }) {
   );
 }
 
+function getSafeImageUrl(url?: string): string {
+  if (!url) return "";
+  if (url.startsWith("/api/proxy-image") || url.startsWith("/")) return url;
+  if (url.startsWith("http")) return `/api/proxy-image?url=${encodeURIComponent(url)}`;
+  return url;
+}
+
 interface TikTokViralTrend {
   id: string;
   brand: string;
@@ -379,7 +386,7 @@ export default function Hero() {
                     }}
                   >
                     <img
-                      src={activeTrend.heroImage}
+                      src={getSafeImageUrl(activeTrend.heroImage)}
                       alt={activeTrend.name}
                       className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                       loading="eager"

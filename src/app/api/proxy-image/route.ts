@@ -37,7 +37,7 @@ export async function GET(req: Request) {
     return new NextResponse(arrayBuffer, {
       headers: {
         "Content-Type": contentType,
-        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
+        "Cache-Control": "public, max-age=604800, s-maxage=2592000, stale-while-revalidate=2592000",
         "Access-Control-Allow-Origin": "*",
       },
     });

@@ -18,6 +18,13 @@ import {
 import { Product, ProductVariant } from "@/data/products";
 import { useCart, getBundleUnitPrice } from "@/context/CartContext";
 
+function getSafeImageUrl(url?: string): string {
+  if (!url) return "";
+  if (url.startsWith("/api/proxy-image") || url.startsWith("/")) return url;
+  if (url.startsWith("http")) return `/api/proxy-image?url=${encodeURIComponent(url)}`;
+  return url;
+}
+
 export default function ProductModal() {
   const {
     selectedProduct,
@@ -81,9 +88,7 @@ export default function ProductModal() {
             <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-4">
               <img
                 src={
-                  images[activeImageIndex] ||
-                  selectedProduct.image ||
-                  "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop"
+                  getSafeImageUrl(images[activeImageIndex] || selectedProduct.image)
                 }
                 alt={selectedProduct.name}
                 className="w-full h-full object-contain p-2"
@@ -91,9 +96,9 @@ export default function ProductModal() {
                 crossOrigin="anonymous"
                 onError={(e) => {
                   const target = e.currentTarget;
-                  const currentSrc = target.src;
-                  if (!currentSrc.includes("/api/proxy-image") && currentSrc.startsWith("http")) {
-                    target.src = `/api/proxy-image?url=${encodeURIComponent(currentSrc)}`;
+                  const raw = images[activeImageIndex] || selectedProduct.image;
+                  if (target.src.includes("/api/proxy-image") && raw) {
+                    target.src = raw;
                   }
                 }}
               />

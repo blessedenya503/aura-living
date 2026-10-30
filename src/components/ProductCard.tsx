@@ -19,8 +19,16 @@ interface ProductCardProps {
   product: Product;
 }
 
-const DEFAULT_SKINCARE_IMAGE =
-  "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop";
+function getSafeImageUrl(url?: string): string {
+  if (!url) return "";
+  if (url.startsWith("/api/proxy-image") || url.startsWith("/")) {
+    return url;
+  }
+  if (url.startsWith("http")) {
+    return `/api/proxy-image?url=${encodeURIComponent(url)}`;
+  }
+  return url;
+}
 
 export default function ProductCard({ product }: ProductCardProps) {
   const { addToCart, formatPrice, setSelectedProduct } = useCart();
@@ -28,12 +36,10 @@ export default function ProductCard({ product }: ProductCardProps) {
     product.variants[0]
   );
   const [isAdded, setIsAdded] = useState(false);
-  const [imgSrc, setImgSrc] = useState(product.image || DEFAULT_SKINCARE_IMAGE);
+  const [imgSrc, setImgSrc] = useState(() => getSafeImageUrl(product.image));
 
   React.useEffect(() => {
-    if (product.image) {
-      setImgSrc(product.image);
-    }
+    setImgSrc(getSafeImageUrl(product.image));
   }, [product.image]);
 
   const handleQuickAdd = (e: React.MouseEvent) => {
@@ -115,10 +121,8 @@ export default function ProductCard({ product }: ProductCardProps) {
           referrerPolicy="no-referrer"
           crossOrigin="anonymous"
           onError={() => {
-            if (!imgSrc.includes("/api/proxy-image") && product.image && product.image.startsWith("http")) {
-              setImgSrc(`/api/proxy-image?url=${encodeURIComponent(product.image)}`);
-            } else {
-              setImgSrc(DEFAULT_SKINCARE_IMAGE);
+            if (imgSrc.startsWith("/api/proxy-image") && product.image) {
+              setImgSrc(product.image);
             }
           }}
         />

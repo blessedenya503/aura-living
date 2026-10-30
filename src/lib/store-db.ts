@@ -462,8 +462,18 @@ export function writeStoreDb(db: StoreDatabase): void {
 
 export function sanitizeProductForPublic(product: Product): Product {
   const copy = { ...product };
-  // Keep clean public-safe fields, protect supplier cost
   delete (copy as any).supplierCost;
   delete (copy as any).cjShippingCost;
+
+  if (copy.image && copy.image.startsWith("http") && !copy.image.startsWith("/api/proxy-image")) {
+    copy.image = `/api/proxy-image?url=${encodeURIComponent(copy.image)}`;
+  }
+  if (Array.isArray(copy.gallery)) {
+    copy.gallery = copy.gallery.map((img) =>
+      img && img.startsWith("http") && !img.startsWith("/api/proxy-image")
+        ? `/api/proxy-image?url=${encodeURIComponent(img)}`
+        : img
+    );
+  }
   return copy;
 }
