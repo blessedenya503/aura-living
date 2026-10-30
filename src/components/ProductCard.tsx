@@ -72,7 +72,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                   className="min-h-0 p-0 justify-start items-center"
                   containerClassName="inline-block"
                   textClassName="text-[9.5px] font-extrabold text-white"
-                  colors={{ red: "#FE2C55", green: "#25F4EE", blue: "#FFFFFF" }}
+                  colors={{ red: "#FE2C55", green: "#FE2C55", blue: "#FFFFFF" }}
                 />
               </span>
             ) : (

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { isRequestAdminAuthenticated } from "@/lib/admin-auth";
-import { readStoreDb, writeStoreDb, CustomerOrder } from "@/lib/store-db";
+import { getStoreDb, saveStoreDb, writeStoreDb, CustomerOrder } from "@/lib/store-db";
 import { Product } from "@/data/products";
 
 export async function GET() {
@@ -8,7 +8,7 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const db = readStoreDb();
+  const db = await getStoreDb();
 
   const totalRevenueUsd = db.orders.reduce((s, o) => s + (o.totalPaidUsd || 0), 0);
   const totalSupplierCostUsd = db.orders.reduce(
@@ -47,7 +47,14 @@ export async function POST(request: Request) {
   }
 
   const body = await request.json();
-  const db = readStoreDb();
+  const db = await getStoreDb();
+
+  // If action is clear all orders / simulation data
+  if (body.action === "clear_orders") {
+    db.orders = [];
+    writeStoreDb(db);
+    return NextResponse.json({ success: true, message: "All simulation orders cleared" });
+  }
 
   // If action is creating sample test order
   if (body.action === "create_sample_order") {
@@ -160,7 +167,7 @@ export async function PATCH(request: Request) {
   }
 
   const body = await request.json();
-  const db = readStoreDb();
+  const db = await getStoreDb();
 
   // Update order fulfillment status or tracking
   if (body.type === "update_order" && body.orderId) {
@@ -225,7 +232,7 @@ export async function DELETE(request: Request) {
   const productId = searchParams.get("id");
   const orderId = searchParams.get("orderId");
 
-  const db = readStoreDb();
+  const db = await getStoreDb();
 
   if (orderId) {
     db.orders = db.orders.filter((o) => o.id !== orderId);

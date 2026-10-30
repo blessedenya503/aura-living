@@ -32,13 +32,13 @@ function TikTokIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
 
 const POPULAR_SEARCH_PILLS = [
   "NIVEA Creme",
+  "Hair Care & Oils",
+  "Luxury Colognes",
+  "Repair Balms & Gels",
   "COSRX Snail Mucin",
-  "CeraVe Ceramides",
   "Beauty of Joseon SPF",
   "La Roche-Posay Cicaplast",
   "Anua Heartleaf",
-  "The Ordinary Niacinamide",
-  "Alibaba OEM",
 ];
 
 export default function GlobalSearchModal() {
@@ -191,10 +191,10 @@ export default function GlobalSearchModal() {
                 <span className="text-cyan-400 font-mono font-bold mr-1.5">AI</span>
                 <Typewriter
                   text={[
-                    "Search creams, brands, actives...",
-                    "Ask: 'I have dry skin and dark spots around eyes'...",
-                    "Ask: 'What is the best barrier cream for sensitive skin?'...",
-                    "Search: COSRX Snail Mucin, NIVEA Creme, CeraVe...",
+                    "Search hair care, colognes, balms, creams...",
+                    "Ask: 'What hair oil works best for dry hair and scalp?'...",
+                    "Ask: 'Recommend long-lasting luxury colognes for evening'...",
+                    "Search: Cicaplast Balm, Snail Mucin Gel, NIVEA...",
                     "Ask: 'How do I fade acne scars and blemishes?'...",
                   ]}
                   speed={70}
@@ -342,7 +342,7 @@ export default function GlobalSearchModal() {
                     className="min-h-0 p-0 justify-start items-center"
                     containerClassName="inline-block"
                     textClassName="text-[11px] font-extrabold uppercase tracking-wider text-white"
-                    colors={{ red: "#FE2C55", green: "#25F4EE", blue: "#FFFFFF" }}
+                    colors={{ red: "#FE2C55", green: "#FE2C55", blue: "#FFFFFF" }}
                   />
                   <span className="text-slate-400 font-semibold">• Bestselling Formulas</span>
                 </span>

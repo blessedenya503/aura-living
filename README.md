@@ -10,11 +10,9 @@ A modern, full-stack, high-conversion direct-to-consumer (D2C) e-commerce storef
 * **Hero Trends Showcase:** Dynamic viral trend spotlight with Framer Motion blend effects, TikTok branding, and real-time statistics.
 * **Animated Glitch Text:** Authentic viral TikTok chromatic glitch effect (`#FE2C55`, `#25F4EE`, `#FFFFFF`).
 * **Live Gemini AI Search (`⌘K`):** Natural language ingredient search, formula analysis, and zero-state curated bestsellers.
-* **AURA DermAI Skin Matcher:** 1-tap clinical skin goal diagnosis and automated routine duo recommendation.
-* **Clinical Before/After Slider:** Dual-layer interactive drag/split-screen clinical efficacy evidence slider.
 * **Multi-Currency Engine:** Instant real-time conversion rates across USD, EUR, GBP, CAD, AUD, NGN, and JPY.
 * **Night Recovery Sweep:** Ambient day/night circadian theme switch.
-* **Customer Authentication Portal (`/login`):** Split-screen customer account portal with Google & GitHub social logins.
+* **Customer Authentication Portal (`/login`):** Split-screen customer account portal with Google & X social logins.
 * **Express Order Tracking (`/track-order`):** Multi-carrier parcel timeline lookup with real-time status updates.
 
 ### 🛡️ Private Owner Command Portal (`/owner-portal`)

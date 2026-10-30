@@ -160,11 +160,15 @@ export default function ProductModal() {
                 {selectedProduct.shortDescription}
               </p>
 
-              {/* Skin Type & Active Ingredients */}
+              {/* Category-Adaptive Target & Key Ingredients / Olfactory Notes */}
               <div className="mt-4 p-3.5 bg-blue-50/60 rounded-xl border border-blue-100">
                 <div className="text-[11px] font-bold text-[#002B7F] uppercase tracking-wider flex items-center gap-1.5">
                   <FlaskConical className="w-3.5 h-3.5" />
-                  Target: {selectedProduct.skinType}
+                  {selectedProduct.category === "Luxury Fragrances & Colognes"
+                    ? `Fragrance Profile: ${selectedProduct.skinType}`
+                    : selectedProduct.category === "Hair & Scalp Care"
+                    ? `Hair & Scalp Target: ${selectedProduct.skinType}`
+                    : `Target: ${selectedProduct.skinType}`}
                 </div>
                 <div className="flex flex-wrap gap-1.5 mt-2">
                   {selectedProduct.keyIngredients.map((ing, i) => (
@@ -308,43 +312,117 @@ export default function ProductModal() {
                 </div>
               )}
 
-              {/* Clinical Efficacy Before & After Results Card */}
-              <div className="mt-4 p-3 bg-slate-900 text-white rounded-2xl border border-slate-800 space-y-2.5 shadow-xs">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-1.5 text-xs font-bold text-cyan-300">
-                    <FlaskConical className="w-3.5 h-3.5 text-cyan-400" />
-                    <span>Clinical Efficacy &amp; Results (14 Days)</span>
-                  </div>
-                  <span className="text-[9.5px] font-mono text-emerald-400 bg-emerald-500/20 px-2 py-0.5 rounded-full border border-emerald-500/30">
-                    +89% Measured Hydration
-                  </span>
-                </div>
-
-                {/* 2-Panel Before vs After Comparison */}
-                <div className="grid grid-cols-2 gap-2 text-[10px]">
-                  <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
-                    <span className="font-bold font-mono text-rose-400 block mb-0.5">
-                      Day 0 Baseline
+              {/* Category-Adaptive Clinical / Performance Results Card */}
+              {selectedProduct.category === "Luxury Fragrances & Colognes" ? (
+                <div className="mt-4 p-3 bg-slate-900 text-white rounded-2xl border border-slate-800 space-y-2.5 shadow-xs">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-1.5 text-xs font-bold text-amber-300">
+                      <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                      <span>Fragrance Longevity &amp; Projection Protocol</span>
+                    </div>
+                    <span className="text-[9.5px] font-mono text-emerald-400 bg-emerald-500/20 px-2 py-0.5 rounded-full border border-emerald-500/30">
+                      12H+ Long-Lasting Sillage
                     </span>
-                    <p className="text-slate-400 leading-tight">
-                      Compromised lipid matrix, dryness &amp; redness.
-                    </p>
                   </div>
-                  <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
-                    <span className="font-bold font-mono text-emerald-400 block mb-0.5">
-                      Day 14 Outcome
-                    </span>
-                    <p className="text-slate-300 leading-tight">
-                      Restored barrier, smooth texture &amp; plump dew.
-                    </p>
-                  </div>
-                </div>
 
-                <div className="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-slate-800/80">
-                  <span>Instrument: Corneometer CM 825</span>
-                  <span className="text-emerald-400 font-semibold">100% Non-Comedogenic</span>
+                  <div className="grid grid-cols-2 gap-2 text-[10px]">
+                    <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
+                      <span className="font-bold font-mono text-cyan-300 block mb-0.5">
+                        Opening Sensation
+                      </span>
+                      <p className="text-slate-400 leading-tight">
+                        Crisp citrus zest, bergamot &amp; luminous floral bursts.
+                      </p>
+                    </div>
+                    <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
+                      <span className="font-bold font-mono text-amber-300 block mb-0.5">
+                        Dry Down Base
+                      </span>
+                      <p className="text-slate-300 leading-tight">
+                        Warm amber, cedarwood &amp; sensual bourbon vanilla trail.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-slate-800/80">
+                    <span>Classification: Eau de Parfum Grade</span>
+                    <span className="text-emerald-400 font-semibold">Skin-Safe Verified</span>
+                  </div>
                 </div>
-              </div>
+              ) : selectedProduct.category === "Hair & Scalp Care" ? (
+                <div className="mt-4 p-3 bg-slate-900 text-white rounded-2xl border border-slate-800 space-y-2.5 shadow-xs">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-1.5 text-xs font-bold text-cyan-300">
+                      <FlaskConical className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>Hair Strength &amp; Scalp Density Study</span>
+                    </div>
+                    <span className="text-[9.5px] font-mono text-emerald-400 bg-emerald-500/20 px-2 py-0.5 rounded-full border border-emerald-500/30">
+                      -92% Strand Breakage
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-2 text-[10px]">
+                    <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
+                      <span className="font-bold font-mono text-rose-400 block mb-0.5">
+                        Week 0 Baseline
+                      </span>
+                      <p className="text-slate-400 leading-tight">
+                        Brittle split ends, dull texture &amp; scalp dryness.
+                      </p>
+                    </div>
+                    <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
+                      <span className="font-bold font-mono text-emerald-400 block mb-0.5">
+                        Week 3 Outcome
+                      </span>
+                      <p className="text-slate-300 leading-tight">
+                        Fuller, glossy hair strands with sealed cuticle resilience.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-slate-800/80">
+                    <span>Clinical Trichology Audit</span>
+                    <span className="text-emerald-400 font-semibold">Sulfate &amp; Paraben Free</span>
+                  </div>
+                </div>
+              ) : (
+                <div className="mt-4 p-3 bg-slate-900 text-white rounded-2xl border border-slate-800 space-y-2.5 shadow-xs">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-1.5 text-xs font-bold text-cyan-300">
+                      <FlaskConical className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>Clinical Efficacy &amp; Results (14 Days)</span>
+                    </div>
+                    <span className="text-[9.5px] font-mono text-emerald-400 bg-emerald-500/20 px-2 py-0.5 rounded-full border border-emerald-500/30">
+                      +89% Measured Hydration
+                    </span>
+                  </div>
+
+                  {/* 2-Panel Before vs After Comparison */}
+                  <div className="grid grid-cols-2 gap-2 text-[10px]">
+                    <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
+                      <span className="font-bold font-mono text-rose-400 block mb-0.5">
+                        Day 0 Baseline
+                      </span>
+                      <p className="text-slate-400 leading-tight">
+                        Compromised lipid matrix, dryness &amp; redness.
+                      </p>
+                    </div>
+                    <div className="p-2 rounded-xl bg-slate-950/70 border border-slate-800">
+                      <span className="font-bold font-mono text-emerald-400 block mb-0.5">
+                        Day 14 Outcome
+                      </span>
+                      <p className="text-slate-300 leading-tight">
+                        Restored barrier, smooth texture &amp; plump dew.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-slate-800/80">
+                    <span>Instrument: Corneometer CM 825</span>
+                    <span className="text-emerald-400 font-semibold">100% Non-Comedogenic</span>
+                  </div>
+                </div>
+              )}
 
               {/* Multi-Pack Bundle Savings */}
               <div className="mt-5">

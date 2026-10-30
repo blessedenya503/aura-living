@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { INITIAL_PRODUCTS, Product } from "@/data/products";
 import type { ClinicalStudyCase } from "@/lib/clinical-cases";
+import { getNeonSql } from "@/lib/neon";
 
 export interface OrderItem {
   productId: string;
@@ -56,6 +57,19 @@ export interface CustomerOrder {
   trackingTimeline: TrackingEvent[];
 }
 
+export interface LinkedBankAccount {
+  bankName: string;
+  bankCode?: string;
+  accountNumber: string;
+  accountName: string;
+  payoutSchedule: string;
+  settlementCurrency: string;
+  status?: "connected" | "pending" | "unlinked";
+  connectedAt?: string;
+  recipientCode?: string;
+  verifiedVia?: string;
+}
+
 export interface StoreSettings {
   storeName: string;
   supportEmail: string;
@@ -71,6 +85,7 @@ export interface StoreSettings {
   lastWeeklySyncAt?: string;
   nextWeeklySyncAt?: string;
   weeklySyncSchedule?: string;
+  linkedBank?: LinkedBankAccount;
 }
 
 export interface StoreDatabase {
@@ -99,6 +114,13 @@ export const INITIAL_SETTINGS: StoreSettings = {
   lastWeeklySyncAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 2).toISOString(), // 2 days ago
   nextWeeklySyncAt: new Date(Date.now() + 1000 * 60 * 60 * 24 * 5).toISOString(), // in 5 days
   weeklySyncSchedule: "Every Sunday at 00:00 UTC",
+  linkedBank: {
+    bankName: "Access Bank / GTBank / Zenith",
+    accountNumber: "0123456789",
+    accountName: "AURA LIVING ENTERPRISE",
+    payoutSchedule: "Next-day automatic bank settlement (T+1 at 05:00 WAT)",
+    settlementCurrency: "NGN (₦)",
+  },
 };
 
 export const INITIAL_SAMPLE_ORDERS: CustomerOrder[] = [
@@ -320,7 +342,64 @@ export const INITIAL_SAMPLE_ORDERS: CustomerOrder[] = [
   },
 ];
 
+let cachedDb: StoreDatabase | null = null;
+
+export async function getStoreDb(): Promise<StoreDatabase> {
+  const sql = getNeonSql();
+  if (sql) {
+    try {
+      const rows = (await sql`
+        SELECT data FROM store_state WHERE key = 'current_store_db' LIMIT 1
+      `) as any[];
+      if (Array.isArray(rows) && rows.length > 0 && rows[0]?.data) {
+        cachedDb = rows[0].data as StoreDatabase;
+        return cachedDb;
+      }
+    } catch (err) {
+      console.warn("Neon getStoreDb query fallback to local file:", err);
+    }
+  }
+
+  if (cachedDb) return cachedDb;
+  const local = readStoreDb();
+  cachedDb = local;
+  return local;
+}
+
+export async function saveStoreDb(db: StoreDatabase): Promise<void> {
+  cachedDb = db;
+  try {
+    fs.mkdirSync(path.dirname(DB_FILE_PATH), { recursive: true });
+    fs.writeFileSync(DB_FILE_PATH, JSON.stringify(db, null, 2), "utf-8");
+  } catch {}
+
+  const sql = getNeonSql();
+  if (sql) {
+    try {
+      await sql`
+        INSERT INTO store_state (key, data, updated_at)
+        VALUES ('current_store_db', ${JSON.stringify(db)}, NOW())
+        ON CONFLICT (key) DO UPDATE SET data = EXCLUDED.data, updated_at = NOW();
+      `;
+
+      if (db.settings) {
+        await sql`
+          INSERT INTO store_settings (id, data, updated_at)
+          VALUES ('main_settings', ${JSON.stringify(db.settings)}, NOW())
+          ON CONFLICT (id) DO UPDATE SET data = EXCLUDED.data, updated_at = NOW();
+        `;
+      }
+    } catch (err) {
+      console.error("Failed to persist store state to Neon:", err);
+    }
+  }
+}
+
 export function readStoreDb(): StoreDatabase {
+  if (cachedDb) {
+    return cachedDb;
+  }
+
   try {
     if (fs.existsSync(DB_FILE_PATH)) {
       const raw = fs.readFileSync(DB_FILE_PATH, "utf-8");
@@ -331,6 +410,7 @@ export function readStoreDb(): StoreDatabase {
         parsed.products.length > 0 &&
         parsed.products[0].brand // skincare indicator
       ) {
+        cachedDb = parsed;
         return parsed;
       }
     }
@@ -340,7 +420,7 @@ export function readStoreDb(): StoreDatabase {
 
   const initialDb: StoreDatabase = {
     products: INITIAL_PRODUCTS,
-    orders: INITIAL_SAMPLE_ORDERS,
+    orders: [],
     settings: INITIAL_SETTINGS,
   };
 
@@ -351,16 +431,23 @@ export function readStoreDb(): StoreDatabase {
     // Ignore write error
   }
 
+  cachedDb = initialDb;
   return initialDb;
 }
 
 export function writeStoreDb(db: StoreDatabase): void {
+  cachedDb = db;
   try {
     fs.mkdirSync(path.dirname(DB_FILE_PATH), { recursive: true });
     fs.writeFileSync(DB_FILE_PATH, JSON.stringify(db, null, 2), "utf-8");
   } catch (err) {
-    console.error("Failed to persist store-db.json:", err);
+    console.error("Failed to persist store-db.json locally:", err);
   }
+
+  // Also trigger async Neon sync
+  saveStoreDb(db).catch(err => {
+    console.error("Background Neon sync failed in writeStoreDb:", err);
+  });
 }
 
 export function sanitizeProductForPublic(product: Product): Product {

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { ShoppingBag, Search, Moon, Sun, TrendingUp, Ship, User } from "lucide-react";
+import { ShoppingBag, Search, Moon, Sun, TrendingUp, Ship, User, Menu, X } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import CurrencySelector from "@/components/CurrencySelector";
 import { Typewriter } from "@/components/ui/typewriter-text";
@@ -26,6 +26,8 @@ export default function Navbar() {
     triggerNightRecoverySweep,
   } = useCart();
 
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const scrollToCatalog = () => {
     const el = document.getElementById("catalog-section");
     if (el) {
@@ -35,32 +37,62 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-40 w-full backdrop-blur-md border-b transition-colors duration-700 shadow-xs ${
+      className={`sticky top-0 z-40 w-full backdrop-blur-xl border-b transition-colors duration-700 shadow-md ${
         isNightRecovery
-          ? "bg-slate-950/95 border-blue-900/50 text-white"
-          : "bg-white/90 border-slate-200/80"
+          ? "bg-slate-950/90 border-blue-900/40 text-white shadow-black/40"
+          : "bg-white/95 border-slate-200/80 shadow-slate-200/50"
       }`}
     >
       {/* Main Header */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
-        {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="w-9 h-9 rounded-full bg-linear-to-tr from-[#002B7F] to-blue-600 flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:scale-105 transition-transform">
-            AU
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-3">
+        {/* Mobile Hamburger Button */}
+        <button
+          type="button"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          className={`sm:hidden p-2 rounded-xl border transition-colors cursor-pointer ${
+            isNightRecovery
+              ? "bg-slate-900 border-slate-800 text-slate-200"
+              : "bg-slate-100 border-slate-200 text-slate-800"
+          }`}
+          aria-label="Toggle navigation menu"
+        >
+          {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+        </button>
+
+        {/* Brand Logo with Glowing Aura Badge */}
+        <Link href="/" className="flex items-center gap-2.5 sm:gap-3 group relative shrink-0">
+          {/* Glowing Animated Circular Badge */}
+          <div className="relative flex items-center justify-center">
+            {/* Ambient Pulse Glow */}
+            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-[#FE2C55] opacity-75 blur-md group-hover:opacity-100 group-hover:blur-lg transition-all duration-500 animate-pulse" />
+            
+            {/* Circular Ring & Core */}
+            <div className="relative w-10 h-10 rounded-full bg-gradient-to-tr from-[#002B7F] via-blue-700 to-cyan-500 p-[1.5px] shadow-[0_0_15px_rgba(0,242,254,0.5)] group-hover:shadow-[0_0_25px_rgba(0,242,254,0.8)] transition-all">
+              <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
+                <span className="font-extrabold text-sm tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-amber-300 drop-shadow-[0_0_8px_rgba(255,255,255,0.6)]">
+                  AU
+                </span>
+              </div>
+            </div>
           </div>
-          <div className="flex flex-col">
+
+          {/* Emergent "AURA" Wordmark Flowing Out of the Logo */}
+          <div className="flex flex-col justify-center">
+            <div className="flex items-center gap-1.5">
+              <span
+                className={`text-xl font-black tracking-tight leading-none transition-all ${
+                  isNightRecovery
+                    ? "text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-blue-300 drop-shadow-[0_0_12px_rgba(0,242,254,0.4)]"
+                    : "text-slate-950 group-hover:text-[#002B7F]"
+                }`}
+              >
+                AURA
+              </span>
+              <span className="w-1.5 h-1.5 rounded-full bg-[#FE2C55] shadow-[0_0_6px_#FE2C55] animate-ping" />
+            </div>
             <span
-              className={`text-lg font-bold tracking-tight transition-colors leading-none ${
-                isNightRecovery
-                  ? "text-white group-hover:text-cyan-300"
-                  : "text-slate-900 group-hover:text-[#002B7F]"
-              }`}
-            >
-              AURA
-            </span>
-            <span
-              className={`text-[10px] uppercase tracking-widest font-semibold mt-0.5 transition-colors ${
-                isNightRecovery ? "text-cyan-300" : "text-slate-500"
+              className={`text-[9.5px] uppercase tracking-[0.22em] font-extrabold mt-0.5 transition-colors ${
+                isNightRecovery ? "text-cyan-300/90" : "text-slate-500"
               }`}
             >
               Health &amp; Skincare
@@ -68,20 +100,9 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Interactive Search Bar (Mobile Icon + Desktop Input) */}
-        <div className="flex-1 max-w-sm lg:max-w-md mx-1 sm:mx-4 relative group">
-          {/* Mobile Tap Target (< sm) */}
-          <button
-            type="button"
-            onClick={() => setIsSearchOpen(true)}
-            className="sm:hidden flex items-center justify-center w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200/80 border border-slate-200 text-slate-600 transition-colors ml-auto cursor-pointer"
-            aria-label="Open search modal"
-          >
-            <Search className="w-4 h-4" />
-          </button>
-
-          {/* Desktop & Tablet Full Input (>= sm) */}
-          <div className="hidden sm:flex relative items-center w-full">
+        {/* Interactive Search Bar (Desktop Input only; mobile has full row below) */}
+        <div className="hidden sm:block flex-1 max-w-sm lg:max-w-md mx-4 relative group">
+          <div className="relative items-center w-full flex">
             <Search
               className={`w-4 h-4 absolute left-3.5 pointer-events-none transition-colors shrink-0 z-10 ${
                 isNightRecovery ? "text-cyan-400" : "text-slate-400 group-hover:text-[#002B7F]"
@@ -97,28 +118,28 @@ export default function Navbar() {
               onFocus={() => setIsSearchOpen(true)}
               onClick={() => setIsSearchOpen(true)}
               placeholder=""
-              className={`w-full pl-10 pr-12 py-2 rounded-xl text-xs font-medium transition-all outline-hidden shadow-2xs ${
+              className={`w-full pl-9 pr-11 py-1.5 rounded-xl text-[11px] font-medium transition-all outline-hidden shadow-2xs ${
                 isNightRecovery
                   ? "bg-slate-900 border-blue-900 text-white placeholder:text-slate-400 focus:border-cyan-400 focus:bg-slate-950"
                   : "bg-slate-100 hover:bg-slate-200/80 focus:bg-white border-slate-200 focus:border-[#002B7F] text-slate-900 placeholder:text-slate-500"
               }`}
             />
             {!searchQuery && (
-              <div className="absolute left-10 pointer-events-none text-xs text-slate-400 select-none flex items-center">
-                <span>Ask DermAI:&nbsp;</span>
+              <div className="absolute left-9 pointer-events-none text-[11px] text-slate-400 select-none flex items-center">
+                <span className="font-medium text-slate-400">Search:&nbsp;</span>
                 <Typewriter
                   text={[
-                    "Search creams, brands, actives...",
-                    "Ask for dry skin barrier repair...",
-                    "Find dark spot & hyperpigmentation serums...",
-                    "Explore viral TikTok glass skin formulas...",
-                    "Search CeraVe, NIVEA, COSRX...",
+                    "Hair oils, colognes, creams...",
+                    "Olaplex, Moroccanoil, Kérastase...",
+                    "Dior Sauvage, Creed, Tom Ford...",
+                    "Dry skin barrier repair...",
+                    "Viral TikTok glass skin formulas...",
                   ]}
                   speed={75}
                   deleteSpeed={40}
                   delay={2000}
                   loop={true}
-                  className="font-medium text-slate-500"
+                  className="font-medium text-slate-500 text-[11px]"
                 />
               </div>
             )}
@@ -231,6 +252,83 @@ export default function Navbar() {
             )}
           </button>
         </div>
+        {/* Mobile Full-Width Search Input Row (Matches the reference e-commerce mobile design) */}
+        <div className="sm:hidden px-4 pb-3 pt-1">
+          <div
+            onClick={() => setIsSearchOpen(true)}
+            className="flex items-center w-full rounded-md border border-slate-300 bg-white overflow-hidden shadow-xs cursor-pointer"
+          >
+            <input
+              type="text"
+              readOnly
+              value={searchQuery}
+              placeholder="Search our store..."
+              className="w-full px-3.5 py-2 text-xs text-slate-800 placeholder:text-slate-400 bg-transparent outline-none cursor-pointer"
+            />
+            <div className="bg-[#6B4423] hover:bg-[#53341A] text-white p-2.5 flex items-center justify-center shrink-0 transition-colors">
+              <Search className="w-4 h-4" />
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Drawer Menu when hamburger is clicked */}
+        {mobileMenuOpen && (
+          <div className={`sm:hidden border-t px-4 py-4 space-y-3 ${
+            isNightRecovery ? "bg-slate-950 border-slate-800 text-white" : "bg-white border-slate-200 text-slate-900"
+          }`}>
+            <button
+              onClick={() => {
+                scrollToCatalog();
+                setMobileMenuOpen(false);
+              }}
+              className="w-full flex items-center justify-between text-left text-xs font-bold py-2 border-b border-slate-200/50"
+            >
+              <div className="flex items-center gap-2">
+                <TikTokIcon className="w-4 h-4 text-[#FE2C55]" />
+                <span>TikTok Viral Collection</span>
+              </div>
+              <span className="text-slate-400">→</span>
+            </button>
+
+            <button
+              onClick={() => {
+                scrollToCatalog();
+                setMobileMenuOpen(false);
+              }}
+              className="w-full flex items-center justify-between text-left text-xs font-bold py-2 border-b border-slate-200/50"
+            >
+              <div className="flex items-center gap-2">
+                <TrendingUp className="w-4 h-4 text-emerald-500" />
+                <span>Best Sellers &amp; Top Formulas</span>
+              </div>
+              <span className="text-slate-400">→</span>
+            </button>
+
+            <Link
+              href="/track-order"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full flex items-center justify-between text-left text-xs font-bold py-2 border-b border-slate-200/50"
+            >
+              <div className="flex items-center gap-2">
+                <Ship className="w-4 h-4 text-blue-500" />
+                <span>Track Customer Parcel</span>
+              </div>
+              <span className="text-slate-400">→</span>
+            </Link>
+
+            <div className="pt-2 flex items-center justify-between">
+              <span className="text-xs font-semibold text-slate-500">Theme mode:</span>
+              <button
+                type="button"
+                onClick={() => triggerNightRecoverySweep(!isNightRecovery)}
+                className="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 border border-slate-200 text-slate-800 flex items-center gap-1.5"
+              >
+                {isNightRecovery ? <Moon className="w-3.5 h-3.5 text-cyan-400" /> : <Sun className="w-3.5 h-3.5 text-amber-500" />}
+                <span>{isNightRecovery ? "Night Active" : "Day Mode"}</span>
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );

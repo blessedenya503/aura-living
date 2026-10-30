@@ -10,8 +10,6 @@ import ProductModal from "@/components/ProductModal";
 import CartDrawer from "@/components/CartDrawer";
 import CheckoutModal from "@/components/CheckoutModal";
 import GlobalSearchModal from "@/components/GlobalSearchModal";
-import ClinicalBeforeAfterShowcase from "@/components/ClinicalBeforeAfterShowcase";
-import AuraDermAI from "@/components/AuraDermAI";
 import { PaymentLogosStrip } from "@/components/PaymentLogos";
 import { CATEGORIES, ProductCategory, Product } from "@/data/products";
 import { useCart } from "@/context/CartContext";
@@ -195,134 +193,29 @@ export default function HomePage() {
         {/* Hero Section */}
         <Hero />
 
-        {/* 21st.dev Inspired Minimalist Routine Bento */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-          <div className="bg-linear-to-b from-blue-50/50 to-slate-50 border border-blue-100/80 rounded-3xl p-6 sm:p-10 shadow-xs">
-            <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
-              <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-[#002B7F] flex items-center gap-1.5">
-                  <FlaskConical className="w-3.5 h-3.5" />
-                  Clinical Regimen
-                </span>
-                <h2 className="text-2xl sm:text-3xl font-bold text-slate-950 mt-1">
-                  Targeted Skin Protocol
-                </h2>
-                <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                  Dermatologist-sequenced formulas for daily barrier resilience.
-                </p>
-              </div>
-
-              {/* Routine Switcher */}
-              <div className="flex items-center gap-1.5 bg-white p-1 rounded-2xl border border-slate-200 self-start sm:self-auto shadow-xs">
-                <button
-                  onClick={() => {
-                    setRoutineTab("am");
-                    triggerNightRecoverySweep(false);
-                  }}
-                  className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    routineTab === "am"
-                      ? "bg-[#002B7F] text-white shadow-xs"
-                      : "text-slate-600 hover:text-slate-950"
-                  }`}
-                >
-                  <Sun className="w-3.5 h-3.5 text-amber-300" />
-                  <span>Morning Shield</span>
-                </button>
-                <button
-                  onClick={() => {
-                    setRoutineTab("pm");
-                    triggerNightRecoverySweep(true);
-                  }}
-                  className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    routineTab === "pm"
-                      ? "bg-gradient-to-r from-blue-900 via-indigo-900 to-blue-950 text-cyan-200 ring-2 ring-cyan-400/50 shadow-lg shadow-blue-950/60"
-                      : "text-slate-600 hover:text-slate-950"
-                  }`}
-                >
-                  <Moon className="w-3.5 h-3.5 text-cyan-300 animate-pulse" />
-                  <span>Night Recovery</span>
-                </button>
-              </div>
-            </div>
-
-            {/* 3 Step Protocol Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
-              {activeRoutineProducts.map((prod, idx) => (
-                <div
-                  key={prod.id}
-                  className="bg-white rounded-2xl p-4 border border-slate-200/90 shadow-xs flex flex-col justify-between"
-                >
-                  <div>
-                    <div className="flex items-center justify-between mb-3 text-xs">
-                      <span className="font-mono font-bold text-[#002B7F] bg-blue-50 px-2 py-0.5 rounded-md">
-                        Step 0{idx + 1}
-                      </span>
-                      <span className="text-[11px] font-semibold text-slate-400">
-                        {idx === 0
-                          ? "Active Prep"
-                          : idx === 1
-                          ? "Hydration"
-                          : "Barrier Lock"}
-                      </span>
-                    </div>
-                    <div className="relative w-full h-40 rounded-xl overflow-hidden bg-white mb-3 border border-slate-200 p-2 flex items-center justify-center">
-                      <img
-                        src={prod.image}
-                        alt={prod.name}
-                        className="w-full h-full object-contain"
-                      />
-                    </div>
-                    <span className="text-[10px] uppercase font-bold text-slate-500 tracking-wider block">
-                      {prod.brand}
-                    </span>
-                    <h3 className="text-sm font-bold text-slate-900 line-clamp-2 min-h-[2.5rem] leading-snug">
-                      {prod.name}
-                    </h3>
-                    <p className="text-xs text-slate-500 mt-1 line-clamp-1 min-h-[1.25rem]">
-                      {prod.tagline}
-                    </p>
-                  </div>
-
-                  <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between">
-                    <span className="text-xs font-mono font-bold text-slate-900">
-                      {formatPrice(prod.price)}
-                    </span>
-                    <button
-                      onClick={() => setSelectedProduct(prod)}
-                      className="text-xs font-semibold text-[#002B7F] hover:underline cursor-pointer"
-                    >
-                      View Details →
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Clinical Before & After Sliding Show */}
-            <ClinicalBeforeAfterShowcase />
-          </div>
-        </section>
-
-        {/* AURA DermAI Diagnostic Studio */}
-        <AuraDermAI />
-
-        {/* Main Skincare Catalog Section */}
+        {/* Main Products Catalog Section */}
         <section
           id="catalog-section"
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12"
         >
-          {/* Section Header */}
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="w-2.5 h-2.5 rounded-full bg-[#002B7F]" />
-                <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-950">
-                  {Math.floor(products.length / 50) * 50}+ Verified Dropship Creams &amp; Skincare
-                </h2>
-              </div>
-              <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                Direct pharmaceutical &amp; verified wholesale dropship catalog from Amazon Prime &amp; Alibaba Trade Assurance.
-              </p>
+          {/* Elegant Collection Header (styled like the luxury reference: "EXPLORE OUR COLLECTIONS") */}
+          <div className="text-center mb-8 sm:mb-10">
+            <h2 className="text-2xl sm:text-4xl font-serif font-normal tracking-wide text-slate-900 uppercase">
+              Explore Our Collections
+            </h2>
+            <div className="w-12 h-[2px] bg-[#6B4423] mx-auto mt-2.5 mb-2 rounded-full" />
+            <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto">
+              Curated viral skincare, restorative barrier balms, soothing gels, luxury fragrances, and scalp rituals.
+            </p>
+          </div>
+
+          {/* Section Controls & Search Filter Bar */}
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#002B7F]" />
+              <span className="text-sm font-bold text-slate-900">
+                {Math.floor(products.length / 50) * 50}+ Verified Formulas
+              </span>
             </div>
 
             {/* Quick Search Input & Sort */}
@@ -337,7 +230,7 @@ export default function HomePage() {
                   }}
                   onFocus={() => setIsSearchOpen(true)}
                   onClick={() => setIsSearchOpen(true)}
-                  placeholder="Search creams, brands, active..."
+                  placeholder="Search hair, colognes, balms, gels..."
                   className="w-full pl-9 pr-12 py-2 text-xs bg-white hover:bg-slate-50 focus:bg-white border border-slate-200 focus:border-[#002B7F] rounded-xl text-slate-800 placeholder:text-slate-400 shadow-2xs outline-hidden transition-all"
                 />
                 <div className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none">

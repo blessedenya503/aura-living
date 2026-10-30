@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { readStoreDb, writeStoreDb, CustomerOrder, OrderItem } from "@/lib/store-db";
+import { getStoreDb, saveStoreDb, CustomerOrder, OrderItem } from "@/lib/store-db";
 
 export async function POST(request: Request) {
   try {
@@ -53,7 +53,7 @@ export async function POST(request: Request) {
     }
 
     if (paymentVerified) {
-      const db = readStoreDb();
+      const db = await getStoreDb();
       const items = orderPayload?.items || [];
 
       let subtotalUsd = 0;
@@ -166,7 +166,7 @@ export async function POST(request: Request) {
       };
 
       db.orders.unshift(newOrder);
-      writeStoreDb(db);
+      await saveStoreDb(db);
 
       return NextResponse.json({
         success: true,

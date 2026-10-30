@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import { readStoreDb, sanitizeProductForPublic } from "@/lib/store-db";
+import { getStoreDb, sanitizeProductForPublic } from "@/lib/store-db";
 
 export async function GET() {
-  const db = readStoreDb();
+  const db = await getStoreDb();
   return NextResponse.json({
     products: db.products.map(sanitizeProductForPublic),
     settings: {

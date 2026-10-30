@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -14,6 +14,10 @@ import {
   Flame,
   TrendingUp,
   Eye,
+  ChevronLeft,
+  ChevronRight,
+  Pause,
+  Play,
 } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import { Product } from "@/data/products";
@@ -47,7 +51,7 @@ interface TikTokViralTrend {
 
 const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
   {
-    id: "prod-cosrx-snail-96",
+    id: "prod-cosrx-28",
     brand: "COSRX",
     name: "COSRX Advanced Snail 96 Mucin Power Essence",
     views: "4.8B Views",
@@ -58,7 +62,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     heroSubtitle:
       "Formulated with 96.3% Snail Secretion Filtrate to repair damaged moisture barriers, fade acne scars, and deliver intense luminous hydration.",
     heroImage:
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1200&auto=format&fit=crop",
+      "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg",
     fallbackPrice: 19.99,
     size: "100ml / 3.38 fl. oz",
     rating: 4.9,
@@ -66,7 +70,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     ingredients: ["96.3% Snail Secretion Filtrate", "Sodium Hyaluronate", "Allantoin", "Panthenol"],
   },
   {
-    id: "prod-nivea-creme-classic",
+    id: "prod-nivea-1",
     brand: "NIVEA",
     name: "NIVEA Creme Classic Intensive Hydration Tin",
     views: "1.5B Views",
@@ -77,7 +81,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     heroSubtitle:
       "Skin-identical Eucerit® and Provitamin B5 deliver rich 48H continuous occlusive slugging that outperforms $350 luxury moisturizers.",
     heroImage:
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200&auto=format&fit=crop",
+      "https://images.openbeautyfacts.org/images/products/400/580/889/0590/front_en.18.400.jpg",
     fallbackPrice: 8.99,
     size: "250ml / 8.4 oz Classic Tin",
     rating: 4.9,
@@ -85,7 +89,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     ingredients: ["Eucerit®", "Panthenol (B5)", "Glycerin", "Lanolin Alcohol"],
   },
   {
-    id: "prod-beauty-of-joseon-relief-sun",
+    id: "prod-beautyofjoseon-30",
     brand: "Beauty of Joseon",
     name: "Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+",
     views: "1.9B Views",
@@ -96,7 +100,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     heroSubtitle:
       "Infused with 30% Rice Extract and fermented grain probiotics. Feels like a lightweight moisturizing cream without greasiness.",
     heroImage:
-      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=1200&auto=format&fit=crop",
+      "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
     fallbackPrice: 18.0,
     size: "50ml Tube",
     rating: 4.9,
@@ -104,7 +108,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     ingredients: ["30% Rice Extract", "Grain Fermented Probiotics", "Niacinamide", "Vitamin E"],
   },
   {
-    id: "prod-amz-1949",
+    id: "prod-anua-32",
     brand: "Anua",
     name: "Anua Heartleaf 77% Soothing Toner Balance & Calm",
     views: "2.4B Views",
@@ -115,7 +119,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     heroSubtitle:
       "Soothes sensitive, breakout-prone skin while restoring optimal pH balance. The secret behind the viral TikTok 7-Skin Method.",
     heroImage:
-      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1200&auto=format&fit=crop",
+      "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
     fallbackPrice: 22.0,
     size: "250ml Bottle",
     rating: 4.8,
@@ -123,7 +127,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     ingredients: ["77% Houttuynia Cordata Extract", "Centella Asiatica", "Chamomilla Flower", "Panthenol"],
   },
   {
-    id: "prod-laroche-posay-cicaplast",
+    id: "prod-larocheposay-22",
     brand: "La Roche-Posay",
     name: "La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Balm",
     views: "3.2B Views",
@@ -134,7 +138,7 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     heroSubtitle:
       "Madecassoside, 5% Panthenol, and Tribioma prebiotics instantly rebuild damaged barriers from over-exfoliation and tretinoin peeling.",
     heroImage:
-      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop",
+      "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg",
     fallbackPrice: 22.99,
     size: "100ml Large Tube",
     rating: 4.9,
@@ -146,7 +150,31 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
 export default function Hero() {
   const { products, addToCart, setSelectedProduct, formatPrice, storeSettings } = useCart();
   const [selectedTrendIndex, setSelectedTrendIndex] = useState(0);
+  const [slideDirection, setSlideDirection] = useState<1 | -1>(1);
   const [added, setAdded] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+
+  // Automatic slideshow cycle (advances like a PowerPoint presentation every 4.2s unless paused)
+  useEffect(() => {
+    if (isPaused) return;
+    const interval = setInterval(() => {
+      setSlideDirection(1);
+      setSelectedTrendIndex((prev) => (prev + 1) % TIKTOK_VIRAL_CATALOG.length);
+    }, 4500);
+    return () => clearInterval(interval);
+  }, [isPaused]);
+
+  const handlePrevSlide = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
+    setSlideDirection(-1);
+    setSelectedTrendIndex((prev) => (prev === 0 ? TIKTOK_VIRAL_CATALOG.length - 1 : prev - 1));
+  };
+
+  const handleNextSlide = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
+    setSlideDirection(1);
+    setSelectedTrendIndex((prev) => (prev + 1) % TIKTOK_VIRAL_CATALOG.length);
+  };
 
   const activeTrend = TIKTOK_VIRAL_CATALOG[selectedTrendIndex] || TIKTOK_VIRAL_CATALOG[0];
 
@@ -221,12 +249,12 @@ export default function Hero() {
         <div className="absolute top-1/3 right-1/4 translate-x-1/2 w-[450px] h-[300px] bg-[#FE2C55]/10 rounded-full blur-[140px]" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-10 sm:pt-6 sm:pb-14">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
           {/* Left Column: TikTok Viral Showcase & High-Contrast Typography */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             {/* TikTok Viral Live Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/95 border border-slate-700 text-white text-xs font-bold tracking-wide mb-6 shadow-xl backdrop-blur-md">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/95 border border-slate-700 text-white text-xs font-bold tracking-wide mb-3 shadow-xl backdrop-blur-md">
               <span className="p-1 rounded-full bg-black text-white flex items-center justify-center">
                 <TikTokIcon className="w-3.5 h-3.5 text-cyan-400" />
               </span>
@@ -238,7 +266,7 @@ export default function Hero() {
                 textClassName="text-[11px] font-extrabold uppercase tracking-wider text-white"
                 colors={{
                   red: "#FE2C55",
-                  green: "#25F4EE",
+                  green: "#FE2C55",
                   blue: "#FFFFFF",
                 }}
               />
@@ -315,7 +343,10 @@ export default function Hero() {
                 {TIKTOK_VIRAL_CATALOG.map((trend, idx) => (
                   <button
                     key={trend.id}
-                    onClick={() => setSelectedTrendIndex(idx)}
+                    onClick={() => {
+                      setSlideDirection(idx > selectedTrendIndex ? 1 : -1);
+                      setSelectedTrendIndex(idx);
+                    }}
                     className={`flex-1 py-1.5 px-2 rounded-lg text-[10px] font-bold transition-all whitespace-nowrap cursor-pointer flex items-center justify-center gap-1 ${
                       selectedTrendIndex === idx
                         ? "bg-[#FE2C55] text-white shadow-md shadow-pink-900/30 ring-1 ring-pink-400"
@@ -328,53 +359,103 @@ export default function Hero() {
                 ))}
               </div>
 
-              {/* Spotlight Product Image with TikTok Overlays */}
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={activeTrend.id}
-                  initial={{ opacity: 0, scale: 0.96 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.96 }}
-                  transition={{ duration: 0.25 }}
-                  className="relative w-full h-72 sm:h-80 rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 cursor-pointer group shadow-inner"
-                  onClick={() => {
-                    if (matchingLiveProduct) setSelectedProduct(matchingLiveProduct);
-                  }}
+              {/* Spotlight Product Image Slideshow (PowerPoint Presentation Style) */}
+              <div 
+                className="relative overflow-hidden rounded-2xl"
+                onMouseEnter={() => setIsPaused(true)}
+                onMouseLeave={() => setIsPaused(false)}
+              >
+                <AnimatePresence mode="wait" custom={slideDirection}>
+                  <motion.div
+                    key={activeTrend.id}
+                    custom={slideDirection}
+                    initial={{ opacity: 0, x: slideDirection * 60 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -slideDirection * 60 }}
+                    transition={{ duration: 0.35, ease: "easeInOut" }}
+                    className="relative w-full h-72 sm:h-80 rounded-2xl overflow-hidden bg-white border border-slate-200 cursor-pointer group shadow-md"
+                    onClick={() => {
+                      if (matchingLiveProduct) setSelectedProduct(matchingLiveProduct);
+                    }}
+                  >
+                    <img
+                      src={activeTrend.heroImage}
+                      alt={activeTrend.name}
+                      className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                      loading="eager"
+                    />
+
+                    {/* Top Left: Badges */}
+                    <div className="absolute top-3 left-3 flex flex-col gap-1.5 items-start z-10">
+                      <span className="bg-black/80 backdrop-blur-md text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-full shadow-lg flex items-center gap-1 border border-slate-700">
+                        <TikTokIcon className="w-3 h-3 text-cyan-400" />
+                        <span>{activeTrend.views}</span>
+                      </span>
+                      <span className="bg-[#FE2C55] text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md">
+                        {activeTrend.viralTag}
+                      </span>
+                    </div>
+
+                    {/* Top Right: Brand badge */}
+                    <div className="absolute top-3 right-3 z-10">
+                      <span className="bg-[#002B7F] text-white text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full shadow-md">
+                        {activeTrend.brand}
+                      </span>
+                    </div>
+
+                    {/* Slide counter pill */}
+                    <div className="absolute bottom-3 right-3 z-10">
+                      <span className="bg-slate-950/80 backdrop-blur-md text-slate-300 font-mono text-[9.5px] font-bold px-2 py-0.5 rounded-full border border-slate-800">
+                        Slide {selectedTrendIndex + 1}/{TIKTOK_VIRAL_CATALOG.length}
+                      </span>
+                    </div>
+
+                    {/* Floating Action Hint */}
+                    <div className="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+                      <span className="bg-white/95 text-slate-900 text-xs font-semibold px-3 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+                        <Eye className="w-3.5 h-3.5 text-blue-700" />
+                        View Viral Formula
+                      </span>
+                    </div>
+                  </motion.div>
+                </AnimatePresence>
+
+                {/* Slideshow Arrow Buttons */}
+                <button
+                  onClick={handlePrevSlide}
+                  aria-label="Previous slide"
+                  className="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-slate-900/85 hover:bg-[#FE2C55] text-white flex items-center justify-center border border-slate-700/80 backdrop-blur-md shadow-lg transition-all hover:scale-110 cursor-pointer"
                 >
-                  <img
-                    src={activeTrend.heroImage}
-                    alt={activeTrend.name}
-                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
-                    loading="eager"
-                  />
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+                <button
+                  onClick={handleNextSlide}
+                  aria-label="Next slide"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-slate-900/85 hover:bg-[#FE2C55] text-white flex items-center justify-center border border-slate-700/80 backdrop-blur-md shadow-lg transition-all hover:scale-110 cursor-pointer"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
 
-                  {/* Top Left: Badges */}
-                  <div className="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
-                    <span className="bg-black/80 backdrop-blur-md text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-full shadow-lg flex items-center gap-1 border border-slate-700">
-                      <TikTokIcon className="w-3 h-3 text-cyan-400" />
-                      <span>{activeTrend.views}</span>
-                    </span>
-                    <span className="bg-[#FE2C55] text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md">
-                      {activeTrend.viralTag}
-                    </span>
-                  </div>
-
-                  {/* Top Right: Brand badge */}
-                  <div className="absolute top-3 right-3">
-                    <span className="bg-[#002B7F] text-white text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full shadow-md">
-                      {activeTrend.brand}
-                    </span>
-                  </div>
-
-                  {/* Floating Action Hint */}
-                  <div className="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
-                    <span className="bg-white/95 text-slate-900 text-xs font-semibold px-3 py-1.5 rounded-full shadow-md flex items-center gap-1.5">
-                      <Eye className="w-3.5 h-3.5 text-blue-700" />
-                      View Viral Formula
-                    </span>
-                  </div>
-                </motion.div>
-              </AnimatePresence>
+                {/* Slideshow Progress Dots */}
+                <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1.5 bg-slate-950/80 backdrop-blur-md px-2.5 py-1 rounded-full border border-slate-800">
+                  {TIKTOK_VIRAL_CATALOG.map((_, idx) => (
+                    <button
+                      key={idx}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSlideDirection(idx > selectedTrendIndex ? 1 : -1);
+                        setSelectedTrendIndex(idx);
+                      }}
+                      aria-label={`Go to slide ${idx + 1}`}
+                      className={`h-1.5 rounded-full transition-all cursor-pointer ${
+                        selectedTrendIndex === idx
+                          ? "w-5 bg-[#FE2C55]"
+                          : "w-1.5 bg-slate-600 hover:bg-slate-400"
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
 
               {/* Product Meta Details */}
               <div className="mt-4 flex flex-col gap-2">

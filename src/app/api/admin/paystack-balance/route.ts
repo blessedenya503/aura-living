@@ -20,13 +20,19 @@ export async function GET() {
 
   if (paystackSecretKey && paystackSecretKey.trim().length > 5) {
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3500); // 3.5s strict timeout
+
       const paystackRes = await fetch("https://api.paystack.co/balance", {
         headers: {
           Authorization: `Bearer ${paystackSecretKey}`,
           "Content-Type": "application/json",
         },
+        signal: controller.signal,
         cache: "no-store",
       });
+
+      clearTimeout(timeoutId);
 
       if (paystackRes.ok) {
         const data = await paystackRes.json();
@@ -39,8 +45,9 @@ export async function GET() {
           }));
         }
       }
-    } catch (err) {
-      console.error("Paystack live balance fetch error:", err);
+    } catch {
+      // Non-blocking: never hang the portal if the external network is slow.
+      // isLiveConnected stays false so the UI doesn't claim a live connection.
     }
   }
 
@@ -48,12 +55,14 @@ export async function GET() {
   const totalRevenueNgn = Math.round(totalRevenueUsd * ngnRate);
   const totalNetProfitNgn = Math.round(totalNetProfitUsd * ngnRate);
 
-  // Bank payout info
-  const linkedBank = {
-    bankName: "Access Bank / GTBank / Zenith",
-    accountNumber: "012****890",
-    accountName: "AURA LIVING ENTERPRISE (NG)",
-    payoutSchedule: "Next-day automatic bank settlement (T+1 at 05:00 WAT)",
+  // Bank payout info: only what the owner actually connected (no fabricated default)
+  const linkedBank = db.settings.linkedBank || {
+    bankName: "",
+    bankCode: "",
+    accountNumber: "",
+    accountName: "",
+    status: "unlinked",
+    payoutSchedule: "",
     settlementCurrency: "NGN (Nigerian Naira ₦)",
   };
 

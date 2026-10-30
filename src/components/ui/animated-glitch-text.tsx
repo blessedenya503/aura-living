@@ -22,9 +22,9 @@ const GlitchText = React.forwardRef<HTMLDivElement, GlitchTextProps>(
     textClassName,
     containerClassName,
     colors = {
-      red: "#FE2C55",    // TikTok Neon Red / Pink
-      green: "#25F4EE",  // TikTok Electric Cyan
-      blue: "#FFFFFF"    // TikTok Bright White core
+      red: "#FE2C55",    // TikTok Primary Red (#FE2C55)
+      green: "#FE2C55",  // Swapped to TikTok Red for pure red glitch energy
+      blue: "#FFFFFF"    // Bright White core
     },
     ...props
   }, ref) => {

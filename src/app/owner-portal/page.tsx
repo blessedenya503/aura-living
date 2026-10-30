@@ -30,14 +30,11 @@ import {
   FlaskConical,
   ShoppingBag,
   Image as ImageIcon,
-  Sliders,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
 import { Product, ProductCategory, CATEGORIES } from "@/data/products";
 import { CustomerOrder, StoreSettings } from "@/lib/store-db";
-import SkincareImageStudio from "@/components/SkincareImageStudio";
-import ClinicalSlideshowEditor from "@/components/ClinicalSlideshowEditor";
 
 interface DashboardMetrics {
   totalRevenueUsd: number;
@@ -92,14 +89,8 @@ const POPULAR_BRANDS = [
 export default function OwnerPortalPage() {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<
-    "brands" | "amazon" | "cj" | "balance" | "studio" | "slideshow" | "catalog" | "orders" | "settings"
+    "brands" | "amazon" | "cj" | "balance" | "catalog" | "orders" | "settings"
   >("brands");
-  const [studioInitialImage, setStudioInitialImage] = useState<string | undefined>(
-    undefined
-  );
-  const [studioSlideTarget, setStudioSlideTarget] = useState<
-    { caseId: string; slot: "before" | "after" } | undefined
-  >(undefined);
 
   const [products, setProducts] = useState<Product[]>([]);
   const [orders, setOrders] = useState<CustomerOrder[]>([]);
@@ -159,6 +150,59 @@ export default function OwnerPortalPage() {
   const [balanceData, setBalanceData] = useState<any>(null);
   const [isBalanceLoading, setIsBalanceLoading] = useState(false);
 
+  // Settlement bank editor state
+  const [availableBanks, setAvailableBanks] = useState<{ name: string; code: string; isFintech: boolean }[]>([]);
+  const [isEditingBank, setIsEditingBank] = useState(false);
+  const [isAuthorizingBank, setIsAuthorizingBank] = useState(false);
+  const [bankError, setBankError] = useState("");
+  const [bankForm, setBankForm] = useState({
+    bankName: "",
+    bankCode: "",
+    accountNumber: "",
+    accountName: "",
+  });
+
+  const fetchAvailableBanks = async () => {
+    try {
+      const res = await fetch("/api/admin/paystack-banks", { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data.banks)) setAvailableBanks(data.banks);
+      }
+    } catch (err) {
+      console.error("Failed to load banks", err);
+    }
+  };
+
+  const handleAuthorizeBank = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setBankError("");
+    if (!bankForm.bankCode || bankForm.accountNumber.length !== 10) {
+      setBankError("Select a bank and enter a valid 10-digit account number.");
+      return;
+    }
+    setIsAuthorizingBank(true);
+    try {
+      const res = await fetch("/api/admin/paystack-authorize-bank", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(bankForm),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
+        setSaveMessage(data.message || "Bank account connected.");
+        setTimeout(() => setSaveMessage(""), 4000);
+        setIsEditingBank(false);
+        fetchBalanceData();
+      } else {
+        setBankError(data.error || "Could not verify this account with Paystack.");
+      }
+    } catch (err: any) {
+      setBankError(err?.message || "Network error while contacting Paystack.");
+    } finally {
+      setIsAuthorizingBank(false);
+    }
+  };
   const fetchBalanceData = async () => {
     setIsBalanceLoading(true);
     try {
@@ -264,6 +308,7 @@ export default function OwnerPortalPage() {
   useEffect(() => {
     fetchDashboardData();
     fetchBrandCatalog();
+    fetchAvailableBanks();
   }, []);
 
   const handleBrandSearchSubmit = (e: React.FormEvent) => {
@@ -439,6 +484,30 @@ export default function OwnerPortalPage() {
       }
     } catch {
       alert("Failed to update order");
+    }
+  };
+
+  // Clear all simulation orders
+  const handleClearOrders = async () => {
+    if (!confirm("Are you sure you want to clear all simulation orders and reset store metrics to zero?")) {
+      return;
+    }
+    try {
+      const res = await fetch("/api/admin/dashboard", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "clear_orders" }),
+      });
+      if (res.ok) {
+        setSaveMessage("Simulation orders cleared successfully! Ledger & metrics reset.");
+        setTimeout(() => setSaveMessage(""), 3000);
+        fetchDashboardData();
+        fetchBalanceData();
+      } else {
+        alert("Failed to clear simulation orders");
+      }
+    } catch {
+      alert("Error clearing simulation orders");
     }
   };
 
@@ -620,73 +689,6 @@ export default function OwnerPortalPage() {
     }
   };
 
-  // Image Studio Helpers
-  const handleApplyStudioImageToProduct = async (
-    productId: string,
-    newImageDataUrl: string
-  ) => {
-    try {
-      const res = await fetch("/api/admin/dashboard", {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          type: "update_product",
-          product: { id: productId, image: newImageDataUrl, gallery: [newImageDataUrl] },
-        }),
-      });
-      if (res.ok) {
-        setSaveMessage("Product image updated and synced to storefront!");
-        setTimeout(() => setSaveMessage(""), 3000);
-        fetchDashboardData();
-      } else {
-        throw new Error("Failed to save image");
-      }
-    } catch {
-      alert("Failed to save edited image to product");
-    }
-  };
-
-  const handleApplyStudioImageToSlide = async (
-    caseId: string,
-    slot: "before" | "after",
-    newImageDataUrl: string
-  ) => {
-    try {
-      const res = await fetch("/api/admin/clinical-cases");
-      const data = await res.json();
-      const cases = data.cases || [];
-      const updated = cases.map((c: any) => {
-        if (c.id === caseId) {
-          return {
-            ...c,
-            [slot === "before" ? "beforeImg" : "afterImg"]: newImageDataUrl,
-          };
-        }
-        return c;
-      });
-      const saveRes = await fetch("/api/admin/clinical-cases", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ cases: updated }),
-      });
-      if (saveRes.ok) {
-        setSaveMessage(
-          `✓ Saved photo to Clinical Slideshow (${slot.toUpperCase()} slot) and synced to live site!`
-        );
-        setTimeout(() => setSaveMessage(""), 4000);
-      } else {
-        throw new Error("Failed to update slide");
-      }
-    } catch (err: any) {
-      alert("Failed to update clinical slide: " + err.message);
-    }
-  };
-
-  const handleOpenInStudio = (imageUrl: string) => {
-    setStudioInitialImage(imageUrl);
-    setActiveTab("studio");
-  };
-
   return (
     <div className="min-h-screen bg-slate-950 text-white font-sans selection:bg-blue-600">
       {/* Top Admin Header */}
@@ -863,32 +865,6 @@ export default function OwnerPortalPage() {
               <DollarSign className="w-3.5 h-3.5 text-emerald-300" />
               <span>Account Balance &amp; Payouts (₦)</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            </button>
-
-            {/* TAB: IMAGE STUDIO & EDITOR */}
-            <button
-              onClick={() => setActiveTab("studio")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "studio"
-                  ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-cyan-400/50"
-                  : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <ImageIcon className="w-3.5 h-3.5 text-cyan-400" />
-              <span>Studio</span>
-            </button>
-
-            {/* TAB: CLINICAL SLIDESHOW EDITOR */}
-            <button
-              onClick={() => setActiveTab("slideshow")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "slideshow"
-                  ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-emerald-400/50"
-                  : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <Sliders className="w-3.5 h-3.5 text-emerald-400" />
-              <span>Slideshow</span>
             </button>
 
             {/* TAB 2: STORE CATALOG */}
@@ -1090,15 +1066,6 @@ export default function OwnerPortalPage() {
                             <span>Live on Store</span>
                           </div>
                         )}
-
-                        <button
-                          onClick={() => handleOpenInStudio(item.image)}
-                          className="absolute bottom-2.5 right-2.5 bg-slate-900/90 hover:bg-slate-800 text-cyan-300 border border-slate-700/80 text-[10px] font-bold px-2 py-1 rounded-xl shadow-md flex items-center gap-1 transition-all cursor-pointer backdrop-blur-xs"
-                          title="Open in Image Studio to enhance/crop"
-                        >
-                          <ImageIcon className="w-3 h-3 text-cyan-400" />
-                          <span>Edit in Studio</span>
-                        </button>
                       </div>
 
                       {/* Header details */}
@@ -1308,16 +1275,6 @@ export default function OwnerPortalPage() {
                               <span>Imported</span>
                             </div>
                           )}
-
-                          <button
-                            type="button"
-                            onClick={() => handleOpenInStudio(item.image)}
-                            className="absolute bottom-2 right-2 bg-slate-900/90 hover:bg-slate-800 text-cyan-300 border border-slate-700/80 text-[10px] font-bold px-2 py-1 rounded-xl shadow-md flex items-center gap-1 transition-all cursor-pointer backdrop-blur-xs"
-                            title="Edit packshot in Studio"
-                          >
-                            <ImageIcon className="w-3 h-3 text-cyan-400" />
-                            <span>Edit in Studio</span>
-                          </button>
                         </div>
 
                         <h3 className="text-xs sm:text-sm font-bold text-white line-clamp-2 leading-snug">
@@ -1511,16 +1468,6 @@ export default function OwnerPortalPage() {
                               <span>Imported</span>
                             </div>
                           )}
-
-                          <button
-                            type="button"
-                            onClick={() => handleOpenInStudio(item.image)}
-                            className="absolute bottom-2 right-2 bg-slate-900/90 hover:bg-slate-800 text-cyan-300 border border-slate-700/80 text-[10px] font-bold px-2 py-1 rounded-xl shadow-md flex items-center gap-1 transition-all cursor-pointer backdrop-blur-xs"
-                            title="Edit packshot in Studio"
-                          >
-                            <ImageIcon className="w-3 h-3 text-cyan-400" />
-                            <span>Edit in Studio</span>
-                          </button>
                         </div>
 
                         <h3 className="text-xs sm:text-sm font-bold text-white line-clamp-2 leading-snug">
@@ -1705,10 +1652,151 @@ export default function OwnerPortalPage() {
                     Your store earnings are transferred automatically to this Nigerian bank account via Paystack settlements.
                   </p>
                 </div>
-                <span className="text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
-                  Verified Account
-                </span>
+                <div className="flex items-center gap-2">
+                  {balanceData?.linkedBank?.status === "connected" ? (
+                    <span className="text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+                      Connected
+                    </span>
+                  ) : (
+                    <span className="text-[11px] font-semibold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full">
+                      Not connected
+                    </span>
+                  )}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setBankError("");
+                      if (!isEditingBank) {
+                        const lb = balanceData?.linkedBank;
+                        setBankForm({
+                          bankName: lb?.bankName || "",
+                          bankCode: lb?.bankCode || "",
+                          accountNumber: lb?.accountNumber || "",
+                          accountName: lb?.accountName || "",
+                        });
+                      }
+                      setIsEditingBank(!isEditingBank);
+                    }}
+                    className="px-3.5 py-1.5 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 text-xs font-bold border border-cyan-500/30 cursor-pointer flex items-center gap-1.5"
+                  >
+                    <Settings className="w-3.5 h-3.5 text-cyan-400" />
+                    <span>{isEditingBank ? "Close Editor" : "Edit Bank Details"}</span>
+                  </button>
+                </div>
               </div>
+
+              {isEditingBank && (
+                <form
+                  onSubmit={handleAuthorizeBank}
+                  className="bg-slate-950/90 border border-cyan-500/40 p-5 rounded-2xl space-y-4"
+                >
+                  <div>
+                    <label className="block text-xs font-semibold text-slate-300 mb-1">
+                      Bank or Fintech
+                    </label>
+                    <select
+                      value={bankForm.bankCode}
+                      onChange={(e) => {
+                        const b = availableBanks.find((x) => x.code === e.target.value);
+                        setBankForm({
+                          ...bankForm,
+                          bankCode: e.target.value,
+                          bankName: b?.name || "",
+                        });
+                      }}
+                      className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white cursor-pointer"
+                      required
+                    >
+                      <option value="">Select a bank…</option>
+                      <optgroup label="Fintechs">
+                        {availableBanks
+                          .filter((b) => b.isFintech)
+                          .map((b) => (
+                            <option key={b.code} value={b.code}>
+                              {b.name}
+                            </option>
+                          ))}
+                      </optgroup>
+                      <optgroup label="Commercial banks">
+                        {availableBanks
+                          .filter((b) => !b.isFintech)
+                          .map((b) => (
+                            <option key={b.code} value={b.code}>
+                              {b.name}
+                            </option>
+                          ))}
+                      </optgroup>
+                    </select>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div>
+                      <label className="block font-semibold text-slate-300 mb-1">
+                        Account Number (10 digits)
+                      </label>
+                      <input
+                        type="text"
+                        inputMode="numeric"
+                        maxLength={10}
+                        value={bankForm.accountNumber}
+                        onChange={(e) =>
+                          setBankForm({ ...bankForm, accountNumber: e.target.value.replace(/\D/g, "") })
+                        }
+                        placeholder="e.g. 7038703778"
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono tracking-widest"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label className="block font-semibold text-slate-300 mb-1">
+                        Account Name (filled in by Paystack if verified)
+                      </label>
+                      <input
+                        type="text"
+                        value={bankForm.accountName}
+                        onChange={(e) =>
+                          setBankForm({ ...bankForm, accountName: e.target.value.toUpperCase() })
+                        }
+                        placeholder="Account owner name"
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white"
+                      />
+                    </div>
+                  </div>
+
+                  {bankError && (
+                    <div className="text-xs text-rose-300 bg-rose-500/10 border border-rose-500/30 rounded-xl px-3 py-2">
+                      {bankError}
+                    </div>
+                  )}
+
+                  <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-800/80">
+                    <button
+                      type="button"
+                      onClick={() => setIsEditingBank(false)}
+                      className="px-3.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-semibold cursor-pointer border border-slate-800"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      type="submit"
+                      disabled={isAuthorizingBank}
+                      className="px-4 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold cursor-pointer disabled:opacity-50 flex items-center gap-1.5"
+                    >
+                      {isAuthorizingBank ? (
+                        <>
+                          <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                          <span>Verifying with Paystack…</span>
+                        </>
+                      ) : (
+                        <>
+                          <CheckCircle2 className="w-3.5 h-3.5" />
+                          <span>Verify &amp; Connect</span>
+                        </>
+                      )}
+                    </button>
+                  </div>
+                </form>
+              )}
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 pt-2">
                 <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
@@ -1716,7 +1804,7 @@ export default function OwnerPortalPage() {
                     Bank Name
                   </span>
                   <span className="text-sm font-bold text-white mt-1 block">
-                    {balanceData?.linkedBank?.bankName || "Access Bank / GTBank / Zenith"}
+                    {balanceData?.linkedBank?.bankName || "Not set"}
                   </span>
                 </div>
 
@@ -1725,7 +1813,7 @@ export default function OwnerPortalPage() {
                     Account Number
                   </span>
                   <span className="text-sm font-bold text-white mt-1 block font-mono">
-                    {balanceData?.linkedBank?.accountNumber || "012****890"}
+                    {balanceData?.linkedBank?.accountNumber || "Not set"}
                   </span>
                 </div>
 
@@ -1734,7 +1822,7 @@ export default function OwnerPortalPage() {
                     Account Beneficiary
                   </span>
                   <span className="text-sm font-bold text-white mt-1 block truncate">
-                    {balanceData?.linkedBank?.accountName || "AURA LIVING ENTERPRISE"}
+                    {balanceData?.linkedBank?.accountName || "Not set"}
                   </span>
                 </div>
 
@@ -1810,40 +1898,6 @@ export default function OwnerPortalPage() {
                 </table>
               </div>
             </div>
-          </div>
-        )}
-
-        {/* ======================================================== */}
-        {/* TAB: SKINCARE IMAGE STUDIO & ENHANCER */}
-        {/* ======================================================== */}
-        {activeTab === "studio" && (
-          <div className="space-y-6">
-            <SkincareImageStudio
-              products={products}
-              initialImageUrl={studioInitialImage}
-              initialSlideTarget={studioSlideTarget}
-              onApplyImageToProduct={handleApplyStudioImageToProduct}
-              onApplyImageToSlide={handleApplyStudioImageToSlide}
-              onUseForNewProduct={(imgUrl) => {
-                setNewProd((prev) => ({ ...prev, image: imgUrl }));
-                setIsAddModalOpen(true);
-              }}
-            />
-          </div>
-        )}
-
-        {/* ======================================================== */}
-        {/* TAB: CLINICAL BEFORE/AFTER SLIDESHOW EDITOR */}
-        {/* ======================================================== */}
-        {activeTab === "slideshow" && (
-          <div className="space-y-6">
-            <ClinicalSlideshowEditor
-              onOpenInStudio={(imageUrl, caseId, slot) => {
-                setStudioInitialImage(imageUrl);
-                setStudioSlideTarget({ caseId, slot });
-                setActiveTab("studio");
-              }}
-            />
           </div>
         )}
 
@@ -2033,13 +2087,6 @@ export default function OwnerPortalPage() {
                           <td className="p-3.5 text-right whitespace-nowrap">
                             <div className="flex items-center justify-end gap-1.5">
                               <button
-                                onClick={() => handleOpenInStudio(prod.image)}
-                                className="p-1.5 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-400 border border-cyan-500/20 transition-colors cursor-pointer"
-                                title="Edit image in Studio"
-                              >
-                                <ImageIcon className="w-3.5 h-3.5" />
-                              </button>
-                              <button
                                 onClick={() => setEditingProduct(prod)}
                                 className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors cursor-pointer"
                                 title="Edit Product"
@@ -2125,13 +2172,22 @@ export default function OwnerPortalPage() {
                 </p>
               </div>
 
-              <button
-                onClick={handleSimulateOrder}
-                className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-xl text-xs flex items-center gap-1.5 shadow-md cursor-pointer transition-colors"
-              >
-                <Plus className="w-4 h-4" />
-                <span>Simulate Skincare Order</span>
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={handleClearOrders}
+                  className="bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/30 font-bold px-3 py-2 rounded-xl text-xs flex items-center gap-1.5 cursor-pointer transition-colors"
+                >
+                  <Trash2 className="w-3.5 h-3.5 text-rose-400" />
+                  <span>Clear Simulation Orders</span>
+                </button>
+                <button
+                  onClick={handleSimulateOrder}
+                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-xl text-xs flex items-center gap-1.5 shadow-md cursor-pointer transition-colors"
+                >
+                  <Plus className="w-4 h-4" />
+                  <span>Simulate Test Order</span>
+                </button>
+              </div>
             </div>
 
             <div className="space-y-3">
@@ -2748,7 +2804,7 @@ export default function OwnerPortalPage() {
                       image: e.target.value,
                     })
                   }
-                  placeholder="https://... or upload in Image Studio"
+                  placeholder="https://..."
                   className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white text-xs font-mono placeholder:text-slate-600"
                 />
               </div>

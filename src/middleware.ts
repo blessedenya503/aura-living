@@ -10,16 +10,7 @@ export async function middleware(request: NextRequest) {
   const isPort3003 = host.includes(":3003");
   const isPort3002 = host.includes(":3002");
 
-  // Rule 1: Port 3003 is the public website.
-  // The owner portal is NOT visible to the public on port 3003!
-  if (isPort3003 && pathname.startsWith("/owner-portal")) {
-    const publicHome = new URL("/", request.url);
-    const res = NextResponse.redirect(publicHome);
-    res.headers.set("X-Robots-Tag", "noindex, nofollow");
-    return res;
-  }
-
-  // Rule 2: Port 3002 is the dedicated Owner Portal port.
+  // The owner portal is accessible on both port 3002 and port 3003
   // When owner opens http://localhost:3002/, auto-redirect directly to the dashboard
   if (isPort3002 && pathname === "/") {
     const portalUrl = new URL("/owner-portal", request.url);
