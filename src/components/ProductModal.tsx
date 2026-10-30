@@ -87,6 +87,15 @@ export default function ProductModal() {
                 }
                 alt={selectedProduct.name}
                 className="w-full h-full object-contain p-2"
+                referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
+                onError={(e) => {
+                  const target = e.currentTarget;
+                  const currentSrc = target.src;
+                  if (!currentSrc.includes("/api/proxy-image") && currentSrc.startsWith("http")) {
+                    target.src = `/api/proxy-image?url=${encodeURIComponent(currentSrc)}`;
+                  }
+                }}
               />
               <div className="absolute top-3 left-3 flex flex-col gap-1 items-start">
                 <span className="bg-[#002B7F] text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-xs">
@@ -117,6 +126,8 @@ export default function ProductModal() {
                       src={img}
                       alt="Thumbnail"
                       className="w-full h-full object-contain p-1 bg-white"
+                      referrerPolicy="no-referrer"
+                      crossOrigin="anonymous"
                     />
                   </button>
                 ))}

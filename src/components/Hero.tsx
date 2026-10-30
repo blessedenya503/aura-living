@@ -383,6 +383,8 @@ export default function Hero() {
                       alt={activeTrend.name}
                       className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                       loading="eager"
+                      referrerPolicy="no-referrer"
+                      crossOrigin="anonymous"
                     />
 
                     {/* Top Left: Badges */}

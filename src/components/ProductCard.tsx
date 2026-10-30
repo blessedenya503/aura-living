@@ -112,7 +112,15 @@ export default function ProductCard({ product }: ProductCardProps) {
           alt={product.name}
           className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
-          onError={() => setImgSrc(DEFAULT_SKINCARE_IMAGE)}
+          referrerPolicy="no-referrer"
+          crossOrigin="anonymous"
+          onError={() => {
+            if (!imgSrc.includes("/api/proxy-image") && product.image && product.image.startsWith("http")) {
+              setImgSrc(`/api/proxy-image?url=${encodeURIComponent(product.image)}`);
+            } else {
+              setImgSrc(DEFAULT_SKINCARE_IMAGE);
+            }
+          }}
         />
 
         {/* Floating Quick View hint on hover */}

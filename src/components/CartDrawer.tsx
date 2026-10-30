@@ -170,6 +170,8 @@ export default function CartDrawer() {
                           }
                           alt={item.product.name}
                           className="w-full h-full object-contain"
+                          referrerPolicy="no-referrer"
+                          crossOrigin="anonymous"
                         />
                       </div>
                       <div className="flex-1 flex flex-col justify-between min-w-0">
