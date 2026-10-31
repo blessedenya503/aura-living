@@ -25,6 +25,7 @@ export default function Navbar() {
     setSearchQuery,
     isNightRecovery,
     triggerNightRecoverySweep,
+    storeSettings,
   } = useCart();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -68,7 +69,7 @@ export default function Navbar() {
             <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gradient-to-tr from-[#002B7F] via-blue-700 to-cyan-500 p-[1.5px] shadow-[0_0_12px_rgba(0,242,254,0.5)]">
               <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
                 <span className="font-extrabold text-xs tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-amber-300">
-                  AU
+                  {(storeSettings?.storeName || "AURA").slice(0, 2).toUpperCase()}
                 </span>
               </div>
             </div>
@@ -80,7 +81,7 @@ export default function Navbar() {
                   isNightRecovery ? "text-white" : "text-slate-950"
                 }`}
               >
-                AURA
+                {storeSettings?.storeName || "AURA"}
               </span>
             </div>
           </Link>
