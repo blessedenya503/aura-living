@@ -1,5 +1,52 @@
 {
-  "orders": [],
+  "orders": [
+    {
+      "id": "AUR-6016",
+      "city": "Paris",
+      "items": [
+        {
+          "sku": "SHI-SER-0244",
+          "name": "Alibaba OEM Retinaldehyde 0.1% Stabilized Micro-Encapsulated Emulsion",
+          "brand": "Shinva Beauty Technologies",
+          "image": "https://m.media-amazon.com/images/I/71KIl4anawL._AC_UL320_.jpg",
+          "quantity": 2,
+          "productId": "prod-shinvabeautytechnologies-244",
+          "bundleTier": 1,
+          "variantName": "Standard Pack",
+          "unitPriceUsd": 30,
+          "supplierUnitCostUsd": 5.9
+        }
+      ],
+      "carrier": "DHL Express",
+      "country": "France",
+      "currency": "EUR",
+      "createdAt": "2026-10-31T09:17:11.814Z",
+      "postalCode": "75008",
+      "discountUsd": 0,
+      "shippingUsd": 0,
+      "subtotalUsd": 60,
+      "customerName": "Sophia Laurent",
+      "netProfitUsd": 48.2,
+      "totalPaidUsd": 62.49,
+      "customerEmail": "sophia.l@aura-skincare.com",
+      "paymentMethod": "Apple Pay",
+      "paymentStatus": "Paid",
+      "trackingNumber": "DHL-FR-38406508",
+      "shippingAddress": "220 Avenue Montaigne",
+      "trackingTimeline": [
+        {
+          "status": "Order Received & Payment Verified",
+          "location": "Secure Cloud Gateway",
+          "completed": true,
+          "timestamp": "Just now"
+        }
+      ],
+      "estimatedDelivery": "In 2 business days",
+      "fulfillmentStatus": "In Transit",
+      "supplierTotalCostUsd": 11.8,
+      "shippingProtectionUsd": 2.49
+    }
+  ],
   "products": [
     {
       "id": "imp-glow-recipe-plum-plump",
