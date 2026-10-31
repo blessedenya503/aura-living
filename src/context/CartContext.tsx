@@ -82,7 +82,7 @@ interface CartContextType {
   setIsNightRecovery: (v: boolean) => void;
   isNightSweeping: boolean;
   sweepDirection: "to-night" | "to-day";
-  triggerNightRecoverySweep: (enable: boolean) => void;
+  triggerNightRecoverySweep: (enable: boolean, rememberManual?: boolean) => void;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -130,10 +130,25 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [isNightSweeping, setIsNightSweeping] = useState(false);
   const [sweepDirection, setSweepDirection] = useState<"to-night" | "to-day">("to-night");
 
-  const triggerNightRecoverySweep = (enable: boolean) => {
+  // Check if current user local time is >= 4:00 PM (16:00) or early morning before 6:00 AM
+  const checkShouldBeNightMode = () => {
+    const now = new Date();
+    const hours = now.getHours();
+    // Night mode active starting at 4:00 PM (16:00) until dawn (6:00 AM)
+    return hours >= 16 || hours < 6;
+  };
+
+  const triggerNightRecoverySweep = (enable: boolean, rememberManual = true) => {
     setSweepDirection(enable ? "to-night" : "to-day");
     setIsNightSweeping(true);
     setIsNightRecovery(enable);
+    if (rememberManual) {
+      try {
+        localStorage.setItem("aura_theme_mode", enable ? "night" : "day");
+      } catch {
+        // ignore
+      }
+    }
     setTimeout(() => {
       setIsNightSweeping(false);
     }, 1150);
@@ -184,20 +199,65 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       if (savedCurr && CURRENCIES[savedCurr]) {
         setCurrencyState(savedCurr);
       }
+
+      // Check user preferences or automatic 4:00 PM local time switch
+      const savedTheme = localStorage.getItem("aura_theme_mode");
+      if (savedTheme === "night") {
+        setIsNightRecovery(true);
+      } else if (savedTheme === "day") {
+        setIsNightRecovery(false);
+      } else {
+        // Automatic: If 4:00 PM (16:00) or later, activate night mode
+        if (checkShouldBeNightMode()) {
+          setIsNightRecovery(true);
+        }
+      }
     } catch {
       // ignore storage errors
     }
     setIsHydrated(true);
 
+    // Dynamic timer check: Automatically switch when user reaches 4:00 PM local time while browsing
+    const timeCheckInterval = setInterval(() => {
+      try {
+        const savedTheme = localStorage.getItem("aura_theme_mode");
+        // If user hasn't explicitly locked it to day mode, follow 4:00 PM local time rule
+        if (!savedTheme) {
+          const shouldBeNight = checkShouldBeNightMode();
+          setIsNightRecovery((current) => {
+            if (current !== shouldBeNight) {
+              setSweepDirection(shouldBeNight ? "to-night" : "to-day");
+              setIsNightSweeping(true);
+              setTimeout(() => setIsNightSweeping(false), 1150);
+              return shouldBeNight;
+            }
+            return current;
+          });
+        }
+      } catch {
+        // ignore
+      }
+    }, 60000); // Check every minute
+
     const handleVisibilityOrFocus = () => {
       if (document.visibilityState === "visible") {
         refreshCatalog();
         fetchLiveRates();
+        // Also re-verify time on tab focus
+        try {
+          const savedTheme = localStorage.getItem("aura_theme_mode");
+          if (!savedTheme) {
+            setIsNightRecovery(checkShouldBeNightMode());
+          }
+        } catch {
+          // ignore
+        }
       }
     };
     window.addEventListener("focus", refreshCatalog);
     document.addEventListener("visibilitychange", handleVisibilityOrFocus);
     return () => {
+      clearInterval(timeCheckInterval);
       window.removeEventListener("focus", refreshCatalog);
       document.removeEventListener("visibilitychange", handleVisibilityOrFocus);
     };
