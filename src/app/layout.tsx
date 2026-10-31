@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/context/CartContext";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -163,6 +164,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased bg-[#FBFBFC] text-slate-900 selection:bg-blue-100 selection:text-[#002B7F]">
         <CartProvider>{children}</CartProvider>
+        <Analytics />
       </body>
     </html>
   );
