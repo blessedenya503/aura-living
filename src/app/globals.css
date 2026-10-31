@@ -217,6 +217,18 @@
   border-color: #1E3A8A !important;
 }
 
+/* Floating bottom help dock icons & labels stay sharp, black and visible on white tray in night mode */
+.night-recovery-active .fixed.bottom-4 .bg-white\/95,
+.night-recovery-active .fixed.bottom-4 .bg-white\/95 button,
+.night-recovery-active .fixed.bottom-4 .bg-white\/95 svg,
+.night-recovery-active .fixed.bottom-4 .bg-white\/95 span,
+.night-recovery-active .fixed.bottom-5 .bg-white\/95,
+.night-recovery-active .fixed.bottom-5 .bg-white\/95 button,
+.night-recovery-active .fixed.bottom-5 .bg-white\/95 svg,
+.night-recovery-active .fixed.bottom-5 .bg-white\/95 span {
+  color: #0F172A !important;
+}
+
 /* Footer adaptation */
 .night-recovery-active footer {
   background-color: #020617 !important;

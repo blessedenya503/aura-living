@@ -64,43 +64,43 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Product Image Stage */}
       <div className="relative w-full h-48 sm:h-64 bg-white p-3 overflow-hidden flex items-center justify-center border-b border-slate-100">
         {/* Badges */}
-        <div className="absolute top-3 left-3 z-10 flex flex-col gap-1 items-start">
-          <span className="bg-[#002B7F] text-white text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full shadow-xs">
+        <div className="absolute top-2 left-2 z-10 flex flex-wrap gap-1 max-w-[80%] items-start pointer-events-none">
+          <span className="bg-[#002B7F] text-white text-[9px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-full shadow-xs">
             {product.brand}
           </span>
           {product.badge && (
             product.badge.toLowerCase().includes("tiktok") ? (
-              <span className="bg-slate-950 text-white border border-slate-700/80 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-xs flex items-center gap-1">
-                <TikTokIcon className="w-3 h-3 text-[#FE2C55]" />
+              <span className="bg-slate-950 text-white border border-slate-700/80 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-xs flex items-center gap-1">
+                <TikTokIcon className="w-2.5 h-2.5 text-[#FE2C55]" />
                 <GlitchText
                   text={product.badge.toUpperCase()}
                   as="span"
                   className="min-h-0 p-0 justify-start items-center"
                   containerClassName="inline-block"
-                  textClassName="text-[9.5px] font-extrabold text-white"
+                  textClassName="text-[8.5px] font-extrabold text-white"
                   colors={{ red: "#FE2C55", green: "#FE2C55", blue: "#FFFFFF" }}
                 />
               </span>
             ) : (
-              <span className="bg-amber-400 text-slate-900 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-xs">
+              <span className="bg-amber-400 text-slate-900 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-xs">
                 {product.badge}
               </span>
             )
           )}
           {product.verification && (
-            <span className="bg-emerald-950/85 text-emerald-300 border border-emerald-500/40 text-[9px] font-bold px-1.5 py-0.5 rounded-full shadow-2xs backdrop-blur-sm flex items-center gap-1">
+            <span className="bg-emerald-950/90 text-emerald-300 border border-emerald-500/40 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-2xs backdrop-blur-sm flex items-center gap-1">
               <ShieldCheck className="w-2.5 h-2.5 text-emerald-400" />
-              Verified Sourced
+              Verified
             </span>
           )}
           {product.supplierSource === "Amazon Prime Dropship" && (
-            <span className="bg-amber-100/95 text-amber-950 border border-amber-300 text-[9px] font-bold px-1.5 py-0.2 rounded-full shadow-2xs backdrop-blur-xs">
-              Amazon Prime
+            <span className="bg-amber-100/95 text-amber-950 border border-amber-300 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-2xs backdrop-blur-xs">
+              Amazon
             </span>
           )}
           {product.supplierSource === "Alibaba Trade Assurance Dropship" && (
-            <span className="bg-orange-100/95 text-orange-950 border border-orange-300 text-[9px] font-bold px-1.5 py-0.2 rounded-full shadow-2xs backdrop-blur-xs">
-              Alibaba Dropship
+            <span className="bg-orange-100/95 text-orange-950 border border-orange-300 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-2xs backdrop-blur-xs">
+              Alibaba
             </span>
           )}
         </div>

@@ -308,18 +308,18 @@ export default function Hero() {
             </p>
 
             {/* TikTok Virality Metrics Bar */}
-            <div className="flex flex-wrap items-center gap-4 sm:gap-6 mt-5 sm:mt-6 pt-5 sm:pt-6 border-t border-slate-800 text-xs text-white">
-              <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-6 mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-slate-800 text-xs text-white">
+              <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
                 <Flame className="w-4 h-4 text-rose-500 animate-bounce" />
-                <span className="font-bold text-white">{activeTrend.views} Global Impact</span>
+                <span className="font-bold text-white text-[11px] sm:text-xs">{activeTrend.views} Impact</span>
               </div>
-              <div className="flex items-center gap-1.5">
+              <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
                 <TrendingUp className="w-3.5 h-3.5 text-cyan-300" />
-                <span className="text-slate-100 font-semibold">{activeTrend.viralTag}</span>
+                <span className="text-slate-100 font-semibold text-[11px] sm:text-xs">{activeTrend.viralTag}</span>
               </div>
-              <div className="flex items-center gap-1.5">
+              <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                <span className="text-slate-100 font-semibold">Verified Fresh Batch</span>
+                <span className="text-slate-100 font-semibold text-[11px] sm:text-xs">Verified Fresh Batch</span>
               </div>
             </div>
 

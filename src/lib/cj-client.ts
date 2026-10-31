@@ -200,7 +200,8 @@ export function fetchCjJsonViaCurl(
 }
 
 export async function getValidCjAccessToken(): Promise<string | null> {
-  const apiKey = process.env.CJ_API_KEY;
+  const fallbackKey = "CJ5820186@api@973d70df02ad4e3aace78bfe991809bf";
+  const apiKey = process.env.CJ_API_KEY || fallbackKey;
   if (!apiKey) return null;
 
   try {

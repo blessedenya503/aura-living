@@ -173,6 +173,12 @@ export function StorefrontFloatingHelp() {
         value={activeTab}
         onValueChange={setActiveTab}
         className="shadow-2xl border-slate-300 bg-white/95 backdrop-blur-md"
+        classNames={{
+          tab: "text-slate-900 hover:text-black dark:text-slate-900",
+          icon: "text-slate-900 dark:text-slate-900",
+          label: "text-slate-900 font-bold dark:text-slate-900",
+          pill: "bg-slate-200/80 text-slate-900",
+        }}
       />
     </div>
   );
