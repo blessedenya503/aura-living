@@ -86,63 +86,6 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Interactive Search Bar (Desktop only) */}
-        <div className="hidden sm:block flex-1 max-w-sm lg:max-w-md mx-4 relative group">
-          <div className="relative items-center w-full flex">
-            <Search
-              className={`w-4 h-4 absolute left-3.5 pointer-events-none transition-colors shrink-0 z-10 ${
-                isNightRecovery ? "text-cyan-400" : "text-slate-400 group-hover:text-[#002B7F]"
-              }`}
-            />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
-                setIsSearchOpen(true);
-              }}
-              onFocus={() => setIsSearchOpen(true)}
-              onClick={() => setIsSearchOpen(true)}
-              placeholder=""
-              className={`w-full pl-9 pr-11 py-1.5 rounded-xl text-[11px] font-medium transition-all outline-hidden shadow-2xs ${
-                isNightRecovery
-                  ? "bg-slate-900 border-blue-900 text-white placeholder:text-slate-400 focus:border-cyan-400 focus:bg-slate-950"
-                  : "bg-slate-100 hover:bg-slate-200/80 focus:bg-white border-slate-200 focus:border-[#002B7F] text-slate-900 placeholder:text-slate-500"
-              }`}
-            />
-            {!searchQuery && (
-              <div className="absolute left-9 pointer-events-none text-[11px] text-slate-400 select-none flex items-center">
-                <span className="font-medium text-slate-400">Search:&nbsp;</span>
-                <Typewriter
-                  text={[
-                    "Hair oils, colognes, creams...",
-                    "Olaplex, Moroccanoil, Kérastase...",
-                    "Dior Sauvage, Creed, Tom Ford...",
-                    "Dry skin barrier repair...",
-                    "Viral TikTok glass skin formulas...",
-                  ]}
-                  speed={75}
-                  deleteSpeed={40}
-                  delay={2000}
-                  loop={true}
-                  className="font-medium text-slate-500 text-[11px]"
-                />
-              </div>
-            )}
-            <div className="absolute right-2.5 flex items-center gap-1 pointer-events-none">
-              <kbd
-                className={`px-1.5 py-0.5 text-[10px] font-mono font-bold rounded shadow-2xs ${
-                  isNightRecovery
-                    ? "bg-slate-800 border border-slate-700 text-slate-300"
-                    : "bg-white border border-slate-300 text-slate-500"
-                }`}
-              >
-                ⌘K
-              </kbd>
-            </div>
-          </div>
-        </div>
-
         {/* Quick Brand Pills */}
         <div className="hidden lg:flex items-center gap-4 text-xs font-semibold">
           <button
