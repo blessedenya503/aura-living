@@ -161,29 +161,41 @@ export default function Hero() {
   const [added, setAdded] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
 
+  // Use weekly rotating TikTok catalog if populated from storeSettings, otherwise fallback to defaults
+  const activeCatalog: TikTokViralTrend[] = useMemo(() => {
+    if (
+      storeSettings.weeklyTikTokCatalog &&
+      Array.isArray(storeSettings.weeklyTikTokCatalog) &&
+      storeSettings.weeklyTikTokCatalog.length > 0
+    ) {
+      return storeSettings.weeklyTikTokCatalog;
+    }
+    return TIKTOK_VIRAL_CATALOG;
+  }, [storeSettings.weeklyTikTokCatalog]);
+
   // Automatic slideshow cycle (advances like a PowerPoint presentation every 4.2s unless paused)
   useEffect(() => {
     if (isPaused) return;
     const interval = setInterval(() => {
       setSlideDirection(1);
-      setSelectedTrendIndex((prev) => (prev + 1) % TIKTOK_VIRAL_CATALOG.length);
+      setSelectedTrendIndex((prev) => (prev + 1) % activeCatalog.length);
     }, 4500);
     return () => clearInterval(interval);
-  }, [isPaused]);
+  }, [isPaused, activeCatalog.length]);
 
   const handlePrevSlide = (e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     setSlideDirection(-1);
-    setSelectedTrendIndex((prev) => (prev === 0 ? TIKTOK_VIRAL_CATALOG.length - 1 : prev - 1));
+    setSelectedTrendIndex((prev) => (prev === 0 ? activeCatalog.length - 1 : prev - 1));
   };
 
   const handleNextSlide = (e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     setSlideDirection(1);
-    setSelectedTrendIndex((prev) => (prev + 1) % TIKTOK_VIRAL_CATALOG.length);
+    setSelectedTrendIndex((prev) => (prev + 1) % activeCatalog.length);
   };
 
-  const activeTrend = TIKTOK_VIRAL_CATALOG[selectedTrendIndex] || TIKTOK_VIRAL_CATALOG[0];
+  const activeTrend = activeCatalog[selectedTrendIndex] || activeCatalog[0];
 
   // Try to find the matching product in our live 300+ catalog
   const matchingLiveProduct = useMemo(() => {
@@ -347,7 +359,7 @@ export default function Hero() {
             <div className="relative w-full max-w-md bg-linear-to-b from-slate-900/95 via-slate-950 to-slate-950 rounded-3xl p-5 border border-slate-800/80 shadow-2xl backdrop-blur-md ring-1 ring-cyan-500/20">
               {/* TikTok Trend Switcher Navigation */}
               <div className="flex items-center justify-between gap-1 bg-slate-950/80 p-1 rounded-xl mb-4 border border-slate-800/80 overflow-x-auto no-scrollbar">
-                {TIKTOK_VIRAL_CATALOG.map((trend, idx) => (
+                {activeCatalog.map((trend, idx) => (
                   <button
                     key={trend.id}
                     onClick={() => {
@@ -415,7 +427,7 @@ export default function Hero() {
                     {/* Slide counter pill */}
                     <div className="absolute bottom-3 right-3 z-10">
                       <span className="bg-slate-950/80 backdrop-blur-md text-slate-300 font-mono text-[9.5px] font-bold px-2 py-0.5 rounded-full border border-slate-800">
-                        Slide {selectedTrendIndex + 1}/{TIKTOK_VIRAL_CATALOG.length}
+                        Slide {selectedTrendIndex + 1}/{activeCatalog.length}
                       </span>
                     </div>
 
@@ -447,7 +459,7 @@ export default function Hero() {
 
                 {/* Slideshow Progress Dots */}
                 <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1.5 bg-slate-950/80 backdrop-blur-md px-2.5 py-1 rounded-full border border-slate-800">
-                  {TIKTOK_VIRAL_CATALOG.map((_, idx) => (
+                  {activeCatalog.map((_, idx) => (
                     <button
                       key={idx}
                       onClick={(e) => {

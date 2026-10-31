@@ -26,6 +26,11 @@ interface StorePublicSettings {
   tiktokTrendingProductId?: string;
   tiktokTrendingViews?: string;
   tiktokTrendingTagline?: string;
+  weeklySyncSchedule?: string;
+  lastWeeklySyncAt?: string;
+  nextWeeklySyncAt?: string;
+  weeklyTikTokCatalog?: any[];
+  currentWeekNumber?: number;
 }
 
 interface CartContextType {
