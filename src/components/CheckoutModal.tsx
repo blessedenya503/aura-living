@@ -111,6 +111,40 @@ export default function CheckoutModal() {
         return;
       }
 
+      // Check if Paystack Inline JS popup modal is available in window
+      const win = window as any;
+      const publicKey =
+        process.env.NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY ||
+        "pk_live_d2e4bb883f45096a034c3ed24d0ef6565d1a5484";
+
+      if (win.PaystackPop && typeof win.PaystackPop.setup === "function") {
+        try {
+          const handler = win.PaystackPop.setup({
+            key: publicKey,
+            email: customerEmail || "guest@auraliving.store",
+            amount: initData.amountNgn ? Math.round(initData.amountNgn * 100) : Math.round(finalTotalUsd * 1480 * 100),
+            currency: "NGN",
+            ref: initData.reference,
+            metadata: {
+              orderId: initData.orderId,
+              customerName: customerName || "AURA Client",
+            },
+            callback: function (response: any) {
+              // Payment completed inside popup - redirect to order confirmation
+              window.location.href = `/checkout/success?reference=${response.reference}&orderId=${initData.orderId}`;
+            },
+            onClose: function () {
+              setIsSubmitting(false);
+            },
+          });
+          handler.openIframe();
+          return;
+        } catch (popupErr) {
+          console.warn("Paystack popup fallback to redirect:", popupErr);
+        }
+      }
+
+      // Fallback: direct browser redirect to Paystack hosted checkout
       if (initData.authorizationUrl) {
         window.location.href = initData.authorizationUrl;
         return;
