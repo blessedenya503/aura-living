@@ -74,10 +74,15 @@ export default function ProductModal() {
         className="relative w-full max-w-4xl bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden sm:my-auto max-h-[92dvh] sm:max-h-[90vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
+        {/* Mobile Drag Pill */}
+        <div className="sm:hidden flex justify-center pt-2 pb-1 bg-slate-50 shrink-0">
+          <div className="w-10 h-1 rounded-full bg-slate-300" />
+        </div>
+
         {/* Close button */}
         <button
           onClick={() => setSelectedProduct(null)}
-          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-950 transition-colors shadow-xs cursor-pointer"
+          className="absolute top-2.5 right-3 sm:top-4 sm:right-4 z-20 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-950 transition-colors shadow-xs cursor-pointer"
         >
           <X className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
@@ -85,13 +90,13 @@ export default function ProductModal() {
         <div className="grid grid-cols-1 md:grid-cols-2 overflow-y-auto">
           {/* Visual Gallery */}
           <div className="p-3 sm:p-6 bg-slate-50 flex flex-col justify-between">
-            <div className="relative aspect-square w-full max-h-[260px] sm:max-h-none rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-3">
+            <div className="relative aspect-square w-full max-h-[220px] sm:max-h-none rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-2 sm:p-3">
               <img
                 src={
                   getSafeImageUrl(images[activeImageIndex] || selectedProduct.image)
                 }
                 alt={selectedProduct.name}
-                className="w-full h-full object-contain p-2"
+                className="w-full h-full object-contain p-1 sm:p-2"
                 referrerPolicy="no-referrer"
                 crossOrigin="anonymous"
                 onError={(e) => {
