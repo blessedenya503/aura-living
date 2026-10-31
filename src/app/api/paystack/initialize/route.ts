@@ -77,7 +77,7 @@ export async function POST(request: Request) {
       const origin = request.headers.get("origin") || request.headers.get("referer");
       let siteUrl = origin
         ? new URL(origin).origin
-        : process.env.NEXT_PUBLIC_SITE_URL || "https://aurastore-git-main-blessedenya503s-projects.vercel.app";
+        : process.env.NEXT_PUBLIC_SITE_URL || "https://auraskinng.vercel.app";
       const finalCallbackUrl =
         callbackUrl || `${siteUrl}/checkout/success?reference=${reference}&orderId=${orderId}`;
 

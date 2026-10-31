@@ -3,7 +3,7 @@ import { getStoreDb } from "@/lib/store-db";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://aurastore-git-main-blessedenya503s-projects.vercel.app";
+  "https://auraskinng.vercel.app";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();

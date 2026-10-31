@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://aurastore-git-main-blessedenya503s-projects.vercel.app";
+  "https://auraskinng.vercel.app";
 
 export default function robots(): MetadataRoute.Robots {
   return {

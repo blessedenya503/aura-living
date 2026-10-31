@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://aurastore-git-main-blessedenya503s-projects.vercel.app";
+  "https://auraskinng.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
