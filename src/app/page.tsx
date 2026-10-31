@@ -10,6 +10,7 @@ import ProductModal from "@/components/ProductModal";
 import CartDrawer from "@/components/CartDrawer";
 import CheckoutModal from "@/components/CheckoutModal";
 import GlobalSearchModal from "@/components/GlobalSearchModal";
+import StorefrontFloatingHelp from "@/components/StorefrontFloatingHelp";
 import { PaymentLogosStrip } from "@/components/PaymentLogos";
 import { CATEGORIES, ProductCategory, Product } from "@/data/products";
 import { useCart } from "@/context/CartContext";
@@ -630,6 +631,7 @@ export default function HomePage() {
       <CartDrawer />
       <CheckoutModal />
       <GlobalSearchModal />
+      <StorefrontFloatingHelp />
     </div>
   );
 }
