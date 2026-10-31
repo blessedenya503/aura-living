@@ -69,23 +69,23 @@ export default function ProductModal() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 overflow-y-auto bg-slate-950/70 backdrop-blur-sm animate-fadeIn">
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 overflow-y-auto bg-slate-950/75 backdrop-blur-sm animate-fadeIn">
       <div
-        className="relative w-full max-w-4xl bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden my-auto"
+        className="relative w-full max-w-4xl bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden sm:my-auto max-h-[92dvh] sm:max-h-[90vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
         <button
           onClick={() => setSelectedProduct(null)}
-          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/90 hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-950 transition-colors shadow-xs cursor-pointer"
+          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-950 transition-colors shadow-xs cursor-pointer"
         >
           <X className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 max-h-[88vh] overflow-y-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 overflow-y-auto">
           {/* Visual Gallery */}
-          <div className="p-4 sm:p-6 bg-slate-50 flex flex-col justify-between">
-            <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-4">
+          <div className="p-3 sm:p-6 bg-slate-50 flex flex-col justify-between">
+            <div className="relative aspect-square w-full max-h-[260px] sm:max-h-none rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-3">
               <img
                 src={
                   getSafeImageUrl(images[activeImageIndex] || selectedProduct.image)
@@ -505,11 +505,11 @@ export default function ProductModal() {
             </div>
 
             {/* Actions */}
-            <div className="mt-6 pt-4 border-t border-slate-100 flex flex-col gap-2.5">
+            <div className="sticky bottom-0 bg-white mt-4 sm:mt-6 pt-3 pb-safe border-t border-slate-100 flex flex-col gap-2 shadow-xs">
               <div className="flex items-baseline justify-between">
                 <div>
-                  <span className="text-xs text-slate-500">Total Price:</span>
-                  <div className="text-2xl font-bold font-mono text-slate-950">
+                  <span className="text-[11px] text-slate-500">Total Price:</span>
+                  <div className="text-xl sm:text-2xl font-bold font-mono text-slate-950">
                     {formatPrice(currentTotal)}
                   </div>
                 </div>
@@ -526,14 +526,14 @@ export default function ProductModal() {
               <div className="grid grid-cols-2 gap-2">
                 <button
                   onClick={handleAddToCart}
-                  className="w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer"
+                  className="w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer"
                 >
                   <ShoppingBag className="w-4 h-4" />
                   Add to Bag
                 </button>
                 <button
                   onClick={handleBuyNow}
-                  className="w-full bg-[#002B7F] hover:bg-blue-800 text-white font-semibold py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] cursor-pointer"
+                  className="w-full bg-[#002B7F] hover:bg-blue-800 text-white font-semibold py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] cursor-pointer"
                 >
                   <Sparkles className="w-4 h-4 text-amber-300" />
                   Fast Checkout

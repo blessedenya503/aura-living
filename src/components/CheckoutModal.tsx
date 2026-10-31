@@ -116,8 +116,11 @@ export default function CheckoutModal() {
       const publicKey =
         process.env.NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY ||
         "pk_live_d2e4bb883f45096a034c3ed24d0ef6565d1a5484";
+      const isMobile = typeof navigator !== "undefined" && /android|iphone|ipad|ipod|mobile/i.test(navigator.userAgent);
 
-      if (win.PaystackPop && typeof win.PaystackPop.setup === "function") {
+      // On desktop, prefer inline iframe modal.
+      // On mobile browsers, direct redirect to authorizationUrl is vastly more reliable and avoids iframe viewport bugs
+      if (!isMobile && win.PaystackPop && typeof win.PaystackPop.setup === "function") {
         try {
           const handler = win.PaystackPop.setup({
             key: publicKey,
@@ -130,7 +133,6 @@ export default function CheckoutModal() {
               customerName: customerName || "AURA Client",
             },
             callback: function (response: any) {
-              // Payment completed inside popup - redirect to order confirmation
               window.location.href = `/checkout/success?reference=${response.reference}&orderId=${initData.orderId}`;
             },
             onClose: function () {
@@ -144,7 +146,7 @@ export default function CheckoutModal() {
         }
       }
 
-      // Fallback: direct browser redirect to Paystack hosted checkout
+      // Mobile or fallback: clean direct redirect to Paystack payment window
       if (initData.authorizationUrl) {
         window.location.href = initData.authorizationUrl;
         return;
