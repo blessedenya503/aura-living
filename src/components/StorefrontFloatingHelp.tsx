@@ -59,7 +59,7 @@ function HelpRowItem({
 }
 
 function HelpRowList({ children }: { children: React.ReactNode }) {
-  return <div className="flex w-[18rem] sm:w-[20rem] flex-col gap-1 p-1">{children}</div>;
+  return <div className="flex w-[16.5rem] sm:w-[20rem] max-w-[88vw] flex-col gap-1 p-1">{children}</div>;
 }
 
 export function StorefrontFloatingHelp() {
@@ -167,7 +167,7 @@ export function StorefrontFloatingHelp() {
   ];
 
   return (
-    <div className="fixed bottom-5 right-5 z-40 hidden sm:flex flex-col items-end">
+    <div className="fixed bottom-4 right-3 sm:bottom-5 sm:right-5 z-40 flex flex-col items-end">
       <ExpandableTabs
         items={helpItems}
         value={activeTab}
