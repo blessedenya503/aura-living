@@ -3,8 +3,12 @@
 import React, { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { CheckCircle2, Package, ArrowRight, ShieldCheck, Home } from "lucide-react";
+import Image from "next/image";
+import { CheckCircle2, Package, ArrowRight, ShieldCheck, Home, AlertCircle, FileText } from "lucide-react";
 import { useCart } from "@/context/CartContext";
+import TipsPanel from "@/components/ui/tips-panel";
+import { getProductClinicalTips } from "@/lib/clinical-tips";
+import type { OrderItem } from "@/lib/store-db";
 
 function CheckoutSuccessContent() {
   const searchParams = useSearchParams();
@@ -52,7 +56,7 @@ function CheckoutSuccessContent() {
 
   return (
     <div className="min-h-screen bg-[#FBFBFC] flex flex-col justify-center items-center px-4 py-12">
-      <div className="max-w-md w-full bg-white rounded-3xl border border-slate-200/80 shadow-xl p-6 sm:p-8 text-center animate-fadeIn">
+      <div className="max-w-xl w-full bg-white rounded-3xl border border-slate-200/80 shadow-xl p-6 sm:p-8 text-center animate-fadeIn">
         {/* Animated Success Badge */}
         <div className="w-16 h-16 bg-emerald-50 rounded-full flex items-center justify-center mx-auto mb-4 border border-emerald-200">
           <CheckCircle2 className="w-9 h-9 text-emerald-600 animate-bounce" />
@@ -89,7 +93,7 @@ function CheckoutSuccessContent() {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex flex-col gap-2.5">
+        <div className="flex flex-col gap-2.5 mb-6">
           <Link
             href={`/track-order?q=${encodeURIComponent(order?.id || orderId || reference || "")}`}
             className="w-full bg-[#002B7F] hover:bg-blue-800 text-white font-bold py-3.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01]"
@@ -107,6 +111,53 @@ function CheckoutSuccessContent() {
             <span>Return to Storefront</span>
           </Link>
         </div>
+
+        {/* Vital Product Clinical Advisory Panel (What It Does & What It Cannot Do) */}
+        {order?.items && Array.isArray(order.items) && order.items.length > 0 && (
+          <div className="border-t border-slate-200 pt-6 text-left space-y-6">
+            <div className="text-center">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-[#002B7F] bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-200 inline-block mb-1">
+                Post-Purchase Advisory
+              </span>
+              <h2 className="text-base font-bold text-slate-900">
+                Vital Clinical Information
+              </h2>
+              <p className="text-[11px] text-slate-500 max-w-xs mx-auto">
+                Medical indications, usage protocols, and explicit physiological contraindications for your ordered formulas.
+              </p>
+            </div>
+
+            {order.items.map((item: OrderItem) => (
+              <div key={item.productId} className="space-y-3">
+                <div className="flex items-center gap-3 bg-slate-50 p-3 rounded-2xl border border-slate-200">
+                  {item.image && (
+                    <div className="w-12 h-12 rounded-xl bg-white border border-slate-200 overflow-hidden relative shrink-0">
+                      <Image
+                        src={item.image}
+                        alt={item.name}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  )}
+                  <div className="min-w-0 flex-1">
+                    <p className="text-xs font-bold text-slate-900 truncate">{item.name}</p>
+                    <p className="text-[10px] text-slate-500 font-mono">
+                      {item.brand} • {item.variantName} (Qty: {item.quantity})
+                    </p>
+                  </div>
+                </div>
+
+                {/* Integration of TipsPanel */}
+                <TipsPanel
+                  title={`Clinical Protocol: ${item.name.slice(0, 32)}...`}
+                  tips={getProductClinicalTips(item)}
+                  className="mx-auto"
+                />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

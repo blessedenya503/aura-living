@@ -22,6 +22,10 @@ import {
   GooglePayLogo,
   PaymentLogosStrip,
 } from "@/components/PaymentLogos";
+import TipsPanel from "@/components/ui/tips-panel";
+import { getProductClinicalTips } from "@/lib/clinical-tips";
+import Image from "next/image";
+import type { OrderItem } from "@/lib/store-db";
 
 export default function CheckoutModal() {
   const {
@@ -62,6 +66,7 @@ export default function CheckoutModal() {
     id: string;
     totalPaidUsd: number;
     estimatedDelivery: string;
+    items?: OrderItem[];
   } | null>(null);
 
   if (!isCheckoutOpen) return null;
@@ -172,6 +177,7 @@ export default function CheckoutModal() {
           totalPaidUsd: verifyData.order.totalPaidUsd,
           estimatedDelivery:
             verifyData.order.estimatedDelivery || "2–4 Business Days (Express)",
+          items: verifyData.order.items,
         });
         clearCart();
         return;
@@ -274,6 +280,52 @@ export default function CheckoutModal() {
                   Continue Shopping
                 </button>
               </div>
+
+              {/* Vital Product Clinical Advisory Panel (What It Does & What It Cannot Do) */}
+              {confirmedOrder.items && Array.isArray(confirmedOrder.items) && confirmedOrder.items.length > 0 && (
+                <div className="border-t border-slate-200 pt-6 text-left space-y-5">
+                  <div className="text-center">
+                    <span className="text-[10px] font-bold uppercase tracking-widest text-[#002B7F] bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-200 inline-block mb-1">
+                      Post-Order Medical Directive
+                    </span>
+                    <h4 className="text-sm font-bold text-slate-900">
+                      Vital Clinical Information
+                    </h4>
+                    <p className="text-[11px] text-slate-500 max-w-xs mx-auto">
+                      Medical indications, usage protocols, and physiological contraindications for your ordered formulas.
+                    </p>
+                  </div>
+
+                  {confirmedOrder.items.map((item: OrderItem) => (
+                    <div key={item.productId} className="space-y-2.5">
+                      <div className="flex items-center gap-2.5 bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+                        {item.image && (
+                          <div className="w-10 h-10 rounded-lg bg-white border border-slate-200 overflow-hidden relative shrink-0">
+                            <Image
+                              src={item.image}
+                              alt={item.name}
+                              fill
+                              className="object-cover"
+                            />
+                          </div>
+                        )}
+                        <div className="min-w-0 flex-1">
+                          <p className="text-xs font-bold text-slate-900 truncate">{item.name}</p>
+                          <p className="text-[10px] text-slate-500 font-mono">
+                            {item.brand} • {item.variantName}
+                          </p>
+                        </div>
+                      </div>
+
+                      <TipsPanel
+                        title={`Clinical Guidance: ${item.name.slice(0, 28)}...`}
+                        tips={getProductClinicalTips(item)}
+                        className="w-full"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ) : (
             <form onSubmit={handleCheckoutSubmit} className="space-y-5">
