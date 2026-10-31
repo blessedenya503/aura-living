@@ -65,9 +65,9 @@ export default function Navbar() {
           {/* Brand Logo with Glowing Aura Badge */}
           <Link href="/" className="flex items-center gap-2 group relative shrink-0">
             {/* Circular Ring & Core */}
-            <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-[#002B7F] via-blue-700 to-cyan-500 p-[1.5px] shadow-[0_0_12px_rgba(0,242,254,0.5)]">
+            <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gradient-to-tr from-[#002B7F] via-blue-700 to-cyan-500 p-[1.5px] shadow-[0_0_12px_rgba(0,242,254,0.5)]">
               <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
-                <span className="font-extrabold text-xs sm:text-sm tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-amber-300">
+                <span className="font-extrabold text-xs tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-amber-300">
                   AU
                 </span>
               </div>
@@ -75,24 +75,12 @@ export default function Navbar() {
 
             {/* Wordmark */}
             <div className="flex flex-col justify-center">
-              <div className="flex items-center gap-1">
-                <span
-                  className={`text-lg sm:text-xl font-black tracking-tight leading-none ${
-                    isNightRecovery
-                      ? "text-white"
-                      : "text-slate-950"
-                  }`}
-                >
-                  AURA<span className="text-blue-600">.STORE</span>
-                </span>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#FE2C55]" />
-              </div>
               <span
-                className={`text-[8px] sm:text-[9px] uppercase tracking-[0.2em] font-extrabold mt-0.5 ${
-                  isNightRecovery ? "text-cyan-300/90" : "text-slate-500"
+                className={`text-base sm:text-lg font-black tracking-tight leading-none ${
+                  isNightRecovery ? "text-white" : "text-slate-950"
                 }`}
               >
-                Dermatological Skincare
+                AURA
               </span>
             </div>
           </Link>

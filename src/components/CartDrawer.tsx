@@ -174,26 +174,29 @@ export default function CartDrawer() {
                           crossOrigin="anonymous"
                         />
                       </div>
-                      <div className="flex-1 flex flex-col justify-between min-w-0">
-                        <div className="flex items-start justify-between gap-1">
-                          <div>
-                            <span className="text-[10px] font-bold text-[#002B7F] uppercase tracking-wider block">
+                      <div className="flex-1 flex flex-col justify-between min-w-0 pr-1">
+                        <div className="flex items-start justify-between gap-2">
+                          <div className="min-w-0 flex-1">
+                            <span className="text-[10px] font-bold text-[#002B7F] uppercase tracking-wider block truncate">
                               {item.product.brand}
                             </span>
-                            <h4 className="text-xs font-bold text-slate-900 truncate">
+                            <h4 className="text-xs font-bold text-slate-900 truncate" title={item.product.name}>
                               {item.product.name}
                             </h4>
-                            <p className="text-[11px] text-slate-500">
+                            <p className="text-[11px] text-slate-500 truncate">
                               {item.selectedVariant.name}
                             </p>
                           </div>
                           <button
+                            type="button"
                             onClick={() =>
                               removeFromCart(item.product.id, item.selectedVariant.name)
                             }
-                            className="text-slate-400 hover:text-rose-600 transition-colors p-1"
+                            className="text-slate-400 hover:text-rose-600 hover:bg-rose-50 rounded-lg transition-colors p-1.5 shrink-0"
+                            title="Remove item"
+                            aria-label="Remove item"
                           >
-                            <Trash2 className="w-3.5 h-3.5" />
+                            <Trash2 className="w-4 h-4" />
                           </button>
                         </div>
 

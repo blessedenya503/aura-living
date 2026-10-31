@@ -1711,8 +1711,8 @@ export default function OwnerPortalPage() {
                       <optgroup label="Fintechs">
                         {availableBanks
                           .filter((b) => b.isFintech)
-                          .map((b) => (
-                            <option key={b.code} value={b.code}>
+                          .map((b, idx) => (
+                            <option key={`fintech-${b.code}-${idx}`} value={b.code}>
                               {b.name}
                             </option>
                           ))}
@@ -1720,8 +1720,8 @@ export default function OwnerPortalPage() {
                       <optgroup label="Commercial banks">
                         {availableBanks
                           .filter((b) => !b.isFintech)
-                          .map((b) => (
-                            <option key={b.code} value={b.code}>
+                          .map((b, idx) => (
+                            <option key={`comm-${b.code}-${idx}`} value={b.code}>
                               {b.name}
                             </option>
                           ))}

@@ -1,76 +1,5 @@
 {
-  "orders": [
-    {
-      "id": "AUR-13290",
-      "createdAt": "2026-10-30T17:15:10.663Z",
-      "customerName": "Neon Integration Tester",
-      "customerEmail": "neon.test@auraliving.store",
-      "shippingAddress": "100 Neon Way, Cloud Valley",
-      "city": "San Francisco",
-      "country": "United States",
-      "postalCode": "94105",
-      "currency": "USD",
-      "subtotalUsd": 40,
-      "discountUsd": 0,
-      "shippingProtectionUsd": 2.49,
-      "shippingUsd": 0,
-      "totalPaidUsd": 42.49,
-      "supplierTotalCostUsd": 16.5,
-      "netProfitUsd": 24.46,
-      "paymentMethod": "Stripe Card",
-      "paymentStatus": "Paid",
-      "fulfillmentStatus": "Processing",
-      "carrier": "DHL Express",
-      "trackingNumber": "DHL-EXP-622509812",
-      "estimatedDelivery": "2–4 Business Days (Express)",
-      "items": [
-        {
-          "productId": "imp-glow-recipe-plum-plump",
-          "sku": "GLO-PLU-050",
-          "brand": "Glow Recipe",
-          "name": "Glow Recipe Plum Plump Hyaluronic Cream",
-          "variantName": "Standard",
-          "bundleTier": 1,
-          "quantity": 1,
-          "unitPriceUsd": 40,
-          "supplierUnitCostUsd": 16.5,
-          "image": "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg"
-        }
-      ],
-      "trackingTimeline": [
-        {
-          "status": "Order Confirmed & Stripe Card Payment Verified",
-          "location": "AURA Encrypted Checkout Gateway",
-          "timestamp": "Just now",
-          "completed": true
-        },
-        {
-          "status": "Order Sent to Temperature-Controlled Skincare Fulfillment",
-          "location": "Central Distribution Center",
-          "timestamp": "In Progress",
-          "completed": true
-        },
-        {
-          "status": "Dermatological Quality Inspection & Batch Labeling",
-          "location": "Sterile Logistics Center",
-          "timestamp": "Queued",
-          "completed": false
-        },
-        {
-          "status": "Handed over to Express Courier (DHL / Royal Mail / USPS)",
-          "location": "San Francisco",
-          "timestamp": "Est. within 12 hours",
-          "completed": false
-        },
-        {
-          "status": "Delivered to Doorstep",
-          "location": "San Francisco, United States",
-          "timestamp": "Est. 2–4 Business Days",
-          "completed": false
-        }
-      ]
-    }
-  ],
+  "orders": [],
   "products": [
     {
       "id": "imp-glow-recipe-plum-plump",
@@ -23828,13 +23757,13 @@
     "storeName": "AURA.STORE",
     "linkedBank": {
       "status": "connected",
-      "bankCode": "999992",
-      "bankName": "OPay Digital Services Limited (OPay)",
+      "bankCode": "999991",
+      "bankName": "PalmPay",
       "accountName": "BLESSED AWARA ENYA",
-      "connectedAt": "2026-10-30T16:39:45.549Z",
+      "connectedAt": "2026-10-31T05:34:42.119Z",
       "verifiedVia": "Paystack transfer recipient",
       "accountNumber": "7038703778",
-      "recipientCode": "RCP_1hkd2eg7lev7eiz",
+      "recipientCode": "RCP_bktq5x4c6c6dz5b",
       "payoutSchedule": "Next-day automatic bank settlement (T+1)",
       "settlementCurrency": "NGN (Nigerian Naira ₦)"
     },
@@ -23842,8 +23771,8 @@
     "stripeConnected": true,
     "announcementText": "FREE TRACKED SHIPPING OVER $35 • DERMATOLOGICALLY VERIFIED NIVEA & PREMIUM SKINCARE",
     "hasLiveStripeKey": false,
-    "lastWeeklySyncAt": "2026-10-20T18:53:17.406Z",
-    "nextWeeklySyncAt": "2026-10-27T18:53:17.406Z",
+    "lastWeeklySyncAt": "2026-10-31T07:58:01.177Z",
+    "nextWeeklySyncAt": "2026-11-07T07:58:01.177Z",
     "weeklySyncEnabled": true,
     "weeklySyncSchedule": "Every Sunday at 00:00 UTC",
     "defaultMarkupMultiplier": 2.5,

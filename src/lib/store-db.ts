@@ -461,19 +461,49 @@ export function writeStoreDb(db: StoreDatabase): void {
 }
 
 export function sanitizeProductForPublic(product: Product): Product {
-  const copy = { ...product };
-  delete (copy as any).supplierCost;
-  delete (copy as any).cjShippingCost;
+  const p = product;
+  let image = p.image || "";
+  if (image.startsWith("http") && !image.startsWith("/api/proxy-image")) {
+    image = `/api/proxy-image?url=${encodeURIComponent(image)}`;
+  }
 
-  if (copy.image && copy.image.startsWith("http") && !copy.image.startsWith("/api/proxy-image")) {
-    copy.image = `/api/proxy-image?url=${encodeURIComponent(copy.image)}`;
-  }
-  if (Array.isArray(copy.gallery)) {
-    copy.gallery = copy.gallery.map((img) =>
-      img && img.startsWith("http") && !img.startsWith("/api/proxy-image")
-        ? `/api/proxy-image?url=${encodeURIComponent(img)}`
-        : img
-    );
-  }
-  return copy;
+  const gallery = Array.isArray(p.gallery) && p.gallery.length > 0
+    ? p.gallery.slice(0, 3).map((img) =>
+        img && img.startsWith("http") && !img.startsWith("/api/proxy-image")
+          ? `/api/proxy-image?url=${encodeURIComponent(img)}`
+          : img
+      )
+    : [image];
+
+  return {
+    id: p.id,
+    sku: p.sku || "AUR-SKU",
+    name: p.name,
+    brand: p.brand,
+    tagline: p.tagline || "",
+    supplierCost: p.supplierCost ?? 0,
+    price: p.price,
+    compareAtPrice: p.compareAtPrice || p.price,
+    rating: p.rating || 4.8,
+    reviewCount: p.reviewCount || 120,
+    soldCountText: p.soldCountText || "",
+    image,
+    gallery,
+    category: p.category,
+    skinType: p.skinType || "All Skin Types",
+    size: p.size || "",
+    badge: p.badge || "",
+    shortDescription: p.shortDescription ? p.shortDescription.slice(0, 240) : "",
+    keyIngredients: Array.isArray(p.keyIngredients) ? p.keyIngredients.slice(0, 5) : [],
+    benefits: Array.isArray(p.benefits) ? p.benefits.slice(0, 3) : [],
+    variants: Array.isArray(p.variants) && p.variants.length > 0
+      ? p.variants
+      : [{ name: "Standard Size", colorHex: "#0032A0", inStock: true }],
+    stockLeft: p.stockLeft ?? 100,
+    supplierSource: p.supplierSource || undefined,
+    shippingDays: p.shippingDays || "2–4 Days (Express Dropship)",
+    verification: p.verification,
+    reviews: [],
+    faqs: [],
+  };
 }
