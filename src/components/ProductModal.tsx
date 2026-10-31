@@ -71,7 +71,7 @@ export default function ProductModal() {
   return (
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 overflow-y-auto bg-slate-950/75 backdrop-blur-sm animate-fadeIn">
       <div
-        className="relative w-full max-w-4xl bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden sm:my-auto max-h-[92dvh] sm:max-h-[90vh] flex flex-col"
+        className="relative w-full max-w-full sm:max-w-4xl bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden sm:my-auto max-h-[92dvh] sm:max-h-[90vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Mobile Drag Pill */}
@@ -87,10 +87,11 @@ export default function ProductModal() {
           <X className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 overflow-y-auto">
-          {/* Visual Gallery */}
-          <div className="p-3 sm:p-6 bg-slate-50 flex flex-col justify-between">
-            <div className="relative aspect-square w-full max-h-[220px] sm:max-h-none rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-2 sm:p-3">
+        <div className="w-full overflow-y-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            {/* Visual Gallery */}
+            <div className="p-3 sm:p-6 bg-slate-50 flex flex-col justify-between">
+              <div className="relative aspect-square w-full max-h-[220px] sm:max-h-none rounded-2xl overflow-hidden bg-white border border-slate-200/80 shadow-xs flex items-center justify-center p-2 sm:p-3">
               <img
                 src={
                   getSafeImageUrl(images[activeImageIndex] || selectedProduct.image)
@@ -547,6 +548,7 @@ export default function ProductModal() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

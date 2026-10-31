@@ -46,7 +46,7 @@ export default function Navbar() {
     >
       {/* Main Header */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-2">
-        {/* Mobile Left: Menu Toggle + Brand Logo */}
+        {/* Mobile Left: Menu Button beside the Logo */}
         <div className="flex items-center gap-2">
           {/* Mobile Hamburger Button */}
           <button
@@ -64,15 +64,12 @@ export default function Navbar() {
 
           {/* Brand Logo with Glowing Aura Badge */}
           <Link href="/" className="flex items-center gap-2 group relative shrink-0">
-            {/* Glowing Animated Circular Badge */}
-            <div className="relative flex items-center justify-center">
-              <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-[#FE2C55] opacity-75 blur-md group-hover:opacity-100 transition-all duration-500 animate-pulse" />
-              <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-[#002B7F] via-blue-700 to-cyan-500 p-[1.5px] shadow-[0_0_12px_rgba(0,242,254,0.5)]">
-                <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
-                  <span className="font-extrabold text-xs sm:text-sm tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-amber-300">
-                    AU
-                  </span>
-                </div>
+            {/* Circular Ring & Core */}
+            <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-[#002B7F] via-blue-700 to-cyan-500 p-[1.5px] shadow-[0_0_12px_rgba(0,242,254,0.5)]">
+              <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
+                <span className="font-extrabold text-xs sm:text-sm tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-amber-300">
+                  AU
+                </span>
               </div>
             </div>
 
@@ -82,13 +79,13 @@ export default function Navbar() {
                 <span
                   className={`text-lg sm:text-xl font-black tracking-tight leading-none ${
                     isNightRecovery
-                      ? "text-white drop-shadow-[0_0_12px_rgba(0,242,254,0.4)]"
-                      : "text-slate-950 group-hover:text-[#002B7F]"
+                      ? "text-white"
+                      : "text-slate-950"
                   }`}
                 >
                   AURA<span className="text-blue-600">.STORE</span>
                 </span>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#FE2C55] shadow-[0_0_6px_#FE2C55] animate-ping" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#FE2C55]" />
               </div>
               <span
                 className={`text-[8px] sm:text-[9px] uppercase tracking-[0.2em] font-extrabold mt-0.5 ${
