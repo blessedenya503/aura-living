@@ -12,7 +12,7 @@ export default function CurrencySelector() {
   const [search, setSearch] = useState("");
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const activeConfig = CURRENCIES[currency] || CURRENCIES.USD;
+  const activeConfig = CURRENCIES[currency] || CURRENCIES.NGN;
 
   // Close on outside click
   useEffect(() => {

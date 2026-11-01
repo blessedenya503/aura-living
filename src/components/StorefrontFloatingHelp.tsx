@@ -79,7 +79,7 @@ export function StorefrontFloatingHelp() {
           </div>
           <HelpRowItem
             icon={Headphones}
-            label="Live Pharmacist Concierge"
+            label="Customer Support Desk"
             sublabel="Available daily 8am – 10pm WAT"
             onClick={() => {
               const el = document.getElementById("faq-section");
@@ -89,8 +89,8 @@ export function StorefrontFloatingHelp() {
           />
           <HelpRowItem
             icon={MessageCircle}
-            label="Dermatology FAQ"
-            sublabel="Ingredients, expiration & batch audit"
+            label="Skincare & Routine FAQ"
+            sublabel="Usage instructions, batch codes & authenticity"
             onClick={() => {
               const el = document.getElementById("faq-section");
               el?.scrollIntoView({ behavior: "smooth" });
@@ -100,32 +100,32 @@ export function StorefrontFloatingHelp() {
           <HelpRowItem
             icon={FileText}
             label="Return & Refund Policy"
-            sublabel="30-day skin compatibility guarantee"
+            sublabel="Hassle-free guarantee on unopened items"
           />
         </HelpRowList>
       ),
     },
     {
       id: "shipping",
-      label: "Courier Dispatch",
+      label: "Delivery & Dispatch",
       icon: <Ship className="h-4 w-4" />,
       content: (
         <HelpRowList>
           <div className="px-3 pt-1 pb-1">
             <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
-              Logistics & Fulfillment
+              Nigeria Nationwide Logistics
             </span>
           </div>
           <HelpRowItem
             icon={Ship}
             label="Track Existing Order"
-            sublabel="Real-time DHL & courier milestones"
+            sublabel="Real-time dispatch & rider status"
             href="/track-order"
           />
           <HelpRowItem
             icon={Clock}
             label="Delivery Timelines"
-            sublabel="2–4 business days worldwide"
+            sublabel="1–2 business days Lagos/Abuja • 2–4 days nationwide"
           />
           <HelpRowItem
             icon={ShieldCheck}
@@ -143,23 +143,23 @@ export function StorefrontFloatingHelp() {
         <HelpRowList>
           <div className="px-3 pt-1 pb-1">
             <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
-              Laboratory Standards
+              Quality Assurance
             </span>
           </div>
           <HelpRowItem
             icon={CheckCircle2}
-            label="100% Genuine Formula"
-            sublabel="Direct from authorized labs & verified dropship"
+            label="100% Original Products"
+            sublabel="Direct from verified brand supply chains"
           />
           <HelpRowItem
             icon={Lock}
             label="Paystack Encrypted"
-            sublabel="Cards, USSD, transfers & Apple Pay"
+            sublabel="Cards, bank transfer & USSD"
           />
           <HelpRowItem
             icon={Sparkles}
-            label="Batch Certificate Verification"
-            sublabel="Inspect lot number on every item"
+            label="Batch Verification"
+            sublabel="Inspect lot number on every bottle"
           />
         </HelpRowList>
       ),

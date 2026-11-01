@@ -96,18 +96,18 @@ export function getBundleUnitPrice(basePriceUsd: number, tier: 1 | 2 | 3): numbe
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [products, setProducts] = useState<Product[]>(INITIAL_PRODUCTS);
   const [storeSettings, setStoreSettings] = useState<StorePublicSettings>({
-    storeName: "AURA.STORE",
-    supportEmail: "concierge@auraliving.store",
-    freeShippingThresholdUsd: 35,
-    shippingProtectionPriceUsd: 2.49,
+    storeName: "AURA SKIN NIGERIA",
+    supportEmail: "orders@auraskinng.com",
+    freeShippingThresholdUsd: 30,
+    shippingProtectionPriceUsd: 1.5,
     announcementText:
-      "FREE TRACKED SHIPPING OVER $35 • DERMATOLOGICALLY VERIFIED NIVEA & SKINCARE",
-    tiktokTrendingProductId: "prod-cosrx-snail-96",
-    tiktokTrendingViews: "4.8B TikTok Views",
-    tiktokTrendingTagline: "#TikTokMadeMeBuyIt • Viral Glass Skin Sensation",
+      "🚚 FAST 24-48H DISPATCH IN LAGOS & ABUJA • 100% GENUINE AUTHENTIC FORMULAS",
+    tiktokTrendingProductId: "prod-cosrx-28",
+    tiktokTrendingViews: "Viral Skincare Sensation",
+    tiktokTrendingTagline: "Authentic Glass Skin Essence • In Stock in Nigeria",
   });
 
-  const [currency, setCurrencyState] = useState<CurrencyCode>("USD");
+  const [currency, setCurrencyState] = useState<CurrencyCode>("NGN");
   const [liveRates, setLiveRates] = useState<Record<string, number>>(() => {
     const initial: Record<string, number> = {};
     for (const [key, cfg] of Object.entries(CURRENCIES)) {
@@ -198,6 +198,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       const savedCurr = localStorage.getItem("aura_currency_v1") as CurrencyCode | null;
       if (savedCurr && CURRENCIES[savedCurr]) {
         setCurrencyState(savedCurr);
+      } else {
+        setCurrencyState("NGN");
       }
 
       // Check user preferences or automatic 4:00 PM local time switch

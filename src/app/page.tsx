@@ -33,16 +33,20 @@ import {
 
 const MINIMAL_FAQS = [
   {
-    q: "Are all skincare products 100% genuine and fresh-batch?",
-    a: "Yes. Every NIVEA, CeraVe, and La Roche-Posay formula is sourced directly from authenticated European & global pharmaceutical supply chains, stored in climate-controlled hubs.",
+    q: "Are all skincare products 100% genuine and original?",
+    a: "Yes. Every COSRX, CeraVe, Anua, and La Roche-Posay item is verified with original manufacturer batch codes and sealed packaging. We do not sell knockoffs or unverified market replicas.",
+  },
+  {
+    q: "How fast is delivery within Nigeria?",
+    a: "Orders in Lagos & Abuja typically deliver within 1–2 business days. Delivery to other states across Nigeria takes 2–4 business days via reliable door-to-door couriers with tracking.",
   },
   {
     q: "How do the multi-pack bundle discounts work?",
-    a: "Select 2 units to unlock 15% off each, or 3 units to unlock 25% off plus automatic free tracked express shipping at checkout.",
+    a: "Select 2 units to unlock 15% off each, or 3 units to unlock 25% off plus automatic free tracked express delivery at checkout.",
   },
   {
-    q: "What is your satisfaction guarantee?",
-    a: "If any product doesn't suit your skin barrier within 30 days of arrival, contact our concierge desk for an exchange or full refund.",
+    q: "What is your return & guarantee policy?",
+    a: "If your order arrives damaged or incorrect, contact us within 7 days of delivery for an instant replacement or full refund.",
   },
 ];
 
@@ -509,10 +513,10 @@ export default function HomePage() {
                 <ShieldCheck className="w-4 h-4" />
               </div>
               <h4 className="text-xs sm:text-sm font-bold text-slate-900">
-                Derm Approved
+                Gentle on Barrier
               </h4>
               <p className="text-[11px] text-slate-500 mt-1">
-                Tolerant on sensitive, irritated, or dry barriers.
+                Suitable for sensitive, irritated, or dry skin types.
               </p>
             </div>
 
@@ -521,10 +525,10 @@ export default function HomePage() {
                 <Sparkles className="w-4 h-4" />
               </div>
               <h4 className="text-xs sm:text-sm font-bold text-slate-900">
-                Pure Online Data
+                100% Genuine Brands
               </h4>
               <p className="text-[11px] text-slate-500 mt-1">
-                Authentic formulations from official NIVEA labs.
+                Authentic, sealed batches with verified lot numbers.
               </p>
             </div>
 
@@ -533,10 +537,10 @@ export default function HomePage() {
                 <Truck className="w-4 h-4" />
               </div>
               <h4 className="text-xs sm:text-sm font-bold text-slate-900">
-                Express Courier
+                Nigeria Nationwide Delivery
               </h4>
               <p className="text-[11px] text-slate-500 mt-1">
-                Direct tracked dispatch to Europe, UK &amp; North America.
+                1–2 business days Lagos &amp; Abuja • 2–4 days nationwide.
               </p>
             </div>
           </div>

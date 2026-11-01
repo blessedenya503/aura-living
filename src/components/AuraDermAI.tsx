@@ -33,7 +33,7 @@ const VIRAL_CONCERNS = [
     badge: "URGENT",
     title: "48H Skin Barrier Emergency Repair",
     hook: "Instant hydration seal for dry flaky skin",
-    tag: "Derm Approved",
+    tag: "Barrier Safe",
   },
 ];
 

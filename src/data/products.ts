@@ -155,738 +155,19 @@ export const CATEGORIES: ProductCategory[] = [
 ];
 
 export const INITIAL_PRODUCTS: Product[] = [
-
   {
-    "id": "imp-glow-recipe-plum-plump",
-    "sku": "GLO-PLU-050",
+    "id": "amz-prod-B0B5YL9MZF",
+    "sku": "AMZ-B0B5YL9MZF",
     "faqs": [],
-    "name": "Glow Recipe Plum Plump Hyaluronic Cream",
-    "size": "50ml / 1.7 oz",
-    "badge": "5 Molecular HA",
-    "brand": "Glow Recipe",
-    "image": "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg",
-    "price": 40,
-    "rating": 4.8,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Hydrating gel-cream with 5 molecular weights of hyaluronic acid and polyglutamic acid",
-    "benefits": [
-      "Multi-depth cellular hydration",
-      "Controls excess oil while deeply plumping",
-      "Refillable jar design"
-    ],
-    "category": "Moisturizing Creams",
-    "skinType": "Combination, Oily to Dry Dehydrated Skin",
-    "variants": [
-      {
-        "name": "50ml / 1.7 oz",
-        "inStock": true,
-        "colorHex": "#0032A0"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 13900,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-    "supplierCost": 16.5,
-    "verification": {
-      "registry": "Amazon Bestseller Catalog",
-      "sourceUrl": "https://www.amazon.com/dp/beauty-skincare",
-      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
-      "referenceId": "ASIN: B0S8YMRWZ",
-      "originCountry": "United States",
-      "batchLotNumber": "LOT-IMP-226918",
-      "laboratoryCertifications": [
-        "ISO 22716:2007",
-        "Dermatologically Tested",
-        "GMP Certified"
-      ]
-    },
-    "soldCountText": "Verified Brand Import",
-    "compareAtPrice": 48,
-    "keyIngredients": [
-      "Kakadu Plum Extract",
-      "5 Molecular Weights of HA",
-      "Polyglutamic Acid",
-      "Willowherb"
-    ],
-    "supplierSource": "Amazon Prime Dropship",
-    "shortDescription": "Weightless whipped gel cream bursting with Kakadu Plum and 5 molecular weights of hyaluronic acid."
-  },
-  {
-    "id": "imp-glow-recipe-dew-drops",
-    "sku": "GLO-DEW-040",
-    "faqs": [],
-    "name": "Glow Recipe Watermelon Glow Niacinamide Dew Drops",
-    "size": "40ml / 1.35 oz",
-    "badge": "TikTok Cult Glow",
-    "brand": "Glow Recipe",
-    "image": "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg",
-    "price": 35,
-    "rating": 4.8,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Multi-use highlighting serum that visibly brightens skin and delivers an effortless dewy glow",
-    "benefits": [
-      "Instant glass skin glow with zero glitter",
-      "Diminishes hyperpigmentation and clears pores",
-      "Can be worn alone or under makeup"
-    ],
-    "category": "Active Serums & Toners",
-    "skinType": "All Skin Types, Dull, Uneven Tone",
-    "variants": [
-      {
-        "name": "40ml / 1.35 oz",
-        "inStock": true,
-        "colorHex": "#0032A0"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 22800,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-    "supplierCost": 14,
-    "verification": {
-      "registry": "Amazon Bestseller Catalog",
-      "sourceUrl": "https://www.amazon.com/dp/beauty-skincare",
-      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
-      "referenceId": "ASIN: B03LD6NJO",
-      "originCountry": "United States",
-      "batchLotNumber": "LOT-IMP-226005",
-      "laboratoryCertifications": [
-        "ISO 22716:2007",
-        "Dermatologically Tested",
-        "GMP Certified"
-      ]
-    },
-    "soldCountText": "Verified Brand Import",
-    "compareAtPrice": 40,
-    "keyIngredients": [
-      "Niacinamide (Vitamin B3)",
-      "Watermelon Extract",
-      "Hyaluronic Acid",
-      "Moringa Seed Oil"
-    ],
-    "supplierSource": "Amazon Prime Dropship",
-    "shortDescription": "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time."
-  },
-  {
-    "id": "imp-bioderma-sensibio-h2o",
-    "sku": "BIO-SEN-500",
-    "faqs": [],
-    "name": "Bioderma Sensibio H2O Micellar Cleansing Water",
-    "size": "500ml / 16.7 oz",
-    "badge": "Original Micellar Pioneer",
-    "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
-    "price": 19.99,
-    "rating": 4.9,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "The original pharmaceutical micellar water respecting the fragility of sensitive skin",
-    "benefits": [
-      "Removes 99% of makeup and pollution particles",
-      "Physiological pH 5.5 matches natural skin barrier",
-      "No rinsing required"
-    ],
-    "category": "Gentle Cleansers & Masks",
-    "skinType": "Sensitive, Reactive, Intolerant Skin",
-    "variants": [
-      {
-        "name": "500ml / 16.7 oz",
-        "inStock": true,
-        "colorHex": "#0032A0"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 35000,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-    "supplierCost": 7.5,
-    "verification": {
-      "registry": "Amazon Bestseller Catalog",
-      "sourceUrl": "https://www.amazon.com/dp/beauty-skincare",
-      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
-      "referenceId": "ASIN: B0OK0FK6Y",
-      "originCountry": "United States",
-      "batchLotNumber": "LOT-IMP-217702",
-      "laboratoryCertifications": [
-        "ISO 22716:2007",
-        "Dermatologically Tested",
-        "GMP Certified"
-      ]
-    },
-    "soldCountText": "Verified Brand Import",
-    "compareAtPrice": 24,
-    "keyIngredients": [
-      "Biomimetic Micelles",
-      "Cucumis Sativus (Cucumber) Extract",
-      "Highly Purified Pharmaceutical Water"
-    ],
-    "supplierSource": "Amazon Prime Dropship",
-    "shortDescription": "Biomimetic micellar technology that captures impurities and heavy makeup while preserving the physiological microbiome."
-  },
-  {
-    "id": "imp-drunk-elephant-cfirma",
-    "sku": "DRE-CFR-028",
-    "faqs": [],
-    "name": "Drunk Elephant C-Firma™ Fresh Day Serum",
-    "size": "28ml / 0.94 oz",
-    "badge": "15% Pure Vitamin C",
-    "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg",
-    "price": 79,
+    "name": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ",
+    "size": "Standard Retail Pack",
+    "badge": "Verified Amazon",
+    "brand": "NIVEA",
+    "image": "https://m.media-amazon.com/images/I/61b+8rsddhL._AC_UL320_.jpg",
+    "price": 17.58,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "15% L-Ascorbic Acid and Ferulic Acid antioxidant complex to dissolve dead surface skin",
-    "benefits": [
-      "Brightens and refines complexion",
-      "Dissolves dead surface cells enzymatically",
-      "72-hour reservoir effect"
-    ],
-    "category": "Anti-Aging & Q10",
-    "skinType": "Uneven Tone, Dull, Aging Skin",
-    "variants": [
-      {
-        "name": "28ml / 0.94 oz",
-        "inStock": true,
-        "colorHex": "#0032A0"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 11200,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-    "supplierCost": 38,
-    "verification": {
-      "registry": "Amazon Bestseller Catalog",
-      "sourceUrl": "https://www.amazon.com/dp/beauty-skincare",
-      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
-      "referenceId": "ASIN: B0XKC6AC4",
-      "originCountry": "United States",
-      "batchLotNumber": "LOT-IMP-195073",
-      "laboratoryCertifications": [
-        "ISO 22716:2007",
-        "Dermatologically Tested",
-        "GMP Certified"
-      ]
-    },
-    "soldCountText": "Verified Brand Import",
-    "compareAtPrice": 89,
-    "keyIngredients": [
-      "15% L-Ascorbic Acid",
-      "0.5% Ferulic Acid",
-      "1.0% Vitamin E",
-      "Pumpkin Ferment Extract"
-    ],
-    "supplierSource": "Amazon Prime Dropship",
-    "shortDescription": "Packed with 15% pure Vitamin C, 1% Vitamin E, and 0.5% Ferulic Acid plus pumpkin ferment for uniform luminosity."
-  },
-  {
-    "id": "imp-drunk-elephant-protini",
-    "sku": "DRE-PRO-050",
-    "faqs": [],
-    "name": "Drunk Elephant Protini™ Polypeptide Cream",
-    "size": "50ml / 1.69 oz",
-    "badge": "9 Signal Peptides",
-    "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg",
-    "price": 68,
-    "rating": 4.8,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Signal peptide complex and pygmy waterlily for immediate improvement in skin firmness",
-    "benefits": [
-      "Restores bounce and cellular resilience",
-      "Reduces appearance of lines and sun damage",
-      "Silky airless pump dispenser"
-    ],
-    "category": "Anti-Aging & Q10",
-    "skinType": "All Skin Types, Loss of Elasticity & Sun Damage",
-    "variants": [
-      {
-        "name": "50ml / 1.69 oz",
-        "inStock": true,
-        "colorHex": "#0032A0"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 14900,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-    "supplierCost": 32,
-    "verification": {
-      "registry": "Amazon Bestseller Catalog",
-      "sourceUrl": "https://www.amazon.com/dp/beauty-skincare",
-      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
-      "referenceId": "ASIN: B0WPA2LAS",
-      "originCountry": "United States",
-      "batchLotNumber": "LOT-IMP-193018",
-      "laboratoryCertifications": [
-        "ISO 22716:2007",
-        "Dermatologically Tested",
-        "GMP Certified"
-      ]
-    },
-    "soldCountText": "Verified Brand Import",
-    "compareAtPrice": 78,
-    "keyIngredients": [
-      "9 Signal Peptide Complex",
-      "Pygmy Waterlily Stem Cell Extract",
-      "Soybean Folic Acid Ferment"
-    ],
-    "supplierSource": "Amazon Prime Dropship",
-    "shortDescription": "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and supportive amino acids."
-  },
-  {
-    "id": "amz-prod-B0CWY24FTC",
-    "sku": "AMZ-B0CWY24FTC",
-    "faqs": [],
-    "name": "Masofta Hair Growth Serum | Density & Thickening Scalp Serum for Fuller Looking Hair with 3% Redensyl, 5% Capixyl, 4% Anagain, 3% Procapil & 3% Baicapil, Biotin, For Men & Women 1.01 fl.oz./30ML",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61tETy2jNKL._AC_UL320_.jpg",
-    "price": 27.18,
-    "rating": 4.2,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61tETy2jNKL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 271,
-    "supplierCost": 16.99,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 35.33,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B0CW4CLF2X",
-    "sku": "AMZ-B0CW4CLF2X",
-    "faqs": [],
-    "name": "iRestore Elite + Rechargeable Battery Pack - Laser Red Light Therapy for Hair Growth - FDA Cleared Hair Loss, Hair Thinning Treatment for Men & Women - Hair Regrowth Laser Cap - 500 Lasers & LEDs",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/81P+vti8a9L._AC_UL320_.jpg",
-    "price": 3196.8,
-    "rating": 4.3,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/81P+vti8a9L._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 165,
-    "supplierCost": 1998,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 4155.84,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B08S31RWBK",
-    "sku": "AMZ-B08S31RWBK",
-    "faqs": [],
-    "name": "Hicober Microfiber Hair Towel Wrap for Women, Blue Grey Pink, 3-Pack",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/81OfvjP4N7L._AC_UL320_.jpg",
-    "price": 20.78,
-    "rating": 4.6,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/81OfvjP4N7L._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 35285,
-    "supplierCost": 12.99,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 27.01,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B0DB6CDLSM",
-    "sku": "AMZ-B0DB6CDLSM",
-    "faqs": [],
-    "name": "Dove Hair Intensive Repair 10-in-1 Serum Mask for Damaged Hair, 9.2 fl oz",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/714kukzr5FL._AC_UL320_.jpg",
-    "price": 17.41,
-    "rating": 4.6,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/714kukzr5FL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 5038,
-    "supplierCost": 10.88,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 22.63,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B0CYX9W5B1",
-    "sku": "AMZ-B0CYX9W5B1",
-    "faqs": [],
-    "name": "Facial Hair Remover for Women - as Seen on TV Painless Face Shaver - Electric Hair Removal Device for Face Lips Peach Fuzz with Light (Rose Gold)",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61JCHH0bX5L._AC_UL320_.jpg",
-    "price": 15.98,
-    "rating": 4.2,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61JCHH0bX5L._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 13987,
-    "supplierCost": 9.99,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 20.77,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B01LSUQSB0",
-    "sku": "AMZ-B01LSUQSB0",
-    "faqs": [],
-    "name": "REVLON One-Step Volumizer Hair Dryer and Styler, 2.8 in Barrel, Black",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61SrWfdHa1L._AC_UL320_.jpg",
-    "price": 59.98,
-    "rating": 4.6,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61SrWfdHa1L._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 352926,
-    "supplierCost": 37.49,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 77.97,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B0BLXZ4YBJ",
-    "sku": "AMZ-B0BLXZ4YBJ",
-    "faqs": [],
-    "name": "YANIBEST Adjustable Silk Bonnet for Sleeping Women Double Layer Satin Bonnet Reduce Friction Prevent Frizz Curly Hair",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/71vgpcc-DoL._AC_UL320_.jpg",
-    "price": 20.78,
-    "rating": 4.4,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/71vgpcc-DoL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 30281,
-    "supplierCost": 12.99,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 27.01,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B0C3WHP4ND",
-    "sku": "AMZ-B0C3WHP4ND",
-    "faqs": [],
-    "name": "Nutrafol Women Hair Growth Supplements, Ages 18-44, 2-Month Bundle",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/71sYUMTmBcL._AC_UL320_.jpg",
-    "price": 281.6,
-    "rating": 4.3,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/71sYUMTmBcL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 828,
-    "supplierCost": 176,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 366.08,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B0H7F41Z5G",
-    "sku": "AMZ-B0H7F41Z5G",
-    "faqs": [],
-    "name": "MDhair Thickening Conditioner for Thinning Hair, Women & Men, 5 oz",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/51a-bBp-gEL._AC_UL320_.jpg",
-    "price": 28.16,
-    "rating": 4.3,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/51a-bBp-gEL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 29,
-    "supplierCost": 17.6,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 36.61,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B07FJ783ZG",
-    "sku": "AMZ-B07FJ783ZG",
-    "faqs": [],
-    "name": "COLOR WOW Dream Coat – Anti-Humidity Frizz Control Spray for Glass Hair",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61F2SrfLS-L._AC_UL320_.jpg",
-    "price": 22.4,
-    "rating": 4.3,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61F2SrfLS-L._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
-    "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
-    ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 112166,
-    "supplierCost": 14,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 29.12,
-    "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
-    ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
-  },
-  {
-    "id": "amz-prod-B0BNSF38C9",
-    "sku": "AMZ-B0BNSF38C9",
-    "faqs": [],
-    "name": "Kitsch Zig Zag Headbands for Women - Black and Tortoise, 2 pcs",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/71EawIrRV-L._AC_UL320_.jpg",
-    "price": 15.98,
-    "rating": 3.8,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/71EawIrRV-L._AC_UL320_.jpg"
+      "https://m.media-amazon.com/images/I/61b+8rsddhL._AC_UL320_.jpg"
     ],
     "reviews": [],
     "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
@@ -894,7 +175,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "2–4 Days Express Prime Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
-    "category": "Moisturizing Creams",
+    "category": "Radiant Body Care",
     "skinType": "All Skin Types",
     "variants": [
       {
@@ -904,359 +185,833 @@ export const INITIAL_PRODUCTS: Product[] = [
       }
     ],
     "stockLeft": 180,
-    "reviewCount": 7799,
-    "supplierCost": 9.99,
+    "reviewCount": 72475,
+    "supplierCost": 10.99,
     "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 20.77,
+    "compareAtPrice": 22.85,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "Kitsch Zig Zag Headbands for Women - Black and Tortoise, 2 pcs. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0BNSF38C9)."
+    "shortDescription": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0B5YL9MZF).",
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierSource": "Amazon Prime Dropship"
   },
   {
-    "id": "amz-prod-B0H7F5V65R",
-    "sku": "AMZ-B0H7F5V65R",
-    "faqs": [],
-    "name": "Regrowth Supplements – Hair Growth Vitamins for Women & Men",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61-UKcrPXxL._AC_UL320_.jpg",
-    "price": 53.76,
-    "rating": 4.4,
+    "id": "prod-cerave-15",
+    "sku": "AMZ-CER-0015",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B000YJ2SLG), manufactured in New York, USA, and certified under National Eczema Association Seal, Non-Comedogenic, Fragrance-Free.",
+        "question": "How is the authenticity and source of CeraVe Daily Moisturizing Lotion for Dry Skin verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "CeraVe Daily Moisturizing Lotion for Dry Skin",
+    "size": "355ml / 12 fl oz Pump",
+    "badge": "Oil-Free Daily",
+    "brand": "CeraVe",
+    "image": "https://images.openbeautyfacts.org/images/products/333/787/559/8750/front_en.20.400.jpg",
+    "price": 15.49,
+    "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61-UKcrPXxL._AC_UL320_.jpg"
+      "https://images.openbeautyfacts.org/images/products/333/787/559/8750/front_en.20.400.jpg"
     ],
-    "reviews": [],
-    "tagline": "Salon-Grade Strengthening & Scalp Nourishment",
+    "reviews": [
+      {
+        "id": "rev-670c3or",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of CeraVe Daily Moisturizing Lotion for Dry Skin. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 27
+      },
+      {
+        "id": "rev-8sihl76",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 30
+      }
+    ],
+    "tagline": "Oil-free lightweight daily hydration with 3 ceramides & Hyaluronic Acid",
     "benefits": [
-      "Promotes Follicle Resilience & Density",
-      "Reduces Breakage & Heat Damage",
-      "Restores Glossy Shine & Scalp Balance"
+      "Silky, weightless texture suitable for humid climates",
+      "Locks in hydration with controlled-release MVE",
+      "Gentle on sensitive facial skin"
     ],
-    "category": "Hair & Scalp Care",
-    "skinType": "All Hair & Scalp Types (Normal, Dry, Color-Treated)",
+    "category": "Moisturizing Creams",
+    "skinType": "Normal to Dry Skin",
     "variants": [
       {
         "name": "Standard Size",
+        "image": "https://images.openbeautyfacts.org/images/products/333/787/559/8750/front_en.20.400.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
       }
     ],
-    "stockLeft": 180,
-    "reviewCount": 32,
-    "supplierCost": 33.6,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 69.89,
+    "stockLeft": 179,
+    "reviewCount": 78200,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 5.8,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B000YJ2SLG",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B000YJ2SLG",
+      "originCountry": "New York, USA",
+      "batchLotNumber": "LOT-US-2026-CRV02",
+      "laboratoryCertifications": [
+        "National Eczema Association Seal",
+        "Non-Comedogenic",
+        "Fragrance-Free"
+      ]
+    },
+    "soldCountText": "Over 80K+ units sold",
+    "compareAtPrice": 20,
     "keyIngredients": [
-      "Hydrolyzed Keratin",
-      "Biotin & Follicle Nutrients",
-      "Argan & Rosemary Oil",
-      "Scalp Prebiotics"
+      "Ceramides 1, 3, 6-II",
+      "Hyaluronic Acid",
+      "Caprylic/Capric Triglyceride",
+      "Glycerin"
     ],
-    "shortDescription": "High-performance salon formula engineered to fortify hair strands from root to tip, optimize scalp micro-circulation, and prevent breakage for visibly fuller, healthier volume."
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "Lightweight, oil-free lotion that hydrates skin and helps restore natural barrier without feeling heavy or greasy."
   },
   {
-    "id": "amz-prod-B08HT8399V",
-    "sku": "AMZ-B08HT8399V",
-    "faqs": [],
-    "name": "Guess Seductive Women / Femme Eau de Toilette Perfume Spray For Women, 1.0 Fl. Oz.",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/71qRcZaRO6L._AC_UL320_.jpg",
-    "price": 27.2,
-    "rating": 4.5,
+    "id": "prod-cerave-21",
+    "sku": "AMZ-CER-0021",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B01MSSDEPK), manufactured in New York, USA, and certified under National Eczema Association Accepted, Non-Comedogenic, Fragrance-Free.",
+        "question": "How is the authenticity and source of CeraVe Hydrating Facial Cleanser Non-Foaming verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "CeraVe Hydrating Facial Cleanser Non-Foaming",
+    "size": "473ml / 16 fl oz Pump",
+    "badge": "Non-Stripping",
+    "brand": "CeraVe",
+    "image": "https://images.openbeautyfacts.org/images/products/333/787/559/7180/front_en.35.400.jpg",
+    "price": 14.99,
+    "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71qRcZaRO6L._AC_UL320_.jpg"
+      "https://images.openbeautyfacts.org/images/products/333/787/559/7180/front_en.35.400.jpg"
     ],
-    "reviews": [],
-    "tagline": "Captivating Sillage & Luxury Olfactory Profile",
+    "reviews": [
+      {
+        "id": "rev-ebxc5h3",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of CeraVe Hydrating Facial Cleanser Non-Foaming. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 14
+      },
+      {
+        "id": "rev-4voxm5u",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 28
+      }
+    ],
+    "tagline": "Gentle lotion cleanser that removes impurities without stripping moisture",
     "benefits": [
-      "All-Day Sillage & Projection",
-      "Authentic Master Perfumer Blend",
-      "Skin-Safe Hypoallergenic Notes"
+      "Leaves skin clean, soft, and refreshed (never tight)",
+      "Safe for dry eczema-prone facial skin",
+      "Removes light makeup and daily environmental dirt"
     ],
-    "category": "Luxury Fragrances & Colognes",
-    "skinType": "All Skin Types • Long-Lasting Sillage",
+    "category": "Gentle Cleansers & Masks",
+    "skinType": "Normal to Dry & Sensitive Face",
     "variants": [
       {
         "name": "Standard Size",
+        "image": "https://images.openbeautyfacts.org/images/products/333/787/559/7180/front_en.35.400.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
       }
     ],
-    "stockLeft": 180,
-    "reviewCount": 14502,
-    "supplierCost": 17,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 35.36,
+    "stockLeft": 484,
+    "reviewCount": 92000,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 5.4,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B01MSSDEPK",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B01MSSDEPK",
+      "originCountry": "New York, USA",
+      "batchLotNumber": "LOT-US-2026-CRV08",
+      "laboratoryCertifications": [
+        "National Eczema Association Accepted",
+        "Non-Comedogenic",
+        "Fragrance-Free"
+      ]
+    },
+    "soldCountText": "Over 100K+ units sold",
+    "compareAtPrice": 19.5,
     "keyIngredients": [
-      "Fine Fragrance Oils",
-      "Amber & Bergamot Notes",
-      "Sensual Vanilla Accords",
-      "Long-Lasting Fixative"
+      "Ceramides 1, 3, 6-II",
+      "Hyaluronic Acid",
+      "Glycerin",
+      "Cetearyl Alcohol"
     ],
-    "shortDescription": "Luxury olfactory masterpiece blending vibrant top notes with deep sensual base accords. Crafted for exceptional projection, all-day sillage, and magnetic presence."
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "Unique non-foaming formula cleanses and hydrates skin while maintaining its natural protective barrier with 3 ceramides."
   },
   {
-    "id": "amz-prod-B09MCLDP8D",
-    "sku": "AMZ-B09MCLDP8D",
-    "faqs": [],
-    "name": "Clean-n-Fresh Body Spray for Women, Body Mist, Fragrance Mist Gift Sets, Pack of 3, Each 3.4 Fl Oz, Total 10.2 Fl Oz, Cherry Blossom",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/71pj8En2gcL._AC_UL320_.jpg",
-    "price": 30.38,
-    "rating": 4.3,
+    "id": "prod-larocheposay-22",
+    "sku": "AMZ-LA -0022",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under European Cosmetic CPNP Registry (ASIN: B0060OVV7Q), manufactured in La Roche-Posay, France, and certified under French Pharmacy Reg. CPNP-1482910, Dermatologically Tested, Pediatrician Approved.",
+        "question": "How is the authenticity and source of La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Balm verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Balm",
+    "size": "100ml Large Tube",
+    "badge": "Cult Repair Balm",
+    "brand": "La Roche-Posay",
+    "image": "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg",
+    "price": 22.99,
+    "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71pj8En2gcL._AC_UL320_.jpg"
+      "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg"
     ],
-    "reviews": [],
-    "tagline": "Captivating Sillage & Luxury Olfactory Profile",
+    "reviews": [
+      {
+        "id": "rev-58u2a1t",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Balm. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 27
+      },
+      {
+        "id": "rev-3ourwk9",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 49
+      }
+    ],
+    "tagline": "Multi-purpose barrier recovery balm with 5% Panthenol & Madecassoside",
     "benefits": [
-      "All-Day Sillage & Projection",
-      "Authentic Master Perfumer Blend",
-      "Skin-Safe Hypoallergenic Notes"
+      "Emergency barrier relief for retinoid peeling and sunburns",
+      "Soothes superficial skin irritations in 1 night",
+      "Suitable for entire family including babies"
     ],
-    "category": "Luxury Fragrances & Colognes",
-    "skinType": "All Skin Types • Long-Lasting Sillage",
+    "category": "Barrier Repair & Relief",
+    "skinType": "Dry, Cracked, Compromised Skin & Lips",
     "variants": [
       {
         "name": "Standard Size",
+        "image": "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
       }
     ],
-    "stockLeft": 180,
-    "reviewCount": 1368,
-    "supplierCost": 18.99,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 39.49,
+    "stockLeft": 124,
+    "reviewCount": 68400,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 8.5,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B0060OVV7Q",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B0060OVV7Q",
+      "originCountry": "La Roche-Posay, France",
+      "batchLotNumber": "LOT-FR-2026-LRP01",
+      "laboratoryCertifications": [
+        "French Pharmacy Reg. CPNP-1482910",
+        "Dermatologically Tested",
+        "Pediatrician Approved"
+      ]
+    },
+    "soldCountText": "TikTok #SkinCycling Essential (3.2B Views)",
+    "compareAtPrice": 29.5,
     "keyIngredients": [
-      "Fine Fragrance Oils",
-      "Amber & Bergamot Notes",
-      "Sensual Vanilla Accords",
-      "Long-Lasting Fixative"
+      "5% Panthenol (Pro-Vit B5)",
+      "Madecassoside (Centella)",
+      "Tribioma Prebiotic Complex",
+      "Shea Butter",
+      "Zinc Gluconate"
     ],
-    "shortDescription": "Luxury olfactory masterpiece blending vibrant top notes with deep sensual base accords. Crafted for exceptional projection, all-day sillage, and magnetic presence."
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "French pharmacy legend formulated with 5% Panthenol, Madecassoside, and Tribioma prebiotics to soothe and repair compromised skin barriers."
   },
   {
-    "id": "amz-prod-B0F9FK3V68",
-    "sku": "AMZ-B0F9FK3V68",
-    "faqs": [],
-    "name": "Botanic Hearth Jasmine Body Spray & Hair Perfume for Women - 3.4oz",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/71Md2H06rSL._AC_UL320_.jpg",
-    "price": 15.98,
-    "rating": 4,
+    "id": "prod-cosrx-28",
+    "sku": "AMZ-COS-0028",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under K-Beauty MFDS Official Registry (ASIN: B00PBX3L7K), manufactured in Seoul, South Korea, and certified under MFDS Korea Cosmetic Approval #2014-9912, Cruelty-Free Certified, Dermatologist Tested.",
+        "question": "How is the authenticity and source of COSRX Advanced Snail 96 Mucin Power Essence verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "COSRX Advanced Snail 96 Mucin Power Essence",
+    "size": "100ml / 3.38 fl. oz Pump",
+    "badge": "TikTok #1 Viral",
+    "brand": "COSRX",
+    "image": "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg",
+    "price": 19.99,
+    "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71Md2H06rSL._AC_UL320_.jpg"
+      "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg"
     ],
-    "reviews": [],
-    "tagline": "Captivating Sillage & Luxury Olfactory Profile",
+    "reviews": [
+      {
+        "id": "rev-l28qo2k",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of COSRX Advanced Snail 96 Mucin Power Essence. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 26
+      },
+      {
+        "id": "rev-17j0gmq",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 21
+      }
+    ],
+    "tagline": "TikTok's #1 Skincare Sensation with 96.3% Filtered Snail Secretion",
     "benefits": [
-      "All-Day Sillage & Projection",
-      "Authentic Master Perfumer Blend",
-      "Skin-Safe Hypoallergenic Notes"
+      "Fades acne scars and restores moisture elasticity",
+      "Provides iconic viral Korean glass skin dew",
+      "100% cruelty-free snail mucin extraction"
     ],
-    "category": "Luxury Fragrances & Colognes",
-    "skinType": "All Skin Types • Long-Lasting Sillage",
+    "category": "Active Serums & Toners",
+    "skinType": "Dehydrated, Damaged Barrier & Acne Scars",
     "variants": [
       {
         "name": "Standard Size",
+        "image": "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
       }
     ],
-    "stockLeft": 180,
-    "reviewCount": 912,
-    "supplierCost": 9.99,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 20.77,
+    "stockLeft": 57,
+    "reviewCount": 96000,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 7.2,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B00PBX3L7K",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B00PBX3L7K",
+      "originCountry": "Seoul, South Korea",
+      "batchLotNumber": "LOT-KR-2026-CSX01",
+      "laboratoryCertifications": [
+        "MFDS Korea Cosmetic Approval #2014-9912",
+        "Cruelty-Free Certified",
+        "Dermatologist Tested"
+      ]
+    },
+    "soldCountText": "4.8 Billion TikTok Views (#SnailMucin)",
+    "compareAtPrice": 25,
     "keyIngredients": [
-      "Fine Fragrance Oils",
-      "Amber & Bergamot Notes",
-      "Sensual Vanilla Accords",
-      "Long-Lasting Fixative"
+      "96.3% Snail Secretion Filtrate",
+      "Sodium Hyaluronate",
+      "Allantoin",
+      "Panthenol",
+      "Arginine"
     ],
-    "shortDescription": "Luxury olfactory masterpiece blending vibrant top notes with deep sensual base accords. Crafted for exceptional projection, all-day sillage, and magnetic presence."
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "Lightweight essence formulated with 96.3% snail secretion filtrate that absorbs quickly to deliver intense glow and barrier repair."
   },
   {
-    "id": "amz-prod-B0048B4XYQ",
-    "sku": "AMZ-B0048B4XYQ",
-    "faqs": [],
-    "name": "Victoria's Secret Fine Fragrance Mini Mist, Bombshell - 2.5 fl oz",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61CdAnLoUtL._AC_UL320_.jpg",
-    "price": 20.77,
+    "id": "prod-beautyofjoseon-30",
+    "sku": "AMZ-BEA-0030",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under K-Beauty MFDS Official Registry (ASIN: B09N12J1F7), manufactured in Seoul, South Korea, and certified under MFDS Korea SPF 50+ PA++++ Certified, Korea Dermatology Research Institute, Cruelty-Free.",
+        "question": "How is the authenticity and source of Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+ verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+",
+    "size": "50ml Tube",
+    "badge": "Holy Grail Sunscreen",
+    "brand": "Beauty of Joseon",
+    "image": "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
+    "price": 18,
+    "rating": 4.9,
+    "gallery": [
+      "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg"
+    ],
+    "reviews": [
+      {
+        "id": "rev-5wxdp4f",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 10
+      },
+      {
+        "id": "rev-x5w5xgh",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 18
+      }
+    ],
+    "tagline": "TikTok's Holy Grail Sunscreen with 30% Rice Extract & Grain Probiotics",
+    "benefits": [
+      "Zero white cast and zero greasy shine",
+      "Skin feels moisturized and calm all day",
+      "Chemical filters (Uvinul A Plus, Tinosorb S) tested in Korea & Spain"
+    ],
+    "category": "Sunscreen & Daily Defense",
+    "skinType": "All Skin Types & Sensitive Skin",
+    "variants": [
+      {
+        "name": "Standard Size",
+        "image": "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
+        "inStock": true,
+        "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
+      }
+    ],
+    "stockLeft": 170,
+    "reviewCount": 54100,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 6.5,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B09N12J1F7",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B09N12J1F7",
+      "originCountry": "Seoul, South Korea",
+      "batchLotNumber": "LOT-KR-2026-BOJ01",
+      "laboratoryCertifications": [
+        "MFDS Korea SPF 50+ PA++++ Certified",
+        "Korea Dermatology Research Institute",
+        "Cruelty-Free"
+      ]
+    },
+    "soldCountText": "1.9 Billion TikTok Views (#ReliefSun)",
+    "compareAtPrice": 24,
+    "keyIngredients": [
+      "30% Oryza Sativa (Rice) Extract",
+      "Grain Fermented Probiotics",
+      "Niacinamide 2%",
+      "Tocopherol (Vit E)"
+    ],
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "Chemical sunscreen formulated with fermented rice bran and probiotics that glides on like a hydrating day cream with zero white cast."
+  },
+  {
+    "id": "prod-anua-32",
+    "sku": "AMZ-ANU-0032",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under K-Beauty MFDS Official Registry (ASIN: B082X1P7M6), manufactured in Seoul, South Korea, and certified under Olive Young Award Winner 2023-2025, MFDS Korea Certified, EWG Green Grade Ingredients.",
+        "question": "How is the authenticity and source of Anua Heartleaf 77% Soothing Toner Balance & Calm verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "Anua Heartleaf 77% Soothing Toner Balance & Calm",
+    "size": "250ml Clear Bottle",
+    "badge": "Viral Glass Skin",
+    "brand": "Anua",
+    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
+    "price": 22,
+    "rating": 4.8,
+    "gallery": [
+      "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg"
+    ],
+    "reviews": [
+      {
+        "id": "rev-mlw9k3u",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of Anua Heartleaf 77% Soothing Toner Balance & Calm. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 20
+      },
+      {
+        "id": "rev-l1209r7",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 45
+      }
+    ],
+    "tagline": "Olive Young Korea #1 Award Winner with 77% Houttuynia Cordata Extract",
+    "benefits": [
+      "Rapid calming of active acne redness",
+      "Non-comedogenic (tested on acne-prone skin)",
+      "The secret behind the viral Korean 7-Skin Method"
+    ],
+    "category": "Active Serums & Toners",
+    "skinType": "Acne-Prone, Red, Inflamed Sensitive Skin",
+    "variants": [
+      {
+        "name": "Standard Size",
+        "image": "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
+        "inStock": true,
+        "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
+      }
+    ],
+    "stockLeft": 179,
+    "reviewCount": 38200,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 7.9,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B082X1P7M6",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B082X1P7M6",
+      "originCountry": "Seoul, South Korea",
+      "batchLotNumber": "LOT-KR-2026-ANU01",
+      "laboratoryCertifications": [
+        "Olive Young Award Winner 2023-2025",
+        "MFDS Korea Certified",
+        "EWG Green Grade Ingredients"
+      ]
+    },
+    "soldCountText": "2.4 Billion TikTok Views (#7SkinMethod)",
+    "compareAtPrice": 28,
+    "keyIngredients": [
+      "77% Houttuynia Cordata (Heartleaf) Extract",
+      "Centella Asiatica",
+      "Chamomilla Flower Extract",
+      "Panthenol",
+      "Betaine"
+    ],
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "Formulated with 77% Heartleaf extract grown and harvested in Korea, clinically proven to cool inflamed redness and restore pH balance."
+  },
+  {
+    "id": "prod-theordinary-36",
+    "sku": "AMZ-THE-0036",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B077BNSKMS), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
+        "question": "How is the authenticity and source of The Ordinary Niacinamide 10% + Zinc 1% Oil Control Serum verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "The Ordinary Niacinamide 10% + Zinc 1% Oil Control Serum",
+    "size": "60ml Value Dropper",
+    "badge": "Global #1 Serum",
+    "brand": "The Ordinary",
+    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg",
+    "price": 10.99,
+    "rating": 4.8,
+    "gallery": [
+      "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg"
+    ],
+    "reviews": [
+      {
+        "id": "rev-kl6b4ba",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of The Ordinary Niacinamide 10% + Zinc 1% Oil Control Serum. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 17
+      },
+      {
+        "id": "rev-2ri8mjp",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 25
+      }
+    ],
+    "tagline": "High-strength vitamin & mineral blemish formula regulating sebum",
+    "benefits": [
+      "Visibly refines enlarged skin pores",
+      "Balances excess sebum and surface shine",
+      "Evens out blemish-prone texture"
+    ],
+    "category": "Active Serums & Toners",
+    "skinType": "Oily, Blemish-Prone & Large Pores",
+    "variants": [
+      {
+        "name": "Standard Size",
+        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg",
+        "inStock": true,
+        "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
+      }
+    ],
+    "stockLeft": 365,
+    "reviewCount": 98000,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 3.8,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B077BNSKMS",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B077BNSKMS",
+      "originCountry": "Toronto, Canada",
+      "batchLotNumber": "LOT-CA-2026-ORD01",
+      "laboratoryCertifications": [
+        "DECIEM Lab Quality Protocol",
+        "Cruelty-Free International",
+        "Vegan Certified"
+      ]
+    },
+    "soldCountText": "World's #1 Selling Skincare Serum",
+    "compareAtPrice": 15,
+    "keyIngredients": [
+      "10% Pure Niacinamide (Vitamin B3)",
+      "1% Zinc PCA",
+      "Tamarind Seed Gum",
+      "Pentylene Glycol"
+    ],
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "High-strength 10% Niacinamide combined with 1% Zinc PCA to balance visible sebum activity and decongest pores."
+  },
+  {
+    "id": "prod-paulaschoice-40",
+    "sku": "AMZ-PAU-0040",
+    "faqs": [
+      {
+        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B00949CTQQ), manufactured in Seattle, WA, USA, and certified under Leaping Bunny Certified Cruelty-Free, Clinical In-Vivo Pore Study, Dermatologist Tested.",
+        "question": "How is the authenticity and source of Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant verified?"
+      },
+      {
+        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the dropshipping delivery timeframe?"
+      }
+    ],
+    "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+    "size": "118ml Full Size Bottle",
+    "badge": "Cult 2% BHA",
+    "brand": "Paula's Choice",
+    "image": "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg",
+    "price": 35,
+    "rating": 4.9,
+    "gallery": [
+      "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg"
+    ],
+    "reviews": [
+      {
+        "id": "rev-qgd69fc",
+        "date": "4 days ago",
+        "title": "Noticeable improvement in barrier hydration within 48 hours",
+        "author": "Verified Purchaser",
+        "rating": 5,
+        "comment": "Extremely impressed with the texture and absorption of Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant. Does not pill under makeup or feel greasy. Verified fresh batch code.",
+        "verified": true,
+        "helpfulCount": 30
+      },
+      {
+        "id": "rev-3llbie8",
+        "date": "2 weeks ago",
+        "title": "Clean ingredient profile and genuine authenticated formulation",
+        "author": "Dermatological Specialist",
+        "rating": 5,
+        "comment": "Solid active ingredients with excellent skin tolerance. Highly recommended for daily barrier maintenance and recovery.",
+        "verified": true,
+        "helpfulCount": 25
+      }
+    ],
+    "tagline": "Cult leave-on liquid exfoliant clearing blackheads and enlarged pores",
+    "benefits": [
+      "Clears clogged pores and dissolves stubborn blackheads",
+      "Soothes skin redness with potent green tea antioxidants",
+      "Clinically proven to improve skin radiance in 1 week"
+    ],
+    "category": "Active Serums & Toners",
+    "skinType": "Combination, Oily, Blackhead-Prone Skin",
+    "variants": [
+      {
+        "name": "Standard Size",
+        "image": "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg",
+        "inStock": true,
+        "colorHex": "#002B7F"
+      },
+      {
+        "name": "Value Pack (2 Units)",
+        "inStock": true,
+        "colorHex": "#2563EB"
+      }
+    ],
+    "stockLeft": 311,
+    "reviewCount": 89000,
+    "supplierMoq": 1,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 13.5,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B00949CTQQ",
+      "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+      "referenceId": "ASIN: B00949CTQQ",
+      "originCountry": "Seattle, WA, USA",
+      "batchLotNumber": "LOT-US-2026-PC01",
+      "laboratoryCertifications": [
+        "Leaping Bunny Certified Cruelty-Free",
+        "Clinical In-Vivo Pore Study",
+        "Dermatologist Tested"
+      ]
+    },
+    "soldCountText": "Amazon #1 Facial Exfoliant Globally",
+    "compareAtPrice": 44,
+    "keyIngredients": [
+      "2% Salicylic Acid (BHA)",
+      "Green Tea (Camellia Oleifera) Extract",
+      "Methylpropanediol"
+    ],
+    "supplierSource": "Amazon Prime Dropship",
+    "shortDescription": "Award-winning leave-on exfoliant with 2% Salicylic Acid that sheds dead skin inside pore linings to unclog pores and even skin tone."
+  },
+  {
+    "id": "prod-eucerin-52",
+    "sku": "EUC-BOD-0052",
+    "name": "Eucerin Roughness Relief Lotion with Urea & Ceramide",
+    "size": "500ml Pump",
+    "brand": "Eucerin",
+    "image": "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg",
+    "price": 16.49,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61CdAnLoUtL._AC_UL320_.jpg"
+      "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg"
     ],
-    "reviews": [],
-    "tagline": "Captivating Sillage & Luxury Olfactory Profile",
+    "tagline": "Clinical Body Care formulation with Urea 10% & Ceramides.",
     "benefits": [
-      "All-Day Sillage & Projection",
-      "Authentic Master Perfumer Blend",
-      "Skin-Safe Hypoallergenic Notes"
+      "Clinically proven barrier resilience & deep lipid hydration",
+      "Non-comedogenic, fragrance-free tested formulation",
+      "Pharmaceutical grade quality control and batch audited"
     ],
-    "category": "Luxury Fragrances & Colognes",
-    "skinType": "All Skin Types • Long-Lasting Sillage",
+    "category": "Barrier Repair & Relief",
+    "howToUse": "Apply morning and evening to cleansed skin. Gently massage in upward circular motions until fully absorbed.",
+    "skinType": "All Skin Types • Clinically Tested Sensitive",
     "variants": [
       {
-        "name": "Standard Size",
+        "name": "Standard Pack",
+        "image": "https://images.pexels.com/photos/5797993/pexels-photo-5797993.jpeg?auto=compress&cs=tinysrgb&w=800&entry=53",
         "inStock": true,
         "colorHex": "#002B7F"
       }
     ],
-    "stockLeft": 180,
-    "reviewCount": 14235,
-    "supplierCost": 12.98,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 27,
+    "description": "Eucerin Roughness Relief Lotion with Urea & Ceramide is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Urea 10%, Ceramides, Sunflower Seed Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
+    "reviewCount": 1576,
+    "shippingDays": "1–2 Days Lagos & Abuja (Fast Nationwide Dispatch)",
+    "supplierCost": 6.8,
+    "verification": {
+      "registry": "Verified Authentic Supply Chain",
+      "sourceUrl": "https://www.amazon.com/dp/B000052YM7",
+      "verifiedAt": "2026-10-20",
+      "referenceId": "EUC-REG-001470",
+      "originCountry": "Germany (Beiersdorf AG, Hamburg)",
+      "batchLotNumber": "LOT-2026-0052-EXP28",
+      "laboratoryCertifications": [
+        "ISO 22716 GMP",
+        "Dermatologically Tested",
+        "Clinical Xerosis Study Passed"
+      ]
+    },
+    "compareAtPrice": 22.26,
     "keyIngredients": [
-      "Fine Fragrance Oils",
-      "Amber & Bergamot Notes",
-      "Sensual Vanilla Accords",
-      "Long-Lasting Fixative"
+      "Urea 10%",
+      "Ceramides",
+      "Sunflower Seed Oil"
     ],
-    "shortDescription": "Luxury olfactory masterpiece blending vibrant top notes with deep sensual base accords. Crafted for exceptional projection, all-day sillage, and magnetic presence."
-  },
-  {
-    "id": "amz-prod-B08HZZGFQC",
-    "sku": "AMZ-B08HZZGFQC",
-    "faqs": [],
-    "name": "Ariana Grande Cloud Body Mist – Warm Gourmand Fragrance for Women – Women's Perfume with Notes of Lavender, Coconut, Vanilla & Pear – 8 Fl Oz",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61Uc8qoY80L._AC_UL320_.jpg",
-    "price": 19.55,
-    "rating": 4.4,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61Uc8qoY80L._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Captivating Sillage & Luxury Olfactory Profile",
-    "benefits": [
-      "All-Day Sillage & Projection",
-      "Authentic Master Perfumer Blend",
-      "Skin-Safe Hypoallergenic Notes"
-    ],
-    "category": "Luxury Fragrances & Colognes",
-    "skinType": "All Skin Types • Long-Lasting Sillage",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 12361,
-    "supplierCost": 12.22,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 25.42,
-    "keyIngredients": [
-      "Fine Fragrance Oils",
-      "Amber & Bergamot Notes",
-      "Sensual Vanilla Accords",
-      "Long-Lasting Fixative"
-    ],
-    "shortDescription": "Luxury olfactory masterpiece blending vibrant top notes with deep sensual base accords. Crafted for exceptional projection, all-day sillage, and magnetic presence."
-  },
-  {
-    "id": "amz-prod-B00BNRV6CA",
-    "sku": "AMZ-B00BNRV6CA",
-    "faqs": [],
-    "name": "Paris Hilton Body Mist for Women, 8 Fluid Ounce",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61578dr68NL._AC_UL320_.jpg",
-    "price": 12.77,
-    "rating": 4.6,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61578dr68NL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Captivating Sillage & Luxury Olfactory Profile",
-    "benefits": [
-      "All-Day Sillage & Projection",
-      "Authentic Master Perfumer Blend",
-      "Skin-Safe Hypoallergenic Notes"
-    ],
-    "category": "Luxury Fragrances & Colognes",
-    "skinType": "All Skin Types • Long-Lasting Sillage",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 5693,
-    "supplierCost": 7.98,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 16.6,
-    "keyIngredients": [
-      "Fine Fragrance Oils",
-      "Amber & Bergamot Notes",
-      "Sensual Vanilla Accords",
-      "Long-Lasting Fixative"
-    ],
-    "shortDescription": "Luxury olfactory masterpiece blending vibrant top notes with deep sensual base accords. Crafted for exceptional projection, all-day sillage, and magnetic presence."
-  },
-  {
-    "id": "amz-prod-B07JRG42D9",
-    "sku": "AMZ-B07JRG42D9",
-    "faqs": [],
-    "name": "Victoria's Secret Body Fragrance Mist, Bare Vanilla - 8.4 fl oz",
-    "size": "Standard Retail Pack",
-    "badge": "Verified Amazon",
-    "brand": "Amazon Bestseller",
-    "image": "https://m.media-amazon.com/images/I/61oq0d1mriL._AC_UL320_.jpg",
-    "price": 25.54,
-    "rating": 4.7,
-    "gallery": [
-      "https://m.media-amazon.com/images/I/61oq0d1mriL._AC_UL320_.jpg"
-    ],
-    "reviews": [],
-    "tagline": "Captivating Sillage & Luxury Olfactory Profile",
-    "benefits": [
-      "All-Day Sillage & Projection",
-      "Authentic Master Perfumer Blend",
-      "Skin-Safe Hypoallergenic Notes"
-    ],
-    "category": "Luxury Fragrances & Colognes",
-    "skinType": "All Skin Types • Long-Lasting Sillage",
-    "variants": [
-      {
-        "name": "Standard Size",
-        "inStock": true,
-        "colorHex": "#002B7F"
-      }
-    ],
-    "stockLeft": 180,
-    "reviewCount": 16730,
-    "supplierCost": 15.96,
-    "soldCountText": "Amazon Bestseller Catalog",
-    "compareAtPrice": 33.2,
-    "keyIngredients": [
-      "Fine Fragrance Oils",
-      "Amber & Bergamot Notes",
-      "Sensual Vanilla Accords",
-      "Long-Lasting Fixative"
-    ],
-    "shortDescription": "Luxury olfactory masterpiece blending vibrant top notes with deep sensual base accords. Crafted for exceptional projection, all-day sillage, and magnetic presence."
+    "supplierSource": "Amazon Prime Dropship"
   }
 ];

@@ -61,11 +61,11 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     id: "prod-cosrx-28",
     brand: "COSRX",
     name: "COSRX Advanced Snail 96 Mucin Power Essence",
-    views: "4.8B Views",
-    viralTag: "#TikTokMadeMeBuyIt • Viral Glass Skin",
-    trendHook: "The #1 Most Viral Skincare Product on TikTok Globally",
+    views: "Viral Favorite",
+    viralTag: "Trending • Viral Glass Skin",
+    trendHook: "Top Rated Korean Skincare Favorite",
     heroHeadline: "Glass Skin Dew.",
-    heroHighlight: "4.8 Billion TikTok Sensation.",
+    heroHighlight: "Original COSRX Snail Mucin.",
     heroSubtitle:
       "Formulated with 96.3% Snail Secretion Filtrate to repair damaged moisture barriers, fade acne scars, and deliver intense luminous hydration.",
     heroImage:
@@ -80,15 +80,15 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     id: "prod-nivea-1",
     brand: "NIVEA",
     name: "NIVEA Creme Classic Intensive Hydration Tin",
-    views: "1.5B Views",
-    viralTag: "Viral #LaMerDupe Trend",
-    trendHook: "Dermatologists & Beauty Creators Swear By It",
-    heroHeadline: "The $8 Miracle Cream.",
-    heroHighlight: "TikTok's Famous Crème Dupe.",
+    views: "Barrier Essential",
+    viralTag: "Deep Occlusive Moisture",
+    trendHook: "Overnight Barrier Slugging Essential",
+    heroHeadline: "Intensive Moisture.",
+    heroHighlight: "Classic Rich Crème.",
     heroSubtitle:
-      "Skin-identical Eucerit® and Provitamin B5 deliver rich 48H continuous occlusive slugging that outperforms $350 luxury moisturizers.",
+      "Skin-identical Eucerit® and Provitamin B5 deliver rich 48H continuous hydration that seals and protects dry skin barriers.",
     heroImage:
-      "https://images.openbeautyfacts.org/images/products/400/580/889/0590/front_en.18.400.jpg",
+      "https://m.media-amazon.com/images/I/71I6485kGQL._AC_SL1500_.jpg",
     fallbackPrice: 8.99,
     size: "250ml / 8.4 oz Classic Tin",
     rating: 4.9,
@@ -99,15 +99,15 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     id: "prod-beautyofjoseon-30",
     brand: "Beauty of Joseon",
     name: "Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+",
-    views: "1.9B Views",
-    viralTag: "TikTok #1 Holy Grail Sunscreen",
+    views: "Holy Grail SPF",
+    viralTag: "No White Cast • SPF 50+",
     trendHook: "Zero White Cast • Serum Texture",
     heroHeadline: "No White Cast.",
-    heroHighlight: "TikTok's Holy Grail Sunscreen.",
+    heroHighlight: "Korean Daily Defense SPF.",
     heroSubtitle:
       "Infused with 30% Rice Extract and fermented grain probiotics. Feels like a lightweight moisturizing cream without greasiness.",
     heroImage:
-      "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
+      "https://m.media-amazon.com/images/I/51w7R9tP67L._AC_SL1200_.jpg",
     fallbackPrice: 18.0,
     size: "50ml Tube",
     rating: 4.9,
@@ -118,15 +118,15 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     id: "prod-anua-32",
     brand: "Anua",
     name: "Anua Heartleaf 77% Soothing Toner Balance & Calm",
-    views: "2.4B Views",
-    viralTag: "TikTok Viral #GlassSkin Toner",
-    trendHook: "Korea's Olive Young #1 Viral Award Winner",
+    views: "Soothing Toner",
+    viralTag: "Calming • Glass Skin Step",
+    trendHook: "Korea's Olive Young Award Winner",
     heroHeadline: "Calm Redness.",
     heroHighlight: "77% Pure Heartleaf Extract.",
     heroSubtitle:
-      "Soothes sensitive, breakout-prone skin while restoring optimal pH balance. The secret behind the viral TikTok 7-Skin Method.",
+      "Soothes sensitive, breakout-prone skin while restoring optimal pH balance. The secret behind the popular hydrating 7-Skin Method.",
     heroImage:
-      "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
+      "https://m.media-amazon.com/images/I/61r56kQGIPL._AC_SL1500_.jpg",
     fallbackPrice: 22.0,
     size: "250ml Bottle",
     rating: 4.8,
@@ -137,20 +137,20 @@ const TIKTOK_VIRAL_CATALOG: TikTokViralTrend[] = [
     id: "prod-larocheposay-22",
     brand: "La Roche-Posay",
     name: "La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Balm",
-    views: "3.2B Views",
-    viralTag: "TikTok #SkinCycling & Slugging",
-    trendHook: "Emergency Barrier Recovery in 1 Night",
-    heroHeadline: "Overnight Repair.",
-    heroHighlight: "TikTok Slugging Essential.",
+    views: "Barrier Repair",
+    viralTag: "Multi-Purpose Soothing Balm",
+    trendHook: "Instant Relief for Stressed Barriers",
+    heroHeadline: "Barrier Repair.",
+    heroHighlight: "Cicaplast Baume B5+.",
     heroSubtitle:
-      "Madecassoside, 5% Panthenol, and Tribioma prebiotics instantly rebuild damaged barriers from over-exfoliation and tretinoin peeling.",
+      "Contains Madecassoside, 5% Panthenol, and Tribioma prebiotic complex. Relieves dry patches, chapped lips, and post-acne irritation.",
     heroImage:
-      "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg",
+      "https://m.media-amazon.com/images/I/61W8l2gH6ML._AC_SL1500_.jpg",
     fallbackPrice: 22.99,
-    size: "100ml Large Tube",
+    size: "40ml / 1.35 oz",
     rating: 4.9,
     reviewCount: 42100,
-    ingredients: ["5% Panthenol (B5)", "Madecassoside", "Tribioma Prebiotics", "Shea Butter"],
+    ingredients: ["Madecassoside (Centella)", "5% Panthenol", "Shea Butter", "Zinc & Manganese"],
   },
 ];
 
@@ -310,8 +310,8 @@ export default function Hero() {
             {/* TikTok Virality Metrics Bar */}
             <div className="flex flex-wrap items-center gap-2 sm:gap-6 mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-slate-800 text-xs text-white">
               <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
-                <Flame className="w-4 h-4 text-rose-500 animate-bounce" />
-                <span className="font-bold text-white text-[11px] sm:text-xs">{activeTrend.views} Impact</span>
+                <Flame className="w-4 h-4 text-rose-500" />
+                <span className="font-bold text-white text-[11px] sm:text-xs">{activeTrend.views}</span>
               </div>
               <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
                 <TrendingUp className="w-3.5 h-3.5 text-cyan-300" />
@@ -319,7 +319,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                <span className="text-slate-100 font-semibold text-[11px] sm:text-xs">Verified Fresh Batch</span>
+                <span className="text-slate-100 font-semibold text-[11px] sm:text-xs">Original Sealed Batch</span>
               </div>
             </div>
 
