@@ -34,6 +34,17 @@ export async function GET(request: Request) {
     }
 
     const data = await res.json();
+
+    if (data.request_info && data.request_info.success === false) {
+      return NextResponse.json(
+        {
+          error: data.request_info.message || "Rainforest API error",
+          status: 403,
+          results: [],
+        },
+        { status: 403 }
+      );
+    }
     const results = (data.search_results || []).map((item: any) => {
       const price = item.price?.value || 12.99;
       return {
