@@ -351,8 +351,8 @@ export default function AuraAiChatModal({
               <div ref={messagesEndRef} />
             </div>
 
-            {/* Quick Interactive Complaints (Triggers conversational flow) */}
-            <div className="px-3 py-2 bg-white border-t border-slate-100 flex items-center gap-1.5 overflow-x-auto no-scrollbar shrink-0">
+            {/* Quick Interactive Complaints (Scrollable touch row with smooth scrollbar) */}
+            <div className="px-3 py-2 bg-white border-t border-slate-100 flex items-center gap-2 overflow-x-auto overflow-y-hidden touch-pan-x shrink-0 scroll-smooth">
               {[
                 "My face is breaking out and feels oily",
                 "Stubborn dark spots that won't fade",
@@ -363,7 +363,7 @@ export default function AuraAiChatModal({
                   key={i}
                   type="button"
                   onClick={() => handleSend(complaint)}
-                  className="px-2.5 py-1.5 rounded-full bg-slate-100 hover:bg-emerald-50 hover:text-emerald-900 hover:border-emerald-200 border border-transparent text-slate-700 text-[11px] font-medium whitespace-nowrap transition-colors shrink-0 cursor-pointer"
+                  className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-emerald-50 active:bg-emerald-100 hover:text-emerald-900 border border-slate-200/60 text-slate-700 text-xs font-medium whitespace-nowrap transition-colors shrink-0 cursor-pointer shadow-2xs"
                 >
                   {complaint}
                 </button>
