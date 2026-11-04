@@ -6,9 +6,7 @@ export type ProductCategory =
   | "Radiant Body Care"
   | "Active Serums & Toners"
   | "Sunscreen & Daily Defense"
-  | "Gentle Cleansers & Masks"
-  | "Hair & Scalp Care"
-  | "Luxury Fragrances & Colognes";
+  | "Gentle Cleansers & Masks";
 
 export type CurrencyCode =
   | "USD"
@@ -147,11 +145,9 @@ export const CATEGORIES: ProductCategory[] = [
   "Active Serums & Toners",
   "Gentle Cleansers & Masks",
   "Sunscreen & Daily Defense",
-  "Hair & Scalp Care",
-  "Luxury Fragrances & Colognes",
-  "Radiant Body Care",
   "Barrier Repair & Relief",
   "Anti-Aging & Q10",
+  "Radiant Body Care",
 ];
 
 export const INITIAL_PRODUCTS: Product[] = [
