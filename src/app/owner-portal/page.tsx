@@ -135,13 +135,13 @@ export default function OwnerPortalPage() {
   const [uploadingItemId, setUploadingItemId] = useState<string | null>(null);
 
   // CJ Dropshipping Direct Live State
-  const [cjSearchQuery, setCjSearchQuery] = useState("cream");
+  const [cjSearchQuery, setCjSearchQuery] = useState("");
   const [cjResults, setCjResults] = useState<any[]>([]);
   const [isCjLoading, setIsCjLoading] = useState(false);
   const [cjImportingId, setCjImportingId] = useState<string | null>(null);
 
   // Amazon Prime Direct Live State (Powered by Rainforest API)
-  const [amazonSearchQuery, setAmazonSearchQuery] = useState("nivea");
+  const [amazonSearchQuery, setAmazonSearchQuery] = useState("");
   const [amazonResults, setAmazonResults] = useState<any[]>([]);
   const [isAmazonLoading, setIsAmazonLoading] = useState(false);
   const [amazonImportingAsin, setAmazonImportingAsin] = useState<string | null>(null);
@@ -820,7 +820,6 @@ export default function OwnerPortalPage() {
             <button
               onClick={() => {
                 setActiveTab("amazon");
-                if (amazonResults.length === 0) handleAmazonSearch("nivea");
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                 activeTab === "amazon"
@@ -837,7 +836,6 @@ export default function OwnerPortalPage() {
             <button
               onClick={() => {
                 setActiveTab("cj");
-                if (cjResults.length === 0) handleCjSearch("cream");
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                 activeTab === "cj"
@@ -1230,9 +1228,11 @@ export default function OwnerPortalPage() {
             ) : amazonResults.length === 0 ? (
               <div className="py-16 text-center bg-slate-900/50 border border-slate-800 rounded-3xl">
                 <ShoppingBag className="w-10 h-10 text-slate-600 mx-auto mb-3" />
-                <p className="text-sm font-bold text-white">No products found for &quot;{amazonSearchQuery}&quot;</p>
+                <p className="text-sm font-bold text-white">
+                  {amazonSearchQuery ? `No products found for "${amazonSearchQuery}"` : "Search Amazon Prime Products"}
+                </p>
                 <p className="text-xs text-slate-400 mt-1">
-                  Try searching a specific brand or formula above.
+                  Enter a skincare brand, ASIN, or formula above and press Search.
                 </p>
               </div>
             ) : (
@@ -1429,9 +1429,11 @@ export default function OwnerPortalPage() {
             ) : cjResults.length === 0 ? (
               <div className="py-16 text-center bg-slate-900/50 border border-slate-800 rounded-3xl">
                 <Package className="w-10 h-10 text-slate-600 mx-auto mb-3" />
-                <p className="text-sm font-bold text-white">No items found for &quot;{cjSearchQuery}&quot;</p>
+                <p className="text-sm font-bold text-white">
+                  {cjSearchQuery ? `No items found for "${cjSearchQuery}"` : "Search CJ Dropshipping Products"}
+                </p>
                 <p className="text-xs text-slate-400 mt-1">
-                  Try searching broader terms like &quot;cream&quot;, &quot;serum&quot;, or &quot;cleanser&quot;.
+                  Enter a keyword or click one of the popular tags above to query CJ.
                 </p>
               </div>
             ) : (
