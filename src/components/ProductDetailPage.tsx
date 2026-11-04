@@ -47,7 +47,7 @@ export function ProductDetailPage({
   relatedProducts,
 }: ProductDetailPageProps) {
   const router = useRouter();
-  const { addToCart, formatPrice, setIsCheckoutOpen } = useCart();
+  const { addToCart, formatPrice, setIsCheckoutOpen, isDiscountEligible } = useCart();
 
   const [product] = useState<Product>(initialProduct);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
@@ -58,6 +58,12 @@ export function ProductDetailPage({
   const [copiedLink, setCopiedLink] = useState(false);
   const [isAdded, setIsAdded] = useState(false);
   const [isAiChatOpen, setIsAiChatOpen] = useState(false);
+
+  React.useEffect(() => {
+    const handleOpenAi = () => setIsAiChatOpen(true);
+    window.addEventListener("open-aura-ai", handleOpenAi);
+    return () => window.removeEventListener("open-aura-ai", handleOpenAi);
+  }, []);
 
   const images =
     product.gallery && product.gallery.length > 0
@@ -253,7 +259,7 @@ export function ProductDetailPage({
                   <span className="text-3xl sm:text-4xl font-extrabold font-mono text-slate-950">
                     {formatPrice(currentUnitPrice)}
                   </span>
-                  {product.compareAtPrice > product.price && (
+                  {isDiscountEligible && product.compareAtPrice > product.price && (
                     <>
                       <span className="text-base font-mono text-slate-400 line-through">
                         {formatPrice(product.compareAtPrice)}

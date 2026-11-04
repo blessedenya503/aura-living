@@ -79,13 +79,9 @@ export function StorefrontFloatingHelp() {
           </div>
           <HelpRowItem
             icon={Headphones}
-            label="Call / Chat with AURA AI"
-            sublabel="Line: +234 814 624 3788 (24/7 Skincare Advisor)"
-            onClick={() => {
-              const evt = new CustomEvent("open-aura-ai");
-              window.dispatchEvent(evt);
-              setActiveTab(null);
-            }}
+            label="WhatsApp Concierge"
+            sublabel="+234 814 624 3788 (Chat directly on WhatsApp)"
+            href="https://wa.me/2348146243788?text=Hello%20AURA%2C%20I%20have%20a%20question%20about%20a%20skincare%20product"
           />
           <HelpRowItem
             icon={MessageCircle}

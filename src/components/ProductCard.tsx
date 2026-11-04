@@ -31,7 +31,7 @@ function getSafeImageUrl(url?: string): string {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  const { addToCart, formatPrice, setSelectedProduct } = useCart();
+  const { addToCart, formatPrice, setSelectedProduct, isDiscountEligible } = useCart();
   const [selectedVariant, setSelectedVariant] = useState<ProductVariant>(
     product.variants[0]
   );
@@ -43,14 +43,16 @@ export default function ProductCard({ product }: ProductCardProps) {
   }, [product.image]);
 
   const handleQuickAdd = (e: React.MouseEvent) => {
+    e.preventDefault();
     e.stopPropagation();
     addToCart(product, selectedVariant, 1, false);
     setIsAdded(true);
     setTimeout(() => setIsAdded(false), 1400);
   };
 
+  // Randomized discount: visible only to 4 in 10 customers
   const discountPercent =
-    product.compareAtPrice > product.price
+    isDiscountEligible && product.compareAtPrice > product.price
       ? Math.round(
           ((product.compareAtPrice - product.price) / product.compareAtPrice) * 100
         )
@@ -202,7 +204,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-base sm:text-lg font-bold text-slate-950 font-mono">
               {formatPrice(product.price)}
             </span>
-            {product.compareAtPrice > product.price && (
+            {isDiscountEligible && product.compareAtPrice > product.price && (
               <span className="text-xs text-slate-400 line-through font-mono">
                 {formatPrice(product.compareAtPrice)}
               </span>

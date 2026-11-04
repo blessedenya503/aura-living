@@ -83,6 +83,7 @@ interface CartContextType {
   isNightSweeping: boolean;
   sweepDirection: "to-night" | "to-day";
   triggerNightRecoverySweep: (enable: boolean, rememberManual?: boolean) => void;
+  isDiscountEligible: boolean;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -129,6 +130,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [isNightRecovery, setIsNightRecovery] = useState(false);
   const [isNightSweeping, setIsNightSweeping] = useState(false);
   const [sweepDirection, setSweepDirection] = useState<"to-night" | "to-day">("to-night");
+  // 4 in 10 customers (40% probability) receive randomized promotional discount eligibility
+  const [isDiscountEligible, setIsDiscountEligible] = useState(false);
 
   // Check if current user local time is >= 4:00 PM (16:00) or early morning before 6:00 AM
   const checkShouldBeNightMode = () => {
@@ -200,6 +203,18 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         setCurrencyState(savedCurr);
       } else {
         setCurrencyState("NGN");
+      }
+
+      // 4 in every 10 customers (40%) get randomized discount eligibility stored persistently
+      const savedDiscountRoll = localStorage.getItem("aura_discount_eligible_v1");
+      if (savedDiscountRoll !== null) {
+        setIsDiscountEligible(savedDiscountRoll === "true");
+      } else {
+        const eligible = Math.random() < 0.4; // exactly 4 in 10 chance
+        setIsDiscountEligible(eligible);
+        try {
+          localStorage.setItem("aura_discount_eligible_v1", eligible ? "true" : "false");
+        } catch {}
       }
 
       // Check user preferences or automatic 4:00 PM local time switch
@@ -498,6 +513,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         isNightSweeping,
         sweepDirection,
         triggerNightRecoverySweep,
+        isDiscountEligible,
       }}
     >
       {children}
