@@ -148,19 +148,19 @@ export default function Navbar() {
           {/* Circular Flag Currency Selector with Real-time Rates */}
           <CurrencySelector />
 
-          {/* AURA AI Phone & Chat Concierge Button */}
+          {/* AURA AI Phone & WhatsApp Concierge Button */}
           <button
             type="button"
             onClick={() => {
               const evt = new CustomEvent("open-aura-ai");
               window.dispatchEvent(evt);
             }}
-            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all shadow-xs border bg-linear-to-r from-blue-700 to-indigo-700 text-white hover:brightness-110 cursor-pointer"
-            title="Call or Chat with AURA AI"
+            className="flex items-center justify-center gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-xl text-xs font-bold transition-all shadow-md border border-emerald-400/40 bg-emerald-600 hover:bg-emerald-500 text-white cursor-pointer"
+            title="AURA WhatsApp & AI Line (+234 814 624 3788)"
+            aria-label="AURA WhatsApp & Phone Line"
           >
-            <Phone className="w-3.5 h-3.5 text-cyan-300 animate-pulse" />
-            <span className="hidden md:inline text-[11px] font-mono">+234 814 624 3788</span>
-            <span className="md:hidden text-[11px]">AI Line</span>
+            <Phone className="w-4 h-4 sm:w-3.5 sm:h-3.5 text-white animate-bounce shrink-0" />
+            <span className="hidden md:inline text-[11px] font-mono tracking-tight text-white">+234 814 624 3788</span>
           </button>
 
           {/* User Sign In Link (Desktop Only) */}
