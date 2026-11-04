@@ -127,7 +127,7 @@ export default function AuraAiChatModal({
         ...prev,
         {
           sender: "ai",
-          text: "I am having trouble with the network at the moment, but you can speak directly with me or our human specialist on WhatsApp at +234 814 624 3788.",
+          text: "I am having trouble with the network at the moment, but you can speak directly with me or our human specialist on WhatsApp at 07038703778.",
           time: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
         },
       ]);
@@ -179,7 +179,7 @@ export default function AuraAiChatModal({
             }`}
           >
             <Phone className="w-3.5 h-3.5 text-emerald-600" />
-            <span>WhatsApp Line (+234)</span>
+            <span>WhatsApp (07038703778)</span>
           </button>
 
           <button
@@ -223,7 +223,7 @@ export default function AuraAiChatModal({
                     Verified WhatsApp Number
                   </span>
                   <div className="font-mono text-lg font-extrabold text-emerald-950 flex items-center justify-between">
-                    <span>+234 814 624 3788</span>
+                    <span>07038703778</span>
                     <span className="text-xs font-sans font-semibold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-md">
                       Online Now
                     </span>
@@ -231,7 +231,7 @@ export default function AuraAiChatModal({
                 </div>
 
                 <a
-                  href="https://wa.me/2348146243788?text=Hello%20Dr.%20AURA%2C%20I%20would%20like%20a%20personal%20skincare%20consultation%20for%20my%20skin"
+                  href="https://wa.me/2347038703778?text=Hello%20AURA%2C%20I%20have%20a%20question%20about%20a%20skincare%20product"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-[#25D366] hover:bg-[#20ba59] text-white font-bold py-3 px-4 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all cursor-pointer"

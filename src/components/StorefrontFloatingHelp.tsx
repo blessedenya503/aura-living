@@ -80,8 +80,8 @@ export function StorefrontFloatingHelp() {
           <HelpRowItem
             icon={Headphones}
             label="WhatsApp Concierge"
-            sublabel="+234 814 624 3788 (Chat directly on WhatsApp)"
-            href="https://wa.me/2348146243788?text=Hello%20AURA%2C%20I%20have%20a%20question%20about%20a%20skincare%20product"
+            sublabel="07038703778 (Chat directly on WhatsApp)"
+            href="https://wa.me/2347038703778?text=Hello%20AURA%2C%20I%20have%20a%20question%20about%20a%20skincare%20product"
           />
           <HelpRowItem
             icon={MessageCircle}

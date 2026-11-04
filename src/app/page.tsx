@@ -31,6 +31,7 @@ import {
   FlaskConical,
   ArrowRight,
   SlidersHorizontal,
+  Phone,
 } from "lucide-react";
 
 const MINIMAL_FAQS = [
@@ -674,13 +675,23 @@ export default function HomePage() {
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <PaymentLogosStrip className="flex items-center gap-2" />
-              <div className="flex items-center gap-6 text-slate-400 font-medium">
+              <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-slate-400 font-medium">
                 <Link href="/track-order" className="hover:text-white transition-colors">
                   Track Order
                 </Link>
                 <Link href="#catalog-section" className="hover:text-white transition-colors">
                   Shop Verified Catalog
                 </Link>
+                {/* Contact & WhatsApp at the bottom */}
+                <a
+                  href="https://wa.me/2347038703778?text=Hello%20AURA%2C%20I%20have%20an%20inquiry"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 text-emerald-400 hover:text-emerald-300 font-mono transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5" />
+                  <span>07038703778</span>
+                </a>
               </div>
             </div>
           </div>

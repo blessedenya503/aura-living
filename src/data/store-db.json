@@ -10,7 +10,7 @@
       "badge": "Japanese Purple Rice",
       "brand": "Tatcha",
       "image": "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
-      "price": 72,
+      "price": 43,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg"
@@ -22054,5 +22054,6 @@
       "beforeCondition": "Dark spots",
       "dermatologistQuote": ""
     }
-  ]
+  ],
+  "userReviews": []
 }
