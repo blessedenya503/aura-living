@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
-import { Star, Plus, Check, Eye, Sparkles, ShieldCheck, CheckCircle2, Info } from "lucide-react";
+import Link from "next/link";
+import { Star, Plus, Check, Eye, ShieldCheck, CheckCircle2, Info } from "lucide-react";
 import { Product, ProductVariant } from "@/data/products";
 import { useCart } from "@/context/CartContext";
 import { GlitchText } from "@/components/ui/animated-glitch-text";
@@ -57,52 +57,17 @@ export default function ProductCard({ product }: ProductCardProps) {
       : null;
 
   return (
-    <div
-      onClick={() => setSelectedProduct(product)}
+    <Link
+      href={`/product/${encodeURIComponent(product.id)}`}
       className="group relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-xs hover:shadow-lg hover:border-blue-300 transition-all duration-300 flex flex-col cursor-pointer"
     >
       {/* Product Image Stage */}
       <div className="relative w-full h-48 sm:h-64 bg-white p-3 overflow-hidden flex items-center justify-center border-b border-slate-100">
-        {/* Badges */}
-        <div className="absolute top-2 left-2 z-10 flex flex-wrap gap-1 max-w-[80%] items-start pointer-events-none">
-          <span className="bg-[#002B7F] text-white text-[9px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-full shadow-xs">
+        {/* Only the Product Brand Badge as requested */}
+        <div className="absolute top-2.5 left-2.5 z-10 pointer-events-none">
+          <span className="bg-[#002B7F] text-white text-[9.5px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full shadow-xs">
             {product.brand}
           </span>
-          {product.badge && (
-            product.badge.toLowerCase().includes("tiktok") ? (
-              <span className="bg-slate-950 text-white border border-slate-700/80 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-xs flex items-center gap-1">
-                <TikTokIcon className="w-2.5 h-2.5 text-[#FE2C55]" />
-                <GlitchText
-                  text={product.badge.toUpperCase()}
-                  as="span"
-                  className="min-h-0 p-0 justify-start items-center"
-                  containerClassName="inline-block"
-                  textClassName="text-[8.5px] font-extrabold text-white"
-                  colors={{ red: "#FE2C55", green: "#FE2C55", blue: "#FFFFFF" }}
-                />
-              </span>
-            ) : (
-              <span className="bg-amber-400 text-slate-900 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-xs">
-                {product.badge}
-              </span>
-            )
-          )}
-          {product.verification && (
-            <span className="bg-emerald-950/90 text-emerald-300 border border-emerald-500/40 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-2xs backdrop-blur-sm flex items-center gap-1">
-              <ShieldCheck className="w-2.5 h-2.5 text-emerald-400" />
-              Verified
-            </span>
-          )}
-          {product.supplierSource === "Amazon Prime Dropship" && (
-            <span className="bg-amber-100/95 text-amber-950 border border-amber-300 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-2xs backdrop-blur-xs">
-              Amazon
-            </span>
-          )}
-          {product.supplierSource === "Alibaba Trade Assurance Dropship" && (
-            <span className="bg-orange-100/95 text-orange-950 border border-orange-300 text-[8.5px] font-bold px-1.5 py-0.5 rounded-full shadow-2xs backdrop-blur-xs">
-              Alibaba
-            </span>
-          )}
         </div>
 
         {discountPercent && (
@@ -266,6 +231,6 @@ export default function ProductCard({ product }: ProductCardProps) {
           </button>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

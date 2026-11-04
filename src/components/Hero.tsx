@@ -270,8 +270,8 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-10 sm:pt-6 sm:pb-14">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
-          {/* Left Column: TikTok Viral Showcase & High-Contrast Typography */}
-          <div className="lg:col-span-7 flex flex-col items-start text-left">
+          {/* Left Column: Headline & CTA (On mobile shows AFTER slideshow; on lg shows first) */}
+          <div className="order-2 lg:order-1 lg:col-span-7 flex flex-col items-start text-left">
             {/* TikTok Viral Live Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/95 border border-slate-700 text-white text-xs font-bold tracking-wide mb-3 shadow-xl backdrop-blur-md">
               <span className="p-1 rounded-full bg-black text-white flex items-center justify-center">
@@ -354,8 +354,8 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Column: Interactive TikTok Viral Hero Showcase */}
-          <div className="lg:col-span-5 flex flex-col items-center">
+          {/* Right Column: Interactive TikTok Viral Hero Showcase (On mobile shows FIRST before text) */}
+          <div className="order-1 lg:order-2 lg:col-span-5 flex flex-col items-center w-full">
             <div className="relative w-full max-w-md bg-linear-to-b from-slate-900/95 via-slate-950 to-slate-950 rounded-3xl p-5 border border-slate-800/80 shadow-2xl backdrop-blur-md ring-1 ring-cyan-500/20">
               {/* TikTok Trend Switcher Navigation */}
               <div className="flex items-center justify-between gap-1 bg-slate-950/80 p-1 rounded-xl mb-4 border border-slate-800/80 overflow-x-auto no-scrollbar">

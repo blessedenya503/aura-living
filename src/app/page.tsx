@@ -12,6 +12,7 @@ import CheckoutModal from "@/components/CheckoutModal";
 import GlobalSearchModal from "@/components/GlobalSearchModal";
 import StorefrontFloatingHelp from "@/components/StorefrontFloatingHelp";
 import AuraAiChatModal from "@/components/AuraAiChatModal";
+import CustomerReviewsSection from "@/components/CustomerReviewsSection";
 import { PaymentLogosStrip } from "@/components/PaymentLogos";
 import { CATEGORIES, ProductCategory, Product } from "@/data/products";
 import { useCart } from "@/context/CartContext";
@@ -122,12 +123,53 @@ export default function HomePage() {
       return matchCat && matchBrand && matchSupplier && matchSearch;
     });
 
+    // Trending products show first before others
+    const isTrending = (p: Product) => {
+      const b = (p.badge || "").toLowerCase();
+      const s = (p.soldCountText || "").toLowerCase();
+      const n = (p.name || "").toLowerCase();
+      return (
+        b.includes("trending") ||
+        b.includes("tiktok") ||
+        b.includes("viral") ||
+        b.includes("bestseller") ||
+        b.includes("best seller") ||
+        s.includes("viral") ||
+        n.includes("snail 96") ||
+        n.includes("cicaplast") ||
+        n.includes("heartleaf")
+      );
+    };
+
     if (sortBy === "price-asc") {
-      list.sort((a, b) => a.price - b.price);
+      list.sort((a, b) => {
+        const trendA = isTrending(a) ? 1 : 0;
+        const trendB = isTrending(b) ? 1 : 0;
+        if (trendA !== trendB) return trendB - trendA;
+        return a.price - b.price;
+      });
     } else if (sortBy === "price-desc") {
-      list.sort((a, b) => b.price - a.price);
+      list.sort((a, b) => {
+        const trendA = isTrending(a) ? 1 : 0;
+        const trendB = isTrending(b) ? 1 : 0;
+        if (trendA !== trendB) return trendB - trendA;
+        return b.price - a.price;
+      });
     } else if (sortBy === "rating") {
-      list.sort((a, b) => b.rating - a.rating);
+      list.sort((a, b) => {
+        const trendA = isTrending(a) ? 1 : 0;
+        const trendB = isTrending(b) ? 1 : 0;
+        if (trendA !== trendB) return trendB - trendA;
+        return b.rating - a.rating;
+      });
+    } else {
+      // Default order: Prioritize trending viral products first
+      list.sort((a, b) => {
+        const trendA = isTrending(a) ? 1 : 0;
+        const trendB = isTrending(b) ? 1 : 0;
+        if (trendA !== trendB) return trendB - trendA;
+        return b.rating - a.rating;
+      });
     }
     return list;
   }, [products, selectedCategory, selectedBrand, selectedSupplier, searchQuery, sortBy]);
@@ -603,6 +645,9 @@ export default function HomePage() {
             })}
           </div>
         </section>
+
+        {/* Real Customer Reviews Section at the bottom */}
+        <CustomerReviewsSection />
       </main>
 
       {/* Modern Minimalist Footer */}
