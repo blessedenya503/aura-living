@@ -79,13 +79,22 @@ export default function ProductModal() {
           <div className="w-10 h-1 rounded-full bg-slate-300" />
         </div>
 
-        {/* Close button */}
-        <button
-          onClick={() => setSelectedProduct(null)}
-          className="absolute top-2.5 right-3 sm:top-4 sm:right-4 z-20 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-950 transition-colors shadow-xs cursor-pointer"
-        >
-          <X className="w-4 h-4 sm:w-5 sm:h-5" />
-        </button>
+        {/* Action icons top right */}
+        <div className="absolute top-2.5 right-3 sm:top-4 sm:right-4 z-20 flex items-center gap-1.5">
+          <a
+            href={`/product/${encodeURIComponent(selectedProduct.id)}`}
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-[#002B7F] transition-colors shadow-xs cursor-pointer"
+            title="Open dedicated product page"
+          >
+            <ExternalLink className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          </a>
+          <button
+            onClick={() => setSelectedProduct(null)}
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-950 transition-colors shadow-xs cursor-pointer"
+          >
+            <X className="w-4 h-4 sm:w-5 sm:h-5" />
+          </button>
+        </div>
 
         <div className="w-full overflow-y-auto">
           <div className="grid grid-cols-1 md:grid-cols-2">

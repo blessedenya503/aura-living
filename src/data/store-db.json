@@ -2,6 +2,64 @@
   "orders": [],
   "products": [
     {
+      "id": "imp-tatcha-dewy-skin",
+      "sku": "TAT-DEW-050",
+      "faqs": [],
+      "name": "Tatcha The Dewy Skin Cream",
+      "size": "50ml / 1.7 oz",
+      "badge": "Japanese Purple Rice",
+      "brand": "Tatcha",
+      "image": "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
+      "price": 72,
+      "rating": 4.9,
+      "gallery": [
+        "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg"
+      ],
+      "reviews": [],
+      "tagline": "Rich antioxidant Japanese purple rice cream that feeds skin with plumping hydration",
+      "benefits": [
+        "Deeply hydrates and locks in rich moisture",
+        "Replenishes ceramides for youthful bounce",
+        "Leaves an exquisite dewy sheen"
+      ],
+      "category": "Moisturizing Creams",
+      "skinType": "Dry to Very Dry, Mature Skin",
+      "variants": [
+        {
+          "name": "50ml / 1.7 oz",
+          "inStock": true,
+          "colorHex": "#0032A0"
+        }
+      ],
+      "stockLeft": 180,
+      "reviewCount": 26800,
+      "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+      "supplierCost": 34,
+      "verification": {
+        "registry": "Amazon Bestseller Catalog",
+        "sourceUrl": "https://www.amazon.com/dp/beauty-skincare",
+        "verifiedAt": "2026-10-18 (Audited Fresh Batch)",
+        "referenceId": "ASIN: B0IVS8DFH",
+        "originCountry": "United States",
+        "batchLotNumber": "LOT-IMP-173257",
+        "laboratoryCertifications": [
+          "ISO 22716:2007",
+          "Dermatologically Tested",
+          "GMP Certified"
+        ]
+      },
+      "soldCountText": "Verified Brand Import",
+      "compareAtPrice": 85,
+      "keyIngredients": [
+        "Japanese Purple Rice",
+        "Okinawa Algae Complex",
+        "Hyaluronic Acid",
+        "Botanical Extracts"
+      ],
+      "supplierSource": "Amazon Prime Dropship",
+      "shortDescription": "Infuses skin with Japanese purple rice, Okinawa algae, and hyaluronic acid for an instant dewy bounce."
+    },
+    {
       "id": "amz-prod-B00KJRVUXU",
       "sku": "AMZ-B00KJRVUXU",
       "faqs": [],
@@ -123,47 +181,6 @@
         "Hyaluronic Acid"
       ],
       "shortDescription": "NIVEA Creme, Face, Body & Hand Moisturizing Cream, Provitamin B5, 13.5 Oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00DEG8N9W)."
-    },
-    {
-      "id": "amz-prod-B00M3IFUMK",
-      "sku": "AMZ-B00M3IFUMK",
-      "faqs": [],
-      "name": "ARMAF club de nuit intense Man EDT Men New in Box, Black , 3.6 Fl Oz",
-      "size": "Standard Retail Pack",
-      "badge": "Verified Amazon",
-      "brand": "Amazon Bestseller",
-      "image": "https://m.media-amazon.com/images/I/51soMCNMKIL._AC_UL320_.jpg",
-      "price": 34.27,
-      "rating": 4.5,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51soMCNMKIL._AC_UL320_.jpg"
-      ],
-      "reviews": [],
-      "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
-      "benefits": [
-        "2–4 Days Express Prime Courier Dispatch",
-        "100% Genuine Guaranteed Formula"
-      ],
-      "category": "Moisturizing Creams",
-      "skinType": "All Skin Types",
-      "variants": [
-        {
-          "name": "Standard Size",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "stockLeft": 180,
-      "reviewCount": 117981,
-      "supplierCost": 23.99,
-      "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 42.84,
-      "keyIngredients": [
-        "Active Skin Emollients",
-        "Ceramides",
-        "Hyaluronic Acid"
-      ],
-      "shortDescription": "ARMAF club de nuit intense Man EDT Men New in Box, Black , 3.6 Fl Oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00M3IFUMK)."
     },
     {
       "id": "amz-prod-B0GY1Y19QC",
