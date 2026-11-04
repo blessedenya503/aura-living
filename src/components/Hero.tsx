@@ -268,12 +268,12 @@ export default function Hero() {
         <div className="absolute top-1/3 right-1/4 translate-x-1/2 w-[450px] h-[300px] bg-[#FE2C55]/10 rounded-full blur-[140px]" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-10 sm:pt-6 sm:pb-14">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-4 pb-8 sm:pt-6 sm:pb-14">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-10 items-center">
           {/* Left Column: Headline & CTA (On mobile shows AFTER slideshow; on lg shows first) */}
           <div className="order-2 lg:order-1 lg:col-span-7 flex flex-col items-start text-left">
             {/* TikTok Viral Live Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/95 border border-slate-700 text-white text-xs font-bold tracking-wide mb-3 shadow-xl backdrop-blur-md">
+            <div className="inline-flex items-center gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-slate-900/95 border border-slate-700 text-white text-xs font-bold tracking-wide mb-2 sm:mb-3 shadow-xl backdrop-blur-md">
               <span className="p-1 rounded-full bg-black text-white flex items-center justify-center">
                 <TikTokIcon className="w-3.5 h-3.5 text-cyan-400" />
               </span>
@@ -282,20 +282,20 @@ export default function Hero() {
                 as="span"
                 className="min-h-0 p-0 justify-start items-center"
                 containerClassName="inline-block"
-                textClassName="text-[11px] font-extrabold uppercase tracking-wider text-white"
+                textClassName="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-white"
                 colors={{
                   red: "#FE2C55",
                   green: "#FE2C55",
                   blue: "#FFFFFF",
                 }}
               />
-              <span className="text-slate-200 font-mono text-[11px] font-semibold">
+              <span className="text-slate-200 font-mono text-[10px] sm:text-[11px] font-semibold">
                 • {activeTrend.views}
               </span>
             </div>
 
             {/* High-Contrast Crisp Headline (Responsive & Perfectly Aligned) */}
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1] drop-shadow-md">
+            <h1 className="text-2xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15] sm:leading-[1.1] drop-shadow-md">
               {activeTrend.heroHeadline} <br />
               <span className="text-amber-300 drop-shadow-[0_2px_14px_rgba(252,211,77,0.45)]">
                 {activeTrend.heroHighlight}
@@ -303,31 +303,31 @@ export default function Hero() {
             </h1>
 
             {/* High-Contrast Subtitle */}
-            <p className="mt-3 sm:mt-4 text-sm sm:text-base lg:text-lg text-slate-100 max-w-xl font-medium leading-relaxed drop-shadow-xs">
+            <p className="mt-2.5 sm:mt-4 text-xs sm:text-base lg:text-lg text-slate-200 max-w-xl font-medium leading-relaxed drop-shadow-xs">
               {activeTrend.heroSubtitle}
             </p>
 
             {/* TikTok Virality Metrics Bar */}
-            <div className="flex flex-wrap items-center gap-2 sm:gap-6 mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-slate-800 text-xs text-white">
-              <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
-                <Flame className="w-4 h-4 text-rose-500" />
-                <span className="font-bold text-white text-[11px] sm:text-xs">{activeTrend.views}</span>
+            <div className="flex flex-wrap items-center gap-1.5 sm:gap-6 mt-3 sm:mt-6 pt-3 sm:pt-6 border-t border-slate-800/80 text-xs text-white w-full">
+              <div className="flex items-center gap-1.5 bg-slate-900/70 border border-slate-800 px-2.5 py-1 rounded-lg sm:bg-transparent sm:border-0 sm:p-0">
+                <Flame className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                <span className="font-bold text-white text-[10.5px] sm:text-xs">{activeTrend.views}</span>
               </div>
-              <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
-                <TrendingUp className="w-3.5 h-3.5 text-cyan-300" />
-                <span className="text-slate-100 font-semibold text-[11px] sm:text-xs">{activeTrend.viralTag}</span>
+              <div className="flex items-center gap-1.5 bg-slate-900/70 border border-slate-800 px-2.5 py-1 rounded-lg sm:bg-transparent sm:border-0 sm:p-0">
+                <TrendingUp className="w-3.5 h-3.5 text-cyan-300 shrink-0" />
+                <span className="text-slate-100 font-semibold text-[10.5px] sm:text-xs truncate max-w-[140px] sm:max-w-none">{activeTrend.viralTag}</span>
               </div>
-              <div className="flex items-center gap-1.5 shrink-0 bg-slate-900/60 px-2 py-1 rounded-lg sm:bg-transparent sm:p-0">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                <span className="text-slate-100 font-semibold text-[11px] sm:text-xs">Original Sealed Batch</span>
+              <div className="flex items-center gap-1.5 bg-slate-900/70 border border-slate-800 px-2.5 py-1 rounded-lg sm:bg-transparent sm:border-0 sm:p-0">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                <span className="text-slate-100 font-semibold text-[10.5px] sm:text-xs">Original Sealed Batch</span>
               </div>
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mt-6 sm:mt-8">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-3 mt-4 sm:mt-8 w-full sm:w-auto">
               <button
                 onClick={handleQuickAdd}
-                className="w-full sm:w-auto justify-center bg-linear-to-r from-cyan-500 via-blue-600 to-pink-600 hover:opacity-95 text-white font-bold px-6 sm:px-7 py-3.5 rounded-2xl text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-pink-950/40 transition-all hover:scale-[1.02] cursor-pointer"
+                className="w-full sm:w-auto justify-center bg-linear-to-r from-cyan-500 via-blue-600 to-pink-600 hover:opacity-95 text-white font-bold px-6 sm:px-7 py-3 rounded-2xl text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-pink-950/40 transition-all hover:scale-[1.02] cursor-pointer"
               >
                 {added ? (
                   <>
@@ -346,7 +346,7 @@ export default function Hero() {
 
               <button
                 onClick={scrollToCatalog}
-                className="w-full sm:w-auto justify-center bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 font-semibold px-5 py-3.5 rounded-2xl text-xs sm:text-sm flex items-center gap-2 transition-colors cursor-pointer shadow-md"
+                className="w-full sm:w-auto justify-center bg-slate-900/90 hover:bg-slate-800 text-white border border-slate-700 font-semibold px-5 py-3 rounded-2xl text-xs sm:text-sm flex items-center gap-2 transition-colors cursor-pointer shadow-md"
               >
                 <span>Browse Dropship Catalog</span>
                 <ArrowRight className="w-4 h-4" />
