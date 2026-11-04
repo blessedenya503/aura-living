@@ -4,6 +4,7 @@ import "./globals.css";
 import { CartProvider } from "@/context/CartContext";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import AuraLoadingScreen from "@/components/AuraLoadingScreen";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -175,6 +176,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="font-sans antialiased bg-[#FBFBFC] text-slate-900 selection:bg-blue-100 selection:text-[#002B7F]">
+        <AuraLoadingScreen />
         <CartProvider>{children}</CartProvider>
         <Analytics />
       </body>
