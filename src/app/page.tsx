@@ -11,6 +11,7 @@ import CartDrawer from "@/components/CartDrawer";
 import CheckoutModal from "@/components/CheckoutModal";
 import GlobalSearchModal from "@/components/GlobalSearchModal";
 import StorefrontFloatingHelp from "@/components/StorefrontFloatingHelp";
+import AuraAiChatModal from "@/components/AuraAiChatModal";
 import { PaymentLogosStrip } from "@/components/PaymentLogos";
 import { CATEGORIES, ProductCategory, Product } from "@/data/products";
 import { useCart } from "@/context/CartContext";
@@ -72,6 +73,13 @@ export default function HomePage() {
   const [pageSize, setPageSize] = useState(24);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const [routineTab, setRoutineTab] = useState<"am" | "pm">("am");
+  const [isAiChatOpen, setIsAiChatOpen] = useState(false);
+
+  React.useEffect(() => {
+    const handleOpenAi = () => setIsAiChatOpen(true);
+    window.addEventListener("open-aura-ai", handleOpenAi);
+    return () => window.removeEventListener("open-aura-ai", handleOpenAi);
+  }, []);
 
   // Brands list
   const availableBrands = useMemo(() => {
@@ -636,6 +644,7 @@ export default function HomePage() {
       <CheckoutModal />
       <GlobalSearchModal />
       <StorefrontFloatingHelp />
+      <AuraAiChatModal isOpen={isAiChatOpen} onClose={() => setIsAiChatOpen(false)} />
     </div>
   );
 }

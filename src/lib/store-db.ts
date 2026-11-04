@@ -344,7 +344,7 @@ export const INITIAL_SAMPLE_ORDERS: CustomerOrder[] = [
 
 let cachedDb: StoreDatabase | null = null;
 let lastNeonFetch = 0;
-const MEMORY_CACHE_TTL = 60 * 1000; // 60s memory cache to avoid cold Neon queries on every request
+const MEMORY_CACHE_TTL = 5 * 1000; // 5s memory cache for near-instant visibility of portal updates
 
 export async function getStoreDb(): Promise<StoreDatabase> {
   const now = Date.now();

@@ -79,11 +79,11 @@ export function StorefrontFloatingHelp() {
           </div>
           <HelpRowItem
             icon={Headphones}
-            label="Customer Support Desk"
-            sublabel="Available daily 8am – 10pm WAT"
+            label="Call / Chat with AURA AI"
+            sublabel="Line: +234 814 624 3788 (24/7 Skincare Advisor)"
             onClick={() => {
-              const el = document.getElementById("faq-section");
-              el?.scrollIntoView({ behavior: "smooth" });
+              const evt = new CustomEvent("open-aura-ai");
+              window.dispatchEvent(evt);
               setActiveTab(null);
             }}
           />

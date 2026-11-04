@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { ShoppingBag, Search, Moon, Sun, TrendingUp, Ship, User, Menu, X } from "lucide-react";
+import { ShoppingBag, Search, Moon, Sun, TrendingUp, Ship, User, Menu, X, Phone } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import CurrencySelector from "@/components/CurrencySelector";
 import { Typewriter } from "@/components/ui/typewriter-text";
@@ -74,16 +74,16 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* Wordmark */}
-            <div className="flex flex-col justify-center">
-              <span
-                className={`text-base sm:text-lg font-black tracking-tight leading-none ${
-                  isNightRecovery ? "text-white" : "text-slate-950"
-                }`}
-              >
-                {storeSettings?.storeName || "AURA"}
-              </span>
-            </div>
+          {/* Wordmark */}
+          <div className="flex flex-col justify-center">
+            <span
+              className={`text-base sm:text-lg font-black tracking-tight leading-none ${
+                isNightRecovery ? "text-white" : "text-slate-950"
+              }`}
+            >
+              AURA
+            </span>
+          </div>
           </Link>
         </div>
 
@@ -147,6 +147,21 @@ export default function Navbar() {
 
           {/* Circular Flag Currency Selector with Real-time Rates */}
           <CurrencySelector />
+
+          {/* AURA AI Phone & Chat Concierge Button */}
+          <button
+            type="button"
+            onClick={() => {
+              const evt = new CustomEvent("open-aura-ai");
+              window.dispatchEvent(evt);
+            }}
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all shadow-xs border bg-linear-to-r from-blue-700 to-indigo-700 text-white hover:brightness-110 cursor-pointer"
+            title="Call or Chat with AURA AI"
+          >
+            <Phone className="w-3.5 h-3.5 text-cyan-300 animate-pulse" />
+            <span className="hidden md:inline text-[11px] font-mono">+234 814 624 3788</span>
+            <span className="md:hidden text-[11px]">AI Line</span>
+          </button>
 
           {/* User Sign In Link (Desktop Only) */}
           <Link

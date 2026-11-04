@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { getStoreDb, sanitizeProductForPublic } from "@/lib/store-db";
 import { getCurrentWeeklyTikTokCatalog } from "@/lib/weekly-tiktok";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const db = await getStoreDb();
   const { weekNumber, catalog, nextRotationAt } = getCurrentWeeklyTikTokCatalog();
@@ -10,8 +12,8 @@ export async function GET() {
     {
       products: db.products.map(sanitizeProductForPublic),
       settings: {
-        storeName: db.settings.storeName,
-        supportEmail: db.settings.supportEmail,
+        storeName: db.settings.storeName || "AURA",
+        supportEmail: db.settings.supportEmail || "concierge@auraliving.store",
         freeShippingThresholdUsd: db.settings.freeShippingThresholdUsd,
         shippingProtectionPriceUsd: db.settings.shippingProtectionPriceUsd,
         announcementText: db.settings.announcementText,
@@ -27,7 +29,7 @@ export async function GET() {
     },
     {
       headers: {
-        "Cache-Control": "public, max-age=120, s-maxage=600, stale-while-revalidate=86400",
+        "Cache-Control": "no-store, no-cache, must-revalidate",
       },
     }
   );
