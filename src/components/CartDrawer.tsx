@@ -239,41 +239,7 @@ export default function CartDrawer() {
                   ))
                 )}
 
-                {/* Quick Add Companion */}
-                {upsellProduct && items.length > 0 && (
-                  <div className="p-3 rounded-2xl bg-amber-50/60 border border-amber-200/80 flex items-center justify-between gap-3">
-                    <div className="flex items-center gap-2.5 min-w-0">
-                      <div className="relative w-11 h-11 rounded-lg overflow-hidden shrink-0 bg-white border border-amber-200">
-                        <Image
-                          src={upsellProduct.image}
-                          alt={upsellProduct.name}
-                          fill
-                          className="object-cover"
-                          unoptimized
-                        />
-                      </div>
-                      <div className="truncate">
-                        <span className="text-[10px] font-bold text-amber-800 uppercase block">
-                          Recommended Companion
-                        </span>
-                        <div className="text-xs font-bold text-slate-900 truncate">
-                          {upsellProduct.name}
-                        </div>
-                        <div className="text-[11px] font-mono text-slate-600">
-                          {formatPrice(upsellProduct.price)}
-                        </div>
-                      </div>
-                    </div>
-                    <button
-                      onClick={() =>
-                        addToCart(upsellProduct, upsellProduct.variants[0], 1, false)
-                      }
-                      className="bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs font-bold px-3 py-1.5 rounded-xl shrink-0 transition-colors cursor-pointer"
-                    >
-                      + Add
-                    </button>
-                  </div>
-                )}
+                {/* End of Cart Items List */}
               </div>
 
               {/* Bottom Totals & Checkout Button */}
