@@ -123,51 +123,60 @@ export default function HomePage() {
       return matchCat && matchBrand && matchSupplier && matchSearch;
     });
 
-    // Trending products show first before others
-    const isTrending = (p: Product) => {
-      const b = (p.badge || "").toLowerCase();
-      const s = (p.soldCountText || "").toLowerCase();
+    // Trending products priority score (Glow Recipe, Tatcha Skin Dew, Anua, COSRX, La Roche-Posay show first)
+    const getTrendingScore = (p: Product) => {
       const n = (p.name || "").toLowerCase();
-      return (
-        b.includes("trending") ||
-        b.includes("tiktok") ||
-        b.includes("viral") ||
-        b.includes("bestseller") ||
-        b.includes("best seller") ||
-        s.includes("viral") ||
-        n.includes("snail 96") ||
-        n.includes("cicaplast") ||
-        n.includes("heartleaf")
-      );
+      const b = (p.brand || "").toLowerCase();
+      const badge = (p.badge || "").toLowerCase();
+
+      // Tier 1: Glow Recipe & Tatcha Skin Dew / Water Cream (Top priority)
+      if (n.includes("glow recipe") || b.includes("glow recipe")) return 100;
+      if (n.includes("tatcha") || b.includes("tatcha")) return 95;
+      if (n.includes("dewy skin") || n.includes("dew drops") || n.includes("plum plump")) return 90;
+
+      // Tier 2: Viral Holy Grail Sensations (Anua Heartleaf, COSRX Snail, Cicaplast, Beauty of Joseon)
+      if (n.includes("heartleaf") || b.includes("anua")) return 85;
+      if (n.includes("snail 96") || b.includes("cosrx")) return 80;
+      if (n.includes("cicaplast") || b.includes("la roche-posay")) return 78;
+      if (n.includes("joseon") || b.includes("beauty of joseon")) return 75;
+
+      // Tier 3: Cult Viral Skincare (Drunk Elephant, Aquaphor, CeraVe, Bioderma)
+      if (b.includes("drunk elephant") || n.includes("drunk elephant")) return 70;
+      if (n.includes("aquaphor") || b.includes("eucerin")) return 65;
+      if (b.includes("cerave") || n.includes("cerave")) return 60;
+      if (b.includes("bioderma")) return 55;
+
+      if (badge.includes("trending") || badge.includes("tiktok") || badge.includes("viral") || badge.includes("bestseller")) return 50;
+      return 0;
     };
 
     if (sortBy === "price-asc") {
       list.sort((a, b) => {
-        const trendA = isTrending(a) ? 1 : 0;
-        const trendB = isTrending(b) ? 1 : 0;
-        if (trendA !== trendB) return trendB - trendA;
+        const scoreA = getTrendingScore(a);
+        const scoreB = getTrendingScore(b);
+        if (scoreA !== scoreB) return scoreB - scoreA;
         return a.price - b.price;
       });
     } else if (sortBy === "price-desc") {
       list.sort((a, b) => {
-        const trendA = isTrending(a) ? 1 : 0;
-        const trendB = isTrending(b) ? 1 : 0;
-        if (trendA !== trendB) return trendB - trendA;
+        const scoreA = getTrendingScore(a);
+        const scoreB = getTrendingScore(b);
+        if (scoreA !== scoreB) return scoreB - scoreA;
         return b.price - a.price;
       });
     } else if (sortBy === "rating") {
       list.sort((a, b) => {
-        const trendA = isTrending(a) ? 1 : 0;
-        const trendB = isTrending(b) ? 1 : 0;
-        if (trendA !== trendB) return trendB - trendA;
+        const scoreA = getTrendingScore(a);
+        const scoreB = getTrendingScore(b);
+        if (scoreA !== scoreB) return scoreB - scoreA;
         return b.rating - a.rating;
       });
     } else {
-      // Default order: Prioritize trending viral products first
+      // Default order: Prioritize Glow Recipe, Tatcha Dewy Skin, and viral trends at the very top
       list.sort((a, b) => {
-        const trendA = isTrending(a) ? 1 : 0;
-        const trendB = isTrending(b) ? 1 : 0;
-        if (trendA !== trendB) return trendB - trendA;
+        const scoreA = getTrendingScore(a);
+        const scoreB = getTrendingScore(b);
+        if (scoreA !== scoreB) return scoreB - scoreA;
         return b.rating - a.rating;
       });
     }
