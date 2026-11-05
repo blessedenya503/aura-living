@@ -137,6 +137,14 @@ export interface Product {
     | "Direct Pharmaceutical Wholesale";
   supplierMoq?: number;
   shippingDays?: string;
+  isBundle?: boolean;
+  bundledItems?: {
+    brand: string;
+    name: string;
+    size: string;
+    step: string;
+    role: string;
+  }[];
 }
 
 export const CATEGORIES: ProductCategory[] = [

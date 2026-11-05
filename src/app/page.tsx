@@ -13,6 +13,8 @@ import GlobalSearchModal from "@/components/GlobalSearchModal";
 import StorefrontFloatingHelp from "@/components/StorefrontFloatingHelp";
 import AuraAiChatModal from "@/components/AuraAiChatModal";
 import CustomerReviewsSection from "@/components/CustomerReviewsSection";
+import ShopByConcern, { SkinConcernKey } from "@/components/ShopByConcern";
+import CuratedBundlesSection from "@/components/CuratedBundlesSection";
 import { PaymentLogosStrip } from "@/components/PaymentLogos";
 import { CATEGORIES, ProductCategory, Product } from "@/data/products";
 import { useCart } from "@/context/CartContext";
@@ -70,6 +72,7 @@ export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory>("All");
   const [selectedBrand, setSelectedBrand] = useState<string>("All Brands");
   const [selectedSupplier, setSelectedSupplier] = useState<string>("All Channels");
+  const [selectedConcern, setSelectedConcern] = useState<SkinConcernKey>("all");
   const [sortBy, setSortBy] = useState<"featured" | "price-asc" | "price-desc" | "rating">("featured");
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(24);
@@ -114,6 +117,22 @@ export default function HomePage() {
         selectedBrand === "All Brands" || p.brand === selectedBrand;
       const matchSupplier =
         selectedSupplier === "All Channels" || p.supplierSource === selectedSupplier;
+
+      // Skin Concern filtering
+      let matchConcern = true;
+      if (selectedConcern !== "all") {
+        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")} ${p.tagline || ""}`.toLowerCase();
+        if (selectedConcern === "acne") {
+          matchConcern = text.includes("acne") || text.includes("blemish") || text.includes("salicylic") || text.includes("clarif") || text.includes("bha") || text.includes("pore");
+        } else if (selectedConcern === "hydration") {
+          matchConcern = text.includes("hydrat") || text.includes("hyaluronic") || text.includes("moistur") || text.includes("dewy") || text.includes("water") || text.includes("plump");
+        } else if (selectedConcern === "hyperpigmentation") {
+          matchConcern = text.includes("brighten") || text.includes("vitamin c") || text.includes("niacinamide") || text.includes("dark spot") || text.includes("glow") || text.includes("radiant");
+        } else if (selectedConcern === "barrier") {
+          matchConcern = text.includes("barrier") || text.includes("ceramide") || text.includes("repair") || text.includes("sooth") || text.includes("calm") || text.includes("cicaplast") || text.includes("cica");
+        }
+      }
+
       const query = searchQuery.trim().toLowerCase();
       const matchSearch =
         !query ||
@@ -121,7 +140,7 @@ export default function HomePage() {
         p.brand.toLowerCase().includes(query) ||
         (p.sku && p.sku.toLowerCase().includes(query)) ||
         p.keyIngredients.some((ing) => ing.toLowerCase().includes(query));
-      return matchCat && matchBrand && matchSupplier && matchSearch;
+      return matchCat && matchBrand && matchSupplier && matchConcern && matchSearch;
     });
 
     // Trending products priority score (Glow Recipe, Tatcha Skin Dew, Anua, COSRX, La Roche-Posay show first)
@@ -182,7 +201,35 @@ export default function HomePage() {
       });
     }
     return list;
-  }, [products, selectedCategory, selectedBrand, selectedSupplier, searchQuery, sortBy]);
+  }, [products, selectedCategory, selectedBrand, selectedSupplier, selectedConcern, searchQuery, sortBy]);
+
+  // Skin concern counts
+  const concernCounts = useMemo(() => {
+    return {
+      all: products.length,
+      acne: products.filter((p) => {
+        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
+        return text.includes("acne") || text.includes("blemish") || text.includes("salicylic") || text.includes("clarif") || text.includes("bha") || text.includes("pore");
+      }).length,
+      hydration: products.filter((p) => {
+        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
+        return text.includes("hydrat") || text.includes("hyaluronic") || text.includes("moistur") || text.includes("dewy") || text.includes("water") || text.includes("plump");
+      }).length,
+      hyperpigmentation: products.filter((p) => {
+        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
+        return text.includes("brighten") || text.includes("vitamin c") || text.includes("niacinamide") || text.includes("dark spot") || text.includes("glow") || text.includes("radiant");
+      }).length,
+      barrier: products.filter((p) => {
+        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
+        return text.includes("barrier") || text.includes("ceramide") || text.includes("repair") || text.includes("sooth") || text.includes("calm") || text.includes("cicaplast") || text.includes("cica");
+      }).length,
+    };
+  }, [products]);
+
+  // Featured El Niño Bundle
+  const elNinoBundle = useMemo(() => {
+    return products.find((p) => p.id === "bundle-el-nino");
+  }, [products]);
 
   // Pagination calculation
   const totalPages = Math.max(1, Math.ceil(filteredProducts.length / pageSize));
@@ -258,6 +305,19 @@ export default function HomePage() {
         {/* Hero Section */}
         <Hero />
 
+        {/* Curated Skincare Bundles: El Niño Skincare Bundle Showcase */}
+        {elNinoBundle && <CuratedBundlesSection bundleProduct={elNinoBundle} />}
+
+        {/* Shop by Skin Concern Section */}
+        <ShopByConcern
+          selectedConcern={selectedConcern}
+          onSelectConcern={(c) => {
+            setSelectedConcern(c);
+            setCurrentPage(1);
+          }}
+          counts={concernCounts}
+        />
+
         {/* Main Products Catalog Section */}
         <section
           id="catalog-section"
@@ -266,11 +326,11 @@ export default function HomePage() {
           {/* Elegant Collection Header (styled like the luxury reference: "EXPLORE OUR COLLECTIONS") */}
           <div className="text-center mb-8 sm:mb-10">
             <h2 className="text-2xl sm:text-4xl font-serif font-normal tracking-wide text-slate-900 uppercase">
-              Explore Our Collections
+              Explore Our Skincare Collections
             </h2>
-            <div className="w-12 h-[2px] bg-[#6B4423] mx-auto mt-2.5 mb-2 rounded-full" />
+            <div className="w-12 h-[2px] bg-[#002B7F] mx-auto mt-2.5 mb-2 rounded-full" />
             <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto">
-              Curated viral skincare, restorative barrier balms, soothing gels, luxury fragrances, and scalp rituals.
+              Authentic multi-brand skincare curated from CeraVe, COSRX, The Ordinary, Anua, Beauty of Joseon, and La Roche-Posay.
             </p>
           </div>
 
@@ -295,7 +355,7 @@ export default function HomePage() {
                   }}
                   onFocus={() => setIsSearchOpen(true)}
                   onClick={() => setIsSearchOpen(true)}
-                  placeholder="Search hair, colognes, balms, gels..."
+                  placeholder="Search serums, ceramides, SPF, toners..."
                   className="w-full pl-9 pr-12 py-2 text-xs bg-white hover:bg-slate-50 focus:bg-white border border-slate-200 focus:border-[#002B7F] rounded-xl text-slate-800 placeholder:text-slate-400 shadow-2xs outline-hidden transition-all"
                 />
                 <div className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none">

@@ -28,6 +28,8 @@ import CheckoutModal from "@/components/CheckoutModal";
 import GlobalSearchModal from "@/components/GlobalSearchModal";
 import AuraAiChatModal from "@/components/AuraAiChatModal";
 import ProductCard from "@/components/ProductCard";
+import CustomerReviewsSection from "@/components/CustomerReviewsSection";
+import { Info, Layers, SunMedium, Wind, AlertCircle } from "lucide-react";
 import ProductModal from "@/components/ProductModal";
 
 function getSafeImageUrl(url?: string): string {
@@ -475,6 +477,91 @@ export function ProductDetailPage({
           </div>
         </div>
 
+        {/* Dedicated Bundle Breakdown Box (for Curated Bundles such as El Niño Bundle) */}
+        {product.isBundle && (
+          <div className="mb-12 bg-linear-to-b from-blue-50/50 via-white to-slate-50 rounded-3xl border border-blue-200/80 p-6 sm:p-8 shadow-sm">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="bg-[#002B7F] text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md flex items-center gap-1.5">
+                <Layers className="w-3.5 h-3.5 text-amber-300" />
+                <span>Curated Treatment System</span>
+              </span>
+              <span className="text-xs font-semibold text-blue-900">
+                Multi-Product Climate Defense Routine
+              </span>
+            </div>
+
+            <h3 className="text-xl sm:text-2xl font-extrabold text-slate-950 mb-2">
+              What&apos;s Included In The {product.name}
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-600 mb-6 leading-relaxed max-w-3xl">
+              Each step in this curated set is specifically formulated to defend and replenish skin undergoing seasonal climate stress, preventing trans-epidermal water loss (TEWL) and barrier damage.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mb-6">
+              {(product.bundledItems && product.bundledItems.length > 0
+                ? product.bundledItems
+                : [
+                    {
+                      step: "Step 1: Hydrating Cleanser",
+                      brand: "Product Slot 1",
+                      name: "Gentle Restorative Moisture Cleanser",
+                      size: "150ml / 5.1 fl oz",
+                      role: "Purifies without stripping lipid barrier oils.",
+                    },
+                    {
+                      step: "Step 2: Deep Moisture Essence",
+                      brand: "Product Slot 2",
+                      name: "Intensive Hydration Multi-Molecular Essence",
+                      size: "150ml / 5.1 fl oz",
+                      role: "Replenishes moisture reservoirs parched by dry heat.",
+                    },
+                    {
+                      step: "Step 3: Barrier Treatment Serum",
+                      brand: "Product Slot 3",
+                      name: "Ceramide & Centella Barrier Treatment Serum",
+                      size: "30ml / 1.0 fl oz",
+                      role: "Halts trans-epidermal water loss and soothes redness.",
+                    },
+                    {
+                      step: "Step 4: Shield Moisturizer",
+                      brand: "Product Slot 4",
+                      name: "Deep Climate Defense Seal Cream",
+                      size: "50ml / 1.7 oz",
+                      role: "Locks in 48H continuous hydration against dry winds.",
+                    },
+                  ]
+              ).map((item, idx) => (
+                <div
+                  key={idx}
+                  className="p-4 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:border-blue-300 transition-colors"
+                >
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className="text-[11px] font-bold text-[#002B7F] bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-100">
+                      {item.step}
+                    </span>
+                    <span className="text-[11px] font-mono text-slate-500">
+                      {item.size}
+                    </span>
+                  </div>
+                  <h4 className="text-sm font-bold text-slate-900 mb-1">
+                    {item.name}
+                  </h4>
+                  <p className="text-xs text-slate-600 leading-relaxed">
+                    {item.role}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <div className="p-4 rounded-2xl bg-blue-50/80 border border-blue-200 text-xs text-blue-950 flex items-start gap-3">
+              <SunMedium className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+              <div>
+                <strong className="font-bold">Climate Defense Rationale:</strong> Extreme dry heat and shifting humidity severely degrade the stratum corneum lipid matrix. This 4-step routine works synergistically to keep moisture locked in throughout high-temperature days and dry harmattan/monsoon wind seasons.
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Benefits & Clinical Verifications Tabs/Grid */}
         {product.benefits && product.benefits.length > 0 && (
           <div className="mb-12 bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
@@ -497,6 +584,50 @@ export function ProductDetailPage({
             </div>
           </div>
         )}
+
+        {/* Step-by-Step Usage & Precautions */}
+        <div className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
+            <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+              <Clock className="w-4 h-4 text-[#002B7F]" />
+              <span>How to Use (AM &amp; PM Routine)</span>
+            </h3>
+            <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
+              {product.howToUse ||
+                "AM Routine: Apply gently to cleansed skin after toning. Follow with broad-spectrum sunscreen.\n\nPM Routine: Smooth onto face and neck after cleansing. Gently pat until fully absorbed into the dermal layer."}
+            </p>
+          </div>
+
+          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
+            <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+              <AlertCircle className="w-4 h-4 text-amber-600" />
+              <span>Usage Precautions &amp; Storage</span>
+            </h3>
+            <ul className="space-y-2 text-xs text-slate-600 leading-relaxed">
+              <li className="flex items-start gap-2">
+                <span className="text-slate-400">•</span>
+                <span>For external topical dermatological use only. Avoid direct contact with eyes.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-slate-400">•</span>
+                <span>Patch testing on the inner forearm is advised 24 hours prior to first facial application.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-slate-400">•</span>
+                <span>Store in a cool, dry place away from direct sunlight and heat exposure. Keep sealed.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-slate-400">•</span>
+                <span>Discontinue use if irritation or rash develops and consult a dermatologist.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Genuine Customer Reviews Section */}
+        <div className="mb-12">
+          <CustomerReviewsSection />
+        </div>
 
         {/* Related Skincare Items */}
         {relatedProducts.length > 0 && (
