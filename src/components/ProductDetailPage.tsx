@@ -26,7 +26,6 @@ import Navbar from "@/components/Navbar";
 import CartDrawer from "@/components/CartDrawer";
 import CheckoutModal from "@/components/CheckoutModal";
 import GlobalSearchModal from "@/components/GlobalSearchModal";
-import AuraAiChatModal from "@/components/AuraAiChatModal";
 import ProductCard from "@/components/ProductCard";
 import CustomerReviewsSection from "@/components/CustomerReviewsSection";
 import { Info, Layers, SunMedium, Wind, AlertCircle } from "lucide-react";
@@ -59,13 +58,6 @@ export function ProductDetailPage({
   const [bundleTier, setBundleTier] = useState<1 | 2 | 3>(1);
   const [copiedLink, setCopiedLink] = useState(false);
   const [isAdded, setIsAdded] = useState(false);
-  const [isAiChatOpen, setIsAiChatOpen] = useState(false);
-
-  React.useEffect(() => {
-    const handleOpenAi = () => setIsAiChatOpen(true);
-    window.addEventListener("open-aura-ai", handleOpenAi);
-    return () => window.removeEventListener("open-aura-ai", handleOpenAi);
-  }, []);
 
   const images =
     product.gallery && product.gallery.length > 0
@@ -663,7 +655,6 @@ export function ProductDetailPage({
       <CartDrawer />
       <CheckoutModal />
       <GlobalSearchModal />
-      <AuraAiChatModal isOpen={isAiChatOpen} onClose={() => setIsAiChatOpen(false)} />
       <ProductModal />
     </div>
   );

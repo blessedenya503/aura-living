@@ -29,6 +29,16 @@ export default function Navbar() {
   } = useCart();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [showAuraWordmark, setShowAuraWordmark] = useState(false);
+
+  useEffect(() => {
+    // Show AURA wordmark popping out of the logo for 2 seconds on first visit/load, then tuck back in
+    setShowAuraWordmark(true);
+    const timer = setTimeout(() => {
+      setShowAuraWordmark(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const scrollToCatalog = () => {
     const el = document.getElementById("catalog-section");
@@ -63,27 +73,37 @@ export default function Navbar() {
             {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
 
-          {/* Brand Logo with Glowing Aura Badge */}
+          {/* Brand Logo with Animated AURA Wordmark that pops out on first load for 2s then retracts */}
           <Link href="/" className="flex items-center gap-2 group relative shrink-0">
             {/* Circular Ring & Core */}
             <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gradient-to-tr from-[#002B7F] via-blue-700 to-cyan-500 p-[1.5px] shadow-[0_0_12px_rgba(0,242,254,0.5)]">
               <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
                 <span className="font-extrabold text-xs tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-amber-300">
-                  {(storeSettings?.storeName || "AURA").slice(0, 2).toUpperCase()}
+                  AU
                 </span>
               </div>
             </div>
 
-          {/* Wordmark */}
-          <div className="flex flex-col justify-center">
-            <span
-              className={`text-base sm:text-lg font-black tracking-tight leading-none ${
-                isNightRecovery ? "text-white" : "text-slate-950"
-              }`}
-            >
-              AURA
-            </span>
-          </div>
+            {/* Wordmark (pops out for 2s on load, then neatly tucks back in) */}
+            <AnimatePresence>
+              {showAuraWordmark && (
+                <motion.div
+                  initial={{ opacity: 0, x: -8, width: 0 }}
+                  animate={{ opacity: 1, x: 0, width: "auto" }}
+                  exit={{ opacity: 0, x: -8, width: 0 }}
+                  transition={{ duration: 0.35, ease: "easeInOut" }}
+                  className="overflow-hidden flex flex-col justify-center"
+                >
+                  <span
+                    className={`text-base sm:text-lg font-black tracking-tight leading-none pr-1 ${
+                      isNightRecovery ? "text-white" : "text-slate-950"
+                    }`}
+                  >
+                    AURA
+                  </span>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </Link>
         </div>
 
@@ -147,21 +167,6 @@ export default function Navbar() {
 
           {/* Circular Flag Currency Selector with Real-time Rates */}
           <CurrencySelector />
-
-          {/* WhatsApp & Concierge Modal Opener */}
-          <button
-            type="button"
-            onClick={() => {
-              const evt = new CustomEvent("open-aura-ai");
-              window.dispatchEvent(evt);
-            }}
-            className="flex items-center justify-center gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-xl text-xs font-bold transition-all shadow-md border border-emerald-400/40 bg-emerald-600 hover:bg-emerald-500 text-white cursor-pointer"
-            title="AURA WhatsApp & Concierge (07038703778)"
-            aria-label="AURA WhatsApp & Concierge"
-          >
-            <Phone className="w-4 h-4 sm:w-3.5 sm:h-3.5 text-white animate-bounce shrink-0" />
-            <span className="hidden md:inline text-[11px] font-mono tracking-tight text-white">07038703778</span>
-          </button>
 
           {/* User Sign In Link (Desktop Only) */}
           <Link

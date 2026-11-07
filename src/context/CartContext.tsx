@@ -202,7 +202,20 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       if (savedCurr && CURRENCIES[savedCurr]) {
         setCurrencyState(savedCurr);
       } else {
-        setCurrencyState("NGN");
+        // Automatically detect user location and match nearest currency (Nigeria, Africa, UK, US, etc.)
+        fetch("/api/geo")
+          .then((r) => r.json())
+          .then((geo) => {
+            if (geo?.currency && CURRENCIES[geo.currency as CurrencyCode]) {
+              setCurrencyState(geo.currency as CurrencyCode);
+              try {
+                localStorage.setItem("aura_currency_v1", geo.currency);
+              } catch {}
+            }
+          })
+          .catch(() => {
+            setCurrencyState("NGN");
+          });
       }
 
       // 4 in every 10 customers (40%) get randomized discount eligibility stored persistently
