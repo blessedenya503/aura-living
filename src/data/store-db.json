@@ -5924,52 +5924,6 @@
       ]
     },
     {
-      "id": "imp-tatcha-dewy-skin",
-      "sku": "TAT-DEW-050",
-      "faqs": [],
-      "name": "Tatcha The Dewy Skin Cream",
-      "size": "50ml / 1.7 oz",
-      "badge": "Japanese Purple Rice",
-      "brand": "Tatcha",
-      "image": "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
-      "price": 47.22,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg"
-      ],
-      "reviews": [],
-      "tagline": "Rich antioxidant Japanese purple rice cream that feeds skin with plumping hydration",
-      "benefits": [
-        "Deeply hydrates and locks in rich moisture",
-        "Replenishes ceramides for youthful bounce",
-        "Leaves an exquisite dewy sheen"
-      ],
-      "category": "Moisturizing Creams",
-      "skinType": "Dry to Very Dry, Mature Skin",
-      "variants": [
-        {
-          "name": "50ml / 1.7 oz",
-          "inStock": true,
-          "colorHex": "#0032A0"
-        }
-      ],
-      "stockLeft": 180,
-      "reviewCount": 26800,
-      "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-      "supplierCost": 34,
-      "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 59.02,
-      "keyIngredients": [
-        "Japanese Purple Rice",
-        "Okinawa Algae Complex",
-        "Hyaluronic Acid",
-        "Botanical Extracts"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "shortDescription": "Infuses skin with Japanese purple rice, Okinawa algae, and hyaluronic acid for an instant dewy bounce.",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
-    },
-    {
       "id": "amz-prod-B00KJRVUXU",
       "sku": "AMZ-B00KJRVUXU",
       "faqs": [],
@@ -6139,51 +6093,6 @@
       "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
     },
     {
-      "id": "imp-avene-thermal-spring-water",
-      "sku": "AVN-THW-300",
-      "faqs": [],
-      "name": "Avène Thermal Spring Water Soothing Facial Mist",
-      "size": "300ml / 10.1 oz",
-      "badge": "Direct from Spring",
-      "brand": "Avène",
-      "image": "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg",
-      "price": 9.32,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg"
-      ],
-      "reviews": [],
-      "tagline": "Pure biological thermal water bottled directly at the source to soothe & soften",
-      "benefits": [
-        "Instantly relieves irritation and post-procedure warmth",
-        "Restores cutaneous balance and microflora",
-        "Preservative-free sterile packaging"
-      ],
-      "category": "Active Serums & Toners",
-      "skinType": "All Skin Types, Hypersensitive & Allergic",
-      "variants": [
-        {
-          "name": "300ml / 10.1 oz",
-          "inStock": true,
-          "colorHex": "#0032A0"
-        }
-      ],
-      "stockLeft": 180,
-      "reviewCount": 21000,
-      "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-      "supplierCost": 6.8,
-      "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 11.65,
-      "keyIngredients": [
-        "100% Avène Thermal Spring Water",
-        "Silica",
-        "Optimal Calcium/Magnesium Ratio"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "shortDescription": "Clinically shown to soothe redness, tightness, and itching with unique low mineral content and neutral pH.",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
-    },
-    {
       "id": "imp-glow-recipe-plum-plump",
       "sku": "GLO-PLU-050",
       "faqs": [],
@@ -6274,97 +6183,6 @@
       "supplierSource": "Direct Wholesale Authenticated",
       "shortDescription": "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time.",
       "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
-    },
-    {
-      "id": "imp-bioderma-sensibio-h2o",
-      "sku": "BIO-SEN-500",
-      "faqs": [],
-      "name": "Bioderma Sensibio H2O Micellar Cleansing Water",
-      "size": "500ml / 16.7 oz",
-      "badge": "TikTok #1 Trending",
-      "brand": "Bioderma",
-      "image": "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
-      "price": 10.71,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg"
-      ],
-      "reviews": [],
-      "tagline": "The original pharmaceutical micellar water respecting the fragility of sensitive skin",
-      "benefits": [
-        "Removes 99% of makeup and pollution particles",
-        "Physiological pH 5.5 matches natural skin barrier",
-        "No rinsing required"
-      ],
-      "category": "Gentle Cleansers & Masks",
-      "skinType": "Sensitive, Reactive, Intolerant Skin",
-      "variants": [
-        {
-          "name": "500ml / 16.7 oz",
-          "inStock": true,
-          "colorHex": "#0032A0"
-        }
-      ],
-      "stockLeft": 180,
-      "reviewCount": 35000,
-      "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-      "supplierCost": 7.5,
-      "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 13.39,
-      "keyIngredients": [
-        "Biomimetic Micelles",
-        "Cucumis Sativus (Cucumber) Extract",
-        "Highly Purified Pharmaceutical Water"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "shortDescription": "Biomimetic micellar technology that captures impurities and heavy makeup while preserving the physiological microbiome.",
-      "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive."
-    },
-    {
-      "id": "imp-drunk-elephant-cfirma",
-      "sku": "DRE-CFR-028",
-      "faqs": [],
-      "name": "Drunk Elephant C-Firma™ Fresh Day Serum",
-      "size": "28ml / 0.94 oz",
-      "badge": "15% Pure Vitamin C",
-      "brand": "Drunk Elephant",
-      "image": "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg",
-      "price": 50.67,
-      "rating": 4.7,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg"
-      ],
-      "reviews": [],
-      "tagline": "15% L-Ascorbic Acid and Ferulic Acid antioxidant complex to dissolve dead surface skin",
-      "benefits": [
-        "Brightens and refines complexion",
-        "Dissolves dead surface cells enzymatically",
-        "72-hour reservoir effect"
-      ],
-      "category": "Active Serums & Toners",
-      "skinType": "Uneven Tone, Dull, Aging Skin",
-      "variants": [
-        {
-          "name": "28ml / 0.94 oz",
-          "inStock": true,
-          "colorHex": "#0032A0"
-        }
-      ],
-      "stockLeft": 180,
-      "reviewCount": 11200,
-      "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-      "supplierCost": 38,
-      "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 63.34,
-      "keyIngredients": [
-        "15% L-Ascorbic Acid",
-        "0.5% Ferulic Acid",
-        "1.0% Vitamin E",
-        "Pumpkin Ferment Extract"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "shortDescription": "Packed with 15% pure Vitamin C, 1% Vitamin E, and 0.5% Ferulic Acid plus pumpkin ferment for uniform luminosity.",
-      "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+."
     },
     {
       "id": "imp-drunk-elephant-protini",
@@ -7357,51 +7175,6 @@
         "Hyaluronic Acid"
       ],
       "shortDescription": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00TTD9BRC).",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
-    },
-    {
-      "id": "imp-tatcha-water-cream",
-      "sku": "TAT-WAT-050",
-      "faqs": [],
-      "name": "Tatcha The Water Cream Oil-Free Pore-Minimizing",
-      "size": "50ml / 1.7 oz",
-      "badge": "Japanese Wild Rose",
-      "brand": "Tatcha",
-      "image": "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg",
-      "price": 44.59,
-      "rating": 4.8,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg"
-      ],
-      "reviews": [],
-      "tagline": "Burst of pure hydration with Japanese wild rose and leopard lily to clarify pores",
-      "benefits": [
-        "Refines and clarifies pore texture",
-        "Balances excess sebum production",
-        "Imparts subtle 23k gold luminescence"
-      ],
-      "category": "Moisturizing Creams",
-      "skinType": "Oily, Combination, Blemish-Prone Skin",
-      "variants": [
-        {
-          "name": "50ml / 1.7 oz",
-          "inStock": true,
-          "colorHex": "#0032A0"
-        }
-      ],
-      "stockLeft": 180,
-      "reviewCount": 21400,
-      "shippingDays": "2–4 Days (Amazon Prime Dropship)",
-      "supplierCost": 33,
-      "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 55.74,
-      "keyIngredients": [
-        "Japanese Wild Rose",
-        "Japanese Leopard Lily",
-        "Hadasei-3 Trinity Complex"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "shortDescription": "Unique water-burst formula breaks upon application to deliver deep moisture without grease or stickiness.",
       "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
     },
     {
@@ -10440,47 +10213,6 @@
       "packagingDescription": "amber glass bottle with pump dispenser, approx. 400ml Pump; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
     },
     {
-      "id": "prod-eucerin-62",
-      "sku": "EUC-EYE-0062",
-      "name": "Eucerin Hyaluron-Filler Eye Cream SPF 15 UVA Protection",
-      "size": "15ml Precision Tube",
-      "brand": "Eucerin",
-      "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
-      "price": 16.06,
-      "rating": 4.8,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Eye Cream formulation with Hyaluronic Acid & Glycine Saponin.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Sunscreen & Daily Defense",
-      "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621432/pexels-photo-6621432.jpeg?auto=compress&cs=tinysrgb&w=800&entry=63",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Eucerin Hyaluron-Filler Eye Cream SPF 15 UVA Protection is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hyaluronic Acid, Glycine Saponin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 2306,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 11.4,
-      "compareAtPrice": 20.07,
-      "keyIngredients": [
-        "Hyaluronic Acid",
-        "Glycine Saponin"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "slim squeeze sunscreen tube with flip cap, approx. 15ml Precision Tube; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-eucerin-63",
       "sku": "EUC-MOI-0063",
       "name": "Eucerin Original Healing Cream Extremely Dry Compromised Skin",
@@ -10567,49 +10299,6 @@
       "packagingDescription": "large pump-top lotion bottle, approx. 500ml Pump; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
     },
     {
-      "id": "prod-eucerin-65",
-      "sku": "EUC-MOI-0065",
-      "name": "Eucerin Redness Relief Night Creme Calming Formula",
-      "size": "48g Jar",
-      "badge": "Best Seller",
-      "brand": "Eucerin",
-      "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg",
-      "price": 8.92,
-      "rating": 4.7,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Natural Licochalcone & Panthenol.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Barrier Repair & Relief",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621435/pexels-photo-6621435.jpeg?auto=compress&cs=tinysrgb&w=800&entry=66",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Eucerin Redness Relief Night Creme Calming Formula is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Natural Licochalcone, Panthenol, Glycerin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 2525,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 6.6,
-      "compareAtPrice": 11.15,
-      "keyIngredients": [
-        "Natural Licochalcone",
-        "Panthenol",
-        "Glycerin"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "round heavy-glass cream jar with screw lid, approx. 48g Jar; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-eucerin-66",
       "sku": "EUC-SER-0066",
       "name": "Eucerin Hyaluron-Filler Moisture Booster Ultralight Gel",
@@ -10692,90 +10381,6 @@
       "packagingDescription": "slim squeeze sunscreen tube with flip cap, approx. 50ml Pump; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
     },
     {
-      "id": "prod-eucerin-68",
-      "sku": "EUC-SER-0068",
-      "name": "Eucerin DermoPurifyer Skin Renovation Triple Effect Serum",
-      "size": "40ml Pump",
-      "brand": "Eucerin",
-      "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
-      "price": 13.8,
-      "rating": 4.6,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Serums formulation with Thiamidol & Salicylic Acid.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Active Serums & Toners",
-      "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621438/pexels-photo-6621438.jpeg?auto=compress&cs=tinysrgb&w=800&entry=69",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Eucerin DermoPurifyer Skin Renovation Triple Effect Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Thiamidol, Salicylic Acid, Licochalcone A to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 344,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 9.8,
-      "compareAtPrice": 17.25,
-      "keyIngredients": [
-        "Thiamidol",
-        "Salicylic Acid",
-        "Licochalcone A"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "frosted glass dropper bottle, approx. 40ml Pump; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-eucerin-69",
-      "sku": "EUC-CLE-0069",
-      "name": "Eucerin pH5 Shower Oil Sensitive & Dry Skin Defense",
-      "size": "400ml Bottle",
-      "brand": "Eucerin",
-      "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
-      "price": 10,
-      "rating": 4.7,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Cleansers formulation with Glycine Soja Oil & Castor Oil.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Gentle Cleansers & Masks",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621439/pexels-photo-6621439.jpeg?auto=compress&cs=tinysrgb&w=800&entry=70",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Eucerin pH5 Shower Oil Sensitive & Dry Skin Defense is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Glycine Soja Oil, Castor Oil, Citric Acid Buffer to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 417,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 7,
-      "compareAtPrice": 12.5,
-      "keyIngredients": [
-        "Glycine Soja Oil",
-        "Castor Oil",
-        "Citric Acid Buffer"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "amber glass bottle with pump dispenser, approx. 400ml Bottle; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-eucerin-70",
       "sku": "EUC-SUN-0070",
       "name": "Eucerin Sun Sensitive Protect Kids SPF 50+ Spray Corps",
@@ -10819,48 +10424,6 @@
       "packagingDescription": "Real retail packaging of \"Eucerin Sun Sensitive Protect Kids SPF 50+ Spray Corps\" (photo from OpenBeautyFacts)."
     },
     {
-      "id": "prod-eucerin-71",
-      "sku": "EUC-MOI-0071",
-      "name": "Eucerin Hyaluron-Filler + Elasticity Day Cream SPF 20",
-      "size": "50ml Jar",
-      "brand": "Eucerin",
-      "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
-      "price": 21.08,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Arctiin & Silymarin.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Sunscreen & Daily Defense",
-      "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621441/pexels-photo-6621441.jpeg?auto=compress&cs=tinysrgb&w=800&entry=72",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Eucerin Hyaluron-Filler + Elasticity Day Cream SPF 20 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Arctiin, Silymarin, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 563,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 15.6,
-      "compareAtPrice": 26.35,
-      "keyIngredients": [
-        "Arctiin",
-        "Silymarin",
-        "Hyaluronic Acid"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "slim squeeze sunscreen tube with flip cap, approx. 50ml Jar; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-eucerin-72",
       "sku": "EUC-MOI-0072",
       "name": "Eucerin Aquaphor Lip Repair Immediate Relief Ointment",
@@ -10902,47 +10465,6 @@
       "supplierSource": "Direct Wholesale Authenticated",
       "shortDescription": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours.",
       "packagingDescription": "small squeezable lip balm tube, approx. 10ml Tube; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-eucerin-73",
-      "sku": "EUC-CLE-0073",
-      "name": "Eucerin AtopiControl Bath and Shower Oil 20% Omega",
-      "size": "400ml Bottle",
-      "brand": "Eucerin",
-      "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
-      "price": 11.67,
-      "rating": 4.7,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Cleansers formulation with Omega 3 & 6 Fatty Acids & Glycine Soja.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Gentle Cleansers & Masks",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621443/pexels-photo-6621443.jpeg?auto=compress&cs=tinysrgb&w=800&entry=74",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Eucerin AtopiControl Bath and Shower Oil 20% Omega is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Omega 3 & 6 Fatty Acids, Glycine Soja to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 709,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 8.4,
-      "compareAtPrice": 14.59,
-      "keyIngredients": [
-        "Omega 3 & 6 Fatty Acids",
-        "Glycine Soja"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "amber glass bottle with pump dispenser, approx. 400ml Bottle; navy blue and white packaging with a clean pharmacy look. Label area is clean and unprinted in the render."
     },
     {
       "id": "prod-eucerin-75",
@@ -11577,49 +11099,6 @@
       "packagingDescription": "frosted glass dropper bottle, approx. 30ml Tube; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
     },
     {
-      "id": "prod-avne-91",
-      "sku": "AVÈ-MOI-0091",
-      "name": "Avène Hydrance Aqua-Gel 3-in-1 Hydrating Overnight Mask",
-      "size": "50ml Jar",
-      "badge": "Derm Recommended",
-      "brand": "Avène",
-      "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg",
-      "price": 18.92,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Cohederm™ & Pre-tocopheryl.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Moisturizing Creams",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621461/pexels-photo-6621461.jpeg?auto=compress&cs=tinysrgb&w=800&entry=92",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Avène Hydrance Aqua-Gel 3-in-1 Hydrating Overnight Mask is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Cohederm™, Pre-tocopheryl, Dextran Sulfate to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 2023,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 14,
-      "compareAtPrice": 23.65,
-      "keyIngredients": [
-        "Cohederm™",
-        "Pre-tocopheryl",
-        "Dextran Sulfate"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "wide short tub jar with screw lid, approx. 50ml Jar; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-avne-92",
       "sku": "AVÈ-CLE-0092",
       "name": "Avène Tolerance Extremely Gentle Cleansing Lotion Sterile",
@@ -11703,91 +11182,6 @@
       "packagingDescription": "amber glass bottle with pump dispenser, approx. 400ml Pump; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
     },
     {
-      "id": "prod-avne-94",
-      "sku": "AVÈ-SER-0094",
-      "name": "Avène Cleanance Women Corrective Serum Adult Acne Marks",
-      "size": "30ml Pump",
-      "brand": "Avène",
-      "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg",
-      "price": 19.15,
-      "rating": 4.8,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Serums formulation with Synovea™ HR & P-Refinyl.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Active Serums & Toners",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg?auto=compress&cs=tinysrgb&w=800&entry=95",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Avène Cleanance Women Corrective Serum Adult Acne Marks is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Synovea™ HR, P-Refinyl, Glycolic & Lactic Acids to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 2242,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 13.6,
-      "compareAtPrice": 23.94,
-      "keyIngredients": [
-        "Synovea™ HR",
-        "P-Refinyl",
-        "Glycolic & Lactic Acids"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "frosted glass dropper bottle, approx. 30ml Pump; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-avne-95",
-      "sku": "AVÈ-MOI-0095",
-      "name": "Avène DermAbsolu Defining Day Cream Mature Skin Density",
-      "size": "50ml Airless Jar",
-      "badge": "Best Seller",
-      "brand": "Avène",
-      "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
-      "price": 29.71,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Vanilla Polyphenols & Sytenol™ Bakuchiol.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Moisturizing Creams",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621465/pexels-photo-6621465.jpeg?auto=compress&cs=tinysrgb&w=800&entry=96",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Avène DermAbsolu Defining Day Cream Mature Skin Density is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Vanilla Polyphenols, Sytenol™ Bakuchiol, Glycoleol to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 2315,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 20.8,
-      "compareAtPrice": 37.14,
-      "keyIngredients": [
-        "Vanilla Polyphenols",
-        "Sytenol™ Bakuchiol",
-        "Glycoleol"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "round heavy-glass cream jar with screw lid, approx. 50ml Airless Jar; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-avne-96",
       "sku": "AVÈ-MOI-0096",
       "name": "Avène Cold Cream Ultra-Rich Nourishing Lip Butter",
@@ -11828,91 +11222,6 @@
       ],
       "supplierSource": "Direct Wholesale Authenticated",
       "packagingDescription": "small squeezable lip balm tube, approx. 4g Stick; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-avne-98",
-      "sku": "AVÈ-CLE-0098",
-      "name": "Avène Cleanance Mask Detox Exfoliating Clay Scrub",
-      "size": "50ml Tube",
-      "badge": "Derm Recommended",
-      "brand": "Avène",
-      "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg",
-      "price": 11.62,
-      "rating": 4.8,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Cleansers formulation with Kaolin Clay 15% & Biodegradable Microbeads.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Gentle Cleansers & Masks",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621468/pexels-photo-6621468.jpeg?auto=compress&cs=tinysrgb&w=800&entry=99",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Avène Cleanance Mask Detox Exfoliating Clay Scrub is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Kaolin Clay 15%, Biodegradable Microbeads, Zinc Gluconate to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 2534,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 8.6,
-      "compareAtPrice": 14.52,
-      "keyIngredients": [
-        "Kaolin Clay 15%",
-        "Biodegradable Microbeads",
-        "Zinc Gluconate"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "wide short tub jar with screw lid, approx. 50ml Tube; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-avne-99",
-      "sku": "AVÈ-MOI-0099",
-      "name": "Avène Antirougeurs Day Soothing Cream SPF 30 Rosacea",
-      "size": "40ml Tube",
-      "brand": "Avène",
-      "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
-      "price": 18.08,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Pongamia Oil & Redness Calming Actives.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Sunscreen & Daily Defense",
-      "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621469/pexels-photo-6621469.jpeg?auto=compress&cs=tinysrgb&w=800&entry=100",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Avène Antirougeurs Day Soothing Cream SPF 30 Rosacea is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pongamia Oil, Redness Calming Actives, SPF 30 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 207,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 13.2,
-      "compareAtPrice": 22.6,
-      "keyIngredients": [
-        "Pongamia Oil",
-        "Redness Calming Actives",
-        "SPF 30"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "slim squeeze sunscreen tube with flip cap, approx. 40ml Tube; white packaging with a light blue and turquoise wave-style band, pharmacy look. Label area is clean and unprinted in the render."
     },
     {
       "id": "prod-avne-100",
@@ -12086,50 +11395,6 @@
       "packagingDescription": "round heavy-glass cream jar with screw lid, approx. 30ml Tube; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render."
     },
     {
-      "id": "prod-bioderma-105",
-      "sku": "BIO-MOI-0105",
-      "name": "Bioderma Cicabio Creme+ Epidermal Soothing Restoring Balm",
-      "size": "100ml Tube",
-      "badge": "Best Seller",
-      "brand": "Bioderma",
-      "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
-      "price": 11.35,
-      "rating": 4.7,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Antalgicine™ Patent & Copper-Zinc Complex.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Barrier Repair & Relief",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "Dry, Cracked, Compromised Skin & Lips",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621475/pexels-photo-6621475.jpeg?auto=compress&cs=tinysrgb&w=800&entry=106",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Bioderma Cicabio Creme+ Epidermal Soothing Restoring Balm is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Antalgicine™ Patent, Copper-Zinc Complex, Centella Asiatica to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 645,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 8.4,
-      "compareAtPrice": 14.19,
-      "keyIngredients": [
-        "Antalgicine™ Patent",
-        "Copper-Zinc Complex",
-        "Centella Asiatica"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "shortDescription": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours.",
-      "packagingDescription": "round metal cosmetic tin jar, lid closed and screwed on, approx. 100ml Tube; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-bioderma-106",
       "sku": "BIO-SUN-0106",
       "name": "Bioderma Photoderm Max Crème SPF 50+ Invisible Fluid",
@@ -12300,177 +11565,6 @@
       "badge": "TikTok #1 Trending"
     },
     {
-      "id": "prod-bioderma-110",
-      "sku": "BIO-MOI-0110",
-      "name": "Bioderma Sebium Kerato+ Anti-Blemish Gel-Cream BHA + AHA",
-      "size": "30ml Tube",
-      "badge": "Best Seller",
-      "brand": "Bioderma",
-      "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
-      "price": 10.4,
-      "rating": 4.8,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Salicylic Acid 1.8% & Malic Acid Ester 10%.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Moisturizing Creams",
-      "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621480/pexels-photo-6621480.jpeg?auto=compress&cs=tinysrgb&w=800&entry=111",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Bioderma Sebium Kerato+ Anti-Blemish Gel-Cream BHA + AHA is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Salicylic Acid 1.8%, Malic Acid Ester 10%, Fluidactiv™ to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1010,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 7.8,
-      "compareAtPrice": 13,
-      "keyIngredients": [
-        "Salicylic Acid 1.8%",
-        "Malic Acid Ester 10%",
-        "Fluidactiv™"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "round heavy-glass cream jar with screw lid, approx. 30ml Tube; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-bioderma-111",
-      "sku": "BIO-EYE-0111",
-      "name": "Bioderma Sensibio Eye Contour Gel Puffiness & Fine Lines",
-      "size": "15ml Tube",
-      "brand": "Bioderma",
-      "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg",
-      "price": 10.27,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Eye Cream formulation with Toleridine™ Patent & Caffeine.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Anti-Aging & Q10",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621481/pexels-photo-6621481.jpeg?auto=compress&cs=tinysrgb&w=800&entry=112",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Bioderma Sensibio Eye Contour Gel Puffiness & Fine Lines is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Toleridine™ Patent, Caffeine, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1083,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 7.6,
-      "compareAtPrice": 12.84,
-      "keyIngredients": [
-        "Toleridine™ Patent",
-        "Caffeine",
-        "Hyaluronic Acid"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "small slim airless pump tube with metal applicator tip, approx. 15ml Tube; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render.",
-      "badge": "TikTok #1 Trending"
-    },
-    {
-      "id": "prod-bioderma-112",
-      "sku": "BIO-SER-0112",
-      "name": "Bioderma Pigmentbio C-Concentrate Brightening Pigment Corrector",
-      "size": "15ml Dropper",
-      "badge": "Derm Recommended",
-      "brand": "Bioderma",
-      "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
-      "price": 19.73,
-      "rating": 4.6,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Serums formulation with Fresh Vitamin C 2% & LumiReveal™ Technology.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Active Serums & Toners",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621482/pexels-photo-6621482.jpeg?auto=compress&cs=tinysrgb&w=800&entry=113",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Bioderma Pigmentbio C-Concentrate Brightening Pigment Corrector is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Fresh Vitamin C 2%, LumiReveal™ Technology, AHA/BHA 10% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1156,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 14.4,
-      "compareAtPrice": 24.66,
-      "keyIngredients": [
-        "Fresh Vitamin C 2%",
-        "LumiReveal™ Technology",
-        "AHA/BHA 10%"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "frosted glass dropper bottle, approx. 15ml Dropper; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-bioderma-113",
-      "sku": "BIO-MOI-0113",
-      "name": "Bioderma Atoderm Lip Stick Ultra-Nourishing Daily Balm",
-      "size": "4g Stick",
-      "brand": "Bioderma",
-      "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
-      "price": 3.33,
-      "rating": 4.7,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Shea Butter & Beeswax.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Moisturizing Creams",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621483/pexels-photo-6621483.jpeg?auto=compress&cs=tinysrgb&w=800&entry=114",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Bioderma Atoderm Lip Stick Ultra-Nourishing Daily Balm is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Shea Butter, Beeswax, Raspberry Aroma to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1229,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 2.4,
-      "compareAtPrice": 4.16,
-      "keyIngredients": [
-        "Shea Butter",
-        "Beeswax",
-        "Raspberry Aroma"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "slim twist-up balm stick tube, approx. 4g Stick; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-bioderma-114",
       "sku": "BIO-CLE-0114",
       "name": "Bioderma Sebium Gel Moussant Purifying Foaming Cleanser",
@@ -12595,49 +11689,6 @@
       ],
       "supplierSource": "Direct Wholesale Authenticated",
       "packagingDescription": "round heavy-glass cream jar with screw lid, approx. 500ml Pump; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-bioderma-120",
-      "sku": "BIO-SUN-0120",
-      "name": "Bioderma Pigmentbio Daily Care SPF 50+ Brightening Day Cream",
-      "size": "50ml Pump",
-      "badge": "Best Seller",
-      "brand": "Bioderma",
-      "image": "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg",
-      "price": 18.38,
-      "rating": 4.6,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Sunscreen formulation with LumiReveal™ & Hexapeptide-2.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Sunscreen & Daily Defense",
-      "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621490/pexels-photo-6621490.jpeg?auto=compress&cs=tinysrgb&w=800&entry=121",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Bioderma Pigmentbio Daily Care SPF 50+ Brightening Day Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with LumiReveal™, Hexapeptide-2, Vitamins C, E, PP to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1740,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 13.6,
-      "compareAtPrice": 22.97,
-      "keyIngredients": [
-        "LumiReveal™",
-        "Hexapeptide-2",
-        "Vitamins C, E, PP"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "slim squeeze sunscreen tube with flip cap, approx. 50ml Pump; white packaging with a pink and white label zone, pharmacy look. Label area is clean and unprinted in the render."
     },
     {
       "id": "prod-cosrx-121",
@@ -13601,49 +12652,6 @@
       "supplierSource": "Direct Wholesale Authenticated",
       "packagingDescription": "tall rounded plastic bottle with flip cap, approx. 250ml Bottle; clean white and soft green heartleaf-inspired Korean packaging. Label area is clean and unprinted in the render.",
       "badge": "TikTok #1 Trending"
-    },
-    {
-      "id": "prod-anua-147",
-      "sku": "ANU-SER-0147",
-      "name": "Anua Peach 70% Niacin Serum Glass Skin Illuminating",
-      "size": "30ml Dropper",
-      "badge": "Derm Recommended",
-      "brand": "Anua",
-      "image": "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg",
-      "price": 12.97,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Serums formulation with Prunus Persica (Peach) Fruit Extract 70% & Niacinamide 5%.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Active Serums & Toners",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621517/pexels-photo-6621517.jpeg?auto=compress&cs=tinysrgb&w=800&entry=148",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Anua Peach 70% Niacin Serum Glass Skin Illuminating is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Prunus Persica (Peach) Fruit Extract 70%, Niacinamide 5%, Vitamin B12 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1311,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 9.6,
-      "compareAtPrice": 16.21,
-      "keyIngredients": [
-        "Prunus Persica (Peach) Fruit Extract 70%",
-        "Niacinamide 5%",
-        "Vitamin B12"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "frosted glass dropper bottle, approx. 30ml Dropper; clean white and soft green heartleaf-inspired Korean packaging. Label area is clean and unprinted in the render."
     },
     {
       "id": "prod-anua-148",
@@ -14862,48 +13870,6 @@
         "Linolenic Acid"
       ],
       "supplierSource": "Direct Wholesale Authenticated"
-    },
-    {
-      "id": "prod-theordinary-179",
-      "sku": "THE-SER-0179",
-      "name": "The Ordinary Matrixyl 10% + HA High-Strength Peptide Formulation",
-      "size": "30ml Dropper",
-      "brand": "The Ordinary",
-      "image": "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg",
-      "price": 7.3,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Serums formulation with Matrixyl 3000 & Matrixyl Synthe-6.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Active Serums & Toners",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621549/pexels-photo-6621549.jpeg?auto=compress&cs=tinysrgb&w=800&entry=180",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "The Ordinary Matrixyl 10% + HA High-Strength Peptide Formulation is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Matrixyl 3000, Matrixyl Synthe-6, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1247,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 5.4,
-      "compareAtPrice": 9.13,
-      "keyIngredients": [
-        "Matrixyl 3000",
-        "Matrixyl Synthe-6",
-        "Hyaluronic Acid"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "minimal cosmetic bottle with pump, approx. 30ml Dropper; minimalist clinical white label on clear bottle with plain black cap. Label area is clean and unprinted in the render."
     },
     {
       "id": "prod-theordinary-180",
@@ -16756,48 +15722,6 @@
       "packagingDescription": "slim squeeze sunscreen tube with flip cap, approx. 50ml Tube; simple white and muted sea-blue Korean packaging. Label area is clean and unprinted in the render."
     },
     {
-      "id": "prod-roundlab-299",
-      "sku": "ROU-MOI-0299",
-      "name": "Round Lab Birch Juice Moisturizing Cream Capsule Burst",
-      "size": "80ml Jar",
-      "brand": "Round Lab",
-      "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg",
-      "price": 13.52,
-      "rating": 4.9,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Moisturizers formulation with Inje Birch Tree Sap & Collagen Moisture Capsules.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Moisturizing Creams",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/6621669/pexels-photo-6621669.jpeg?auto=compress&cs=tinysrgb&w=800&entry=300",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Round Lab Birch Juice Moisturizing Cream Capsule Burst is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Inje Birch Tree Sap, Collagen Moisture Capsules, Glyceryl Glucoside to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 407,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 9.6,
-      "compareAtPrice": 16.9,
-      "keyIngredients": [
-        "Inje Birch Tree Sap",
-        "Collagen Moisture Capsules",
-        "Glyceryl Glucoside"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "round heavy-glass cream jar with screw lid, approx. 80ml Jar; simple white and muted sea-blue Korean packaging. Label area is clean and unprinted in the render."
-    },
-    {
       "id": "prod-roundlab-300",
       "sku": "ROU-SER-0300",
       "name": "Round Lab Soybean Nourishing Toner Ceramide Milk",
@@ -17225,49 +16149,6 @@
       ],
       "supplierSource": "Direct Wholesale Authenticated",
       "packagingDescription": "wide short tub jar with screw lid, approx. 100ml Tub; simple white and muted sea-blue Korean packaging. Label area is clean and unprinted in the render."
-    },
-    {
-      "id": "prod-roundlab-310",
-      "sku": "ROU-CLE-0310",
-      "name": "Round Lab Soybean Cleansing Oil Dense Protein Melt",
-      "size": "200ml Pump",
-      "badge": "Best Seller",
-      "brand": "Round Lab",
-      "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg",
-      "price": 12.78,
-      "rating": 4.8,
-      "gallery": [
-        "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
-      ],
-      "tagline": "Clinical Cleansers formulation with Black Soybean Seed Oil & Meadowfoam Seed Oil.",
-      "benefits": [
-        "Clinically proven barrier resilience & deep lipid hydration",
-        "Non-comedogenic, fragrance-free tested formulation",
-        "Pharmaceutical grade quality control and batch audited"
-      ],
-      "category": "Gentle Cleansers & Masks",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-      "skinType": "All Skin Types • Clinically Tested Sensitive",
-      "variants": [
-        {
-          "name": "Standard Pack",
-          "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800&entry=311",
-          "inStock": true,
-          "colorHex": "#002B7F"
-        }
-      ],
-      "description": "Round Lab Soybean Cleansing Oil Dense Protein Melt is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Black Soybean Seed Oil, Meadowfoam Seed Oil, Ceramide NP to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
-      "reviewCount": 1210,
-      "shippingDays": "1–3 Days (Prime Dropship)",
-      "supplierCost": 9.2,
-      "compareAtPrice": 15.97,
-      "keyIngredients": [
-        "Black Soybean Seed Oil",
-        "Meadowfoam Seed Oil",
-        "Ceramide NP"
-      ],
-      "supplierSource": "Direct Wholesale Authenticated",
-      "packagingDescription": "amber glass bottle with pump dispenser, approx. 200ml Pump; simple white and muted sea-blue Korean packaging. Label area is clean and unprinted in the render."
     },
     {
       "id": "prod-haruharuwonder-312",
