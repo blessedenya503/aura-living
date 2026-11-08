@@ -707,8 +707,8 @@ export default function OwnerPortalPage() {
   const handleImportAmazonProduct = async (item: any) => {
     setAmazonImportingAsin(item.asin);
     try {
-      const retailPrice = item.suggestedRetailPrice || Number((item.price * 1.5).toFixed(2));
-      const comparePrice = Number((retailPrice * 1.3).toFixed(2));
+      const retailPrice = item.suggestedRetailPrice || Number((item.price / 0.72).toFixed(2));
+      const comparePrice = Number((retailPrice * 1.25).toFixed(2));
       const newProdPayload: Partial<Product> = {
         id: `amz-prod-${item.asin}`,
         sku: `AMZ-${item.asin}`,
@@ -1332,7 +1332,7 @@ export default function OwnerPortalPage() {
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                 {amazonResults.map((item) => {
-                  const retail = item.suggestedRetailPrice || Number((item.price * 1.5).toFixed(2));
+                  const retail = item.suggestedRetailPrice || Number((item.price / 0.72).toFixed(2));
                   const marginPct = Math.round(((retail - item.price) / retail) * 100);
                   const isImporting = amazonImportingAsin === item.asin;
                   const isAlreadyImported = products.some(

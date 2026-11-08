@@ -5761,8 +5761,8 @@
       "size": "30ml / 1.0 fl oz Dropper Bottle",
       "skinType": "Sensitive & All Skin Types (Tested for Sensitivity)",
       "category": "Active Serums & Toners",
-      "price": 44.99,
-      "compareAtPrice": 52,
+      "price": 30,
+      "compareAtPrice": 37.5,
       "supplierCost": 22.5,
       "rating": 4.8,
       "reviewCount": 18450,
@@ -5811,8 +5811,8 @@
       "size": "24 Patches (3 Sizes)",
       "skinType": "Acne-Prone & Blemish Skin",
       "category": "Gentle Cleansers & Masks",
-      "price": 6.99,
-      "compareAtPrice": 9.5,
+      "price": 2.97,
+      "compareAtPrice": 3.71,
       "supplierCost": 2.2,
       "rating": 4.9,
       "reviewCount": 38400,
@@ -5854,8 +5854,8 @@
       "size": "Complete Multi-Product Routine",
       "skinType": "All Skin Types (Especially Dehydrated & Barrier-Compromised)",
       "category": "Barrier Repair & Relief",
-      "price": 68,
-      "compareAtPrice": 95,
+      "price": 43.84,
+      "compareAtPrice": 54.8,
       "supplierCost": 32,
       "rating": 5,
       "reviewCount": 38,
@@ -5933,7 +5933,7 @@
       "badge": "Japanese Purple Rice",
       "brand": "Tatcha",
       "image": "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
-      "price": 43,
+      "price": 47.22,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg"
@@ -5959,7 +5959,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 34,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 85,
+      "compareAtPrice": 59.02,
       "keyIngredients": [
         "Japanese Purple Rice",
         "Okinawa Algae Complex",
@@ -5978,7 +5978,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/41gn7y2BumL._AC_UL320_.jpg",
-      "price": 19.45,
+      "price": 20.55,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/41gn7y2BumL._AC_UL320_.jpg"
@@ -6002,7 +6002,7 @@
       "reviewCount": 34806,
       "supplierCost": 14.59,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 24.31,
+      "compareAtPrice": 25.69,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6019,7 +6019,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71OEFwrxebL._AC_UL320_.jpg",
-      "price": 26.99,
+      "price": 28.53,
       "rating": 4.4,
       "gallery": [
         "https://m.media-amazon.com/images/I/71OEFwrxebL._AC_UL320_.jpg"
@@ -6043,7 +6043,7 @@
       "reviewCount": 102,
       "supplierCost": 19.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 33.74,
+      "compareAtPrice": 35.66,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6060,7 +6060,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/71Hqbk5tMKL._AC_UL320_.jpg",
-      "price": 13.56,
+      "price": 13.2,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/71Hqbk5tMKL._AC_UL320_.jpg"
@@ -6084,7 +6084,7 @@
       "reviewCount": 34806,
       "supplierCost": 9.9,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 16.95,
+      "compareAtPrice": 16.5,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6102,7 +6102,7 @@
       "badge": "#1 Pediatrician Recommended",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71fhghOVS7L._AC_UL320_.jpg",
-      "price": 7.95,
+      "price": 7.84,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/71fhghOVS7L._AC_UL320_.jpg"
@@ -6128,7 +6128,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 5.8,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 9.94,
+      "compareAtPrice": 9.8,
       "keyIngredients": [
         "41% Petrolatum",
         "Panthenol (Pro-Vit B5)",
@@ -6148,7 +6148,7 @@
       "badge": "Direct from Spring",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg",
-      "price": 9.44,
+      "price": 9.32,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg"
@@ -6174,7 +6174,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 6.8,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 11.8,
+      "compareAtPrice": 11.65,
       "keyIngredients": [
         "100% Avène Thermal Spring Water",
         "Silica",
@@ -6193,7 +6193,7 @@
       "badge": "TikTok #1 Trending",
       "brand": "Glow Recipe",
       "image": "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg",
-      "price": 23.24,
+      "price": 22.92,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg"
@@ -6219,7 +6219,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 16.5,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 29.05,
+      "compareAtPrice": 28.65,
       "keyIngredients": [
         "Kakadu Plum Extract",
         "5 Molecular Weights of HA",
@@ -6239,7 +6239,7 @@
       "badge": "TikTok Cult Glow",
       "brand": "Glow Recipe",
       "image": "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg",
-      "price": 20,
+      "price": 19.72,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg"
@@ -6265,7 +6265,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 14,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 25,
+      "compareAtPrice": 24.65,
       "keyIngredients": [
         "Niacinamide (Vitamin B3)",
         "Watermelon Extract",
@@ -6285,7 +6285,7 @@
       "badge": "Original Micellar Pioneer",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
-      "price": 10,
+      "price": 10.71,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg"
@@ -6311,7 +6311,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 7.5,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 12.5,
+      "compareAtPrice": 13.39,
       "keyIngredients": [
         "Biomimetic Micelles",
         "Cucumis Sativus (Cucumber) Extract",
@@ -6330,7 +6330,7 @@
       "badge": "15% Pure Vitamin C",
       "brand": "Drunk Elephant",
       "image": "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg",
-      "price": 51.35,
+      "price": 50.67,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg"
@@ -6356,7 +6356,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 38,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 64.19,
+      "compareAtPrice": 63.34,
       "keyIngredients": [
         "15% L-Ascorbic Acid",
         "0.5% Ferulic Acid",
@@ -6376,7 +6376,7 @@
       "badge": "TikTok #1 Trending",
       "brand": "Drunk Elephant",
       "image": "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg",
-      "price": 43.84,
+      "price": 43.24,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg"
@@ -6402,7 +6402,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 32,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 54.8,
+      "compareAtPrice": 54.05,
       "keyIngredients": [
         "9 Signal Peptide Complex",
         "Pygmy Waterlily Stem Cell Extract",
@@ -6420,7 +6420,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/81eqzDqY86L._AC_UL320_.jpg",
-      "price": 11.36,
+      "price": 11.67,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/81eqzDqY86L._AC_UL320_.jpg"
@@ -6445,7 +6445,7 @@
       "reviewCount": 23578,
       "supplierCost": 8.52,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 14.2,
+      "compareAtPrice": 14.59,
       "keyIngredients": [
         "Medical-Grade Petrolatum",
         "5% Panthenol (Pro-Vit B5)",
@@ -6463,7 +6463,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA MEN",
       "image": "https://m.media-amazon.com/images/I/71-aQ+6ozwL._AC_UL320_.jpg",
-      "price": 10.77,
+      "price": 11.07,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71-aQ+6ozwL._AC_UL320_.jpg"
@@ -6487,7 +6487,7 @@
       "reviewCount": 25424,
       "supplierCost": 7.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 13.46,
+      "compareAtPrice": 13.84,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6504,7 +6504,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/61dNDSeJTUL._AC_UL320_.jpg",
-      "price": 46.26,
+      "price": 47.56,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61dNDSeJTUL._AC_UL320_.jpg"
@@ -6528,7 +6528,7 @@
       "reviewCount": 34895,
       "supplierCost": 33.77,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 57.82,
+      "compareAtPrice": 59.45,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6545,7 +6545,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/81pwqUA0vVL._AC_UL320_.jpg",
-      "price": 12.19,
+      "price": 12.54,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/81pwqUA0vVL._AC_UL320_.jpg"
@@ -6570,7 +6570,7 @@
       "reviewCount": 8360,
       "supplierCost": 8.78,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 15.24,
+      "compareAtPrice": 15.67,
       "keyIngredients": [
         "Medical-Grade Petrolatum",
         "5% Panthenol (Pro-Vit B5)",
@@ -6588,7 +6588,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/71g20J3JfgL._AC_UL320_.jpg",
-      "price": 11.24,
+      "price": 10.64,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71g20J3JfgL._AC_UL320_.jpg"
@@ -6612,7 +6612,7 @@
       "reviewCount": 29086,
       "supplierCost": 7.98,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 14.05,
+      "compareAtPrice": 13.3,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6629,7 +6629,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/61b+8rsddhL._AC_UL320_.jpg",
-      "price": 15.7,
+      "price": 14.85,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61b+8rsddhL._AC_UL320_.jpg"
@@ -6653,7 +6653,7 @@
       "reviewCount": 72475,
       "supplierCost": 10.99,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 19.63,
+      "compareAtPrice": 18.56,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6670,7 +6670,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA MEN",
       "image": "https://m.media-amazon.com/images/I/81GuYjjbXRL._AC_UL320_.jpg",
-      "price": 15.56,
+      "price": 15.99,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/81GuYjjbXRL._AC_UL320_.jpg"
@@ -6694,7 +6694,7 @@
       "reviewCount": 24081,
       "supplierCost": 11.67,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 19.45,
+      "compareAtPrice": 19.99,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6711,7 +6711,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA MEN",
       "image": "https://m.media-amazon.com/images/I/717nV7DCdJL._AC_UL320_.jpg",
-      "price": 11.63,
+      "price": 11.79,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/717nV7DCdJL._AC_UL320_.jpg"
@@ -6735,7 +6735,7 @@
       "reviewCount": 26,
       "supplierCost": 8.49,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 14.54,
+      "compareAtPrice": 14.74,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6752,7 +6752,7 @@
       "size": "Standard Retail Pack",
       "brand": "NIVEA",
       "image": "https://m.media-amazon.com/images/I/71kjdsx8PyL._AC_UL320_.jpg",
-      "price": 7.07,
+      "price": 7.17,
       "rating": 4.3,
       "gallery": [
         "https://m.media-amazon.com/images/I/71kjdsx8PyL._AC_UL320_.jpg"
@@ -6776,7 +6776,7 @@
       "reviewCount": 64,
       "supplierCost": 5.09,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 8.84,
+      "compareAtPrice": 8.96,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6793,7 +6793,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71SLrE439QL._AC_UL320_.jpg",
-      "price": 19.96,
+      "price": 21.39,
       "rating": 4.5,
       "gallery": [
         "https://m.media-amazon.com/images/I/71SLrE439QL._AC_UL320_.jpg"
@@ -6817,7 +6817,7 @@
       "reviewCount": 300,
       "supplierCost": 14.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 24.95,
+      "compareAtPrice": 26.74,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6834,7 +6834,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/61esHiSrW-L._AC_UL320_.jpg",
-      "price": 19.44,
+      "price": 18.92,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61esHiSrW-L._AC_UL320_.jpg"
@@ -6858,7 +6858,7 @@
       "reviewCount": 16671,
       "supplierCost": 14.19,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 24.3,
+      "compareAtPrice": 23.65,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6875,7 +6875,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/61cCKPTNz6L._AC_UL320_.jpg",
-      "price": 27.07,
+      "price": 26.34,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61cCKPTNz6L._AC_UL320_.jpg"
@@ -6899,7 +6899,7 @@
       "reviewCount": 23537,
       "supplierCost": 19.49,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 33.84,
+      "compareAtPrice": 32.92,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6916,7 +6916,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71h9qjljxIL._AC_UL320_.jpg",
-      "price": 33.61,
+      "price": 32.68,
       "rating": 4.5,
       "gallery": [
         "https://m.media-amazon.com/images/I/71h9qjljxIL._AC_UL320_.jpg"
@@ -6940,7 +6940,7 @@
       "reviewCount": 44241,
       "supplierCost": 23.86,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 42.01,
+      "compareAtPrice": 40.85,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6957,7 +6957,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71y4LIPrA5L._AC_UL320_.jpg",
-      "price": 17.67,
+      "price": 17.18,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71y4LIPrA5L._AC_UL320_.jpg"
@@ -6981,7 +6981,7 @@
       "reviewCount": 84467,
       "supplierCost": 12.37,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 22.09,
+      "compareAtPrice": 21.48,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -6998,7 +6998,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71pUT0CsDoL._AC_UL320_.jpg",
-      "price": 31.96,
+      "price": 33.76,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71pUT0CsDoL._AC_UL320_.jpg"
@@ -7022,7 +7022,7 @@
       "reviewCount": 17758,
       "supplierCost": 23.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 39.95,
+      "compareAtPrice": 42.2,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7039,7 +7039,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71fy2+mMZuL._AC_UL320_.jpg",
-      "price": 25.62,
+      "price": 27.09,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/71fy2+mMZuL._AC_UL320_.jpg"
@@ -7063,7 +7063,7 @@
       "reviewCount": 26821,
       "supplierCost": 18.96,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 32.02,
+      "compareAtPrice": 33.86,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7080,7 +7080,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/61Aaec1NSrL._AC_UL320_.jpg",
-      "price": 20.51,
+      "price": 19.96,
       "rating": 4.5,
       "gallery": [
         "https://m.media-amazon.com/images/I/61Aaec1NSrL._AC_UL320_.jpg"
@@ -7104,7 +7104,7 @@
       "reviewCount": 98365,
       "supplierCost": 14.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 25.64,
+      "compareAtPrice": 24.95,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7121,7 +7121,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/61Nc+q3wZRL._AC_UL320_.jpg",
-      "price": 33.29,
+      "price": 32.39,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61Nc+q3wZRL._AC_UL320_.jpg"
@@ -7145,7 +7145,7 @@
       "reviewCount": 12174,
       "supplierCost": 23.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 41.61,
+      "compareAtPrice": 40.49,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7162,7 +7162,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/51Fc1P9He3L._AC_UL320_.jpg",
-      "price": 19.7,
+      "price": 19.16,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/51Fc1P9He3L._AC_UL320_.jpg"
@@ -7186,7 +7186,7 @@
       "reviewCount": 37418,
       "supplierCost": 13.99,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 24.63,
+      "compareAtPrice": 23.95,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7203,7 +7203,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71avA9No8HL._AC_UL320_.jpg",
-      "price": 19.31,
+      "price": 18.78,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71avA9No8HL._AC_UL320_.jpg"
@@ -7227,7 +7227,7 @@
       "reviewCount": 149175,
       "supplierCost": 13.52,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 24.14,
+      "compareAtPrice": 23.48,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7244,7 +7244,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/51+yNMwODML._AC_UL320_.jpg",
-      "price": 22.17,
+      "price": 23.42,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51+yNMwODML._AC_UL320_.jpg"
@@ -7268,7 +7268,7 @@
       "reviewCount": 29260,
       "supplierCost": 16.63,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 27.71,
+      "compareAtPrice": 29.28,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7285,7 +7285,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71zvPJqU7FL._AC_UL320_.jpg",
-      "price": 22.28,
+      "price": 23.56,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/71zvPJqU7FL._AC_UL320_.jpg"
@@ -7309,7 +7309,7 @@
       "reviewCount": 57377,
       "supplierCost": 16.49,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 27.85,
+      "compareAtPrice": 29.45,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7326,7 +7326,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/61EidjXUBrL._AC_UL320_.jpg",
-      "price": 25.54,
+      "price": 24.52,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61EidjXUBrL._AC_UL320_.jpg"
@@ -7350,7 +7350,7 @@
       "reviewCount": 149175,
       "supplierCost": 18.39,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 31.92,
+      "compareAtPrice": 30.65,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7368,7 +7368,7 @@
       "badge": "Japanese Wild Rose",
       "brand": "Tatcha",
       "image": "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg",
-      "price": 46.48,
+      "price": 44.59,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg"
@@ -7394,7 +7394,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 33,
       "soldCountText": "Verified Brand Import",
-      "compareAtPrice": 58.1,
+      "compareAtPrice": 55.74,
       "keyIngredients": [
         "Japanese Wild Rose",
         "Japanese Leopard Lily",
@@ -7412,7 +7412,7 @@
       "size": "Standard Retail Pack",
       "brand": "La Roche-Posay",
       "image": "https://m.media-amazon.com/images/I/611ZyUZeDyL._AC_UL320_.jpg",
-      "price": 63.37,
+      "price": 61.63,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/611ZyUZeDyL._AC_UL320_.jpg"
@@ -7436,7 +7436,7 @@
       "reviewCount": 19256,
       "supplierCost": 44.99,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 79.21,
+      "compareAtPrice": 77.04,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7453,7 +7453,7 @@
       "size": "Standard Retail Pack",
       "brand": "La Roche-Posay",
       "image": "https://m.media-amazon.com/images/I/61gGx-QtfiL._AC_UL320_.jpg",
-      "price": 45.67,
+      "price": 44.4,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61gGx-QtfiL._AC_UL320_.jpg"
@@ -7477,7 +7477,7 @@
       "reviewCount": 5092,
       "supplierCost": 31.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 57.09,
+      "compareAtPrice": 55.5,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7537,7 +7537,7 @@
       "size": "Standard Retail Pack",
       "brand": "La Roche-Posay",
       "image": "https://m.media-amazon.com/images/I/713Ca5aXpyL._AC_UL320_.jpg",
-      "price": 18.25,
+      "price": 19.56,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/713Ca5aXpyL._AC_UL320_.jpg"
@@ -7562,7 +7562,7 @@
       "reviewCount": 23438,
       "supplierCost": 13.69,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 22.81,
+      "compareAtPrice": 24.45,
       "keyIngredients": [
         "Medical-Grade Petrolatum",
         "5% Panthenol (Pro-Vit B5)",
@@ -7580,7 +7580,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71JhlIW8K6L._AC_UL320_.jpg",
-      "price": 18.49,
+      "price": 18.24,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71JhlIW8K6L._AC_UL320_.jpg"
@@ -7604,7 +7604,7 @@
       "reviewCount": 7142,
       "supplierCost": 13.68,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 23.11,
+      "compareAtPrice": 22.8,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7621,7 +7621,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/713XbsnceQL._AC_UL320_.jpg",
-      "price": 19.51,
+      "price": 19.24,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/713XbsnceQL._AC_UL320_.jpg"
@@ -7645,7 +7645,7 @@
       "reviewCount": 23892,
       "supplierCost": 14.24,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 24.39,
+      "compareAtPrice": 24.05,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7662,7 +7662,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/61pNJwG1erL._AC_UL320_.jpg",
-      "price": 20.82,
+      "price": 20.53,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61pNJwG1erL._AC_UL320_.jpg"
@@ -7686,7 +7686,7 @@
       "reviewCount": 5205,
       "supplierCost": 14.99,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 26.02,
+      "compareAtPrice": 25.66,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7703,7 +7703,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71NcqbFKTFL._AC_UL320_.jpg",
-      "price": 26.18,
+      "price": 25.82,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71NcqbFKTFL._AC_UL320_.jpg"
@@ -7728,7 +7728,7 @@
       "reviewCount": 44778,
       "supplierCost": 18.59,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 32.73,
+      "compareAtPrice": 32.27,
       "keyIngredients": [
         "Medical-Grade Petrolatum",
         "5% Panthenol (Pro-Vit B5)",
@@ -7746,7 +7746,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/81OQHXYinzL._AC_UL320_.jpg",
-      "price": 19.46,
+      "price": 19.18,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/81OQHXYinzL._AC_UL320_.jpg"
@@ -7770,7 +7770,7 @@
       "reviewCount": 35967,
       "supplierCost": 13.62,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 24.33,
+      "compareAtPrice": 23.98,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7787,7 +7787,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71+UotrJPgL._AC_UL320_.jpg",
-      "price": 29.31,
+      "price": 31.4,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/71+UotrJPgL._AC_UL320_.jpg"
@@ -7811,7 +7811,7 @@
       "reviewCount": 3254,
       "supplierCost": 21.98,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 36.64,
+      "compareAtPrice": 39.25,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7828,7 +7828,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71R7zJGeXwL._AC_UL320_.jpg",
-      "price": 24.49,
+      "price": 24.16,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/71R7zJGeXwL._AC_UL320_.jpg"
@@ -7852,7 +7852,7 @@
       "reviewCount": 28968,
       "supplierCost": 18.12,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 30.61,
+      "compareAtPrice": 30.2,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7869,7 +7869,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/717lRkBFR3L._AC_UL320_.jpg",
-      "price": 21.88,
+      "price": 21.58,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/717lRkBFR3L._AC_UL320_.jpg"
@@ -7893,7 +7893,7 @@
       "reviewCount": 84467,
       "supplierCost": 15.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 27.35,
+      "compareAtPrice": 26.97,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7910,7 +7910,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/61A8RtysNcL._AC_UL320_.jpg",
-      "price": 23.94,
+      "price": 23.62,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61A8RtysNcL._AC_UL320_.jpg"
@@ -7934,7 +7934,7 @@
       "reviewCount": 23892,
       "supplierCost": 17.24,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 29.93,
+      "compareAtPrice": 29.53,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7951,7 +7951,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/51flyLJHWtL._AC_UL320_.jpg",
-      "price": 23.9,
+      "price": 23.57,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/51flyLJHWtL._AC_UL320_.jpg"
@@ -7975,7 +7975,7 @@
       "reviewCount": 133913,
       "supplierCost": 16.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 29.88,
+      "compareAtPrice": 29.46,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -7992,7 +7992,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/71llkeOBhgL._AC_UL320_.jpg",
-      "price": 24.85,
+      "price": 25.55,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71llkeOBhgL._AC_UL320_.jpg"
@@ -8016,7 +8016,7 @@
       "reviewCount": 153609,
       "supplierCost": 18.14,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 31.06,
+      "compareAtPrice": 31.94,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -8033,7 +8033,7 @@
       "size": "Standard Retail Pack",
       "brand": "CeraVe",
       "image": "https://m.media-amazon.com/images/I/516r6ghtxaL._AC_UL320_.jpg",
-      "price": 22.18,
+      "price": 22.81,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/516r6ghtxaL._AC_UL320_.jpg"
@@ -8057,7 +8057,7 @@
       "reviewCount": 76792,
       "supplierCost": 15.97,
       "soldCountText": "Amazon Bestseller Catalog",
-      "compareAtPrice": 27.73,
+      "compareAtPrice": 28.51,
       "keyIngredients": [
         "Active Skin Emollients",
         "Ceramides",
@@ -8832,7 +8832,7 @@
       "badge": "TikTok #1 Viral",
       "brand": "COSRX",
       "image": "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg",
-      "price": 10.14,
+      "price": 10,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg"
@@ -8886,7 +8886,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 7.2,
       "soldCountText": "4.8 Billion TikTok Views (#SnailMucin)",
-      "compareAtPrice": 12.68,
+      "compareAtPrice": 12.5,
       "keyIngredients": [
         "96.3% Snail Secretion Filtrate",
         "Sodium Hyaluronate",
@@ -8916,7 +8916,7 @@
       "badge": "Glass Skin Gel",
       "brand": "COSRX",
       "image": "https://images.openbeautyfacts.org/images/products/880/959/845/0912/front_en.7.400.jpg",
-      "price": 11.14,
+      "price": 10.99,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/959/845/0912/front_en.7.400.jpg"
@@ -8970,7 +8970,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 7.8,
       "soldCountText": "Over 50K+ units sold",
-      "compareAtPrice": 13.93,
+      "compareAtPrice": 13.74,
       "keyIngredients": [
         "92% Snail Secretion Filtrate",
         "Betaine",
@@ -8999,7 +8999,7 @@
       "badge": "Holy Grail Sunscreen",
       "brand": "Beauty of Joseon",
       "image": "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
-      "price": 8.67,
+      "price": 9.29,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg"
@@ -9053,7 +9053,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 6.5,
       "soldCountText": "1.9 Billion TikTok Views (#ReliefSun)",
-      "compareAtPrice": 10.84,
+      "compareAtPrice": 11.61,
       "keyIngredients": [
         "30% Oryza Sativa (Rice) Extract",
         "Grain Fermented Probiotics",
@@ -9082,7 +9082,7 @@
       "badge": "Hanbang Royal",
       "brand": "Beauty of Joseon",
       "image": "https://images.openbeautyfacts.org/images/products/880/973/831/2728/front_en.3.400.jpg",
-      "price": 10.81,
+      "price": 10.67,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/973/831/2728/front_en.3.400.jpg"
@@ -9136,7 +9136,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 8,
       "soldCountText": "Over 35K+ units sold",
-      "compareAtPrice": 13.51,
+      "compareAtPrice": 13.34,
       "keyIngredients": [
         "Rice Bran Water (29%)",
         "Panax Ginseng Root Water (5%)",
@@ -9166,7 +9166,7 @@
       "badge": "Viral Glass Skin",
       "brand": "Anua",
       "image": "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
-      "price": 10.82,
+      "price": 10.68,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg"
@@ -9220,7 +9220,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 7.9,
       "soldCountText": "2.4 Billion TikTok Views (#7SkinMethod)",
-      "compareAtPrice": 13.53,
+      "compareAtPrice": 13.35,
       "keyIngredients": [
         "77% Houttuynia Cordata (Heartleaf) Extract",
         "Centella Asiatica",
@@ -9250,7 +9250,7 @@
       "badge": "SPF 50+ PA++++",
       "brand": "Skin1004",
       "image": "https://images.openbeautyfacts.org/images/products/880/957/626/1592/front_en.3.400.jpg",
-      "price": 9.44,
+      "price": 9.32,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/957/626/1592/front_en.3.400.jpg"
@@ -9304,7 +9304,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 6.8,
       "soldCountText": "Over 35K+ units sold",
-      "compareAtPrice": 11.8,
+      "compareAtPrice": 11.65,
       "keyIngredients": [
         "Pure Madagascar Centella Asiatica",
         "Hyalu-Cica Complex",
@@ -9333,7 +9333,7 @@
       "badge": "Deep Sea Minerals",
       "brand": "Round Lab",
       "image": "https://images.openbeautyfacts.org/images/products/880/973/860/0245/front_nl.4.400.jpg",
-      "price": 11.97,
+      "price": 11.81,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/973/860/0245/front_nl.4.400.jpg"
@@ -9387,7 +9387,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 8.5,
       "soldCountText": "Over 25K+ units sold",
-      "compareAtPrice": 14.96,
+      "compareAtPrice": 14.76,
       "keyIngredients": [
         "Ulleungdo Deep Sea Water",
         "Ceramides NP, AP, EOP",
@@ -9416,7 +9416,7 @@
       "badge": "5D Complex HA",
       "brand": "Torriden",
       "image": "https://images.openbeautyfacts.org/images/products/880/978/460/1340/front_en.3.400.jpg",
-      "price": 11.71,
+      "price": 11.55,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/978/460/1340/front_en.3.400.jpg"
@@ -9470,7 +9470,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 8.2,
       "soldCountText": "Over 30K+ units sold",
-      "compareAtPrice": 14.64,
+      "compareAtPrice": 14.44,
       "keyIngredients": [
         "5 Types Low-Molecular Hyaluronic Acid",
         "Malachite Extract (Natural Pastel Blue)",
@@ -9499,7 +9499,7 @@
       "badge": "Global #1 Serum",
       "brand": "The Ordinary",
       "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg",
-      "price": 5.07,
+      "price": 5.43,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg"
@@ -9553,7 +9553,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 3.8,
       "soldCountText": "World's #1 Selling Skincare Serum",
-      "compareAtPrice": 6.34,
+      "compareAtPrice": 6.79,
       "keyIngredients": [
         "10% Pure Niacinamide (Vitamin B3)",
         "1% Zinc PCA",
@@ -9582,7 +9582,7 @@
       "badge": "Multi-Depth HA",
       "brand": "The Ordinary",
       "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0199/front_en.10.400.jpg",
-      "price": 5.41,
+      "price": 5.33,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/076/991/519/0199/front_en.10.400.jpg"
@@ -9636,7 +9636,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 4,
       "soldCountText": "Over 80K+ units sold",
-      "compareAtPrice": 6.76,
+      "compareAtPrice": 6.66,
       "keyIngredients": [
         "Low, Med, High Molecular Hyaluronic Acid",
         "Sodium Hyaluronate Crosspolymer",
@@ -9664,7 +9664,7 @@
       "badge": "7% AHA Exfoliant",
       "brand": "The Ordinary",
       "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0977/front_en.21.400.jpg",
-      "price": 7.12,
+      "price": 7.03,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/076/991/519/0977/front_en.21.400.jpg"
@@ -9718,7 +9718,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 5.2,
       "soldCountText": "TikTok Multi-Use Hero (2.8B Views)",
-      "compareAtPrice": 8.9,
+      "compareAtPrice": 8.79,
       "keyIngredients": [
         "7% Glycolic Acid (AHA)",
         "Tasmanian Pepperberry Derivative",
@@ -9747,7 +9747,7 @@
       "badge": "Copper Peptide Buffet",
       "brand": "The Ordinary",
       "image": "https://images.openbeautyfacts.org/images/products/076/991/523/3179/front_tr.3.400.jpg",
-      "price": 16.53,
+      "price": 16.3,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/076/991/523/3179/front_tr.3.400.jpg"
@@ -9801,7 +9801,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 11.9,
       "soldCountText": "Over 25K+ units sold",
-      "compareAtPrice": 20.66,
+      "compareAtPrice": 20.38,
       "keyIngredients": [
         "1% Copper Tripeptide-1 (GHK-Cu)",
         "Matrixyl 3000 Complex",
@@ -9831,7 +9831,7 @@
       "badge": "Cult 2% BHA",
       "brand": "Paula's Choice",
       "image": "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg",
-      "price": 19.01,
+      "price": 18.75,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg"
@@ -9885,7 +9885,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 13.5,
       "soldCountText": "Amazon #1 Facial Exfoliant Globally",
-      "compareAtPrice": 23.76,
+      "compareAtPrice": 23.44,
       "keyIngredients": [
         "2% Salicylic Acid (BHA)",
         "Green Tea (Camellia Oleifera) Extract",
@@ -9913,7 +9913,7 @@
       "badge": "5 Ceramides + Peptide",
       "brand": "Paula's Choice",
       "image": "https://images.openbeautyfacts.org/images/products/065/543/901/5103/front_en.3.400.jpg",
-      "price": 21.14,
+      "price": 20.85,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/065/543/901/5103/front_en.3.400.jpg"
@@ -9967,7 +9967,7 @@
       "shippingDays": "2–4 Days (Amazon Prime Dropship)",
       "supplierCost": 14.8,
       "soldCountText": "Over 20K+ units sold",
-      "compareAtPrice": 26.43,
+      "compareAtPrice": 26.06,
       "keyIngredients": [
         "Ceramides AP, EOP, NP, AS, NS",
         "Palmitoyl Tripeptide-1",
@@ -9985,7 +9985,7 @@
       "size": "454g Tub",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg",
-      "price": 10,
+      "price": 10.29,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg"
@@ -10012,7 +10012,7 @@
       "reviewCount": 1503,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.2,
-      "compareAtPrice": 12.5,
+      "compareAtPrice": 12.86,
       "keyIngredients": [
         "Ceramide-3",
         "Natural Moisturizing Factors (NMF)"
@@ -10027,7 +10027,7 @@
       "size": "500ml Pump",
       "brand": "Eucerin",
       "image": "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg",
-      "price": 9.58,
+      "price": 9.07,
       "rating": 4.6,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg"
@@ -10053,7 +10053,7 @@
       "reviewCount": 1576,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 6.8,
-      "compareAtPrice": 11.97,
+      "compareAtPrice": 11.34,
       "keyIngredients": [
         "Urea 10%",
         "Ceramides",
@@ -10068,7 +10068,7 @@
       "size": "396g Jar",
       "brand": "Eucerin",
       "image": "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg",
-      "price": 10.71,
+      "price": 10.14,
       "rating": 4.7,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg"
@@ -10094,7 +10094,7 @@
       "reviewCount": 1649,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.5,
-      "compareAtPrice": 13.39,
+      "compareAtPrice": 12.68,
       "keyIngredients": [
         "Petrolatum 41%",
         "Panthenol",
@@ -10111,7 +10111,7 @@
       "size": "226g Tube",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61yOVTDmzLL._AC_UL320_.jpg",
-      "price": 6.8,
+      "price": 6.99,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61yOVTDmzLL._AC_UL320_.jpg"
@@ -10137,7 +10137,7 @@
       "reviewCount": 1722,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 5.1,
-      "compareAtPrice": 8.5,
+      "compareAtPrice": 8.74,
       "keyIngredients": [
         "Avobenzone 3%",
         "Homosalate 9%",
@@ -10154,7 +10154,7 @@
       "badge": "Best Seller",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/519Ec1efxTL._AC_UL320_.jpg",
-      "price": 7.3,
+      "price": 7.5,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/519Ec1efxTL._AC_UL320_.jpg"
@@ -10180,7 +10180,7 @@
       "reviewCount": 1795,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 5.4,
-      "compareAtPrice": 9.13,
+      "compareAtPrice": 9.38,
       "keyIngredients": [
         "Urea 10%",
         "Ceramides",
@@ -10197,7 +10197,7 @@
       "badge": "Derm Recommended",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg",
-      "price": 23.01,
+      "price": 23.66,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg"
@@ -10223,7 +10223,7 @@
       "reviewCount": 1868,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 16.8,
-      "compareAtPrice": 28.76,
+      "compareAtPrice": 29.57,
       "keyIngredients": [
         "Thiamidol®",
         "Concentrated Hyaluronic Acid"
@@ -10238,7 +10238,7 @@
       "size": "50ml Jar",
       "brand": "Eucerin",
       "image": "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg",
-      "price": 18.75,
+      "price": 19.29,
       "rating": 4.7,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg"
@@ -10264,7 +10264,7 @@
       "reviewCount": 1941,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 13.5,
-      "compareAtPrice": 23.44,
+      "compareAtPrice": 24.11,
       "keyIngredients": [
         "Macro & Micro Hyaluronic Acid",
         "Glycine Saponin",
@@ -10279,7 +10279,7 @@
       "size": "40ml Tube",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/718z5mbxxFL._AC_UL320_.jpg",
-      "price": 10.99,
+      "price": 10.4,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/718z5mbxxFL._AC_UL320_.jpg"
@@ -10305,7 +10305,7 @@
       "reviewCount": 2014,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.8,
-      "compareAtPrice": 13.74,
+      "compareAtPrice": 13,
       "keyIngredients": [
         "Licochalcone A",
         "Decanediol",
@@ -10321,7 +10321,7 @@
       "size": "48g Jar",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
-      "price": 8.43,
+      "price": 7.97,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
@@ -10347,7 +10347,7 @@
       "reviewCount": 2087,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 5.9,
-      "compareAtPrice": 10.54,
+      "compareAtPrice": 9.96,
       "keyIngredients": [
         "Coenzyme Q10",
         "Vitamin E",
@@ -10364,7 +10364,7 @@
       "badge": "Best Seller",
       "brand": "Eucerin",
       "image": "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg",
-      "price": 12,
+      "price": 12.33,
       "rating": 4.6,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg"
@@ -10390,7 +10390,7 @@
       "reviewCount": 2160,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9,
-      "compareAtPrice": 15,
+      "compareAtPrice": 15.41,
       "keyIngredients": [
         "L-Carnitine",
         "Licochalcone A",
@@ -10405,7 +10405,7 @@
       "size": "400ml Pump",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61aGcpsxXoL._AC_UL320_.jpg",
-      "price": 9.73,
+      "price": 10,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61aGcpsxXoL._AC_UL320_.jpg"
@@ -10431,7 +10431,7 @@
       "reviewCount": 2233,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.2,
-      "compareAtPrice": 12.16,
+      "compareAtPrice": 12.5,
       "keyIngredients": [
         "Amphoteric Surfactants 6%",
         "Salicylic Acid"
@@ -10446,7 +10446,7 @@
       "size": "15ml Precision Tube",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
-      "price": 15.62,
+      "price": 16.06,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
@@ -10472,7 +10472,7 @@
       "reviewCount": 2306,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 11.4,
-      "compareAtPrice": 19.52,
+      "compareAtPrice": 20.07,
       "keyIngredients": [
         "Hyaluronic Acid",
         "Glycine Saponin"
@@ -10488,7 +10488,7 @@
       "badge": "Derm Recommended",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71wNnvzg2IL._AC_UL320_.jpg",
-      "price": 9.44,
+      "price": 9.71,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/71wNnvzg2IL._AC_UL320_.jpg"
@@ -10514,7 +10514,7 @@
       "reviewCount": 2379,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 6.8,
-      "compareAtPrice": 11.8,
+      "compareAtPrice": 12.14,
       "keyIngredients": [
         "Petrolatum",
         "Mineral Oil",
@@ -10531,7 +10531,7 @@
       "size": "500ml Pump",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg",
-      "price": 9.01,
+      "price": 8.53,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
@@ -10557,7 +10557,7 @@
       "reviewCount": 2452,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 6.4,
-      "compareAtPrice": 11.26,
+      "compareAtPrice": 10.66,
       "keyIngredients": [
         "Colloidal Oatmeal",
         "Menthol",
@@ -10574,7 +10574,7 @@
       "badge": "Best Seller",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg",
-      "price": 9.43,
+      "price": 8.92,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
@@ -10600,7 +10600,7 @@
       "reviewCount": 2525,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 6.6,
-      "compareAtPrice": 11.79,
+      "compareAtPrice": 11.15,
       "keyIngredients": [
         "Natural Licochalcone",
         "Panthenol",
@@ -10616,7 +10616,7 @@
       "size": "30ml Pump",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
-      "price": 13.87,
+      "price": 14.25,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
@@ -10642,7 +10642,7 @@
       "reviewCount": 198,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 10.4,
-      "compareAtPrice": 17.34,
+      "compareAtPrice": 17.81,
       "keyIngredients": [
         "Medium & Short Chain Hyaluronic Acid",
         "Glycerin"
@@ -10657,7 +10657,7 @@
       "size": "50ml Pump",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71SUJ8xvN+L._AC_UL320_.jpg",
-      "price": 20.54,
+      "price": 21.11,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/71SUJ8xvN+L._AC_UL320_.jpg"
@@ -10683,7 +10683,7 @@
       "reviewCount": 271,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 15.2,
-      "compareAtPrice": 25.67,
+      "compareAtPrice": 26.39,
       "keyIngredients": [
         "Thiamidol®",
         "Broad Spectrum UVA/UVB SPF 30"
@@ -10698,7 +10698,7 @@
       "size": "40ml Pump",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
-      "price": 13.42,
+      "price": 13.8,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
@@ -10724,7 +10724,7 @@
       "reviewCount": 344,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.8,
-      "compareAtPrice": 16.77,
+      "compareAtPrice": 17.25,
       "keyIngredients": [
         "Thiamidol",
         "Salicylic Acid",
@@ -10740,7 +10740,7 @@
       "size": "400ml Bottle",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
-      "price": 9.72,
+      "price": 10,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
@@ -10766,7 +10766,7 @@
       "reviewCount": 417,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7,
-      "compareAtPrice": 12.15,
+      "compareAtPrice": 12.5,
       "keyIngredients": [
         "Glycine Soja Oil",
         "Castor Oil",
@@ -10783,7 +10783,7 @@
       "badge": "Best Seller",
       "brand": "Eucerin",
       "image": "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg",
-      "price": 12.96,
+      "price": 12.27,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg"
@@ -10810,7 +10810,7 @@
       "reviewCount": 490,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.2,
-      "compareAtPrice": 16.2,
+      "compareAtPrice": 15.34,
       "keyIngredients": [
         "Advanced Spectral Technology",
         "Licochalcone A"
@@ -10825,7 +10825,7 @@
       "size": "50ml Jar",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
-      "price": 22.29,
+      "price": 21.08,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
@@ -10851,7 +10851,7 @@
       "reviewCount": 563,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 15.6,
-      "compareAtPrice": 27.86,
+      "compareAtPrice": 26.35,
       "keyIngredients": [
         "Arctiin",
         "Silymarin",
@@ -10867,7 +10867,7 @@
       "size": "10ml Tube",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/719w7q58vRL._AC_UL320_.jpg",
-      "price": 3.73,
+      "price": 3.84,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/719w7q58vRL._AC_UL320_.jpg"
@@ -10893,7 +10893,7 @@
       "reviewCount": 636,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 2.8,
-      "compareAtPrice": 4.66,
+      "compareAtPrice": 4.8,
       "keyIngredients": [
         "Shea Butter",
         "Chamomile Essence",
@@ -10910,7 +10910,7 @@
       "size": "400ml Bottle",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
-      "price": 11.35,
+      "price": 11.67,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
@@ -10936,7 +10936,7 @@
       "reviewCount": 709,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.4,
-      "compareAtPrice": 14.19,
+      "compareAtPrice": 14.59,
       "keyIngredients": [
         "Omega 3 & 6 Fatty Acids",
         "Glycine Soja"
@@ -10952,7 +10952,7 @@
       "badge": "Best Seller",
       "brand": "Eucerin",
       "image": "https://m.media-amazon.com/images/I/61i8t1DKUaL._AC_UL320_.jpg",
-      "price": 8.06,
+      "price": 8.17,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/61i8t1DKUaL._AC_UL320_.jpg"
@@ -10978,7 +10978,7 @@
       "reviewCount": 855,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 5.8,
-      "compareAtPrice": 10.08,
+      "compareAtPrice": 10.21,
       "keyIngredients": [
         "Urea 5%",
         "Ceramide NP",
@@ -10994,7 +10994,7 @@
       "size": "100ml Tube",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg",
-      "price": 15.77,
+      "price": 16,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg"
@@ -11020,7 +11020,7 @@
       "reviewCount": 928,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 11.2,
-      "compareAtPrice": 19.71,
+      "compareAtPrice": 20,
       "keyIngredients": [
         "[C+-Restore]™ Postbiotic",
         "Copper-Zinc Sulfate",
@@ -11038,7 +11038,7 @@
       "badge": "Derm Recommended",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg",
-      "price": 11.14,
+      "price": 10.4,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg"
@@ -11064,7 +11064,7 @@
       "reviewCount": 1001,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.8,
-      "compareAtPrice": 13.93,
+      "compareAtPrice": 13,
       "keyIngredients": [
         "100% Avène Thermal Spring Water",
         "Balanced Calcium-Magnesium"
@@ -11079,7 +11079,7 @@
       "size": "400ml Pump",
       "brand": "Avène",
       "image": "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg",
-      "price": 12.8,
+      "price": 12.97,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg"
@@ -11105,7 +11105,7 @@
       "reviewCount": 1074,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.6,
-      "compareAtPrice": 16,
+      "compareAtPrice": 16.21,
       "keyIngredients": [
         "Comedoclastin™",
         "Zinc Gluconate",
@@ -11120,7 +11120,7 @@
       "size": "40ml Tube",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg",
-      "price": 15.68,
+      "price": 15.89,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
@@ -11146,7 +11146,7 @@
       "reviewCount": 1147,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 11.6,
-      "compareAtPrice": 19.6,
+      "compareAtPrice": 19.86,
       "keyIngredients": [
         "Cohederm™ Complex",
         "Shea Butter",
@@ -11163,7 +11163,7 @@
       "badge": "Best Seller",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61RIR5NMbxL._AC_UL320_.jpg",
-      "price": 19.73,
+      "price": 20,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61RIR5NMbxL._AC_UL320_.jpg"
@@ -11189,7 +11189,7 @@
       "reviewCount": 1220,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 14.4,
-      "compareAtPrice": 24.66,
+      "compareAtPrice": 25,
       "keyIngredients": [
         "I-modulia® Postbiotic",
         "Cer-omega Lipids",
@@ -11205,7 +11205,7 @@
       "size": "40ml Sterile Tube",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
-      "price": 15.83,
+      "price": 16.06,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
@@ -11231,7 +11231,7 @@
       "reviewCount": 1293,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 11.4,
-      "compareAtPrice": 19.79,
+      "compareAtPrice": 20.07,
       "keyIngredients": [
         "D-Sensinose™ Postbiotic",
         "Squalane",
@@ -11247,7 +11247,7 @@
       "size": "30ml Pump",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61zRR3dkdzL._AC_UL320_.jpg",
-      "price": 24.79,
+      "price": 25.14,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61zRR3dkdzL._AC_UL320_.jpg"
@@ -11273,7 +11273,7 @@
       "reviewCount": 1366,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 17.6,
-      "compareAtPrice": 30.99,
+      "compareAtPrice": 31.43,
       "keyIngredients": [
         "Ascorbyl Glucoside 15%",
         "Tocopheryl Glucoside",
@@ -11289,7 +11289,7 @@
       "size": "30ml Pump",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg",
-      "price": 15.14,
+      "price": 14.13,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
@@ -11315,7 +11315,7 @@
       "reviewCount": 1439,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 10.6,
-      "compareAtPrice": 18.93,
+      "compareAtPrice": 17.66,
       "keyIngredients": [
         "Comedoclastin™ 25%",
         "Avène Thermal Water"
@@ -11331,7 +11331,7 @@
       "badge": "Derm Recommended",
       "brand": "Avène",
       "image": "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg",
-      "price": 24.53,
+      "price": 24.86,
       "rating": 4.6,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg"
@@ -11357,7 +11357,7 @@
       "reviewCount": 1512,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 18.4,
-      "compareAtPrice": 30.66,
+      "compareAtPrice": 31.07,
       "keyIngredients": [
         "Niacinamide 6%",
         "Pure Hyaluronic Acid 1.5%"
@@ -11372,7 +11372,7 @@
       "badge": "Best Seller",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61jxI8NmPZL._AC_UL320_.jpg",
-      "price": 25.95,
+      "price": 26.3,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/61jxI8NmPZL._AC_UL320_.jpg"
@@ -11398,7 +11398,7 @@
       "reviewCount": 1585,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 19.2,
-      "compareAtPrice": 32.44,
+      "compareAtPrice": 32.88,
       "keyIngredients": [
         "Niacinamide 6%",
         "Hyaluronic Acid",
@@ -11414,7 +11414,7 @@
       "size": "30ml Precision Tube",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/51gOvchpLUL._AC_UL320_.jpg",
-      "price": 12.05,
+      "price": 12.22,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51gOvchpLUL._AC_UL320_.jpg"
@@ -11440,7 +11440,7 @@
       "reviewCount": 1658,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.8,
-      "compareAtPrice": 15.06,
+      "compareAtPrice": 15.28,
       "keyIngredients": [
         "Dimethicone Polymer",
         "[C+-Restore]™",
@@ -11457,7 +11457,7 @@
       "size": "10ml Tube",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61qyfYQ8uCL._AC_UL320_.jpg",
-      "price": 11.67,
+      "price": 11.83,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/61qyfYQ8uCL._AC_UL320_.jpg"
@@ -11483,7 +11483,7 @@
       "reviewCount": 1731,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.4,
-      "compareAtPrice": 14.59,
+      "compareAtPrice": 14.79,
       "keyIngredients": [
         "Dextran Sulfate",
         "Chamomile Extract",
@@ -11499,7 +11499,7 @@
       "size": "200ml Bottle",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg",
-      "price": 11.27,
+      "price": 11.43,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
@@ -11525,7 +11525,7 @@
       "reviewCount": 1877,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8,
-      "compareAtPrice": 14.09,
+      "compareAtPrice": 14.29,
       "keyIngredients": [
         "Parcerine®",
         "Avène Thermal Spring Water 96%"
@@ -11541,7 +11541,7 @@
       "badge": "Best Seller",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61ZfUMlxeFL._AC_UL320_.jpg",
-      "price": 18.29,
+      "price": 17.07,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61ZfUMlxeFL._AC_UL320_.jpg"
@@ -11567,7 +11567,7 @@
       "reviewCount": 1950,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 12.8,
-      "compareAtPrice": 22.86,
+      "compareAtPrice": 21.34,
       "keyIngredients": [
         "Ruscus Extract",
         "Hesperidin Methyl Chalcone",
@@ -11584,7 +11584,7 @@
       "badge": "Derm Recommended",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg",
-      "price": 18.67,
+      "price": 18.92,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
@@ -11610,7 +11610,7 @@
       "reviewCount": 2023,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 14,
-      "compareAtPrice": 23.34,
+      "compareAtPrice": 23.65,
       "keyIngredients": [
         "Cohederm™",
         "Pre-tocopheryl",
@@ -11626,7 +11626,7 @@
       "size": "400ml Bottle",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61MZCaoQv8L._AC_UL320_.jpg",
-      "price": 14.59,
+      "price": 14.79,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61MZCaoQv8L._AC_UL320_.jpg"
@@ -11652,7 +11652,7 @@
       "reviewCount": 2096,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 10.8,
-      "compareAtPrice": 18.24,
+      "compareAtPrice": 18.49,
       "keyIngredients": [
         "D-Sensinose™",
         "Gentle Cleansing Agents 99% Natural"
@@ -11667,7 +11667,7 @@
       "size": "400ml Pump",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/71JS1ve0y0L._AC_UL320_.jpg",
-      "price": 13.7,
+      "price": 13.89,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71JS1ve0y0L._AC_UL320_.jpg"
@@ -11693,7 +11693,7 @@
       "reviewCount": 2169,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 10,
-      "compareAtPrice": 17.13,
+      "compareAtPrice": 17.36,
       "keyIngredients": [
         "I-modulia®",
         "Evening Primrose Oil",
@@ -11709,7 +11709,7 @@
       "size": "30ml Pump",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg",
-      "price": 18.89,
+      "price": 19.15,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
@@ -11735,7 +11735,7 @@
       "reviewCount": 2242,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 13.6,
-      "compareAtPrice": 23.61,
+      "compareAtPrice": 23.94,
       "keyIngredients": [
         "Synovea™ HR",
         "P-Refinyl",
@@ -11752,7 +11752,7 @@
       "badge": "Best Seller",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
-      "price": 29.3,
+      "price": 29.71,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
@@ -11778,7 +11778,7 @@
       "reviewCount": 2315,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 20.8,
-      "compareAtPrice": 36.63,
+      "compareAtPrice": 37.14,
       "keyIngredients": [
         "Vanilla Polyphenols",
         "Sytenol™ Bakuchiol",
@@ -11794,7 +11794,7 @@
       "size": "4g Stick",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61DCqTZ2YNL._AC_UL320_.jpg",
-      "price": 4.86,
+      "price": 4.53,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61DCqTZ2YNL._AC_UL320_.jpg"
@@ -11820,7 +11820,7 @@
       "reviewCount": 2388,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 3.4,
-      "compareAtPrice": 6.08,
+      "compareAtPrice": 5.66,
       "keyIngredients": [
         "White Beeswax",
         "Paraffin",
@@ -11837,7 +11837,7 @@
       "badge": "Derm Recommended",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg",
-      "price": 11.47,
+      "price": 11.62,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
@@ -11863,7 +11863,7 @@
       "reviewCount": 2534,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.6,
-      "compareAtPrice": 14.34,
+      "compareAtPrice": 14.52,
       "keyIngredients": [
         "Kaolin Clay 15%",
         "Biodegradable Microbeads",
@@ -11879,7 +11879,7 @@
       "size": "40ml Tube",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
-      "price": 17.84,
+      "price": 18.08,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
@@ -11905,7 +11905,7 @@
       "reviewCount": 207,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 13.2,
-      "compareAtPrice": 22.3,
+      "compareAtPrice": 22.6,
       "keyIngredients": [
         "Pongamia Oil",
         "Redness Calming Actives",
@@ -11922,7 +11922,7 @@
       "badge": "Best Seller",
       "brand": "Avène",
       "image": "https://m.media-amazon.com/images/I/71yFh07UdPL._AC_UL320_.jpg",
-      "price": 19.73,
+      "price": 20,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/71yFh07UdPL._AC_UL320_.jpg"
@@ -11948,7 +11948,7 @@
       "reviewCount": 280,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 14.4,
-      "compareAtPrice": 24.66,
+      "compareAtPrice": 25,
       "keyIngredients": [
         "Hyaluronic Acid",
         "Vitamin B3 (Niacinamide)",
@@ -11964,7 +11964,7 @@
       "size": "500ml Bottle",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
-      "price": 10.42,
+      "price": 10.56,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg"
@@ -11990,7 +11990,7 @@
       "reviewCount": 353,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.5,
-      "compareAtPrice": 13.03,
+      "compareAtPrice": 13.2,
       "keyIngredients": [
         "Micellar Technology",
         "Cucumber Fruit Extract",
@@ -12006,7 +12006,7 @@
       "size": "500ml Pump",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
-      "price": 16.9,
+      "price": 17.14,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
@@ -12032,7 +12032,7 @@
       "reviewCount": 426,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 12,
-      "compareAtPrice": 21.13,
+      "compareAtPrice": 21.43,
       "keyIngredients": [
         "Lipigenium™ Technology",
         "Skin Barrier Therapy™",
@@ -12048,7 +12048,7 @@
       "size": "30ml Tube",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg",
-      "price": 12.57,
+      "price": 11.73,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg"
@@ -12074,7 +12074,7 @@
       "reviewCount": 572,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.8,
-      "compareAtPrice": 15.71,
+      "compareAtPrice": 14.66,
       "keyIngredients": [
         "Fluidactiv™ Patent",
         "Agaric Acid",
@@ -12092,7 +12092,7 @@
       "badge": "Best Seller",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
-      "price": 11.2,
+      "price": 11.35,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
@@ -12118,7 +12118,7 @@
       "reviewCount": 645,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.4,
-      "compareAtPrice": 14,
+      "compareAtPrice": 14.19,
       "keyIngredients": [
         "Antalgicine™ Patent",
         "Copper-Zinc Complex",
@@ -12135,7 +12135,7 @@
       "size": "40ml Tube",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
-      "price": 12.7,
+      "price": 12.88,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
@@ -12161,7 +12161,7 @@
       "reviewCount": 718,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.4,
-      "compareAtPrice": 15.88,
+      "compareAtPrice": 16.1,
       "keyIngredients": [
         "Cellular Bioprotection™",
         "Tinosorb M",
@@ -12177,7 +12177,7 @@
       "size": "40ml Pump",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/41CK0WkjshL._AC_UL320_.jpg",
-      "price": 15.34,
+      "price": 15.56,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/41CK0WkjshL._AC_UL320_.jpg"
@@ -12203,7 +12203,7 @@
       "reviewCount": 791,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 11.2,
-      "compareAtPrice": 19.18,
+      "compareAtPrice": 19.45,
       "keyIngredients": [
         "Aquagenium™ Patent",
         "Hyaluronic Acid",
@@ -12219,7 +12219,7 @@
       "size": "1000ml Eco-Refill",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/61TyxMNn9PL._AC_UL320_.jpg",
-      "price": 17.78,
+      "price": 18.03,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61TyxMNn9PL._AC_UL320_.jpg"
@@ -12245,7 +12245,7 @@
       "reviewCount": 864,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 12.8,
-      "compareAtPrice": 22.23,
+      "compareAtPrice": 22.54,
       "keyIngredients": [
         "Vegetal Biolipids",
         "Vitamin PP",
@@ -12261,7 +12261,7 @@
       "size": "40ml Tube",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg",
-      "price": 12.96,
+      "price": 13.14,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
@@ -12287,7 +12287,7 @@
       "reviewCount": 937,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.2,
-      "compareAtPrice": 16.2,
+      "compareAtPrice": 16.43,
       "keyIngredients": [
         "Defensive Technology",
         "Carnosine",
@@ -12305,7 +12305,7 @@
       "badge": "Best Seller",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
-      "price": 11.14,
+      "price": 10.4,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
@@ -12331,7 +12331,7 @@
       "reviewCount": 1010,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.8,
-      "compareAtPrice": 13.93,
+      "compareAtPrice": 13,
       "keyIngredients": [
         "Salicylic Acid 1.8%",
         "Malic Acid Ester 10%",
@@ -12347,7 +12347,7 @@
       "size": "15ml Tube",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg",
-      "price": 10.13,
+      "price": 10.27,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
@@ -12373,7 +12373,7 @@
       "reviewCount": 1083,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.6,
-      "compareAtPrice": 12.66,
+      "compareAtPrice": 12.84,
       "keyIngredients": [
         "Toleridine™ Patent",
         "Caffeine",
@@ -12390,7 +12390,7 @@
       "badge": "Derm Recommended",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
-      "price": 19.46,
+      "price": 19.73,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
@@ -12416,7 +12416,7 @@
       "reviewCount": 1156,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 14.4,
-      "compareAtPrice": 24.33,
+      "compareAtPrice": 24.66,
       "keyIngredients": [
         "Fresh Vitamin C 2%",
         "LumiReveal™ Technology",
@@ -12432,7 +12432,7 @@
       "size": "4g Stick",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
-      "price": 3.29,
+      "price": 3.33,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
@@ -12458,7 +12458,7 @@
       "reviewCount": 1229,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 2.4,
-      "compareAtPrice": 4.11,
+      "compareAtPrice": 4.16,
       "keyIngredients": [
         "Shea Butter",
         "Beeswax",
@@ -12474,7 +12474,7 @@
       "size": "500ml Pump",
       "brand": "Bioderma",
       "image": "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg",
-      "price": 11.67,
+      "price": 11.83,
       "rating": 4.8,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg"
@@ -12500,7 +12500,7 @@
       "reviewCount": 1302,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.4,
-      "compareAtPrice": 14.59,
+      "compareAtPrice": 14.79,
       "keyIngredients": [
         "Zinc Sulfate",
         "Copper Sulfate",
@@ -12516,7 +12516,7 @@
       "badge": "Best Seller",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/41j8uqtCSAL._AC_UL320_.jpg",
-      "price": 14.93,
+      "price": 15.14,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/41j8uqtCSAL._AC_UL320_.jpg"
@@ -12542,7 +12542,7 @@
       "reviewCount": 1375,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 10.6,
-      "compareAtPrice": 18.66,
+      "compareAtPrice": 18.93,
       "keyIngredients": [
         "Salicylic Acid",
         "Vitamin E",
@@ -12558,7 +12558,7 @@
       "size": "500ml Pump",
       "brand": "Bioderma",
       "image": "https://m.media-amazon.com/images/I/71nSJZGO0tL._AC_UL320_.jpg",
-      "price": 12.57,
+      "price": 11.73,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/71nSJZGO0tL._AC_UL320_.jpg"
@@ -12584,7 +12584,7 @@
       "reviewCount": 1594,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.8,
-      "compareAtPrice": 15.71,
+      "compareAtPrice": 14.66,
       "keyIngredients": [
         "Skin Protect™ Complex",
         "Niacinamide",
@@ -15999,7 +15999,7 @@
       "size": "50g Jar",
       "brand": "Neutrogena",
       "image": "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg",
-      "price": 10.4,
+      "price": 10.99,
       "rating": 4.7,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg"
@@ -16025,7 +16025,7 @@
       "reviewCount": 1493,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.8,
-      "compareAtPrice": 13,
+      "compareAtPrice": 13.74,
       "keyIngredients": [
         "Purified Hyaluronic Acid",
         "Olive Extract",
@@ -16040,7 +16040,7 @@
       "size": "48g Jar",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/71u46v1y9IL._AC_UL320_.jpg",
-      "price": 15.14,
+      "price": 16,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/71u46v1y9IL._AC_UL320_.jpg"
@@ -16066,7 +16066,7 @@
       "reviewCount": 1566,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 11.2,
-      "compareAtPrice": 18.93,
+      "compareAtPrice": 20,
       "keyIngredients": [
         "Pure Accelerated Retinol SA",
         "Glucose Complex",
@@ -16082,7 +16082,7 @@
       "size": "88ml Tube",
       "brand": "Neutrogena",
       "image": "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg",
-      "price": 6.58,
+      "price": 6.4,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg"
@@ -16108,7 +16108,7 @@
       "reviewCount": 1639,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 4.8,
-      "compareAtPrice": 8.22,
+      "compareAtPrice": 8,
       "keyIngredients": [
         "Helioplex® Technology",
         "Broad Spectrum UVA/UVB SPF 70"
@@ -16122,7 +16122,7 @@
       "size": "230ml Pump",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/712QLKOFIzL._AC_UL320_.jpg",
-      "price": 7.22,
+      "price": 7.03,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/712QLKOFIzL._AC_UL320_.jpg"
@@ -16148,7 +16148,7 @@
       "reviewCount": 1712,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 5.2,
-      "compareAtPrice": 9.03,
+      "compareAtPrice": 8.79,
       "keyIngredients": [
         "Hyaluronic Acid",
         "Gentle Barrier Cleansing Surfactants"
@@ -16164,7 +16164,7 @@
       "badge": "Best Seller",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/71QwjtKdWsL._AC_UL320_.jpg",
-      "price": 7.75,
+      "price": 7.53,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71QwjtKdWsL._AC_UL320_.jpg"
@@ -16190,7 +16190,7 @@
       "reviewCount": 1785,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 5.5,
-      "compareAtPrice": 9.69,
+      "compareAtPrice": 9.41,
       "keyIngredients": [
         "Micronized Benzoyl Peroxide 2.5%"
       ],
@@ -16204,7 +16204,7 @@
       "size": "48g Jar",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/71Rr+8Xs4+L._AC_UL320_.jpg",
-      "price": 12.57,
+      "price": 12.22,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/71Rr+8Xs4+L._AC_UL320_.jpg"
@@ -16230,7 +16230,7 @@
       "reviewCount": 1858,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.8,
-      "compareAtPrice": 15.71,
+      "compareAtPrice": 15.28,
       "keyIngredients": [
         "Hexinol™ Technology",
         "Vitamin C",
@@ -16247,7 +16247,7 @@
       "badge": "Derm Recommended",
       "brand": "Neutrogena",
       "image": "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg",
-      "price": 9.6,
+      "price": 10.14,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg"
@@ -16274,7 +16274,7 @@
       "reviewCount": 1931,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.2,
-      "compareAtPrice": 12,
+      "compareAtPrice": 12.68,
       "keyIngredients": [
         "Purified Hyaluronic Acid",
         "Ophthalmologist Tested"
@@ -16289,7 +16289,7 @@
       "size": "200ml Pump",
       "brand": "Neutrogena",
       "image": "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg",
-      "price": 5.54,
+      "price": 5.86,
       "rating": 4.6,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg"
@@ -16315,7 +16315,7 @@
       "reviewCount": 2004,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 4.1,
-      "compareAtPrice": 6.92,
+      "compareAtPrice": 7.33,
       "keyIngredients": [
         "Salicylic Acid (BHA)",
         "Alcohol-Free Foaming Agents"
@@ -16329,7 +16329,7 @@
       "size": "56g Tube",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/71rLbIn09VL._AC_UL320_.jpg",
-      "price": 4.11,
+      "price": 4,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71rLbIn09VL._AC_UL320_.jpg"
@@ -16355,7 +16355,7 @@
       "reviewCount": 2077,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 3,
-      "compareAtPrice": 5.14,
+      "compareAtPrice": 5,
       "keyIngredients": [
         "Concentrated Glycerin 40%",
         "Stearic Acid"
@@ -16371,7 +16371,7 @@
       "badge": "Best Seller",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/817grWxxPVL._AC_UL320_.jpg",
-      "price": 9.44,
+      "price": 9.19,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/817grWxxPVL._AC_UL320_.jpg"
@@ -16397,7 +16397,7 @@
       "reviewCount": 2150,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 6.8,
-      "compareAtPrice": 11.8,
+      "compareAtPrice": 11.49,
       "keyIngredients": [
         "Antioxidant Complex",
         "Feverfew",
@@ -16413,7 +16413,7 @@
       "size": "186ml Pump",
       "brand": "Neutrogena",
       "image": "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg",
-      "price": 6.62,
+      "price": 6.44,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg"
@@ -16439,7 +16439,7 @@
       "reviewCount": 2223,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 4.7,
-      "compareAtPrice": 8.28,
+      "compareAtPrice": 8.05,
       "keyIngredients": [
         "Polyhydroxy Acid (PHA) 2%",
         "Kaolin Clay"
@@ -16453,7 +16453,7 @@
       "size": "30ml Dropper",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/71QNd-OV07L._AC_UL320_.jpg",
-      "price": 14.57,
+      "price": 14.17,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/71QNd-OV07L._AC_UL320_.jpg"
@@ -16479,7 +16479,7 @@
       "reviewCount": 2296,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 10.2,
-      "compareAtPrice": 18.21,
+      "compareAtPrice": 17.71,
       "keyIngredients": [
         "Pure Vitamin C 20%",
         "Retinol SA",
@@ -16495,7 +16495,7 @@
       "size": "48g Jar",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/81RaJNazDRL._AC_UL320_.jpg",
-      "price": 12,
+      "price": 12.68,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/81RaJNazDRL._AC_UL320_.jpg"
@@ -16521,7 +16521,7 @@
       "reviewCount": 2369,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9,
-      "compareAtPrice": 15,
+      "compareAtPrice": 15.85,
       "keyIngredients": [
         "Purified Hyaluronic Acid",
         "Multi-Antioxidants",
@@ -16538,7 +16538,7 @@
       "badge": "Derm Recommended",
       "brand": "Neutrogena",
       "image": "https://m.media-amazon.com/images/I/71R2JbsMMZL._AC_UL320_.jpg",
-      "price": 7.7,
+      "price": 8.14,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/71R2JbsMMZL._AC_UL320_.jpg"
@@ -16564,7 +16564,7 @@
       "reviewCount": 2442,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 5.7,
-      "compareAtPrice": 9.63,
+      "compareAtPrice": 10.18,
       "keyIngredients": [
         "Helioplex®",
         "Non-Comedogenic Matte Finish"
@@ -16580,7 +16580,7 @@
       "badge": "Best Seller",
       "brand": "Neutrogena",
       "image": "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg",
-      "price": 6.16,
+      "price": 6,
       "rating": 4.9,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg"
@@ -16606,7 +16606,7 @@
       "reviewCount": 2515,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 4.5,
-      "compareAtPrice": 7.7,
+      "compareAtPrice": 7.5,
       "keyIngredients": [
         "Salicylic Acid 2%",
         "Chamomile & Aloe Extracts"
@@ -16620,7 +16620,7 @@
       "size": "200ml Bottle",
       "brand": "Round Lab",
       "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg",
-      "price": 10.56,
+      "price": 10.27,
       "rating": 4.6,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg"
@@ -16646,7 +16646,7 @@
       "reviewCount": 188,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.6,
-      "compareAtPrice": 13.2,
+      "compareAtPrice": 12.84,
       "keyIngredients": [
         "Ulleungdo Deep Sea Water",
         "Hatching EX-07 Enzyme",
@@ -16661,7 +16661,7 @@
       "size": "150ml Tube",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/41UNJoN9WHL._AC_UL320_.jpg",
-      "price": 9.01,
+      "price": 8.77,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/41UNJoN9WHL._AC_UL320_.jpg"
@@ -16687,7 +16687,7 @@
       "reviewCount": 261,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 6.4,
-      "compareAtPrice": 11.26,
+      "compareAtPrice": 10.96,
       "keyIngredients": [
         "74 Deep Sea Natural Minerals",
         "Ceramide NP",
@@ -16704,7 +16704,7 @@
       "badge": "TikTok #1 Trending",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg",
-      "price": 12,
+      "price": 11.67,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
@@ -16730,7 +16730,7 @@
       "reviewCount": 334,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.4,
-      "compareAtPrice": 15,
+      "compareAtPrice": 14.59,
       "keyIngredients": [
         "Inje Silver Birch Sap",
         "Vita Hyaluronic Acid",
@@ -16746,7 +16746,7 @@
       "size": "80ml Jar",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg",
-      "price": 12.8,
+      "price": 13.52,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
@@ -16772,7 +16772,7 @@
       "reviewCount": 407,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.6,
-      "compareAtPrice": 16,
+      "compareAtPrice": 16.9,
       "keyIngredients": [
         "Inje Birch Tree Sap",
         "Collagen Moisture Capsules",
@@ -16789,7 +16789,7 @@
       "badge": "Best Seller",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/41-idUi+vTL._AC_UL320_.jpg",
-      "price": 11.89,
+      "price": 12.57,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/41-idUi+vTL._AC_UL320_.jpg"
@@ -16815,7 +16815,7 @@
       "reviewCount": 480,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.8,
-      "compareAtPrice": 14.86,
+      "compareAtPrice": 15.71,
       "keyIngredients": [
         "Jeongseon Black Soybean Extract",
         "Ceramide AP & NP",
@@ -16832,7 +16832,7 @@
       "badge": "Derm Recommended",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/51yKz-A3+xL._AC_UL320_.jpg",
-      "price": 13.7,
+      "price": 13.33,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/51yKz-A3+xL._AC_UL320_.jpg"
@@ -16859,7 +16859,7 @@
       "reviewCount": 553,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 10,
-      "compareAtPrice": 17.13,
+      "compareAtPrice": 16.66,
       "keyIngredients": [
         "Black Soybean Extract",
         "Ceramide Complex",
@@ -16875,7 +16875,7 @@
       "size": "300ml Bottle",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/61YqzMZvbOL._AC_UL320_.jpg",
-      "price": 11.11,
+      "price": 10.81,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/61YqzMZvbOL._AC_UL320_.jpg"
@@ -16902,7 +16902,7 @@
       "reviewCount": 626,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8,
-      "compareAtPrice": 13.89,
+      "compareAtPrice": 13.51,
       "keyIngredients": [
         "Geomundo Sea Breeze Mugwort",
         "Madecassoside",
@@ -16918,7 +16918,7 @@
       "size": "80ml Tube",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/41vWNYhBxuL._AC_UL320_.jpg",
-      "price": 12.68,
+      "price": 12.33,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/41vWNYhBxuL._AC_UL320_.jpg"
@@ -16945,7 +16945,7 @@
       "reviewCount": 699,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9,
-      "compareAtPrice": 15.85,
+      "compareAtPrice": 15.41,
       "keyIngredients": [
         "Artemisia Extract",
         "4-Cica Complex",
@@ -16962,7 +16962,7 @@
       "size": "30ml Dropper",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/51LUDhsEtbL._AC_UL320_.jpg",
-      "price": 13.14,
+      "price": 12.78,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/51LUDhsEtbL._AC_UL320_.jpg"
@@ -16989,7 +16989,7 @@
       "reviewCount": 772,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.2,
-      "compareAtPrice": 16.43,
+      "compareAtPrice": 15.97,
       "keyIngredients": [
         "Pine Tree Leaf Extract",
         "Centella Asiatica",
@@ -17007,7 +17007,7 @@
       "badge": "Best Seller",
       "brand": "Round Lab",
       "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg",
-      "price": 11.2,
+      "price": 11.83,
       "rating": 4.7,
       "gallery": [
         "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg"
@@ -17033,7 +17033,7 @@
       "reviewCount": 845,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.4,
-      "compareAtPrice": 14,
+      "compareAtPrice": 14.79,
       "keyIngredients": [
         "Deep Sea Water",
         "8 Peptide Complex",
@@ -17048,7 +17048,7 @@
       "size": "150ml Tube",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/51A2b2L5sqL._AC_UL320_.jpg",
-      "price": 8.92,
+      "price": 9.43,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51A2b2L5sqL._AC_UL320_.jpg"
@@ -17074,7 +17074,7 @@
       "reviewCount": 918,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 6.6,
-      "compareAtPrice": 11.15,
+      "compareAtPrice": 11.79,
       "keyIngredients": [
         "Inje Birch Sap",
         "Artemisia Annua Extract",
@@ -17090,7 +17090,7 @@
       "size": "200ml Pump",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg",
-      "price": 12.05,
+      "price": 11.73,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
@@ -17116,7 +17116,7 @@
       "reviewCount": 991,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.8,
-      "compareAtPrice": 15.06,
+      "compareAtPrice": 14.66,
       "keyIngredients": [
         "Evening Primrose Oil",
         "Avocado Oil",
@@ -17133,7 +17133,7 @@
       "badge": "Derm Recommended",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/41uBBJcLghL._AC_UL320_.jpg",
-      "price": 10.83,
+      "price": 10.54,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/41uBBJcLghL._AC_UL320_.jpg"
@@ -17159,7 +17159,7 @@
       "reviewCount": 1064,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.8,
-      "compareAtPrice": 13.54,
+      "compareAtPrice": 13.17,
       "keyIngredients": [
         "Birch Tree Sap",
         "Peptide Glyceryl Glucoside",
@@ -17175,7 +17175,7 @@
       "size": "100ml Tub",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/71ab9YRL99L._AC_UL320_.jpg",
-      "price": 10.14,
+      "price": 9.86,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/71ab9YRL99L._AC_UL320_.jpg"
@@ -17201,7 +17201,7 @@
       "reviewCount": 1137,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.2,
-      "compareAtPrice": 12.68,
+      "compareAtPrice": 12.32,
       "keyIngredients": [
         "Mineral-rich Deep Sea Mud 40%",
         "Panthenol",
@@ -17218,7 +17218,7 @@
       "badge": "Best Seller",
       "brand": "Round Lab",
       "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg",
-      "price": 13.14,
+      "price": 12.78,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
@@ -17244,7 +17244,7 @@
       "reviewCount": 1210,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.2,
-      "compareAtPrice": 16.43,
+      "compareAtPrice": 15.97,
       "keyIngredients": [
         "Black Soybean Seed Oil",
         "Meadowfoam Seed Oil",
@@ -17260,7 +17260,7 @@
       "size": "150ml Pump",
       "brand": "Haruharu Wonder",
       "image": "https://m.media-amazon.com/images/I/415f53111DL._AC_UL320_.jpg",
-      "price": 10.54,
+      "price": 10.99,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/415f53111DL._AC_UL320_.jpg"
@@ -17286,7 +17286,7 @@
       "reviewCount": 1356,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 7.8,
-      "compareAtPrice": 13.17,
+      "compareAtPrice": 13.74,
       "keyIngredients": [
         "100% Natural Plant Oils",
         "Oryza Sativa Bran Oil",
@@ -17302,7 +17302,7 @@
       "size": "50ml Tube",
       "brand": "Haruharu Wonder",
       "image": "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg",
-      "price": 10.96,
+      "price": 11.43,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg"
@@ -17328,7 +17328,7 @@
       "reviewCount": 1429,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8,
-      "compareAtPrice": 13.7,
+      "compareAtPrice": 14.29,
       "keyIngredients": [
         "Zinc Oxide Non-Nano",
         "Fermented Black Rice",
@@ -17344,7 +17344,7 @@
       "size": "30ml Dropper",
       "brand": "Haruharu Wonder",
       "image": "https://m.media-amazon.com/images/I/41XYPEJMTyL._AC_UL320_.jpg",
-      "price": 12.22,
+      "price": 11.73,
       "rating": 4.8,
       "gallery": [
         "https://m.media-amazon.com/images/I/41XYPEJMTyL._AC_UL320_.jpg"
@@ -17370,7 +17370,7 @@
       "reviewCount": 1502,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 8.8,
-      "compareAtPrice": 15.28,
+      "compareAtPrice": 14.66,
       "keyIngredients": [
         "Oryza Sativa (Rice) Bran Oil",
         "Sunflower Seed Oil",
@@ -17387,7 +17387,7 @@
       "badge": "Best Seller",
       "brand": "Haruharu Wonder",
       "image": "https://m.media-amazon.com/images/I/41yfIHRd+yL._AC_UL320_.jpg",
-      "price": 13.52,
+      "price": 12.97,
       "rating": 4.9,
       "gallery": [
         "https://m.media-amazon.com/images/I/41yfIHRd+yL._AC_UL320_.jpg"
@@ -17413,7 +17413,7 @@
       "reviewCount": 1575,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.6,
-      "compareAtPrice": 16.9,
+      "compareAtPrice": 16.21,
       "keyIngredients": [
         "Tranexamic Acid 4%",
         "Niacinamide 4%",
@@ -17429,7 +17429,7 @@
       "size": "50ml Pump",
       "brand": "Haruharu Wonder",
       "image": "https://m.media-amazon.com/images/I/61b4pxtsZoL._AC_UL320_.jpg",
-      "price": 13.14,
+      "price": 12.6,
       "rating": 4.6,
       "gallery": [
         "https://m.media-amazon.com/images/I/61b4pxtsZoL._AC_UL320_.jpg"
@@ -17455,7 +17455,7 @@
       "reviewCount": 1648,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.2,
-      "compareAtPrice": 16.43,
+      "compareAtPrice": 15.75,
       "keyIngredients": [
         "Black Rice Ferment",
         "Bifida & Galactomyces Ferment",
@@ -17471,7 +17471,7 @@
       "size": "70 Pads Tub",
       "brand": "Haruharu Wonder",
       "image": "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg",
-      "price": 12.8,
+      "price": 13.33,
       "rating": 4.7,
       "gallery": [
         "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg"
@@ -17497,7 +17497,7 @@
       "reviewCount": 1721,
       "shippingDays": "1–3 Days (Prime Dropship)",
       "supplierCost": 9.6,
-      "compareAtPrice": 16,
+      "compareAtPrice": 16.66,
       "keyIngredients": [
         "AHA Fruit Complex",
         "White Willow Bark Extract (BHA)",

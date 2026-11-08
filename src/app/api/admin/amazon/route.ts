@@ -55,7 +55,7 @@ export async function GET(request: Request) {
         rating: item.rating || 4.8,
         ratingsTotal: item.ratings_total || 250,
         price,
-        suggestedRetailPrice: Number((price * 1.6).toFixed(2)),
+        suggestedRetailPrice: Number((price / 0.72).toFixed(2)), // 28% profit margin
         isPrime: Boolean(item.is_prime),
         brand: item.brand || "Amazon Bestseller",
       };
