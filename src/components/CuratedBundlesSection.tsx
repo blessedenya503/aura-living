@@ -65,14 +65,14 @@ export default function CuratedBundlesSection({ bundleProduct }: CuratedBundlesS
                 </h2>
 
                 <p className="text-xs sm:text-sm text-stone-400 mt-2 leading-relaxed">
-                  Defend against extreme heat and UV stress. Includes Beauty of Joseon SPF 50+, CeraVe Lotion, The Ordinary Niacinamide, plus a <strong>Free Portable Fan</strong> for Nigerian orders.
+                  Defend against extreme heat and UV stress. Includes Beauty of Joseon SPF 50+, CeraVe Lotion, The Ordinary Niacinamide, plus a <strong>Free Portable Fan</strong> included with every bundle order.
                 </p>
 
                 <div className="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-300">
                   <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">☀️ BoJ Relief Sun SPF 50+</span>
                   <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">🧴 CeraVe Lotion</span>
                   <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">💧 The Ordinary Niacinamide</span>
-                  <span className="bg-amber-500/20 text-amber-300 px-2.5 py-1 rounded-md border border-amber-500/40">🎁 Free Portable Fan (NG Only)</span>
+                  <span className="bg-amber-500/20 text-amber-300 px-2.5 py-1 rounded-md border border-amber-500/40">🎁 Free Portable Fan (Every Order)</span>
                 </div>
 
                 <div className="mt-5 flex items-baseline gap-3">
