@@ -61,7 +61,7 @@ const FEATURED_SLIDES: TrendSlide[] = [
     heroHighlight: "Zero White Cast.",
     heroSubtitle:
       "Lightweight moisturizing sunscreen with rice extract and probiotics.",
-    heroImage: "https://m.media-amazon.com/images/I/51w7R9tP67L._AC_SL1200_.jpg",
+    heroImage: "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
     fallbackPrice: 18.0,
     size: "50ml Tube",
     rating: 4.9,
@@ -77,7 +77,7 @@ const FEATURED_SLIDES: TrendSlide[] = [
     heroHighlight: "77% Pure Heartleaf.",
     heroSubtitle:
       "Gentle balancing toner that soothes sensitive, irritated skin and clears pores.",
-    heroImage: "https://m.media-amazon.com/images/I/61r56kQGIPL._AC_SL1500_.jpg",
+    heroImage: "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
     fallbackPrice: 22.0,
     size: "250ml Bottle",
     rating: 4.8,
@@ -93,7 +93,7 @@ const FEATURED_SLIDES: TrendSlide[] = [
     heroHighlight: "Cicaplast Baume B5+.",
     heroSubtitle:
       "Rich soothing cream with 5% Panthenol and Madecassoside for instant relief.",
-    heroImage: "https://m.media-amazon.com/images/I/61W8l2gH6ML._AC_SL1500_.jpg",
+    heroImage: "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg",
     fallbackPrice: 22.99,
     size: "40ml / 1.35 oz",
     rating: 4.9,

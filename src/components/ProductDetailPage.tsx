@@ -30,6 +30,7 @@ import ProductCard from "@/components/ProductCard";
 import CustomerReviewsSection from "@/components/CustomerReviewsSection";
 import { Info, Layers, SunMedium, Wind, AlertCircle } from "lucide-react";
 import ProductModal from "@/components/ProductModal";
+import { getCategorySpecificHowToUse } from "@/lib/usage-instructions";
 
 function getSafeImageUrl(url?: string): string {
   if (!url) return "";
@@ -582,11 +583,10 @@ export function ProductDetailPage({
           <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
             <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
               <Clock className="w-4 h-4 text-[#002B7F]" />
-              <span>How to Use (AM &amp; PM Routine)</span>
+              <span>How to Use ({product.category || "Treatment Routine"})</span>
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
-              {product.howToUse ||
-                "AM Routine: Apply gently to cleansed skin after toning. Follow with broad-spectrum sunscreen.\n\nPM Routine: Smooth onto face and neck after cleansing. Gently pat until fully absorbed into the dermal layer."}
+              {getCategorySpecificHowToUse(product)}
             </p>
           </div>
 

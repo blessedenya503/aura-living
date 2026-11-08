@@ -503,6 +503,9 @@ export function sanitizeProductForPublic(product: Product): Product {
     supplierSource: p.supplierSource || undefined,
     shippingDays: p.shippingDays || "2–4 Days (Express Dropship)",
     verification: p.verification,
+    howToUse: p.howToUse,
+    isBundle: p.isBundle,
+    bundledItems: p.bundledItems,
     reviews: [],
     faqs: [],
   };
