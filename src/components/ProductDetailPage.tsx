@@ -649,6 +649,34 @@ export function ProductDetailPage({
         )}
       </main>
 
+      {/* Sticky Mobile Add To Bag Bar (visible only on small screens) */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/90 px-4 py-2.5 shadow-xl flex items-center justify-between gap-3">
+        <div className="min-w-0 flex-1">
+          <div className="text-[11px] text-slate-500 font-medium truncate">{product.name}</div>
+          <div className="text-base font-extrabold font-mono text-slate-950">
+            {formatPrice(currentTotal)}
+          </div>
+        </div>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={handleAddToCart}
+            className="p-2.5 rounded-xl border border-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-900 transition-colors"
+            title="Add to Bag"
+          >
+            {isAdded ? <Check className="w-5 h-5 text-emerald-600" /> : <ShoppingBag className="w-5 h-5" />}
+          </button>
+          <button
+            type="button"
+            onClick={handleBuyNow}
+            className="px-4 py-2.5 rounded-xl bg-[#002B7F] hover:bg-blue-800 text-white text-xs font-black uppercase tracking-wider flex items-center gap-1.5 shadow-md active:scale-95 transition-all"
+          >
+            <Zap className="w-3.5 h-3.5 fill-amber-300 text-amber-300" />
+            <span>Buy Now</span>
+          </button>
+        </div>
+      </div>
+
       {/* Global Modals */}
       <CartDrawer />
       <CheckoutModal />
