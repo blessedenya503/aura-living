@@ -183,8 +183,9 @@ export default function HomePage() {
         return 500;
       }
 
-      // If user selected HYPERPIGMENTATION: Niacinamide, Glow Recipe Dew Drops, Vitamin C
+      // If user selected HYPERPIGMENTATION: La Roche-Posay Pure Vitamin C10, Glow Recipe Dew Drops, Niacinamide
       if (selectedConcern === "hyperpigmentation") {
+        if (n.includes("la roche") && n.includes("vitamin c")) return 1050;
         if (n.includes("dew drops") || n.includes("glow recipe")) return 1000;
         if (n.includes("niacinamide 10%")) return 950;
         if (n.includes("luminous630")) return 900;
