@@ -80,18 +80,72 @@ export default function HomePage() {
       const matchCat =
         selectedCategory === "All" || p.category === selectedCategory;
 
-      // Skin Concern filtering
+      // Skin Concern filtering - strict, targeted matching
       let matchConcern = true;
       if (selectedConcern !== "all") {
-        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")} ${p.tagline || ""}`.toLowerCase();
+        const n = (p.name || "").toLowerCase();
+        const b = (p.brand || "").toLowerCase();
+        const cat = (p.category || "").toLowerCase();
+        const ing = (p.keyIngredients || []).join(" ").toLowerCase();
+        const ben = (p.benefits || []).join(" ").toLowerCase();
+
         if (selectedConcern === "acne") {
-          matchConcern = text.includes("acne") || text.includes("blemish") || text.includes("salicylic") || text.includes("clarif") || text.includes("bha") || text.includes("pore");
+          // Explicit acne treatments: pimple patches, salicylic acid, effaclar, benzoyl, tea tree, blemish spot
+          matchConcern =
+            n.includes("patch") ||
+            n.includes("pimple") ||
+            n.includes("blemish") ||
+            n.includes("acne") ||
+            n.includes("salicylic") ||
+            n.includes("effaclar") ||
+            n.includes("comedomed") ||
+            n.includes("kerato") ||
+            n.includes("benzoyl") ||
+            n.includes("tea-trica") ||
+            ing.includes("salicylic acid") ||
+            ing.includes("benzoyl peroxide") ||
+            ing.includes("hydrocolloid");
         } else if (selectedConcern === "hydration") {
-          matchConcern = text.includes("hydrat") || text.includes("hyaluronic") || text.includes("moistur") || text.includes("dewy") || text.includes("water") || text.includes("plump");
+          // Deep hydration & humectant formulations: snail mucin, hyaluronic acid, dewy skin, water cream, torriden
+          matchConcern =
+            n.includes("snail") ||
+            n.includes("hyaluron") ||
+            n.includes("dewy") ||
+            n.includes("water cream") ||
+            n.includes("hydrat") ||
+            n.includes("hydro") ||
+            b.includes("torriden") ||
+            ing.includes("hyaluronic") ||
+            ing.includes("glycerin") ||
+            ing.includes("polyglutamic");
         } else if (selectedConcern === "hyperpigmentation") {
-          matchConcern = text.includes("brighten") || text.includes("vitamin c") || text.includes("niacinamide") || text.includes("dark spot") || text.includes("glow") || text.includes("radiant");
+          // Dark spots & tone brighteners: Vitamin C, Niacinamide, Alpha Arbutin, Luminous630, Tranexamic Acid
+          matchConcern =
+            n.includes("vitamin c") ||
+            n.includes("luminous630") ||
+            n.includes("dark spot") ||
+            n.includes("arbutin") ||
+            n.includes("brighten") ||
+            n.includes("radiant") ||
+            n.includes("niacinamide") ||
+            ing.includes("vitamin c") ||
+            ing.includes("ascorbic") ||
+            ing.includes("arbutin") ||
+            ing.includes("tranexamic acid");
         } else if (selectedConcern === "barrier") {
-          matchConcern = text.includes("barrier") || text.includes("ceramide") || text.includes("repair") || text.includes("sooth") || text.includes("calm") || text.includes("cicaplast") || text.includes("cica");
+          // Skin barrier defense: Cicaplast, CeraVe Ceramides, Centella, Heartleaf, Panthenol
+          matchConcern =
+            n.includes("cicaplast") ||
+            n.includes("ceramide") ||
+            n.includes("barrier") ||
+            n.includes("cica") ||
+            n.includes("heartleaf") ||
+            n.includes("centella") ||
+            n.includes("baume b5") ||
+            b.includes("skin1004") ||
+            ing.includes("ceramide") ||
+            ing.includes("panthenol") ||
+            ing.includes("madecassoside");
         }
       }
 
@@ -105,59 +159,88 @@ export default function HomePage() {
       return matchCat && matchConcern && matchSearch;
     });
 
-    // Trending products priority score (Glow Recipe, Tatcha Skin Dew, Anua, COSRX, La Roche-Posay show first)
-    const getTrendingScore = (p: Product) => {
+    // Smart priority sorting based on the active skin concern & viral trends
+    const getProductPriorityScore = (p: Product) => {
       const n = (p.name || "").toLowerCase();
       const b = (p.brand || "").toLowerCase();
-      const badge = (p.badge || "").toLowerCase();
 
-      // Tier 1: Glow Recipe & Tatcha Skin Dew / Water Cream (Top priority)
+      // If user selected ACNE & BLEMISHES: COSRX Pimple Master Patch MUST be #1
+      if (selectedConcern === "acne") {
+        if (n.includes("cosrx") && n.includes("patch")) return 1000;
+        if (n.includes("patch") || n.includes("pimple")) return 950;
+        if (n.includes("effaclar") || n.includes("blemish cream")) return 900;
+        if (n.includes("salicylic acid cleanser") || n.includes("acne control")) return 850;
+        if (n.includes("comedomed") || n.includes("tea-trica")) return 800;
+        return 500;
+      }
+
+      // If user selected HYDRATION: COSRX Snail Mucin, Tatcha Dewy Skin, Torriden
+      if (selectedConcern === "hydration") {
+        if (n.includes("snail 96") || (b.includes("cosrx") && n.includes("snail"))) return 1000;
+        if (n.includes("dewy skin") || b.includes("tatcha")) return 950;
+        if (b.includes("torriden") || n.includes("dive-in")) return 900;
+        if (n.includes("hyaluronic") || n.includes("water cream")) return 850;
+        return 500;
+      }
+
+      // If user selected HYPERPIGMENTATION: Niacinamide, Glow Recipe Dew Drops, Vitamin C
+      if (selectedConcern === "hyperpigmentation") {
+        if (n.includes("dew drops") || n.includes("glow recipe")) return 1000;
+        if (n.includes("niacinamide 10%")) return 950;
+        if (n.includes("luminous630")) return 900;
+        if (n.includes("vitamin c 23") || n.includes("vitamin c serum")) return 850;
+        return 500;
+      }
+
+      // If user selected BARRIER: Cicaplast Baume B5+, Anua Heartleaf, CeraVe Barrier Cream
+      if (selectedConcern === "barrier") {
+        if (n.includes("cicaplast")) return 1000;
+        if (n.includes("heartleaf 77%") || b.includes("anua")) return 950;
+        if (n.includes("cerave") && (n.includes("moisturizing cream") || n.includes("barrier"))) return 900;
+        if (b.includes("skin1004") && n.includes("centella")) return 850;
+        return 500;
+      }
+
+      // Default All Concerns: Glow Recipe, Tatcha Skin Dew, Anua, COSRX, La Roche-Posay
       if (n.includes("glow recipe") || b.includes("glow recipe")) return 100;
       if (n.includes("tatcha") || b.includes("tatcha")) return 95;
       if (n.includes("dewy skin") || n.includes("dew drops") || n.includes("plum plump")) return 90;
-
-      // Tier 2: Viral Holy Grail Sensations (Anua Heartleaf, COSRX Snail, Cicaplast, Beauty of Joseon)
       if (n.includes("heartleaf") || b.includes("anua")) return 85;
-      if (n.includes("snail 96") || b.includes("cosrx")) return 80;
+      if (n.includes("patch") || n.includes("snail 96") || b.includes("cosrx")) return 80;
       if (n.includes("cicaplast") || b.includes("la roche-posay")) return 78;
       if (n.includes("joseon") || b.includes("beauty of joseon")) return 75;
-
-      // Tier 3: Cult Viral Skincare (Drunk Elephant, Aquaphor, CeraVe, Bioderma)
-      if (b.includes("drunk elephant") || n.includes("drunk elephant")) return 70;
+      if (b.includes("drunk elephant")) return 70;
       if (n.includes("aquaphor") || b.includes("eucerin")) return 65;
-      if (b.includes("cerave") || n.includes("cerave")) return 60;
+      if (b.includes("cerave")) return 60;
       if (b.includes("bioderma")) return 55;
-
-      if (badge.includes("trending") || badge.includes("tiktok") || badge.includes("viral") || badge.includes("bestseller")) return 50;
       return 0;
     };
 
     if (sortBy === "price-asc") {
       list.sort((a, b) => {
-        const scoreA = getTrendingScore(a);
-        const scoreB = getTrendingScore(b);
+        const scoreA = getProductPriorityScore(a);
+        const scoreB = getProductPriorityScore(b);
         if (scoreA !== scoreB) return scoreB - scoreA;
         return a.price - b.price;
       });
     } else if (sortBy === "price-desc") {
       list.sort((a, b) => {
-        const scoreA = getTrendingScore(a);
-        const scoreB = getTrendingScore(b);
+        const scoreA = getProductPriorityScore(a);
+        const scoreB = getProductPriorityScore(b);
         if (scoreA !== scoreB) return scoreB - scoreA;
         return b.price - a.price;
       });
     } else if (sortBy === "rating") {
       list.sort((a, b) => {
-        const scoreA = getTrendingScore(a);
-        const scoreB = getTrendingScore(b);
+        const scoreA = getProductPriorityScore(a);
+        const scoreB = getProductPriorityScore(b);
         if (scoreA !== scoreB) return scoreB - scoreA;
         return b.rating - a.rating;
       });
     } else {
-      // Default order: Prioritize Glow Recipe, Tatcha Dewy Skin, and viral trends at the very top
       list.sort((a, b) => {
-        const scoreA = getTrendingScore(a);
-        const scoreB = getTrendingScore(b);
+        const scoreA = getProductPriorityScore(a);
+        const scoreB = getProductPriorityScore(b);
         if (scoreA !== scoreB) return scoreB - scoreA;
         return b.rating - a.rating;
       });
@@ -170,20 +253,66 @@ export default function HomePage() {
     return {
       all: products.length,
       acne: products.filter((p) => {
-        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
-        return text.includes("acne") || text.includes("blemish") || text.includes("salicylic") || text.includes("clarif") || text.includes("bha") || text.includes("pore");
+        const n = (p.name || "").toLowerCase();
+        const ing = (p.keyIngredients || []).join(" ").toLowerCase();
+        return (
+          n.includes("patch") ||
+          n.includes("pimple") ||
+          n.includes("blemish") ||
+          n.includes("acne") ||
+          n.includes("salicylic") ||
+          n.includes("effaclar") ||
+          n.includes("comedomed") ||
+          n.includes("kerato") ||
+          n.includes("benzoyl") ||
+          n.includes("tea-trica") ||
+          ing.includes("salicylic acid") ||
+          ing.includes("benzoyl peroxide") ||
+          ing.includes("hydrocolloid")
+        );
       }).length,
       hydration: products.filter((p) => {
-        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
-        return text.includes("hydrat") || text.includes("hyaluronic") || text.includes("moistur") || text.includes("dewy") || text.includes("water") || text.includes("plump");
+        const n = (p.name || "").toLowerCase();
+        const b = (p.brand || "").toLowerCase();
+        const ing = (p.keyIngredients || []).join(" ").toLowerCase();
+        return (
+          n.includes("snail") ||
+          n.includes("hyaluron") ||
+          n.includes("dewy") ||
+          n.includes("water cream") ||
+          n.includes("hydrat") ||
+          b.includes("torriden") ||
+          ing.includes("hyaluronic")
+        );
       }).length,
       hyperpigmentation: products.filter((p) => {
-        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
-        return text.includes("brighten") || text.includes("vitamin c") || text.includes("niacinamide") || text.includes("dark spot") || text.includes("glow") || text.includes("radiant");
+        const n = (p.name || "").toLowerCase();
+        const ing = (p.keyIngredients || []).join(" ").toLowerCase();
+        return (
+          n.includes("vitamin c") ||
+          n.includes("luminous630") ||
+          n.includes("dark spot") ||
+          n.includes("arbutin") ||
+          n.includes("brighten") ||
+          n.includes("niacinamide") ||
+          ing.includes("vitamin c") ||
+          ing.includes("arbutin")
+        );
       }).length,
       barrier: products.filter((p) => {
-        const text = `${p.name} ${p.category || ""} ${(p.benefits || []).join(" ")} ${(p.keyIngredients || []).join(" ")}`.toLowerCase();
-        return text.includes("barrier") || text.includes("ceramide") || text.includes("repair") || text.includes("sooth") || text.includes("calm") || text.includes("cicaplast") || text.includes("cica");
+        const n = (p.name || "").toLowerCase();
+        const b = (p.brand || "").toLowerCase();
+        const ing = (p.keyIngredients || []).join(" ").toLowerCase();
+        return (
+          n.includes("cicaplast") ||
+          n.includes("ceramide") ||
+          n.includes("barrier") ||
+          n.includes("heartleaf") ||
+          n.includes("centella") ||
+          b.includes("skin1004") ||
+          ing.includes("ceramide") ||
+          ing.includes("panthenol")
+        );
       }).length,
     };
   }, [products]);

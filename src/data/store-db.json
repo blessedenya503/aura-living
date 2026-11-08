@@ -5753,6 +5753,49 @@
   ],
   "products": [
     {
+      "id": "prod-cosrx-master-patch",
+      "sku": "COS-PAT-024",
+      "name": "COSRX Acne Pimple Master Patch",
+      "brand": "COSRX",
+      "tagline": "Hydrocolloid Overnight Blemish Healing Dressing",
+      "size": "24 Patches (3 Sizes)",
+      "skinType": "Acne-Prone & Blemish Skin",
+      "category": "Gentle Cleansers & Masks",
+      "price": 6.99,
+      "compareAtPrice": 9.5,
+      "supplierCost": 2.2,
+      "rating": 4.9,
+      "reviewCount": 38400,
+      "soldCountText": "Over 100K+ packs sold worldwide",
+      "badge": "#1 Acne Solution",
+      "shortDescription": "Hydrocolloid dressing that absorbs impurities, protects blemishes from bacteria, and visibly flattens pimples overnight.",
+      "keyIngredients": [
+        "100% Medical Grade Hydrocolloid",
+        "Cellulose Gum",
+        "Polyurethane Film"
+      ],
+      "benefits": [
+        "Visibly reduces pimple size and redness overnight",
+        "Acts as a physical barrier against picking and bacteria",
+        "Waterproof, ultra-thin, and discreet under makeup"
+      ],
+      "howToUse": "How to Use (Overnight Blemish Treatment):\n1. Cleanse and dry the affected blemish area thoroughly before applying any moisturizers.\n2. Select a patch size slightly larger than the spot and adhere directly over the blemish.\n3. Leave on for 6–8 hours (or overnight) until the patch turns opaque white with absorbed exudate. Gently peel off and replace if necessary.",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop"
+      ],
+      "variants": [
+        {
+          "name": "24 Patches Pack",
+          "colorHex": "#002B7F",
+          "inStock": true
+        }
+      ],
+      "stockLeft": 140,
+      "supplierSource": "Direct Wholesale Authenticated",
+      "shippingDays": "1–3 Days Fast Dispatch"
+    },
+    {
       "id": "bundle-el-nino",
       "sku": "AURA-BND-ELNINO",
       "brand": "AURA Curated",

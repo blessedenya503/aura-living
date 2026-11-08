@@ -65,31 +65,37 @@ export default function ProductCard({ product }: ProductCardProps) {
         />
       </div>
 
-      {/* Only Price and Simple Add Button Below */}
-      <div className="p-3 border-t border-slate-100 flex items-center justify-between gap-2 bg-white">
-        <div className="font-mono text-sm sm:text-base font-extrabold text-slate-950">
-          {formatPrice(product.price)}
-        </div>
+      {/* Product Name & Price with Quick Add */}
+      <div className="p-3 border-t border-slate-100 flex flex-col justify-between gap-2 bg-white flex-1">
+        <h3 className="text-xs font-semibold text-slate-800 line-clamp-2 leading-snug group-hover:text-[#002B7F] transition-colors">
+          {product.name}
+        </h3>
 
-        <button
-          onClick={handleQuickAdd}
-          type="button"
-          className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer shrink-0 flex items-center gap-1 ${
-            isAdded
-              ? "bg-emerald-600 text-white"
-              : "bg-slate-900 hover:bg-[#002B7F] text-white"
-          }`}
-          aria-label="Add to bag"
-        >
-          {isAdded ? (
-            <>
-              <Check className="w-3.5 h-3.5" />
-              <span className="text-[11px]">Added</span>
-            </>
-          ) : (
-            <span className="text-[11px]">Add</span>
-          )}
-        </button>
+        <div className="flex items-center justify-between gap-2 pt-1">
+          <div className="font-mono text-sm sm:text-base font-extrabold text-slate-950">
+            {formatPrice(product.price)}
+          </div>
+
+          <button
+            onClick={handleQuickAdd}
+            type="button"
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer shrink-0 flex items-center gap-1 ${
+              isAdded
+                ? "bg-emerald-600 text-white"
+                : "bg-slate-900 hover:bg-[#002B7F] text-white"
+            }`}
+            aria-label="Add to bag"
+          >
+            {isAdded ? (
+              <>
+                <Check className="w-3.5 h-3.5" />
+                <span className="text-[11px]">Added</span>
+              </>
+            ) : (
+              <span className="text-[11px]">Add</span>
+            )}
+          </button>
+        </div>
       </div>
     </Link>
   );
