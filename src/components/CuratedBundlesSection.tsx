@@ -48,7 +48,7 @@ export default function CuratedBundlesSection({ bundleProduct }: CuratedBundlesS
               <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent md:bg-gradient-to-r md:from-transparent md:to-stone-900" />
               
               <span className="absolute top-4 left-4 z-10 bg-amber-500 text-stone-950 text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-md">
-                Coming Soon
+                25% Off Climate Kit
               </span>
             </div>
 
@@ -65,30 +65,43 @@ export default function CuratedBundlesSection({ bundleProduct }: CuratedBundlesS
                 </h2>
 
                 <p className="text-xs sm:text-sm text-stone-400 mt-2 leading-relaxed">
-                  Crafted for extreme heat, dry air, and intense sun exposure. Protects and repairs your skin barrier through shifting seasons.
+                  Defend against extreme heat and UV stress. Includes Beauty of Joseon SPF 50+, CeraVe Lotion, The Ordinary Niacinamide, plus a <strong>Free Portable Fan</strong> for Nigerian orders.
                 </p>
+
+                <div className="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-300">
+                  <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">☀️ BoJ Relief Sun SPF 50+</span>
+                  <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">🧴 CeraVe Lotion</span>
+                  <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">💧 The Ordinary Niacinamide</span>
+                  <span className="bg-amber-500/20 text-amber-300 px-2.5 py-1 rounded-md border border-amber-500/40">🎁 Free Portable Fan (NG Only)</span>
+                </div>
 
                 <div className="mt-5 flex items-baseline gap-3">
                   <span className="text-2xl sm:text-3xl font-mono font-extrabold text-amber-300">
                     {formatPrice(bundleProduct.price)}
                   </span>
-                  <span className="text-xs text-stone-400 font-medium">Full 4-piece set</span>
+                  {bundleProduct.compareAtPrice && (
+                    <span className="text-sm sm:text-base line-through text-stone-500 font-mono">
+                      {formatPrice(bundleProduct.compareAtPrice)}
+                    </span>
+                  )}
+                  <span className="text-xs text-amber-400 font-bold bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/30">
+                    Save 25% (₦16,430 OFF)
+                  </span>
                 </div>
               </div>
 
               <div className="mt-6 pt-5 border-t border-stone-800 flex items-center gap-3">
-                <button
-                  type="button"
-                  disabled
-                  className="px-6 py-2.5 rounded-xl bg-amber-500 text-stone-950 text-xs font-black uppercase tracking-wider cursor-default shadow-md opacity-90"
+                <Link
+                  href={`/product/${encodeURIComponent(bundleProduct.id)}`}
+                  className="px-6 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black uppercase tracking-wider shadow-md transition-colors"
                 >
-                  Coming Soon
-                </button>
+                  Order Bundle • 25% Off
+                </Link>
                 <Link
                   href={`/product/${encodeURIComponent(bundleProduct.id)}`}
                   className="text-xs font-semibold text-stone-300 hover:text-white underline"
                 >
-                  Details
+                  View Full Details
                 </Link>
               </div>
             </div>

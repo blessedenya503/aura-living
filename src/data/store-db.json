@@ -5850,32 +5850,31 @@
       "sku": "AURA-BND-ELNINO",
       "brand": "AURA Curated",
       "name": "El Niño Skincare Bundle",
-      "tagline": "Extreme Climate Defense Routine (Coming Soon)",
+      "tagline": "Extreme Heat & Sun Defense Routine: SPF 50+, Barrier Hydration & Oil Control + Free Portable Fan",
       "size": "Complete Multi-Product Routine",
       "skinType": "All Skin Types (Especially Dehydrated & Barrier-Compromised)",
       "category": "Barrier Repair & Relief",
-      "price": 43.84,
-      "compareAtPrice": 54.8,
-      "supplierCost": 32,
+      "price": 33.38,
+      "compareAtPrice": 44.48,
+      "supplierCost": 23.5,
       "rating": 5,
       "reviewCount": 38,
-      "soldCountText": "Coming Soon • Launching Next Drop",
-      "badge": "Coming Soon",
-      "shortDescription": "Specially assembled clinical defense routine formulated to protect and restore the skin barrier against extreme El Niño heatwaves, intense dry winds, and moisture loss.",
-      "description": "The El Niño Skincare Bundle is an expert-curated routine crafted to defend and replenish skin undergoing severe climate stress. During extreme heatwaves and sudden drops in ambient humidity, trans-epidermal water loss accelerates, causing tightness, micro-inflammation, and damaged lipid barriers. This curated set pairs restorative barrier ceramides, deep botanical humectants, and lightweight, non-comedogenic protection into a synergistic AM/PM ritual.",
-      "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+      "soldCountText": "Special Climate Edition • Ready to Ship",
+      "badge": "25% OFF KIT",
+      "shortDescription": "Complete 4-piece climate defense routine formulated to protect against intense El Niño heatwaves, UV radiation, and moisture loss. Includes 3 clinical skincare bestsellers plus a free portable fan for Nigerian orders.",
+      "description": "The El Niño Skincare Bundle is an expert-curated routine crafted to defend and replenish skin undergoing severe climate stress, extreme heatwaves, and scorching sun. Features Beauty of Joseon SPF 50+ (₦26,640.00), CeraVe Daily Moisturizing Lotion (₦22,925.20), and The Ordinary Niacinamide 10% + Zinc 1% (₦16,265.20) — combined value of ₦65,830.40 for just ₦49,400 (25% OFF). Includes a free rechargeable portable cooling fan with all Nigerian deliveries!",
+      "howToUse": "Morning Routine:\n1. Apply 2-3 drops of The Ordinary Niacinamide 10% + Zinc 1% to clean, dry skin.\n2. Smooth a nickel-sized amount of CeraVe Daily Moisturizing Lotion over face and neck.\n3. Finish with a generous amount of Beauty of Joseon Relief Sun 15 minutes before stepping into the sun. Reapply every 2 hours.\n4. Use your portable cooling fan outdoors to stay sweat-free!\n\nEvening Routine:\n1. Cleanse face thoroughly.\n2. Reapply The Ordinary Niacinamide serum to soothe oil and minimize pores.\n3. Layer CeraVe Daily Moisturizing Lotion generously to restore and replenish the skin barrier overnight.",
       "keyIngredients": [
-        "Bio-Identical Ceramides (NP, AP, EOP)",
-        "Multi-Molecular Weight Hyaluronic Acid",
-        "Centella Asiatica (Cica) & Heartleaf Extract",
-        "Panthenol (Pro-Vitamin B5)",
-        "Niacinamide (Vitamin B3)"
+        "Rice Extract (30%) & Grain Ferment Probiotics (SPF 50+ PA++++)",
+        "3 Essential Ceramides (1, 3, 6-II) & Hyaluronic Acid",
+        "Niacinamide (Vitamin B3) 10% & Zinc PCA 1%"
       ],
       "benefits": [
-        "Clinically targets heat-induced trans-epidermal water loss (TEWL)",
-        "Restores and fortifies lipid barrier integrity against harsh climate shifts",
-        "Soothes micro-inflammation, heat flushing, and sensitivity",
-        "Non-comedogenic, lightweight layering that will not clog pores in high heat"
+        "Full climate defense: UV protection, 24-hr barrier moisture & oil control",
+        "Authentic clinical trio: Beauty of Joseon + CeraVe + The Ordinary",
+        "Saves ₦16,430.40 (25% bundle discount compared to individual purchases)",
+        "Includes FREE rechargeable portable cooling fan on all Nigerian orders",
+        "Non-comedogenic formulas that will not clog pores during heatwaves"
       ],
       "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1200&auto=format&fit=crop",
       "gallery": [
@@ -5895,32 +5894,32 @@
       "isBundle": true,
       "bundledItems": [
         {
-          "step": "Step 1: Hydrating Cleanser",
-          "brand": "Product Slot 1",
-          "name": "[Pending User Product 1: Gentle Restorative Cleanser]",
-          "size": "e.g. 150ml / 5.1 fl oz",
-          "role": "Gentle pH-balanced wash that purifies without stripping skin natural moisture."
+          "step": "Step 1: Daily UV Defense",
+          "brand": "Beauty of Joseon",
+          "name": "Relief Sun: Rice + Probiotics SPF 50+ PA++++",
+          "size": "50ml / 1.69 fl oz",
+          "role": "Broad-spectrum organic UV protection enriched with rice extract and grain probiotics. Lightweight, non-greasy, and leaves zero white cast in intense sun (₦26,640.00 individual value)."
         },
         {
-          "step": "Step 2: Deep Moisture Essence / Toner",
-          "brand": "Product Slot 2",
-          "name": "[Pending User Product 2: Intensive Hydration Essence]",
-          "size": "e.g. 150ml / 5.1 fl oz",
-          "role": "Delivers multi-weight humectants directly to parched epidermal layers."
+          "step": "Step 2: Deep Barrier Hydration",
+          "brand": "CeraVe",
+          "name": "Daily Moisturizing Lotion",
+          "size": "19oz / 562ml (or 237ml / 8oz)",
+          "role": "Formulated with 3 essential ceramides and hyaluronic acid using MVE delivery technology to restore the skin barrier against dry heatwaves and AC dehydration (₦22,925.20 individual value)."
         },
         {
-          "step": "Step 3: Barrier Repair Treatment / Serum",
-          "brand": "Product Slot 3",
-          "name": "[Pending User Product 3: Lipid & Ceramide Barrier Serum]",
-          "size": "e.g. 30ml / 1.0 fl oz",
-          "role": "Reinforces intercellular lipid matrix and halts trans-epidermal water loss."
+          "step": "Step 3: Sebum & Blemish Control",
+          "brand": "The Ordinary",
+          "name": "Niacinamide 10% + Zinc 1%",
+          "size": "30ml / 1.0 fl oz",
+          "role": "High-strength vitamin and mineral blemish formula that regulates sebum production, visibly refines pores, and clears congestion triggered by sweat and heat (₦16,265.20 individual value)."
         },
         {
-          "step": "Step 4: Climate Seal Barrier Moisturizer",
-          "brand": "Product Slot 4",
-          "name": "[Pending User Product 4: Deep Moisture Seal Cream]",
-          "size": "e.g. 50ml / 1.7 oz",
-          "role": "Forms a breathable shield to lock in hydration under extreme ambient heat."
+          "step": "Bonus Gift: Beat the Heat",
+          "brand": "AURA Exclusive",
+          "name": "Rechargeable Handheld Portable Cooling Fan",
+          "size": "Compact Pocket Size",
+          "role": "FREE GIFT (Nigerian orders only) — Ultra-portable, multi-speed USB rechargeable fan to keep your face cool and prevent sweat-induced skincare breakdown."
         }
       ]
     },
