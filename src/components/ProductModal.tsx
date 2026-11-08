@@ -14,6 +14,7 @@ import {
   FlaskConical,
   ExternalLink,
   Info,
+  Zap,
 } from "lucide-react";
 import { Product, ProductVariant } from "@/data/products";
 import { useCart, getBundleUnitPrice } from "@/context/CartContext";
@@ -380,7 +381,7 @@ export default function ProductModal() {
               {/* Multi-Pack Bundle Savings */}
               <div className="mt-5">
                 <div className="text-xs font-semibold text-slate-700 mb-2 flex items-center justify-between">
-                  <span>Stock Up & Save:</span>
+                  <span>Select Package Option:</span>
                   <span className="text-emerald-600 font-bold text-[11px]">
                     {bundleTier === 3
                       ? "Family Pack (-25%)"
@@ -389,53 +390,56 @@ export default function ProductModal() {
                       : "Standard Single"}
                   </span>
                 </div>
-                <div className="grid grid-cols-3 gap-2">
+                <div className="grid grid-cols-3 gap-2.5">
                   <button
                     onClick={() => setBundleTier(1)}
-                    className={`p-2.5 rounded-xl border text-center transition-all cursor-pointer ${
+                    className={`p-3 rounded-2xl border text-center transition-all cursor-pointer flex flex-col justify-between ${
                       bundleTier === 1
-                        ? "border-[#002B7F] bg-blue-50/60 ring-1 ring-[#002B7F]"
-                        : "border-slate-200 hover:border-slate-300"
+                        ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
                   >
                     <div className="text-xs font-bold text-slate-900">1 Unit</div>
-                    <div className="text-xs font-mono text-slate-600 mt-0.5">
+                    <div className="text-xs font-mono font-extrabold text-slate-950 mt-0.5">
                       {formatPrice(selectedProduct.price)}
                     </div>
+                    <div className="text-[10px] text-slate-400 mt-0.5">Standard</div>
                   </button>
 
                   <button
                     onClick={() => setBundleTier(2)}
-                    className={`p-2.5 rounded-xl border text-center relative transition-all cursor-pointer ${
+                    className={`p-3 rounded-2xl border text-center relative transition-all cursor-pointer flex flex-col justify-between ${
                       bundleTier === 2
-                        ? "border-[#002B7F] bg-blue-50/60 ring-1 ring-[#002B7F]"
-                        : "border-slate-200 hover:border-slate-300"
+                        ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
                   >
-                    <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-emerald-600 text-white text-[9px] font-bold px-1.5 rounded-full">
+                    <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-emerald-600 text-white text-[8.5px] font-extrabold px-1.5 py-0.5 rounded-full shadow-xs whitespace-nowrap">
                       SAVE 15%
                     </span>
                     <div className="text-xs font-bold text-slate-900">2-Pack</div>
-                    <div className="text-xs font-mono text-slate-600 mt-0.5">
-                      {formatPrice(getBundleUnitPrice(selectedProduct.price, 2))}/ea
+                    <div className="text-xs font-mono font-extrabold text-slate-950 mt-0.5">
+                      {formatPrice(getBundleUnitPrice(selectedProduct.price, 2))}
                     </div>
+                    <div className="text-[10px] text-emerald-700 font-medium mt-0.5">Duo Savings</div>
                   </button>
 
                   <button
                     onClick={() => setBundleTier(3)}
-                    className={`p-2.5 rounded-xl border text-center relative transition-all cursor-pointer ${
+                    className={`p-3 rounded-2xl border text-center relative transition-all cursor-pointer flex flex-col justify-between ${
                       bundleTier === 3
-                        ? "border-[#002B7F] bg-blue-50/60 ring-1 ring-[#002B7F]"
-                        : "border-slate-200 hover:border-slate-300"
+                        ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
                   >
-                    <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-[9px] font-bold px-1.5 rounded-full">
+                    <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-[8.5px] font-extrabold px-1.5 py-0.5 rounded-full shadow-xs whitespace-nowrap">
                       SAVE 25%
                     </span>
                     <div className="text-xs font-bold text-slate-900">3-Pack</div>
-                    <div className="text-xs font-mono text-slate-600 mt-0.5">
-                      {formatPrice(getBundleUnitPrice(selectedProduct.price, 3))}/ea
+                    <div className="text-xs font-mono font-extrabold text-slate-950 mt-0.5">
+                      {formatPrice(getBundleUnitPrice(selectedProduct.price, 3))}
                     </div>
+                    <div className="text-[10px] text-amber-800 font-medium mt-0.5">Value Pack</div>
                   </button>
                 </div>
               </div>
@@ -470,10 +474,10 @@ export default function ProductModal() {
                 </button>
                 <button
                   onClick={handleBuyNow}
-                  className="w-full bg-[#002B7F] hover:bg-blue-800 text-white font-semibold py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] cursor-pointer"
+                  className="w-full bg-[#002B7F] hover:bg-blue-800 text-white font-extrabold py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] active:scale-[0.99] cursor-pointer"
                 >
-                  <Sparkles className="w-4 h-4 text-amber-300" />
-                  Fast Checkout
+                  <Zap className="w-4 h-4 fill-amber-300 text-amber-300 animate-pulse" />
+                  Instant Checkout
                 </button>
               </div>
             </div>

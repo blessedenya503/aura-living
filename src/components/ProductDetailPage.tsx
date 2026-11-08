@@ -19,6 +19,7 @@ import {
   Clock,
   Heart,
   PhoneCall,
+  Zap,
 } from "lucide-react";
 import { Product, ProductVariant } from "@/data/products";
 import { useCart, getBundleUnitPrice } from "@/context/CartContext";
@@ -30,7 +31,7 @@ import ProductCard from "@/components/ProductCard";
 import CustomerReviewsSection from "@/components/CustomerReviewsSection";
 import { Info, Layers, SunMedium, Wind, AlertCircle } from "lucide-react";
 import ProductModal from "@/components/ProductModal";
-import { getCategorySpecificHowToUse } from "@/lib/usage-instructions";
+import { getProductUsageDetails } from "@/lib/usage-instructions";
 
 function getSafeImageUrl(url?: string): string {
   if (!url) return "";
@@ -218,14 +219,6 @@ export function ProductDetailPage({
             <div className="lg:col-span-7 flex flex-col justify-between">
               <div>
                 <div className="flex items-center gap-2 mb-2">
-                  <div className="flex items-center gap-1 text-amber-500 font-bold text-xs bg-amber-50 border border-amber-200/60 px-2.5 py-0.5 rounded-full">
-                    <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                    <span>{product.rating}</span>
-                    <span className="text-slate-400 font-normal">
-                      ({product.reviewCount} customer reviews)
-                    </span>
-                  </div>
-                  <span className="text-xs text-slate-400">•</span>
                   <span className="text-xs font-mono text-slate-500">
                     SKU: {product.sku}
                   </span>
@@ -234,6 +227,14 @@ export function ProductDetailPage({
                       <span className="text-xs text-slate-400">•</span>
                       <span className="text-xs font-semibold text-slate-600">
                         {product.size}
+                      </span>
+                    </>
+                  )}
+                  {product.badge && (
+                    <>
+                      <span className="text-xs text-slate-400">•</span>
+                      <span className="text-[11px] font-bold text-[#002B7F] bg-blue-50 px-2 py-0.5 rounded-full border border-blue-100">
+                        {product.badge}
                       </span>
                     </>
                   )}
@@ -339,71 +340,73 @@ export function ProductDetailPage({
 
                 {/* Multi-Pack Bundle Tier Selector */}
                 <div className="mt-6">
-                  <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center justify-between mb-3">
                     <span className="text-xs font-bold text-slate-800">
-                      Bundle & Save (Recommended):
+                      Select Package Option:
                     </span>
                     <span className="text-[11px] text-emerald-600 font-semibold">
-                      Unlocked at checkout
+                      Best Value Guarantee
                     </span>
                   </div>
 
-                  <div className="grid grid-cols-3 gap-2.5">
+                  <div className="grid grid-cols-3 gap-3">
                     {/* Tier 1 */}
                     <button
                       type="button"
                       onClick={() => setBundleTier(1)}
-                      className={`p-3 rounded-2xl border text-center transition-all cursor-pointer ${
+                      className={`p-3.5 sm:p-4 rounded-2xl border text-center transition-all cursor-pointer flex flex-col justify-between ${
                         bundleTier === 1
-                          ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold"
+                          ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold shadow-xs"
                           : "border-slate-200 bg-white hover:border-slate-300"
                       }`}
                     >
-                      <div className="text-xs font-bold text-slate-900">1 Unit</div>
-                      <div className="text-xs font-mono text-slate-600 mt-1">
+                      <div className="text-xs font-bold text-slate-900">Standard Single</div>
+                      <div className="text-sm font-extrabold font-mono text-slate-950 mt-1">
                         {formatPrice(product.price)}
                       </div>
-                      <div className="text-[10px] text-slate-400 mt-0.5">Standard</div>
+                      <div className="text-[10px] text-slate-500 mt-1">1 Unit Pack</div>
                     </button>
 
                     {/* Tier 2 */}
                     <button
                       type="button"
                       onClick={() => setBundleTier(2)}
-                      className={`p-3 rounded-2xl border text-center relative transition-all cursor-pointer ${
+                      className={`p-3.5 sm:p-4 rounded-2xl border text-center relative transition-all cursor-pointer flex flex-col justify-between ${
                         bundleTier === 2
-                          ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold"
+                          ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold shadow-xs"
                           : "border-slate-200 bg-white hover:border-slate-300"
                       }`}
                     >
-                      <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-emerald-600 text-white text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow-xs">
+                      <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-emerald-600 text-white text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow-xs whitespace-nowrap">
                         SAVE 15%
                       </span>
-                      <div className="text-xs font-bold text-slate-900">2-Pack</div>
-                      <div className="text-xs font-mono text-slate-600 mt-1">
-                        {formatPrice(getBundleUnitPrice(product.price, 2))}/ea
+                      <div className="text-xs font-bold text-slate-900">2-Pack Duo</div>
+                      <div className="text-sm font-extrabold font-mono text-slate-950 mt-1">
+                        {formatPrice(getBundleUnitPrice(product.price, 2))}
+                        <span className="text-[10px] font-normal text-slate-500"> /ea</span>
                       </div>
-                      <div className="text-[10px] text-emerald-600 font-medium mt-0.5">Duo Savings</div>
+                      <div className="text-[10px] text-emerald-700 font-semibold mt-1">Save 15% Off</div>
                     </button>
 
                     {/* Tier 3 */}
                     <button
                       type="button"
                       onClick={() => setBundleTier(3)}
-                      className={`p-3 rounded-2xl border text-center relative transition-all cursor-pointer ${
+                      className={`p-3.5 sm:p-4 rounded-2xl border text-center relative transition-all cursor-pointer flex flex-col justify-between ${
                         bundleTier === 3
-                          ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold"
+                          ? "border-[#002B7F] bg-blue-50/60 ring-2 ring-[#002B7F]/20 font-bold shadow-xs"
                           : "border-slate-200 bg-white hover:border-slate-300"
                       }`}
                     >
-                      <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow-xs">
+                      <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow-xs whitespace-nowrap">
                         SAVE 25%
                       </span>
-                      <div className="text-xs font-bold text-slate-900">3-Pack</div>
-                      <div className="text-xs font-mono text-slate-600 mt-1">
-                        {formatPrice(getBundleUnitPrice(product.price, 3))}/ea
+                      <div className="text-xs font-bold text-slate-900">3-Pack Value</div>
+                      <div className="text-sm font-extrabold font-mono text-slate-950 mt-1">
+                        {formatPrice(getBundleUnitPrice(product.price, 3))}
+                        <span className="text-[10px] font-normal text-slate-500"> /ea</span>
                       </div>
-                      <div className="text-[10px] text-amber-700 font-medium mt-0.5">Free Express Ship</div>
+                      <div className="text-[10px] text-amber-800 font-semibold mt-1">Free Express Ship</div>
                     </button>
                   </div>
                 </div>
@@ -447,9 +450,9 @@ export function ProductDetailPage({
                   <button
                     type="button"
                     onClick={handleBuyNow}
-                    className="w-full bg-[#002B7F] hover:bg-blue-800 text-white font-bold py-3.5 px-4 rounded-xl text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] cursor-pointer"
+                    className="w-full bg-[#002B7F] hover:bg-blue-800 text-white font-extrabold py-3.5 px-4 rounded-xl text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] active:scale-[0.99] cursor-pointer"
                   >
-                    <Sparkles className="w-4 h-4 text-amber-300" />
+                    <Zap className="w-4 h-4 fill-amber-300 text-amber-300 animate-pulse" />
                     <span>Instant Checkout</span>
                   </button>
                 </div>
@@ -579,42 +582,37 @@ export function ProductDetailPage({
         )}
 
         {/* Step-by-Step Usage & Precautions */}
-        <div className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
-            <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
-              <Clock className="w-4 h-4 text-[#002B7F]" />
-              <span>How to Use ({product.category || "Treatment Routine"})</span>
-            </h3>
-            <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
-              {getCategorySpecificHowToUse(product)}
-            </p>
-          </div>
+        {(() => {
+          const usageDetails = getProductUsageDetails(product);
+          return (
+            <div className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
+                <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Clock className="w-4 h-4 text-[#002B7F]" />
+                  <span>How to Use ({product.brand} Protocol)</span>
+                </h3>
+                <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
+                  {usageDetails.howToUse}
+                </p>
+              </div>
 
-          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
-            <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-4 h-4 text-amber-600" />
-              <span>Usage Precautions &amp; Storage</span>
-            </h3>
-            <ul className="space-y-2 text-xs text-slate-600 leading-relaxed">
-              <li className="flex items-start gap-2">
-                <span className="text-slate-400">•</span>
-                <span>For external topical dermatological use only. Avoid direct contact with eyes.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-slate-400">•</span>
-                <span>Patch testing on the inner forearm is advised 24 hours prior to first facial application.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-slate-400">•</span>
-                <span>Store in a cool, dry place away from direct sunlight and heat exposure. Keep sealed.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-slate-400">•</span>
-                <span>Discontinue use if irritation or rash develops and consult a dermatologist.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+              <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
+                <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <AlertCircle className="w-4 h-4 text-amber-600" />
+                  <span>Usage Precautions &amp; Dermatology Notes</span>
+                </h3>
+                <ul className="space-y-2 text-xs text-slate-600 leading-relaxed">
+                  {usageDetails.precautions.map((precaution, idx) => (
+                    <li key={idx} className="flex items-start gap-2">
+                      <span className="text-[#002B7F] font-bold">•</span>
+                      <span>{precaution}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          );
+        })()}
 
         {/* Genuine Customer Reviews Section */}
         <div className="mb-12">
