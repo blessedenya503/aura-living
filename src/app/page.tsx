@@ -69,26 +69,16 @@ export default function HomePage() {
     triggerNightRecoverySweep,
   } = useCart();
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory>("All");
-  const [selectedBrand, setSelectedBrand] = useState<string>("All Brands");
   const [selectedConcern, setSelectedConcern] = useState<SkinConcernKey>("all");
   const [sortBy, setSortBy] = useState<"featured" | "price-asc" | "price-desc" | "rating">("featured");
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(24);
-  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
-
-  // Brands list
-  const availableBrands = useMemo(() => {
-    const brands = Array.from(new Set(products.map((p) => p.brand).filter(Boolean)));
-    return ["All Brands", ...brands];
-  }, [products]);
 
   // Filter & Sort products
   const filteredProducts = useMemo(() => {
     const list = products.filter((p) => {
       const matchCat =
         selectedCategory === "All" || p.category === selectedCategory;
-      const matchBrand =
-        selectedBrand === "All Brands" || p.brand === selectedBrand;
 
       // Skin Concern filtering
       let matchConcern = true;
@@ -112,7 +102,7 @@ export default function HomePage() {
         p.brand.toLowerCase().includes(query) ||
         (p.sku && p.sku.toLowerCase().includes(query)) ||
         p.keyIngredients.some((ing) => ing.toLowerCase().includes(query));
-      return matchCat && matchBrand && matchConcern && matchSearch;
+      return matchCat && matchConcern && matchSearch;
     });
 
     // Trending products priority score (Glow Recipe, Tatcha Skin Dew, Anua, COSRX, La Roche-Posay show first)
@@ -173,7 +163,7 @@ export default function HomePage() {
       });
     }
     return list;
-  }, [products, selectedCategory, selectedBrand, selectedConcern, searchQuery, sortBy]);
+  }, [products, selectedCategory, selectedConcern, searchQuery, sortBy]);
 
   // Skin concern counts
   const concernCounts = useMemo(() => {
@@ -212,11 +202,6 @@ export default function HomePage() {
 
   const handleCategoryChange = (cat: ProductCategory) => {
     setSelectedCategory(cat);
-    setCurrentPage(1);
-  };
-
-  const handleBrandChange = (brand: string) => {
-    setSelectedBrand(brand);
     setCurrentPage(1);
   };
 
@@ -269,14 +254,14 @@ export default function HomePage() {
           id="catalog-section"
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12"
         >
-          {/* Elegant Collection Header (styled like the luxury reference: "EXPLORE OUR COLLECTIONS") */}
-          <div className="text-center mb-8 sm:mb-10">
-            <h2 className="text-2xl sm:text-4xl font-serif font-normal tracking-wide text-slate-900 uppercase">
-              Explore Our Skincare Collections
+          {/* Clean Collection Header */}
+          <div className="text-center mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">
+              Skincare Collection
             </h2>
-            <div className="w-12 h-[2px] bg-[#002B7F] mx-auto mt-2.5 mb-2 rounded-full" />
-            <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto">
-              Authentic multi-brand skincare curated from CeraVe, COSRX, The Ordinary, Anua, Beauty of Joseon, and La Roche-Posay.
+            <div className="w-10 h-0.5 bg-[#002B7F] mx-auto mt-1.5 mb-1 rounded-full" />
+            <p className="text-xs text-slate-500">
+              Authentic, dermatologist-tested formulas.
             </p>
           </div>
 
@@ -348,45 +333,17 @@ export default function HomePage() {
             })}
           </div>
 
-          {/* Brand Filter Pills */}
-          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-6">
-            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mr-1 shrink-0">
-              Brand:
-            </span>
-            {availableBrands.map((brand) => (
-              <button
-                key={brand}
-                onClick={() => handleBrandChange(brand)}
-                className={`px-2.5 py-1 rounded-lg text-[11px] font-semibold whitespace-nowrap transition-all cursor-pointer ${
-                  selectedBrand === brand
-                    ? "bg-slate-900 text-white"
-                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                }`}
-              >
-                {brand}
-              </button>
-            ))}
-          </div>
-
           {/* Product Results Counter & Page Size */}
           <div className="flex items-center justify-between text-xs text-slate-500 mb-4 pb-2 border-b border-slate-100">
             <div>
-              Showing{" "}
               <span className="font-bold text-slate-900 font-mono">
-                {filteredProducts.length === 0
-                  ? 0
-                  : (currentPage - 1) * pageSize + 1}
-                –{Math.min(currentPage * pageSize, filteredProducts.length)}
+                {filteredProducts.length}
               </span>{" "}
-              of{" "}
-              <span className="font-bold text-slate-900 font-mono">
-                {filteredProducts.length.toLocaleString()}
-              </span>{" "}
-              verified authentic products
+              Products
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="hidden sm:inline text-slate-400">Items per page:</span>
+              <span className="hidden sm:inline text-slate-400">View:</span>
               {[24, 48, 96].map((size) => (
                 <button
                   key={size}
@@ -419,7 +376,6 @@ export default function HomePage() {
               <button
                 onClick={() => {
                   setSelectedCategory("All");
-                  setSelectedBrand("All Brands");
                   setSelectedConcern("all");
                   setSearchQuery("");
                   setCurrentPage(1);
@@ -500,110 +456,7 @@ export default function HomePage() {
           )}
         </section>
 
-        {/* Minimalist Trust Features */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/90 shadow-2xs">
-              <div className="w-8 h-8 rounded-xl bg-blue-50 text-[#002B7F] flex items-center justify-center mb-3">
-                <Droplets className="w-4 h-4" />
-              </div>
-              <h4 className="text-xs sm:text-sm font-bold text-slate-900">
-                48H Deep Moisture
-              </h4>
-              <p className="text-[11px] text-slate-500 mt-1">
-                Clinically tested continuous barrier hydration.
-              </p>
-            </div>
-
-            <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/90 shadow-2xs">
-              <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-3">
-                <ShieldCheck className="w-4 h-4" />
-              </div>
-              <h4 className="text-xs sm:text-sm font-bold text-slate-900">
-                Gentle on Barrier
-              </h4>
-              <p className="text-[11px] text-slate-500 mt-1">
-                Suitable for sensitive, irritated, or dry skin types.
-              </p>
-            </div>
-
-            <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/90 shadow-2xs">
-              <div className="w-8 h-8 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center mb-3">
-                <Check className="w-4 h-4 text-emerald-600 stroke-[3]" />
-              </div>
-              <h4 className="text-xs sm:text-sm font-bold text-slate-900">
-                100% Genuine Brands
-              </h4>
-              <p className="text-[11px] text-slate-500 mt-1">
-                Authentic, sealed batches with verified lot numbers.
-              </p>
-            </div>
-
-            <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/90 shadow-2xs">
-              <div className="w-8 h-8 rounded-xl bg-sky-50 text-sky-700 flex items-center justify-center mb-3">
-                <Truck className="w-4 h-4" />
-              </div>
-              <h4 className="text-xs sm:text-sm font-bold text-slate-900">
-                Worldwide &amp; Nationwide Delivery
-              </h4>
-              <p className="text-[11px] text-slate-500 mt-1">
-                Fast dispatch across Nigeria, Africa, UK, and the US.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Minimalist Collapsible FAQ (No Wall of Text) */}
-        <section className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
-          <div className="text-center mb-6">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#002B7F]">
-              Need Clarity?
-            </span>
-            <h3 className="text-xl sm:text-2xl font-bold text-slate-950 mt-1">
-              Frequently Asked Questions
-            </h3>
-          </div>
-
-          <div className="space-y-2.5">
-            {MINIMAL_FAQS.map((faq, index) => {
-              const isOpen = openFaqIndex === index;
-              return (
-                <div
-                  key={index}
-                  className="bg-white rounded-2xl border border-slate-200 overflow-hidden"
-                >
-                  <button
-                    onClick={() => setOpenFaqIndex(isOpen ? null : index)}
-                    className="w-full px-5 py-3.5 text-left flex items-center justify-between text-xs sm:text-sm font-bold text-slate-900 hover:text-[#002B7F] transition-colors cursor-pointer"
-                  >
-                    <span>{faq.q}</span>
-                    <ChevronDown
-                      className={`w-4 h-4 text-slate-400 transition-transform ${
-                        isOpen ? "rotate-180 text-[#002B7F]" : ""
-                      }`}
-                    />
-                  </button>
-                  <AnimatePresence>
-                    {isOpen && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        className="overflow-hidden"
-                      >
-                        <div className="px-5 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2">
-                          {faq.a}
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* Real Customer Reviews Section at the bottom */}
+        {/* Customer Reviews */}
         <CustomerReviewsSection />
       </main>
 

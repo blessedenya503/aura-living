@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import AntigravityEditor from "@/components/AntigravityEditor";
 import {
   DollarSign,
   TrendingUp,
@@ -89,7 +90,7 @@ const POPULAR_BRANDS = [
 export default function OwnerPortalPage() {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<
-    "brands" | "amazon" | "cj" | "balance" | "catalog" | "orders" | "couriers" | "settings"
+    "brands" | "amazon" | "cj" | "balance" | "catalog" | "orders" | "couriers" | "antigravity" | "settings"
   >("brands");
 
   const [products, setProducts] = useState<Product[]>([]);
@@ -968,6 +969,20 @@ export default function OwnerPortalPage() {
               <Truck className="w-3.5 h-3.5 text-cyan-300" />
               <span>Courier Tracking</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+            </button>
+
+            {/* TAB: ANTIGRAVITY STUDIO EDITOR */}
+            <button
+              onClick={() => setActiveTab("antigravity")}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                activeTab === "antigravity"
+                  ? "bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white shadow-md ring-1 ring-purple-400"
+                  : "bg-slate-900/90 text-purple-400 hover:text-white hover:bg-slate-800"
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5 text-purple-300 animate-pulse" />
+              <span>Antigravity Editor</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
             </button>
 
             {/* TAB 4: STORE SETTINGS */}
@@ -2882,6 +2897,25 @@ export default function OwnerPortalPage() {
                 </div>
               )}
             </div>
+          </div>
+        )}
+
+        {/* TAB CONTENT: ANTIGRAVITY STUDIO EDITOR */}
+        {activeTab === "antigravity" && (
+          <div className="space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <h2 className="text-lg font-bold text-white flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 text-purple-400 animate-pulse" />
+                  Mini Antigravity Studio &amp; Code Editor
+                </h2>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  Direct live code editing, workspace file tree, Gemini 2.0 Copilot assistance, split-screen storefront preview, and hot reload.
+                </p>
+              </div>
+            </div>
+
+            <AntigravityEditor />
           </div>
         )}
       </main>
