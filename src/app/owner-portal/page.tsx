@@ -33,6 +33,10 @@ import {
   Image as ImageIcon,
   ChevronLeft,
   ChevronRight,
+  BarChart3,
+  Activity,
+  Users,
+  Compass,
 } from "lucide-react";
 import { Product, ProductCategory, CATEGORIES } from "@/data/products";
 import { CustomerOrder, StoreSettings } from "@/lib/store-db";
@@ -90,7 +94,7 @@ const POPULAR_BRANDS = [
 export default function OwnerPortalPage() {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<
-    "brands" | "amazon" | "cj" | "balance" | "catalog" | "orders" | "couriers" | "antigravity" | "settings"
+    "brands" | "amazon" | "cj" | "balance" | "catalog" | "orders" | "couriers" | "antigravity" | "analytics" | "settings"
   >("brands");
 
   const [products, setProducts] = useState<Product[]>([]);
@@ -983,6 +987,20 @@ export default function OwnerPortalPage() {
               <Sparkles className="w-3.5 h-3.5 text-purple-300 animate-pulse" />
               <span>Antigravity Editor</span>
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
+            </button>
+
+            {/* TAB: GOOGLE ANALYTICS & TRAFFIC */}
+            <button
+              onClick={() => setActiveTab("analytics")}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                activeTab === "analytics"
+                  ? "bg-amber-600 text-white shadow-md ring-1 ring-amber-400"
+                  : "bg-slate-900/90 text-amber-400 hover:text-white hover:bg-slate-800"
+              }`}
+            >
+              <BarChart3 className="w-3.5 h-3.5 text-amber-300" />
+              <span>Google Analytics</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
             </button>
 
             {/* TAB 4: STORE SETTINGS */}
@@ -2608,6 +2626,140 @@ export default function OwnerPortalPage() {
                 </button>
               </div>
             </form>
+          </div>
+        )}
+
+        {/* TAB: GOOGLE ANALYTICS & TRAFFIC */}
+        {activeTab === "analytics" && (
+          <div className="space-y-6 animate-fadeIn">
+            <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-6 border-b border-slate-800">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
+                    <span className="text-xs font-mono font-bold text-emerald-400 uppercase tracking-wider">
+                      Google Analytics 4 Active Stream
+                    </span>
+                  </div>
+                  <h2 className="text-xl font-extrabold text-white mt-1">
+                    Storefront Traffic &amp; Conversion Analytics
+                  </h2>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Live Google Tag stream tracking visitor sessions, product clicks, and checkout funnels.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <a
+                    href="https://analytics.google.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-xl flex items-center gap-1.5 shadow-md transition-colors"
+                  >
+                    <span>Open GA4 Console</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+              </div>
+
+              {/* Tag Overview Cards */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+                <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800">
+                  <div className="flex items-center justify-between text-slate-400 text-xs mb-1">
+                    <span>Measurement ID</span>
+                    <Activity className="w-4 h-4 text-amber-400" />
+                  </div>
+                  <div className="text-lg font-mono font-bold text-white">G-7JFVGY12S2</div>
+                  <div className="text-[11px] text-emerald-400 mt-1 flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                    <span>Tracking in Production</span>
+                  </div>
+                </div>
+
+                <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800">
+                  <div className="flex items-center justify-between text-slate-400 text-xs mb-1">
+                    <span>Total Orders Logged</span>
+                    <Package className="w-4 h-4 text-blue-400" />
+                  </div>
+                  <div className="text-lg font-mono font-bold text-white">{orders.length} Orders</div>
+                  <div className="text-[11px] text-slate-400 mt-1">
+                    ${metrics.totalRevenueUsd.toLocaleString()} Gross Volume
+                  </div>
+                </div>
+
+                <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800">
+                  <div className="flex items-center justify-between text-slate-400 text-xs mb-1">
+                    <span>Avg Order Value (AOV)</span>
+                    <DollarSign className="w-4 h-4 text-emerald-400" />
+                  </div>
+                  <div className="text-lg font-mono font-bold text-white">
+                    ${orders.length > 0 ? (metrics.totalRevenueUsd / orders.length).toFixed(2) : "0.00"}
+                  </div>
+                  <div className="text-[11px] text-slate-400 mt-1">Blended international basket</div>
+                </div>
+
+                <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800">
+                  <div className="flex items-center justify-between text-slate-400 text-xs mb-1">
+                    <span>Active Net Margin</span>
+                    <TrendingUp className="w-4 h-4 text-purple-400" />
+                  </div>
+                  <div className="text-lg font-mono font-bold text-emerald-400">
+                    {metrics.averageMarginPercent}%
+                  </div>
+                  <div className="text-[11px] text-slate-400 mt-1">Target range: 25% – 30%</div>
+                </div>
+              </div>
+
+              {/* Event Stream Specs & Diagnostic Guide */}
+              <div className="mt-6 p-5 rounded-2xl bg-slate-950/90 border border-slate-800/90 space-y-4">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <Compass className="w-4 h-4 text-cyan-400" />
+                    <span className="text-xs font-bold text-white uppercase tracking-wider">
+                      Automatic Google Analytics Events Configured
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-mono text-slate-500">gtag.js v4</span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+                  <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
+                    <div className="font-bold text-slate-200">page_view</div>
+                    <p className="text-[11px] text-slate-400 mt-1">
+                      Fires on every storefront visit, category filter switch, and product detail route.
+                    </p>
+                  </div>
+                  <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
+                    <div className="font-bold text-slate-200">view_item &amp; add_to_cart</div>
+                    <p className="text-[11px] text-slate-400 mt-1">
+                      Tracks single items, 2-packs, 3-packs, and El Niño Curated Bundle selections.
+                    </p>
+                  </div>
+                  <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
+                    <div className="font-bold text-slate-200">begin_checkout &amp; purchase</div>
+                    <p className="text-[11px] text-slate-400 mt-1">
+                      Monitors Paystack bank/card conversions and instant checkout transactions.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-slate-400 border-t border-slate-800/80">
+                  <div className="flex items-center gap-2">
+                    <Users className="w-4 h-4 text-amber-400" />
+                    <span>Real-time visitors, demographics, and search queries can be analyzed live inside Google Analytics.</span>
+                  </div>
+                  <a
+                    href="https://analytics.google.com/analytics/web/#/p430000000/realtime"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-amber-400 hover:text-amber-300 font-bold flex items-center gap-1 shrink-0"
+                  >
+                    <span>View Real-Time Users</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         )}
 
