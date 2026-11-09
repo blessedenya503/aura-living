@@ -159,7 +159,7 @@ export default function ProductModal() {
             <div className="grid grid-cols-2 gap-2 mt-4 pt-4 border-t border-slate-200 text-[11px] text-slate-600">
               <div className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>100% Authentic Formula</span>
+                <span>Factory-Sealed Formula</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <Truck className="w-4 h-4 text-blue-600 shrink-0" />

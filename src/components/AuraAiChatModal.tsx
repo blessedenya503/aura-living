@@ -259,7 +259,7 @@ export default function AuraAiChatModal({
             </div>
 
             <div className="pt-4 text-center text-[11px] text-slate-400 border-t border-slate-200">
-              🔒 Confidential consultation. 100% authentic dermatological advice.
+              🔒 Confidential consultation.
             </div>
           </div>
         )}

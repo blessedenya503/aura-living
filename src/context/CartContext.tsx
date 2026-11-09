@@ -102,7 +102,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     freeShippingThresholdUsd: 30,
     shippingProtectionPriceUsd: 1.5,
     announcementText:
-      "🌍 WORLDWIDE TRACKED SHIPPING • 100% GENUINE AUTHENTIC FORMULAS",
+      "🌍 WORLDWIDE TRACKED SHIPPING • FREE SHIPPING OVER $35",
     tiktokTrendingProductId: "prod-cosrx-28",
     tiktokTrendingViews: "Viral Skincare Sensation",
     tiktokTrendingTagline: "Authentic Glass Skin Essence • In Stock Worldwide",

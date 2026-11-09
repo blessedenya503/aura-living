@@ -32,7 +32,7 @@ const SITE_URL =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "AURA SKIN — 100% Authentic COSRX, CeraVe, Anua & La Roche-Posay",
+    default: "AURA SKIN — COSRX, CeraVe, Anua & La Roche-Posay",
     template: "%s | AURA SKIN",
   },
   description:
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     locale: "en_NG",
     url: SITE_URL,
     siteName: "AURA SKIN",
-    title: "AURA SKIN — 100% Authentic Skincare Formulations",
+    title: "AURA SKIN — Premium Skincare, Shipped Worldwide",
     description:
       "Shop original verified skincare products from CeraVe, La Roche-Posay, COSRX, The Ordinary & Anua. Fast tracked delivery worldwide.",
     images: [
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AURA SKIN — 100% Authentic Skincare Formulations",
+    title: "AURA SKIN — Premium Skincare, Shipped Worldwide",
     description:
       "Shop original verified skincare products from CeraVe, La Roche-Posay, COSRX, The Ordinary & Korean skincare brands.",
     images: ["/favicon.jpg"],

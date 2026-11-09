@@ -217,7 +217,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "batchLotNumber": "LOT-FR-2026-LRP01",
       "verifiedAt": "2026-11-08"
     },
-    "description": "Formulated with 10% pure Vitamin C (L-ascorbic acid), Salicylic Acid, and Neurosensine to visibly brighten, smooth skin texture, and restore youthful radiance to sensitive skin. Key actives: 10% Pure Vitamin C (L-Ascorbic Acid), Salicylic Acid (BHA), Neurosensine Peptide, La Roche-Posay Thermal Spring Water, Hyaluronic Acid. Formulated for sensitive & all skin types (tested for sensitivity). Size: 30ml / 1.0 fl oz Dropper Bottle. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Formulated with 10% pure Vitamin C (L-ascorbic acid), Salicylic Acid, and Neurosensine to visibly brighten, smooth skin texture, and restore youthful radiance to sensitive skin. Key actives: 10% Pure Vitamin C (L-Ascorbic Acid), Salicylic Acid (BHA), Neurosensine Peptide, La Roche-Posay Thermal Spring Water, Hyaluronic Acid. Formulated for sensitive & all skin types (tested for sensitivity). Size: 30ml / 1.0 fl oz Dropper Bottle. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cosrx-master-patch",
@@ -261,7 +261,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 140,
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "1–3 Days Fast Dispatch",
-    "description": "Hydrocolloid dressing that absorbs impurities, protects blemishes from bacteria, and visibly flattens pimples overnight. Key actives: 100% Medical Grade Hydrocolloid, Cellulose Gum, Polyurethane Film. Formulated for acne-prone & blemish skin. Size: 24 Patches (3 Sizes). 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Hydrocolloid dressing that absorbs impurities, protects blemishes from bacteria, and visibly flattens pimples overnight. Key actives: 100% Medical Grade Hydrocolloid, Cellulose Gum, Polyurethane Film. Formulated for acne-prone & blemish skin. Size: 24 Patches (3 Sizes). Factory-sealed and shipped with tracking."
   },
   {
     "id": "bundle-el-nino",
@@ -357,10 +357,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00KJRVUXU.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -385,7 +385,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA Authentic German Moisturizing Cream, 8.45 Fl Oz, Metal Tin, All Skin Types, Face Care. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA Authentic German Moisturizing Cream, 8.45 Fl Oz, Metal Tin, All Skin Types, Face Care. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GVW1PDDH",
@@ -401,10 +401,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0GVW1PDDH.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -429,7 +429,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Brightening Vitamin C Body Lotion, Skincare with Niacinamide, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Brightening Vitamin C Body Lotion, Skincare with Niacinamide, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00DEG8N9W",
@@ -445,10 +445,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00DEG8N9W.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -473,7 +473,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA Creme, Face, Body & Hand Moisturizing Cream, Provitamin B5, 13.5 Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA Creme, Face, Body & Hand Moisturizing Cream, Provitamin B5, 13.5 Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-eucerin-aquaphor-healing",
@@ -520,7 +520,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Clinically proven to restore smooth, healthy skin on cracked heels, dry hands, and compromised barriers.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Clinically proven to restore smooth, healthy skin on cracked heels, dry hands, and compromised barriers. Key actives: 41% Petrolatum, Panthenol (Pro-Vit B5), Glycerin, Bisabolol. Formulated for chapped, cracked, irritated skin & minor burns. Size: 198g / 7 oz. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Clinically proven to restore smooth, healthy skin on cracked heels, dry hands, and compromised barriers. Key actives: 41% Petrolatum, Panthenol (Pro-Vit B5), Glycerin, Bisabolol. Formulated for chapped, cracked, irritated skin & minor burns. Size: 198g / 7 oz. Factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-glow-recipe-plum-plump",
@@ -567,7 +567,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Weightless whipped gel cream bursting with Kakadu Plum and 5 molecular weights of hyaluronic acid.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Weightless whipped gel cream bursting with Kakadu Plum and 5 molecular weights of hyaluronic acid. Key actives: Kakadu Plum Extract, 5 Molecular Weights of HA, Polyglutamic Acid, Willowherb. Formulated for combination, oily to dry dehydrated skin. Size: 50ml / 1.7 oz. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Weightless whipped gel cream bursting with Kakadu Plum and 5 molecular weights of hyaluronic acid. Key actives: Kakadu Plum Extract, 5 Molecular Weights of HA, Polyglutamic Acid, Willowherb. Formulated for combination, oily to dry dehydrated skin. Size: 50ml / 1.7 oz. Factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-glow-recipe-dew-drops",
@@ -614,7 +614,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time. Key actives: Niacinamide (Vitamin B3), Watermelon Extract, Hyaluronic Acid, Moringa Seed Oil. Formulated for all skin types, dull, uneven tone. Size: 40ml / 1.35 oz. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time. Key actives: Niacinamide (Vitamin B3), Watermelon Extract, Hyaluronic Acid, Moringa Seed Oil. Formulated for all skin types, dull, uneven tone. Size: 40ml / 1.35 oz. Factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-drunk-elephant-protini",
@@ -660,7 +660,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and supportive amino acids.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and supportive amino acids. Key actives: 9 Signal Peptide Complex, Pygmy Waterlily Stem Cell Extract, Soybean Folic Acid Ferment. Formulated for all skin types, loss of elasticity & sun damage. Size: 50ml / 1.69 oz. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and supportive amino acids. Key actives: 9 Signal Peptide Complex, Pygmy Waterlily Stem Cell Extract, Soybean Folic Acid Ferment. Formulated for all skin types, loss of elasticity & sun damage. Size: 50ml / 1.69 oz. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07Y91BMSK",
@@ -706,7 +706,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00DEX61A8",
@@ -722,10 +722,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00DEX61A8.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -750,7 +750,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA MEN Maximum Hydration Lotion, 48-Hour Body Moisturizer, 16.9 FL OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA MEN Maximum Hydration Lotion, 48-Hour Body Moisturizer, 16.9 FL OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00A35SIHE",
@@ -766,10 +766,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00A35SIHE.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
     "skinType": "All Skin Types",
@@ -794,7 +794,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA Creme Hydrating and Nourishing Body Cream, 1 oz Tin, 36-Count. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA Creme Hydrating and Nourishing Body Cream, 1 oz Tin, 36-Count. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07YG8YVQW",
@@ -840,7 +840,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01H6OYPU8",
@@ -856,10 +856,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B01H6OYPU8.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
     "skinType": "All Skin Types",
@@ -884,7 +884,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA Cocoa Butter Body Cream for Dry Skin, 16 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA Cocoa Butter Body Cream for Dry Skin, 16 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0B5YL9MZF",
@@ -900,10 +900,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0B5YL9MZF.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
     "skinType": "All Skin Types",
@@ -928,7 +928,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00O4QAF9C",
@@ -944,10 +944,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00O4QAF9C.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -972,7 +972,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA MEN Sensitive Shave Gel, No Drying Alcohol, Mulitpack, 3 x 7 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA MEN Sensitive Shave Gel, No Drying Alcohol, Mulitpack, 3 x 7 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GY1XG1BS",
@@ -988,10 +988,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0GY1XG1BS.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -1016,7 +1016,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA MEN Sensitive Liquid Face Moisturizer for Men, 3.3 Fl Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA MEN Sensitive Liquid Face Moisturizer for Men, 3.3 Fl Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GYZRDWS7",
@@ -1032,10 +1032,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0GYZRDWS7.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
     "skinType": "All Skin Types",
@@ -1060,7 +1060,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "NIVEA Body Milk Smooth and Glow Ultra-Light Milky Serum, 6.7 FL OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "NIVEA Body Milk Smooth and Glow Ultra-Light Milky Serum, 6.7 FL OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GQW7L9JJ",
@@ -1076,10 +1076,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0GQW7L9JJ.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -1104,7 +1104,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Brightening Vitamin C Facial Cleanser, Niacinamide Face Wash, 8oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Brightening Vitamin C Facial Cleanser, Niacinamide Face Wash, 8oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B077TQR6ZW",
@@ -1120,10 +1120,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B077TQR6ZW.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Sunscreen & Daily Defense",
     "skinType": "All Skin Types",
@@ -1148,7 +1148,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Ultra-Light Moisturizing Lotion SPF 30, Sunscreen for Face, 1.7oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Ultra-Light Moisturizing Lotion SPF 30, Sunscreen for Face, 1.7oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00D7BZNT2",
@@ -1164,10 +1164,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00D7BZNT2.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -1193,7 +1193,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "badge": "TikTok #1 Trending",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe SA Moisturizing Cream, Exfoliates and Softens Rough Skin, 12oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe SA Moisturizing Cream, Exfoliates and Softens Rough Skin, 12oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07PNCCLD2",
@@ -1209,10 +1209,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B07PNCCLD2.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
     "skinType": "All Skin Types",
@@ -1237,7 +1237,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Skin Brightening Vitamin C Serum for Face with Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Skin Brightening Vitamin C Serum for Face with Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00U1YCRD8",
@@ -1253,10 +1253,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00U1YCRD8.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -1281,7 +1281,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 8oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 8oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B08N7VJNNP",
@@ -1297,10 +1297,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B08N7VJNNP.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Barrier Repair & Relief",
     "skinType": "All Skin Types",
@@ -1325,7 +1325,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Anti Itch Lotion, Hyaluronic Acid Body Moisturizer for Dry Skin,16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Anti Itch Lotion, Hyaluronic Acid Body Moisturizer for Dry Skin,16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B08CQDF382",
@@ -1341,10 +1341,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B08CQDF382.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -1369,7 +1369,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Hydrating Cream To Foam Cleanser, Gentle Face Cleanser, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Hydrating Cream To Foam Cleanser, Gentle Face Cleanser, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00F97FHAW",
@@ -1385,10 +1385,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00F97FHAW.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Sunscreen & Daily Defense",
     "skinType": "All Skin Types",
@@ -1413,7 +1413,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe AM Daily Facial Moisturizer with SPF 30, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe AM Daily Facial Moisturizer with SPF 30, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0BX6LGM56",
@@ -1429,10 +1429,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0BX6LGM56.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Barrier Repair & Relief",
     "skinType": "All Skin Types",
@@ -1457,7 +1457,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Moisturizing Cream for Itch Relief, Anti Itch Cream, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Moisturizing Cream for Itch Relief, Anti Itch Cream, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B077TWXCQV",
@@ -1473,10 +1473,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B077TWXCQV.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -1501,7 +1501,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Salicylic Acid Body Wash, Exfoliates Rough and Bumpy Skin, 10oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Salicylic Acid Body Wash, Exfoliates Rough and Bumpy Skin, 10oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B087GNBPXT",
@@ -1517,10 +1517,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B087GNBPXT.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -1545,7 +1545,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Moisturizing Cream, Face Body Moisturizer, Normal to Dry Skin, 8 Fl Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Moisturizing Cream, Face Body Moisturizer, Normal to Dry Skin, 8 Fl Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07RJ18VMF",
@@ -1561,10 +1561,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B07RJ18VMF.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -1589,7 +1589,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07VWSN95S",
@@ -1605,10 +1605,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B07VWSN95S.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
     "skinType": "All Skin Types",
@@ -1633,7 +1633,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Resurfacing Retinol Face Serum with Niacinamide, Pore Minimizer, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Resurfacing Retinol Face Serum with Niacinamide, Pore Minimizer, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00TTD9BRC",
@@ -1649,10 +1649,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B00TTD9BRC.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -1677,7 +1677,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07Z9Y4M3C",
@@ -1693,10 +1693,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B07Z9Y4M3C.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
     "skinType": "All Skin Types",
@@ -1721,7 +1721,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "La Roche-Posay Retinol Face Serum with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "La Roche-Posay Retinol Face Serum with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01D2SVADM",
@@ -1737,10 +1737,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B01D2SVADM.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -1765,7 +1765,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "La Roche-Posay Toleriane Dermallergo Night Cream with Vitamin E 1.35oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "La Roche-Posay Toleriane Dermallergo Night Cream with Vitamin E 1.35oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0CM47G1JJ",
@@ -1811,7 +1811,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0060OUV5Y",
@@ -1857,7 +1857,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01IR8M1SA",
@@ -1873,10 +1873,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B01IR8M1SA.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -1901,7 +1901,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Hydrating Cleanser Bar, Soap-Free Face & Body Cleanser, 2-Pack. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Hydrating Cleanser Bar, Soap-Free Face & Body Cleanser, 2-Pack. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B097WFJ5H2",
@@ -1917,10 +1917,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B097WFJ5H2.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -1945,7 +1945,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 8 oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 8 oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0CTTDLQF3",
@@ -1961,10 +1961,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0CTTDLQF3.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Sunscreen & Daily Defense",
     "skinType": "All Skin Types",
@@ -1989,7 +1989,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe AM Daily Facial Moisturizer with SPF 50, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe AM Daily Facial Moisturizer with SPF 50, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B016F3MG2U",
@@ -2035,7 +2035,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07YLJPMC3",
@@ -2051,10 +2051,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B07YLJPMC3.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -2079,7 +2079,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Foaming Acne Cream Cleanser, Face Wash with 4% Benzoyl Peroxide, 5oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Foaming Acne Cream Cleanser, Face Wash with 4% Benzoyl Peroxide, 5oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0DW62T7Z9",
@@ -2095,10 +2095,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0DW62T7Z9.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
     "skinType": "All Skin Types",
@@ -2123,7 +2123,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Intensive Moisturizing Cream with Shea Butter for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Intensive Moisturizing Cream with Shea Butter for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07XJ7XWLW",
@@ -2139,10 +2139,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B07XJ7XWLW.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
     "skinType": "All Skin Types",
@@ -2167,7 +2167,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Retinol Serum for Face with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Retinol Serum for Face with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B08CQ9T6KN",
@@ -2183,10 +2183,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B08CQ9T6KN.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -2211,7 +2211,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0C7JJG6BB",
@@ -2227,10 +2227,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B0C7JJG6BB.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -2255,7 +2255,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 16 oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 16 oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07RL88DD2",
@@ -2271,10 +2271,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B07RL88DD2.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -2299,7 +2299,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07RK4HST7",
@@ -2315,10 +2315,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/bundle-el-nino-3.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
     "skinType": "All Skin Types",
@@ -2343,7 +2343,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01N1LL62W",
@@ -2359,10 +2359,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "/uploads/products/amz-prod-B01N1LL62W.jpg"
     ],
     "reviews": [],
-    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
+    "tagline": "Tracked Express Delivery (2–5 Days)",
     "benefits": [
       "2–4 Days Tracked Express Courier Dispatch",
-      "100% Genuine Guaranteed Formula"
+      "Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
     "skinType": "All Skin Types",
@@ -2387,7 +2387,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "2–5 Days Tracked Express Delivery",
-    "description": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-15",
@@ -2471,7 +2471,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Lightweight, oil-free lotion that hydrates skin and helps restore natural barrier without feeling heavy or greasy.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Lightweight, oil-free lotion that hydrates skin and helps restore natural barrier without feeling heavy or greasy. Key actives: Ceramides 1, 3, 6-II, Hyaluronic Acid, Caprylic/Capric Triglyceride, Glycerin. Formulated for normal to dry skin. Size: 355ml / 12 fl oz Pump. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Lightweight, oil-free lotion that hydrates skin and helps restore natural barrier without feeling heavy or greasy. Key actives: Ceramides 1, 3, 6-II, Hyaluronic Acid, Caprylic/Capric Triglyceride, Glycerin. Formulated for normal to dry skin. Size: 355ml / 12 fl oz Pump. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-16",
@@ -2554,7 +2554,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Ultra-lightweight night moisturizer formulated with Niacinamide to calm redness, soothe inflammation, and restore skin barrier.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Ultra-lightweight night moisturizer formulated with Niacinamide to calm redness, soothe inflammation, and restore skin barrier. Key actives: 4% Pure Niacinamide (Vit B3), Ceramides NP, AP, EOP, Hyaluronic Acid. Formulated for all skin types & acne-prone skin. Size: 89ml / 3 fl oz Pump. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Ultra-lightweight night moisturizer formulated with Niacinamide to calm redness, soothe inflammation, and restore skin barrier. Key actives: 4% Pure Niacinamide (Vit B3), Ceramides NP, AP, EOP, Hyaluronic Acid. Formulated for all skin types & acne-prone skin. Size: 89ml / 3 fl oz Pump. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-20",
@@ -2638,7 +2638,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with an exclusive peptide complex to support skin renewal while sleeping, reducing the look of fatigue and fine lines.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Formulated with an exclusive peptide complex to support skin renewal while sleeping, reducing the look of fatigue and fine lines. Key actives: Biomimetic Peptide Complex (Tripeptide-1, Tetrapeptide-7), Niacinamide, 3 Ceramides, Hyaluronic Acid. Formulated for tired, aging, dull skin. Size: 48g Jar. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Formulated with an exclusive peptide complex to support skin renewal while sleeping, reducing the look of fatigue and fine lines. Key actives: Biomimetic Peptide Complex (Tripeptide-1, Tetrapeptide-7), Niacinamide, 3 Ceramides, Hyaluronic Acid. Formulated for tired, aging, dull skin. Size: 48g Jar. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-21",
@@ -2722,7 +2722,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Unique non-foaming formula cleanses and hydrates skin while maintaining its natural protective barrier with 3 ceramides.",
     "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
-    "description": "Unique non-foaming formula cleanses and hydrates skin while maintaining its natural protective barrier with 3 ceramides. Key actives: Ceramides 1, 3, 6-II, Hyaluronic Acid, Glycerin, Cetearyl Alcohol. Formulated for normal to dry & sensitive face. Size: 473ml / 16 fl oz Pump. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Unique non-foaming formula cleanses and hydrates skin while maintaining its natural protective barrier with 3 ceramides. Key actives: Ceramides 1, 3, 6-II, Hyaluronic Acid, Glycerin, Cetearyl Alcohol. Formulated for normal to dry & sensitive face. Size: 473ml / 16 fl oz Pump. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-22",
@@ -2807,7 +2807,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "French pharmacy legend formulated with 5% Panthenol, Madecassoside, and Tribioma prebiotics to soothe and repair compromised skin barriers.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "French pharmacy legend formulated with 5% Panthenol, Madecassoside, and Tribioma prebiotics to soothe and repair compromised skin barriers. Key actives: 5% Panthenol (Pro-Vit B5), Madecassoside (Centella), Tribioma Prebiotic Complex, Shea Butter, Zinc Gluconate. Formulated for dry, cracked, compromised skin & lips. Size: 100ml Large Tube. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "French pharmacy legend formulated with 5% Panthenol, Madecassoside, and Tribioma prebiotics to soothe and repair compromised skin barriers. Key actives: 5% Panthenol (Pro-Vit B5), Madecassoside (Centella), Tribioma Prebiotic Complex, Shea Butter, Zinc Gluconate. Formulated for dry, cracked, compromised skin & lips. Size: 100ml Large Tube. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-23",
@@ -2891,7 +2891,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Equipped with patented Mexoryl 400, the only filter proven to protect against the most damaging ultra-long UVA rays (380-400nm).",
     "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
-    "description": "Equipped with patented Mexoryl 400, the only filter proven to protect against the most damaging ultra-long UVA rays (380-400nm). Key actives: Mexoryl 400 (Methoxypropylamino Cyclohexenylidene), Netlock Technology, Vitamin E, La Roche-Posay Thermal Water. Formulated for all skin types & sun sensitive skin. Size: 50ml Shaker Bottle. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Equipped with patented Mexoryl 400, the only filter proven to protect against the most damaging ultra-long UVA rays (380-400nm). Key actives: Mexoryl 400 (Methoxypropylamino Cyclohexenylidene), Netlock Technology, Vitamin E, La Roche-Posay Thermal Water. Formulated for all skin types & sun sensitive skin. Size: 50ml Shaker Bottle. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-24",
@@ -2975,7 +2975,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Intense plumping serum combining macro and micro hyaluronic acid to hydrate surface layers and stimulate dermal recovery.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Intense plumping serum combining macro and micro hyaluronic acid to hydrate surface layers and stimulate dermal recovery. Key actives: Macro Hyaluronic Acid, Micro Hyaluronic Acid, 5% Vitamin B5, Madecassoside. Formulated for dehydrated, dull & fine-lined skin. Size: 30ml Dropper Bottle. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Intense plumping serum combining macro and micro hyaluronic acid to hydrate surface layers and stimulate dermal recovery. Key actives: Macro Hyaluronic Acid, Micro Hyaluronic Acid, 5% Vitamin B5, Madecassoside. Formulated for dehydrated, dull & fine-lined skin. Size: 30ml Dropper Bottle. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-25",
@@ -3059,7 +3059,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with Aqua Posae Filiformis and Microresyl to rebalance skin microbiome and space out severe dry skin flare-ups.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Formulated with Aqua Posae Filiformis and Microresyl to rebalance skin microbiome and space out severe dry skin flare-ups. Key actives: Aqua Posae Filiformis (Prebiotic), 20% Pure Shea Butter, Niacinamide, Microresyl. Formulated for atopic, extremely dry & itchy skin. Size: 400ml Pump Bottle. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Formulated with Aqua Posae Filiformis and Microresyl to rebalance skin microbiome and space out severe dry skin flare-ups. Key actives: Aqua Posae Filiformis (Prebiotic), 20% Pure Shea Butter, Niacinamide, Microresyl. Formulated for atopic, extremely dry & itchy skin. Size: 400ml Pump Bottle. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-26",
@@ -3144,7 +3144,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Corrective treatment powered by microbiome science (Phylobioma) to visibly reduce blackheads, whiteheads, and post-acne marks.",
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
-    "description": "Corrective treatment powered by microbiome science (Phylobioma) to visibly reduce blackheads, whiteheads, and post-acne marks. Key actives: Phylobioma Active, Procerad (Patented Anti-Mark Ceramide), Niacinamide, Salicylic Acid, Zinc PCA. Formulated for oily, blemish-prone & acne-prone skin. Size: 40ml Precision Tube. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Corrective treatment powered by microbiome science (Phylobioma) to visibly reduce blackheads, whiteheads, and post-acne marks. Key actives: Phylobioma Active, Procerad (Patented Anti-Mark Ceramide), Niacinamide, Salicylic Acid, Zinc PCA. Formulated for oily, blemish-prone & acne-prone skin. Size: 40ml Precision Tube. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cosrx-28",
@@ -3229,7 +3229,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Lightweight essence formulated with 96.3% snail secretion filtrate that absorbs quickly to deliver intense glow and barrier repair.",
     "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated.",
-    "description": "Lightweight essence formulated with 96.3% snail secretion filtrate that absorbs quickly to deliver intense glow and barrier repair. Key actives: 96.3% Snail Secretion Filtrate, Sodium Hyaluronate, Allantoin, Panthenol, Arginine. Formulated for dehydrated, damaged barrier & acne scars. Size: 100ml / 3.38 fl. oz Pump. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Lightweight essence formulated with 96.3% snail secretion filtrate that absorbs quickly to deliver intense glow and barrier repair. Key actives: 96.3% Snail Secretion Filtrate, Sodium Hyaluronate, Allantoin, Panthenol, Arginine. Formulated for dehydrated, damaged barrier & acne scars. Size: 100ml / 3.38 fl. oz Pump. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cosrx-29",
@@ -3313,7 +3313,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Moisturizing cream containing 92% filtered snail mucin to soothe sensitized skin and lock in moisture without clogging pores.",
     "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated.",
-    "description": "Moisturizing cream containing 92% filtered snail mucin to soothe sensitized skin and lock in moisture without clogging pores. Key actives: 92% Snail Secretion Filtrate, Betaine, Caprylic/Capric Triglyceride, Cetearyl Olivate. Formulated for all skin types & aging skin. Size: 100g Jar. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Moisturizing cream containing 92% filtered snail mucin to soothe sensitized skin and lock in moisture without clogging pores. Key actives: 92% Snail Secretion Filtrate, Betaine, Caprylic/Capric Triglyceride, Cetearyl Olivate. Formulated for all skin types & aging skin. Size: 100g Jar. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-beautyofjoseon-30",
@@ -3397,7 +3397,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Chemical sunscreen formulated with fermented rice bran and probiotics that glides on like a hydrating day cream with zero white cast.",
     "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
-    "description": "Chemical sunscreen formulated with fermented rice bran and probiotics that glides on like a hydrating day cream with zero white cast. Key actives: 30% Oryza Sativa (Rice) Extract, Grain Fermented Probiotics, Niacinamide 2%, Tocopherol (Vit E). Formulated for all skin types & sensitive skin. Size: 50ml Tube. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Chemical sunscreen formulated with fermented rice bran and probiotics that glides on like a hydrating day cream with zero white cast. Key actives: 30% Oryza Sativa (Rice) Extract, Grain Fermented Probiotics, Niacinamide 2%, Tocopherol (Vit E). Formulated for all skin types & sensitive skin. Size: 50ml Tube. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-beautyofjoseon-31",
@@ -3482,7 +3482,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Inspired by royal Joseon dynasty court beauty rituals, this nourishing cream delivers deep Hanbang herbal moisture and natural glow.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Inspired by royal Joseon dynasty court beauty rituals, this nourishing cream delivers deep Hanbang herbal moisture and natural glow. Key actives: Rice Bran Water (29%), Panax Ginseng Root Water (5%), Squalane (2%), Niacinamide (2%), Honey Extract. Formulated for dry, normal, dehydrated skin. Size: 50ml Classic Hanbang Jar. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Inspired by royal Joseon dynasty court beauty rituals, this nourishing cream delivers deep Hanbang herbal moisture and natural glow. Key actives: Rice Bran Water (29%), Panax Ginseng Root Water (5%), Squalane (2%), Niacinamide (2%), Honey Extract. Formulated for dry, normal, dehydrated skin. Size: 50ml Classic Hanbang Jar. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-anua-32",
@@ -3567,7 +3567,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with 77% Heartleaf extract grown and harvested in Korea, clinically proven to cool inflamed redness and restore pH balance.",
     "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated.",
-    "description": "Formulated with 77% Heartleaf extract grown and harvested in Korea, clinically proven to cool inflamed redness and restore pH balance. Key actives: 77% Houttuynia Cordata (Heartleaf) Extract, Centella Asiatica, Chamomilla Flower Extract, Panthenol, Betaine. Formulated for acne-prone, red, inflamed sensitive skin. Size: 250ml Clear Bottle. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Formulated with 77% Heartleaf extract grown and harvested in Korea, clinically proven to cool inflamed redness and restore pH balance. Key actives: 77% Houttuynia Cordata (Heartleaf) Extract, Centella Asiatica, Chamomilla Flower Extract, Panthenol, Betaine. Formulated for acne-prone, red, inflamed sensitive skin. Size: 250ml Clear Bottle. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-skin1004-33",
@@ -3651,7 +3651,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Ultra-hydrating chemical sunscreen with an airy serum consistency that calms sensitized skin and leaves no stickiness.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Ultra-hydrating chemical sunscreen with an airy serum consistency that calms sensitized skin and leaves no stickiness. Key actives: Pure Madagascar Centella Asiatica, Hyalu-Cica Complex, Niacinamide, Betula Platyphylla Japonica Juice. Formulated for dry, cracked, compromised skin & lips. Size: 50ml Pump Tube. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Ultra-hydrating chemical sunscreen with an airy serum consistency that calms sensitized skin and leaves no stickiness. Key actives: Pure Madagascar Centella Asiatica, Hyalu-Cica Complex, Niacinamide, Betula Platyphylla Japonica Juice. Formulated for dry, cracked, compromised skin & lips. Size: 50ml Pump Tube. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-roundlab-34",
@@ -3735,7 +3735,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with 72 types of naturally derived minerals from Ulleungdo deep sea water to maintain skin's optimal oil-water balance.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Formulated with 72 types of naturally derived minerals from Ulleungdo deep sea water to maintain skin's optimal oil-water balance. Key actives: Ulleungdo Deep Sea Water, Ceramides NP, AP, EOP, Panthenol, Allantoin. Formulated for dry & compromised skin. Size: 80ml Tub. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Formulated with 72 types of naturally derived minerals from Ulleungdo deep sea water to maintain skin's optimal oil-water balance. Key actives: Ulleungdo Deep Sea Water, Ceramides NP, AP, EOP, Panthenol, Allantoin. Formulated for dry & compromised skin. Size: 80ml Tub. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-torriden-35",
@@ -3819,7 +3819,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Delivers 5 different molecular sizes of hyaluronic acid to hydrate inner and outer skin layers simultaneously with zero tackiness.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Delivers 5 different molecular sizes of hyaluronic acid to hydrate inner and outer skin layers simultaneously with zero tackiness. Key actives: 5 Types Low-Molecular Hyaluronic Acid, Malachite Extract (Natural Pastel Blue), Panthenol, Trehalose. Formulated for dehydrated oily & combination skin. Size: 100ml Tub. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Delivers 5 different molecular sizes of hyaluronic acid to hydrate inner and outer skin layers simultaneously with zero tackiness. Key actives: 5 Types Low-Molecular Hyaluronic Acid, Malachite Extract (Natural Pastel Blue), Panthenol, Trehalose. Formulated for dehydrated oily & combination skin. Size: 100ml Tub. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-36",
@@ -3903,7 +3903,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "High-strength 10% Niacinamide combined with 1% Zinc PCA to balance visible sebum activity and decongest pores.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "High-strength 10% Niacinamide combined with 1% Zinc PCA to balance visible sebum activity and decongest pores. Key actives: 10% Pure Niacinamide (Vitamin B3), 1% Zinc PCA, Tamarind Seed Gum, Pentylene Glycol. Formulated for oily, blemish-prone & large pores. Size: 60ml Value Dropper. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "High-strength 10% Niacinamide combined with 1% Zinc PCA to balance visible sebum activity and decongest pores. Key actives: 10% Pure Niacinamide (Vitamin B3), 1% Zinc PCA, Tamarind Seed Gum, Pentylene Glycol. Formulated for oily, blemish-prone & large pores. Size: 60ml Value Dropper. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-37",
@@ -3986,7 +3986,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Combines low, medium, and high-molecular-weight HA, plus a next-generation HA crosspolymer to deliver multi-layer hydration.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Combines low, medium, and high-molecular-weight HA, plus a next-generation HA crosspolymer to deliver multi-layer hydration. Key actives: Low, Med, High Molecular Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Provitamin B5 (Panthenol). Formulated for dehydrated & all skin types. Size: 60ml Value Dropper. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Combines low, medium, and high-molecular-weight HA, plus a next-generation HA crosspolymer to deliver multi-layer hydration. Key actives: Low, Med, High Molecular Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Provitamin B5 (Panthenol). Formulated for dehydrated & all skin types. Size: 60ml Value Dropper. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-38",
@@ -4070,7 +4070,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Exfoliates skin surface to boost clarity and radiance, balanced with Tasmanian Pepperberry to reduce acid-related irritation.",
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
-    "description": "Exfoliates skin surface to boost clarity and radiance, balanced with Tasmanian Pepperberry to reduce acid-related irritation. Key actives: 7% Glycolic Acid (AHA), Tasmanian Pepperberry Derivative, Ginseng Root, Aloe Vera Water. Formulated for dull, textured skin & uneven tone. Size: 240ml Bottle. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Exfoliates skin surface to boost clarity and radiance, balanced with Tasmanian Pepperberry to reduce acid-related irritation. Key actives: 7% Glycolic Acid (AHA), Tasmanian Pepperberry Derivative, Ginseng Root, Aloe Vera Water. Formulated for dull, textured skin & uneven tone. Size: 240ml Bottle. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-39",
@@ -4155,7 +4155,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "All-in-one anti-aging peptide powerhouse featuring 1% pure Copper Tripeptide-1, Matrixyl 3000, and Argirelox to rejuvenate collagen synthesis.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "All-in-one anti-aging peptide powerhouse featuring 1% pure Copper Tripeptide-1, Matrixyl 3000, and Argirelox to rejuvenate collagen synthesis. Key actives: 1% Copper Tripeptide-1 (GHK-Cu), Matrixyl 3000 Complex, Argirelox Peptide, SYN-AKE, Probiotics. Formulated for mature skin, fine lines & loss of elasticity. Size: 30ml Dropper. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "All-in-one anti-aging peptide powerhouse featuring 1% pure Copper Tripeptide-1, Matrixyl 3000, and Argirelox to rejuvenate collagen synthesis. Key actives: 1% Copper Tripeptide-1 (GHK-Cu), Matrixyl 3000 Complex, Argirelox Peptide, SYN-AKE, Probiotics. Formulated for mature skin, fine lines & loss of elasticity. Size: 30ml Dropper. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-paulaschoice-40",
@@ -4238,7 +4238,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Award-winning leave-on exfoliant with 2% Salicylic Acid that sheds dead skin inside pore linings to unclog pores and even skin tone.",
     "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
-    "description": "Award-winning leave-on exfoliant with 2% Salicylic Acid that sheds dead skin inside pore linings to unclog pores and even skin tone. Key actives: 2% Salicylic Acid (BHA), Green Tea (Camellia Oleifera) Extract, Methylpropanediol. Formulated for combination, oily, blackhead-prone skin. Size: 118ml Full Size Bottle. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Award-winning leave-on exfoliant with 2% Salicylic Acid that sheds dead skin inside pore linings to unclog pores and even skin tone. Key actives: 2% Salicylic Acid (BHA), Green Tea (Camellia Oleifera) Extract, Methylpropanediol. Formulated for combination, oily, blackhead-prone skin. Size: 118ml Full Size Bottle. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-paulaschoice-41",
@@ -4322,7 +4322,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with 5 skin-identical ceramides and firming peptides to strengthen fragile barriers and prevent future moisture loss.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "description": "Formulated with 5 skin-identical ceramides and firming peptides to strengthen fragile barriers and prevent future moisture loss. Key actives: Ceramides AP, EOP, NP, AS, NS, Palmitoyl Tripeptide-1, Watermelon Seed Oil, Squalane. Formulated for normal, dry, compromised barrier. Size: 50ml Airless Pump. 100% authentic, factory-sealed and shipped with tracking."
+    "description": "Formulated with 5 skin-identical ceramides and firming peptides to strengthen fragile barriers and prevent future moisture loss. Key actives: Ceramides AP, EOP, NP, AS, NS, Palmitoyl Tripeptide-1, Watermelon Seed Oil, Squalane. Formulated for normal, dry, compromised barrier. Size: 50ml Airless Pump. Factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-eucerin-51",
