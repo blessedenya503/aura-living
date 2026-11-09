@@ -50,7 +50,28 @@ export function getProductUsageDetails(product: Partial<Product>): UsageDetails 
     };
   }
 
-  // 3. Retinol & Anti-Aging Actives (e.g. CeraVe Resurfacing Retinol, The Ordinary Granactive Retinoid)
+  // 3. Madagascar Centella & Cica Soothing Formulations (Skin1004, Centella Ampoules)
+  if (
+    n.includes("centella") ||
+    n.includes("cica") ||
+    b.includes("skin1004") ||
+    ingredients.includes("centella asiatica")
+  ) {
+    return {
+      howToUse:
+        "1. After cleansing and toning, dispense 2 to 3 drops or a pump onto your fingertips.\n" +
+        "2. Gently spread and tap across the entire face, focusing on flushed, sensitized, or acne-prone regions.\n" +
+        "3. Pat lightly with clean palms until fully absorbed into the dermal layer. Follow with your daily moisturizer or sunscreen.",
+      precautions: [
+        "Formulated with pure Centella Asiatica to rapidly cool facial redness, calm flare-ups, and hydrate damaged barriers.",
+        "Gentle, hypoallergenic, and non-comedogenic; safe for daily morning and evening use on reactive and acne-prone skin.",
+        "Store in a cool area away from direct sunlight to preserve active cica triterpenoids.",
+        "If combining with active chemical exfoliants (AHA/BHA), apply Centella afterward to soothe and cushion the skin barrier.",
+      ],
+    };
+  }
+
+  // 4. Retinol & Anti-Aging Actives (e.g. CeraVe Resurfacing Retinol, The Ordinary Granactive Retinoid)
   if (
     n.includes("retinol") ||
     n.includes("retinoid") ||

@@ -589,7 +589,7 @@ export function ProductDetailPage({
               <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8">
                 <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
                   <Clock className="w-4 h-4 text-[#002B7F]" />
-                  <span>How to Use ({product.brand} Protocol)</span>
+                  <span>How to Use &amp; Application Steps</span>
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
                   {usageDetails.howToUse}
