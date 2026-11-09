@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import {
   Search,
   X,
@@ -53,6 +54,7 @@ export default function GlobalSearchModal() {
     formatPrice,
   } = useCart();
 
+  const router = useRouter();
   const [selectedChannel, setSelectedChannel] = useState<string>("All");
   const [addedProductId, setAddedProductId] = useState<string | null>(null);
   const [aiInsight, setAiInsight] = useState<any>(null);
@@ -210,8 +212,8 @@ export default function GlobalSearchModal() {
   }, [products]);
 
   const handleSelectProduct = (product: Product) => {
-    setSelectedProduct(product);
     setIsSearchOpen(false);
+    router.push(`/product/${encodeURIComponent(product.id)}`);
   };
 
   const handleQuickAdd = (e: React.MouseEvent, product: Product) => {

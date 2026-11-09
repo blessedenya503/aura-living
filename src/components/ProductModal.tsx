@@ -305,22 +305,25 @@ export default function ProductModal() {
                   </div>
 
                   {/* Laboratory Certifications */}
-                  <div className="mt-2.5 pt-2 border-t border-emerald-100/70">
-                    <span className="text-slate-500 text-[9.5px] uppercase tracking-wider font-semibold block mb-1">
-                      Certified Standards & Compliance
-                    </span>
-                    <div className="flex flex-wrap gap-1">
-                      {selectedProduct.verification.laboratoryCertifications.map((cert, idx) => (
-                        <span
-                          key={idx}
-                          className="bg-white border border-emerald-200 text-emerald-900 text-[10px] font-semibold px-1.5 py-0.5 rounded-md flex items-center gap-1 shadow-2xs"
-                        >
-                          <CheckCircle2 className="w-2.5 h-2.5 text-emerald-600 shrink-0" />
-                          <span>{cert}</span>
+                  {Array.isArray(selectedProduct.verification.laboratoryCertifications) &&
+                    selectedProduct.verification.laboratoryCertifications.length > 0 && (
+                      <div className="mt-2.5 pt-2 border-t border-emerald-100/70">
+                        <span className="text-slate-500 text-[9.5px] uppercase tracking-wider font-semibold block mb-1">
+                          Certified Standards & Compliance
                         </span>
-                      ))}
-                    </div>
-                  </div>
+                        <div className="flex flex-wrap gap-1">
+                          {selectedProduct.verification.laboratoryCertifications.map((cert, idx) => (
+                            <span
+                              key={idx}
+                              className="bg-white border border-emerald-200 text-emerald-900 text-[10px] font-semibold px-1.5 py-0.5 rounded-md flex items-center gap-1 shadow-2xs"
+                            >
+                              <CheckCircle2 className="w-2.5 h-2.5 text-emerald-600 shrink-0" />
+                              <span>{cert}</span>
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
 
                   {/* Direct Link to Source */}
                   <div className="mt-2.5 flex items-center justify-between text-[11px] pt-2 border-t border-emerald-100/70">

@@ -93,7 +93,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       ingredients: ["5% Panthenol (B5)", "Madecassoside", "Tribioma Prebiotics", "Shea Butter"],
     },
     {
-      id: "imp-tatcha-water-cream",
+      id: "prod-tatcha-193",
       brand: "Tatcha",
       name: "Tatcha The Water Cream Oil-Free Pore-Minimizing",
       views: "Viral Favorite",
@@ -207,7 +207,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
   // Week 3: Dermal Repair, Cleansing & Barrier Champions
   [
     {
-      id: "imp-bioderma-sensibio-h2o",
+      id: "prod-bioderma-96",
       brand: "Bioderma",
       name: "Bioderma Sensibio H2O Micellar Cleansing Water",
       views: "Viral Favorite",
@@ -243,7 +243,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       ingredients: ["Madagascar Centella Oil", "MCT Coconut Esters", "Bergamot Oil", "Jojoba Seed Oil"],
     },
     {
-      id: "prod-beautyofjoseon-44",
+      id: "prod-beautyofjoseon-138",
       brand: "Beauty of Joseon",
       name: "Beauty of Joseon Matte Sun Stick: Mugwort + Camelia",
       views: "Viral Favorite",
@@ -279,7 +279,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       ingredients: ["Salicylic Acid (BHA)", "3 Essential Ceramides (1, 3, 6-II)", "Hyaluronic Acid", "10% Urea"],
     },
     {
-      id: "prod-anua-43",
+      id: "prod-anua-146",
       brand: "Anua",
       name: "Anua Birch Moisture Boosting Deep Hydration Toner",
       views: "Viral Favorite",

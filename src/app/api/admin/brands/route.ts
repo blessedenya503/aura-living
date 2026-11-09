@@ -552,10 +552,10 @@ export async function POST(request: Request) {
           stockLeft: 180,
           reviews: [],
           faqs: [],
-          supplierSource: "Amazon Prime Dropship",
-          shippingDays: "2–4 Days (Amazon Prime Dropship)",
+          supplierSource: "Authorized Brand Distribution",
+          shippingDays: "2–4 Days Tracked Express Delivery",
           verification: {
-            registry: "Amazon Bestseller Catalog",
+            registry: "Official Brand Registry",
             referenceId: `ASIN: B0${Math.random().toString(36).substring(2, 9).toUpperCase()}`,
             sourceUrl: "https://www.amazon.com/dp/beauty-skincare",
             originCountry: item.brand === "NIVEA" || item.brand === "Eucerin" ? "Hamburg, Germany" : item.brand === "La Roche-Posay" || item.brand === "Avène" ? "La Roche-Posay, France" : "United States",

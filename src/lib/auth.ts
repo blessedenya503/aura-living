@@ -18,7 +18,10 @@ const pool =
   new Pool({ connectionString: connectionString(), ssl: { rejectUnauthorized: false }, max: 3 });
 if (process.env.NODE_ENV !== "production") globalForPool.__authPool = pool;
 
-const siteUrl = process.env.BETTER_AUTH_URL || process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3003";
+const siteUrl =
+  process.env.BETTER_AUTH_URL ||
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3003");
 
 async function sendMail(to: string, subject: string, html: string) {
   const resend = getResendClient();
@@ -44,8 +47,16 @@ const googleEnabled = Boolean(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE
 export const auth = betterAuth({
   database: pool,
   baseURL: siteUrl,
-  secret: process.env.BETTER_AUTH_SECRET,
-  trustedOrigins: [siteUrl, "http://localhost:3002", "http://localhost:3003"],
+  secret:
+    process.env.BETTER_AUTH_SECRET ||
+    process.env.ADMIN_SESSION_SECRET ||
+    "aura-skin-clinical-better-auth-secret-key-2026-prod",
+  trustedOrigins: [
+    siteUrl,
+    "https://auraskinng.vercel.app",
+    "http://localhost:3002",
+    "http://localhost:3003",
+  ],
   emailAndPassword: {
     enabled: true,
     minPasswordLength: 8,

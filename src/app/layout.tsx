@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: "%s | AURA SKIN",
   },
   description:
-    "Shop original, verified skincare brands worldwide: COSRX Snail Mucin, CeraVe, Anua Heartleaf, Beauty of Joseon SPF & La Roche-Posay. Fast 24-48h tracked doorstep delivery in Lagos, Abuja & nationwide.",
+    "Shop original, verified skincare brands worldwide: COSRX Snail Mucin, CeraVe, Anua Heartleaf, Beauty of Joseon SPF & La Roche-Posay. Fast tracked doorstep delivery worldwide.",
   keywords: [
     "AURA SKIN",
     "auraskinng",

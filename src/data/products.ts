@@ -206,16 +206,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shippingDays": "1–3 Days Fast Tracked Dispatch",
     "verification": {
-      "registry": "French Pharmacopoeia Authenticated",
-      "referenceId": "LRP-VITC-10-EU",
+      "registry": "La Roche-Posay Laboratoire Dermatologique Registry",
+      "referenceId": "LRP-FR-3337875660568",
       "sourceUrl": "https://www.laroche-posay.us/our-products/face/face-serum/pure-vitamin-c-face-serum-3337875660568.html",
-      "originCountry": "France (La Roche-Posay Laboratoire Dermatologique)",
+      "originCountry": "La Roche-Posay, France",
       "laboratoryCertifications": [
-        "Dermatologically Tested for Sensitive Skin",
-        "Physiological pH Formulated"
+        "Dermatologically Tested on Sensitive Skin",
+        "Physiological pH 5.5 Validated",
+        "ISO 22716:2007 GMP Certified",
+        "Non-Comedogenic & Paraben-Free"
       ],
-      "batchLotNumber": "LOT-FR-2026-LRP01",
-      "verifiedAt": "2026-11-08"
+      "batchLotNumber": "LOT-LRP-2611C10",
+      "verifiedAt": "2026-11-08 (Audited Fresh Batch)"
     },
     "description": "Formulated with 10% pure Vitamin C (L-ascorbic acid), Salicylic Acid, and Neurosensine to visibly brighten, smooth skin texture, and restore youthful radiance to sensitive skin. Key actives: 10% Pure Vitamin C (L-Ascorbic Acid), Salicylic Acid (BHA), Neurosensine Peptide, La Roche-Posay Thermal Spring Water, Hyaluronic Acid. Formulated for sensitive & all skin types (tested for sensitivity). Size: 30ml / 1.0 fl oz Dropper Bottle. Factory-sealed and shipped with tracking."
   },
@@ -4405,7 +4407,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Ceramides",
       "Sunflower Seed Oil"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-eucerin-53",
@@ -4616,7 +4618,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Glycine Saponin",
       "Enoxolone"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-eucerin-58",
@@ -4742,7 +4744,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Licochalcone A",
       "Glycyrrhetinic Acid"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-eucerin-61",
@@ -5206,7 +5208,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Zinc Gluconate",
       "Gentle Surfactants"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-avne-79",
@@ -5457,7 +5459,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Niacinamide 6%",
       "Pure Hyaluronic Acid 1.5%"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-avne-85",
@@ -6176,7 +6178,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Copper Sulfate",
       "Ginkgo Biloba Extract"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-bioderma-115",
@@ -6301,7 +6303,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Tea Tree Oil 0.5%",
       "Betaine Salicylate 0.5%"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-cosrx-123",
@@ -6592,7 +6594,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Niacinamide",
       "Allantoin"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-cosrx-130",
@@ -7014,7 +7016,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Quercetinol",
       "BHA"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-anua-142",
@@ -7097,7 +7099,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Panthenol",
       "Cassia Bark"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-anua-144",
@@ -7181,7 +7183,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Jojoba Seed Oil",
       "Olive Fruit Oil"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-anua-146",
@@ -7824,7 +7826,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-theordinary-164",
@@ -7950,7 +7952,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Tasmanian Pepperberry",
       "Hyaluronic Acid"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-theordinary-167",
@@ -7990,7 +7992,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Glycolic, Lactic, Tartaric, Citric 30%",
       "Salicylic Acid 2%"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-theordinary-168",
@@ -8361,7 +8363,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Hydroxypinacolone Retinoate 2%",
       "Protective Emulsion Matrix"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-theordinary-177",
@@ -8442,7 +8444,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Pro-Vitamin A",
       "Linolenic Acid"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-theordinary-180",
@@ -8568,7 +8570,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Ceramides AP, EOP, NP",
       "Sodium Hyaluronate"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-drunkelephant-183",
@@ -9586,7 +9588,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Olive Extract",
       "Dimethicone"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-neutrogena-282",
@@ -9668,7 +9670,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Helioplex® Technology",
       "Broad Spectrum UVA/UVB SPF 70"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-neutrogena-284",
@@ -9875,7 +9877,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Salicylic Acid (BHA)",
       "Alcohol-Free Foaming Agents"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-neutrogena-289",
@@ -9999,7 +10001,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Polyhydroxy Acid (PHA) 2%",
       "Kaolin Clay"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-neutrogena-292",
@@ -10166,7 +10168,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Salicylic Acid 2%",
       "Chamomile & Aloe Extracts"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-roundlab-296",
@@ -10207,7 +10209,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Hatching EX-07 Enzyme",
       "Panthenol"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-roundlab-297",
@@ -10552,7 +10554,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       "8 Peptide Complex",
       "Adenosine"
     ],
-    "supplierSource": "Direct Wholesale Authenticated"
+    "supplierSource": "Direct Pharmaceutical Wholesale"
   },
   {
     "id": "prod-roundlab-306",

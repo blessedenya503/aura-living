@@ -2543,7 +2543,7 @@ export default function OwnerPortalPage() {
                     Select Featured TikTok Viral Product:
                   </label>
                   <select
-                    value={settings.tiktokTrendingProductId || "prod-cosrx-snail-96"}
+                    value={settings.tiktokTrendingProductId || "prod-cosrx-28"}
                     onChange={(e) =>
                       setSettings({
                         ...settings,
@@ -2552,19 +2552,19 @@ export default function OwnerPortalPage() {
                     }
                     className="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-white focus:outline-hidden focus:border-blue-500 cursor-pointer text-xs"
                   >
-                    <option value="prod-cosrx-snail-96">
+                    <option value="prod-cosrx-28">
                       COSRX Advanced Snail 96 Mucin Essence (4.8B Views)
                     </option>
-                    <option value="prod-nivea-creme-classic">
+                    <option value="amz-prod-B00A35SIHE">
                       NIVEA Creme Classic Tin - Viral La Mer Dupe (1.5B Views)
                     </option>
-                    <option value="prod-beauty-of-joseon-relief-sun">
+                    <option value="prod-beautyofjoseon-30">
                       Beauty of Joseon Relief Sun Rice + Probiotics (1.9B Views)
                     </option>
-                    <option value="prod-amz-1949">
+                    <option value="prod-anua-32">
                       Anua Heartleaf 77% Soothing Toner (2.4B Views)
                     </option>
-                    <option value="prod-laroche-posay-cicaplast">
+                    <option value="prod-larocheposay-22">
                       La Roche-Posay Cicaplast Baume B5+ (3.2B Views)
                     </option>
                   </select>
