@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getStoreDb, saveStoreDb, CustomerOrder, OrderItem } from "@/lib/store-db";
+import { sendOrderConfirmationEmail } from "@/lib/email";
 
 export async function POST(request: Request) {
   try {
@@ -169,6 +170,27 @@ export async function POST(request: Request) {
 
       db.orders.unshift(newOrder);
       await saveStoreDb(db);
+
+      // Trigger automatic order confirmation & tracking email via Resend
+      if (newOrder.customerEmail && newOrder.customerEmail.includes("@")) {
+        sendOrderConfirmationEmail({
+          id: newOrder.id,
+          customerName: newOrder.customerName,
+          customerEmail: newOrder.customerEmail,
+          totalPaidFormatted: `$${newOrder.totalPaidUsd.toFixed(2)}`,
+          paymentMethod: newOrder.paymentMethod,
+          shippingAddress: newOrder.shippingAddress,
+          city: newOrder.city,
+          country: newOrder.country,
+          estimatedDelivery: newOrder.estimatedDelivery,
+          items: newOrder.items.map((i) => ({
+            name: i.name,
+            brand: i.brand,
+            quantity: i.quantity,
+            unitPriceFormatted: `$${(i.unitPriceUsd * i.quantity).toFixed(2)}`,
+          })),
+        }).catch((err) => console.warn("Order email background trigger warning:", err));
+      }
 
       return NextResponse.json({
         success: true,

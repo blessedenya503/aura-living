@@ -6,6 +6,7 @@
     "dev": "node server.js",
     "dev:store": "next dev -p 3003",
     "dev:portal": "next dev -p 3002",
+    "dev:hosting": "npm --prefix hosting-platform run dev",
     "dev:next": "next dev",
     "build": "next build",
     "start": "node server.js",
@@ -24,6 +25,7 @@
     "next": "^15.5.28",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "resend": "^6.37.0",
     "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {

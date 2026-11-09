@@ -23,6 +23,8 @@ export function SignInPage({ className, onSuccess }: SignInPageProps) {
   const [rememberMe, setRememberMe] = React.useState(true);
   const [errorMsg, setErrorMsg] = React.useState<string | null>(null);
 
+  const [sentWelcomeEmail, setSentWelcomeEmail] = React.useState(false);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg(null);
@@ -34,8 +36,18 @@ export function SignInPage({ className, onSuccess }: SignInPageProps) {
 
     setIsLoading(true);
 
+    try {
+      // Trigger Welcome & VIP privilege email via Resend
+      fetch("/api/auth/welcome", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, name: email.split("@")[0] }),
+      }).catch(() => {});
+    } catch {}
+
     setTimeout(() => {
       setIsLoading(false);
+      setSentWelcomeEmail(true);
       const userObj = {
         email,
         name: email.split("@")[0],
@@ -48,11 +60,13 @@ export function SignInPage({ className, onSuccess }: SignInPageProps) {
         localStorage.setItem("aura_customer_user", JSON.stringify(userObj));
       }
 
-      if (onSuccess) {
-        onSuccess();
-      } else {
-        router.push("/");
-      }
+      setTimeout(() => {
+        if (onSuccess) {
+          onSuccess();
+        } else {
+          router.push("/");
+        }
+      }, 900);
     }, 700);
   };
 
@@ -234,10 +248,17 @@ export function SignInPage({ className, onSuccess }: SignInPageProps) {
           </span>
         </div>
 
-        {/* Error message */}
+        {/* Error or Success notification */}
         {errorMsg && (
           <div className="mb-4 p-3 rounded-xl bg-rose-500/10 border border-rose-500/20 text-rose-300 text-xs text-center">
             {errorMsg}
+          </div>
+        )}
+
+        {sentWelcomeEmail && (
+          <div className="mb-4 p-3.5 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs text-center flex items-center justify-center gap-2 animate-fadeIn">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span>Success! VIP 20% discount email sent to your inbox. Redirecting...</span>
           </div>
         )}
 
