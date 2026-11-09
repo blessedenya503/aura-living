@@ -31,14 +31,14 @@ function TikTokIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
 }
 
 const POPULAR_SEARCH_PILLS = [
-  "NIVEA Creme",
-  "Hair Care & Oils",
-  "Luxury Colognes",
-  "Repair Balms & Gels",
-  "COSRX Snail Mucin",
   "Beauty of Joseon SPF",
-  "La Roche-Posay Cicaplast",
+  "COSRX Pimple Patch",
+  "CeraVe Moisturizing",
+  "The Ordinary Niacinamide",
+  "El Niño Bundle",
+  "La Roche-Posay Vitamin C",
   "Anua Heartleaf",
+  "Snail Mucin",
 ];
 
 export default function GlobalSearchModal() {
@@ -119,26 +119,94 @@ export default function GlobalSearchModal() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isSearchOpen, setIsSearchOpen]);
 
-  // Live filtered products across catalog
+  // Live filtered and ranked products across catalog
   const searchResults = useMemo(() => {
-    const q = searchQuery.trim().toLowerCase();
-    if (!q) return [];
+    const rawQ = searchQuery.trim().toLowerCase();
+    if (!rawQ) return [];
 
-    return products
-      .filter((p) => {
-        const matchChannel =
-          selectedChannel === "All" || p.supplierSource === selectedChannel;
-        const matchText =
-          p.name.toLowerCase().includes(q) ||
-          p.brand.toLowerCase().includes(q) ||
-          (p.sku && p.sku.toLowerCase().includes(q)) ||
-          p.tagline.toLowerCase().includes(q) ||
-          p.skinType.toLowerCase().includes(q) ||
-          p.keyIngredients.some((ing) => ing.toLowerCase().includes(q));
+    // Normalize accents (e.g. niño -> nino)
+    const normalize = (str: string) =>
+      str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-        return matchChannel && matchText;
+    const q = normalize(rawQ);
+    const words = q.split(/\s+/).filter((w) => w.length > 0);
+
+    const scored = products
+      .map((p) => {
+        const name = normalize(p.name || "");
+        const brand = normalize(p.brand || "");
+        const cat = normalize(p.category || "");
+        const skinType = normalize(p.skinType || "");
+        const sku = normalize(p.sku || "");
+        const desc = normalize(p.shortDescription || "");
+        const tagline = normalize(p.tagline || "");
+        const ingredients = (p.keyIngredients || [])
+          .map((i) => normalize(i))
+          .join(" ");
+
+        let score = 0;
+
+        // Channel filter
+        if (selectedChannel !== "All" && p.supplierSource !== selectedChannel) {
+          return { product: p, score: 0 };
+        }
+
+        // Exact query matches
+        if (p.id === "bundle-el-nino" && (q.includes("el nino") || q.includes("bundle") || q.includes("climate"))) {
+          score += 400;
+        }
+        if (brand === q) score += 200;
+        if (brand.startsWith(q)) score += 120;
+        if (brand.includes(q)) score += 90;
+        if (name.includes(q)) score += 100;
+        if (sku.includes(q)) score += 80;
+        if (cat.includes(q)) score += 60;
+        if (ingredients.includes(q)) score += 50;
+        if (skinType.includes(q)) score += 30;
+
+        // Word-level scoring
+        let matchedWordsCount = 0;
+        words.forEach((w) => {
+          let wordHit = false;
+          if (brand.includes(w)) {
+            score += 35;
+            wordHit = true;
+          }
+          if (name.includes(w)) {
+            score += 25;
+            wordHit = true;
+          }
+          if (cat.includes(w)) {
+            score += 15;
+            wordHit = true;
+          }
+          if (ingredients.includes(w)) {
+            score += 15;
+            wordHit = true;
+          }
+          if (skinType.includes(w)) {
+            score += 10;
+            wordHit = true;
+          }
+          if (tagline.includes(w) || desc.includes(w)) {
+            score += 5;
+            wordHit = true;
+          }
+          if (wordHit) matchedWordsCount++;
+        });
+
+        // Boost items matching all query words
+        if (words.length > 1 && matchedWordsCount === words.length) {
+          score += 100;
+        }
+
+        return { product: p, score };
       })
-      .slice(0, 30); // show top 30 live results for blazing speed
+      .filter((item) => item.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .map((item) => item.product);
+
+    return scored.slice(0, 30);
   }, [products, searchQuery, selectedChannel]);
 
   // Curated trending products shown when search is blank
@@ -176,35 +244,16 @@ export default function GlobalSearchModal() {
             <Search className="w-4 h-4 sm:w-5 sm:h-5" />
           </div>
 
-          <div className="flex-1 min-w-0 relative flex items-center">
+          <div className="flex-1 min-w-0 relative flex items-center overflow-hidden">
             <input
               ref={inputRef}
               type="text"
               autoFocus
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder=""
-              className="w-full bg-transparent text-white placeholder-slate-400 text-sm sm:text-base font-semibold focus:outline-hidden tracking-tight z-10"
+              placeholder="Search sunscreen, niacinamide, cerave..."
+              className="w-full bg-transparent text-white placeholder-slate-500 text-sm sm:text-base font-semibold focus:outline-hidden tracking-tight z-10"
             />
-            {!searchQuery && (
-              <div className="absolute left-0 pointer-events-none text-sm sm:text-base text-slate-500 flex items-center z-0">
-                <span className="text-cyan-400 font-mono font-bold mr-1.5">AI</span>
-                <Typewriter
-                  text={[
-                    "Search hair care, colognes, balms, creams...",
-                    "Ask: 'What hair oil works best for dry hair and scalp?'...",
-                    "Ask: 'Recommend long-lasting luxury colognes for evening'...",
-                    "Search: Cicaplast Balm, Snail Mucin Gel, NIVEA...",
-                    "Ask: 'How do I fade acne scars and blemishes?'...",
-                  ]}
-                  speed={70}
-                  deleteSpeed={35}
-                  delay={2200}
-                  loop={true}
-                  className="font-medium text-slate-400 truncate max-w-[280px] sm:max-w-[480px]"
-                />
-              </div>
-            )}
           </div>
 
           {searchQuery && (
@@ -478,30 +527,25 @@ export default function GlobalSearchModal() {
                 <div
                   key={product.id}
                   onClick={() => handleSelectProduct(product)}
-                  className="p-3 sm:p-3.5 bg-slate-950/70 hover:bg-slate-800/80 border border-slate-800 hover:border-slate-700 rounded-2xl flex items-center justify-between gap-3 sm:gap-4 transition-all cursor-pointer group"
+                  className="p-2.5 sm:p-3.5 bg-slate-950/70 hover:bg-slate-800/80 border border-slate-800 hover:border-slate-700 rounded-2xl flex items-center justify-between gap-2.5 sm:gap-4 transition-all cursor-pointer group"
                 >
-                  <div className="flex items-center gap-3 sm:gap-4 min-w-0 flex-1">
-                    <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden bg-slate-900 shrink-0 border border-slate-800">
+                  <div className="flex items-center gap-2.5 sm:gap-4 min-w-0 flex-1">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl overflow-hidden bg-slate-900 shrink-0 border border-slate-800 p-0.5">
                       <img
                         src={product.image}
                         alt={product.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        className="w-full h-full object-contain group-hover:scale-105 transition-transform"
                       />
                     </div>
 
                     <div className="min-w-0 flex-1">
-                      <div className="flex items-center gap-2 mb-0.5">
-                        <span className="text-[10px] font-bold text-blue-400 uppercase tracking-wider">
+                      <div className="flex items-center gap-1.5 mb-0.5">
+                        <span className="text-[10px] font-bold text-blue-400 uppercase tracking-wider truncate">
                           {product.brand}
                         </span>
-                        {product.supplierSource === "Amazon Prime Dropship" && (
-                          <span className="bg-amber-400/10 border border-amber-400/20 text-amber-300 text-[9px] font-bold px-1.5 py-0.2 rounded-full">
-                            Amazon Prime
-                          </span>
-                        )}
-                        {product.supplierSource === "Alibaba Trade Assurance Dropship" && (
-                          <span className="bg-orange-400/10 border border-orange-400/20 text-orange-300 text-[9px] font-bold px-1.5 py-0.2 rounded-full">
-                            Alibaba Dropship
+                        {product.isBundle && (
+                          <span className="bg-amber-400/20 border border-amber-400/40 text-amber-300 text-[9px] font-extrabold px-1.5 py-0.2 rounded-full">
+                            KIT
                           </span>
                         )}
                       </div>
@@ -510,49 +554,47 @@ export default function GlobalSearchModal() {
                         {product.name}
                       </h4>
 
-                      <div className="flex flex-wrap items-center gap-1.5 mt-1">
-                        <span className="text-[10px] text-slate-400 font-mono">
-                          {product.size}
-                        </span>
-                        <span className="text-slate-600">•</span>
-                        {product.keyIngredients.slice(0, 2).map((ing, i) => (
-                          <span
-                            key={i}
-                            className="bg-slate-900 text-slate-300 text-[9px] px-1.5 py-0.2 rounded border border-slate-800"
-                          >
-                            {ing}
-                          </span>
-                        ))}
+                      <div className="flex items-center gap-1.5 mt-0.5 text-[10px] text-slate-400 font-mono">
+                        <span>{product.size}</span>
+                        {product.keyIngredients?.[0] && (
+                          <>
+                            <span className="text-slate-600">•</span>
+                            <span className="truncate max-w-[140px] sm:max-w-none text-slate-400">
+                              {product.keyIngredients[0]}
+                            </span>
+                          </>
+                        )}
                       </div>
                     </div>
                   </div>
 
                   {/* Pricing & Add to Cart button */}
-                  <div className="flex items-center gap-3 shrink-0">
+                  <div className="flex items-center gap-2 sm:gap-3 shrink-0">
                     <div className="text-right">
-                      <div className="text-sm sm:text-base font-bold font-mono text-white">
+                      <div className="text-xs sm:text-base font-bold font-mono text-white">
                         {formatPrice(product.price)}
                       </div>
                       {product.compareAtPrice > product.price && (
-                        <div className="text-[10px] text-slate-500 line-through font-mono">
+                        <div className="text-[9px] sm:text-[10px] text-slate-500 line-through font-mono">
                           {formatPrice(product.compareAtPrice)}
                         </div>
                       )}
                     </div>
 
                     <button
+                      type="button"
                       onClick={(e) => handleQuickAdd(e, product)}
-                      className={`p-2.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                      className={`p-2 sm:p-2.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
                         isAdded
                           ? "bg-emerald-600 text-white"
-                          : "bg-blue-600 hover:bg-blue-500 text-white shadow-md hover:scale-105"
+                          : "bg-blue-600 hover:bg-blue-500 text-white shadow-md active:scale-95"
                       }`}
                       title="Add to Bag"
                     >
                       {isAdded ? (
-                        <Check className="w-4 h-4" />
+                        <Check className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                       ) : (
-                        <ShoppingBag className="w-4 h-4" />
+                        <ShoppingBag className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                       )}
                     </button>
                   </div>
