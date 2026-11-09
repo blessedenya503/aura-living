@@ -467,6 +467,12 @@ export function ProductDetailPage({
                     <Clock className="w-3.5 h-3.5 text-emerald-600" />
                     <span>1–4 business days</span>
                   </div>
+                  <Link
+                    href="/returns"
+                    className="text-[#002B7F] hover:underline font-semibold"
+                  >
+                    Returns &amp; Refunds Policy
+                  </Link>
                 </div>
               </div>
             </div>

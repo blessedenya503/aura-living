@@ -96,7 +96,8 @@ export function StorefrontFloatingHelp() {
           <HelpRowItem
             icon={FileText}
             label="Return & Refund Policy"
-            sublabel="Hassle-free guarantee on unopened items"
+            sublabel="7-day unopened returns • 48h damage claim"
+            href="/returns"
           />
         </HelpRowList>
       ),

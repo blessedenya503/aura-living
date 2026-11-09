@@ -49,8 +49,8 @@ const MINIMAL_FAQS = [
     a: "Select 2 units to unlock 15% off each, or 3 units to unlock 25% off plus automatic free tracked express delivery at checkout.",
   },
   {
-    q: "What is your return & guarantee policy?",
-    a: "If your order arrives damaged or incorrect, contact us within 7 days of delivery for an instant replacement or full refund.",
+    q: "What is your return & refund policy?",
+    a: "Unopened and unused items in their original sealed packaging can be returned within 7 days of delivery. If your order arrives damaged, leaking, or wrong, message us on WhatsApp at +234 703 870 3778 within 48 hours of delivery with clear photos or a short video for a replacement or refund.",
   },
 ];
 
@@ -608,6 +608,9 @@ export default function HomePage() {
               <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-slate-400 font-medium">
                 <Link href="/track-order" className="hover:text-white transition-colors">
                   Track Order
+                </Link>
+                <Link href="/returns" className="hover:text-white transition-colors">
+                  Returns &amp; Refunds
                 </Link>
                 <Link href="#catalog-section" className="hover:text-white transition-colors">
                   Shop Verified Catalog
