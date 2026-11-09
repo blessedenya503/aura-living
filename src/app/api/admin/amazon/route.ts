@@ -10,7 +10,7 @@ export async function GET(request: Request) {
 
   const { searchParams } = new URL(request.url);
   const term = (searchParams.get("q") || "nivea creme").trim();
-  const fallbackKey = Buffer.from("QzA1MTE5NERBNEU1NDlFOTkzREFCQ0JBNjkwNjIxREM=", "base64").toString("utf-8");
+  const fallbackKey = Buffer.from("MzE1QTM3QkI0RjgxNDBEQzlFMDk3Njg4RDJGMDQ2RUM=", "base64").toString("utf-8");
   const apiKey = process.env.RAINFOREST_API_KEY || fallbackKey;
   if (!apiKey) {
     return NextResponse.json(
