@@ -40,3 +40,5 @@ data/uploads/*
 !data/uploads/.gitkeep
 /src/data/cj-token.json
 .neon
+/hosting-platform
+/.well known

@@ -131,11 +131,7 @@ export interface Product {
   reviews?: ProductReview[];
   faqs?: ProductFAQ[];
   verification?: VerificationData;
-  supplierSource?:
-    | "Amazon Prime Dropship"
-    | "Alibaba Trade Assurance Dropship"
-    | "Direct Pharmaceutical Wholesale"
-    | "Direct Wholesale Authenticated";
+  supplierSource?: string;
   supplierMoq?: number;
   shippingDays?: string;
   isBundle?: boolean;
