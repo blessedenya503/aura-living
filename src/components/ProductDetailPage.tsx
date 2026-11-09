@@ -461,7 +461,7 @@ export function ProductDetailPage({
                 <div className="mt-4 flex items-center justify-between text-xs text-slate-500 flex-wrap gap-2">
                   <div className="flex items-center gap-1.5">
                     <Truck className="w-3.5 h-3.5 text-blue-600" />
-                    <span>Tracked door delivery (Lagos, Abuja & nationwide)</span>
+                    <span>Tracked door delivery worldwide</span>
                   </div>
                   <div className="flex items-center gap-1.5">
                     <Clock className="w-3.5 h-3.5 text-emerald-600" />

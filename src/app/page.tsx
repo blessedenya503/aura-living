@@ -41,8 +41,8 @@ const MINIMAL_FAQS = [
     a: "Yes. Every COSRX, CeraVe, Anua, and La Roche-Posay item is verified with original manufacturer batch codes and sealed packaging. We do not sell knockoffs or unverified market replicas.",
   },
   {
-    q: "How fast is delivery within Nigeria?",
-    a: "Orders in Lagos & Abuja typically deliver within 1–2 business days. Delivery to other states across Nigeria takes 2–4 business days via reliable door-to-door couriers with tracking.",
+    q: "How fast is delivery worldwide?",
+    a: "We ship worldwide with full tracking. Most orders arrive within 2–5 business days in major regions and 5–10 business days for international destinations, delivered door-to-door by reliable couriers.",
   },
   {
     q: "How do the multi-pack bundle discounts work?",

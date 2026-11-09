@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     const newReview: UserReviewItem = {
       id: `rev-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`,
       author: author.trim(),
-      location: location?.trim() || "Nigeria",
+      location: location?.trim() || "Worldwide",
       rating: Number(rating) || 5,
       title: title?.trim() || "Verified Customer Review",
       comment: comment.trim(),

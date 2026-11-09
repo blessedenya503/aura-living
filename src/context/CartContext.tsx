@@ -97,15 +97,15 @@ export function getBundleUnitPrice(basePriceUsd: number, tier: 1 | 2 | 3): numbe
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [products, setProducts] = useState<Product[]>(INITIAL_PRODUCTS);
   const [storeSettings, setStoreSettings] = useState<StorePublicSettings>({
-    storeName: "AURA SKIN NIGERIA",
+    storeName: "AURA SKIN",
     supportEmail: "orders@auraskinng.com",
     freeShippingThresholdUsd: 30,
     shippingProtectionPriceUsd: 1.5,
     announcementText:
-      "🚚 FAST 24-48H DISPATCH IN LAGOS & ABUJA • 100% GENUINE AUTHENTIC FORMULAS",
+      "🌍 WORLDWIDE TRACKED SHIPPING • 100% GENUINE AUTHENTIC FORMULAS",
     tiktokTrendingProductId: "prod-cosrx-28",
     tiktokTrendingViews: "Viral Skincare Sensation",
-    tiktokTrendingTagline: "Authentic Glass Skin Essence • In Stock in Nigeria",
+    tiktokTrendingTagline: "Authentic Glass Skin Essence • In Stock Worldwide",
   });
 
   const [currency, setCurrencyState] = useState<CurrencyCode>("NGN");

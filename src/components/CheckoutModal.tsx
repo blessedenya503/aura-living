@@ -57,9 +57,9 @@ export default function CheckoutModal() {
   const [customerName, setCustomerName] = useState("");
   const [customerEmail, setCustomerEmail] = useState("");
   const [shippingAddress, setShippingAddress] = useState("");
-  const [city, setCity] = useState("Lagos");
-  const [postalCode, setPostalCode] = useState("101241");
-  const [country, setCountry] = useState("Nigeria");
+  const [city, setCity] = useState("");
+  const [postalCode, setPostalCode] = useState("");
+  const [country, setCountry] = useState("");
 
   // Retention & Amazon / CeraVe conversion upgrades
   const [selectedFreeSample, setSelectedFreeSample] = useState<string>("cerave-hydrating-cleanser");
@@ -90,10 +90,10 @@ export default function CheckoutModal() {
       const orderPayload = {
         customerName: customerName || "Skincare Client",
         customerEmail: customerEmail || "guest@auraliving.store",
-        shippingAddress: shippingAddress || "Victoria Island",
-        city: city || "Lagos",
+        shippingAddress: shippingAddress,
+        city,
         country,
-        postalCode: postalCode || "101241",
+        postalCode: postalCode,
         currency,
         shippingProtection,
         discountUsd: discountAmountUsd,
@@ -614,7 +614,7 @@ export default function CheckoutModal() {
                     <input
                       type="text"
                       required
-                      placeholder="Lagos"
+                      placeholder="City"
                       value={city}
                       onChange={(e) => setCity(e.target.value)}
                       className="w-full px-3 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
@@ -627,7 +627,7 @@ export default function CheckoutModal() {
                     <input
                       type="text"
                       required
-                      placeholder="101241"
+                      placeholder="ZIP / Postal"
                       value={postalCode}
                       onChange={(e) => setPostalCode(e.target.value)}
                       className="w-full px-3 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
@@ -638,19 +638,46 @@ export default function CheckoutModal() {
                       Country
                     </label>
                     <select
+                      required
                       value={country}
                       onChange={(e) => setCountry(e.target.value)}
                       className="w-full px-2 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
                     >
-                      <option value="Nigeria">Nigeria</option>
+                      <option value="" disabled>Select country</option>
                       <option value="United States">United States</option>
                       <option value="United Kingdom">United Kingdom</option>
                       <option value="Canada">Canada</option>
+                      <option value="Australia">Australia</option>
+                      <option value="New Zealand">New Zealand</option>
+                      <option value="Ireland">Ireland</option>
                       <option value="Germany">Germany</option>
                       <option value="France">France</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Spain">Spain</option>
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Belgium">Belgium</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Switzerland">Switzerland</option>
+                      <option value="United Arab Emirates">United Arab Emirates</option>
+                      <option value="Saudi Arabia">Saudi Arabia</option>
+                      <option value="Qatar">Qatar</option>
+                      <option value="India">India</option>
+                      <option value="Singapore">Singapore</option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Japan">Japan</option>
+                      <option value="South Korea">South Korea</option>
+                      <option value="China">China</option>
+                      <option value="Hong Kong">Hong Kong</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Brazil">Brazil</option>
+                      <option value="Nigeria">Nigeria</option>
                       <option value="Ghana">Ghana</option>
                       <option value="Kenya">Kenya</option>
                       <option value="South Africa">South Africa</option>
+                      <option value="Uganda">Uganda</option>
+                      <option value="Tanzania">Tanzania</option>
+                      <option value="Egypt">Egypt</option>
+                      <option value="Morocco">Morocco</option>
                     </select>
                   </div>
                 </div>
@@ -668,7 +695,7 @@ export default function CheckoutModal() {
                         ? "Apple Pay Express via Paystack"
                         : paymentMethod === "Google Pay"
                         ? "Google Pay Express via Paystack"
-                        : "Paystack Direct Settlement (Nigeria & Global)"}
+                        : "Paystack Direct Settlement (Worldwide)"}
                     </span>
                   </div>
                   <span className="text-[10px] font-bold text-[#0BA4DB] bg-white px-2.5 py-0.5 rounded-full border border-cyan-200">
@@ -680,7 +707,7 @@ export default function CheckoutModal() {
                     ? "Clicking Pay securely opens Paystack's PCI-DSS Level 1 encrypted card terminal where you enter your Visa, Mastercard, or Verve card details and complete your bank's 3D Secure OTP."
                     : paymentMethod === "Apple Pay"
                     ? "Clicking Pay opens Paystack's encrypted checkout where you can authorize instantly with Apple Pay (Face ID / Touch ID) on supported Apple devices, or pay via Card / Bank Transfer."
-                    : "Direct payment via Nigerian Bank Transfer (OPay, Access, Zenith, GTB, Kuda, UBA), Visa, Mastercard, Verve & USSD. Your order is verified automatically upon payment."}
+                    : "Pay securely with Visa, Mastercard, Verve, bank transfer or local payment options available in your country. Your order is verified automatically upon payment."}
                 </p>
               </div>
 

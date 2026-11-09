@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const title = `${product.name} • AURA`;
   const description =
     product.shortDescription ||
-    `${product.brand} - ${product.tagline}. Authentic clinical skincare with verified batch authenticity and fast tracked delivery in Nigeria & worldwide.`;
+    `${product.brand} - ${product.tagline}. Authentic clinical skincare with verified batch authenticity and fast tracked delivery worldwide.`;
 
   const imageUrl = product.image.startsWith("http")
     ? product.image

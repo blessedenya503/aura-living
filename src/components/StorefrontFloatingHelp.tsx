@@ -109,7 +109,7 @@ export function StorefrontFloatingHelp() {
         <HelpRowList>
           <div className="px-3 pt-1 pb-1">
             <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
-              Nigeria Nationwide Logistics
+              Worldwide Logistics
             </span>
           </div>
           <HelpRowItem
@@ -121,7 +121,7 @@ export function StorefrontFloatingHelp() {
           <HelpRowItem
             icon={Clock}
             label="Delivery Timelines"
-            sublabel="1–2 business days Lagos/Abuja • 2–4 days nationwide"
+            sublabel="2–5 days major regions • 5–10 days international"
           />
           <HelpRowItem
             icon={ShieldCheck}

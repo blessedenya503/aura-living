@@ -64,7 +64,7 @@ export async function sendWelcomeEmail(toEmail: string, name?: string) {
             </div>
             <p>
               &bull; <strong>100% Verified Batches:</strong> All orders are laboratory authenticated and tracked directly to your doorstep.<br />
-              &bull; <strong>Fast Doorstep Courier:</strong> 24&ndash;48H delivery across Lagos, Abuja, and express international shipping.
+              &bull; <strong>Fast Doorstep Courier:</strong> tracked express delivery worldwide.
             </p>
             <div style="text-align: center; margin-top: 24px;">
               <a href="https://auraskinng.vercel.app" class="btn">Explore Clinical Storefront</a>
