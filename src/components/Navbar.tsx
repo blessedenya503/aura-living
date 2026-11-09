@@ -7,6 +7,7 @@ import { ShoppingBag, Search, Moon, Sun, TrendingUp, Ship, User, Menu, X, Phone 
 import { useCart } from "@/context/CartContext";
 import CurrencySelector from "@/components/CurrencySelector";
 import { Typewriter } from "@/components/ui/typewriter-text";
+import { authClient } from "@/lib/auth-client";
 
 function TikTokIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -30,6 +31,7 @@ export default function Navbar() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showAuraWordmark, setShowAuraWordmark] = useState(false);
+  const { data: session } = authClient.useSession();
 
   useEffect(() => {
     // Show AURA wordmark popping out of the logo for 2 seconds on first visit/load, then tuck back in
@@ -168,7 +170,7 @@ export default function Navbar() {
           {/* Circular Flag Currency Selector with Real-time Rates */}
           <CurrencySelector />
 
-          {/* User Sign In Link (Desktop Only) */}
+          {/* User Sign In / Account Link (Desktop Only) */}
           <Link
             href="/login"
             className={`hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all shadow-xs border ${
@@ -176,10 +178,12 @@ export default function Navbar() {
                 ? "bg-slate-900 border-slate-800 text-slate-200 hover:text-white hover:border-cyan-400"
                 : "bg-slate-100 hover:bg-slate-200/80 border-slate-200 text-slate-700 hover:text-slate-900"
             }`}
-            title="Customer Sign In"
+            title={session?.user ? `Signed in as ${session.user.email}` : "Customer Sign In"}
           >
             <User className="w-3.5 h-3.5 text-cyan-400" />
-            <span className="hidden md:inline text-[11px]">Sign In</span>
+            <span className="hidden md:inline text-[11px] max-w-24 truncate">
+              {session?.user ? session.user.name || session.user.email.split("@")[0] : "Sign In"}
+            </span>
           </Link>
 
           {/* Cart Bag Pill */}
@@ -258,7 +262,11 @@ export default function Navbar() {
             >
               <div className="flex items-center gap-2.5">
                 <User className="w-4 h-4 text-cyan-500" />
-                <span>Customer Account / Sign In</span>
+                <span>
+                  {session?.user
+                    ? `Account (${session.user.name || session.user.email})`
+                    : "Customer Account / Sign In"}
+                </span>
               </div>
               <span className="text-slate-400 font-mono">→</span>
             </Link>
