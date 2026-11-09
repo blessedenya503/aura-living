@@ -254,7 +254,7 @@ export default function ProductModal() {
                 <div className="flex items-center gap-1.5 text-slate-700 font-medium text-[11px]">
                   <Truck className="w-3.5 h-3.5 text-[#002B7F] shrink-0" />
                   <span>
-                    Lagos &amp; Abuja: [X–X days] · Other states: [X–X days] · International: [X–X days] · Tracking on every order.
+                    Lagos &amp; Abuja: 1–2 days · Other states: 2–4 days · International: 5–10 days · Tracking on every order.
                   </span>
                 </div>
               </div>

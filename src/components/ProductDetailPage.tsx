@@ -469,7 +469,7 @@ export function ProductDetailPage({
                   <div className="flex items-start gap-1.5">
                     <Truck className="w-3.5 h-3.5 text-blue-600 shrink-0 mt-0.5" />
                     <span>
-                      Lagos &amp; Abuja: [X–X days] · Other states: [X–X days] · International: [X–X days] · Tracking on every order.
+                      Lagos &amp; Abuja: 1–2 days · Other states: 2–4 days · International: 5–10 days · Tracking on every order.
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
