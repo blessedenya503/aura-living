@@ -609,6 +609,9 @@ export default function HomePage() {
                 <Link href="/track-order" className="hover:text-white transition-colors">
                   Track Order
                 </Link>
+                <Link href="/shipping" className="hover:text-white transition-colors">
+                  Shipping &amp; Delivery
+                </Link>
                 <Link href="/returns" className="hover:text-white transition-colors">
                   Returns &amp; Refunds
                 </Link>

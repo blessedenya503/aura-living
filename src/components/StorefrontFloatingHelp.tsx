@@ -121,13 +121,15 @@ export function StorefrontFloatingHelp() {
           />
           <HelpRowItem
             icon={Clock}
-            label="Delivery Timelines"
-            sublabel="2–5 days major regions • 5–10 days international"
+            label="Shipping & Delivery Policy"
+            sublabel="Lagos/Abuja 1–2d • Nationwide 2–4d • Intl 5–10d"
+            href="/shipping"
           />
           <HelpRowItem
             icon={ShieldCheck}
-            label="Damaged / Loss Protection"
-            sublabel="Full replacement insurance option"
+            label="Damaged / Wrong Items"
+            sublabel="Report on WhatsApp within 48h of delivery"
+            href="/returns"
           />
         </HelpRowList>
       ),
