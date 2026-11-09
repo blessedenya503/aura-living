@@ -621,6 +621,9 @@ export default function HomePage() {
                 <Link href="/privacy" className="hover:text-white transition-colors">
                   Privacy Policy
                 </Link>
+                <Link href="/terms" className="hover:text-white transition-colors">
+                  Terms of Service
+                </Link>
                 <Link href="#catalog-section" className="hover:text-white transition-colors">
                   Shop Verified Catalog
                 </Link>

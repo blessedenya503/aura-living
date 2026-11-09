@@ -328,6 +328,18 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/terms"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full flex items-center justify-between text-left text-xs font-bold py-2.5 border-b border-slate-200/60"
+            >
+              <div className="flex items-center gap-2.5">
+                <ShieldCheck className="w-4 h-4 text-slate-500" />
+                <span>Terms of Service</span>
+              </div>
+              <span className="text-slate-400 font-mono">→</span>
+            </Link>
+
+            <Link
               href="/login"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-between text-left text-xs font-bold py-2.5 border-b border-slate-200/60"

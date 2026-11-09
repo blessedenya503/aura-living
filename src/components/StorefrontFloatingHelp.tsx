@@ -111,6 +111,12 @@ export function StorefrontFloatingHelp() {
             sublabel="How we protect your data & payments"
             href="/privacy"
           />
+          <HelpRowItem
+            icon={FileText}
+            label="Terms of Service"
+            sublabel="Orders, pricing, skincare use & Nigerian law"
+            href="/terms"
+          />
         </HelpRowList>
       ),
     },
