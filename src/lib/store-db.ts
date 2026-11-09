@@ -359,7 +359,11 @@ export async function getStoreDb(): Promise<StoreDatabase> {
         SELECT data FROM store_state WHERE key = 'current_store_db' LIMIT 1
       `) as any[];
       if (Array.isArray(rows) && rows.length > 0 && rows[0]?.data) {
-        cachedDb = rows[0].data as StoreDatabase;
+        const remote = rows[0].data as StoreDatabase;
+        remote.orders = (remote.orders || []).filter(
+          (o) => o.customerName !== "Sophia Laurent" && o.customerEmail !== "sophia.l@aura-skincare.com"
+        );
+        cachedDb = remote;
         lastNeonFetch = now;
         return cachedDb;
       }
@@ -420,6 +424,9 @@ export function readStoreDb(): StoreDatabase {
         parsed.products.length > 0 &&
         parsed.products[0].brand // skincare indicator
       ) {
+        parsed.orders = (parsed.orders || []).filter(
+          (o) => o.customerName !== "Sophia Laurent" && o.customerEmail !== "sophia.l@aura-skincare.com"
+        );
         cachedDb = parsed;
         return parsed;
       }

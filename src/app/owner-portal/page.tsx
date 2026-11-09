@@ -2346,20 +2346,15 @@ export default function OwnerPortalPage() {
               </div>
 
               <div className="flex items-center gap-2">
-                <button
-                  onClick={handleClearOrders}
-                  className="bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/30 font-bold px-3 py-2 rounded-xl text-xs flex items-center gap-1.5 cursor-pointer transition-colors"
-                >
-                  <Trash2 className="w-3.5 h-3.5 text-rose-400" />
-                  <span>Clear Simulation Orders</span>
-                </button>
-                <button
-                  onClick={handleSimulateOrder}
-                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-xl text-xs flex items-center gap-1.5 shadow-md cursor-pointer transition-colors"
-                >
-                  <Plus className="w-4 h-4" />
-                  <span>Simulate Test Order</span>
-                </button>
+                {orders.length > 0 && (
+                  <button
+                    onClick={handleClearOrders}
+                    className="bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/30 font-bold px-3 py-2 rounded-xl text-xs flex items-center gap-1.5 cursor-pointer transition-colors"
+                  >
+                    <Trash2 className="w-3.5 h-3.5 text-rose-400" />
+                    <span>Clear Orders</span>
+                  </button>
+                )}
               </div>
             </div>
 
