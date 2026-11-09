@@ -1,14 +1,23 @@
 import { NextResponse } from "next/server";
 import { isRequestAdminAuthenticated } from "@/lib/admin-auth";
 import { getStoreDb, saveStoreDb } from "@/lib/store-db";
-import fs from "fs";
+import type * as FsType from "fs";
 import path from "path";
 
-const PROJECT_ROOT = path.resolve(process.cwd());
+// Prevent @vercel/nft from bundling the entire repository into the serverless function
+function getDynamicFs(): typeof FsType {
+  // eslint-disable-next-line no-eval
+  return eval("require")("fs");
+}
+
+function getProjectRoot(): string {
+  const cwdFn = (process as unknown as Record<string, () => string>)["cwd"];
+  return path.resolve(cwdFn ? cwdFn.call(process) : ".");
+}
 
 function isSafePath(targetPath: string): boolean {
   const resolved = path.resolve(targetPath);
-  return resolved.startsWith(PROJECT_ROOT);
+  return resolved.startsWith(getProjectRoot());
 }
 
 const FALLBACK_TREE = [
@@ -60,6 +69,7 @@ const FALLBACK_TREE = [
 function getDirectoryTree(dirPath: string, relativeRoot = "", depth = 0, maxDepth = 4): any[] {
   if (depth > maxDepth) return [];
   try {
+    const fs = getDynamicFs();
     const entries = fs.readdirSync(dirPath, { withFileTypes: true });
     const items: any[] = [];
 
@@ -194,7 +204,7 @@ export async function GET(req: Request) {
   const filePath = searchParams.get("path");
 
   if (action === "tree") {
-    const tree = getDirectoryTree(PROJECT_ROOT);
+    const tree = getDirectoryTree(getProjectRoot());
     return NextResponse.json({
       success: true,
       tree: tree.length > 0 ? tree : FALLBACK_TREE,
@@ -217,7 +227,8 @@ export async function GET(req: Request) {
     } catch {}
 
     // 2. Read from local/bundled filesystem
-    const fullPath = path.join(PROJECT_ROOT, filePath);
+    const fs = getDynamicFs();
+    const fullPath = path.join(getProjectRoot(), filePath);
     if (!isSafePath(fullPath)) {
       return NextResponse.json({ error: "Access denied: Path outside workspace" }, { status: 403 });
     }
@@ -254,12 +265,13 @@ export async function POST(req: Request) {
   }
 
   try {
+    const fs = getDynamicFs();
     const body = await req.json();
     const { action, path: filePath, content, prompt, systemPrompt } = body;
 
     // 1. Save file content (persists to both local disk when writable AND Neon Postgres)
     if (action === "save" && filePath && typeof content === "string") {
-      const fullPath = path.join(PROJECT_ROOT, filePath);
+      const fullPath = path.join(getProjectRoot(), filePath);
       if (!isSafePath(fullPath)) {
         return NextResponse.json({ error: "Access denied: Path outside workspace" }, { status: 403 });
       }
@@ -298,7 +310,7 @@ export async function POST(req: Request) {
 
     // 2. Create new file or folder
     if (action === "create" && filePath) {
-      const fullPath = path.join(PROJECT_ROOT, filePath);
+      const fullPath = path.join(getProjectRoot(), filePath);
       if (!isSafePath(fullPath)) {
         return NextResponse.json({ error: "Access denied" }, { status: 403 });
       }

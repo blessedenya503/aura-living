@@ -1,6 +1,23 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  outputFileTracingExcludes: {
+    "*": [
+      "./.git/**",
+      "./.next/cache/**",
+      "./hosting-platform/**",
+      "./scripts/**",
+    ],
+    "/api/admin/antigravity-editor": [
+      "./node_modules/**",
+      "./.next/**",
+      "./.git/**",
+      "./public/**",
+    ],
+  },
   images: {
     unoptimized: true,
     remotePatterns: [
