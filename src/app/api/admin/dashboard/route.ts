@@ -26,6 +26,10 @@ export async function GET() {
     settings: {
       ...db.settings,
       hasLiveStripeKey: Boolean(process.env.STRIPE_SECRET_KEY),
+      hasGeminiApiKey: Boolean(process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY),
+      geminiKeyMasked: (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY)
+        ? (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY)!.slice(0, 8) + "••••••••" + (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY)!.slice(-4)
+        : null,
     },
     metrics: {
       totalRevenueUsd: Number(totalRevenueUsd.toFixed(2)),

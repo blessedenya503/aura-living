@@ -84,7 +84,7 @@ export default function AntigravityEditor() {
   // Load Directory Tree
   const fetchTree = async () => {
     try {
-      const res = await fetch("/api/admin/antigravity-editor?action=tree");
+      const res = await fetch("/api/admin/antigravity-editor?action=tree", { credentials: "include" });
       const data = await res.json();
       if (data.success && data.tree) {
         setFileTree(data.tree);
@@ -99,7 +99,7 @@ export default function AntigravityEditor() {
     setIsLoadingFile(true);
     setStatusMsg(null);
     try {
-      const res = await fetch(`/api/admin/antigravity-editor?action=read&path=${encodeURIComponent(filePath)}`);
+      const res = await fetch(`/api/admin/antigravity-editor?action=read&path=${encodeURIComponent(filePath)}`, { credentials: "include" });
       const data = await res.json();
       if (data.success) {
         setActiveFilePath(filePath);
@@ -128,6 +128,7 @@ export default function AntigravityEditor() {
       const res = await fetch("/api/admin/antigravity-editor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({
           action: "save",
           path: activeFilePath,
@@ -172,6 +173,7 @@ export default function AntigravityEditor() {
       const res = await fetch("/api/admin/antigravity-editor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({
           action: "ai_assist",
           path: activeFilePath,
@@ -179,6 +181,19 @@ export default function AntigravityEditor() {
           prompt: promptToSend,
         }),
       });
+
+      if (res.status === 401) {
+        setAiChatHistory((prev) => [
+          ...prev,
+          {
+            sender: "antigravity",
+            text: "⚠️ Session expired or not signed in. Please refresh your Owner Portal tab or log in at /owner-portal/login.",
+            timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+          },
+        ]);
+        return;
+      }
+
       const data = await res.json();
       if (data.success && data.answer) {
         setAiChatHistory((prev) => [

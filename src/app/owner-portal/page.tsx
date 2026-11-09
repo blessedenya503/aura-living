@@ -3124,6 +3124,14 @@ export default function OwnerPortalPage() {
                   Direct live code editing, workspace file tree, Gemini 3.5 Copilot assistance, split-screen storefront preview, and hot reload.
                 </p>
               </div>
+
+              {/* Gemini Key Status Badge */}
+              <div className="flex items-center gap-2">
+                <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  GEMINI ACTIVE: {(settings as any)?.geminiKeyMasked || "CONFIGURED"}
+                </span>
+              </div>
             </div>
 
             <AntigravityEditor />
