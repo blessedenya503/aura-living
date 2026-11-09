@@ -113,6 +113,13 @@ export default function OwnerPortalPage() {
   const [saveMessage, setSaveMessage] = useState("");
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
   const [isSyncingWeekly, setIsSyncingWeekly] = useState(false);
+  const tabsScrollRef = React.useRef<HTMLDivElement>(null);
+
+  const scrollTabs = (offset: number) => {
+    if (tabsScrollRef.current) {
+      tabsScrollRef.current.scrollBy({ left: offset, behavior: "smooth" });
+    }
+  };
 
   const handleTriggerWeeklySync = async () => {
     setIsSyncingWeekly(true);
@@ -870,167 +877,219 @@ export default function OwnerPortalPage() {
           </div>
         </div>
 
-        {/* Dashboard Navigation Tabs */}
-        <div className="flex items-center justify-between gap-2 border-b border-slate-800/80 pb-2.5 overflow-x-auto no-scrollbar">
-          <div className="flex items-center gap-1.5 shrink-0">
-            {/* TAB: ALIBABA DROPSHIPPING */}
+        {/* Dashboard Navigation Tabs With Scroll Controls & Ruler */}
+        <div className="relative border-b border-slate-800/80 pb-2.5 space-y-1.5">
+          <div className="flex items-center gap-1.5">
+            {/* Left Nav Arrow */}
             <button
-              onClick={() => setActiveTab("brands")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "brands"
-                  ? "bg-orange-600 text-white shadow-md ring-1 ring-orange-400"
-                  : "bg-slate-900/90 text-orange-400 hover:text-white hover:bg-slate-800"
-              }`}
+              type="button"
+              onClick={() => scrollTabs(-280)}
+              className="p-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-800 transition-colors cursor-pointer shrink-0"
+              title="Scroll Tabs Left"
             >
-              <Package className="w-3.5 h-3.5 text-orange-300" />
-              <span>Alibaba Dropshipping</span>
+              <ChevronLeft className="w-4 h-4" />
             </button>
 
-            {/* TAB: AMAZON PRIME PORTAL (Powered by Rainforest API) */}
+            {/* Scrollable Tabs Track */}
+            <div
+              ref={tabsScrollRef}
+              className="flex-1 flex items-center gap-1.5 overflow-x-auto scroll-smooth scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-950 pb-1"
+            >
+              {/* TAB: ALIBABA DROPSHIPPING */}
+              <button
+                onClick={() => setActiveTab("brands")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "brands"
+                    ? "bg-orange-600 text-white shadow-md ring-1 ring-orange-400"
+                    : "bg-slate-900/90 text-orange-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <Package className="w-3.5 h-3.5 text-orange-300" />
+                <span>Alibaba Dropshipping</span>
+              </button>
+
+              {/* TAB: AMAZON PRIME PORTAL (Powered by Rainforest API) */}
+              <button
+                onClick={() => {
+                  setActiveTab("amazon");
+                }}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "amazon"
+                    ? "bg-amber-500 text-slate-950 shadow-md ring-1 ring-amber-600 font-extrabold"
+                    : "bg-slate-900/90 text-amber-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <ShoppingBag className="w-3.5 h-3.5 text-amber-300" />
+                <span>Amazon Prime Portal</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
+              </button>
+
+              {/* TAB: CJ DROPSHIPPING LIVE GATEWAY */}
+              <button
+                onClick={() => {
+                  setActiveTab("cj");
+                }}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "cj"
+                    ? "bg-amber-600 text-white shadow-md ring-1 ring-amber-400"
+                    : "bg-slate-900/90 text-amber-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <Truck className="w-3.5 h-3.5 text-amber-300" />
+                <span>CJ Live Dropship</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              </button>
+
+              {/* TAB: PAYSTACK ACCOUNT BALANCE & PAYOUTS */}
+              <button
+                onClick={() => {
+                  setActiveTab("balance");
+                  fetchBalanceData();
+                }}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "balance"
+                    ? "bg-emerald-600 text-white shadow-md ring-1 ring-emerald-400"
+                    : "bg-slate-900/90 text-emerald-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <DollarSign className="w-3.5 h-3.5 text-emerald-300" />
+                <span>Account Balance &amp; Payouts (₦)</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              </button>
+
+              {/* TAB 2: STORE CATALOG */}
+              <button
+                onClick={() => setActiveTab("catalog")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "catalog"
+                    ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-blue-400/50"
+                    : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <Package className="w-3.5 h-3.5 text-indigo-400" />
+                <span>Catalog ({products.length})</span>
+              </button>
+
+              {/* TAB 3: CUSTOMER ORDERS */}
+              <button
+                onClick={() => setActiveTab("orders")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "orders"
+                    ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-blue-400/50"
+                    : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <Truck className="w-3.5 h-3.5 text-amber-400" />
+                <span>Orders ({orders.length})</span>
+              </button>
+
+              {/* TAB: COURIER TRACKING (GIG, DHL, Speedaf, Fez, Royal Mail) */}
+              <button
+                onClick={() => setActiveTab("couriers")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "couriers"
+                    ? "bg-cyan-600 text-white shadow-md ring-1 ring-cyan-400"
+                    : "bg-slate-900/90 text-cyan-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <Truck className="w-3.5 h-3.5 text-cyan-300" />
+                <span>Courier Tracking</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              </button>
+
+              {/* TAB: ANTIGRAVITY STUDIO EDITOR */}
+              <button
+                onClick={() => setActiveTab("antigravity")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "antigravity"
+                    ? "bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white shadow-md ring-1 ring-purple-400"
+                    : "bg-slate-900/90 text-purple-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <Sparkles className="w-3.5 h-3.5 text-purple-300 animate-pulse" />
+                <span>Antigravity Editor</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
+              </button>
+
+              {/* TAB: GOOGLE ANALYTICS & TRAFFIC */}
+              <button
+                onClick={() => setActiveTab("analytics")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "analytics"
+                    ? "bg-amber-600 text-white shadow-md ring-1 ring-amber-400"
+                    : "bg-slate-900/90 text-amber-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <BarChart3 className="w-3.5 h-3.5 text-amber-300" />
+                <span>Google Analytics</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              </button>
+
+              {/* TAB 4: STORE SETTINGS */}
+              <button
+                onClick={() => setActiveTab("settings")}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
+                  activeTab === "settings"
+                    ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-blue-400/50"
+                    : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
+                }`}
+              >
+                <Settings className="w-3.5 h-3.5 text-slate-400" />
+                <span>Settings</span>
+              </button>
+            </div>
+
+            {/* Right Nav Arrow */}
+            <button
+              type="button"
+              onClick={() => scrollTabs(280)}
+              className="p-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-800 transition-colors cursor-pointer shrink-0"
+              title="Scroll Tabs Right (Settings & Antigravity)"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+
+            {/* Refresh Data Button */}
             <button
               onClick={() => {
-                setActiveTab("amazon");
+                fetchDashboardData();
+                fetchBrandCatalog(brandSearchInput);
               }}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "amazon"
-                  ? "bg-amber-500 text-slate-950 shadow-md ring-1 ring-amber-600 font-extrabold"
-                  : "bg-slate-900/90 text-amber-400 hover:text-white hover:bg-slate-800"
-              }`}
+              className="p-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-white transition-colors cursor-pointer shrink-0 border border-slate-800 ml-1"
+              title="Refresh Data"
             >
-              <ShoppingBag className="w-3.5 h-3.5 text-amber-300" />
-              <span>Amazon Prime Portal</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-            </button>
-
-            {/* TAB: CJ DROPSHIPPING LIVE GATEWAY */}
-            <button
-              onClick={() => {
-                setActiveTab("cj");
-              }}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "cj"
-                  ? "bg-amber-600 text-white shadow-md ring-1 ring-amber-400"
-                  : "bg-slate-900/90 text-amber-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <Truck className="w-3.5 h-3.5 text-amber-300" />
-              <span>CJ Live Dropship</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            </button>
-
-            {/* TAB: PAYSTACK ACCOUNT BALANCE & PAYOUTS */}
-            <button
-              onClick={() => {
-                setActiveTab("balance");
-                fetchBalanceData();
-              }}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "balance"
-                  ? "bg-emerald-600 text-white shadow-md ring-1 ring-emerald-400"
-                  : "bg-slate-900/90 text-emerald-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <DollarSign className="w-3.5 h-3.5 text-emerald-300" />
-              <span>Account Balance &amp; Payouts (₦)</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            </button>
-
-            {/* TAB 2: STORE CATALOG */}
-            <button
-              onClick={() => setActiveTab("catalog")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "catalog"
-                  ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-blue-400/50"
-                  : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <Package className="w-3.5 h-3.5 text-indigo-400" />
-              <span>Catalog ({products.length})</span>
-            </button>
-
-            {/* TAB 3: CUSTOMER ORDERS */}
-            <button
-              onClick={() => setActiveTab("orders")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "orders"
-                  ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-blue-400/50"
-                  : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <Truck className="w-3.5 h-3.5 text-amber-400" />
-              <span>Orders ({orders.length})</span>
-            </button>
-
-            {/* TAB: COURIER TRACKING (GIG, DHL, Speedaf, Fez, Royal Mail) */}
-            <button
-              onClick={() => setActiveTab("couriers")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "couriers"
-                  ? "bg-cyan-600 text-white shadow-md ring-1 ring-cyan-400"
-                  : "bg-slate-900/90 text-cyan-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <Truck className="w-3.5 h-3.5 text-cyan-300" />
-              <span>Courier Tracking</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            </button>
-
-            {/* TAB: ANTIGRAVITY STUDIO EDITOR */}
-            <button
-              onClick={() => setActiveTab("antigravity")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "antigravity"
-                  ? "bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white shadow-md ring-1 ring-purple-400"
-                  : "bg-slate-900/90 text-purple-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <Sparkles className="w-3.5 h-3.5 text-purple-300 animate-pulse" />
-              <span>Antigravity Editor</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
-            </button>
-
-            {/* TAB: GOOGLE ANALYTICS & TRAFFIC */}
-            <button
-              onClick={() => setActiveTab("analytics")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "analytics"
-                  ? "bg-amber-600 text-white shadow-md ring-1 ring-amber-400"
-                  : "bg-slate-900/90 text-amber-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <BarChart3 className="w-3.5 h-3.5 text-amber-300" />
-              <span>Google Analytics</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            </button>
-
-            {/* TAB 4: STORE SETTINGS */}
-            <button
-              onClick={() => setActiveTab("settings")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
-                activeTab === "settings"
-                  ? "bg-[#002B7F] text-white shadow-sm ring-1 ring-blue-400/50"
-                  : "bg-slate-900/90 text-slate-400 hover:text-white hover:bg-slate-800"
-              }`}
-            >
-              <Settings className="w-3.5 h-3.5 text-slate-400" />
-              <span>Settings</span>
+              <RefreshCw
+                className={`w-4 h-4 ${
+                  isLoading || isBrandLoading ? "animate-spin" : ""
+                }`}
+              />
             </button>
           </div>
 
-          <button
-            onClick={() => {
-              fetchDashboardData();
-              fetchBrandCatalog(brandSearchInput);
-            }}
-            className="p-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-white transition-colors cursor-pointer shrink-0 border border-slate-800"
-            title="Refresh Data"
-          >
-            <RefreshCw
-              className={`w-4 h-4 ${
-                isLoading || isBrandLoading ? "animate-spin" : ""
-              }`}
-            />
-          </button>
+          {/* Precision Ruler Indicator with Quick Shortcut Anchors */}
+          <div className="flex items-center justify-between px-2 pt-1 text-[10px] text-slate-500 font-mono select-none">
+            <span
+              onClick={() => scrollTabs(-1000)}
+              className="cursor-pointer hover:text-amber-400 flex items-center gap-1"
+            >
+              ← Dropshipping &amp; Orders
+            </span>
+            <div className="hidden sm:flex items-center gap-1.5 text-slate-600">
+              <span>|···</span>
+              <span>|···</span>
+              <span>|···</span>
+              <span className="text-slate-400">↔ Drag / Scroll ruler to traverse tabs</span>
+              <span>···|</span>
+              <span>···|</span>
+              <span>···|</span>
+            </div>
+            <span
+              onClick={() => scrollTabs(1000)}
+              className="cursor-pointer hover:text-purple-400 flex items-center gap-1 text-right"
+            >
+              Antigravity &amp; Settings →
+            </span>
+          </div>
         </div>
 
         {/* ======================================================== */}
