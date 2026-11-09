@@ -166,25 +166,48 @@ ${activeFileContext}
 
 Give clean, precise code snippets, fixes, diffs, or architecture recommendations. Be direct and helpful.`;
 
-      const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiKey}`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            contents: [{ parts: [{ text: aiPrompt }] }],
-            generationConfig: {
-              temperature: 0.2,
-              maxOutputTokens: 2500,
-            },
-          }),
-        }
-      );
+      // Try modern available models in order of capability and speed
+      const candidateModels = ["gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-flash-latest"];
+      let answer = "";
+      let lastError = "";
 
-      const data = await response.json();
-      const answer =
-        data?.candidates?.[0]?.content?.parts?.[0]?.text ||
-        "No response generated from AI engine.";
+      for (const model of candidateModels) {
+        try {
+          const response = await fetch(
+            `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${geminiKey}`,
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                contents: [{ parts: [{ text: aiPrompt }] }],
+                generationConfig: {
+                  temperature: 0.2,
+                  maxOutputTokens: 2500,
+                },
+              }),
+              signal: AbortSignal.timeout(15000),
+            }
+          );
+
+          if (response.ok) {
+            const data = await response.json();
+            answer = data?.candidates?.[0]?.content?.parts?.[0]?.text || "";
+            if (answer) break;
+          } else {
+            const errData = await response.json().catch(() => ({}));
+            lastError = errData?.error?.message || `HTTP ${response.status}`;
+          }
+        } catch (fetchErr: any) {
+          lastError = fetchErr?.message || "Timeout connecting to Gemini";
+        }
+      }
+
+      if (!answer) {
+        return NextResponse.json(
+          { error: lastError || "No response generated from Gemini AI engine." },
+          { status: 502 }
+        );
+      }
 
       return NextResponse.json({ success: true, answer });
     }

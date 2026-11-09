@@ -67,24 +67,31 @@ Output strictly valid JSON matching this schema:
   "prescriptionFocus": "e.g. Calming Barrier Repair & Non-Stripping Cleansing"
 }`;
 
-        const geminiRes = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiKey}`,
-          {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: prompt }] }],
-            }),
-            signal: AbortSignal.timeout(8000),
-          }
-        );
+        const candidateModels = ["gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-flash-latest"];
+        for (const modelName of candidateModels) {
+          try {
+            const geminiRes = await fetch(
+              `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${geminiKey}`,
+              {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  contents: [{ parts: [{ text: prompt }] }],
+                }),
+                signal: AbortSignal.timeout(8000),
+              }
+            );
 
-        if (geminiRes.ok) {
-          const data = await geminiRes.json();
-          const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-          const cleaned = rawText.replace(/```json/gi, "").replace(/```/g, "").trim();
-          const parsed = JSON.parse(cleaned);
-          return NextResponse.json({ success: true, ai: parsed });
+            if (geminiRes.ok) {
+              const data = await geminiRes.json();
+              const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+              const cleaned = rawText.replace(/```json/gi, "").replace(/```/g, "").trim();
+              const parsed = JSON.parse(cleaned);
+              return NextResponse.json({ success: true, ai: parsed });
+            }
+          } catch (modelErr: any) {
+            console.warn(`[AI Search] Model ${modelName} error:`, modelErr?.message);
+          }
         }
       } catch (geminiErr: any) {
         console.warn("Gemini multi-turn call fallback:", geminiErr?.message);

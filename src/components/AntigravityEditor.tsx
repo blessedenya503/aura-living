@@ -571,7 +571,7 @@ export default function AntigravityEditor() {
                 <span className="text-xs font-bold text-white">Antigravity AI Agent</span>
               </div>
               <span className="text-[10px] font-mono text-purple-300 bg-purple-500/10 px-1.5 py-0.5 rounded border border-purple-500/20">
-                Gemini 2.0
+                Gemini 3.5
               </span>
             </div>
 

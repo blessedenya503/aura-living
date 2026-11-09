@@ -3121,7 +3121,7 @@ export default function OwnerPortalPage() {
                   Mini Antigravity Studio &amp; Code Editor
                 </h2>
                 <p className="text-xs text-slate-400 mt-0.5">
-                  Direct live code editing, workspace file tree, Gemini 2.0 Copilot assistance, split-screen storefront preview, and hot reload.
+                  Direct live code editing, workspace file tree, Gemini 3.5 Copilot assistance, split-screen storefront preview, and hot reload.
                 </p>
               </div>
             </div>
