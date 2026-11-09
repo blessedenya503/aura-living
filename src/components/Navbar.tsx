@@ -141,6 +141,14 @@ export default function Navbar() {
             <span>Track Order</span>
           </Link>
           <Link
+            href="/about"
+            className={`inline-flex items-center gap-1.5 transition-colors ${
+              isNightRecovery ? "text-slate-300 hover:text-white" : "text-slate-500 hover:text-slate-900"
+            }`}
+          >
+            <span>About</span>
+          </Link>
+          <Link
             href="/shipping"
             className={`inline-flex items-center gap-1.5 transition-colors ${
               isNightRecovery ? "text-slate-300 hover:text-white" : "text-slate-500 hover:text-slate-900"
@@ -267,6 +275,18 @@ export default function Navbar() {
               <div className="flex items-center gap-2.5">
                 <Ship className="w-4 h-4 text-blue-500" />
                 <span>Track Courier Order</span>
+              </div>
+              <span className="text-slate-400 font-mono">→</span>
+            </Link>
+
+            <Link
+              href="/about"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full flex items-center justify-between text-left text-xs font-bold py-2.5 border-b border-slate-200/60"
+            >
+              <div className="flex items-center gap-2.5">
+                <User className="w-4 h-4 text-blue-500" />
+                <span>About AURA SKIN</span>
               </div>
               <span className="text-slate-400 font-mono">→</span>
             </Link>

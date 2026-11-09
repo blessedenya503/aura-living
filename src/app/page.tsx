@@ -606,6 +606,9 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <PaymentLogosStrip className="flex items-center gap-2" />
               <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-slate-400 font-medium">
+                <Link href="/about" className="hover:text-white transition-colors">
+                  About AURA SKIN
+                </Link>
                 <Link href="/track-order" className="hover:text-white transition-colors">
                   Track Order
                 </Link>

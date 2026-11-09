@@ -94,6 +94,12 @@ export function StorefrontFloatingHelp() {
             }}
           />
           <HelpRowItem
+            icon={Sparkles}
+            label="About AURA SKIN"
+            sublabel="Our story, brands & WhatsApp skincare help"
+            href="/about"
+          />
+          <HelpRowItem
             icon={FileText}
             label="Return & Refund Policy"
             sublabel="7-day unopened returns • 48h damage claim"
