@@ -105,6 +105,12 @@ export function StorefrontFloatingHelp() {
             sublabel="7-day unopened returns • 48h damage claim"
             href="/returns"
           />
+          <HelpRowItem
+            icon={ShieldCheck}
+            label="Privacy Policy"
+            sublabel="How we protect your data & payments"
+            href="/privacy"
+          />
         </HelpRowList>
       ),
     },

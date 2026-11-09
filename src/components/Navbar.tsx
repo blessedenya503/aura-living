@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { ShoppingBag, Search, Moon, Sun, TrendingUp, Ship, User, Menu, X, Phone } from "lucide-react";
+import { ShoppingBag, Search, Moon, Sun, TrendingUp, Ship, User, Menu, X, Phone, ShieldCheck } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import CurrencySelector from "@/components/CurrencySelector";
 import { Typewriter } from "@/components/ui/typewriter-text";
@@ -311,6 +311,18 @@ export default function Navbar() {
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-500" />
                 <span>Returns &amp; Refunds Policy</span>
+              </div>
+              <span className="text-slate-400 font-mono">→</span>
+            </Link>
+
+            <Link
+              href="/privacy"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full flex items-center justify-between text-left text-xs font-bold py-2.5 border-b border-slate-200/60"
+            >
+              <div className="flex items-center gap-2.5">
+                <ShieldCheck className="w-4 h-4 text-indigo-500" />
+                <span>Privacy Policy</span>
               </div>
               <span className="text-slate-400 font-mono">→</span>
             </Link>
