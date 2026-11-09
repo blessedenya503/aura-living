@@ -27,6 +27,7 @@ export async function sendWelcomeEmail(toEmail: string, name?: string) {
   try {
     const res = await resend.emails.send({
       from: FROM_EMAIL,
+      replyTo: "auraskinngofficial@gmail.com",
       to: toEmail,
       subject: "Welcome to AURA Living — Your VIP 20% Privilege is Inside! ✨",
       html: `
@@ -122,6 +123,7 @@ export async function sendOrderConfirmationEmail(order: {
 
     const res = await resend.emails.send({
       from: FROM_EMAIL,
+      replyTo: "auraskinngofficial@gmail.com",
       to: order.customerEmail,
       subject: `Order Confirmed #${order.id} — AURA Skincare Receipt & Tracking 📦`,
       html: `

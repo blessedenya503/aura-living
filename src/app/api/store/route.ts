@@ -13,7 +13,7 @@ export async function GET() {
       products: db.products.map(sanitizeProductForPublic),
       settings: {
         storeName: db.settings.storeName || "AURA",
-        supportEmail: db.settings.supportEmail || "concierge@auraliving.store",
+        supportEmail: db.settings.supportEmail || "auraskinngofficial@gmail.com",
         freeShippingThresholdUsd: db.settings.freeShippingThresholdUsd,
         shippingProtectionPriceUsd: db.settings.shippingProtectionPriceUsd,
         announcementText: db.settings.announcementText,

@@ -98,7 +98,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [products, setProducts] = useState<Product[]>(INITIAL_PRODUCTS);
   const [storeSettings, setStoreSettings] = useState<StorePublicSettings>({
     storeName: "AURA SKIN",
-    supportEmail: "orders@auraskinng.com",
+    supportEmail: "auraskinngofficial@gmail.com",
     freeShippingThresholdUsd: 30,
     shippingProtectionPriceUsd: 1.5,
     announcementText:

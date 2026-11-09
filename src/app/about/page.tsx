@@ -18,7 +18,12 @@ import {
 
 export default function AboutPage() {
   const { storeSettings } = useCart();
-  const supportEmail = storeSettings?.supportEmail || "orders@auraskinng.com";
+  const supportEmail =
+    storeSettings?.supportEmail &&
+    storeSettings.supportEmail !== "concierge@auraliving.store" &&
+    storeSettings.supportEmail !== "orders@auraskinng.com"
+      ? storeSettings.supportEmail
+      : "auraskinngofficial@gmail.com";
 
   return (
     <div className="min-h-screen bg-[#FBFBFC] text-slate-900 flex flex-col selection:bg-blue-100 selection:text-[#002B7F]">

@@ -23,7 +23,12 @@ import {
 
 export default function ShippingAndDeliveryPage() {
   const { storeSettings, formatPrice } = useCart();
-  const supportEmail = storeSettings?.supportEmail || "orders@auraskinng.com";
+  const supportEmail =
+    storeSettings?.supportEmail &&
+    storeSettings.supportEmail !== "concierge@auraliving.store" &&
+    storeSettings.supportEmail !== "orders@auraskinng.com"
+      ? storeSettings.supportEmail
+      : "auraskinngofficial@gmail.com";
   const freeThresholdUsd = storeSettings?.freeShippingThresholdUsd || 35;
 
   return (

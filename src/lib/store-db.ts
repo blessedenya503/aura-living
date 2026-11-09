@@ -100,7 +100,7 @@ const DB_FILE_PATH = path.join(process.cwd(), "src", "data", "store-db.json");
 
 export const INITIAL_SETTINGS: StoreSettings = {
   storeName: "AURA SKIN",
-  supportEmail: "concierge@auraliving.store",
+  supportEmail: "auraskinngofficial@gmail.com",
   freeShippingThresholdUsd: 35,
   shippingProtectionPriceUsd: 2.49,
   defaultMarkupMultiplier: 2.5,
@@ -146,6 +146,14 @@ export async function getStoreDb(): Promise<StoreDatabase> {
         remote.orders = (remote.orders || []).filter(
           (o) => o.customerName !== "Sophia Laurent" && o.customerEmail !== "sophia.l@aura-skincare.com"
         );
+        if (
+          remote.settings &&
+          (!remote.settings.supportEmail ||
+            remote.settings.supportEmail === "concierge@auraliving.store" ||
+            remote.settings.supportEmail === "orders@auraskinng.com")
+        ) {
+          remote.settings.supportEmail = "auraskinngofficial@gmail.com";
+        }
         cachedDb = remote;
         lastNeonFetch = now;
         return cachedDb;
@@ -210,6 +218,14 @@ export function readStoreDb(): StoreDatabase {
         parsed.orders = (parsed.orders || []).filter(
           (o) => o.customerName !== "Sophia Laurent" && o.customerEmail !== "sophia.l@aura-skincare.com"
         );
+        if (
+          parsed.settings &&
+          (!parsed.settings.supportEmail ||
+            parsed.settings.supportEmail === "concierge@auraliving.store" ||
+            parsed.settings.supportEmail === "orders@auraskinng.com")
+        ) {
+          parsed.settings.supportEmail = "auraskinngofficial@gmail.com";
+        }
         cachedDb = parsed;
         return parsed;
       }
