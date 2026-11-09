@@ -50,7 +50,10 @@ export function ProductDetailPage({
   relatedProducts,
 }: ProductDetailPageProps) {
   const router = useRouter();
-  const { addToCart, formatPrice, setIsCheckoutOpen, isDiscountEligible } = useCart();
+  const { addToCart, formatPrice, setIsCheckoutOpen, isDiscountEligible, currency, shippingCountry } = useCart();
+  const isNigeria =
+    shippingCountry === "Nigeria" ||
+    (currency === "NGN" && (!shippingCountry || shippingCountry === "Nigeria"));
 
   const [product] = useState<Product>(initialProduct);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
@@ -167,7 +170,7 @@ export function ProductDetailPage({
                   {product.verification && (
                     <span className="bg-emerald-950 text-emerald-300 border border-emerald-500/40 text-[10px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1">
                       <ShieldCheck className="w-3 h-3 text-emerald-400" />
-                      Verified Batch
+                      Sealed &amp; Tracked
                     </span>
                   )}
                 </div>
@@ -203,13 +206,13 @@ export function ProductDetailPage({
                 </div>
               )}
 
-              {/* Verified Clinical Authenticity Trust Banner */}
+              {/* Our Promise Banner */}
               <div className="p-4 rounded-2xl bg-blue-50/70 border border-blue-100 flex items-start gap-3 text-xs text-blue-950">
                 <ShieldCheck className="w-5 h-5 text-[#002B7F] shrink-0 mt-0.5" />
                 <div>
-                  <div className="font-bold text-[#002B7F]">Authenticity & Verification</div>
+                  <div className="font-bold text-[#002B7F]">Our Promise</div>
                   <p className="text-[11px] text-blue-900/80 mt-0.5 leading-relaxed">
-                    Audited genuine batch codes. Packaged in sealed tamper-evident containers with tracked courier dispatch.
+                    Every order is checked before dispatch and sent in sealed packaging with tracking.
                   </p>
                 </div>
               </div>
@@ -269,8 +272,12 @@ export function ProductDetailPage({
 
                 {/* Short Description */}
                 <p className="text-sm text-slate-600 mt-4 leading-relaxed">
-                  {product.shortDescription ||
-                    "Clinically formulated for daily skin barrier support, moisture retention, and smooth texture. Safe for sensitive skin types."}
+                  {product.id === "bundle-el-nino"
+                    ? isNigeria
+                      ? "Defend against extreme heat and UV stress. Includes Beauty of Joseon SPF 50+, CeraVe Lotion, and The Ordinary Niacinamide. Free portable fan with every order in Nigeria."
+                      : "Defend against extreme heat and UV stress. Includes Beauty of Joseon SPF 50+, CeraVe Lotion, and The Ordinary Niacinamide."
+                    : product.shortDescription ||
+                      "Formulated for daily skin barrier support, moisture retention, and smooth texture."}
                 </p>
 
                 {/* Key Ingredients & Skin Target */}
@@ -458,14 +465,12 @@ export function ProductDetailPage({
                 </div>
 
                 {/* Delivery Guarantee Info */}
-                <div className="mt-4 flex items-center justify-between text-xs text-slate-500 flex-wrap gap-2">
-                  <div className="flex items-center gap-1.5">
-                    <Truck className="w-3.5 h-3.5 text-blue-600" />
-                    <span>Tracked door delivery worldwide</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <Clock className="w-3.5 h-3.5 text-emerald-600" />
-                    <span>1–4 business days</span>
+                <div className="mt-4 flex flex-col gap-2 text-xs text-slate-600">
+                  <div className="flex items-start gap-1.5">
+                    <Truck className="w-3.5 h-3.5 text-blue-600 shrink-0 mt-0.5" />
+                    <span>
+                      Lagos &amp; Abuja: [X–X days] · Other states: [X–X days] · International: [X–X days] · Tracking on every order.
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Link

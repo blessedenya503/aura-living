@@ -115,10 +115,10 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   }
 
   const product = sanitizeProductForPublic(rawProduct);
-  const title = `${product.name} • AURA`;
+  const title = `${product.name} • AURA SKIN`;
   const description =
     product.shortDescription ||
-    `${product.brand} - ${product.tagline}. Authentic clinical skincare with verified batch authenticity and fast tracked delivery worldwide.`;
+    `${product.brand} - ${product.name}. Shop popular skincare brands like COSRX, CeraVe, Anua, Beauty of Joseon and La Roche-Posay. Delivery in Nigeria and worldwide.`;
 
   const imageUrl = product.image.startsWith("http")
     ? product.image
@@ -159,7 +159,24 @@ export default async function Page({ params }: ProductPageProps) {
     notFound();
   }
 
-  const product = sanitizeProductForPublic(rawProduct);
+  const userReviews: any[] = Array.isArray((db as any).userReviews) ? (db as any).userReviews : [];
+  const withRealReviews = (p: Product): Product => {
+    const clean = sanitizeProductForPublic(p);
+    const matching = userReviews.filter(
+      (r) =>
+        r.productId === clean.id ||
+        (r.productName &&
+          clean.name.toLowerCase().includes(String(r.productName).trim().toLowerCase()))
+    );
+    if (matching.length > 0) {
+      const avg =
+        matching.reduce((sum, r) => sum + (Number(r.rating) || 5), 0) / matching.length;
+      return { ...clean, rating: Number(avg.toFixed(1)), reviewCount: matching.length };
+    }
+    return { ...clean, rating: 0, reviewCount: 0 };
+  };
+
+  const product = withRealReviews(rawProduct);
 
   // Suggested related products from same brand or category
   const related = db.products
@@ -169,7 +186,7 @@ export default async function Page({ params }: ProductPageProps) {
         (p.brand === product.brand || p.category === product.category)
     )
     .slice(0, 4)
-    .map(sanitizeProductForPublic);
+    .map(withRealReviews);
 
   return <ProductDetailPage initialProduct={product} relatedProducts={related} />;
 }

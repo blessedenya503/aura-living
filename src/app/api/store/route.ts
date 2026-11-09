@@ -7,12 +7,38 @@ export const dynamic = "force-dynamic";
 export async function GET() {
   const db = await getStoreDb();
   const { weekNumber, catalog, nextRotationAt } = getCurrentWeeklyTikTokCatalog();
+  const userReviews: any[] = Array.isArray((db as any).userReviews) ? (db as any).userReviews : [];
+
+  const productsWithRealRatings = db.products.map((raw) => {
+    const p = sanitizeProductForPublic(raw);
+    const matchingReviews = userReviews.filter(
+      (r) =>
+        r.productId === p.id ||
+        (r.productName &&
+          p.name.toLowerCase().includes(String(r.productName).trim().toLowerCase()))
+    );
+    if (matchingReviews.length > 0) {
+      const avg =
+        matchingReviews.reduce((sum, r) => sum + (Number(r.rating) || 5), 0) /
+        matchingReviews.length;
+      return {
+        ...p,
+        rating: Number(avg.toFixed(1)),
+        reviewCount: matchingReviews.length,
+      };
+    }
+    return {
+      ...p,
+      rating: 0,
+      reviewCount: 0,
+    };
+  });
 
   return NextResponse.json(
     {
-      products: db.products.map(sanitizeProductForPublic),
+      products: productsWithRealRatings,
       settings: {
-        storeName: db.settings.storeName || "AURA",
+        storeName: "AURA SKIN",
         supportEmail: db.settings.supportEmail || "auraskinngofficial@gmail.com",
         freeShippingThresholdUsd: db.settings.freeShippingThresholdUsd,
         shippingProtectionPriceUsd: db.settings.shippingProtectionPriceUsd,
@@ -25,6 +51,7 @@ export async function GET() {
         nextWeeklySyncAt: db.settings.nextWeeklySyncAt || nextRotationAt,
         weeklyTikTokCatalog: catalog,
         currentWeekNumber: weekNumber,
+        userReviews,
       },
     },
     {

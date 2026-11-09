@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: "%s | AURA SKIN",
   },
   description:
-    "Shop original, verified skincare brands worldwide: COSRX Snail Mucin, CeraVe, Anua Heartleaf, Beauty of Joseon SPF & La Roche-Posay. Fast tracked doorstep delivery worldwide.",
+    "Shop popular skincare brands like COSRX, CeraVe, Anua, Beauty of Joseon and La Roche-Posay. Delivery in Nigeria and worldwide.",
   keywords: [
     "AURA SKIN",
     "auraskinng",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   applicationName: "AURA SKIN",
   authors: [{ name: "AURA SKIN", url: SITE_URL }],
   creator: "AURA SKIN",
-  publisher: "AURA.STORE",
+  publisher: "AURA SKIN",
   alternates: {
     canonical: "/",
   },
@@ -80,23 +80,23 @@ export const metadata: Metadata = {
     locale: "en_NG",
     url: SITE_URL,
     siteName: "AURA SKIN",
-    title: "AURA SKIN — Premium Skincare, Shipped Worldwide",
+    title: "AURA SKIN — Popular Skincare Brands, Delivered Worldwide",
     description:
-      "Shop original verified skincare products from CeraVe, La Roche-Posay, COSRX, The Ordinary & Anua. Fast tracked delivery worldwide.",
+      "Shop popular skincare brands like COSRX, CeraVe, Anua, Beauty of Joseon and La Roche-Posay. Delivery in Nigeria and worldwide.",
     images: [
       {
         url: "/favicon.jpg",
         width: 800,
         height: 800,
-        alt: "AURA SKIN — Authentic Skincare",
+        alt: "AURA SKIN",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AURA SKIN — Premium Skincare, Shipped Worldwide",
+    title: "AURA SKIN — Popular Skincare Brands, Delivered Worldwide",
     description:
-      "Shop original verified skincare products from CeraVe, La Roche-Posay, COSRX, The Ordinary & Korean skincare brands.",
+      "Shop popular skincare brands like COSRX, CeraVe, Anua, Beauty of Joseon and La Roche-Posay. Delivery in Nigeria and worldwide.",
     images: ["/favicon.jpg"],
   },
   icons: {
@@ -121,7 +121,7 @@ const jsonLd = {
       logo: `${SITE_URL}/favicon.jpg`,
       image: `${SITE_URL}/favicon.jpg`,
       description:
-        "Authentic skincare store with worldwide shipping featuring original COSRX, CeraVe, La Roche-Posay, The Ordinary, Anua, and Beauty of Joseon.",
+        "Shop popular skincare brands like COSRX, CeraVe, Anua, Beauty of Joseon and La Roche-Posay. Delivery in Nigeria and worldwide.",
       currenciesAccepted: "NGN, USD",
       paymentAccepted: "Debit Card, Bank Transfer, USSD, Paystack",
       priceRange: "$$",

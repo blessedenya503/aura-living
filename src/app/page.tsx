@@ -202,48 +202,44 @@ export default function HomePage() {
         return 500;
       }
 
-      // Default All Concerns: Glow Recipe, Tatcha Skin Dew, Anua, COSRX, La Roche-Posay
-      if (n.includes("glow recipe") || b.includes("glow recipe")) return 100;
-      if (n.includes("tatcha") || b.includes("tatcha")) return 95;
-      if (n.includes("dewy skin") || n.includes("dew drops") || n.includes("plum plump")) return 90;
-      if (n.includes("heartleaf") || b.includes("anua")) return 85;
-      if (n.includes("patch") || n.includes("snail 96") || b.includes("cosrx")) return 80;
-      if (n.includes("cicaplast") || b.includes("la roche-posay")) return 78;
-      if (n.includes("joseon") || b.includes("beauty of joseon")) return 75;
-      if (b.includes("drunk elephant")) return 70;
-      if (n.includes("aquaphor") || b.includes("eucerin")) return 65;
-      if (b.includes("cerave")) return 60;
-      if (b.includes("bioderma")) return 55;
-      return 0;
+      // Default "Featured First" sort order:
+      // 1. El Niño bundle
+      // 2. COSRX Advanced Snail 96 Mucin Power Essence
+      // 3. Beauty of Joseon Relief Sun SPF 50+
+      // 4. CeraVe Daily Moisturizing Lotion
+      // 5. CeraVe Hydrating Facial Cleanser
+      // 6. The Ordinary Niacinamide 10% + Zinc 1%
+      // 7. Anua products
+      // 8. La Roche-Posay
+      // 9. Tatcha and other items over ₦35,000 come after these.
+      const priceNgn = p.price * 1480;
+      if (p.id === "bundle-el-nino") return 10000;
+      if (p.id === "prod-cosrx-28" || n.includes("advanced snail 96 mucin power essence")) return 9900;
+      if (p.id === "prod-beautyofjoseon-30" || n.includes("relief sun")) return 9800;
+      if (p.id === "prod-cerave-15" || (b === "cerave" && n.includes("daily moisturizing lotion") && priceNgn <= 35000)) return 9700;
+      if (p.id === "prod-cerave-21" || (b === "cerave" && n.includes("hydrating facial cleanser") && priceNgn <= 35000)) return 9600;
+      if (p.id === "prod-theordinary-36" || (b === "the ordinary" && n.includes("niacinamide 10%"))) return 9500;
+      if (b === "tatcha" || priceNgn > 35000) return 1000;
+      if (b === "anua") return 9000;
+      if (b === "la roche-posay") return 8500;
+      return 5000;
     };
 
     if (sortBy === "price-asc") {
-      list.sort((a, b) => {
-        const scoreA = getProductPriorityScore(a);
-        const scoreB = getProductPriorityScore(b);
-        if (scoreA !== scoreB) return scoreB - scoreA;
-        return a.price - b.price;
-      });
+      list.sort((a, b) => a.price - b.price);
     } else if (sortBy === "price-desc") {
-      list.sort((a, b) => {
-        const scoreA = getProductPriorityScore(a);
-        const scoreB = getProductPriorityScore(b);
-        if (scoreA !== scoreB) return scoreB - scoreA;
-        return b.price - a.price;
-      });
+      list.sort((a, b) => b.price - a.price);
     } else if (sortBy === "rating") {
       list.sort((a, b) => {
-        const scoreA = getProductPriorityScore(a);
-        const scoreB = getProductPriorityScore(b);
-        if (scoreA !== scoreB) return scoreB - scoreA;
-        return b.rating - a.rating;
+        if (b.rating !== a.rating) return b.rating - a.rating;
+        return getProductPriorityScore(b) - getProductPriorityScore(a);
       });
     } else {
       list.sort((a, b) => {
         const scoreA = getProductPriorityScore(a);
         const scoreB = getProductPriorityScore(b);
         if (scoreA !== scoreB) return scoreB - scoreA;
-        return b.rating - a.rating;
+        return a.price - b.price;
       });
     }
     return list;
@@ -391,14 +387,14 @@ export default function HomePage() {
             </h2>
             <div className="w-10 h-0.5 bg-[#002B7F] mx-auto mt-1.5 mb-1 rounded-full" />
             <p className="text-xs text-slate-500">
-              Authentic, dermatologist-tested formulas.
+              Popular skincare brands, delivered in Nigeria and worldwide.
             </p>
           </div>
 
           {/* Section Controls & Search Filter Bar */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 mb-6">
             <div className="text-xs font-bold text-slate-800">
-              {products.length} Authenticated Formulas
+              Sealed &amp; Tracked • {products.length} Products
             </div>
 
             {/* Quick Search Input & Sort */}
@@ -599,7 +595,7 @@ export default function HomePage() {
                 AU
               </div>
               <span className="font-bold text-white tracking-tight text-sm">
-                AURA<span className="text-blue-400">.STORE</span>
+                AURA <span className="text-blue-400">SKIN</span>
               </span>
             </div>
 
@@ -625,7 +621,7 @@ export default function HomePage() {
                   Terms of Service
                 </Link>
                 <Link href="#catalog-section" className="hover:text-white transition-colors">
-                  Shop Verified Catalog
+                  Shop Catalog
                 </Link>
                 {/* Contact & WhatsApp at the bottom with international formatting */}
                 <a
@@ -635,15 +631,15 @@ export default function HomePage() {
                   className="flex items-center gap-1.5 text-emerald-400 hover:text-emerald-300 font-mono transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  <span>+23407038703778</span>
+                  <span>+234 703 870 3778</span>
                 </a>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-6 text-[11px] text-slate-500">
-            <p>© {new Date().getFullYear()} AURA.STORE. Authentic Dermatological Skincare.</p>
-            <p>21st.dev Component Architecture • SSL 256-Bit Encrypted</p>
+            <p>© 2026 AURA SKIN. Skincare for every skin.</p>
+            <p>SSL 256-Bit Encrypted</p>
           </div>
         </div>
       </footer>

@@ -18,9 +18,13 @@ interface CuratedBundlesSectionProps {
 }
 
 export default function CuratedBundlesSection({ bundleProduct }: CuratedBundlesSectionProps) {
-  const { formatPrice } = useCart();
+  const { formatPrice, currency, shippingCountry } = useCart();
 
   if (!bundleProduct) return null;
+
+  const isNigeria =
+    shippingCountry === "Nigeria" ||
+    (currency === "NGN" && (!shippingCountry || shippingCountry === "Nigeria"));
 
   const bgImage =
     getSafeImageUrl(bundleProduct.image) ||
@@ -65,27 +69,37 @@ export default function CuratedBundlesSection({ bundleProduct }: CuratedBundlesS
                 </h2>
 
                 <p className="text-xs sm:text-sm text-stone-400 mt-2 leading-relaxed">
-                  Defend against extreme heat and UV stress. Includes Beauty of Joseon SPF 50+, CeraVe Lotion, The Ordinary Niacinamide, plus a <strong>Free Portable Fan</strong> (for orders within Nigeria, while stock lasts).
+                  Defend against extreme heat and UV stress. Includes Beauty of Joseon SPF 50+, CeraVe Lotion, and The Ordinary Niacinamide.
+                  {isNigeria && (
+                    <>
+                      {" "}
+                      <strong>Free portable fan with every order in Nigeria.</strong>
+                    </>
+                  )}
                 </p>
 
                 <div className="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-300">
                   <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">☀️ BoJ Relief Sun SPF 50+</span>
                   <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">🧴 CeraVe Lotion</span>
                   <span className="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">💧 The Ordinary Niacinamide</span>
-                  <span className="bg-amber-500/20 text-amber-300 px-2.5 py-1 rounded-md border border-amber-500/40">🎁 Free Portable Fan (Nigeria Orders)</span>
+                  {isNigeria && (
+                    <span className="bg-amber-500/20 text-amber-300 px-2.5 py-1 rounded-md border border-amber-500/40">
+                      🎁 Free portable fan with every order in Nigeria
+                    </span>
+                  )}
                 </div>
 
                 <div className="mt-5 flex items-baseline gap-3">
                   <span className="text-2xl sm:text-3xl font-mono font-extrabold text-amber-300">
-                    {formatPrice(bundleProduct.price)}
+                    {currency === "NGN" ? "₦49,400" : formatPrice(bundleProduct.price)}
                   </span>
                   {bundleProduct.compareAtPrice && (
                     <span className="text-sm sm:text-base line-through text-stone-500 font-mono">
-                      {formatPrice(bundleProduct.compareAtPrice)}
+                      {currency === "NGN" ? "₦65,830.40" : formatPrice(bundleProduct.compareAtPrice)}
                     </span>
                   )}
                   <span className="text-xs text-amber-400 font-bold bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/30">
-                    Save 25% (₦16,430 OFF)
+                    Save ₦16,430
                   </span>
                 </div>
               </div>

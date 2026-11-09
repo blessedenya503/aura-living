@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Star, CheckCircle2, MessageSquare, Send, Sparkles, User, ThumbsUp } from "lucide-react";
+import { useCart } from "@/context/CartContext";
 
 export interface UserReview {
   id: string;
@@ -18,8 +19,11 @@ export interface UserReview {
 }
 
 export default function CustomerReviewsSection() {
-  const [reviews, setReviews] = useState<UserReview[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { storeSettings } = useCart();
+  const [reviews, setReviews] = useState<UserReview[]>(() =>
+    Array.isArray(storeSettings?.userReviews) ? storeSettings.userReviews : []
+  );
+  const [isLoading, setIsLoading] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [successMsg, setSuccessMsg] = useState("");
@@ -278,7 +282,9 @@ export default function CustomerReviewsSection() {
             <div className="w-12 h-12 rounded-2xl bg-slate-50 border border-slate-200 text-slate-400 flex items-center justify-center mx-auto mb-3">
               <MessageSquare className="w-6 h-6" />
             </div>
-            <h3 className="text-base font-bold text-slate-900">No customer reviews yet</h3>
+            <h3 className="text-base font-bold text-slate-900">
+              No reviews yet. Be the first to review
+            </h3>
             <p className="text-xs text-slate-500 max-w-sm mx-auto mt-1 mb-4 leading-relaxed">
               Be the first verified customer to share your thoughts, routine results, and feedback!
             </p>

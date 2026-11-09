@@ -68,7 +68,7 @@ export default function ShopByConcern({
               Shop by Skin Concern
             </h2>
             <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-lg">
-              Find formulas specifically clinically vetted for your skin priority.
+              Popular skincare brands, delivered in Nigeria and worldwide.
             </p>
           </div>
 

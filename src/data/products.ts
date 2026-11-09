@@ -4460,7 +4460,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-eucerin-54.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Avobenzone 3% & Homosalate 9%.",
+    "tagline": "Sunscreen formulation with Avobenzone 3% & Homosalate 9%.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -4713,7 +4713,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-eucerin-60.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with L-Carnitine & Licochalcone A.",
+    "tagline": "Sunscreen formulation with L-Carnitine & Licochalcone A.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -4964,7 +4964,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-eucerin-70.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Advanced Spectral Technology & Licochalcone A.",
+    "tagline": "Sunscreen formulation with Advanced Spectral Technology & Licochalcone A.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -5977,7 +5977,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-bioderma-106.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Cellular Bioprotection™ & Tinosorb M.",
+    "tagline": "Sunscreen formulation with Cellular Bioprotection™ & Tinosorb M.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -6773,7 +6773,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-beautyofjoseon-136.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Artemisia Capillaris Extract & Silica Powder.",
+    "tagline": "Sunscreen formulation with Artemisia Capillaris Extract & Silica Powder.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -7236,7 +7236,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-anua-148.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Houttuynia Cordata Extract & Chemical Filters Zero Cast.",
+    "tagline": "Sunscreen formulation with Houttuynia Cordata Extract & Chemical Filters Zero Cast.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -7661,7 +7661,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-skin1004-159.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Hyalu-Cica Complex & Tannin Complex.",
+    "tagline": "Sunscreen formulation with Hyalu-Cica Complex & Tannin Complex.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -8876,7 +8876,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-drunkelephant-190.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Zinc Oxide 20% & Astaxanthin-rich Algae.",
+    "tagline": "Sunscreen formulation with Zinc Oxide 20% & Astaxanthin-rich Algae.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -9472,7 +9472,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-tatcha-204.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Zinc Oxide 15% & Japanese Wild Rose.",
+    "tagline": "Sunscreen formulation with Zinc Oxide 15% & Japanese Wild Rose.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -9640,7 +9640,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-neutrogena-283.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Helioplex® Technology & Broad Spectrum UVA/UVB SPF 70.",
+    "tagline": "Sunscreen formulation with Helioplex® Technology & Broad Spectrum UVA/UVB SPF 70.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -9929,7 +9929,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-neutrogena-290.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Antioxidant Complex & Feverfew.",
+    "tagline": "Sunscreen formulation with Antioxidant Complex & Feverfew.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -10096,7 +10096,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-neutrogena-294.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Helioplex® & Non-Comedogenic Matte Finish.",
+    "tagline": "Sunscreen formulation with Helioplex® & Non-Comedogenic Matte Finish.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -10262,7 +10262,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-roundlab-298.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Inje Silver Birch Sap & Vita Hyaluronic Acid.",
+    "tagline": "Sunscreen formulation with Inje Silver Birch Sap & Vita Hyaluronic Acid.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -10649,7 +10649,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-roundlab-308.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Birch Tree Sap & Peptide Glyceryl Glucoside.",
+    "tagline": "Sunscreen formulation with Birch Tree Sap & Peptide Glyceryl Glucoside.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",
@@ -10775,7 +10775,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "gallery": [
       "/uploads/products/prod-haruharuwonder-313.jpg"
     ],
-    "tagline": "Clinical Sunscreen formulation with Zinc Oxide Non-Nano & Fermented Black Rice.",
+    "tagline": "Sunscreen formulation with Zinc Oxide Non-Nano & Fermented Black Rice.",
     "benefits": [
       "Clinically proven barrier resilience & deep lipid hydration",
       "Non-comedogenic, fragrance-free tested formulation",

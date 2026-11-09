@@ -56,7 +56,7 @@ const FEATURED_SLIDES: TrendSlide[] = [
     id: "prod-beautyofjoseon-30",
     brand: "Beauty of Joseon",
     name: "Relief Sun: Rice + Probiotics SPF 50+",
-    badge: "Dermatologist Tested",
+    badge: "Sealed & Tracked",
     heroHeadline: "Daily Defense.",
     heroHighlight: "Zero White Cast.",
     heroSubtitle:
@@ -162,13 +162,13 @@ export default function Hero() {
         price: activeSlide.fallbackPrice,
         compareAtPrice: activeSlide.fallbackPrice * 1.25,
         supplierCost: activeSlide.fallbackPrice * 0.4,
-        rating: activeSlide.rating,
-        reviewCount: activeSlide.reviewCount,
+        rating: 0,
+        reviewCount: 0,
         image: activeSlide.heroImage,
         gallery: [activeSlide.heroImage],
         variants: [{ name: "Standard", colorHex: "#002B7F", inStock: true }],
         keyIngredients: activeSlide.ingredients,
-        benefits: ["Continuous barrier hydration", "Dermatologist tested"],
+        benefits: ["Continuous barrier hydration", "Sealed & Tracked"],
       };
       addToCart(syn, syn.variants[0], 1, false);
     }
@@ -212,11 +212,19 @@ export default function Hero() {
                   {activeSlide.heroSubtitle}
                 </p>
 
-                {/* Rating & Size single line */}
+                {/* Real Rating (only if stored in DB) & Size single line */}
                 <div className="flex items-center gap-4 mt-4 text-xs font-mono text-slate-300">
-                  <span className="font-semibold text-amber-400">★ {activeSlide.rating}</span>
-                  <span>({activeSlide.reviewCount.toLocaleString()} reviews)</span>
-                  <span className="text-slate-500">•</span>
+                  {matchingProduct &&
+                    matchingProduct.reviewCount > 0 &&
+                    matchingProduct.rating > 0 && (
+                      <>
+                        <span className="font-semibold text-amber-400">
+                          ★ {matchingProduct.rating}
+                        </span>
+                        <span>({matchingProduct.reviewCount.toLocaleString()} reviews)</span>
+                        <span className="text-slate-500">•</span>
+                      </>
+                    )}
                   <span>{activeSlide.size}</span>
                 </div>
               </motion.div>

@@ -70,7 +70,7 @@ function CheckoutSuccessContent() {
           Payment Confirmed!
         </h1>
         <p className="text-xs text-slate-500 mt-1 max-w-xs mx-auto">
-          Thank you for shopping with <strong className="text-slate-900">AURA.STORE</strong>. Your order has been registered and is being prepared for express tracked dispatch.
+          Thank you for shopping with <strong className="text-slate-900">AURA SKIN</strong>. Your order has been registered and is being prepared for tracked dispatch.
         </p>
 
         {/* Order Details Card */}

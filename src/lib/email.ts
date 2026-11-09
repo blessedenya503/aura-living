@@ -13,7 +13,7 @@ export function getResendClient(): Resend | null {
 }
 
 export const FROM_EMAIL =
-  process.env.RESEND_FROM_EMAIL || "AURA Living <onboarding@resend.dev>";
+  process.env.RESEND_FROM_EMAIL || "AURA SKIN <onboarding@resend.dev>";
 
 /**
  * Send Welcome & VIP Member privilege email
@@ -29,7 +29,7 @@ export async function sendWelcomeEmail(toEmail: string, name?: string) {
       from: FROM_EMAIL,
       replyTo: "auraskinngofficial@gmail.com",
       to: toEmail,
-      subject: "Welcome to AURA Living — Your VIP 20% Privilege is Inside! ✨",
+      subject: "Welcome to AURA SKIN — Your VIP 20% Privilege is Inside! ✨",
       html: `
         <!DOCTYPE html>
         <html>
@@ -56,7 +56,7 @@ export async function sendWelcomeEmail(toEmail: string, name?: string) {
             </div>
             <h1>Welcome, ${customerName}!</h1>
             <p>
-              Your account has been verified with <strong>AURA Living</strong>. You now have access to verified clinical skincare formulations from <strong>COSRX, Beauty of Joseon, CeraVe, The Ordinary &amp; La Roche-Posay</strong>.
+              Your account has been verified with <strong>AURA SKIN</strong>. You now have access to popular skincare brands like <strong>COSRX, Beauty of Joseon, CeraVe, The Ordinary &amp; La Roche-Posay</strong>.
             </p>
             <div class="code-box">
               <span style="font-size: 11px; text-transform: uppercase; color: #94a3b8; display: block; margin-bottom: 6px;">Your VIP 20% Privilege Discount</span>
@@ -64,15 +64,14 @@ export async function sendWelcomeEmail(toEmail: string, name?: string) {
               <span style="font-size: 11px; color: #94a3b8; display: block; margin-top: 6px;">Apply at checkout for 20% OFF your entire routine.</span>
             </div>
             <p>
-              &bull; <strong>100% Verified Batches:</strong> All orders are laboratory authenticated and tracked directly to your doorstep.<br />
-              &bull; <strong>Fast Doorstep Courier:</strong> tracked express delivery worldwide.
+              &bull; <strong>Sealed &amp; Tracked:</strong> Every order is checked before dispatch and sent in sealed packaging with tracking.<br />
+              &bull; <strong>Delivery in Nigeria &amp; Worldwide:</strong> Tracked delivery to your doorstep.
             </p>
             <div style="text-align: center; margin-top: 24px;">
-              <a href="https://auraskinng.vercel.app" class="btn">Explore Clinical Storefront</a>
+              <a href="https://auraskinng.vercel.app" class="btn">Explore Storefront</a>
             </div>
             <div class="footer">
-              &copy; ${new Date().getFullYear()} AURA Living Ltd. All rights reserved.<br />
-              Dermatology &amp; Clinical Skincare Direct Supply
+              &copy; 2026 AURA SKIN. Skincare for every skin.
             </div>
           </div>
         </body>

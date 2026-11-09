@@ -40,6 +40,8 @@ export default function CheckoutModal() {
     isCheckoutOpen,
     setIsCheckoutOpen,
     currency,
+    shippingCountry,
+    setShippingCountry,
     formatPrice,
     subtotalUsd,
     discountAmountUsd,
@@ -640,7 +642,10 @@ export default function CheckoutModal() {
                     <select
                       required
                       value={country}
-                      onChange={(e) => setCountry(e.target.value)}
+                      onChange={(e) => {
+                        setCountry(e.target.value);
+                        setShippingCountry(e.target.value);
+                      }}
                       className="w-full px-2 py-2 text-xs border border-slate-200 rounded-xl focus:outline-hidden focus:border-[#002B7F]"
                     >
                       <option value="" disabled>Select country</option>
@@ -711,19 +716,17 @@ export default function CheckoutModal() {
                 </p>
               </div>
 
-              {/* Trust Badges Strip (Amazon & CeraVe Style) */}
-              <div className="grid grid-cols-3 gap-2 py-2 px-3 bg-slate-50 border border-slate-200/80 rounded-2xl text-[10px] text-slate-600">
+              {/* Trust Badges Strip */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 py-2.5 px-3 bg-slate-50 border border-slate-200/80 rounded-2xl text-[10px] text-slate-600">
                 <div className="flex items-center gap-1.5">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                  <span className="font-semibold">100% Genuine Clinical Guarantee</span>
+                  <span className="font-semibold">Sealed &amp; Tracked Packaging</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Truck className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                  <span className="font-semibold">Tracked 24–48H Doorstep Dispatch</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <HeartHandshake className="w-3.5 h-3.5 text-purple-600 shrink-0" />
-                  <span className="font-semibold">30-Day Barrier Satisfaction Promise</span>
+                  <span className="font-semibold">
+                    Lagos &amp; Abuja: [X–X days] · Other states: [X–X days] · International: [X–X days] · Tracking on every order.
+                  </span>
                 </div>
               </div>
 

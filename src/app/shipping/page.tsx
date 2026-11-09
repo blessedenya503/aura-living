@@ -65,7 +65,7 @@ export default function ShippingAndDeliveryPage() {
               <span>PROCESSING</span>
             </h2>
             <p className="text-sm text-slate-700 leading-relaxed">
-              Orders are processed within <strong>1–2 business days</strong> after payment is
+              Orders are processed within <strong>1 business day</strong> after payment is
               confirmed.
             </p>
           </section>

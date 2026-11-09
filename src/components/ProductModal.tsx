@@ -175,13 +175,17 @@ export default function ProductModal() {
                 <span className="font-mono text-slate-400">
                   {selectedProduct.sku} • {selectedProduct.size}
                 </span>
-                <div className="flex items-center gap-1 text-amber-500 font-semibold">
-                  <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                  <span>{selectedProduct.rating}</span>
-                  <span className="text-slate-400">
-                    ({selectedProduct.reviewCount.toLocaleString()} reviews)
-                  </span>
-                </div>
+                {selectedProduct.reviewCount > 0 && selectedProduct.rating > 0 ? (
+                  <div className="flex items-center gap-1 text-amber-500 font-semibold">
+                    <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+                    <span>{selectedProduct.rating}</span>
+                    <span className="text-slate-400">
+                      ({selectedProduct.reviewCount.toLocaleString()} reviews)
+                    </span>
+                  </div>
+                ) : (
+                  <span className="text-slate-400 text-[11px]">No reviews yet</span>
+                )}
               </div>
 
               <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
@@ -245,103 +249,26 @@ export default function ProductModal() {
                 </div>
               )}
 
-              {/* Dropship Logistics & Origin Badge */}
+              {/* Delivery Info */}
               <div className="mt-3.5 flex items-center justify-between text-xs py-2 px-3 bg-slate-50 border border-slate-200/80 rounded-xl">
                 <div className="flex items-center gap-1.5 text-slate-700 font-medium text-[11px]">
-                  <Truck className="w-3.5 h-3.5 text-[#002B7F]" />
-                  <span>{selectedProduct.shippingDays || "2–5 Days Tracked Express Delivery"}</span>
+                  <Truck className="w-3.5 h-3.5 text-[#002B7F] shrink-0" />
+                  <span>
+                    Lagos &amp; Abuja: [X–X days] · Other states: [X–X days] · International: [X–X days] · Tracking on every order.
+                  </span>
                 </div>
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 font-mono">
-                  {selectedProduct.supplierSource || "Authorized Distributor"}
-                </span>
               </div>
 
-              {/* Verified Sourcing & Authenticity Certificate */}
-              {selectedProduct.verification && (
-                <div className="mt-4 p-3.5 bg-linear-to-br from-emerald-50/70 via-slate-50 to-blue-50/40 rounded-2xl border border-emerald-200/80 shadow-2xs">
-                  <div className="flex items-center justify-between pb-2 border-b border-emerald-100">
-                    <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-950 uppercase tracking-wider">
-                      <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                      <span>Authenticity & Traceability Certificate</span>
-                    </div>
-                    <span className="text-[10px] font-mono font-semibold bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full">
-                      ✓ Audit Passed
-                    </span>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-2 mt-2.5 text-[11px]">
-                    <div>
-                      <span className="text-slate-400 block text-[9.5px] uppercase tracking-wider font-semibold">
-                        Official Registry
-                      </span>
-                      <span className="font-semibold text-slate-800 truncate block">
-                        {selectedProduct.verification.registry}
-                      </span>
-                    </div>
-                    <div>
-                      <span className="text-slate-400 block text-[9.5px] uppercase tracking-wider font-semibold">
-                        Reference ID / License
-                      </span>
-                      <span className="font-mono font-bold text-[#002B7F] truncate block">
-                        {selectedProduct.verification.referenceId}
-                      </span>
-                    </div>
-                    <div>
-                      <span className="text-slate-400 block text-[9.5px] uppercase tracking-wider font-semibold">
-                        Laboratory Origin
-                      </span>
-                      <span className="font-medium text-slate-700 truncate block">
-                        {selectedProduct.verification.originCountry}
-                      </span>
-                    </div>
-                    <div>
-                      <span className="text-slate-400 block text-[9.5px] uppercase tracking-wider font-semibold">
-                        Batch Lot Number
-                      </span>
-                      <span className="font-mono font-semibold text-slate-700 truncate block">
-                        {selectedProduct.verification.batchLotNumber}
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Laboratory Certifications */}
-                  {Array.isArray(selectedProduct.verification.laboratoryCertifications) &&
-                    selectedProduct.verification.laboratoryCertifications.length > 0 && (
-                      <div className="mt-2.5 pt-2 border-t border-emerald-100/70">
-                        <span className="text-slate-500 text-[9.5px] uppercase tracking-wider font-semibold block mb-1">
-                          Certified Standards & Compliance
-                        </span>
-                        <div className="flex flex-wrap gap-1">
-                          {selectedProduct.verification.laboratoryCertifications.map((cert, idx) => (
-                            <span
-                              key={idx}
-                              className="bg-white border border-emerald-200 text-emerald-900 text-[10px] font-semibold px-1.5 py-0.5 rounded-md flex items-center gap-1 shadow-2xs"
-                            >
-                              <CheckCircle2 className="w-2.5 h-2.5 text-emerald-600 shrink-0" />
-                              <span>{cert}</span>
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                  {/* Direct Link to Source */}
-                  <div className="mt-2.5 flex items-center justify-between text-[11px] pt-2 border-t border-emerald-100/70">
-                    <span className="text-slate-500 text-[10px]">
-                      Audited: {selectedProduct.verification.verifiedAt}
-                    </span>
-                    <a
-                      href={selectedProduct.verification.sourceUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-[11px] font-bold text-[#002B7F] hover:text-blue-800 hover:underline"
-                    >
-                      <span>Verify Registry Listing</span>
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
-                  </div>
+              {/* Our Promise */}
+              <div className="mt-4 p-3.5 bg-blue-50/70 rounded-2xl border border-blue-100 flex items-start gap-2.5 text-xs text-blue-950">
+                <ShieldCheck className="w-4 h-4 text-[#002B7F] shrink-0 mt-0.5" />
+                <div>
+                  <div className="font-bold text-[#002B7F]">Our Promise</div>
+                  <p className="text-[11px] text-blue-900/80 mt-0.5 leading-relaxed">
+                    Every order is checked before dispatch and sent in sealed packaging with tracking.
+                  </p>
                 </div>
-              )}
+              </div>
 
               {/* Clinical Results Card */}
               <div className="mt-4 p-3 bg-slate-900 text-white rounded-2xl border border-slate-800 space-y-2.5 shadow-xs">
