@@ -877,8 +877,8 @@ export default function OwnerPortalPage() {
           </div>
         </div>
 
-        {/* Dashboard Navigation Tabs With Scroll Controls & Ruler */}
-        <div className="relative border-b border-slate-800/80 pb-2.5 space-y-1.5">
+        {/* Dashboard Navigation Tabs */}
+        <div className="relative border-b border-slate-800/80 pb-2.5">
           <div className="flex items-center gap-1.5">
             {/* Left Nav Arrow */}
             <button
@@ -893,7 +893,7 @@ export default function OwnerPortalPage() {
             {/* Scrollable Tabs Track */}
             <div
               ref={tabsScrollRef}
-              className="flex-1 flex items-center gap-1.5 overflow-x-auto scroll-smooth scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-950 pb-1"
+              className="flex-1 flex items-center gap-1.5 overflow-x-auto scroll-smooth no-scrollbar pb-1"
             >
               {/* TAB: ALIBABA DROPSHIPPING */}
               <button
@@ -1064,31 +1064,6 @@ export default function OwnerPortalPage() {
                 }`}
               />
             </button>
-          </div>
-
-          {/* Precision Ruler Indicator with Quick Shortcut Anchors */}
-          <div className="flex items-center justify-between px-2 pt-1 text-[10px] text-slate-500 font-mono select-none">
-            <span
-              onClick={() => scrollTabs(-1000)}
-              className="cursor-pointer hover:text-amber-400 flex items-center gap-1"
-            >
-              ← Dropshipping &amp; Orders
-            </span>
-            <div className="hidden sm:flex items-center gap-1.5 text-slate-600">
-              <span>|···</span>
-              <span>|···</span>
-              <span>|···</span>
-              <span className="text-slate-400">↔ Drag / Scroll ruler to traverse tabs</span>
-              <span>···|</span>
-              <span>···|</span>
-              <span>···|</span>
-            </div>
-            <span
-              onClick={() => scrollTabs(1000)}
-              className="cursor-pointer hover:text-purple-400 flex items-center gap-1 text-right"
-            >
-              Antigravity &amp; Settings →
-            </span>
           </div>
         </div>
 

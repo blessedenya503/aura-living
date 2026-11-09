@@ -5,19 +5,14 @@ import {
   FileCode,
   Folder,
   FolderOpen,
-  File,
   Save,
   Sparkles,
-  Play,
-  RotateCcw,
   CheckCircle2,
   AlertCircle,
-  Copy,
   Terminal,
   Search,
   ExternalLink,
   Code2,
-  FilePlus,
   Send,
   Loader2,
   Eye,
@@ -35,6 +30,13 @@ interface FileNode {
   children?: FileNode[];
 }
 
+interface ChatMessage {
+  sender: "user" | "antigravity";
+  text: string;
+  timestamp: string;
+  updatedContent?: string;
+}
+
 export default function AntigravityEditor() {
   const [fileTree, setFileTree] = useState<FileNode[]>([]);
   const [openFolders, setOpenFolders] = useState<Record<string, boolean>>({
@@ -50,6 +52,9 @@ export default function AntigravityEditor() {
   const [isSaving, setIsSaving] = useState(false);
   const [statusMsg, setStatusMsg] = useState<{ text: string; type: "success" | "error" | "info" } | null>(null);
 
+  // Mobile responsive active panel ("files" | "editor" | "ai" | "preview")
+  const [mobilePanel, setMobilePanel] = useState<"files" | "editor" | "ai" | "preview">("editor");
+
   // Search in files
   const [fileFilter, setFileFilter] = useState("");
 
@@ -61,21 +66,18 @@ export default function AntigravityEditor() {
   // Antigravity AI Assistant state
   const [aiPrompt, setAiPrompt] = useState("");
   const [isAiLoading, setIsAiLoading] = useState(false);
-  const [aiChatHistory, setAiChatHistory] = useState<
-    Array<{ sender: "user" | "antigravity"; text: string; timestamp: string }>
-  >([
+  const [aiChatHistory, setAiChatHistory] = useState<ChatMessage[]>([
     {
       sender: "antigravity",
-      text: "👋 Antigravity Engine ready. I have direct access to your workspace files. Ask me to refactor code, generate UI components, fix build errors, or optimize bundle performance.",
+      text: "👋 Antigravity Engine ready. Select any file to inspect or edit, use the quick AI Commands, or ask me to refactor code or update store settings.",
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
     },
   ]);
 
-  // Terminal & execution logs simulation
+  // Terminal & execution logs
   const [terminalLogs, setTerminalLogs] = useState<string[]>([
     "[Antigravity Runtime] Kernel v2.0 initialized.",
-    "[Antigravity Runtime] Workspace connected: C:\\Users\\Blessed\\Desktop\\Anti Project",
-    "[Next.js App Router] Production build check: OK (24 static & dynamic routes)",
+    "[Antigravity Runtime] Connected to AURA SKIN Workspace + Neon Cloud Sync.",
   ]);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -98,8 +100,11 @@ export default function AntigravityEditor() {
   const loadFile = async (filePath: string) => {
     setIsLoadingFile(true);
     setStatusMsg(null);
+    setMobilePanel("editor");
     try {
-      const res = await fetch(`/api/admin/antigravity-editor?action=read&path=${encodeURIComponent(filePath)}`, { credentials: "include" });
+      const res = await fetch(`/api/admin/antigravity-editor?action=read&path=${encodeURIComponent(filePath)}`, {
+        credentials: "include",
+      });
       const data = await res.json();
       if (data.success) {
         setActiveFilePath(filePath);
@@ -159,8 +164,10 @@ export default function AntigravityEditor() {
     const promptToSend = customPrompt || aiPrompt;
     if (!promptToSend.trim() || isAiLoading) return;
 
-    const userMessage = {
-      sender: "user" as const,
+    setMobilePanel("ai");
+
+    const userMessage: ChatMessage = {
+      sender: "user",
       text: promptToSend,
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
     };
@@ -196,17 +203,21 @@ export default function AntigravityEditor() {
 
       const data = await res.json();
       if (data.success && data.answer) {
+        if (typeof data.updatedContent === "string") {
+          setFileContent(data.updatedContent);
+        }
         setAiChatHistory((prev) => [
           ...prev,
           {
             sender: "antigravity",
             text: data.answer,
             timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+            updatedContent: data.updatedContent,
           },
         ]);
         setTerminalLogs((prev) => [
           ...prev.slice(-30),
-          `[Antigravity AI] Gemini completed inference for: "${promptToSend.slice(0, 30)}..."`,
+          `[Antigravity AI] Completed task: "${promptToSend.slice(0, 40)}..."`,
         ]);
       } else {
         setAiChatHistory((prev) => [
@@ -269,7 +280,7 @@ export default function AntigravityEditor() {
             <div key={node.path} className="text-xs">
               <button
                 onClick={() => toggleFolder(node.path)}
-                className="w-full flex items-center gap-1.5 px-2 py-1 text-slate-300 hover:text-white hover:bg-slate-800/60 rounded cursor-pointer transition-colors text-left"
+                className="w-full flex items-center gap-1.5 px-2 py-1.5 text-slate-300 hover:text-white hover:bg-slate-800/60 rounded cursor-pointer transition-colors text-left"
               >
                 {isOpen ? (
                   <FolderOpen className="w-3.5 h-3.5 text-amber-400 shrink-0" />
@@ -294,7 +305,7 @@ export default function AntigravityEditor() {
           <button
             key={node.path}
             onClick={() => loadFile(node.path)}
-            className={`w-full flex items-center justify-between gap-1.5 px-2 py-1 rounded cursor-pointer transition-colors text-left text-xs ${
+            className={`w-full flex items-center justify-between gap-1.5 px-2 py-1.5 rounded cursor-pointer transition-colors text-left text-xs ${
               isActive
                 ? "bg-indigo-600/30 text-indigo-200 font-semibold border-l-2 border-indigo-400"
                 : "text-slate-400 hover:text-slate-200 hover:bg-slate-800/40"
@@ -316,39 +327,38 @@ export default function AntigravityEditor() {
   return (
     <div
       className={`bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl flex flex-col transition-all duration-300 ${
-        isFullscreen ? "fixed inset-4 z-50 h-[calc(100vh-2rem)]" : "h-[850px] w-full"
+        isFullscreen ? "fixed inset-2 sm:inset-4 z-50 h-[calc(100dvh-1rem)] sm:h-[calc(100vh-2rem)]" : "h-[760px] sm:h-[850px] w-full"
       }`}
     >
       {/* Top Header / Antigravity Toolbar */}
-      <div className="bg-slate-900 border-b border-slate-800 px-4 py-2.5 flex items-center justify-between shrink-0">
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/30">
-              <Sparkles className="w-4 h-4 text-white animate-pulse" />
+      <div className="bg-slate-900 border-b border-slate-800 px-3 sm:px-4 py-2.5 flex items-center justify-between gap-2 shrink-0">
+        <div className="flex items-center gap-2 min-w-0">
+          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/30 shrink-0">
+            <Sparkles className="w-4 h-4 text-white animate-pulse" />
+          </div>
+          <div className="min-w-0">
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span className="text-xs sm:text-sm font-bold text-white tracking-wide">Antigravity Studio</span>
+              <span className="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                v2.0
+              </span>
+              <span className="hidden sm:flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/20">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                Live Sync
+              </span>
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-sm font-bold text-white tracking-wide">Antigravity Studio</span>
-                <span className="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
-                  v2.0 IDE
-                </span>
-                <span className="flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/20">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                  Live Sync
-                </span>
-              </div>
-              <p className="text-[11px] text-slate-400 font-mono truncate max-w-xs sm:max-w-md">
-                {activeFilePath || "No file selected"} {isDirty && <span className="text-amber-400 font-bold">• modified</span>}
-              </p>
-            </div>
+            <p className="text-[10px] sm:text-[11px] text-slate-400 font-mono truncate max-w-[180px] sm:max-w-md">
+              {activeFilePath || "No file selected"}{" "}
+              {isDirty && <span className="text-amber-400 font-bold">• modified</span>}
+            </p>
           </div>
         </div>
 
         {/* Action Controls */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           {statusMsg && (
             <div
-              className={`hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold ${
+              className={`hidden md:flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold ${
                 statusMsg.type === "success"
                   ? "bg-emerald-500/15 text-emerald-300 border border-emerald-500/30"
                   : "bg-rose-500/15 text-rose-300 border border-rose-500/30"
@@ -365,27 +375,27 @@ export default function AntigravityEditor() {
 
           <button
             onClick={() => handleSaveFile()}
-            disabled={isSaving || !isDirty}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 transition-all shadow-md cursor-pointer ${
+            disabled={isSaving}
+            className={`px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 transition-all shadow-md cursor-pointer ${
               isDirty
                 ? "bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black shadow-emerald-500/30"
-                : "bg-slate-800 text-slate-400 hover:text-white"
+                : "bg-slate-800 text-slate-300 hover:text-white"
             }`}
           >
             {isSaving ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Save className="w-3.5 h-3.5" />}
-            <span>Save (Ctrl+S)</span>
+            <span>Save</span>
           </button>
 
           <button
             onClick={() => setShowLivePreview(!showLivePreview)}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer ${
+            className={`hidden lg:flex px-3 py-1.5 rounded-lg text-xs font-semibold items-center gap-1.5 transition-all cursor-pointer ${
               showLivePreview
                 ? "bg-purple-600 text-white shadow-purple-500/30 shadow-md"
                 : "bg-slate-800 text-slate-300 hover:text-white"
             }`}
           >
             <Eye className="w-3.5 h-3.5 text-purple-300" />
-            <span className="hidden sm:inline">{showLivePreview ? "Hide Preview" : "Split Preview"}</span>
+            <span>{showLivePreview ? "Hide Preview" : "Split Preview"}</span>
           </button>
 
           <button
@@ -398,10 +408,66 @@ export default function AntigravityEditor() {
         </div>
       </div>
 
-      {/* Main Workspace Layout (Sidebar + Editor + AI / Preview) */}
+      {/* Mobile View Switcher Bar (Visible on screens < lg so panels never crush each other) */}
+      <div className="lg:hidden bg-slate-950 border-b border-slate-800 px-2 py-1.5 grid grid-cols-4 gap-1 shrink-0">
+        <button
+          type="button"
+          onClick={() => setMobilePanel("files")}
+          className={`py-1.5 rounded-lg text-[11px] font-bold flex items-center justify-center gap-1 cursor-pointer transition-colors ${
+            mobilePanel === "files"
+              ? "bg-indigo-600 text-white"
+              : "bg-slate-900 text-slate-400 hover:text-white"
+          }`}
+        >
+          <Folder className="w-3.5 h-3.5" />
+          <span>Files</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setMobilePanel("editor")}
+          className={`py-1.5 rounded-lg text-[11px] font-bold flex items-center justify-center gap-1 cursor-pointer transition-colors ${
+            mobilePanel === "editor"
+              ? "bg-indigo-600 text-white"
+              : "bg-slate-900 text-slate-400 hover:text-white"
+          }`}
+        >
+          <Code2 className="w-3.5 h-3.5" />
+          <span>Editor</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setMobilePanel("ai")}
+          className={`py-1.5 rounded-lg text-[11px] font-bold flex items-center justify-center gap-1 cursor-pointer transition-colors ${
+            mobilePanel === "ai"
+              ? "bg-purple-600 text-white"
+              : "bg-slate-900 text-purple-300 hover:text-white"
+          }`}
+        >
+          <Sparkles className="w-3.5 h-3.5" />
+          <span>AI Agent</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setMobilePanel("preview")}
+          className={`py-1.5 rounded-lg text-[11px] font-bold flex items-center justify-center gap-1 cursor-pointer transition-colors ${
+            mobilePanel === "preview"
+              ? "bg-emerald-600 text-white"
+              : "bg-slate-900 text-slate-400 hover:text-white"
+          }`}
+        >
+          <Eye className="w-3.5 h-3.5" />
+          <span>Preview</span>
+        </button>
+      </div>
+
+      {/* Main Workspace Layout */}
       <div className="flex-1 flex overflow-hidden">
         {/* Left: Project Explorer */}
-        <div className="w-56 sm:w-64 bg-slate-900/90 border-r border-slate-800 flex flex-col shrink-0">
+        <div
+          className={`${
+            mobilePanel === "files" ? "flex w-full" : "hidden"
+          } lg:flex lg:w-60 bg-slate-900/90 border-r border-slate-800 flex-col shrink-0`}
+        >
           <div className="p-2.5 border-b border-slate-800 flex items-center gap-2">
             <Search className="w-3.5 h-3.5 text-slate-500 shrink-0" />
             <input
@@ -448,7 +514,11 @@ export default function AntigravityEditor() {
         </div>
 
         {/* Center: Code Editor */}
-        <div className="flex-1 flex flex-col bg-slate-950 relative overflow-hidden">
+        <div
+          className={`${
+            mobilePanel === "editor" ? "flex w-full" : "hidden"
+          } lg:flex flex-1 flex-col bg-slate-950 relative overflow-hidden`}
+        >
           {isLoadingFile ? (
             <div className="flex-1 flex flex-col items-center justify-center text-slate-500 gap-2">
               <Loader2 className="w-6 h-6 animate-spin text-indigo-400" />
@@ -457,7 +527,7 @@ export default function AntigravityEditor() {
           ) : (
             <div className="flex-1 flex overflow-hidden relative">
               {/* Line numbers gutter */}
-              <div className="w-12 bg-slate-900/60 border-r border-slate-800/60 py-3 select-none text-right pr-2 text-slate-600 font-mono text-xs overflow-hidden shrink-0">
+              <div className="w-10 sm:w-12 bg-slate-900/60 border-r border-slate-800/60 py-3 select-none text-right pr-2 text-slate-600 font-mono text-xs overflow-hidden shrink-0">
                 {Array.from({ length: Math.min(lineCount, 600) }).map((_, i) => (
                   <div key={i} className="leading-6">
                     {i + 1}
@@ -518,7 +588,7 @@ export default function AntigravityEditor() {
           </div>
 
           {/* Integrated Mini Console / Terminal Output */}
-          <div className="h-28 bg-black/90 border-t border-slate-800 p-2 font-mono text-[10px] text-slate-400 overflow-y-auto no-scrollbar shrink-0">
+          <div className="h-24 sm:h-28 bg-black/90 border-t border-slate-800 p-2 font-mono text-[10px] text-slate-400 overflow-y-auto no-scrollbar shrink-0">
             <div className="flex items-center gap-1.5 text-slate-500 mb-1">
               <Terminal className="w-3 h-3 text-emerald-400" />
               <span className="font-bold text-slate-400">Antigravity Terminal Logs</span>
@@ -532,8 +602,12 @@ export default function AntigravityEditor() {
         </div>
 
         {/* Right Panel: Split Preview OR Antigravity Copilot Chat */}
-        {showLivePreview ? (
-          <div className="w-96 lg:w-[480px] bg-slate-900 border-l border-slate-800 flex flex-col shrink-0">
+        {showLivePreview || mobilePanel === "preview" ? (
+          <div
+            className={`${
+              mobilePanel === "preview" ? "flex w-full" : "hidden lg:flex"
+            } lg:w-[460px] bg-slate-900 border-l border-slate-800 flex-col shrink-0`}
+          >
             <div className="p-2 border-b border-slate-800 flex items-center justify-between bg-slate-950">
               <div className="flex items-center gap-1">
                 <button
@@ -577,84 +651,89 @@ export default function AntigravityEditor() {
               />
             </div>
           </div>
-        ) : (
-          <div className="w-80 lg:w-96 bg-slate-900/95 border-l border-slate-800 flex flex-col shrink-0">
-            {/* Copilot Header */}
-            <div className="p-3 border-b border-slate-800 flex items-center justify-between bg-slate-950">
-              <div className="flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-purple-400" />
-                <span className="text-xs font-bold text-white">Antigravity AI Agent</span>
-              </div>
-              <span className="text-[10px] font-mono text-purple-300 bg-purple-500/10 px-1.5 py-0.5 rounded border border-purple-500/20">
-                Gemini 3.5
-              </span>
-            </div>
+        ) : null}
 
-            {/* Copilot Conversation Feed */}
-            <div
-              ref={chatScrollRef}
-              className="flex-1 overflow-y-auto p-3 space-y-3 font-sans text-xs no-scrollbar"
-            >
-              {aiChatHistory.map((msg, i) => (
+        {/* Antigravity AI Copilot Panel */}
+        <div
+          className={`${
+            mobilePanel === "ai" ? "flex w-full" : "hidden"
+          } ${showLivePreview ? "lg:hidden" : "lg:flex"} lg:w-96 bg-slate-900/95 border-l border-slate-800 flex-col shrink-0`}
+        >
+          {/* Copilot Header */}
+          <div className="p-3 border-b border-slate-800 flex items-center justify-between bg-slate-950">
+            <div className="flex items-center gap-2">
+              <Sparkles className="w-4 h-4 text-purple-400" />
+              <span className="text-xs font-bold text-white">Antigravity AI Agent</span>
+            </div>
+            <span className="text-[10px] font-mono text-emerald-300 bg-emerald-500/10 px-1.5 py-0.5 rounded border border-emerald-500/20">
+              Online
+            </span>
+          </div>
+
+          {/* Copilot Conversation Feed */}
+          <div
+            ref={chatScrollRef}
+            className="flex-1 overflow-y-auto p-3 space-y-3 font-sans text-xs no-scrollbar"
+          >
+            {aiChatHistory.map((msg, i) => (
+              <div
+                key={i}
+                className={`flex flex-col ${
+                  msg.sender === "user" ? "items-end" : "items-start"
+                }`}
+              >
+                <div className="flex items-center gap-1 text-[10px] text-slate-500 mb-1">
+                  <span>{msg.sender === "user" ? "Owner" : "Antigravity Copilot"}</span>
+                  <span>• {msg.timestamp}</span>
+                </div>
                 <div
-                  key={i}
-                  className={`flex flex-col ${
-                    msg.sender === "user" ? "items-end" : "items-start"
+                  className={`p-2.5 rounded-xl max-w-[92%] whitespace-pre-wrap leading-relaxed ${
+                    msg.sender === "user"
+                      ? "bg-indigo-600 text-white rounded-tr-none font-medium"
+                      : "bg-slate-800/90 text-slate-200 border border-slate-700/60 rounded-tl-none font-mono text-[11px]"
                   }`}
                 >
-                  <div className="flex items-center gap-1 text-[10px] text-slate-500 mb-1">
-                    <span>{msg.sender === "user" ? "Owner" : "Antigravity Copilot"}</span>
-                    <span>• {msg.timestamp}</span>
-                  </div>
-                  <div
-                    className={`p-2.5 rounded-xl max-w-[90%] whitespace-pre-wrap leading-relaxed ${
-                      msg.sender === "user"
-                        ? "bg-indigo-600 text-white rounded-tr-none font-medium"
-                        : "bg-slate-800/90 text-slate-200 border border-slate-700/60 rounded-tl-none font-mono text-[11px]"
-                    }`}
-                  >
-                    {msg.text}
-                  </div>
+                  {msg.text}
                 </div>
-              ))}
-              {isAiLoading && (
-                <div className="flex items-center gap-2 text-indigo-400 text-xs font-mono p-2">
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                  <span>Antigravity analyzing code context...</span>
-                </div>
-              )}
-            </div>
-
-            {/* Prompt Input Area */}
-            <div className="p-2.5 border-t border-slate-800 bg-slate-950">
-              <div className="flex items-center gap-1.5 bg-slate-900 border border-slate-700 rounded-xl px-2.5 py-1.5 focus-within:border-indigo-500">
-                <textarea
-                  rows={2}
-                  value={aiPrompt}
-                  onChange={(e) => setAiPrompt(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" && !e.shiftKey) {
-                      e.preventDefault();
-                      handleSendAiPrompt();
-                    }
-                  }}
-                  placeholder="Ask Antigravity to write code, diagnose issues..."
-                  className="w-full bg-transparent text-xs text-white placeholder-slate-500 outline-none resize-none font-sans"
-                />
-                <button
-                  onClick={() => handleSendAiPrompt()}
-                  disabled={isAiLoading || !aiPrompt.trim()}
-                  className="p-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-colors shrink-0"
-                >
-                  <Send className="w-3.5 h-3.5" />
-                </button>
               </div>
-              <p className="text-[10px] text-slate-500 mt-1 font-mono text-center">
-                Press Enter to send • Direct file context included
-              </p>
-            </div>
+            ))}
+            {isAiLoading && (
+              <div className="flex items-center gap-2 text-indigo-400 text-xs font-mono p-2">
+                <Loader2 className="w-4 h-4 animate-spin" />
+                <span>Antigravity analyzing code context...</span>
+              </div>
+            )}
           </div>
-        )}
+
+          {/* Prompt Input Area */}
+          <div className="p-2.5 border-t border-slate-800 bg-slate-950">
+            <div className="flex items-center gap-1.5 bg-slate-900 border border-slate-700 rounded-xl px-2.5 py-1.5 focus-within:border-indigo-500">
+              <textarea
+                rows={2}
+                value={aiPrompt}
+                onChange={(e) => setAiPrompt(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" && !e.shiftKey) {
+                    e.preventDefault();
+                    handleSendAiPrompt();
+                  }
+                }}
+                placeholder="Ask Antigravity to inspect, refactor, or update store settings..."
+                className="w-full bg-transparent text-xs text-white placeholder-slate-500 outline-none resize-none font-sans"
+              />
+              <button
+                onClick={() => handleSendAiPrompt()}
+                disabled={isAiLoading || !aiPrompt.trim()}
+                className="p-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-colors shrink-0"
+              >
+                <Send className="w-3.5 h-3.5" />
+              </button>
+            </div>
+            <p className="text-[10px] text-slate-500 mt-1 font-mono text-center">
+              Press Enter to send • Direct file &amp; store context included
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
