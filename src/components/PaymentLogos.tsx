@@ -149,10 +149,51 @@ export function GooglePayLogo({ className = "h-5 w-auto" }: { className?: string
   );
 }
 
+export function PayPalLogo({ className = "h-5 w-auto" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 64 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-label="PayPal"
+    >
+      <rect width="64" height="24" rx="4" fill="#FFC439" />
+      <path
+        d="M15.4 6.5h-4.1c-.3 0-.5.2-.6.5l-1.7 10.6c0 .2.1.4.3.4h2c.3 0 .5-.2.6-.5l.5-3h1.9c2.5 0 4.1-1.2 4.5-3.6.2-1.1 0-1.9-.5-2.5-.6-.6-1.6-.9-2.9-.9zm.5 3.8c-.2 1.4-1.3 1.4-2.3 1.4h-.6l.4-2.6c0-.2.2-.3.4-.3h.3c.8 0 1.5 0 1.8.4.2.2.2.6 0 1.1z"
+        fill="#003087"
+      />
+      <text
+        x="21.5"
+        y="16"
+        fill="#003087"
+        fontFamily="system-ui, -apple-system, sans-serif"
+        fontSize="11"
+        fontWeight="900"
+        fontStyle="italic"
+      >
+        Pay
+      </text>
+      <text
+        x="40.5"
+        y="16"
+        fill="#0079C1"
+        fontFamily="system-ui, -apple-system, sans-serif"
+        fontSize="11"
+        fontWeight="900"
+        fontStyle="italic"
+      >
+        Pal
+      </text>
+    </svg>
+  );
+}
+
 export function PaymentLogosStrip({ className = "flex items-center gap-2" }: { className?: string }) {
   return (
     <div className={className}>
       <PaystackLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
+      <PayPalLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
       <VisaLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
       <MastercardLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />
       <ApplePayLogo className="h-5 sm:h-6 w-auto shadow-2xs hover:scale-105 transition-transform" />

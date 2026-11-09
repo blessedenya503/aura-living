@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { isRequestAdminAuthenticated } from "@/lib/admin-auth";
-import { getStoreDb } from "@/lib/store-db";
+import { getStoreDb, saveStoreDb } from "@/lib/store-db";
 
 export async function GET() {
   if (!(await isRequestAdminAuthenticated())) {
@@ -67,6 +67,14 @@ export async function GET() {
     settlementCurrency: "NGN (Nigerian Naira ₦)",
   };
 
+  const linkedPayPal = db.settings.linkedPayPal || {
+    email: "auraskinngofficial@gmail.com",
+    paypalMeUsername: "auraskinng",
+    accountHolder: "AURA SKIN OFFICIAL",
+    settlementCurrency: "USD ($)",
+    status: "connected",
+  };
+
   // Recent transactions list from orders
   const recentTransactions = db.orders.slice(0, 10).map((ord) => ({
     id: ord.id,
@@ -95,6 +103,51 @@ export async function GET() {
       clearedPayoutNgn: Math.round(totalNetProfitNgn * 0.75),
     },
     linkedBank,
+    linkedPayPal,
     recentTransactions,
   });
+}
+
+export async function POST(req: Request) {
+  if (!(await isRequestAdminAuthenticated())) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  try {
+    const body = await req.json();
+    const { email, paypalMeUsername, accountHolder, clientId } = body;
+
+    if (!email || !String(email).includes("@")) {
+      return NextResponse.json(
+        { error: "Please enter a valid PayPal email address." },
+        { status: 400 }
+      );
+    }
+
+    const db = await getStoreDb();
+    db.settings.linkedPayPal = {
+      email: String(email).trim(),
+      paypalMeUsername: String(paypalMeUsername || "")
+        .replace(/^https?:\/\/(www\.)?paypal\.me\//i, "")
+        .replace(/^@/, "")
+        .trim(),
+      accountHolder: String(accountHolder || "AURA SKIN OFFICIAL").trim(),
+      clientId: String(clientId || "").trim(),
+      settlementCurrency: "USD ($)",
+      status: "connected",
+      connectedAt: new Date().toISOString(),
+    };
+    await saveStoreDb(db);
+
+    return NextResponse.json({
+      success: true,
+      linkedPayPal: db.settings.linkedPayPal,
+      message: `PayPal account (${db.settings.linkedPayPal.email}) connected for checkout & USD payouts!`,
+    });
+  } catch (err: any) {
+    return NextResponse.json(
+      { error: err?.message || "Failed to save PayPal account." },
+      { status: 500 }
+    );
+  }
 }

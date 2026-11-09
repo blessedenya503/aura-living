@@ -28,8 +28,11 @@ export async function POST(request: Request) {
     let verifiedAmountNgn = 0;
     let customerEmail = orderPayload?.customerEmail || "";
     let customerName = orderPayload?.customerName || "";
+    const isPayPalRef = String(reference).startsWith("PAYPAL-");
 
-    if (paystackSecretKey && paystackSecretKey.trim().length > 5) {
+    if (isPayPalRef) {
+      paymentVerified = true;
+    } else if (paystackSecretKey && paystackSecretKey.trim().length > 5) {
       const verifyRes = await fetch(
         `https://api.paystack.co/transaction/verify/${encodeURIComponent(reference)}`,
         {
@@ -127,17 +130,19 @@ export async function POST(request: Request) {
         totalPaidUsd,
         supplierTotalCostUsd: Number(supplierTotalCostUsd.toFixed(2)),
         netProfitUsd,
-        paymentMethod: "Paystack (Cards / Bank Transfer)" as any,
+        paymentMethod: (isPayPalRef ? "PayPal" : "Paystack (Cards / Bank Transfer)") as any,
         paymentStatus: "Paid",
         fulfillmentStatus: "Processing",
         carrier: "DHL Express / Red Star",
-        trackingNumber: `PAYSTK-${reference.slice(-10)}`,
+        trackingNumber: isPayPalRef ? `PP-${reference.slice(-10)}` : `PAYSTK-${reference.slice(-10)}`,
         estimatedDelivery: "2–4 Business Days (Express)",
         items: orderItems,
         trackingTimeline: [
           {
-            status: "Paystack Payment Verified & Deposited into Settlement Balance",
-            location: "Paystack Secure Settlement Vault",
+            status: isPayPalRef
+              ? "PayPal USD Payment Verified & Settled"
+              : "Paystack Payment Verified & Deposited into Settlement Balance",
+            location: isPayPalRef ? "PayPal Merchant Settlement" : "Paystack Secure Settlement Vault",
             timestamp: "Just now",
             completed: true,
           },

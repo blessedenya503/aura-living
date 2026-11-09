@@ -43,6 +43,7 @@ export interface CustomerOrder {
   netProfitUsd: number;
   paymentMethod:
     | "Paystack (Cards / Bank Transfer)"
+    | "PayPal"
     | "Stripe Card"
     | "Debit / Credit Card"
     | "Apple Pay"
@@ -70,6 +71,16 @@ export interface LinkedBankAccount {
   verifiedVia?: string;
 }
 
+export interface LinkedPayPalAccount {
+  email: string;
+  paypalMeUsername?: string;
+  accountHolder?: string;
+  clientId?: string;
+  settlementCurrency?: string;
+  status?: "connected" | "pending" | "unlinked";
+  connectedAt?: string;
+}
+
 export interface StoreSettings {
   storeName: string;
   supportEmail: string;
@@ -86,6 +97,7 @@ export interface StoreSettings {
   nextWeeklySyncAt?: string;
   weeklySyncSchedule?: string;
   linkedBank?: LinkedBankAccount;
+  linkedPayPal?: LinkedPayPalAccount;
 }
 
 export interface StoreDatabase {
@@ -120,6 +132,13 @@ export const INITIAL_SETTINGS: StoreSettings = {
     accountName: "AURA LIVING ENTERPRISE",
     payoutSchedule: "Next-day automatic bank settlement (T+1 at 05:00 WAT)",
     settlementCurrency: "NGN (₦)",
+  },
+  linkedPayPal: {
+    email: "auraskinngofficial@gmail.com",
+    paypalMeUsername: "auraskinng",
+    accountHolder: "AURA SKIN OFFICIAL",
+    settlementCurrency: "USD ($)",
+    status: "connected",
   },
 };
 

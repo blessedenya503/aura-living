@@ -23,6 +23,7 @@ import {
 import { useCart } from "@/context/CartContext";
 import {
   PaystackLogo,
+  PayPalLogo,
   VisaLogo,
   MastercardLogo,
   ApplePayLogo,
@@ -53,7 +54,11 @@ export default function CheckoutModal() {
   } = useCart();
 
   const [paymentMethod, setPaymentMethod] = useState<
-    "Paystack (Cards / Bank Transfer)" | "Debit / Credit Card" | "Apple Pay" | "Google Pay"
+    | "Paystack (Cards / Bank Transfer)"
+    | "PayPal"
+    | "Debit / Credit Card"
+    | "Apple Pay"
+    | "Google Pay"
   >("Paystack (Cards / Bank Transfer)");
 
   const [customerName, setCustomerName] = useState("");
@@ -123,7 +128,12 @@ export default function CheckoutModal() {
       const initData = await initRes.json();
 
       if (!initRes.ok || !initData.success) {
-        setErrorMessage(initData.error || "Unable to initialize Paystack checkout.");
+        setErrorMessage(initData.error || "Unable to initialize checkout.");
+        return;
+      }
+
+      if (initData.isPayPal && initData.authorizationUrl) {
+        window.location.href = initData.authorizationUrl;
         return;
       }
 
@@ -369,7 +379,7 @@ export default function CheckoutModal() {
                   </span>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
                   {/* Option 1: Paystack (Cards & Bank Transfer) */}
                   <button
                     type="button"
@@ -391,7 +401,28 @@ export default function CheckoutModal() {
                     </span>
                   </button>
 
-                  {/* Option 2: Visa / Mastercard */}
+                  {/* Option 2: PayPal */}
+                  <button
+                    type="button"
+                    onClick={() => setPaymentMethod("PayPal")}
+                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                      paymentMethod === "PayPal"
+                        ? "border-[#003087] bg-amber-50/60 ring-2 ring-[#003087]/25 shadow-xs"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
+                    }`}
+                  >
+                    <div className="flex items-center justify-between w-full">
+                      <PayPalLogo className="h-4.5 w-auto" />
+                      {paymentMethod === "PayPal" && (
+                        <span className="w-2 h-2 rounded-full bg-[#003087]" />
+                      )}
+                    </div>
+                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
+                      PayPal (USD)
+                    </span>
+                  </button>
+
+                  {/* Option 3: Visa / Mastercard */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("Debit / Credit Card")}
@@ -410,7 +441,7 @@ export default function CheckoutModal() {
                     </span>
                   </button>
 
-                  {/* Option 3: Apple Pay */}
+                  {/* Option 4: Apple Pay */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("Apple Pay")}
@@ -426,11 +457,11 @@ export default function CheckoutModal() {
                     </span>
                   </button>
 
-                  {/* Option 4: Google Pay */}
+                  {/* Option 5: Google Pay */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("Google Pay")}
-                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 col-span-2 sm:col-span-1 ${
                       paymentMethod === "Google Pay"
                         ? "border-blue-500 bg-blue-50/50 ring-2 ring-blue-500/30 shadow-xs"
                         : "border-slate-200 hover:border-slate-300 bg-white"
@@ -692,9 +723,15 @@ export default function CheckoutModal() {
               <div className="p-4 bg-cyan-50/60 border border-cyan-200/80 rounded-2xl space-y-2.5 animate-fadeIn">
                 <div className="flex items-center justify-between flex-wrap gap-2">
                   <div className="flex items-center gap-2">
-                    <PaystackLogo className="h-4.5 w-auto" />
+                    {paymentMethod === "PayPal" ? (
+                      <PayPalLogo className="h-4.5 w-auto" />
+                    ) : (
+                      <PaystackLogo className="h-4.5 w-auto" />
+                    )}
                     <span className="text-xs font-bold text-slate-900">
-                      {paymentMethod === "Debit / Credit Card"
+                      {paymentMethod === "PayPal"
+                        ? "PayPal International Checkout (USD Buyer Protection)"
+                        : paymentMethod === "Debit / Credit Card"
                         ? "Encrypted Card Checkout (Visa / Mastercard / Verve)"
                         : paymentMethod === "Apple Pay"
                         ? "Apple Pay Express via Paystack"
@@ -704,11 +741,15 @@ export default function CheckoutModal() {
                     </span>
                   </div>
                   <span className="text-[10px] font-bold text-[#0BA4DB] bg-white px-2.5 py-0.5 rounded-full border border-cyan-200">
-                    3D Secure • Instant Verification
+                    {paymentMethod === "PayPal"
+                      ? "PayPal Verified • USD ($)"
+                      : "3D Secure • Instant Verification"}
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-600 leading-relaxed">
-                  {paymentMethod === "Debit / Credit Card"
+                  {paymentMethod === "PayPal"
+                    ? "Clicking Pay securely redirects you to PayPal where you can complete your order in USD ($) using your PayPal balance, linked bank account, or international debit/credit card."
+                    : paymentMethod === "Debit / Credit Card"
                     ? "Clicking Pay securely opens Paystack's PCI-DSS Level 1 encrypted card terminal where you enter your Visa, Mastercard, or Verve card details and complete your bank's 3D Secure OTP."
                     : paymentMethod === "Apple Pay"
                     ? "Clicking Pay opens Paystack's encrypted checkout where you can authorize instantly with Apple Pay (Face ID / Touch ID) on supported Apple devices, or pay via Card / Bank Transfer."

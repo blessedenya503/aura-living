@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
       "./.next/cache/**",
       "./hosting-platform/**",
       "./scripts/**",
+      "./public/**",
     ],
     "/api/admin/antigravity-editor": [
       "./node_modules/**",

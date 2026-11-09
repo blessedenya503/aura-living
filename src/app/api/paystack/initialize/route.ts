@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { readStoreDb, CustomerOrder, OrderItem } from "@/lib/store-db";
+import { getStoreDb, readStoreDb, CustomerOrder, OrderItem } from "@/lib/store-db";
 
 export async function POST(request: Request) {
   try {
@@ -10,6 +10,7 @@ export async function POST(request: Request) {
       amountUsd,
       amountNgn,
       currency = "NGN",
+      paymentMethod = "Paystack (Cards / Bank Transfer)",
       items = [],
       shippingAddress = "",
       city = "",
@@ -27,6 +28,45 @@ export async function POST(request: Request) {
       );
     }
 
+    const orderId = `AUR-${Math.floor(10000 + Math.random() * 89999)}`;
+    const origin = request.headers.get("origin") || request.headers.get("referer");
+    const siteUrl = origin
+      ? new URL(origin).origin
+      : process.env.NEXT_PUBLIC_SITE_URL || "https://auraskinng.vercel.app";
+
+    // Handle PayPal Express / Standard Checkout
+    if (paymentMethod === "PayPal") {
+      const db = await getStoreDb();
+      const paypalEmail =
+        db.settings?.linkedPayPal?.email ||
+        process.env.PAYPAL_MERCHANT_EMAIL ||
+        "auraskinngofficial@gmail.com";
+      const reference = `PAYPAL-${orderId}-${Date.now()}`;
+      const finalCallbackUrl =
+        callbackUrl ||
+        `${siteUrl}/checkout/success?reference=${reference}&orderId=${orderId}&provider=paypal`;
+
+      const paypalUrl = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=${encodeURIComponent(
+        paypalEmail
+      )}&item_name=${encodeURIComponent(
+        `AURA SKIN Order #${orderId}`
+      )}&item_number=${encodeURIComponent(orderId)}&amount=${Number(
+        amountUsd
+      ).toFixed(2)}&currency_code=USD&no_shipping=1&return=${encodeURIComponent(
+        finalCallbackUrl
+      )}&cancel_return=${encodeURIComponent(siteUrl)}`;
+
+      return NextResponse.json({
+        success: true,
+        authorizationUrl: paypalUrl,
+        reference,
+        orderId,
+        amountUsd: Number(amountUsd),
+        paypalEmail,
+        isPayPal: true,
+      });
+    }
+
     const fallbackKey = Buffer.from("c2tfbGl2ZV8xZmI1MDZmMDI3ZDI2Mzg2NzYzNWFmZDMzZTJiNTAxMTU5ZWQ2MTFl", "base64").toString("utf-8");
     const paystackSecretKey =
       process.env.PAYSTACK_SECRET_KEY || fallbackKey;
@@ -37,7 +77,6 @@ export async function POST(request: Request) {
       );
     }
 
-    const orderId = `AUR-${Math.floor(10000 + Math.random() * 89999)}`;
     const reference = `PAYSTK-${orderId}-${Date.now()}`;
 
     // Convert to NGN Kobo if NGN, or currency subunits.

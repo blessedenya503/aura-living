@@ -253,7 +253,8 @@ export const INITIAL_PRODUCTS: Product[] = [
       {
         "name": "24 Patches Pack",
         "colorHex": "#002B7F",
-        "inStock": true
+        "inStock": true,
+        "image": "/uploads/products/prod-cosrx-master-patch.jpg"
       }
     ],
     "stockLeft": 140,
@@ -295,9 +296,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "image": "/uploads/el-nino-bundle-routine.jpg",
     "gallery": [
       "/uploads/el-nino-bundle-routine.jpg",
-      "/uploads/products/bundle-el-nino-2.jpg",
-      "/uploads/products/bundle-el-nino-3.jpg",
-      "/uploads/products/bundle-el-nino-4.jpg"
+      "/uploads/products/prod-beautyofjoseon-30.jpg",
+      "/uploads/products/amz-prod-B07RK4HST7.jpg",
+      "/uploads/products/prod-theordinary-36.jpg"
     ],
     "variants": [
       {
@@ -2306,11 +2307,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "/uploads/products/bundle-el-nino-3.jpg",
+    "image": "/uploads/products/amz-prod-B07RK4HST7.jpg",
     "price": 25.55,
     "rating": 4.7,
     "gallery": [
-      "/uploads/products/bundle-el-nino-3.jpg"
+      "/uploads/products/amz-prod-B07RK4HST7.jpg"
     ],
     "reviews": [],
     "tagline": "Tracked Express Delivery (2–5 Days)",
@@ -2443,7 +2444,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/333/787/559/8750/front_en.20.400.jpg",
+        "image": "/uploads/products/prod-cerave-15.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -2527,7 +2528,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/360/600/053/7453/front_en.3.400.jpg",
+        "image": "/uploads/products/prod-cerave-16.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -2610,7 +2611,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/030/187/248/4029/front_en.3.400.jpg",
+        "image": "/uploads/products/prod-cerave-20.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -2694,7 +2695,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/333/787/559/7180/front_en.35.400.jpg",
+        "image": "/uploads/products/prod-cerave-21.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -2778,7 +2779,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg",
+        "image": "/uploads/products/prod-larocheposay-22.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -2863,7 +2864,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/333/787/577/7797/front_fr.5.400.jpg",
+        "image": "/uploads/products/prod-larocheposay-23.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -2947,7 +2948,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/333/787/558/3626/front_fr.8.400.jpg",
+        "image": "/uploads/products/prod-larocheposay-24.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3031,7 +3032,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/333/787/569/6548/front_fr.27.400.jpg",
+        "image": "/uploads/products/prod-larocheposay-25.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3115,7 +3116,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/333/787/586/3377/front_fr.3.400.jpg",
+        "image": "/uploads/products/prod-larocheposay-26.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3285,7 +3286,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/880/959/845/0912/front_en.7.400.jpg",
+        "image": "/uploads/products/prod-cosrx-29.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3330,11 +3331,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Tube",
     "badge": "TikTok #1 Trending",
     "brand": "Beauty of Joseon",
-    "image": "/uploads/products/bundle-el-nino-2.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-30.jpg",
     "price": 9.29,
     "rating": 4.9,
     "gallery": [
-      "/uploads/products/bundle-el-nino-2.jpg"
+      "/uploads/products/prod-beautyofjoseon-30.jpg"
     ],
     "reviews": [
       {
@@ -3369,7 +3370,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
+        "image": "/uploads/products/prod-beautyofjoseon-30.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3453,7 +3454,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/880/973/831/2728/front_en.3.400.jpg",
+        "image": "/uploads/products/prod-beautyofjoseon-31.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3538,7 +3539,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
+        "image": "/uploads/products/prod-anua-32.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3623,7 +3624,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/880/957/626/1592/front_en.3.400.jpg",
+        "image": "/uploads/products/prod-skin1004-33.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3707,7 +3708,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/880/973/860/0245/front_nl.4.400.jpg",
+        "image": "/uploads/products/prod-roundlab-34.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3791,7 +3792,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/880/978/460/1340/front_en.3.400.jpg",
+        "image": "/uploads/products/prod-torriden-35.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3836,11 +3837,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "60ml Value Dropper",
     "badge": "Global #1 Serum",
     "brand": "The Ordinary",
-    "image": "/uploads/products/bundle-el-nino-4.jpg",
+    "image": "/uploads/products/prod-theordinary-36.jpg",
     "price": 5.43,
     "rating": 4.8,
     "gallery": [
-      "/uploads/products/bundle-el-nino-4.jpg"
+      "/uploads/products/prod-theordinary-36.jpg"
     ],
     "reviews": [
       {
@@ -3875,7 +3876,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg",
+        "image": "/uploads/products/prod-theordinary-36.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -3959,7 +3960,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0199/front_en.10.400.jpg",
+        "image": "/uploads/products/prod-theordinary-37.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -4042,7 +4043,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0977/front_en.21.400.jpg",
+        "image": "/uploads/products/prod-theordinary-38.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -4126,7 +4127,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/076/991/523/3179/front_tr.3.400.jpg",
+        "image": "/uploads/products/prod-theordinary-39.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -4211,7 +4212,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg",
+        "image": "/uploads/products/prod-paulaschoice-40.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -4294,7 +4295,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Size",
-        "image": "https://images.openbeautyfacts.org/images/products/065/543/901/5103/front_en.3.400.jpg",
+        "image": "/uploads/products/prod-paulaschoice-41.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       },
@@ -4346,7 +4347,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797992/pexels-photo-5797992.jpeg?auto=compress&cs=tinysrgb&w=800&entry=52",
+        "image": "/uploads/products/prod-eucerin-51.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4388,7 +4389,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797993/pexels-photo-5797993.jpeg?auto=compress&cs=tinysrgb&w=800&entry=53",
+        "image": "/uploads/products/prod-eucerin-52.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4429,7 +4430,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797994/pexels-photo-5797994.jpeg?auto=compress&cs=tinysrgb&w=800&entry=54",
+        "image": "/uploads/products/prod-eucerin-53.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4472,7 +4473,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797995/pexels-photo-5797995.jpeg?auto=compress&cs=tinysrgb&w=800&entry=55",
+        "image": "/uploads/products/prod-eucerin-54.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4515,7 +4516,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797996/pexels-photo-5797996.jpeg?auto=compress&cs=tinysrgb&w=800&entry=56",
+        "image": "/uploads/products/prod-eucerin-55.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4558,7 +4559,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797997/pexels-photo-5797997.jpeg?auto=compress&cs=tinysrgb&w=800&entry=57",
+        "image": "/uploads/products/prod-eucerin-56.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4599,7 +4600,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797998/pexels-photo-5797998.jpeg?auto=compress&cs=tinysrgb&w=800&entry=58",
+        "image": "/uploads/products/prod-eucerin-57.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4640,7 +4641,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5797999/pexels-photo-5797999.jpeg?auto=compress&cs=tinysrgb&w=800&entry=59",
+        "image": "/uploads/products/prod-eucerin-58.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4682,7 +4683,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/5798000/pexels-photo-5798000.jpeg?auto=compress&cs=tinysrgb&w=800&entry=60",
+        "image": "/uploads/products/prod-eucerin-59.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4725,7 +4726,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621430/pexels-photo-6621430.jpeg?auto=compress&cs=tinysrgb&w=800&entry=61",
+        "image": "/uploads/products/prod-eucerin-60.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4766,7 +4767,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621431/pexels-photo-6621431.jpeg?auto=compress&cs=tinysrgb&w=800&entry=62",
+        "image": "/uploads/products/prod-eucerin-61.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4808,7 +4809,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621433/pexels-photo-6621433.jpeg?auto=compress&cs=tinysrgb&w=800&entry=64",
+        "image": "/uploads/products/prod-eucerin-63.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4851,7 +4852,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621434/pexels-photo-6621434.jpeg?auto=compress&cs=tinysrgb&w=800&entry=65",
+        "image": "/uploads/products/prod-eucerin-64.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4893,7 +4894,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621436/pexels-photo-6621436.jpeg?auto=compress&cs=tinysrgb&w=800&entry=67",
+        "image": "/uploads/products/prod-eucerin-66.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4934,7 +4935,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621437/pexels-photo-6621437.jpeg?auto=compress&cs=tinysrgb&w=800&entry=68",
+        "image": "/uploads/products/prod-eucerin-67.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -4976,7 +4977,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621440/pexels-photo-6621440.jpeg?auto=compress&cs=tinysrgb&w=800&entry=71",
+        "image": "/uploads/products/prod-eucerin-70.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5018,7 +5019,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621442/pexels-photo-6621442.jpeg?auto=compress&cs=tinysrgb&w=800&entry=73",
+        "image": "/uploads/products/prod-eucerin-72.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5062,7 +5063,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621445/pexels-photo-6621445.jpeg?auto=compress&cs=tinysrgb&w=800&entry=76",
+        "image": "/uploads/products/prod-eucerin-75.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5104,7 +5105,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621446/pexels-photo-6621446.jpeg?auto=compress&cs=tinysrgb&w=800&entry=77",
+        "image": "/uploads/products/prod-avne-76.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5148,7 +5149,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621447/pexels-photo-6621447.jpeg?auto=compress&cs=tinysrgb&w=800&entry=78",
+        "image": "/uploads/products/prod-avne-77.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5189,7 +5190,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621448/pexels-photo-6621448.jpeg?auto=compress&cs=tinysrgb&w=800&entry=79",
+        "image": "/uploads/products/prod-avne-78.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5230,7 +5231,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621449/pexels-photo-6621449.jpeg?auto=compress&cs=tinysrgb&w=800&entry=80",
+        "image": "/uploads/products/prod-avne-79.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5273,7 +5274,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621450/pexels-photo-6621450.jpeg?auto=compress&cs=tinysrgb&w=800&entry=81",
+        "image": "/uploads/products/prod-avne-80.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5315,7 +5316,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621451/pexels-photo-6621451.jpeg?auto=compress&cs=tinysrgb&w=800&entry=82",
+        "image": "/uploads/products/prod-avne-81.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5357,7 +5358,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621452/pexels-photo-6621452.jpeg?auto=compress&cs=tinysrgb&w=800&entry=83",
+        "image": "/uploads/products/prod-avne-82.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5399,7 +5400,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621453/pexels-photo-6621453.jpeg?auto=compress&cs=tinysrgb&w=800&entry=84",
+        "image": "/uploads/products/prod-avne-83.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5441,7 +5442,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621454/pexels-photo-6621454.jpeg?auto=compress&cs=tinysrgb&w=800&entry=85",
+        "image": "/uploads/products/prod-avne-84.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5482,7 +5483,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621455/pexels-photo-6621455.jpeg?auto=compress&cs=tinysrgb&w=800&entry=86",
+        "image": "/uploads/products/prod-avne-85.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5524,7 +5525,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621456/pexels-photo-6621456.jpeg?auto=compress&cs=tinysrgb&w=800&entry=87",
+        "image": "/uploads/products/prod-avne-86.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5567,7 +5568,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621457/pexels-photo-6621457.jpeg?auto=compress&cs=tinysrgb&w=800&entry=88",
+        "image": "/uploads/products/prod-avne-87.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5609,7 +5610,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621459/pexels-photo-6621459.jpeg?auto=compress&cs=tinysrgb&w=800&entry=90",
+        "image": "/uploads/products/prod-avne-89.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5651,7 +5652,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621460/pexels-photo-6621460.jpeg?auto=compress&cs=tinysrgb&w=800&entry=91",
+        "image": "/uploads/products/prod-avne-90.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5693,7 +5694,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800&entry=93",
+        "image": "/uploads/products/prod-avne-92.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5734,7 +5735,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621463/pexels-photo-6621463.jpeg?auto=compress&cs=tinysrgb&w=800&entry=94",
+        "image": "/uploads/products/prod-avne-93.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5776,7 +5777,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg?auto=compress&cs=tinysrgb&w=800&entry=97",
+        "image": "/uploads/products/prod-avne-96.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5819,7 +5820,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621470/pexels-photo-6621470.jpeg?auto=compress&cs=tinysrgb&w=800&entry=101",
+        "image": "/uploads/products/prod-avne-100.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5861,7 +5862,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621471/pexels-photo-6621471.jpeg?auto=compress&cs=tinysrgb&w=800&entry=102",
+        "image": "/uploads/products/prod-bioderma-101.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5904,7 +5905,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621472/pexels-photo-6621472.jpeg?auto=compress&cs=tinysrgb&w=800&entry=103",
+        "image": "/uploads/products/prod-bioderma-102.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5946,7 +5947,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621474/pexels-photo-6621474.jpeg?auto=compress&cs=tinysrgb&w=800&entry=105",
+        "image": "/uploads/products/prod-bioderma-104.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -5989,7 +5990,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621476/pexels-photo-6621476.jpeg?auto=compress&cs=tinysrgb&w=800&entry=107",
+        "image": "/uploads/products/prod-bioderma-106.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6031,7 +6032,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621477/pexels-photo-6621477.jpeg?auto=compress&cs=tinysrgb&w=800&entry=108",
+        "image": "/uploads/products/prod-bioderma-107.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6073,7 +6074,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621478/pexels-photo-6621478.jpeg?auto=compress&cs=tinysrgb&w=800&entry=109",
+        "image": "/uploads/products/prod-bioderma-108.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6115,7 +6116,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621479/pexels-photo-6621479.jpeg?auto=compress&cs=tinysrgb&w=800&entry=110",
+        "image": "/uploads/products/prod-bioderma-109.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6159,7 +6160,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621484/pexels-photo-6621484.jpeg?auto=compress&cs=tinysrgb&w=800&entry=115",
+        "image": "/uploads/products/prod-bioderma-114.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6201,7 +6202,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621485/pexels-photo-6621485.jpeg?auto=compress&cs=tinysrgb&w=800&entry=116",
+        "image": "/uploads/products/prod-bioderma-115.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6243,7 +6244,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621488/pexels-photo-6621488.jpeg?auto=compress&cs=tinysrgb&w=800&entry=119",
+        "image": "/uploads/products/prod-bioderma-118.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6285,7 +6286,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621491/pexels-photo-6621491.jpeg?auto=compress&cs=tinysrgb&w=800&entry=122",
+        "image": "/uploads/products/prod-cosrx-121.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6325,7 +6326,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621493/pexels-photo-6621493.jpeg?auto=compress&cs=tinysrgb&w=800&entry=124",
+        "image": "/uploads/products/prod-cosrx-123.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6366,7 +6367,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621494/pexels-photo-6621494.jpeg?auto=compress&cs=tinysrgb&w=800&entry=125",
+        "image": "/uploads/products/prod-cosrx-124.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6408,7 +6409,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621495/pexels-photo-6621495.jpeg?auto=compress&cs=tinysrgb&w=800&entry=126",
+        "image": "/uploads/products/prod-cosrx-125.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6450,7 +6451,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621496/pexels-photo-6621496.jpeg?auto=compress&cs=tinysrgb&w=800&entry=127",
+        "image": "/uploads/products/prod-cosrx-126.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6491,7 +6492,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621497/pexels-photo-6621497.jpeg?auto=compress&cs=tinysrgb&w=800&entry=128",
+        "image": "/uploads/products/prod-cosrx-127.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6533,7 +6534,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621498/pexels-photo-6621498.jpeg?auto=compress&cs=tinysrgb&w=800&entry=129",
+        "image": "/uploads/products/prod-cosrx-128.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6575,7 +6576,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621499/pexels-photo-6621499.jpeg?auto=compress&cs=tinysrgb&w=800&entry=130",
+        "image": "/uploads/products/prod-cosrx-129.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6617,7 +6618,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621500/pexels-photo-6621500.jpeg?auto=compress&cs=tinysrgb&w=800&entry=131",
+        "image": "/uploads/products/prod-cosrx-130.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6658,7 +6659,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621502/pexels-photo-6621502.jpeg?auto=compress&cs=tinysrgb&w=800&entry=133",
+        "image": "/uploads/products/prod-beautyofjoseon-132.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6701,7 +6702,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621504/pexels-photo-6621504.jpeg?auto=compress&cs=tinysrgb&w=800&entry=135",
+        "image": "/uploads/products/prod-beautyofjoseon-134.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6744,7 +6745,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621505/pexels-photo-6621505.jpeg?auto=compress&cs=tinysrgb&w=800&entry=136",
+        "image": "/uploads/products/prod-beautyofjoseon-135.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6785,7 +6786,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621506/pexels-photo-6621506.jpeg?auto=compress&cs=tinysrgb&w=800&entry=137",
+        "image": "/uploads/products/prod-beautyofjoseon-136.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6828,7 +6829,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621507/pexels-photo-6621507.jpeg?auto=compress&cs=tinysrgb&w=800&entry=138",
+        "image": "/uploads/products/prod-beautyofjoseon-137.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6870,7 +6871,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621508/pexels-photo-6621508.jpeg?auto=compress&cs=tinysrgb&w=800&entry=139",
+        "image": "/uploads/products/prod-beautyofjoseon-138.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6912,7 +6913,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621509/pexels-photo-6621509.jpeg?auto=compress&cs=tinysrgb&w=800&entry=140",
+        "image": "/uploads/products/prod-beautyofjoseon-139.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6955,7 +6956,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621510/pexels-photo-6621510.jpeg?auto=compress&cs=tinysrgb&w=800&entry=141",
+        "image": "/uploads/products/prod-beautyofjoseon-140.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -6997,7 +6998,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621511/pexels-photo-6621511.jpeg?auto=compress&cs=tinysrgb&w=800&entry=142",
+        "image": "/uploads/products/prod-anua-141.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7038,7 +7039,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621512/pexels-photo-6621512.jpeg?auto=compress&cs=tinysrgb&w=800&entry=143",
+        "image": "/uploads/products/prod-anua-142.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7080,7 +7081,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621513/pexels-photo-6621513.jpeg?auto=compress&cs=tinysrgb&w=800&entry=144",
+        "image": "/uploads/products/prod-anua-143.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7121,7 +7122,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621514/pexels-photo-6621514.jpeg?auto=compress&cs=tinysrgb&w=800&entry=145",
+        "image": "/uploads/products/prod-anua-144.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7164,7 +7165,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621515/pexels-photo-6621515.jpeg?auto=compress&cs=tinysrgb&w=800&entry=146",
+        "image": "/uploads/products/prod-anua-145.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7205,7 +7206,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621516/pexels-photo-6621516.jpeg?auto=compress&cs=tinysrgb&w=800&entry=147",
+        "image": "/uploads/products/prod-anua-146.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7248,7 +7249,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621518/pexels-photo-6621518.jpeg?auto=compress&cs=tinysrgb&w=800&entry=149",
+        "image": "/uploads/products/prod-anua-148.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7289,7 +7290,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621519/pexels-photo-6621519.jpeg?auto=compress&cs=tinysrgb&w=800&entry=150",
+        "image": "/uploads/products/prod-anua-149.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7331,7 +7332,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621520/pexels-photo-6621520.jpeg?auto=compress&cs=tinysrgb&w=800&entry=151",
+        "image": "/uploads/products/prod-anua-150.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7373,7 +7374,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621522/pexels-photo-6621522.jpeg?auto=compress&cs=tinysrgb&w=800&entry=153",
+        "image": "/uploads/products/prod-skin1004-152.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7416,7 +7417,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621523/pexels-photo-6621523.jpeg?auto=compress&cs=tinysrgb&w=800&entry=154",
+        "image": "/uploads/products/prod-skin1004-153.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7459,7 +7460,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621524/pexels-photo-6621524.jpeg?auto=compress&cs=tinysrgb&w=800&entry=155",
+        "image": "/uploads/products/prod-skin1004-154.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7502,7 +7503,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621525/pexels-photo-6621525.jpeg?auto=compress&cs=tinysrgb&w=800&entry=156",
+        "image": "/uploads/products/prod-skin1004-155.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7544,7 +7545,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621526/pexels-photo-6621526.jpeg?auto=compress&cs=tinysrgb&w=800&entry=157",
+        "image": "/uploads/products/prod-skin1004-156.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7588,7 +7589,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621527/pexels-photo-6621527.jpeg?auto=compress&cs=tinysrgb&w=800&entry=158",
+        "image": "/uploads/products/prod-skin1004-157.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7630,7 +7631,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621528/pexels-photo-6621528.jpeg?auto=compress&cs=tinysrgb&w=800&entry=159",
+        "image": "/uploads/products/prod-skin1004-158.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7673,7 +7674,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621529/pexels-photo-6621529.jpeg?auto=compress&cs=tinysrgb&w=800&entry=160",
+        "image": "/uploads/products/prod-skin1004-159.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7719,7 +7720,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621530/pexels-photo-6621530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=161",
+        "image": "/uploads/products/prod-skin1004-160.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7763,7 +7764,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621531/pexels-photo-6621531.jpeg?auto=compress&cs=tinysrgb&w=800&entry=162",
+        "image": "/uploads/products/prod-theordinary-161.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7806,7 +7807,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621533/pexels-photo-6621533.jpeg?auto=compress&cs=tinysrgb&w=800&entry=164",
+        "image": "/uploads/products/prod-theordinary-163.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7848,7 +7849,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621534/pexels-photo-6621534.jpeg?auto=compress&cs=tinysrgb&w=800&entry=165",
+        "image": "/uploads/products/prod-theordinary-164.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7891,7 +7892,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621535/pexels-photo-6621535.jpeg?auto=compress&cs=tinysrgb&w=800&entry=166",
+        "image": "/uploads/products/prod-theordinary-165.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7933,7 +7934,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621536/pexels-photo-6621536.jpeg?auto=compress&cs=tinysrgb&w=800&entry=167",
+        "image": "/uploads/products/prod-theordinary-166.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -7974,7 +7975,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621537/pexels-photo-6621537.jpeg?auto=compress&cs=tinysrgb&w=800&entry=168",
+        "image": "/uploads/products/prod-theordinary-167.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8015,7 +8016,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621538/pexels-photo-6621538.jpeg?auto=compress&cs=tinysrgb&w=800&entry=169",
+        "image": "/uploads/products/prod-theordinary-168.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8057,7 +8058,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621539/pexels-photo-6621539.jpeg?auto=compress&cs=tinysrgb&w=800&entry=170",
+        "image": "/uploads/products/prod-theordinary-169.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8099,7 +8100,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621540/pexels-photo-6621540.jpeg?auto=compress&cs=tinysrgb&w=800&entry=171",
+        "image": "/uploads/products/prod-theordinary-170.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8140,7 +8141,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621541/pexels-photo-6621541.jpeg?auto=compress&cs=tinysrgb&w=800&entry=172",
+        "image": "/uploads/products/prod-theordinary-171.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8180,7 +8181,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621542/pexels-photo-6621542.jpeg?auto=compress&cs=tinysrgb&w=800&entry=173",
+        "image": "/uploads/products/prod-theordinary-172.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8220,7 +8221,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621543/pexels-photo-6621543.jpeg?auto=compress&cs=tinysrgb&w=800&entry=174",
+        "image": "/uploads/products/prod-theordinary-173.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8261,7 +8262,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621544/pexels-photo-6621544.jpeg?auto=compress&cs=tinysrgb&w=800&entry=175",
+        "image": "/uploads/products/prod-theordinary-174.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8303,7 +8304,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621545/pexels-photo-6621545.jpeg?auto=compress&cs=tinysrgb&w=800&entry=176",
+        "image": "/uploads/products/prod-theordinary-175.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8345,7 +8346,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621546/pexels-photo-6621546.jpeg?auto=compress&cs=tinysrgb&w=800&entry=177",
+        "image": "/uploads/products/prod-theordinary-176.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8385,7 +8386,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621547/pexels-photo-6621547.jpeg?auto=compress&cs=tinysrgb&w=800&entry=178",
+        "image": "/uploads/products/prod-theordinary-177.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8425,7 +8426,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621548/pexels-photo-6621548.jpeg?auto=compress&cs=tinysrgb&w=800&entry=179",
+        "image": "/uploads/products/prod-theordinary-178.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8467,7 +8468,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621550/pexels-photo-6621550.jpeg?auto=compress&cs=tinysrgb&w=800&entry=181",
+        "image": "/uploads/products/prod-theordinary-180.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8508,7 +8509,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621551/pexels-photo-6621551.jpeg?auto=compress&cs=tinysrgb&w=800&entry=182",
+        "image": "/uploads/products/prod-drunkelephant-181.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8551,7 +8552,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621552/pexels-photo-6621552.jpeg?auto=compress&cs=tinysrgb&w=800&entry=183",
+        "image": "/uploads/products/prod-drunkelephant-182.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8592,7 +8593,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621553/pexels-photo-6621553.jpeg?auto=compress&cs=tinysrgb&w=800&entry=184",
+        "image": "/uploads/products/prod-drunkelephant-183.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8634,7 +8635,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621554/pexels-photo-6621554.jpeg?auto=compress&cs=tinysrgb&w=800&entry=185",
+        "image": "/uploads/products/prod-drunkelephant-184.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8677,7 +8678,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621555/pexels-photo-6621555.jpeg?auto=compress&cs=tinysrgb&w=800&entry=186",
+        "image": "/uploads/products/prod-drunkelephant-185.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8718,7 +8719,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621556/pexels-photo-6621556.jpeg?auto=compress&cs=tinysrgb&w=800&entry=187",
+        "image": "/uploads/products/prod-drunkelephant-186.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8759,7 +8760,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621557/pexels-photo-6621557.jpeg?auto=compress&cs=tinysrgb&w=800&entry=188",
+        "image": "/uploads/products/prod-drunkelephant-187.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8801,7 +8802,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621558/pexels-photo-6621558.jpeg?auto=compress&cs=tinysrgb&w=800&entry=189",
+        "image": "/uploads/products/prod-drunkelephant-188.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8845,7 +8846,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621559/pexels-photo-6621559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=190",
+        "image": "/uploads/products/prod-drunkelephant-189.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8888,7 +8889,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621560/pexels-photo-6621560.jpeg?auto=compress&cs=tinysrgb&w=800&entry=191",
+        "image": "/uploads/products/prod-drunkelephant-190.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8930,7 +8931,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621561/pexels-photo-6621561.jpeg?auto=compress&cs=tinysrgb&w=800&entry=192",
+        "image": "/uploads/products/prod-drunkelephant-191.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -8972,7 +8973,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621562/pexels-photo-6621562.jpeg?auto=compress&cs=tinysrgb&w=800&entry=193",
+        "image": "/uploads/products/prod-drunkelephant-192.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9014,7 +9015,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621563/pexels-photo-6621563.jpeg?auto=compress&cs=tinysrgb&w=800&entry=194",
+        "image": "/uploads/products/prod-tatcha-193.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9058,7 +9059,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621564/pexels-photo-6621564.jpeg?auto=compress&cs=tinysrgb&w=800&entry=195",
+        "image": "/uploads/products/prod-tatcha-194.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9102,7 +9103,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621565/pexels-photo-6621565.jpeg?auto=compress&cs=tinysrgb&w=800&entry=196",
+        "image": "/uploads/products/prod-tatcha-195.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9145,7 +9146,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621566/pexels-photo-6621566.jpeg?auto=compress&cs=tinysrgb&w=800&entry=197",
+        "image": "/uploads/products/prod-tatcha-196.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9187,7 +9188,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621567/pexels-photo-6621567.jpeg?auto=compress&cs=tinysrgb&w=800&entry=198",
+        "image": "/uploads/products/prod-tatcha-197.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9229,7 +9230,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621568/pexels-photo-6621568.jpeg?auto=compress&cs=tinysrgb&w=800&entry=199",
+        "image": "/uploads/products/prod-tatcha-198.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9271,7 +9272,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621569/pexels-photo-6621569.jpeg?auto=compress&cs=tinysrgb&w=800&entry=200",
+        "image": "/uploads/products/prod-tatcha-199.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9315,7 +9316,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621570/pexels-photo-6621570.jpeg?auto=compress&cs=tinysrgb&w=800&entry=201",
+        "image": "/uploads/products/prod-tatcha-200.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9357,7 +9358,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621571/pexels-photo-6621571.jpeg?auto=compress&cs=tinysrgb&w=800&entry=202",
+        "image": "/uploads/products/prod-tatcha-201.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9399,7 +9400,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621572/pexels-photo-6621572.jpeg?auto=compress&cs=tinysrgb&w=800&entry=203",
+        "image": "/uploads/products/prod-tatcha-202.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9442,7 +9443,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621573/pexels-photo-6621573.jpeg?auto=compress&cs=tinysrgb&w=800&entry=204",
+        "image": "/uploads/products/prod-tatcha-203.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9484,7 +9485,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621574/pexels-photo-6621574.jpeg?auto=compress&cs=tinysrgb&w=800&entry=205",
+        "image": "/uploads/products/prod-tatcha-204.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9527,7 +9528,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621575/pexels-photo-6621575.jpeg?auto=compress&cs=tinysrgb&w=800&entry=206",
+        "image": "/uploads/products/prod-tatcha-205.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9569,7 +9570,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621651/pexels-photo-6621651.jpeg?auto=compress&cs=tinysrgb&w=800&entry=282",
+        "image": "/uploads/products/prod-neutrogena-281.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9610,7 +9611,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621652/pexels-photo-6621652.jpeg?auto=compress&cs=tinysrgb&w=800&entry=283",
+        "image": "/uploads/products/prod-neutrogena-282.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9652,7 +9653,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621653/pexels-photo-6621653.jpeg?auto=compress&cs=tinysrgb&w=800&entry=284",
+        "image": "/uploads/products/prod-neutrogena-283.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9692,7 +9693,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621654/pexels-photo-6621654.jpeg?auto=compress&cs=tinysrgb&w=800&entry=285",
+        "image": "/uploads/products/prod-neutrogena-284.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9734,7 +9735,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621655/pexels-photo-6621655.jpeg?auto=compress&cs=tinysrgb&w=800&entry=286",
+        "image": "/uploads/products/prod-neutrogena-285.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9774,7 +9775,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621656/pexels-photo-6621656.jpeg?auto=compress&cs=tinysrgb&w=800&entry=287",
+        "image": "/uploads/products/prod-neutrogena-286.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9817,7 +9818,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621657/pexels-photo-6621657.jpeg?auto=compress&cs=tinysrgb&w=800&entry=288",
+        "image": "/uploads/products/prod-neutrogena-287.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9859,7 +9860,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621658/pexels-photo-6621658.jpeg?auto=compress&cs=tinysrgb&w=800&entry=289",
+        "image": "/uploads/products/prod-neutrogena-288.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9899,7 +9900,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621659/pexels-photo-6621659.jpeg?auto=compress&cs=tinysrgb&w=800&entry=290",
+        "image": "/uploads/products/prod-neutrogena-289.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9941,7 +9942,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621660/pexels-photo-6621660.jpeg?auto=compress&cs=tinysrgb&w=800&entry=291",
+        "image": "/uploads/products/prod-neutrogena-290.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -9983,7 +9984,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621661/pexels-photo-6621661.jpeg?auto=compress&cs=tinysrgb&w=800&entry=292",
+        "image": "/uploads/products/prod-neutrogena-291.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10023,7 +10024,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621662/pexels-photo-6621662.jpeg?auto=compress&cs=tinysrgb&w=800&entry=293",
+        "image": "/uploads/products/prod-neutrogena-292.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10065,7 +10066,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621663/pexels-photo-6621663.jpeg?auto=compress&cs=tinysrgb&w=800&entry=294",
+        "image": "/uploads/products/prod-neutrogena-293.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10108,7 +10109,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621664/pexels-photo-6621664.jpeg?auto=compress&cs=tinysrgb&w=800&entry=295",
+        "image": "/uploads/products/prod-neutrogena-294.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10150,7 +10151,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621665/pexels-photo-6621665.jpeg?auto=compress&cs=tinysrgb&w=800&entry=296",
+        "image": "/uploads/products/prod-neutrogena-295.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10190,7 +10191,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621666/pexels-photo-6621666.jpeg?auto=compress&cs=tinysrgb&w=800&entry=297",
+        "image": "/uploads/products/prod-roundlab-296.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10231,7 +10232,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621667/pexels-photo-6621667.jpeg?auto=compress&cs=tinysrgb&w=800&entry=298",
+        "image": "/uploads/products/prod-roundlab-297.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10274,7 +10275,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/6621668/pexels-photo-6621668.jpeg?auto=compress&cs=tinysrgb&w=800&entry=299",
+        "image": "/uploads/products/prod-roundlab-298.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10317,7 +10318,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/33756874/pexels-photo-33756874.jpeg?auto=compress&cs=tinysrgb&w=800&entry=301",
+        "image": "/uploads/products/prod-roundlab-300.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10360,7 +10361,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=800&entry=302",
+        "image": "/uploads/products/prod-roundlab-301.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10403,7 +10404,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/4465829/pexels-photo-4465829.jpeg?auto=compress&cs=tinysrgb&w=800&entry=303",
+        "image": "/uploads/products/prod-roundlab-302.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10446,7 +10447,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/9496412/pexels-photo-9496412.jpeg?auto=compress&cs=tinysrgb&w=800&entry=304",
+        "image": "/uploads/products/prod-roundlab-303.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10490,7 +10491,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/4119559/pexels-photo-4119559.jpeg?auto=compress&cs=tinysrgb&w=800&entry=305",
+        "image": "/uploads/products/prod-roundlab-304.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10535,7 +10536,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/29755259/pexels-photo-29755259.jpeg?auto=compress&cs=tinysrgb&w=800&entry=306",
+        "image": "/uploads/products/prod-roundlab-305.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10576,7 +10577,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/9775408/pexels-photo-9775408.jpeg?auto=compress&cs=tinysrgb&w=800&entry=307",
+        "image": "/uploads/products/prod-roundlab-306.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10618,7 +10619,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/17891765/pexels-photo-17891765.jpeg?auto=compress&cs=tinysrgb&w=800&entry=308",
+        "image": "/uploads/products/prod-roundlab-307.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10661,7 +10662,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/16008945/pexels-photo-16008945.jpeg?auto=compress&cs=tinysrgb&w=800&entry=309",
+        "image": "/uploads/products/prod-roundlab-308.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10703,7 +10704,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg?auto=compress&cs=tinysrgb&w=800&entry=310",
+        "image": "/uploads/products/prod-roundlab-309.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10745,7 +10746,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/4041396/pexels-photo-4041396.jpeg?auto=compress&cs=tinysrgb&w=800&entry=313",
+        "image": "/uploads/products/prod-haruharuwonder-312.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10787,7 +10788,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/4041397/pexels-photo-4041397.jpeg?auto=compress&cs=tinysrgb&w=800&entry=314",
+        "image": "/uploads/products/prod-haruharuwonder-313.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10829,7 +10830,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/3738349/pexels-photo-3738349.jpeg?auto=compress&cs=tinysrgb&w=800&entry=315",
+        "image": "/uploads/products/prod-haruharuwonder-314.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10872,7 +10873,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/3738350/pexels-photo-3738350.jpeg?auto=compress&cs=tinysrgb&w=800&entry=316",
+        "image": "/uploads/products/prod-haruharuwonder-315.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10914,7 +10915,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=800&entry=317",
+        "image": "/uploads/products/prod-haruharuwonder-316.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }
@@ -10956,7 +10957,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "variants": [
       {
         "name": "Standard Pack",
-        "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=800&entry=318",
+        "image": "/uploads/products/prod-haruharuwonder-317.jpg",
         "inStock": true,
         "colorHex": "#002B7F"
       }

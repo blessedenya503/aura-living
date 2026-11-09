@@ -239,6 +239,46 @@ export default function OwnerPortalPage() {
     accountName: "",
   });
 
+  // Linked PayPal account editor state
+  const [isEditingPayPal, setIsEditingPayPal] = useState(false);
+  const [isSavingPayPal, setIsSavingPayPal] = useState(false);
+  const [paypalError, setPaypalError] = useState("");
+  const [paypalForm, setPaypalForm] = useState({
+    email: "auraskinngofficial@gmail.com",
+    paypalMeUsername: "auraskinng",
+    accountHolder: "AURA SKIN OFFICIAL",
+  });
+
+  const handleSavePayPal = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setPaypalError("");
+    if (!paypalForm.email || !paypalForm.email.includes("@")) {
+      setPaypalError("Please enter a valid PayPal email address.");
+      return;
+    }
+    setIsSavingPayPal(true);
+    try {
+      const res = await fetch("/api/admin/paystack-balance", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(paypalForm),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
+        setSaveMessage(data.message || "PayPal account connected!");
+        setTimeout(() => setSaveMessage(""), 4000);
+        setIsEditingPayPal(false);
+        fetchBalanceData();
+      } else {
+        setPaypalError(data.error || "Could not save PayPal account.");
+      }
+    } catch (err: any) {
+      setPaypalError(err?.message || "Network error while saving PayPal account.");
+    } finally {
+      setIsSavingPayPal(false);
+    }
+  };
+
   const fetchAvailableBanks = async () => {
     try {
       const res = await fetch("/api/admin/paystack-banks", { cache: "no-store" });
@@ -386,6 +426,7 @@ export default function OwnerPortalPage() {
     fetchDashboardData();
     fetchBrandCatalog();
     fetchAvailableBanks();
+    fetchBalanceData();
   }, []);
 
   const handleBrandSearchSubmit = (e: React.FormEvent) => {
@@ -1980,6 +2021,158 @@ export default function OwnerPortalPage() {
                   </span>
                   <span className="text-sm font-bold text-emerald-400 mt-1 block font-mono">
                     NGN (₦)
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Linked PayPal Account Card */}
+            <div className="bg-slate-900/90 border border-amber-500/30 rounded-3xl p-6 sm:p-7 space-y-4">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <div>
+                  <h3 className="text-base font-bold text-white flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-amber-400" />
+                    Linked PayPal Account (USD / International Checkout &amp; Payouts)
+                  </h3>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    International customers selecting PayPal at checkout pay directly into this PayPal account in USD ($).
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+                    {balanceData?.linkedPayPal?.status === "unlinked" ? "Not connected" : "Connected"}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setPaypalError("");
+                      if (!isEditingPayPal) {
+                        const lp = balanceData?.linkedPayPal;
+                        setPaypalForm({
+                          email: lp?.email || "auraskinngofficial@gmail.com",
+                          paypalMeUsername: lp?.paypalMeUsername || "auraskinng",
+                          accountHolder: lp?.accountHolder || "AURA SKIN OFFICIAL",
+                        });
+                      }
+                      setIsEditingPayPal(!isEditingPayPal);
+                    }}
+                    className="px-3.5 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-xs font-bold border border-amber-500/30 cursor-pointer flex items-center gap-1.5"
+                  >
+                    <Settings className="w-3.5 h-3.5 text-amber-400" />
+                    <span>{isEditingPayPal ? "Close Editor" : "Edit PayPal Account"}</span>
+                  </button>
+                </div>
+              </div>
+
+              {isEditingPayPal && (
+                <form
+                  onSubmit={handleSavePayPal}
+                  className="bg-slate-950/90 border border-amber-500/40 p-5 rounded-2xl space-y-4"
+                >
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                    <div>
+                      <label className="block font-semibold text-slate-300 mb-1">
+                        PayPal Account Email
+                      </label>
+                      <input
+                        type="email"
+                        value={paypalForm.email}
+                        onChange={(e) => setPaypalForm({ ...paypalForm, email: e.target.value })}
+                        placeholder="your-paypal@email.com"
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label className="block font-semibold text-slate-300 mb-1">
+                        PayPal.Me Username (optional)
+                      </label>
+                      <input
+                        type="text"
+                        value={paypalForm.paypalMeUsername}
+                        onChange={(e) =>
+                          setPaypalForm({ ...paypalForm, paypalMeUsername: e.target.value })
+                        }
+                        placeholder="e.g. auraskinng"
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono"
+                      />
+                    </div>
+                    <div>
+                      <label className="block font-semibold text-slate-300 mb-1">
+                        Account Holder / Business Name
+                      </label>
+                      <input
+                        type="text"
+                        value={paypalForm.accountHolder}
+                        onChange={(e) =>
+                          setPaypalForm({ ...paypalForm, accountHolder: e.target.value })
+                        }
+                        placeholder="AURA SKIN OFFICIAL"
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white"
+                      />
+                    </div>
+                  </div>
+
+                  {paypalError && (
+                    <div className="text-xs text-rose-300 bg-rose-500/10 border border-rose-500/30 rounded-xl px-3 py-2">
+                      {paypalError}
+                    </div>
+                  )}
+
+                  <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-800/80">
+                    <button
+                      type="button"
+                      onClick={() => setIsEditingPayPal(false)}
+                      className="px-3.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-semibold cursor-pointer border border-slate-800"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      type="submit"
+                      disabled={isSavingPayPal}
+                      className="px-4 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold cursor-pointer disabled:opacity-50 flex items-center gap-1.5"
+                    >
+                      <CheckCircle2 className="w-3.5 h-3.5" />
+                      <span>{isSavingPayPal ? "Saving..." : "Save PayPal Account"}</span>
+                    </button>
+                  </div>
+                </form>
+              )}
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 pt-2">
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    PayPal Merchant Email
+                  </span>
+                  <span className="text-sm font-bold text-white mt-1 block font-mono truncate">
+                    {balanceData?.linkedPayPal?.email || "auraskinngofficial@gmail.com"}
+                  </span>
+                </div>
+
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    PayPal.Me Link
+                  </span>
+                  <span className="text-sm font-bold text-amber-400 mt-1 block font-mono truncate">
+                    paypal.me/{balanceData?.linkedPayPal?.paypalMeUsername || "auraskinng"}
+                  </span>
+                </div>
+
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    Account Holder
+                  </span>
+                  <span className="text-sm font-bold text-white mt-1 block truncate">
+                    {balanceData?.linkedPayPal?.accountHolder || "AURA SKIN OFFICIAL"}
+                  </span>
+                </div>
+
+                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    Checkout Currency
+                  </span>
+                  <span className="text-sm font-bold text-amber-400 mt-1 block font-mono">
+                    {balanceData?.linkedPayPal?.settlementCurrency || "USD ($)"}
                   </span>
                 </div>
               </div>
