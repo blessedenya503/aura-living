@@ -146,11 +146,6 @@ export default function GlobalSearchModal() {
 
         let score = 0;
 
-        // Channel filter
-        if (selectedChannel !== "All" && p.supplierSource !== selectedChannel) {
-          return { product: p, score: 0 };
-        }
-
         // Exact query matches
         if (p.id === "bundle-el-nino" && (q.includes("el nino") || q.includes("bundle") || q.includes("climate"))) {
           score += 400;
@@ -306,28 +301,6 @@ export default function GlobalSearchModal() {
               </span>{" "}
               {searchResults.length === 1 ? "result" : "results"} found
             </div>
-
-            <div className="flex items-center gap-1.5">
-              {["All", "Amazon Prime Dropship", "Alibaba Trade Assurance Dropship"].map(
-                (ch) => (
-                  <button
-                    key={ch}
-                    onClick={() => setSelectedChannel(ch)}
-                    className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-all cursor-pointer ${
-                      selectedChannel === ch
-                        ? "bg-[#002B7F] text-white"
-                        : "text-slate-400 hover:text-white"
-                    }`}
-                  >
-                    {ch === "All"
-                      ? "All"
-                      : ch.startsWith("Amazon")
-                      ? "Amazon"
-                      : "Alibaba"}
-                  </button>
-                )
-              )}
-            </div>
           </div>
         )}
 
@@ -396,7 +369,7 @@ export default function GlobalSearchModal() {
                   <span className="text-slate-400 font-semibold">• Bestselling Formulas</span>
                 </span>
                 <span className="text-[11px] text-slate-500">
-                  Instant Express Dropship
+                  Fast Tracked Delivery
                 </span>
               </div>
 
@@ -608,7 +581,7 @@ export default function GlobalSearchModal() {
         <div className="p-3 sm:p-4 bg-slate-950 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>3,078 Verified Dropship Formulations Indexed</span>
+            <span>{products.length} Authentic Formulas Indexed</span>
           </div>
 
           <div className="hidden sm:flex items-center gap-4 text-slate-500">

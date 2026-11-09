@@ -31,7 +31,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Original COSRX Snail Mucin.",
       heroSubtitle:
         "Formulated with 96.3% Snail Secretion Filtrate to repair damaged moisture barriers, fade post-acne marks, and deliver intense luminous hydration.",
-      heroImage: "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg",
+      heroImage: "/uploads/hero-61p-wtpDraL.jpg",
       fallbackPrice: 19.99,
       size: "100ml / 3.38 fl. oz",
       rating: 4.9,
@@ -49,7 +49,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "TikTok's Famous Crème Dupe.",
       heroSubtitle:
         "Skin-identical Eucerit® and Provitamin B5 deliver rich 48H continuous occlusive slugging that rivals $350 luxury moisturizers.",
-      heroImage: "https://m.media-amazon.com/images/I/61dNDSeJTUL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-61dNDSeJTUL.jpg",
       fallbackPrice: 8.99,
       size: "250ml / 8.4 oz Classic Tin",
       rating: 4.9,
@@ -67,7 +67,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "TikTok's Cult Dew Drops.",
       heroSubtitle:
         "Multi-use highlighting serum with Niacinamide and Hyaluronic Acid that delivers an effortless dewy glow without mica, glitter, or grey cast.",
-      heroImage: "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-51h-PS9qIIL.jpg",
       fallbackPrice: 35.0,
       size: "40ml / 1.35 oz",
       rating: 4.8,
@@ -85,7 +85,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "TikTok Slugging Essential.",
       heroSubtitle:
         "Madecassoside, 5% Panthenol, and Tribioma prebiotics instantly rebuild damaged barriers from over-exfoliation and retinoid irritation.",
-      heroImage: "https://m.media-amazon.com/images/I/51DNkL-r2uL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-51DNkL-r2uL.jpg",
       fallbackPrice: 22.99,
       size: "100ml Large Tube",
       rating: 4.9,
@@ -103,7 +103,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Tatcha Cult Water Cream.",
       heroSubtitle:
         "Unique oil-free water cream releases a burst of balancing Japanese wild rose and leopard lily to tighten pores and hydrate deeply.",
-      heroImage: "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-51G9yTBH28L.jpg",
       fallbackPrice: 70.0,
       size: "50ml / 1.7 oz",
       rating: 4.8,
@@ -124,7 +124,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Kakadu Plum Whipped Gel.",
       heroSubtitle:
         "Whipped gel-cream infused with juicy Kakadu Plum and polyglutamic acid for lightweight all-day hydration without heaviness.",
-      heroImage: "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-61WZN4-TPBL.jpg",
       fallbackPrice: 40.0,
       size: "50ml Refillable Jar",
       rating: 4.8,
@@ -142,7 +142,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Drunk Elephant Protini.",
       heroSubtitle:
         "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and amino acids for visibly firmer, bouncy skin.",
-      heroImage: "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-61DKfnKG8XL.jpg",
       fallbackPrice: 68.0,
       size: "50ml Airless Pump",
       rating: 4.8,
@@ -160,7 +160,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Multi-Peptide + HA Buffet.",
       heroSubtitle:
         "Combines Matrixyl 3000, Syn-Ake, and amino acid complexes to target static and dynamic wrinkles across all facial zones.",
-      heroImage: "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-71KExLnstsL.jpg",
       fallbackPrice: 19.99,
       size: "30ml Precision Dropper",
       rating: 4.8,
@@ -178,7 +178,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Zero White Cast SPF 50+.",
       heroSubtitle:
         "Formulated with Inje Silver Birch Sap and Vita Hyaluronic Acid. Feels like a weightless moisturizing lotion that absorbs in seconds.",
-      heroImage: "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-619dBL3GnLL.jpg",
       fallbackPrice: 21.0,
       size: "50ml Squeeze Tube",
       rating: 4.9,
@@ -196,7 +196,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Tatcha Dewy Skin Cream.",
       heroSubtitle:
         "Rich, antioxidant-packed cream with Japanese purple rice, Okinawa algae, and hyaluronic acid to lock in dewy plumpness.",
-      heroImage: "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-51x07AqqhvL.jpg",
       fallbackPrice: 72.0,
       size: "50ml Luxurious Jar",
       rating: 4.8,
@@ -217,7 +217,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Bioderma Sensibio H2O.",
       heroSubtitle:
         "Biomimetic micellar technology respects skin's natural barrier at pH 5.5, capturing 99% of impurities and waterproof makeup without rinsing.",
-      heroImage: "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-51CM46RevxL.jpg",
       fallbackPrice: 19.99,
       size: "500ml Family Value Bottle",
       rating: 4.9,
@@ -235,7 +235,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Skin1004 Cleansing Oil.",
       heroSubtitle:
         "Ultra-light cleansing oil infused with pure Madagascar Centella to dissolve waterproof makeup and clear sebum from pores without stinging eyes.",
-      heroImage: "https://m.media-amazon.com/images/I/61ZG5xWuA+L._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-61ZG5xWuAL.jpg",
       fallbackPrice: 19.5,
       size: "200ml Pump Bottle",
       rating: 4.8,
@@ -253,7 +253,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Mugwort & Camelia SPF 50+.",
       heroSubtitle:
         "Silica-powder sebum control stick glides over foundation with zero clumpiness or greasy residue. Non-sticky matte finish all day.",
-      heroImage: "https://m.media-amazon.com/images/I/51PbZMgofCL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-51PbZMgofCL.jpg",
       fallbackPrice: 18.0,
       size: "18g Portable Twist Stick",
       rating: 4.8,
@@ -271,7 +271,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "CeraVe Salicylic Acid Cream.",
       heroSubtitle:
         "Salicylic acid, 10% urea, and 3 essential ceramides exfoliate rough bumps while deeply hydrating the skin barrier with MVE delivery.",
-      heroImage: "https://m.media-amazon.com/images/I/61cCKPTNz6L._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-61cCKPTNz6L.jpg",
       fallbackPrice: 22.99,
       size: "340g / 12 oz Tub",
       rating: 4.9,
@@ -289,7 +289,7 @@ export const WEEKLY_TIKTOK_POOLS: TikTokViralTrend[][] = [
       heroHighlight: "Anua Moisture Booster.",
       heroSubtitle:
         "Packed with 70% Japanese white birch sap to open cellular water channels and create a plump, luminous glass-skin reflection.",
-      heroImage: "https://m.media-amazon.com/images/I/51Kpw2r-pIL._AC_UL320_.jpg",
+      heroImage: "/uploads/hero-51Kpw2r-pIL.jpg",
       fallbackPrice: 21.0,
       size: "250ml Bottle",
       rating: 4.8,

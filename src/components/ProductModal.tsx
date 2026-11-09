@@ -249,10 +249,10 @@ export default function ProductModal() {
               <div className="mt-3.5 flex items-center justify-between text-xs py-2 px-3 bg-slate-50 border border-slate-200/80 rounded-xl">
                 <div className="flex items-center gap-1.5 text-slate-700 font-medium text-[11px]">
                   <Truck className="w-3.5 h-3.5 text-[#002B7F]" />
-                  <span>{selectedProduct.shippingDays || "2–4 Days (Express Dropship)"}</span>
+                  <span>{selectedProduct.shippingDays || "2–5 Days Tracked Express Delivery"}</span>
                 </div>
                 <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 font-mono">
-                  {selectedProduct.supplierSource || "Verified Dropship"}
+                  {selectedProduct.supplierSource || "Authorized Distributor"}
                 </span>
               </div>
 

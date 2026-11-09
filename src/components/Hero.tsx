@@ -45,7 +45,7 @@ const FEATURED_SLIDES: TrendSlide[] = [
     heroHighlight: "Pure Hydration.",
     heroSubtitle:
       "Deeply hydrates and restores skin moisture barriers with 96.3% snail mucin.",
-    heroImage: "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg",
+    heroImage: "/uploads/hero-61p-wtpDraL.jpg",
     fallbackPrice: 19.99,
     size: "100ml / 3.38 fl. oz",
     rating: 4.9,

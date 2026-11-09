@@ -501,7 +501,7 @@ export function sanitizeProductForPublic(product: Product): Product {
       : [{ name: "Standard Size", colorHex: "#0032A0", inStock: true }],
     stockLeft: p.stockLeft ?? 100,
     supplierSource: p.supplierSource || undefined,
-    shippingDays: p.shippingDays || "2–4 Days (Express Dropship)",
+    shippingDays: p.shippingDays || "2–5 Days Tracked Express Delivery",
     verification: p.verification,
     howToUse: p.howToUse,
     isBundle: p.isBundle,

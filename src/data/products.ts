@@ -193,7 +193,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "image": "/uploads/larocheposay-vitaminc10.jpg",
     "gallery": [
       "/uploads/larocheposay-vitaminc10.jpg",
-      "https://m.media-amazon.com/images/I/61SUnXBGI1L._AC_SL1500_.jpg"
+      "/uploads/products/prod-larocheposay-vitaminc10-2.jpg"
     ],
     "variants": [
       {
@@ -210,10 +210,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       "referenceId": "LRP-VITC-10-EU",
       "sourceUrl": "https://www.laroche-posay.us/our-products/face/face-serum/pure-vitamin-c-face-serum-3337875660568.html",
       "originCountry": "France (La Roche-Posay Laboratoire Dermatologique)",
-      "laboratoryCertifications": ["Dermatologically Tested for Sensitive Skin", "Physiological pH Formulated"],
+      "laboratoryCertifications": [
+        "Dermatologically Tested for Sensitive Skin",
+        "Physiological pH Formulated"
+      ],
       "batchLotNumber": "LOT-FR-2026-LRP01",
       "verifiedAt": "2026-11-08"
-    }
+    },
+    "description": "Formulated with 10% pure Vitamin C (L-ascorbic acid), Salicylic Acid, and Neurosensine to visibly brighten, smooth skin texture, and restore youthful radiance to sensitive skin. Key actives: 10% Pure Vitamin C (L-Ascorbic Acid), Salicylic Acid (BHA), Neurosensine Peptide, La Roche-Posay Thermal Spring Water, Hyaluronic Acid. Formulated for sensitive & all skin types (tested for sensitivity). Size: 30ml / 1.0 fl oz Dropper Bottle. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cosrx-master-patch",
@@ -243,9 +247,9 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Waterproof, ultra-thin, and discreet under makeup"
     ],
     "howToUse": "1. Thoroughly cleanse and completely dry the target blemish area (do NOT apply toners, oils, or moisturizers beforehand).\n2. Select a patch size slightly larger than the active pimple and press firmly over the spot for 3–5 seconds.\n3. Leave on for 6 to 8 hours or overnight. When the patch turns milky white with absorbed impurities, peel off gently from the edges and replace if needed.",
-    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop",
+    "image": "/uploads/products/prod-cosrx-master-patch.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop"
+      "/uploads/products/prod-cosrx-master-patch.jpg"
     ],
     "variants": [
       {
@@ -256,7 +260,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "stockLeft": 140,
     "supplierSource": "Direct Pharmaceutical Wholesale",
-    "shippingDays": "1–3 Days Fast Dispatch"
+    "shippingDays": "1–3 Days Fast Dispatch",
+    "description": "Hydrocolloid dressing that absorbs impurities, protects blemishes from bacteria, and visibly flattens pimples overnight. Key actives: 100% Medical Grade Hydrocolloid, Cellulose Gum, Polyurethane Film. Formulated for acne-prone & blemish skin. Size: 24 Patches (3 Sizes). 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "bundle-el-nino",
@@ -292,9 +297,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     "image": "/uploads/el-nino-bundle-routine.jpg",
     "gallery": [
       "/uploads/el-nino-bundle-routine.jpg",
-      "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
-      "https://m.media-amazon.com/images/I/71llkeOBhgL._AC_UL320_.jpg",
-      "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg"
+      "/uploads/products/bundle-el-nino-2.jpg",
+      "/uploads/products/bundle-el-nino-3.jpg",
+      "/uploads/products/bundle-el-nino-4.jpg"
     ],
     "variants": [
       {
@@ -345,16 +350,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Authentic German Moisturizing Cream, 8.45 Fl Oz, Metal Tin, All Skin Types, Face Care",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/41gn7y2BumL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00KJRVUXU.jpg",
     "price": 20.55,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41gn7y2BumL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00KJRVUXU.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -369,15 +374,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 34806,
     "supplierCost": 14.59,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 25.69,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA Authentic German Moisturizing Cream, 8.45 Fl Oz, Metal Tin, All Skin Types, Face Care. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00KJRVUXU).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA Authentic German Moisturizing Cream, 8.45 Fl Oz, Metal Tin, All Skin Types, Face Care. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA Authentic German Moisturizing Cream, 8.45 Fl Oz, Metal Tin, All Skin Types, Face Care. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GVW1PDDH",
@@ -386,16 +394,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Brightening Vitamin C Body Lotion, Skincare with Niacinamide, 16oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71OEFwrxebL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0GVW1PDDH.jpg",
     "price": 28.53,
     "rating": 4.4,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71OEFwrxebL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0GVW1PDDH.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -410,15 +418,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 102,
     "supplierCost": 19.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 35.66,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Brightening Vitamin C Body Lotion, Skincare with Niacinamide, 16oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0GVW1PDDH).",
-    "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+."
+    "shortDescription": "CeraVe Brightening Vitamin C Body Lotion, Skincare with Niacinamide, 16oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Brightening Vitamin C Body Lotion, Skincare with Niacinamide, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00DEG8N9W",
@@ -427,16 +438,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Creme, Face, Body & Hand Moisturizing Cream, Provitamin B5, 13.5 Oz",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/71Hqbk5tMKL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00DEG8N9W.jpg",
     "price": 13.2,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71Hqbk5tMKL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00DEG8N9W.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -451,15 +462,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 34806,
     "supplierCost": 9.9,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 16.5,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA Creme, Face, Body & Hand Moisturizing Cream, Provitamin B5, 13.5 Oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00DEG8N9W).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA Creme, Face, Body & Hand Moisturizing Cream, Provitamin B5, 13.5 Oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA Creme, Face, Body & Hand Moisturizing Cream, Provitamin B5, 13.5 Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-eucerin-aquaphor-healing",
@@ -469,11 +483,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "198g / 7 oz",
     "badge": "#1 Pediatrician Recommended",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/71fhghOVS7L._AC_UL320_.jpg",
+    "image": "/uploads/products/imp-eucerin-aquaphor-healing.jpg",
     "price": 7.84,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71fhghOVS7L._AC_UL320_.jpg"
+      "/uploads/products/imp-eucerin-aquaphor-healing.jpg"
     ],
     "reviews": [],
     "tagline": "Multi-purpose ointment creating an ideal semi-permeable healing environment",
@@ -493,7 +507,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "stockLeft": 180,
     "reviewCount": 38900,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.8,
     "soldCountText": "Verified Brand Import",
     "compareAtPrice": 9.8,
@@ -505,7 +519,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Clinically proven to restore smooth, healthy skin on cracked heels, dry hands, and compromised barriers.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Clinically proven to restore smooth, healthy skin on cracked heels, dry hands, and compromised barriers. Key actives: 41% Petrolatum, Panthenol (Pro-Vit B5), Glycerin, Bisabolol. Formulated for chapped, cracked, irritated skin & minor burns. Size: 198g / 7 oz. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-glow-recipe-plum-plump",
@@ -515,11 +530,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml / 1.7 oz",
     "badge": "Bestseller Verified",
     "brand": "Glow Recipe",
-    "image": "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg",
+    "image": "/uploads/products/imp-glow-recipe-plum-plump.jpg",
     "price": 22.92,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61WZN4-TPBL._AC_UL320_.jpg"
+      "/uploads/products/imp-glow-recipe-plum-plump.jpg"
     ],
     "reviews": [],
     "tagline": "Hydrating gel-cream with 5 molecular weights of hyaluronic acid and polyglutamic acid",
@@ -539,7 +554,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "stockLeft": 180,
     "reviewCount": 13900,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 16.5,
     "soldCountText": "Verified Brand Import",
     "compareAtPrice": 28.65,
@@ -551,7 +566,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Weightless whipped gel cream bursting with Kakadu Plum and 5 molecular weights of hyaluronic acid.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Weightless whipped gel cream bursting with Kakadu Plum and 5 molecular weights of hyaluronic acid. Key actives: Kakadu Plum Extract, 5 Molecular Weights of HA, Polyglutamic Acid, Willowherb. Formulated for combination, oily to dry dehydrated skin. Size: 50ml / 1.7 oz. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-glow-recipe-dew-drops",
@@ -561,11 +577,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "40ml / 1.35 oz",
     "badge": "TikTok Cult Glow",
     "brand": "Glow Recipe",
-    "image": "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg",
+    "image": "/uploads/products/imp-glow-recipe-dew-drops.jpg",
     "price": 19.72,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51h-PS9qIIL._AC_UL320_.jpg"
+      "/uploads/products/imp-glow-recipe-dew-drops.jpg"
     ],
     "reviews": [],
     "tagline": "Multi-use highlighting serum that visibly brightens skin and delivers an effortless dewy glow",
@@ -585,7 +601,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "stockLeft": 180,
     "reviewCount": 22800,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 14,
     "soldCountText": "Verified Brand Import",
     "compareAtPrice": 24.65,
@@ -597,7 +613,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Formulated without mica or glitter, this skincare-first serum hydrates and reduces hyperpigmentation over time. Key actives: Niacinamide (Vitamin B3), Watermelon Extract, Hyaluronic Acid, Moringa Seed Oil. Formulated for all skin types, dull, uneven tone. Size: 40ml / 1.35 oz. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "imp-drunk-elephant-protini",
@@ -607,11 +624,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml / 1.69 oz",
     "badge": "Bestseller Verified",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg",
+    "image": "/uploads/products/imp-drunk-elephant-protini.jpg",
     "price": 43.24,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61DKfnKG8XL._AC_UL320_.jpg"
+      "/uploads/products/imp-drunk-elephant-protini.jpg"
     ],
     "reviews": [],
     "tagline": "Signal peptide complex and pygmy waterlily for immediate improvement in skin firmness",
@@ -631,7 +648,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "stockLeft": 180,
     "reviewCount": 14900,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 32,
     "soldCountText": "Verified Brand Import",
     "compareAtPrice": 54.05,
@@ -642,7 +659,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and supportive amino acids.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "A breakthrough protein moisturizer combining 9 signal peptides, growth factors, and supportive amino acids. Key actives: 9 Signal Peptide Complex, Pygmy Waterlily Stem Cell Extract, Soybean Folic Acid Ferment. Formulated for all skin types, loss of elasticity & sun damage. Size: 50ml / 1.69 oz. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07Y91BMSK",
@@ -651,11 +669,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Lip Care, Fruity Cuties Lip Balm Variety Pack, 4 x 0.17 OZ",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/81eqzDqY86L._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07Y91BMSK.jpg",
     "price": 11.67,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/81eqzDqY86L._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07Y91BMSK.jpg"
     ],
     "reviews": [],
     "tagline": "Intensive Occlusive Barrier Recovery & Slugging Balm",
@@ -676,7 +694,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 23578,
     "supplierCost": 8.52,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 14.59,
     "keyIngredients": [
       "Medical-Grade Petrolatum",
@@ -685,7 +703,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Shea Butter"
     ],
     "shortDescription": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00DEX61A8",
@@ -694,16 +715,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA MEN Maximum Hydration Lotion, 48-Hour Body Moisturizer, 16.9 FL OZ",
     "size": "Standard Retail Pack",
     "brand": "NIVEA MEN",
-    "image": "https://m.media-amazon.com/images/I/71-aQ+6ozwL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00DEX61A8.jpg",
     "price": 11.07,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71-aQ+6ozwL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00DEX61A8.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -718,15 +739,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 25424,
     "supplierCost": 7.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 13.84,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA MEN Maximum Hydration Lotion, 48-Hour Body Moisturizer, 16.9 FL OZ. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00DEX61A8).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA MEN Maximum Hydration Lotion, 48-Hour Body Moisturizer, 16.9 FL OZ. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA MEN Maximum Hydration Lotion, 48-Hour Body Moisturizer, 16.9 FL OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00A35SIHE",
@@ -735,16 +759,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Creme Hydrating and Nourishing Body Cream, 1 oz Tin, 36-Count",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/61dNDSeJTUL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00A35SIHE.jpg",
     "price": 47.56,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61dNDSeJTUL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00A35SIHE.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
@@ -759,15 +783,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 34895,
     "supplierCost": 33.77,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 59.45,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA Creme Hydrating and Nourishing Body Cream, 1 oz Tin, 36-Count. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00A35SIHE).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA Creme Hydrating and Nourishing Body Cream, 1 oz Tin, 36-Count. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA Creme Hydrating and Nourishing Body Cream, 1 oz Tin, 36-Count. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07YG8YVQW",
@@ -776,11 +803,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Moisture Lip Care, Hydrating Lip Balms with Shea Butter, 4 x 0.17 OZ",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/81pwqUA0vVL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07YG8YVQW.jpg",
     "price": 12.54,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/81pwqUA0vVL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07YG8YVQW.jpg"
     ],
     "reviews": [],
     "tagline": "Intensive Occlusive Barrier Recovery & Slugging Balm",
@@ -801,7 +828,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 8360,
     "supplierCost": 8.78,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 15.67,
     "keyIngredients": [
       "Medical-Grade Petrolatum",
@@ -810,7 +837,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Shea Butter"
     ],
     "shortDescription": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01H6OYPU8",
@@ -819,16 +849,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Cocoa Butter Body Cream for Dry Skin, 16 OZ",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/71g20J3JfgL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B01H6OYPU8.jpg",
     "price": 10.64,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71g20J3JfgL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B01H6OYPU8.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
@@ -843,15 +873,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 29086,
     "supplierCost": 7.98,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 13.3,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA Cocoa Butter Body Cream for Dry Skin, 16 OZ. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B01H6OYPU8).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA Cocoa Butter Body Cream for Dry Skin, 16 OZ. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA Cocoa Butter Body Cream for Dry Skin, 16 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0B5YL9MZF",
@@ -860,16 +893,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/61b+8rsddhL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0B5YL9MZF.jpg",
     "price": 14.85,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61b+8rsddhL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0B5YL9MZF.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
@@ -884,15 +917,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 72475,
     "supplierCost": 10.99,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 18.56,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0B5YL9MZF).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA Soft Moisturizing Cream for Body, Face and Hands, 16 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00O4QAF9C",
@@ -901,16 +937,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA MEN Sensitive Shave Gel, No Drying Alcohol, Mulitpack, 3 x 7 OZ",
     "size": "Standard Retail Pack",
     "brand": "NIVEA MEN",
-    "image": "https://m.media-amazon.com/images/I/81GuYjjbXRL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00O4QAF9C.jpg",
     "price": 15.99,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/81GuYjjbXRL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00O4QAF9C.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -925,15 +961,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 24081,
     "supplierCost": 11.67,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 19.99,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA MEN Sensitive Shave Gel, No Drying Alcohol, Mulitpack, 3 x 7 OZ. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00O4QAF9C).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA MEN Sensitive Shave Gel, No Drying Alcohol, Mulitpack, 3 x 7 OZ. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA MEN Sensitive Shave Gel, No Drying Alcohol, Mulitpack, 3 x 7 OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GY1XG1BS",
@@ -942,16 +981,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA MEN Sensitive Liquid Face Moisturizer for Men, 3.3 Fl Oz",
     "size": "Standard Retail Pack",
     "brand": "NIVEA MEN",
-    "image": "https://m.media-amazon.com/images/I/717nV7DCdJL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0GY1XG1BS.jpg",
     "price": 11.79,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/717nV7DCdJL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0GY1XG1BS.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -966,15 +1005,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 26,
     "supplierCost": 8.49,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 14.74,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA MEN Sensitive Liquid Face Moisturizer for Men, 3.3 Fl Oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0GY1XG1BS).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA MEN Sensitive Liquid Face Moisturizer for Men, 3.3 Fl Oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA MEN Sensitive Liquid Face Moisturizer for Men, 3.3 Fl Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GYZRDWS7",
@@ -983,16 +1025,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "NIVEA Body Milk Smooth and Glow Ultra-Light Milky Serum, 6.7 FL OZ",
     "size": "Standard Retail Pack",
     "brand": "NIVEA",
-    "image": "https://m.media-amazon.com/images/I/71kjdsx8PyL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0GYZRDWS7.jpg",
     "price": 7.17,
     "rating": 4.3,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71kjdsx8PyL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0GYZRDWS7.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
@@ -1007,15 +1049,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 64,
     "supplierCost": 5.09,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 8.96,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "NIVEA Body Milk Smooth and Glow Ultra-Light Milky Serum, 6.7 FL OZ. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0GYZRDWS7).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "NIVEA Body Milk Smooth and Glow Ultra-Light Milky Serum, 6.7 FL OZ. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "NIVEA Body Milk Smooth and Glow Ultra-Light Milky Serum, 6.7 FL OZ. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0GQW7L9JJ",
@@ -1024,16 +1069,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Brightening Vitamin C Facial Cleanser, Niacinamide Face Wash, 8oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71SLrE439QL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0GQW7L9JJ.jpg",
     "price": 21.39,
     "rating": 4.5,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71SLrE439QL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0GQW7L9JJ.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1048,15 +1093,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 300,
     "supplierCost": 14.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 26.74,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Brightening Vitamin C Facial Cleanser, Niacinamide Face Wash, 8oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0GQW7L9JJ).",
-    "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+."
+    "shortDescription": "CeraVe Brightening Vitamin C Facial Cleanser, Niacinamide Face Wash, 8oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Brightening Vitamin C Facial Cleanser, Niacinamide Face Wash, 8oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B077TQR6ZW",
@@ -1065,16 +1113,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Ultra-Light Moisturizing Lotion SPF 30, Sunscreen for Face, 1.7oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/61esHiSrW-L._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B077TQR6ZW.jpg",
     "price": 18.92,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61esHiSrW-L._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B077TQR6ZW.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Sunscreen & Daily Defense",
@@ -1089,15 +1137,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 16671,
     "supplierCost": 14.19,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 23.65,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Ultra-Light Moisturizing Lotion SPF 30, Sunscreen for Face, 1.7oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B077TQR6ZW).",
-    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating."
+    "shortDescription": "CeraVe Ultra-Light Moisturizing Lotion SPF 30, Sunscreen for Face, 1.7oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Ultra-Light Moisturizing Lotion SPF 30, Sunscreen for Face, 1.7oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00D7BZNT2",
@@ -1106,16 +1157,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe SA Moisturizing Cream, Exfoliates and Softens Rough Skin, 12oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/61cCKPTNz6L._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00D7BZNT2.jpg",
     "price": 26.34,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61cCKPTNz6L._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00D7BZNT2.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -1130,16 +1181,19 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 23537,
     "supplierCost": 19.49,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 32.92,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe SA Moisturizing Cream, Exfoliates and Softens Rough Skin, 12oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00D7BZNT2).",
+    "shortDescription": "CeraVe SA Moisturizing Cream, Exfoliates and Softens Rough Skin, 12oz. Verified authentic, factory-sealed retail pack.",
     "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
-    "badge": "TikTok #1 Trending"
+    "badge": "TikTok #1 Trending",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe SA Moisturizing Cream, Exfoliates and Softens Rough Skin, 12oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07PNCCLD2",
@@ -1148,16 +1202,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Skin Brightening Vitamin C Serum for Face with Hyaluronic Acid, 1oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71h9qjljxIL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07PNCCLD2.jpg",
     "price": 32.68,
     "rating": 4.5,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71h9qjljxIL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07PNCCLD2.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
@@ -1172,15 +1226,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 44241,
     "supplierCost": 23.86,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 40.85,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Skin Brightening Vitamin C Serum for Face with Hyaluronic Acid, 1oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07PNCCLD2).",
-    "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+."
+    "shortDescription": "CeraVe Skin Brightening Vitamin C Serum for Face with Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Apply in the morning on thoroughly cleansed, dry skin.\n2. Dispense 3 to 4 drops directly into the palms or onto the face (avoiding the immediate eye contour).\n3. Gently massage and pat until completely absorbed. Allow 60 seconds before layering your daily moisturizer and always finish with broad-spectrum SPF 30+.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Skin Brightening Vitamin C Serum for Face with Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00U1YCRD8",
@@ -1189,16 +1246,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 8oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71y4LIPrA5L._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00U1YCRD8.jpg",
     "price": 17.18,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71y4LIPrA5L._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00U1YCRD8.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1213,15 +1270,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 84467,
     "supplierCost": 12.37,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 21.48,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 8oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00U1YCRD8).",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "shortDescription": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 8oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 8oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B08N7VJNNP",
@@ -1230,16 +1290,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Anti Itch Lotion, Hyaluronic Acid Body Moisturizer for Dry Skin,16oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71pUT0CsDoL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B08N7VJNNP.jpg",
     "price": 33.76,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71pUT0CsDoL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B08N7VJNNP.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Barrier Repair & Relief",
@@ -1254,15 +1314,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 17758,
     "supplierCost": 23.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 42.2,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Anti Itch Lotion, Hyaluronic Acid Body Moisturizer for Dry Skin,16oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B08N7VJNNP).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "CeraVe Anti Itch Lotion, Hyaluronic Acid Body Moisturizer for Dry Skin,16oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Anti Itch Lotion, Hyaluronic Acid Body Moisturizer for Dry Skin,16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B08CQDF382",
@@ -1271,16 +1334,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Hydrating Cream To Foam Cleanser, Gentle Face Cleanser, 19oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71fy2+mMZuL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B08CQDF382.jpg",
     "price": 27.09,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71fy2+mMZuL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B08CQDF382.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1295,15 +1358,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 26821,
     "supplierCost": 18.96,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 33.86,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Hydrating Cream To Foam Cleanser, Gentle Face Cleanser, 19oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B08CQDF382).",
-    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive."
+    "shortDescription": "CeraVe Hydrating Cream To Foam Cleanser, Gentle Face Cleanser, 19oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Hydrating Cream To Foam Cleanser, Gentle Face Cleanser, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00F97FHAW",
@@ -1312,16 +1378,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe AM Daily Facial Moisturizer with SPF 30, Face Sunscreen, 3oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/61Aaec1NSrL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00F97FHAW.jpg",
     "price": 19.96,
     "rating": 4.5,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61Aaec1NSrL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00F97FHAW.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Sunscreen & Daily Defense",
@@ -1336,15 +1402,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 98365,
     "supplierCost": 14.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 24.95,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe AM Daily Facial Moisturizer with SPF 30, Face Sunscreen, 3oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00F97FHAW).",
-    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating."
+    "shortDescription": "CeraVe AM Daily Facial Moisturizer with SPF 30, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe AM Daily Facial Moisturizer with SPF 30, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0BX6LGM56",
@@ -1353,16 +1422,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Moisturizing Cream for Itch Relief, Anti Itch Cream, 16oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/61Nc+q3wZRL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0BX6LGM56.jpg",
     "price": 32.39,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61Nc+q3wZRL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0BX6LGM56.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Barrier Repair & Relief",
@@ -1377,15 +1446,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 12174,
     "supplierCost": 23.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 40.49,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Moisturizing Cream for Itch Relief, Anti Itch Cream, 16oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0BX6LGM56).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "CeraVe Moisturizing Cream for Itch Relief, Anti Itch Cream, 16oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Moisturizing Cream for Itch Relief, Anti Itch Cream, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B077TWXCQV",
@@ -1394,16 +1466,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Salicylic Acid Body Wash, Exfoliates Rough and Bumpy Skin, 10oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/51Fc1P9He3L._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B077TWXCQV.jpg",
     "price": 19.16,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51Fc1P9He3L._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B077TWXCQV.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1418,15 +1490,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 37418,
     "supplierCost": 13.99,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 23.95,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Salicylic Acid Body Wash, Exfoliates Rough and Bumpy Skin, 10oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B077TWXCQV).",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "shortDescription": "CeraVe Salicylic Acid Body Wash, Exfoliates Rough and Bumpy Skin, 10oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Salicylic Acid Body Wash, Exfoliates Rough and Bumpy Skin, 10oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B087GNBPXT",
@@ -1435,16 +1510,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Moisturizing Cream, Face Body Moisturizer, Normal to Dry Skin, 8 Fl Oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71avA9No8HL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B087GNBPXT.jpg",
     "price": 18.78,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71avA9No8HL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B087GNBPXT.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -1459,15 +1534,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 149175,
     "supplierCost": 13.52,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 23.48,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Moisturizing Cream, Face Body Moisturizer, Normal to Dry Skin, 8 Fl Oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B087GNBPXT).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "CeraVe Moisturizing Cream, Face Body Moisturizer, Normal to Dry Skin, 8 Fl Oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Moisturizing Cream, Face Body Moisturizer, Normal to Dry Skin, 8 Fl Oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07RJ18VMF",
@@ -1476,16 +1554,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 19oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/51+yNMwODML._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07RJ18VMF.jpg",
     "price": 23.42,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51+yNMwODML._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07RJ18VMF.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1500,15 +1578,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 29260,
     "supplierCost": 16.63,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 29.28,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 19oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07RJ18VMF).",
-    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive."
+    "shortDescription": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 19oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07VWSN95S",
@@ -1517,16 +1598,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Resurfacing Retinol Face Serum with Niacinamide, Pore Minimizer, 1oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71zvPJqU7FL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07VWSN95S.jpg",
     "price": 23.56,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71zvPJqU7FL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07VWSN95S.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
@@ -1541,15 +1622,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 57377,
     "supplierCost": 16.49,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 29.45,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Resurfacing Retinol Face Serum with Niacinamide, Pore Minimizer, 1oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07VWSN95S).",
-    "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream."
+    "shortDescription": "CeraVe Resurfacing Retinol Face Serum with Niacinamide, Pore Minimizer, 1oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Resurfacing Retinol Face Serum with Niacinamide, Pore Minimizer, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B00TTD9BRC",
@@ -1558,16 +1642,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/61EidjXUBrL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B00TTD9BRC.jpg",
     "price": 24.52,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61EidjXUBrL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B00TTD9BRC.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -1582,15 +1666,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 149175,
     "supplierCost": 18.39,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 30.65,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B00TTD9BRC).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07Z9Y4M3C",
@@ -1599,16 +1686,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "La Roche-Posay Retinol Face Serum with Niacinamide & Hyaluronic Acid, 1oz",
     "size": "Standard Retail Pack",
     "brand": "La Roche-Posay",
-    "image": "https://m.media-amazon.com/images/I/611ZyUZeDyL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07Z9Y4M3C.jpg",
     "price": 61.63,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/611ZyUZeDyL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07Z9Y4M3C.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
@@ -1623,15 +1710,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 19256,
     "supplierCost": 44.99,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 77.04,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "La Roche-Posay Retinol Face Serum with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07Z9Y4M3C).",
-    "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream."
+    "shortDescription": "La Roche-Posay Retinol Face Serum with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "La Roche-Posay Retinol Face Serum with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01D2SVADM",
@@ -1640,16 +1730,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "La Roche-Posay Toleriane Dermallergo Night Cream with Vitamin E 1.35oz",
     "size": "Standard Retail Pack",
     "brand": "La Roche-Posay",
-    "image": "https://m.media-amazon.com/images/I/61gGx-QtfiL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B01D2SVADM.jpg",
     "price": 44.4,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61gGx-QtfiL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B01D2SVADM.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -1664,15 +1754,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 5092,
     "supplierCost": 31.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 55.5,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "La Roche-Posay Toleriane Dermallergo Night Cream with Vitamin E 1.35oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B01D2SVADM).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "La Roche-Posay Toleriane Dermallergo Night Cream with Vitamin E 1.35oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "La Roche-Posay Toleriane Dermallergo Night Cream with Vitamin E 1.35oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0CM47G1JJ",
@@ -1681,11 +1774,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "La Roche-Posay Cicaplast Gel B5 Repair Gel for Cracked Skin, 1.35oz",
     "size": "Standard Retail Pack",
     "brand": "La Roche-Posay",
-    "image": "https://m.media-amazon.com/images/I/51DNkL-r2uL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0CM47G1JJ.jpg",
     "price": 24.35,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51DNkL-r2uL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0CM47G1JJ.jpg"
     ],
     "reviews": [],
     "tagline": "Intensive Occlusive Barrier Recovery & Slugging Balm",
@@ -1706,7 +1799,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 1175,
     "supplierCost": 17.29,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 30.44,
     "keyIngredients": [
       "Medical-Grade Petrolatum",
@@ -1715,7 +1808,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Shea Butter"
     ],
     "shortDescription": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0060OUV5Y",
@@ -1724,11 +1820,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "La Roche-Posay Cicaplast Balm B5, Barrier Repair Cream for Dry Skin",
     "size": "Standard Retail Pack",
     "brand": "La Roche-Posay",
-    "image": "https://m.media-amazon.com/images/I/713Ca5aXpyL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0060OUV5Y.jpg",
     "price": 19.56,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/713Ca5aXpyL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0060OUV5Y.jpg"
     ],
     "reviews": [],
     "tagline": "Intensive Occlusive Barrier Recovery & Slugging Balm",
@@ -1749,7 +1845,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 23438,
     "supplierCost": 13.69,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 24.45,
     "keyIngredients": [
       "Medical-Grade Petrolatum",
@@ -1758,7 +1854,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Shea Butter"
     ],
     "shortDescription": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01IR8M1SA",
@@ -1767,16 +1866,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Hydrating Cleanser Bar, Soap-Free Face & Body Cleanser, 2-Pack",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71JhlIW8K6L._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B01IR8M1SA.jpg",
     "price": 18.24,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71JhlIW8K6L._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B01IR8M1SA.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1791,15 +1890,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 7142,
     "supplierCost": 13.68,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 22.8,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Hydrating Cleanser Bar, Soap-Free Face & Body Cleanser, 2-Pack. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B01IR8M1SA).",
-    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive."
+    "shortDescription": "CeraVe Hydrating Cleanser Bar, Soap-Free Face & Body Cleanser, 2-Pack. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Hydrating Cleanser Bar, Soap-Free Face & Body Cleanser, 2-Pack. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B097WFJ5H2",
@@ -1808,16 +1910,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 8 oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/713XbsnceQL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B097WFJ5H2.jpg",
     "price": 19.24,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/713XbsnceQL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B097WFJ5H2.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1832,15 +1934,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 23892,
     "supplierCost": 14.24,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 24.05,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 8 oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B097WFJ5H2).",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "shortDescription": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 8 oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 8 oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0CTTDLQF3",
@@ -1849,16 +1954,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe AM Daily Facial Moisturizer with SPF 50, Face Sunscreen, 3oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/61pNJwG1erL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0CTTDLQF3.jpg",
     "price": 20.53,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61pNJwG1erL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0CTTDLQF3.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Sunscreen & Daily Defense",
@@ -1873,15 +1978,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 5205,
     "supplierCost": 14.99,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 25.66,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe AM Daily Facial Moisturizer with SPF 50, Face Sunscreen, 3oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0CTTDLQF3).",
-    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating."
+    "shortDescription": "CeraVe AM Daily Facial Moisturizer with SPF 50, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe AM Daily Facial Moisturizer with SPF 50, Face Sunscreen, 3oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B016F3MG2U",
@@ -1890,11 +1998,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Healing Ointment, Hyaluronic Acid Skin Protectant for Dry Skin, 12oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71NcqbFKTFL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B016F3MG2U.jpg",
     "price": 25.82,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71NcqbFKTFL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B016F3MG2U.jpg"
     ],
     "reviews": [],
     "tagline": "Intensive Occlusive Barrier Recovery & Slugging Balm",
@@ -1915,7 +2023,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 44778,
     "supplierCost": 18.59,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 32.27,
     "keyIngredients": [
       "Medical-Grade Petrolatum",
@@ -1924,7 +2032,10 @@ export const INITIAL_PRODUCTS: Product[] = [
       "Shea Butter"
     ],
     "shortDescription": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "Intensive soothing balm formulated with dermatologist-approved active emollients to seal micro-fissures, calm redness, and lock in restorative cellular moisture for 48 hours. Key actives: Medical-Grade Petrolatum, 5% Panthenol (Pro-Vit B5), Madecassoside, Shea Butter. Formulated for dry, cracked, compromised skin & lips. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07YLJPMC3",
@@ -1933,16 +2044,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Foaming Acne Cream Cleanser, Face Wash with 4% Benzoyl Peroxide, 5oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/81OQHXYinzL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07YLJPMC3.jpg",
     "price": 19.18,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/81OQHXYinzL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07YLJPMC3.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -1957,15 +2068,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 35967,
     "supplierCost": 13.62,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 23.98,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Foaming Acne Cream Cleanser, Face Wash with 4% Benzoyl Peroxide, 5oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07YLJPMC3).",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "shortDescription": "CeraVe Foaming Acne Cream Cleanser, Face Wash with 4% Benzoyl Peroxide, 5oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Foaming Acne Cream Cleanser, Face Wash with 4% Benzoyl Peroxide, 5oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0DW62T7Z9",
@@ -1974,16 +2088,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Intensive Moisturizing Cream with Shea Butter for Dry Skin, 19oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71+UotrJPgL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0DW62T7Z9.jpg",
     "price": 31.4,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71+UotrJPgL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0DW62T7Z9.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Moisturizing Creams",
@@ -1998,15 +2112,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 3254,
     "supplierCost": 21.98,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 39.25,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Intensive Moisturizing Cream with Shea Butter for Dry Skin, 19oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0DW62T7Z9).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "CeraVe Intensive Moisturizing Cream with Shea Butter for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Intensive Moisturizing Cream with Shea Butter for Dry Skin, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07XJ7XWLW",
@@ -2015,16 +2132,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Retinol Serum for Face with Niacinamide & Hyaluronic Acid, 1oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71R7zJGeXwL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07XJ7XWLW.jpg",
     "price": 24.16,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71R7zJGeXwL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07XJ7XWLW.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Active Serums & Toners",
@@ -2039,15 +2156,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 28968,
     "supplierCost": 18.12,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 30.2,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Retinol Serum for Face with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07XJ7XWLW).",
-    "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream."
+    "shortDescription": "CeraVe Retinol Serum for Face with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Use exclusively at night as part of your evening routine.\n2. After cleansing, apply a pea-sized amount evenly across dry face and neck, avoiding the eye and lip borders.\n3. Introduce gradually: use 2 nights per week for the first two weeks, progressing to every other night as your skin adapts. Always follow with a soothing barrier cream.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Retinol Serum for Face with Niacinamide & Hyaluronic Acid, 1oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B08CQ9T6KN",
@@ -2056,16 +2176,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 16oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/717lRkBFR3L._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B08CQ9T6KN.jpg",
     "price": 21.58,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/717lRkBFR3L._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B08CQ9T6KN.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -2080,15 +2200,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 84467,
     "supplierCost": 15.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 26.97,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 16oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B08CQ9T6KN).",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "shortDescription": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 16oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Renewing Salicylic Acid Cleanser, Gentle Exfoliating Face Wash, 16oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B0C7JJG6BB",
@@ -2097,16 +2220,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 16 oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/61A8RtysNcL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B0C7JJG6BB.jpg",
     "price": 23.62,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61A8RtysNcL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B0C7JJG6BB.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -2121,15 +2244,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 23892,
     "supplierCost": 17.24,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 29.53,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 16 oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B0C7JJG6BB).",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "shortDescription": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 16 oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Acne Control Cleanser, Face Wash with 2% Salicylic Acid, 16 oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07RL88DD2",
@@ -2138,16 +2264,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,19oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/51flyLJHWtL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B07RL88DD2.jpg",
     "price": 23.57,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51flyLJHWtL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B07RL88DD2.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -2162,15 +2288,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 133913,
     "supplierCost": 16.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 29.46,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,19oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07RL88DD2).",
-    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive."
+    "shortDescription": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,19oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B07RK4HST7",
@@ -2179,16 +2308,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/71llkeOBhgL._AC_UL320_.jpg",
+    "image": "/uploads/products/bundle-el-nino-3.jpg",
     "price": 25.55,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71llkeOBhgL._AC_UL320_.jpg"
+      "/uploads/products/bundle-el-nino-3.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Radiant Body Care",
@@ -2203,15 +2332,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 153609,
     "supplierCost": 18.14,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 31.94,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B07RK4HST7).",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "shortDescription": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "amz-prod-B01N1LL62W",
@@ -2220,16 +2352,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz",
     "size": "Standard Retail Pack",
     "brand": "CeraVe",
-    "image": "https://m.media-amazon.com/images/I/516r6ghtxaL._AC_UL320_.jpg",
+    "image": "/uploads/products/amz-prod-B01N1LL62W.jpg",
     "price": 22.81,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/516r6ghtxaL._AC_UL320_.jpg"
+      "/uploads/products/amz-prod-B01N1LL62W.jpg"
     ],
     "reviews": [],
-    "tagline": "Authentic Amazon Prime Express Delivery (2–4 Days)",
+    "tagline": "100% Authentic • Tracked Express Delivery (2–5 Days)",
     "benefits": [
-      "2–4 Days Express Prime Courier Dispatch",
+      "2–4 Days Tracked Express Courier Dispatch",
       "100% Genuine Guaranteed Formula"
     ],
     "category": "Gentle Cleansers & Masks",
@@ -2244,38 +2376,41 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 180,
     "reviewCount": 76792,
     "supplierCost": 15.97,
-    "soldCountText": "Amazon Bestseller Catalog",
+    "soldCountText": "Bestseller",
     "compareAtPrice": 28.51,
     "keyIngredients": [
       "Active Skin Emollients",
       "Ceramides",
       "Hyaluronic Acid"
     ],
-    "shortDescription": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz. Verified authentic batch registered under Amazon Bestseller Catalog (ASIN: B01N1LL62W).",
-    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive."
+    "shortDescription": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz. Verified authentic, factory-sealed retail pack.",
+    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
+    "supplierSource": "Direct Pharmaceutical Wholesale",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
+    "description": "CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz. Verified authentic, factory-sealed retail pack. Key actives: Active Skin Emollients, Ceramides, Hyaluronic Acid. Formulated for all skin types. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-15",
     "sku": "AMZ-CER-0015",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B000YJ2SLG), manufactured in New York, USA, and certified under National Eczema Association Seal, Non-Comedogenic, Fragrance-Free.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B000YJ2SLG), manufactured in New York, USA, and certified under National Eczema Association Seal, Non-Comedogenic, Fragrance-Free.",
         "question": "How is the authenticity and source of CeraVe Daily Moisturizing Lotion for Dry Skin verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "CeraVe Daily Moisturizing Lotion for Dry Skin",
     "size": "355ml / 12 fl oz Pump",
     "badge": "Oil-Free Daily",
     "brand": "CeraVe",
-    "image": "https://images.openbeautyfacts.org/images/products/333/787/559/8750/front_en.20.400.jpg",
+    "image": "/uploads/products/prod-cerave-15.jpg",
     "price": 7.73,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/333/787/559/8750/front_en.20.400.jpg"
+      "/uploads/products/prod-cerave-15.jpg"
     ],
     "reviews": [
       {
@@ -2323,7 +2458,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 179,
     "reviewCount": 78200,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.8,
     "soldCountText": "Over 80K+ units sold",
     "compareAtPrice": 9.66,
@@ -2335,30 +2470,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Lightweight, oil-free lotion that hydrates skin and helps restore natural barrier without feeling heavy or greasy.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Lightweight, oil-free lotion that hydrates skin and helps restore natural barrier without feeling heavy or greasy. Key actives: Ceramides 1, 3, 6-II, Hyaluronic Acid, Caprylic/Capric Triglyceride, Glycerin. Formulated for normal to dry skin. Size: 355ml / 12 fl oz Pump. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-16",
     "sku": "AMZ-CER-0016",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B00365DABC), manufactured in New York, USA, and certified under Dermatologist Developed, Non-Comedogenic, Fragrance-Free.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B00365DABC), manufactured in New York, USA, and certified under Dermatologist Developed, Non-Comedogenic, Fragrance-Free.",
         "question": "How is the authenticity and source of CeraVe PM Facial Moisturizing Lotion with Niacinamide verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "CeraVe PM Facial Moisturizing Lotion with Niacinamide",
     "size": "89ml / 3 fl oz Pump",
     "badge": "4% Niacinamide",
     "brand": "CeraVe",
-    "image": "https://images.openbeautyfacts.org/images/products/360/600/053/7453/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-cerave-16.jpg",
     "price": 8.38,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/360/600/053/7453/front_en.3.400.jpg"
+      "/uploads/products/prod-cerave-16.jpg"
     ],
     "reviews": [
       {
@@ -2406,7 +2542,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 71,
     "reviewCount": 62400,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.2,
     "soldCountText": "Over 60K+ units sold",
     "compareAtPrice": 10.48,
@@ -2417,30 +2553,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Ultra-lightweight night moisturizer formulated with Niacinamide to calm redness, soothe inflammation, and restore skin barrier.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Ultra-lightweight night moisturizer formulated with Niacinamide to calm redness, soothe inflammation, and restore skin barrier. Key actives: 4% Pure Niacinamide (Vit B3), Ceramides NP, AP, EOP, Hyaluronic Acid. Formulated for all skin types & acne-prone skin. Size: 89ml / 3 fl oz Pump. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-20",
     "sku": "AMZ-CER-0020",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B00SNPCSUY), manufactured in New York, USA, and certified under Dermatologist Developed, Non-Comedogenic, Fragrance-Free.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B00SNPCSUY), manufactured in New York, USA, and certified under Dermatologist Developed, Non-Comedogenic, Fragrance-Free.",
         "question": "How is the authenticity and source of CeraVe Skin Renewing Night Cream Peptides Complex verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "CeraVe Skin Renewing Night Cream Peptides Complex",
     "size": "48g Jar",
     "badge": "Biomimetic Peptides",
     "brand": "CeraVe",
-    "image": "https://images.openbeautyfacts.org/images/products/030/187/248/4029/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-cerave-20.jpg",
     "price": 11.51,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/030/187/248/4029/front_en.3.400.jpg"
+      "/uploads/products/prod-cerave-20.jpg"
     ],
     "reviews": [
       {
@@ -2488,7 +2625,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 482,
     "reviewCount": 38400,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "soldCountText": "Over 30K+ units sold",
     "compareAtPrice": 14.39,
@@ -2500,30 +2637,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with an exclusive peptide complex to support skin renewal while sleeping, reducing the look of fatigue and fine lines.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Formulated with an exclusive peptide complex to support skin renewal while sleeping, reducing the look of fatigue and fine lines. Key actives: Biomimetic Peptide Complex (Tripeptide-1, Tetrapeptide-7), Niacinamide, 3 Ceramides, Hyaluronic Acid. Formulated for tired, aging, dull skin. Size: 48g Jar. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cerave-21",
     "sku": "AMZ-CER-0021",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B01MSSDEPK), manufactured in New York, USA, and certified under National Eczema Association Accepted, Non-Comedogenic, Fragrance-Free.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B01MSSDEPK), manufactured in New York, USA, and certified under National Eczema Association Accepted, Non-Comedogenic, Fragrance-Free.",
         "question": "How is the authenticity and source of CeraVe Hydrating Facial Cleanser Non-Foaming verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "CeraVe Hydrating Facial Cleanser Non-Foaming",
     "size": "473ml / 16 fl oz Pump",
     "badge": "Non-Stripping",
     "brand": "CeraVe",
-    "image": "https://images.openbeautyfacts.org/images/products/333/787/559/7180/front_en.35.400.jpg",
+    "image": "/uploads/products/prod-cerave-21.jpg",
     "price": 7.5,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/333/787/559/7180/front_en.35.400.jpg"
+      "/uploads/products/prod-cerave-21.jpg"
     ],
     "reviews": [
       {
@@ -2571,7 +2709,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 484,
     "reviewCount": 92000,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.4,
     "soldCountText": "Over 100K+ units sold",
     "compareAtPrice": 9.38,
@@ -2583,7 +2721,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Unique non-foaming formula cleanses and hydrates skin while maintaining its natural protective barrier with 3 ceramides.",
-    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive."
+    "howToUse": "1. Splash face with lukewarm water. Pump a coin-sized amount into clean hands and work into a light lather.\n2. Gently massage over damp face in circular motions for 60 seconds, paying attention to the T-zone and jawline.\n3. Rinse thoroughly with lukewarm water and pat dry gently with a clean towel. Proceed immediately with your hydrating toner or essence while skin remains receptive.",
+    "description": "Unique non-foaming formula cleanses and hydrates skin while maintaining its natural protective barrier with 3 ceramides. Key actives: Ceramides 1, 3, 6-II, Hyaluronic Acid, Glycerin, Cetearyl Alcohol. Formulated for normal to dry & sensitive face. Size: 473ml / 16 fl oz Pump. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-22",
@@ -2594,19 +2733,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Balm verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Balm",
     "size": "100ml Large Tube",
     "badge": "Cult Repair Balm",
     "brand": "La Roche-Posay",
-    "image": "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg",
+    "image": "/uploads/products/prod-larocheposay-22.jpg",
     "price": 11.97,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/333/787/581/6847/front_fr.12.400.jpg"
+      "/uploads/products/prod-larocheposay-22.jpg"
     ],
     "reviews": [
       {
@@ -2654,7 +2793,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 124,
     "reviewCount": 68400,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.5,
     "soldCountText": "TikTok #SkinCycling Essential (3.2B Views)",
     "compareAtPrice": 14.96,
@@ -2667,7 +2806,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "French pharmacy legend formulated with 5% Panthenol, Madecassoside, and Tribioma prebiotics to soothe and repair compromised skin barriers.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "French pharmacy legend formulated with 5% Panthenol, Madecassoside, and Tribioma prebiotics to soothe and repair compromised skin barriers. Key actives: 5% Panthenol (Pro-Vit B5), Madecassoside (Centella), Tribioma Prebiotic Complex, Shea Butter, Zinc Gluconate. Formulated for dry, cracked, compromised skin & lips. Size: 100ml Large Tube. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-23",
@@ -2678,19 +2818,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF 50+ verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF 50+",
     "size": "50ml Shaker Bottle",
     "badge": "Mexoryl 400 Tech",
     "brand": "La Roche-Posay",
-    "image": "https://images.openbeautyfacts.org/images/products/333/787/577/7797/front_fr.5.400.jpg",
+    "image": "/uploads/products/prod-larocheposay-23.jpg",
     "price": 14.86,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/333/787/577/7797/front_fr.5.400.jpg"
+      "/uploads/products/prod-larocheposay-23.jpg"
     ],
     "reviews": [
       {
@@ -2738,7 +2878,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 267,
     "reviewCount": 42800,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10.4,
     "soldCountText": "Over 50K+ units sold globally",
     "compareAtPrice": 18.57,
@@ -2750,7 +2890,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Equipped with patented Mexoryl 400, the only filter proven to protect against the most damaging ultra-long UVA rays (380-400nm).",
-    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating."
+    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
+    "description": "Equipped with patented Mexoryl 400, the only filter proven to protect against the most damaging ultra-long UVA rays (380-400nm). Key actives: Mexoryl 400 (Methoxypropylamino Cyclohexenylidene), Netlock Technology, Vitamin E, La Roche-Posay Thermal Water. Formulated for all skin types & sun sensitive skin. Size: 50ml Shaker Bottle. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-24",
@@ -2761,19 +2902,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of La Roche-Posay Hyalu B5 Pure Hyaluronic Acid Serum verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "La Roche-Posay Hyalu B5 Pure Hyaluronic Acid Serum",
     "size": "30ml Dropper Bottle",
     "badge": "Dual HA Plumper",
     "brand": "La Roche-Posay",
-    "image": "https://images.openbeautyfacts.org/images/products/333/787/558/3626/front_fr.8.400.jpg",
+    "image": "/uploads/products/prod-larocheposay-24.jpg",
     "price": 19.33,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/333/787/558/3626/front_fr.8.400.jpg"
+      "/uploads/products/prod-larocheposay-24.jpg"
     ],
     "reviews": [
       {
@@ -2821,7 +2962,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 492,
     "reviewCount": 31500,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 14.5,
     "soldCountText": "Over 30K+ units sold",
     "compareAtPrice": 24.16,
@@ -2833,7 +2974,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Intense plumping serum combining macro and micro hyaluronic acid to hydrate surface layers and stimulate dermal recovery.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Intense plumping serum combining macro and micro hyaluronic acid to hydrate surface layers and stimulate dermal recovery. Key actives: Macro Hyaluronic Acid, Micro Hyaluronic Acid, 5% Vitamin B5, Madecassoside. Formulated for dehydrated, dull & fine-lined skin. Size: 30ml Dropper Bottle. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-25",
@@ -2844,19 +2986,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of La Roche-Posay Lipikar Balm AP+M Triple-Repair Lipid Cream verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "La Roche-Posay Lipikar Balm AP+M Triple-Repair Lipid Cream",
     "size": "400ml Pump Bottle",
     "badge": "Microbiome Science",
     "brand": "La Roche-Posay",
-    "image": "https://images.openbeautyfacts.org/images/products/333/787/569/6548/front_fr.27.400.jpg",
+    "image": "/uploads/products/prod-larocheposay-25.jpg",
     "price": 12.43,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/333/787/569/6548/front_fr.27.400.jpg"
+      "/uploads/products/prod-larocheposay-25.jpg"
     ],
     "reviews": [
       {
@@ -2904,7 +3046,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 316,
     "reviewCount": 38900,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.2,
     "soldCountText": "Over 40K+ units sold",
     "compareAtPrice": 15.54,
@@ -2916,7 +3058,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with Aqua Posae Filiformis and Microresyl to rebalance skin microbiome and space out severe dry skin flare-ups.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Formulated with Aqua Posae Filiformis and Microresyl to rebalance skin microbiome and space out severe dry skin flare-ups. Key actives: Aqua Posae Filiformis (Prebiotic), 20% Pure Shea Butter, Niacinamide, Microresyl. Formulated for atopic, extremely dry & itchy skin. Size: 400ml Pump Bottle. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-larocheposay-26",
@@ -2927,19 +3070,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of La Roche-Posay Effaclar Duo+ M Dual Action Blemish Treatment verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "La Roche-Posay Effaclar Duo+ M Dual Action Blemish Treatment",
     "size": "40ml Precision Tube",
     "badge": "8-Hour Visible Action",
     "brand": "La Roche-Posay",
-    "image": "https://images.openbeautyfacts.org/images/products/333/787/586/3377/front_fr.3.400.jpg",
+    "image": "/uploads/products/prod-larocheposay-26.jpg",
     "price": 12.19,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/333/787/586/3377/front_fr.3.400.jpg"
+      "/uploads/products/prod-larocheposay-26.jpg"
     ],
     "reviews": [
       {
@@ -2987,7 +3130,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 252,
     "reviewCount": 45200,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.9,
     "soldCountText": "Over 50K+ units sold",
     "compareAtPrice": 15.24,
@@ -3000,7 +3143,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Corrective treatment powered by microbiome science (Phylobioma) to visibly reduce blackheads, whiteheads, and post-acne marks.",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "description": "Corrective treatment powered by microbiome science (Phylobioma) to visibly reduce blackheads, whiteheads, and post-acne marks. Key actives: Phylobioma Active, Procerad (Patented Anti-Mark Ceramide), Niacinamide, Salicylic Acid, Zinc PCA. Formulated for oily, blemish-prone & acne-prone skin. Size: 40ml Precision Tube. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cosrx-28",
@@ -3011,19 +3155,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of COSRX Advanced Snail 96 Mucin Power Essence verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "COSRX Advanced Snail 96 Mucin Power Essence",
     "size": "100ml / 3.38 fl. oz Pump",
     "badge": "TikTok #1 Viral",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg",
+    "image": "/uploads/products/prod-cosrx-28.jpg",
     "price": 10,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61p-wtpDraL._AC_SL1500_.jpg"
+      "/uploads/products/prod-cosrx-28.jpg"
     ],
     "reviews": [
       {
@@ -3071,7 +3215,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 57,
     "reviewCount": 96000,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "soldCountText": "4.8 Billion TikTok Views (#SnailMucin)",
     "compareAtPrice": 12.5,
@@ -3084,7 +3228,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Lightweight essence formulated with 96.3% snail secretion filtrate that absorbs quickly to deliver intense glow and barrier repair.",
-    "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated."
+    "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated.",
+    "description": "Lightweight essence formulated with 96.3% snail secretion filtrate that absorbs quickly to deliver intense glow and barrier repair. Key actives: 96.3% Snail Secretion Filtrate, Sodium Hyaluronate, Allantoin, Panthenol, Arginine. Formulated for dehydrated, damaged barrier & acne scars. Size: 100ml / 3.38 fl. oz Pump. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-cosrx-29",
@@ -3095,19 +3240,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of COSRX Advanced Snail 92 All in One Cream verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "COSRX Advanced Snail 92 All in One Cream",
     "size": "100g Jar",
     "badge": "Glass Skin Gel",
     "brand": "COSRX",
-    "image": "https://images.openbeautyfacts.org/images/products/880/959/845/0912/front_en.7.400.jpg",
+    "image": "/uploads/products/prod-cosrx-29.jpg",
     "price": 10.99,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/959/845/0912/front_en.7.400.jpg"
+      "/uploads/products/prod-cosrx-29.jpg"
     ],
     "reviews": [
       {
@@ -3155,7 +3300,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 139,
     "reviewCount": 48900,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.8,
     "soldCountText": "Over 50K+ units sold",
     "compareAtPrice": 13.74,
@@ -3167,7 +3312,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Moisturizing cream containing 92% filtered snail mucin to soothe sensitized skin and lock in moisture without clogging pores.",
-    "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated."
+    "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated.",
+    "description": "Moisturizing cream containing 92% filtered snail mucin to soothe sensitized skin and lock in moisture without clogging pores. Key actives: 92% Snail Secretion Filtrate, Betaine, Caprylic/Capric Triglyceride, Cetearyl Olivate. Formulated for all skin types & aging skin. Size: 100g Jar. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-beautyofjoseon-30",
@@ -3178,19 +3324,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+ verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+",
     "size": "50ml Tube",
     "badge": "TikTok #1 Trending",
     "brand": "Beauty of Joseon",
-    "image": "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg",
+    "image": "/uploads/products/bundle-el-nino-2.jpg",
     "price": 9.29,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/996/813/0277/front_nl.21.400.jpg"
+      "/uploads/products/bundle-el-nino-2.jpg"
     ],
     "reviews": [
       {
@@ -3238,7 +3384,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 170,
     "reviewCount": 54100,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.5,
     "soldCountText": "1.9 Billion TikTok Views (#ReliefSun)",
     "compareAtPrice": 11.61,
@@ -3250,7 +3396,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Chemical sunscreen formulated with fermented rice bran and probiotics that glides on like a hydrating day cream with zero white cast.",
-    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating."
+    "howToUse": "1. Apply as the final step of your morning skincare routine, at least 15 minutes before direct sun exposure.\n2. Dispense a full two-finger lengths of product to cover face, ears, and neck adequately.\n3. Reapply generously every 2 hours during continuous outdoor activity, or immediately after towel drying, swimming, or excessive sweating.",
+    "description": "Chemical sunscreen formulated with fermented rice bran and probiotics that glides on like a hydrating day cream with zero white cast. Key actives: 30% Oryza Sativa (Rice) Extract, Grain Fermented Probiotics, Niacinamide 2%, Tocopherol (Vit E). Formulated for all skin types & sensitive skin. Size: 50ml Tube. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-beautyofjoseon-31",
@@ -3261,19 +3408,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of Beauty of Joseon Dynasty Cream Royal Hydration verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Beauty of Joseon Dynasty Cream Royal Hydration",
     "size": "50ml Classic Hanbang Jar",
     "badge": "TikTok #1 Trending",
     "brand": "Beauty of Joseon",
-    "image": "https://images.openbeautyfacts.org/images/products/880/973/831/2728/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-31.jpg",
     "price": 10.67,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/973/831/2728/front_en.3.400.jpg"
+      "/uploads/products/prod-beautyofjoseon-31.jpg"
     ],
     "reviews": [
       {
@@ -3321,7 +3468,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 380,
     "reviewCount": 32400,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8,
     "soldCountText": "Over 35K+ units sold",
     "compareAtPrice": 13.34,
@@ -3334,7 +3481,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Inspired by royal Joseon dynasty court beauty rituals, this nourishing cream delivers deep Hanbang herbal moisture and natural glow.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Inspired by royal Joseon dynasty court beauty rituals, this nourishing cream delivers deep Hanbang herbal moisture and natural glow. Key actives: Rice Bran Water (29%), Panax Ginseng Root Water (5%), Squalane (2%), Niacinamide (2%), Honey Extract. Formulated for dry, normal, dehydrated skin. Size: 50ml Classic Hanbang Jar. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-anua-32",
@@ -3345,19 +3493,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of Anua Heartleaf 77% Soothing Toner Balance & Calm verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Anua Heartleaf 77% Soothing Toner Balance & Calm",
     "size": "250ml Clear Bottle",
     "badge": "Viral Glass Skin",
     "brand": "Anua",
-    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg",
+    "image": "/uploads/products/prod-anua-32.jpg",
     "price": 10.68,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/964/073/6025/front_nl.3.400.jpg"
+      "/uploads/products/prod-anua-32.jpg"
     ],
     "reviews": [
       {
@@ -3405,7 +3553,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 179,
     "reviewCount": 38200,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.9,
     "soldCountText": "2.4 Billion TikTok Views (#7SkinMethod)",
     "compareAtPrice": 13.35,
@@ -3418,7 +3566,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with 77% Heartleaf extract grown and harvested in Korea, clinically proven to cool inflamed redness and restore pH balance.",
-    "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated."
+    "howToUse": "1. After cleansing, dispense 2 to 3 pumps or drops into the palms of your clean hands.\n2. Smooth and press gently over the face and neck until fully absorbed; do not wipe off.\n3. Pat lightly with fingertips to facilitate dermal penetration. Follow immediately with your favorite moisturizer or night barrier cream while skin is still hydrated.",
+    "description": "Formulated with 77% Heartleaf extract grown and harvested in Korea, clinically proven to cool inflamed redness and restore pH balance. Key actives: 77% Houttuynia Cordata (Heartleaf) Extract, Centella Asiatica, Chamomilla Flower Extract, Panthenol, Betaine. Formulated for acne-prone, red, inflamed sensitive skin. Size: 250ml Clear Bottle. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-skin1004-33",
@@ -3429,19 +3578,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of Skin1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Skin1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum",
     "size": "50ml Pump Tube",
     "badge": "TikTok #1 Trending",
     "brand": "Skin1004",
-    "image": "https://images.openbeautyfacts.org/images/products/880/957/626/1592/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-skin1004-33.jpg",
     "price": 9.32,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/957/626/1592/front_en.3.400.jpg"
+      "/uploads/products/prod-skin1004-33.jpg"
     ],
     "reviews": [
       {
@@ -3489,7 +3638,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 186,
     "reviewCount": 31800,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.8,
     "soldCountText": "Over 35K+ units sold",
     "compareAtPrice": 11.65,
@@ -3501,7 +3650,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Ultra-hydrating chemical sunscreen with an airy serum consistency that calms sensitized skin and leaves no stickiness.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Ultra-hydrating chemical sunscreen with an airy serum consistency that calms sensitized skin and leaves no stickiness. Key actives: Pure Madagascar Centella Asiatica, Hyalu-Cica Complex, Niacinamide, Betula Platyphylla Japonica Juice. Formulated for dry, cracked, compromised skin & lips. Size: 50ml Pump Tube. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-roundlab-34",
@@ -3512,19 +3662,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of Round Lab 1025 Dokdo Cream Deep Mineral Barrier verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Round Lab 1025 Dokdo Cream Deep Mineral Barrier",
     "size": "80ml Tub",
     "badge": "Deep Sea Minerals",
     "brand": "Round Lab",
-    "image": "https://images.openbeautyfacts.org/images/products/880/973/860/0245/front_nl.4.400.jpg",
+    "image": "/uploads/products/prod-roundlab-34.jpg",
     "price": 11.81,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/973/860/0245/front_nl.4.400.jpg"
+      "/uploads/products/prod-roundlab-34.jpg"
     ],
     "reviews": [
       {
@@ -3572,7 +3722,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 398,
     "reviewCount": 22100,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.5,
     "soldCountText": "Over 25K+ units sold",
     "compareAtPrice": 14.76,
@@ -3584,7 +3734,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with 72 types of naturally derived minerals from Ulleungdo deep sea water to maintain skin's optimal oil-water balance.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Formulated with 72 types of naturally derived minerals from Ulleungdo deep sea water to maintain skin's optimal oil-water balance. Key actives: Ulleungdo Deep Sea Water, Ceramides NP, AP, EOP, Panthenol, Allantoin. Formulated for dry & compromised skin. Size: 80ml Tub. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-torriden-35",
@@ -3595,19 +3746,19 @@ export const INITIAL_PRODUCTS: Product[] = [
         "question": "How is the authenticity and source of Torriden DIVE-IN Low Molecule Hyaluronic Acid Soothing Cream verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Torriden DIVE-IN Low Molecule Hyaluronic Acid Soothing Cream",
     "size": "100ml Tub",
     "badge": "5D Complex HA",
     "brand": "Torriden",
-    "image": "https://images.openbeautyfacts.org/images/products/880/978/460/1340/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-torriden-35.jpg",
     "price": 11.55,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/978/460/1340/front_en.3.400.jpg"
+      "/uploads/products/prod-torriden-35.jpg"
     ],
     "reviews": [
       {
@@ -3655,7 +3806,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 422,
     "reviewCount": 27900,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.2,
     "soldCountText": "Over 30K+ units sold",
     "compareAtPrice": 14.44,
@@ -3667,30 +3818,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Delivers 5 different molecular sizes of hyaluronic acid to hydrate inner and outer skin layers simultaneously with zero tackiness.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Delivers 5 different molecular sizes of hyaluronic acid to hydrate inner and outer skin layers simultaneously with zero tackiness. Key actives: 5 Types Low-Molecular Hyaluronic Acid, Malachite Extract (Natural Pastel Blue), Panthenol, Trehalose. Formulated for dehydrated oily & combination skin. Size: 100ml Tub. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-36",
     "sku": "AMZ-THE-0036",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B077BNSKMS), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B077BNSKMS), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
         "question": "How is the authenticity and source of The Ordinary Niacinamide 10% + Zinc 1% Oil Control Serum verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "The Ordinary Niacinamide 10% + Zinc 1% Oil Control Serum",
     "size": "60ml Value Dropper",
     "badge": "Global #1 Serum",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg",
+    "image": "/uploads/products/bundle-el-nino-4.jpg",
     "price": 5.43,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/5934/front_en.12.400.jpg"
+      "/uploads/products/bundle-el-nino-4.jpg"
     ],
     "reviews": [
       {
@@ -3738,7 +3890,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 365,
     "reviewCount": 98000,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 3.8,
     "soldCountText": "World's #1 Selling Skincare Serum",
     "compareAtPrice": 6.79,
@@ -3750,30 +3902,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "High-strength 10% Niacinamide combined with 1% Zinc PCA to balance visible sebum activity and decongest pores.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "High-strength 10% Niacinamide combined with 1% Zinc PCA to balance visible sebum activity and decongest pores. Key actives: 10% Pure Niacinamide (Vitamin B3), 1% Zinc PCA, Tamarind Seed Gum, Pentylene Glycol. Formulated for oily, blemish-prone & large pores. Size: 60ml Value Dropper. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-37",
     "sku": "AMZ-THE-0037",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B077BMV2Z7), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B077BMV2Z7), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
         "question": "How is the authenticity and source of The Ordinary Hyaluronic Acid 2% + B5 Hydration Support verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "The Ordinary Hyaluronic Acid 2% + B5 Hydration Support",
     "size": "60ml Value Dropper",
     "badge": "Multi-Depth HA",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0199/front_en.10.400.jpg",
+    "image": "/uploads/products/prod-theordinary-37.jpg",
     "price": 5.33,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/0199/front_en.10.400.jpg"
+      "/uploads/products/prod-theordinary-37.jpg"
     ],
     "reviews": [
       {
@@ -3821,7 +3974,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 140,
     "reviewCount": 74200,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4,
     "soldCountText": "Over 80K+ units sold",
     "compareAtPrice": 6.66,
@@ -3832,30 +3985,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Combines low, medium, and high-molecular-weight HA, plus a next-generation HA crosspolymer to deliver multi-layer hydration.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Combines low, medium, and high-molecular-weight HA, plus a next-generation HA crosspolymer to deliver multi-layer hydration. Key actives: Low, Med, High Molecular Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Provitamin B5 (Panthenol). Formulated for dehydrated & all skin types. Size: 60ml Value Dropper. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-38",
     "sku": "AMZ-THE-0038",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B072J9F3V1), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B072J9F3V1), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
         "question": "How is the authenticity and source of The Ordinary Glycolic Acid 7% Exfoliating Toner verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "The Ordinary Glycolic Acid 7% Exfoliating Toner",
     "size": "240ml Bottle",
     "badge": "7% AHA Exfoliant",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0977/front_en.21.400.jpg",
+    "image": "/uploads/products/prod-theordinary-38.jpg",
     "price": 7.03,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/0977/front_en.21.400.jpg"
+      "/uploads/products/prod-theordinary-38.jpg"
     ],
     "reviews": [
       {
@@ -3903,7 +4057,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 226,
     "reviewCount": 68100,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.2,
     "soldCountText": "TikTok Multi-Use Hero (2.8B Views)",
     "compareAtPrice": 8.79,
@@ -3915,30 +4069,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Exfoliates skin surface to boost clarity and radiance, balanced with Tasmanian Pepperberry to reduce acid-related irritation.",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "description": "Exfoliates skin surface to boost clarity and radiance, balanced with Tasmanian Pepperberry to reduce acid-related irritation. Key actives: 7% Glycolic Acid (AHA), Tasmanian Pepperberry Derivative, Ginseng Root, Aloe Vera Water. Formulated for dull, textured skin & uneven tone. Size: 240ml Bottle. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-theordinary-39",
     "sku": "AMZ-THE-0039",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B07F4MSV7H), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B07F4MSV7H), manufactured in Toronto, Canada, and certified under DECIEM Lab Quality Protocol, Cruelty-Free International, Vegan Certified.",
         "question": "How is the authenticity and source of The Ordinary Multi-Peptide + Copper Peptides 1% Serum verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "The Ordinary Multi-Peptide + Copper Peptides 1% Serum",
     "size": "30ml Dropper",
     "badge": "Copper Peptide Buffet",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/523/3179/front_tr.3.400.jpg",
+    "image": "/uploads/products/prod-theordinary-39.jpg",
     "price": 16.3,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/523/3179/front_tr.3.400.jpg"
+      "/uploads/products/prod-theordinary-39.jpg"
     ],
     "reviews": [
       {
@@ -3986,7 +4141,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 478,
     "reviewCount": 24100,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 11.9,
     "soldCountText": "Over 25K+ units sold",
     "compareAtPrice": 20.38,
@@ -3999,30 +4154,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "All-in-one anti-aging peptide powerhouse featuring 1% pure Copper Tripeptide-1, Matrixyl 3000, and Argirelox to rejuvenate collagen synthesis.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "All-in-one anti-aging peptide powerhouse featuring 1% pure Copper Tripeptide-1, Matrixyl 3000, and Argirelox to rejuvenate collagen synthesis. Key actives: 1% Copper Tripeptide-1 (GHK-Cu), Matrixyl 3000 Complex, Argirelox Peptide, SYN-AKE, Probiotics. Formulated for mature skin, fine lines & loss of elasticity. Size: 30ml Dropper. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-paulaschoice-40",
     "sku": "AMZ-PAU-0040",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B00949CTQQ), manufactured in Seattle, WA, USA, and certified under Leaping Bunny Certified Cruelty-Free, Clinical In-Vivo Pore Study, Dermatologist Tested.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B00949CTQQ), manufactured in Seattle, WA, USA, and certified under Leaping Bunny Certified Cruelty-Free, Clinical In-Vivo Pore Study, Dermatologist Tested.",
         "question": "How is the authenticity and source of Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
     "size": "118ml Full Size Bottle",
     "badge": "Cult 2% BHA",
     "brand": "Paula's Choice",
-    "image": "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg",
+    "image": "/uploads/products/prod-paulaschoice-40.jpg",
     "price": 18.75,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg"
+      "/uploads/products/prod-paulaschoice-40.jpg"
     ],
     "reviews": [
       {
@@ -4070,7 +4226,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 311,
     "reviewCount": 89000,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 13.5,
     "soldCountText": "Amazon #1 Facial Exfoliant Globally",
     "compareAtPrice": 23.44,
@@ -4081,30 +4237,31 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Award-winning leave-on exfoliant with 2% Salicylic Acid that sheds dead skin inside pore linings to unclog pores and even skin tone.",
-    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier."
+    "howToUse": "1. After gentle cleansing, apply a thin layer over target breakout zones or across entire face (avoiding eyes and lips).\n2. For leave-on exfoliants, do not rinse off; allow 1–2 minutes to penetrate before layering hydrating serums.\n3. Start with once-daily application (or every other day for sensitive skin) to maintain a healthy lipid barrier.",
+    "description": "Award-winning leave-on exfoliant with 2% Salicylic Acid that sheds dead skin inside pore linings to unclog pores and even skin tone. Key actives: 2% Salicylic Acid (BHA), Green Tea (Camellia Oleifera) Extract, Methylpropanediol. Formulated for combination, oily, blackhead-prone skin. Size: 118ml Full Size Bottle. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-paulaschoice-41",
     "sku": "AMZ-PAU-0041",
     "faqs": [
       {
-        "answer": "Every batch is registered under Amazon Bestseller Catalog (ASIN: B0CK2Q9L7Z), manufactured in Seattle, WA, USA, and certified under Leaping Bunny Certified Cruelty-Free, Dermatologist Tested, Fragrance-Free.",
+        "answer": "Every batch is registered under Bestseller (ASIN: B0CK2Q9L7Z), manufactured in Seattle, WA, USA, and certified under Leaping Bunny Certified Cruelty-Free, Dermatologist Tested, Fragrance-Free.",
         "question": "How is the authenticity and source of Paula's Choice Resist Barrier Repair Advanced Moisturizer verified?"
       },
       {
-        "answer": "2–4 Days (Amazon Prime Dropship). Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
-        "question": "What is the dropshipping delivery timeframe?"
+        "answer": "2–5 Days Tracked Express Delivery. Tracking numbers with real-time updates are generated within 12 hours of order confirmation.",
+        "question": "What is the shipping delivery timeframe?"
       }
     ],
     "name": "Paula's Choice Resist Barrier Repair Advanced Moisturizer",
     "size": "50ml Airless Pump",
     "badge": "5 Ceramides + Peptide",
     "brand": "Paula's Choice",
-    "image": "https://images.openbeautyfacts.org/images/products/065/543/901/5103/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-paulaschoice-41.jpg",
     "price": 20.85,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/065/543/901/5103/front_en.3.400.jpg"
+      "/uploads/products/prod-paulaschoice-41.jpg"
     ],
     "reviews": [
       {
@@ -4152,7 +4309,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 422,
     "reviewCount": 19400,
     "supplierMoq": 1,
-    "shippingDays": "2–4 Days (Amazon Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 14.8,
     "soldCountText": "Over 20K+ units sold",
     "compareAtPrice": 26.06,
@@ -4164,7 +4321,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "supplierSource": "Direct Pharmaceutical Wholesale",
     "shortDescription": "Formulated with 5 skin-identical ceramides and firming peptides to strengthen fragile barriers and prevent future moisture loss.",
-    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery."
+    "howToUse": "1. Warm a dime-to-nickel sized amount between fingertips.\n2. Smooth gently over cleansed, toned face, neck, and dry targeted areas using gentle upward motions.\n3. Use morning and night as the final moisturizing step to seal in active serums and support optimal stratum corneum barrier recovery.",
+    "description": "Formulated with 5 skin-identical ceramides and firming peptides to strengthen fragile barriers and prevent future moisture loss. Key actives: Ceramides AP, EOP, NP, AS, NS, Palmitoyl Tripeptide-1, Watermelon Seed Oil, Squalane. Formulated for normal, dry, compromised barrier. Size: 50ml Airless Pump. 100% authentic, factory-sealed and shipped with tracking."
   },
   {
     "id": "prod-eucerin-51",
@@ -4172,11 +4330,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Advanced Repair Cream for Very Dry Skin",
     "size": "454g Tub",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-51.jpg",
     "price": 10.29,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71+rQd50LJL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-51.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Ceramide-3 & Natural Moisturizing Factors (NMF).",
     "benefits": [
@@ -4198,7 +4356,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 150,
     "description": "Eucerin Advanced Repair Cream for Very Dry Skin is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Ceramide-3, Natural Moisturizing Factors (NMF) to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1503,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12.86,
     "keyIngredients": [
@@ -4214,11 +4372,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Roughness Relief Lotion with Urea & Ceramide",
     "size": "500ml Pump",
     "brand": "Eucerin",
-    "image": "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg",
+    "image": "/uploads/products/prod-eucerin-52.jpg",
     "price": 9.07,
     "rating": 4.6,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg"
+      "/uploads/products/prod-eucerin-52.jpg"
     ],
     "tagline": "Clinical Body Care formulation with Urea 10% & Ceramides.",
     "benefits": [
@@ -4239,7 +4397,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Roughness Relief Lotion with Urea & Ceramide is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Urea 10%, Ceramides, Sunflower Seed Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1576,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.8,
     "compareAtPrice": 11.34,
     "keyIngredients": [
@@ -4255,11 +4413,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Aquaphor Advanced Therapy Healing Ointment",
     "size": "396g Jar",
     "brand": "Eucerin",
-    "image": "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-eucerin-53.jpg",
     "price": 10.14,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/005/659/401/0482/front_en.3.400.jpg"
+      "/uploads/products/prod-eucerin-53.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Petrolatum 41% & Panthenol.",
     "benefits": [
@@ -4280,7 +4438,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Aquaphor Advanced Therapy Healing Ointment is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Petrolatum 41%, Panthenol, Glycerin, Bisabolol to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1649,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.5,
     "compareAtPrice": 12.68,
     "keyIngredients": [
@@ -4298,11 +4456,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Daily Hydration Broad Spectrum SPF 30 Body Cream",
     "size": "226g Tube",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/61yOVTDmzLL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-54.jpg",
     "price": 6.99,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61yOVTDmzLL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-54.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Avobenzone 3% & Homosalate 9%.",
     "benefits": [
@@ -4323,7 +4481,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Daily Hydration Broad Spectrum SPF 30 Body Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Avobenzone 3%, Homosalate 9%, Licochalcone A to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1722,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.1,
     "compareAtPrice": 8.74,
     "keyIngredients": [
@@ -4341,11 +4499,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "100ml Tube",
     "badge": "Best Seller",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/519Ec1efxTL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-55.jpg",
     "price": 7.5,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/519Ec1efxTL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-55.jpg"
     ],
     "tagline": "Clinical Body Care formulation with Urea 10% & Ceramides.",
     "benefits": [
@@ -4366,7 +4524,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin UreaRepair PLUS 10% Urea Intensive Foot Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Urea 10%, Ceramides, Lactate to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1795,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.4,
     "compareAtPrice": 9.38,
     "keyIngredients": [
@@ -4384,11 +4542,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Dropper",
     "badge": "Derm Recommended",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-56.jpg",
     "price": 23.66,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/715eN2dSvQL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-56.jpg"
     ],
     "tagline": "Clinical Serums formulation with Thiamidol® & Concentrated Hyaluronic Acid.",
     "benefits": [
@@ -4409,7 +4567,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Anti-Pigment Dual Serum Thiamidol Active is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Thiamidol®, Concentrated Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1868,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 16.8,
     "compareAtPrice": 29.57,
     "keyIngredients": [
@@ -4425,11 +4583,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Hyaluron-Filler + 3x Effect Night Cream",
     "size": "50ml Jar",
     "brand": "Eucerin",
-    "image": "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-eucerin-57.jpg",
     "price": 19.29,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/400/580/019/8687/front_en.3.400.jpg"
+      "/uploads/products/prod-eucerin-57.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Macro & Micro Hyaluronic Acid & Glycine Saponin.",
     "benefits": [
@@ -4450,7 +4608,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Hyaluron-Filler + 3x Effect Night Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Macro & Micro Hyaluronic Acid, Glycine Saponin, Enoxolone to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1941,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 13.5,
     "compareAtPrice": 24.11,
     "keyIngredients": [
@@ -4466,11 +4624,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin AtopiControl Acute Care Cream for Itch Relief",
     "size": "40ml Tube",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/718z5mbxxFL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-58.jpg",
     "price": 10.4,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/718z5mbxxFL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-58.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Licochalcone A & Decanediol.",
     "benefits": [
@@ -4491,7 +4649,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin AtopiControl Acute Care Cream for Itch Relief is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Licochalcone A, Decanediol, Menthoxypropanediol to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2014,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.8,
     "compareAtPrice": 13,
     "keyIngredients": [
@@ -4508,11 +4666,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Q10 Anti-Wrinkle Face Cream with Vitamin E",
     "size": "48g Jar",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-59.jpg",
     "price": 7.97,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71UlUCysQ6L._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-59.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Coenzyme Q10 & Vitamin E.",
     "benefits": [
@@ -4533,7 +4691,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Q10 Anti-Wrinkle Face Cream with Vitamin E is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Coenzyme Q10, Vitamin E, Beta-Carotene to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2087,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.9,
     "compareAtPrice": 9.96,
     "keyIngredients": [
@@ -4551,11 +4709,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Pump",
     "badge": "Best Seller",
     "brand": "Eucerin",
-    "image": "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg",
+    "image": "/uploads/products/prod-eucerin-60.jpg",
     "price": 12.33,
     "rating": 4.6,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/400/580/030/9854/front_de.3.400.jpg"
+      "/uploads/products/prod-eucerin-60.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with L-Carnitine & Licochalcone A.",
     "benefits": [
@@ -4576,7 +4734,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Sun Gel-Cream Oil Control Dry Touch SPF 50+ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with L-Carnitine, Licochalcone A, Glycyrrhetinic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2160,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9,
     "compareAtPrice": 15.41,
     "keyIngredients": [
@@ -4592,11 +4750,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin DermoPurifyer Oil Control Cleansing Gel",
     "size": "400ml Pump",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/61aGcpsxXoL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-61.jpg",
     "price": 10,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61aGcpsxXoL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-61.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Amphoteric Surfactants 6% & Salicylic Acid.",
     "benefits": [
@@ -4617,7 +4775,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin DermoPurifyer Oil Control Cleansing Gel is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Amphoteric Surfactants 6%, Salicylic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2233,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12.5,
     "keyIngredients": [
@@ -4634,11 +4792,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "454g Tub",
     "badge": "Derm Recommended",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/71wNnvzg2IL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-63.jpg",
     "price": 9.71,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71wNnvzg2IL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-63.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Petrolatum & Mineral Oil.",
     "benefits": [
@@ -4659,7 +4817,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Original Healing Cream Extremely Dry Compromised Skin is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Petrolatum, Mineral Oil, Ceresin, Lanolin Alcohol to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2379,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.8,
     "compareAtPrice": 12.14,
     "keyIngredients": [
@@ -4677,11 +4835,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Skin Calming Itch Relief Treatment Lotion",
     "size": "500ml Pump",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-64.jpg",
     "price": 8.53,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61NF99o8iyL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-64.jpg"
     ],
     "tagline": "Clinical Body Care formulation with Colloidal Oatmeal & Menthol.",
     "benefits": [
@@ -4702,7 +4860,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Skin Calming Itch Relief Treatment Lotion is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Colloidal Oatmeal, Menthol, Ceramide-3 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2452,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.4,
     "compareAtPrice": 10.66,
     "keyIngredients": [
@@ -4719,11 +4877,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Hyaluron-Filler Moisture Booster Ultralight Gel",
     "size": "30ml Pump",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-66.jpg",
     "price": 14.25,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61SGqwzaNzL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-66.jpg"
     ],
     "tagline": "Clinical Serums formulation with Medium & Short Chain Hyaluronic Acid & Glycerin.",
     "benefits": [
@@ -4744,7 +4902,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Hyaluron-Filler Moisture Booster Ultralight Gel is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Medium & Short Chain Hyaluronic Acid, Glycerin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 198,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10.4,
     "compareAtPrice": 17.81,
     "keyIngredients": [
@@ -4760,11 +4918,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Anti-Pigment Day Cream SPF 30 with Thiamidol",
     "size": "50ml Pump",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/71SUJ8xvN+L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-67.jpg",
     "price": 21.11,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71SUJ8xvN+L._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-67.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Thiamidol® & Broad Spectrum UVA/UVB SPF 30.",
     "benefits": [
@@ -4785,7 +4943,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Anti-Pigment Day Cream SPF 30 with Thiamidol is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Thiamidol®, Broad Spectrum UVA/UVB SPF 30 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 271,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 15.2,
     "compareAtPrice": 26.39,
     "keyIngredients": [
@@ -4802,11 +4960,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "200ml Spray",
     "badge": "Best Seller",
     "brand": "Eucerin",
-    "image": "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg",
+    "image": "/uploads/products/prod-eucerin-70.jpg",
     "price": 12.27,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/400/580/002/7932/front_fr.7.400.jpg"
+      "/uploads/products/prod-eucerin-70.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Advanced Spectral Technology & Licochalcone A.",
     "benefits": [
@@ -4828,7 +4986,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "description": "Eucerin Sun Sensitive Protect Sun Spray Transparent SPF 50 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Advanced Spectral Technology, Licochalcone A to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "imageSource": "openbeautyfacts",
     "reviewCount": 490,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.2,
     "compareAtPrice": 15.34,
     "keyIngredients": [
@@ -4844,11 +5002,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Eucerin Aquaphor Lip Repair Immediate Relief Ointment",
     "size": "10ml Tube",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/719w7q58vRL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-72.jpg",
     "price": 3.84,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/719w7q58vRL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-72.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Shea Butter & Chamomile Essence.",
     "benefits": [
@@ -4869,7 +5027,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Aquaphor Lip Repair Immediate Relief Ointment is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Shea Butter, Chamomile Essence, Vitamin C & E to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 636,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 2.8,
     "compareAtPrice": 4.8,
     "keyIngredients": [
@@ -4888,11 +5046,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "250ml Bottle",
     "badge": "Best Seller",
     "brand": "Eucerin",
-    "image": "https://m.media-amazon.com/images/I/61i8t1DKUaL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-eucerin-75.jpg",
     "price": 8.17,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61i8t1DKUaL._AC_UL320_.jpg"
+      "/uploads/products/prod-eucerin-75.jpg"
     ],
     "tagline": "Clinical Body Care formulation with Urea 5% & Ceramide NP.",
     "benefits": [
@@ -4913,7 +5071,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Eucerin Complete Repair Intensive Lotion 5% Urea is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Urea 5%, Ceramide NP, Gluconolactone to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 855,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.8,
     "compareAtPrice": 10.21,
     "keyIngredients": [
@@ -4930,11 +5088,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Cicalfate+ Restorative Protective Cream",
     "size": "100ml Tube",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-76.jpg",
     "price": 16,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61qSXmBPwGL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-76.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with [C+-Restore]™ Postbiotic & Copper-Zinc Sulfate.",
     "benefits": [
@@ -4955,7 +5113,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Cicalfate+ Restorative Protective Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with [C+-Restore]™ Postbiotic, Copper-Zinc Sulfate, Avène Thermal Spring Water to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 928,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 11.2,
     "compareAtPrice": 20,
     "keyIngredients": [
@@ -4974,11 +5132,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "300ml Aerosol",
     "badge": "Derm Recommended",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-77.jpg",
     "price": 10.4,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61dZXKC5PdL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-77.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 100% Avène Thermal Spring Water & Balanced Calcium-Magnesium.",
     "benefits": [
@@ -4999,7 +5157,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Thermal Spring Water Soothing Facial Spray is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 100% Avène Thermal Spring Water, Balanced Calcium-Magnesium to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1001,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.8,
     "compareAtPrice": 13,
     "keyIngredients": [
@@ -5015,11 +5173,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Cleanance Cleansing Gel Soap-Free Blemish Control",
     "size": "400ml Pump",
     "brand": "Avène",
-    "image": "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg",
+    "image": "/uploads/products/prod-avne-78.jpg",
     "price": 12.97,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/328/277/936/5529/front_fr.6.400.jpg"
+      "/uploads/products/prod-avne-78.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Comedoclastin™ & Zinc Gluconate.",
     "benefits": [
@@ -5040,7 +5198,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Cleanance Cleansing Gel Soap-Free Blemish Control is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Comedoclastin™, Zinc Gluconate, Gentle Surfactants to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1074,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.6,
     "compareAtPrice": 16.21,
     "keyIngredients": [
@@ -5056,11 +5214,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Hydrance Rich Hydrating Cream for Dehydrated Skin",
     "size": "40ml Tube",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-79.jpg",
     "price": 15.89,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/619mHC4VQIL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-79.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Cohederm™ Complex & Shea Butter.",
     "benefits": [
@@ -5081,7 +5239,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Hydrance Rich Hydrating Cream for Dehydrated Skin is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Cohederm™ Complex, Shea Butter, Avène Thermal Water to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1147,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 11.6,
     "compareAtPrice": 19.86,
     "keyIngredients": [
@@ -5099,11 +5257,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "400ml Pump",
     "badge": "Best Seller",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61RIR5NMbxL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-80.jpg",
     "price": 20,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61RIR5NMbxL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-80.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with I-modulia® Postbiotic & Cer-omega Lipids.",
     "benefits": [
@@ -5124,7 +5282,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène XeraCalm A.D Lipid-Replenishing Balm Anti-Itch is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with I-modulia® Postbiotic, Cer-omega Lipids, Sterile Pump to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1220,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 14.4,
     "compareAtPrice": 25,
     "keyIngredients": [
@@ -5141,11 +5299,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Tolerance Control Soothing Skin Recovery Cream",
     "size": "40ml Sterile Tube",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-81.jpg",
     "price": 16.06,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61ggVVjsJHL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-81.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with D-Sensinose™ Postbiotic & Squalane.",
     "benefits": [
@@ -5166,7 +5324,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Tolerance Control Soothing Skin Recovery Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with D-Sensinose™ Postbiotic, Squalane, Zero Preservatives to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1293,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 11.4,
     "compareAtPrice": 20.07,
     "keyIngredients": [
@@ -5183,11 +5341,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène A-Oxitive Antioxidant Defense Serum Vitamin C & E",
     "size": "30ml Pump",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61zRR3dkdzL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-82.jpg",
     "price": 25.14,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61zRR3dkdzL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-82.jpg"
     ],
     "tagline": "Clinical Serums formulation with Ascorbyl Glucoside 15% & Tocopheryl Glucoside.",
     "benefits": [
@@ -5208,7 +5366,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène A-Oxitive Antioxidant Defense Serum Vitamin C & E is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Ascorbyl Glucoside 15%, Tocopheryl Glucoside, GP4G Active to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1366,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 17.6,
     "compareAtPrice": 31.43,
     "keyIngredients": [
@@ -5225,11 +5383,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Cleanance Comedomed Anti-Blemishes Concentrate",
     "size": "30ml Pump",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-83.jpg",
     "price": 14.13,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51x+3qWQIuL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-83.jpg"
     ],
     "tagline": "Clinical Serums formulation with Comedoclastin™ 25% & Avène Thermal Water.",
     "benefits": [
@@ -5250,7 +5408,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Cleanance Comedomed Anti-Blemishes Concentrate is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Comedoclastin™ 25%, Avène Thermal Water to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1439,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10.6,
     "compareAtPrice": 17.66,
     "keyIngredients": [
@@ -5267,11 +5425,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Pipette",
     "badge": "Derm Recommended",
     "brand": "Avène",
-    "image": "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg",
+    "image": "/uploads/products/prod-avne-84.jpg",
     "price": 24.86,
     "rating": 4.6,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/328/277/015/3071/front_en.7.400.jpg"
+      "/uploads/products/prod-avne-84.jpg"
     ],
     "tagline": "Clinical Serums formulation with Niacinamide 6% & Pure Hyaluronic Acid 1.5%.",
     "benefits": [
@@ -5292,7 +5450,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Hyaluron Activ B3 Concentrated Plumping Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Niacinamide 6%, Pure Hyaluronic Acid 1.5% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1512,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 18.4,
     "compareAtPrice": 31.07,
     "keyIngredients": [
@@ -5308,11 +5466,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Jar",
     "badge": "Best Seller",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61jxI8NmPZL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-85.jpg",
     "price": 26.3,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61jxI8NmPZL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-85.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Niacinamide 6% & Hyaluronic Acid.",
     "benefits": [
@@ -5333,7 +5491,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Hyaluron Activ B3 Cell Renewal Cream Refillable is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Niacinamide 6%, Hyaluronic Acid, Haritaki Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1585,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 19.2,
     "compareAtPrice": 32.88,
     "keyIngredients": [
@@ -5350,11 +5508,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Cicalfate+ Scar Gel Massage Texture Post-Procedure",
     "size": "30ml Precision Tube",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/51gOvchpLUL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-86.jpg",
     "price": 12.22,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51gOvchpLUL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-86.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Dimethicone Polymer & [C+-Restore]™.",
     "benefits": [
@@ -5375,7 +5533,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Cicalfate+ Scar Gel Massage Texture Post-Procedure is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Dimethicone Polymer, [C+-Restore]™, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1658,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 15.28,
     "keyIngredients": [
@@ -5393,11 +5551,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Soothing Eye Contour Cream Sensitive Puffy Lids",
     "size": "10ml Tube",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61qyfYQ8uCL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-87.jpg",
     "price": 11.83,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61qyfYQ8uCL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-87.jpg"
     ],
     "tagline": "Clinical Eye Cream formulation with Dextran Sulfate & Chamomile Extract.",
     "benefits": [
@@ -5418,7 +5576,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Soothing Eye Contour Cream Sensitive Puffy Lids is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Dextran Sulfate, Chamomile Extract, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1731,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "compareAtPrice": 14.79,
     "keyIngredients": [
@@ -5435,11 +5593,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Extremely Gentle Cleanser Lotion Wipe-Off Sensitive",
     "size": "200ml Bottle",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-89.jpg",
     "price": 11.43,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51Lu4HyDN+L._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-89.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Parcerine® & Avène Thermal Spring Water 96%.",
     "benefits": [
@@ -5460,7 +5618,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Extremely Gentle Cleanser Lotion Wipe-Off Sensitive is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Parcerine®, Avène Thermal Spring Water 96% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1877,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8,
     "compareAtPrice": 14.29,
     "keyIngredients": [
@@ -5477,11 +5635,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Tube",
     "badge": "Best Seller",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61ZfUMlxeFL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-90.jpg",
     "price": 17.07,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61ZfUMlxeFL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-90.jpg"
     ],
     "tagline": "Clinical Serums formulation with Ruscus Extract & Hesperidin Methyl Chalcone.",
     "benefits": [
@@ -5502,7 +5660,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Antirougeurs Fort Relief Concentrate Anti-Redness is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Ruscus Extract, Hesperidin Methyl Chalcone, Dextran Sulfate to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1950,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 12.8,
     "compareAtPrice": 21.34,
     "keyIngredients": [
@@ -5519,11 +5677,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Tolerance Extremely Gentle Cleansing Lotion Sterile",
     "size": "400ml Bottle",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61MZCaoQv8L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-92.jpg",
     "price": 14.79,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61MZCaoQv8L._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-92.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with D-Sensinose™ & Gentle Cleansing Agents 99% Natural.",
     "benefits": [
@@ -5544,7 +5702,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Tolerance Extremely Gentle Cleansing Lotion Sterile is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with D-Sensinose™, Gentle Cleansing Agents 99% Natural to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2096,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10.8,
     "compareAtPrice": 18.49,
     "keyIngredients": [
@@ -5560,11 +5718,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène XeraCalm A.D Soothing Cleansing Oil Atopic Skin",
     "size": "400ml Pump",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/71JS1ve0y0L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-93.jpg",
     "price": 13.89,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71JS1ve0y0L._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-93.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with I-modulia® & Evening Primrose Oil.",
     "benefits": [
@@ -5585,7 +5743,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène XeraCalm A.D Soothing Cleansing Oil Atopic Skin is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with I-modulia®, Evening Primrose Oil, Avène Thermal Water to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2169,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10,
     "compareAtPrice": 17.36,
     "keyIngredients": [
@@ -5602,11 +5760,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Avène Cold Cream Ultra-Rich Nourishing Lip Butter",
     "size": "4g Stick",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/61DCqTZ2YNL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-96.jpg",
     "price": 4.53,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61DCqTZ2YNL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-96.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with White Beeswax & Paraffin.",
     "benefits": [
@@ -5627,7 +5785,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Cold Cream Ultra-Rich Nourishing Lip Butter is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with White Beeswax, Paraffin, Avène Thermal Water to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2388,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 3.4,
     "compareAtPrice": 5.66,
     "keyIngredients": [
@@ -5645,11 +5803,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Dropper",
     "badge": "Best Seller",
     "brand": "Avène",
-    "image": "https://m.media-amazon.com/images/I/71yFh07UdPL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-avne-100.jpg",
     "price": 20,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71yFh07UdPL._AC_UL320_.jpg"
+      "/uploads/products/prod-avne-100.jpg"
     ],
     "tagline": "Clinical Serums formulation with Hyaluronic Acid & Vitamin B3 (Niacinamide).",
     "benefits": [
@@ -5670,7 +5828,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Avène Hydrance Boost Concentrated Hydrating Serum 48H is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hyaluronic Acid, Vitamin B3 (Niacinamide), Thermal Spring Water to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 280,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 14.4,
     "compareAtPrice": 25,
     "keyIngredients": [
@@ -5687,11 +5845,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Sensibio H2O Micellar Water Makeup Remover",
     "size": "500ml Bottle",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-101.jpg",
     "price": 10.56,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51CM46RevxL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-101.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Micellar Technology & Cucumber Fruit Extract.",
     "benefits": [
@@ -5712,7 +5870,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Sensibio H2O Micellar Water Makeup Remover is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Micellar Technology, Cucumber Fruit Extract, Fructooligosaccharides to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 353,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.5,
     "compareAtPrice": 13.2,
     "keyIngredients": [
@@ -5730,11 +5888,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Atoderm Intensive Baume Ultra-Soothing Emollient",
     "size": "500ml Pump",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-102.jpg",
     "price": 17.14,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51SEAWZ7cIL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-102.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Lipigenium™ Technology & Skin Barrier Therapy™.",
     "benefits": [
@@ -5755,7 +5913,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Atoderm Intensive Baume Ultra-Soothing Emollient is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Lipigenium™ Technology, Skin Barrier Therapy™, PEA Anti-Itch to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 426,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 12,
     "compareAtPrice": 21.43,
     "keyIngredients": [
@@ -5772,11 +5930,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Sebium Pore Refiner Corrective Pore Tightening Cream",
     "size": "30ml Tube",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-104.jpg",
     "price": 11.73,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/510-EvDx78L._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-104.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Fluidactiv™ Patent & Agaric Acid.",
     "benefits": [
@@ -5797,7 +5955,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Sebium Pore Refiner Corrective Pore Tightening Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Fluidactiv™ Patent, Agaric Acid, Salicylic Acid, Silica to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 572,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 14.66,
     "keyIngredients": [
@@ -5815,11 +5973,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Photoderm Max Crème SPF 50+ Invisible Fluid",
     "size": "40ml Tube",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-106.jpg",
     "price": 12.88,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61-HdMqLVdL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-106.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Cellular Bioprotection™ & Tinosorb M.",
     "benefits": [
@@ -5840,7 +5998,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Photoderm Max Crème SPF 50+ Invisible Fluid is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Cellular Bioprotection™, Tinosorb M, Avobenzone to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 718,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.4,
     "compareAtPrice": 16.1,
     "keyIngredients": [
@@ -5857,11 +6015,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Hydrabio Serum Concentrated Moisture Generator",
     "size": "40ml Pump",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/41CK0WkjshL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-107.jpg",
     "price": 15.56,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41CK0WkjshL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-107.jpg"
     ],
     "tagline": "Clinical Serums formulation with Aquagenium™ Patent & Hyaluronic Acid.",
     "benefits": [
@@ -5882,7 +6040,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Hydrabio Serum Concentrated Moisture Generator is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Aquagenium™ Patent, Hyaluronic Acid, Niacinamide (Vitamin PP) to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 791,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 11.2,
     "compareAtPrice": 19.45,
     "keyIngredients": [
@@ -5899,11 +6057,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Atoderm Shower Oil 24H Hydration Anti-Irritation",
     "size": "1000ml Eco-Refill",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/61TyxMNn9PL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-108.jpg",
     "price": 18.03,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61TyxMNn9PL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-108.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Vegetal Biolipids & Vitamin PP.",
     "benefits": [
@@ -5924,7 +6082,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Atoderm Shower Oil 24H Hydration Anti-Irritation is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Vegetal Biolipids, Vitamin PP, Skin Barrier Therapy™ to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 864,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 12.8,
     "compareAtPrice": 22.54,
     "keyIngredients": [
@@ -5941,11 +6099,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Sensibio Defensive Active Soothing Cream",
     "size": "40ml Tube",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-109.jpg",
     "price": 13.14,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/6119q7FQzlL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-109.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Defensive Technology & Carnosine.",
     "benefits": [
@@ -5966,7 +6124,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Sensibio Defensive Active Soothing Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Defensive Technology, Carnosine, Vitamin E, Tetrapeptide-10 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 937,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.2,
     "compareAtPrice": 16.43,
     "keyIngredients": [
@@ -5985,11 +6143,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Sebium Gel Moussant Purifying Foaming Cleanser",
     "size": "500ml Pump",
     "brand": "Bioderma",
-    "image": "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg",
+    "image": "/uploads/products/prod-bioderma-114.jpg",
     "price": 11.83,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/000/000/992/7709/front_fr.3.400.jpg"
+      "/uploads/products/prod-bioderma-114.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Zinc Sulfate & Copper Sulfate.",
     "benefits": [
@@ -6010,7 +6168,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Sebium Gel Moussant Purifying Foaming Cleanser is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Zinc Sulfate, Copper Sulfate, Ginkgo Biloba Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1302,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "compareAtPrice": 14.79,
     "keyIngredients": [
@@ -6027,11 +6185,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Pump",
     "badge": "Best Seller",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/41j8uqtCSAL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-115.jpg",
     "price": 15.14,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41j8uqtCSAL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-115.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Salicylic Acid & Vitamin E.",
     "benefits": [
@@ -6052,7 +6210,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Hydrabio Gel-Crème Light Radiance Moisturizer is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Salicylic Acid, Vitamin E, Aquagenium™ Complex to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1375,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10.6,
     "compareAtPrice": 18.93,
     "keyIngredients": [
@@ -6069,11 +6227,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Bioderma Atoderm Cream Ultra Nourishing Daily Moisturizer",
     "size": "500ml Pump",
     "brand": "Bioderma",
-    "image": "https://m.media-amazon.com/images/I/71nSJZGO0tL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-bioderma-118.jpg",
     "price": 11.73,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71nSJZGO0tL._AC_UL320_.jpg"
+      "/uploads/products/prod-bioderma-118.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Skin Protect™ Complex & Niacinamide.",
     "benefits": [
@@ -6094,7 +6252,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Bioderma Atoderm Cream Ultra Nourishing Daily Moisturizer is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Skin Protect™ Complex, Niacinamide, Omega 3, 6, 9 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1594,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 14.66,
     "keyIngredients": [
@@ -6111,11 +6269,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "COSRX Low pH Good Morning Gel Cleanser Gentle Botanical",
     "size": "150ml Tube",
     "brand": "COSRX",
-    "image": "https://images.openbeautyfacts.org/images/products/880/941/647/0511/front_en.15.400.jpg",
+    "image": "/uploads/products/prod-cosrx-121.jpg",
     "price": 7.67,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/941/647/0511/front_en.15.400.jpg"
+      "/uploads/products/prod-cosrx-121.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Tea Tree Oil 0.5% & Betaine Salicylate 0.5%.",
     "benefits": [
@@ -6136,7 +6294,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX Low pH Good Morning Gel Cleanser Gentle Botanical is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Tea Tree Oil 0.5%, Betaine Salicylate 0.5% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1813,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.6,
     "compareAtPrice": 9.59,
     "keyIngredients": [
@@ -6151,11 +6309,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "COSRX AHA 7 Whitehead Power Liquid Glycolic Acid",
     "size": "100ml Pump",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/61UvDq1AmhL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-cosrx-123.jpg",
     "price": 11.11,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61UvDq1AmhL._AC_UL320_.jpg"
+      "/uploads/products/prod-cosrx-123.jpg"
     ],
     "tagline": "Clinical Serums formulation with Apple Fruit Water 78% & Glycolic Acid 7%.",
     "benefits": [
@@ -6176,7 +6334,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX AHA 7 Whitehead Power Liquid Glycolic Acid is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Apple Fruit Water 78%, Glycolic Acid 7% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1959,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8,
     "compareAtPrice": 13.89,
     "keyIngredients": [
@@ -6192,11 +6350,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "COSRX Full Fit Propolis Light Ampoule Honey Glow",
     "size": "30ml Dropper",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/61vnYzjDQJL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-cosrx-124.jpg",
     "price": 13.52,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61vnYzjDQJL._AC_UL320_.jpg"
+      "/uploads/products/prod-cosrx-124.jpg"
     ],
     "tagline": "Clinical Serums formulation with Black Bee Propolis Extract 83.25% & Cassia Obtusifolia.",
     "benefits": [
@@ -6217,7 +6375,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX Full Fit Propolis Light Ampoule Honey Glow is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Black Bee Propolis Extract 83.25%, Cassia Obtusifolia to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2032,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.6,
     "compareAtPrice": 16.9,
     "keyIngredients": [
@@ -6234,11 +6392,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30g Jar",
     "badge": "Best Seller",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/61ce87E4qFL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-cosrx-125.jpg",
     "price": 10.57,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61ce87E4qFL._AC_UL320_.jpg"
+      "/uploads/products/prod-cosrx-125.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Centella Asiatica Leaf Water 50.79% & Zinc Oxide 7%.",
     "benefits": [
@@ -6259,7 +6417,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX Centella Blemish Cream Spot Treatment is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Centella Asiatica Leaf Water 50.79%, Zinc Oxide 7% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2105,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.4,
     "compareAtPrice": 13.21,
     "keyIngredients": [
@@ -6276,11 +6434,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "100ml Pump",
     "badge": "Derm Recommended",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/61gDng4BKcL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-cosrx-126.jpg",
     "price": 11.2,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61gDng4BKcL._AC_UL320_.jpg"
+      "/uploads/products/prod-cosrx-126.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Betula Platyphylla Japonica Juice 70.85% & Tea Tree Oil.",
     "benefits": [
@@ -6301,7 +6459,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Betula Platyphylla Japonica Juice 70.85%, Tea Tree Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2178,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "compareAtPrice": 14,
     "keyIngredients": [
@@ -6317,11 +6475,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "COSRX The Retinol 0.1 Cream Gentle Anti-Aging Starter",
     "size": "20ml Tube",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/71nUiC925zL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-cosrx-127.jpg",
     "price": 12.43,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71nUiC925zL._AC_UL320_.jpg"
+      "/uploads/products/prod-cosrx-127.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Pure Retinol 0.1% & Panthenol.",
     "benefits": [
@@ -6342,7 +6500,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX The Retinol 0.1 Cream Gentle Anti-Aging Starter is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pure Retinol 0.1%, Panthenol, Super Vitamin E (Tocotrienol) to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2251,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.2,
     "compareAtPrice": 15.54,
     "keyIngredients": [
@@ -6359,11 +6517,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "COSRX The Vitamin C 23 Serum Pure Ascorbic Brightening",
     "size": "20ml Dropper",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/71LzZAsVE+L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-cosrx-128.jpg",
     "price": 13.7,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71LzZAsVE+L._AC_UL320_.jpg"
+      "/uploads/products/prod-cosrx-128.jpg"
     ],
     "tagline": "Clinical Serums formulation with Pure Vitamin C 23% & Super Vitamin E.",
     "benefits": [
@@ -6384,7 +6542,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX The Vitamin C 23 Serum Pure Ascorbic Brightening is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pure Vitamin C 23%, Super Vitamin E, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2324,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10,
     "compareAtPrice": 17.13,
     "keyIngredients": [
@@ -6401,11 +6559,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "COSRX The 6 Peptide Skin Booster Serum Multi-Active Prep",
     "size": "150ml Bottle",
     "brand": "COSRX",
-    "image": "https://images.openbeautyfacts.org/images/products/880/959/845/5658/front_nl.3.400.jpg",
+    "image": "/uploads/products/prod-cosrx-129.jpg",
     "price": 12.22,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/959/845/5658/front_nl.3.400.jpg"
+      "/uploads/products/prod-cosrx-129.jpg"
     ],
     "tagline": "Clinical Serums formulation with 6 Peptide Complex & Niacinamide.",
     "benefits": [
@@ -6426,7 +6584,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX The 6 Peptide Skin Booster Serum Multi-Active Prep is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 6 Peptide Complex, Niacinamide, Allantoin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2397,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 15.28,
     "keyIngredients": [
@@ -6443,11 +6601,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "80g Tube",
     "badge": "Best Seller",
     "brand": "COSRX",
-    "image": "https://m.media-amazon.com/images/I/61xRhjJvAJL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-cosrx-130.jpg",
     "price": 13.52,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61xRhjJvAJL._AC_UL320_.jpg"
+      "/uploads/products/prod-cosrx-130.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Ceramide NP 10,000ppm & Centella Asiatica Medical Extract.",
     "benefits": [
@@ -6468,7 +6626,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "COSRX Balancium Comfort Ceramide Cream Barrier Rescue is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Ceramide NP 10,000ppm, Centella Asiatica Medical Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2470,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.6,
     "compareAtPrice": 16.9,
     "keyIngredients": [
@@ -6484,11 +6642,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Beauty of Joseon Glow Serum: Propolis + Niacinamide",
     "size": "30ml Dropper",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/61c0Hy2FRiL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-132.jpg",
     "price": 9.71,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61c0Hy2FRiL._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-132.jpg"
     ],
     "tagline": "Clinical Serums formulation with Propolis Extract 60% & Niacinamide 2%.",
     "benefits": [
@@ -6509,7 +6667,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Glow Serum: Propolis + Niacinamide is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Propolis Extract 60%, Niacinamide 2%, Lotus Corniculatus to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 216,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.8,
     "compareAtPrice": 12.14,
     "keyIngredients": [
@@ -6527,11 +6685,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Beauty of Joseon Calming Serum: Green Tea + Panthenol",
     "size": "30ml Dropper",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/51EPIGQMYGL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-134.jpg",
     "price": 8.8,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51EPIGQMYGL._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-134.jpg"
     ],
     "tagline": "Clinical Serums formulation with Camellia Sinensis Leaf Water 76% & Panthenol 2%.",
     "benefits": [
@@ -6552,7 +6710,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Calming Serum: Green Tea + Panthenol is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Camellia Sinensis Leaf Water 76%, Panthenol 2% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 362,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.6,
     "compareAtPrice": 11,
     "keyIngredients": [
@@ -6570,11 +6728,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Dropper",
     "badge": "TikTok #1 Trending",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/51nbUmsxrIL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-135.jpg",
     "price": 9.19,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51nbUmsxrIL._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-135.jpg"
     ],
     "tagline": "Clinical Serums formulation with Rice Bran Water 68% & Alpha-Arbutin 2%.",
     "benefits": [
@@ -6595,7 +6753,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Glow Deep Serum: Rice + Arbutin is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Rice Bran Water 68%, Alpha-Arbutin 2% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 435,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.8,
     "compareAtPrice": 11.49,
     "keyIngredients": [
@@ -6611,11 +6769,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Beauty of Joseon Matte Sun Stick: Mugwort + Camelia SPF 50+",
     "size": "18g Twist Stick",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/51PbZMgofCL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-136.jpg",
     "price": 9.86,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51PbZMgofCL._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-136.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Artemisia Capillaris Extract & Silica Powder.",
     "benefits": [
@@ -6636,7 +6794,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Matte Sun Stick: Mugwort + Camelia SPF 50+ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Artemisia Capillaris Extract, Silica Powder, Camellia Seed Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 508,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12.32,
     "keyIngredients": [
@@ -6654,11 +6812,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Beauty of Joseon Ginseng Cleansing Oil Hanbang Makeup Melt",
     "size": "210ml Pump",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/51PUm3SfmqL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-137.jpg",
     "price": 11.11,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51PUm3SfmqL._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-137.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Soybean Oil 50% & Ginseng Seed Oil 0.1%.",
     "benefits": [
@@ -6679,7 +6837,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Ginseng Cleansing Oil Hanbang Makeup Melt is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Soybean Oil 50%, Ginseng Seed Oil 0.1% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 581,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8,
     "compareAtPrice": 13.89,
     "keyIngredients": [
@@ -6696,11 +6854,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Beauty of Joseon Red Bean Refreshing Pore Mask Detox",
     "size": "140ml Tub",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/71HiwBtA82L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-138.jpg",
     "price": 10.7,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71HiwBtA82L._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-138.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Haenam Red Bean Extract 30% & Kaolin Clay.",
     "benefits": [
@@ -6721,7 +6879,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Red Bean Refreshing Pore Mask Detox is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Haenam Red Bean Extract 30%, Kaolin Clay to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 654,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.6,
     "compareAtPrice": 13.38,
     "keyIngredients": [
@@ -6738,11 +6896,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Beauty of Joseon Apricot Blossom Peeling Gel Gommage Scrub",
     "size": "100ml Tube",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/51c3U+Ru7UL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-139.jpg",
     "price": 8.57,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51c3U+Ru7UL._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-139.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Prunus Mume Flower Water 19% & Plant-derived Cellulose.",
     "benefits": [
@@ -6763,7 +6921,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Apricot Blossom Peeling Gel Gommage Scrub is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Prunus Mume Flower Water 19%, Plant-derived Cellulose to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 727,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6,
     "compareAtPrice": 10.71,
     "keyIngredients": [
@@ -6781,11 +6939,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "100ml Tub",
     "badge": "TikTok #1 Trending",
     "brand": "Beauty of Joseon",
-    "image": "https://m.media-amazon.com/images/I/51auhOZqB2L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-beautyofjoseon-140.jpg",
     "price": 10.13,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51auhOZqB2L._AC_UL320_.jpg"
+      "/uploads/products/prod-beautyofjoseon-140.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Rice Water & Grain Ferment Filtrate.",
     "benefits": [
@@ -6806,7 +6964,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Beauty of Joseon Radiance Cleansing Balm Rice Bran Melting is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Rice Water, Grain Ferment Filtrate, Chrysanthemum Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 800,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.6,
     "compareAtPrice": 12.66,
     "keyIngredients": [
@@ -6823,11 +6981,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam",
     "size": "150ml Tube",
     "brand": "Anua",
-    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/5622/front_nl.4.400.jpg",
+    "image": "/uploads/products/prod-anua-141.jpg",
     "price": 8.65,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/964/073/5622/front_nl.4.400.jpg"
+      "/uploads/products/prod-anua-141.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Houttuynia Cordata Powder 3,000ppm & Quercetinol.",
     "benefits": [
@@ -6848,7 +7006,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Houttuynia Cordata Powder 3,000ppm, Quercetinol, BHA to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 873,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.4,
     "compareAtPrice": 10.81,
     "keyIngredients": [
@@ -6864,11 +7022,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Anua Heartleaf 70% Daily Relief Lotion Lightweight",
     "size": "200ml Pump",
     "brand": "Anua",
-    "image": "https://m.media-amazon.com/images/I/41Mcg1xUvHL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-anua-142.jpg",
     "price": 12.05,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41Mcg1xUvHL._AC_UL320_.jpg"
+      "/uploads/products/prod-anua-142.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Heartleaf Extract 70% & Triple Hyaluronic Acid.",
     "benefits": [
@@ -6889,7 +7047,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Heartleaf 70% Daily Relief Lotion Lightweight is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Heartleaf Extract 70%, Triple Hyaluronic Acid, Betaine to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 946,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 15.06,
     "keyIngredients": [
@@ -6906,11 +7064,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Anua Heartleaf 80% Moisture Soothing Ampoule Serum",
     "size": "30ml Dropper",
     "brand": "Anua",
-    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/4717/front_nl.3.400.jpg",
+    "image": "/uploads/products/prod-anua-143.jpg",
     "price": 13.06,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/964/073/4717/front_nl.3.400.jpg"
+      "/uploads/products/prod-anua-143.jpg"
     ],
     "tagline": "Clinical Serums formulation with Heartleaf Extract 80% & Panthenol.",
     "benefits": [
@@ -6931,7 +7089,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Heartleaf 80% Moisture Soothing Ampoule Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Heartleaf Extract 80%, Panthenol, Cassia Bark to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1019,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.4,
     "compareAtPrice": 16.32,
     "keyIngredients": [
@@ -6947,11 +7105,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Anua Niacinamide 10% + TXA 4% Dark Spot Correcting Serum",
     "size": "30ml Dropper",
     "brand": "Anua",
-    "image": "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-anua-144.jpg",
     "price": 13.52,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61-PwDPNjyL._AC_UL320_.jpg"
+      "/uploads/products/prod-anua-144.jpg"
     ],
     "tagline": "Clinical Serums formulation with Niacinamide 10% & Tranexamic Acid 4%.",
     "benefits": [
@@ -6972,7 +7130,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Niacinamide 10% + TXA 4% Dark Spot Correcting Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Niacinamide 10%, Tranexamic Acid 4%, Arbutin 2% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1092,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.6,
     "compareAtPrice": 16.9,
     "keyIngredients": [
@@ -6990,11 +7148,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "200ml Pump",
     "badge": "Best Seller",
     "brand": "Anua",
-    "image": "https://images.openbeautyfacts.org/images/products/880/964/073/2829/front_en.9.400.jpg",
+    "image": "/uploads/products/prod-anua-145.jpg",
     "price": 11.43,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/964/073/2829/front_en.9.400.jpg"
+      "/uploads/products/prod-anua-145.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Non-Comedogenic Heartleaf Oil & Jojoba Seed Oil.",
     "benefits": [
@@ -7015,7 +7173,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Heartleaf Pore Control Cleansing Oil Waterproof Melt is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Non-Comedogenic Heartleaf Oil, Jojoba Seed Oil, Olive Fruit Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1165,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8,
     "compareAtPrice": 14.29,
     "keyIngredients": [
@@ -7031,11 +7189,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Anua Birch Moisture Boosting Toner Deep Forest Hydration",
     "size": "250ml Bottle",
     "brand": "Anua",
-    "image": "https://m.media-amazon.com/images/I/51Kpw2r-pIL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-anua-146.jpg",
     "price": 10.13,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51Kpw2r-pIL._AC_UL320_.jpg"
+      "/uploads/products/prod-anua-146.jpg"
     ],
     "tagline": "Clinical Serums formulation with Japanese White Birch Sap 70% & Panthenol.",
     "benefits": [
@@ -7056,7 +7214,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Birch Moisture Boosting Toner Deep Forest Hydration is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese White Birch Sap 70%, Panthenol, 10-Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1238,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.6,
     "compareAtPrice": 12.66,
     "keyIngredients": [
@@ -7074,11 +7232,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Anua Heartleaf Silky Moisture Sun Cream SPF 50+ PA++++",
     "size": "50ml Tube",
     "brand": "Anua",
-    "image": "https://m.media-amazon.com/images/I/51uZLdXk0cL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-anua-148.jpg",
     "price": 10.14,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51uZLdXk0cL._AC_UL320_.jpg"
+      "/uploads/products/prod-anua-148.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Houttuynia Cordata Extract & Chemical Filters Zero Cast.",
     "benefits": [
@@ -7099,7 +7257,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Heartleaf Silky Moisture Sun Cream SPF 50+ PA++++ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Houttuynia Cordata Extract, Chemical Filters Zero Cast to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1384,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.4,
     "compareAtPrice": 12.68,
     "keyIngredients": [
@@ -7115,11 +7273,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Anua Heartleaf 77% Clear Pad Pore Tightening Toner Pads",
     "size": "70 Pads Tub",
     "brand": "Anua",
-    "image": "https://m.media-amazon.com/images/I/61eq5y8sE6L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-anua-149.jpg",
     "price": 11.67,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61eq5y8sE6L._AC_UL320_.jpg"
+      "/uploads/products/prod-anua-149.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Heartleaf Extract 77% & Anti-Sebum P Complex.",
     "benefits": [
@@ -7140,7 +7298,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Heartleaf 77% Clear Pad Pore Tightening Toner Pads is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Heartleaf Extract 77%, Anti-Sebum P Complex to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1457,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "compareAtPrice": 14.59,
     "keyIngredients": [
@@ -7157,11 +7315,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "250ml Bottle",
     "badge": "Best Seller",
     "brand": "Anua",
-    "image": "https://m.media-amazon.com/images/I/61P6dNyR6TL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-anua-150.jpg",
     "price": 11.83,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61P6dNyR6TL._AC_UL320_.jpg"
+      "/uploads/products/prod-anua-150.jpg"
     ],
     "tagline": "Clinical Serums formulation with Rice Bran Extract 70% & Ceramide NP.",
     "benefits": [
@@ -7182,7 +7340,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Anua Rice 70 Glow Milky Toner Fermented Ceramide Radiance is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Rice Bran Extract 70%, Ceramide NP, Arbutin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1530,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "compareAtPrice": 14.79,
     "keyIngredients": [
@@ -7199,11 +7357,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Skin1004 Madagascar Centella Light Cleansing Oil",
     "size": "200ml Pump",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/61ZG5xWuA+L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-152.jpg",
     "price": 11.14,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61ZG5xWuA+L._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-152.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Centella Oil & MCT Oil (Derived from Coconut).",
     "benefits": [
@@ -7224,7 +7382,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Light Cleansing Oil is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Centella Oil, MCT Oil (Derived from Coconut), Botanical Extracts to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1676,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.8,
     "compareAtPrice": 13.93,
     "keyIngredients": [
@@ -7242,11 +7400,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Skin1004 Madagascar Centella Soothing Cream Gel Moisture",
     "size": "75ml Tube",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/411cuvlydfL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-153.jpg",
     "price": 9.6,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/411cuvlydfL._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-153.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Centella Extract 72% & 4 Different Botanical Ceramides.",
     "benefits": [
@@ -7267,7 +7425,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Soothing Cream Gel Moisture is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Centella Extract 72%, 4 Different Botanical Ceramides to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1749,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12,
     "keyIngredients": [
@@ -7285,11 +7443,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "100ml Dropper",
     "badge": "TikTok #1 Trending",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/614+q9ycXHL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-154.jpg",
     "price": 12.43,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/614+q9ycXHL._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-154.jpg"
     ],
     "tagline": "Clinical Serums formulation with MadeWhite™ (Madecassoside) & Niacinamide 4%.",
     "benefits": [
@@ -7310,7 +7468,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Tone Brightening Capsule Ampoule is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with MadeWhite™ (Madecassoside), Niacinamide 4%, Tranexamic Acid 2% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1822,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.2,
     "compareAtPrice": 15.54,
     "keyIngredients": [
@@ -7328,11 +7486,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "100ml Dropper",
     "badge": "TikTok #1 Trending",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/61suN9iH4LL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-155.jpg",
     "price": 12.05,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61suN9iH4LL._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-155.jpg"
     ],
     "tagline": "Clinical Serums formulation with Himalayan Pink Salt & Peptide-9 Complex.",
     "benefits": [
@@ -7353,7 +7511,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Poremizing Fresh Ampoule Pink Salt is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Himalayan Pink Salt, Peptide-9 Complex, Centella Extract 50% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1895,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 15.06,
     "keyIngredients": [
@@ -7370,11 +7528,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Skin1004 Madagascar Centella Hyalu-Cica Sleeping Pack Gel",
     "size": "100ml Tube",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/61fZuOmOMZL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-156.jpg",
     "price": 10.56,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61fZuOmOMZL._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-156.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Hyalu-Cica Formula & Melatonin.",
     "benefits": [
@@ -7395,7 +7553,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Hyalu-Cica Sleeping Pack Gel is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hyalu-Cica Formula, Melatonin, Ceramide Biom to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1968,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.6,
     "compareAtPrice": 13.2,
     "keyIngredients": [
@@ -7414,11 +7572,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Skin1004 Madagascar Centella Ampoule Foam PH 5.5 Cleanser",
     "size": "125ml Tube",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/71d4b0WSJXL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-157.jpg",
     "price": 8.45,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71d4b0WSJXL._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-157.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Centella Extract 33% & Natural Surfactant from Coconut.",
     "benefits": [
@@ -7439,7 +7597,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Ampoule Foam PH 5.5 Cleanser is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Centella Extract 33%, Natural Surfactant from Coconut to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2041,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6,
     "compareAtPrice": 10.56,
     "keyIngredients": [
@@ -7456,11 +7614,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Skin1004 Madagascar Centella Tea-Trica Relief Ampoule Acne",
     "size": "100ml Dropper",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/812b82s2qWL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-158.jpg",
     "price": 12.86,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/812b82s2qWL._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-158.jpg"
     ],
     "tagline": "Clinical Serums formulation with Tea Tree Leaf Water & Centella Asiatica.",
     "benefits": [
@@ -7481,7 +7639,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Tea-Trica Relief Ampoule Acne is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Tea Tree Leaf Water, Centella Asiatica, Pine Tree Complex to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2114,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9,
     "compareAtPrice": 16.07,
     "keyIngredients": [
@@ -7499,11 +7657,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "SKIN1004 Madagascar Centella SPF50+ Hyalu-Cica Silky-Fit Sun Stick",
     "size": "20g Twist Stick",
     "brand": "Skin1004",
-    "image": "https://images.openbeautyfacts.org/images/products/880/991/383/0214/front_nl.3.400.jpg",
+    "image": "/uploads/products/prod-skin1004-159.jpg",
     "price": 9.6,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/991/383/0214/front_nl.3.400.jpg"
+      "/uploads/products/prod-skin1004-159.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Hyalu-Cica Complex & Tannin Complex.",
     "benefits": [
@@ -7525,7 +7683,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "description": "Skin1004 Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick SPF 50+ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hyalu-Cica Complex, Tannin Complex, Blue Agave Leaf Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "imageSource": "openbeautyfacts",
     "reviewCount": 2187,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12,
     "keyIngredients": [
@@ -7545,11 +7703,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Dropper",
     "badge": "TikTok #1 Trending",
     "brand": "Skin1004",
-    "image": "https://m.media-amazon.com/images/I/61CIxJ0VQ2L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-skin1004-160.jpg",
     "price": 12.97,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61CIxJ0VQ2L._AC_UL320_.jpg"
+      "/uploads/products/prod-skin1004-160.jpg"
     ],
     "tagline": "Clinical Serums formulation with Fermented Centella Asiatica & Probio-cica.",
     "benefits": [
@@ -7570,7 +7728,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Skin1004 Madagascar Centella Probio-Cica Intensive Ampoule is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Fermented Centella Asiatica, Probio-cica, Ceramide NP to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2260,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.6,
     "compareAtPrice": 16.21,
     "keyIngredients": [
@@ -7589,11 +7747,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Dropper",
     "badge": "Derm Recommended",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-161.jpg",
     "price": 10.82,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71KExLnstsL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-161.jpg"
     ],
     "tagline": "Clinical Serums formulation with Matrixyl 3000 & Syn-Ake.",
     "benefits": [
@@ -7614,7 +7772,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Buffet Multi-Peptide + HA Peptide Matrix Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Matrixyl 3000, Syn-Ake, Argirelox, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2333,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.9,
     "compareAtPrice": 13.53,
     "keyIngredients": [
@@ -7632,11 +7790,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Natural Moisturizing Factors + HA Surface Hydration",
     "size": "100ml Tube",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0731/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-theordinary-163.jpg",
     "price": 7.5,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/0731/front_en.3.400.jpg"
+      "/uploads/products/prod-theordinary-163.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 11 Amino Acids & Phospholipids.",
     "benefits": [
@@ -7657,7 +7815,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Natural Moisturizing Factors + HA Surface Hydration is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 11 Amino Acids, Phospholipids, Ceramides, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2479,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.4,
     "compareAtPrice": 9.38,
     "keyIngredients": [
@@ -7674,11 +7832,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Retinol 0.5% in Squalane Pure Active",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/51bWH5AIi0L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-164.jpg",
     "price": 6.06,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51bWH5AIi0L._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-164.jpg"
     ],
     "tagline": "Clinical Serums formulation with Pure Retinol 0.5% & Plant-Derived Squalane.",
     "benefits": [
@@ -7699,7 +7857,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Retinol 0.5% in Squalane Pure Active is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pure Retinol 0.5%, Plant-Derived Squalane, Jojoba Seed Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2552,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.3,
     "compareAtPrice": 7.57,
     "keyIngredients": [
@@ -7717,11 +7875,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Tube",
     "badge": "Best Seller",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/613CFOwbuGL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-165.jpg",
     "price": 8.29,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/613CFOwbuGL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-165.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Salicylic Acid 2% & Charcoal Powder.",
     "benefits": [
@@ -7742,7 +7900,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Salicylic Acid 2% Masque Blemish-Prone Skin is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Salicylic Acid 2%, Charcoal Powder, Amazonian Clays to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 225,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.8,
     "compareAtPrice": 10.36,
     "keyIngredients": [
@@ -7759,11 +7917,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Lactic Acid 10% + HA Superficial Peeling",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0373/front_en.12.400.jpg",
+    "image": "/uploads/products/prod-theordinary-166.jpg",
     "price": 5.2,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/0373/front_en.12.400.jpg"
+      "/uploads/products/prod-theordinary-166.jpg"
     ],
     "tagline": "Clinical Serums formulation with Lactic Acid 10% & Tasmanian Pepperberry.",
     "benefits": [
@@ -7784,7 +7942,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Lactic Acid 10% + HA Superficial Peeling is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Lactic Acid 10%, Tasmanian Pepperberry, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 298,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 3.9,
     "compareAtPrice": 6.5,
     "keyIngredients": [
@@ -7800,11 +7958,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary AHA 30% + BHA 2% Peeling Solution 10-Min Exfoliating",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/5606/front_en.6.400.jpg",
+    "image": "/uploads/products/prod-theordinary-167.jpg",
     "price": 5.68,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/5606/front_en.6.400.jpg"
+      "/uploads/products/prod-theordinary-167.jpg"
     ],
     "tagline": "Clinical Serums formulation with Glycolic, Lactic, Tartaric, Citric 30% & Salicylic Acid 2%.",
     "benefits": [
@@ -7825,7 +7983,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary AHA 30% + BHA 2% Peeling Solution 10-Min Exfoliating is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Glycolic, Lactic, Tartaric, Citric 30%, Salicylic Acid 2% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 371,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.2,
     "compareAtPrice": 7.1,
     "keyIngredients": [
@@ -7841,11 +7999,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "150ml Tube",
     "badge": "Bestseller Verified",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/51x6tGfZdoL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-168.jpg",
     "price": 9.86,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51x6tGfZdoL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-168.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Plant Squalane & Lipophilic Esters.",
     "benefits": [
@@ -7866,7 +8024,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Squalane Cleanser Gentle Lipophilic Melting Balm is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Plant Squalane, Lipophilic Esters, Sucrose Stearate to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 444,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12.32,
     "keyIngredients": [
@@ -7883,11 +8041,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Alpha Arbutin 2% + HA Hyperpigmentation Serum",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/71WVodf35WL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-169.jpg",
     "price": 6.94,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71WVodf35WL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-169.jpg"
     ],
     "tagline": "Clinical Serums formulation with Purified Alpha Arbutin 2% & Next-Generation Hyaluronic Acid.",
     "benefits": [
@@ -7908,7 +8066,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Alpha Arbutin 2% + HA Hyperpigmentation Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Purified Alpha Arbutin 2%, Next-Generation Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 517,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5,
     "compareAtPrice": 8.68,
     "keyIngredients": [
@@ -7925,11 +8083,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "100ml Tube",
     "badge": "Best Seller",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/51LloWpF62L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-170.jpg",
     "price": 8.45,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51LloWpF62L._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-170.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with High Purity Azelaic Acid 10% & Lightweight Cream-Gel Base.",
     "benefits": [
@@ -7950,7 +8108,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Azelaic Acid Suspension 10% Multifunctional Brightening is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with High Purity Azelaic Acid 10%, Lightweight Cream-Gel Base to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 590,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6,
     "compareAtPrice": 10.56,
     "keyIngredients": [
@@ -7966,11 +8124,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary 100% Plant-Derived Squalane Surface Occlusive",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/51R2JOtTD4L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-171.jpg",
     "price": 6.43,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51R2JOtTD4L._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-171.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 100% Pure Plant Squalane ECOCERT Approved.",
     "benefits": [
@@ -7991,7 +8149,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary 100% Plant-Derived Squalane Surface Occlusive is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 100% Pure Plant Squalane ECOCERT Approved to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 663,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.5,
     "compareAtPrice": 8.04,
     "keyIngredients": [
@@ -8006,11 +8164,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Argireline Solution 10% Dynamic Wrinkle Target",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/519SdiGIxZL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-172.jpg",
     "price": 5.73,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/519SdiGIxZL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-172.jpg"
     ],
     "tagline": "Clinical Serums formulation with Acetyl Hexapeptide-8 (Argireline) 10%.",
     "benefits": [
@@ -8031,7 +8189,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Argireline Solution 10% Dynamic Wrinkle Target is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Acetyl Hexapeptide-8 (Argireline) 10% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 736,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.3,
     "compareAtPrice": 7.16,
     "keyIngredients": [
@@ -8046,11 +8204,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Marine Hyaluronics Ultra-Lightweight Reservoirs",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/71pu0nR4CGL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-173.jpg",
     "price": 5.27,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71pu0nR4CGL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-173.jpg"
     ],
     "tagline": "Clinical Serums formulation with Hawaiian Red Algae & Antarctic Marine Microorganisms.",
     "benefits": [
@@ -8071,7 +8229,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Marine Hyaluronics Ultra-Lightweight Reservoirs is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hawaiian Red Algae, Antarctic Marine Microorganisms to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 809,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 3.9,
     "compareAtPrice": 6.59,
     "keyIngredients": [
@@ -8087,11 +8245,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Mandelic Acid 10% + HA Gentle Chemical Exfoliant",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/51UAHAF+brL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-174.jpg",
     "price": 4.79,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51UAHAF+brL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-174.jpg"
     ],
     "tagline": "Clinical Serums formulation with Mandelic Acid 10% & Tasmanian Pepperberry.",
     "benefits": [
@@ -8112,7 +8270,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Mandelic Acid 10% + HA Gentle Chemical Exfoliant is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Mandelic Acid 10%, Tasmanian Pepperberry to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 882,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 3.5,
     "compareAtPrice": 5.99,
     "keyIngredients": [
@@ -8129,11 +8287,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "100ml Tube",
     "badge": "Best Seller",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/51HIfJHD1fL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-175.jpg",
     "price": 12.5,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51HIfJHD1fL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-175.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Phytoceramides & Skin-Identical Lipids 4x.",
     "benefits": [
@@ -8154,7 +8312,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Natural Moisturizing Factors + PhytoCeramides Rich is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Phytoceramides, Skin-Identical Lipids 4x, Glucosyl Ceramide to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 955,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9,
     "compareAtPrice": 15.63,
     "keyIngredients": [
@@ -8171,11 +8329,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Granactive Retinoid 2% Emulsion Next-Gen Vitamin A",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0045/front_en.7.400.jpg",
+    "image": "/uploads/products/prod-theordinary-176.jpg",
     "price": 7.18,
     "rating": 4.6,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/0045/front_en.7.400.jpg"
+      "/uploads/products/prod-theordinary-176.jpg"
     ],
     "tagline": "Clinical Serums formulation with Hydroxypinacolone Retinoate 2% & Protective Emulsion Matrix.",
     "benefits": [
@@ -8196,7 +8354,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Granactive Retinoid 2% Emulsion Next-Gen Vitamin A is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hydroxypinacolone Retinoate 2%, Protective Emulsion Matrix to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1028,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.1,
     "compareAtPrice": 8.97,
     "keyIngredients": [
@@ -8211,11 +8369,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary Ascorbyl Glucoside Solution 12% Gentle Vitamin C",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/61zCZjpVrgL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-177.jpg",
     "price": 8.29,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61zCZjpVrgL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-177.jpg"
     ],
     "tagline": "Clinical Serums formulation with Water-Soluble Vitamin C Derivative 12%.",
     "benefits": [
@@ -8236,7 +8394,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Ascorbyl Glucoside Solution 12% Gentle Vitamin C is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Water-Soluble Vitamin C Derivative 12% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1101,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.8,
     "compareAtPrice": 10.36,
     "keyIngredients": [
@@ -8251,11 +8409,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "The Ordinary 100% Organic Cold-Pressed Rose Hip Seed Oil",
     "size": "30ml Dropper",
     "brand": "The Ordinary",
-    "image": "https://images.openbeautyfacts.org/images/products/076/991/519/0342/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-theordinary-178.jpg",
     "price": 6.27,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/076/991/519/0342/front_en.3.400.jpg"
+      "/uploads/products/prod-theordinary-178.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 100% Pure Rosa Canina Seed Oil & Pro-Vitamin A.",
     "benefits": [
@@ -8276,7 +8434,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary 100% Organic Cold-Pressed Rose Hip Seed Oil is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 100% Pure Rosa Canina Seed Oil, Pro-Vitamin A, Linolenic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1174,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.7,
     "compareAtPrice": 7.84,
     "keyIngredients": [
@@ -8293,11 +8451,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Dropper",
     "badge": "Best Seller",
     "brand": "The Ordinary",
-    "image": "https://m.media-amazon.com/images/I/61NiKBIheJL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-theordinary-180.jpg",
     "price": 5.89,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61NiKBIheJL._AC_UL320_.jpg"
+      "/uploads/products/prod-theordinary-180.jpg"
     ],
     "tagline": "Clinical Serums formulation with Pure Resveratrol 3% & Plant-Derived Ferulic Acid 3%.",
     "benefits": [
@@ -8318,7 +8476,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "The Ordinary Resveratrol 3% + Ferulic Acid 3% Potent Antioxidant is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pure Resveratrol 3%, Plant-Derived Ferulic Acid 3% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1320,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.3,
     "compareAtPrice": 7.36,
     "keyIngredients": [
@@ -8334,11 +8492,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant Protini Polypeptide Cream Signal Peptide Firming",
     "size": "50ml Airless Jar",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/51HzPP4D9KL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-181.jpg",
     "price": 37.78,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51HzPP4D9KL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-181.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 9 Signal Peptides Complex & Pygmy Waterlily Extract.",
     "benefits": [
@@ -8359,7 +8517,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant Protini Polypeptide Cream Signal Peptide Firming is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 9 Signal Peptides Complex, Pygmy Waterlily Extract, Soybean Folic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1393,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 27.2,
     "compareAtPrice": 47.23,
     "keyIngredients": [
@@ -8377,11 +8535,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Airless Jar",
     "badge": "Derm Recommended",
     "brand": "Drunk Elephant",
-    "image": "https://images.openbeautyfacts.org/images/products/200/000/015/1852/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-drunkelephant-182.jpg",
     "price": 36.06,
     "rating": 4.8,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/200/000/015/1852/front_en.3.400.jpg"
+      "/uploads/products/prod-drunkelephant-182.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 6 Rare African Oils & Ceramides AP, EOP, NP.",
     "benefits": [
@@ -8402,7 +8560,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant Lala Retro Whipped Cream 6 Rare African Oils is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 6 Rare African Oils, Ceramides AP, EOP, NP, Sodium Hyaluronate to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1466,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 25.6,
     "compareAtPrice": 45.08,
     "keyIngredients": [
@@ -8418,11 +8576,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant B-Hydra Intensive Hydration Serum Pro-Vitamin B5",
     "size": "50ml Pump",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/51A6Er4ymfL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-183.jpg",
     "price": 28,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51A6Er4ymfL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-183.jpg"
     ],
     "tagline": "Clinical Serums formulation with Pro-Vitamin B5 & Pineapple Ceramide.",
     "benefits": [
@@ -8443,7 +8601,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant B-Hydra Intensive Hydration Serum Pro-Vitamin B5 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pro-Vitamin B5, Pineapple Ceramide, Sodium Hyaluronate Crosspolymer to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1539,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 19.6,
     "compareAtPrice": 35,
     "keyIngredients": [
@@ -8460,11 +8618,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant C-Firma Fresh Day Serum 15% L-Ascorbic Acid",
     "size": "28ml Fresh Mix",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-184.jpg",
     "price": 41.6,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/611mzGAKIUL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-184.jpg"
     ],
     "tagline": "Clinical Serums formulation with Potent L-Ascorbic Acid 15% & Ferulic Acid 0.5%.",
     "benefits": [
@@ -8485,7 +8643,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant C-Firma Fresh Day Serum 15% L-Ascorbic Acid is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Potent L-Ascorbic Acid 15%, Ferulic Acid 0.5%, Vitamin E 1% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1612,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 31.2,
     "compareAtPrice": 52,
     "keyIngredients": [
@@ -8503,11 +8661,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Pump",
     "badge": "Best Seller",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/71EHQjdGjAL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-185.jpg",
     "price": 48.65,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71EHQjdGjAL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-185.jpg"
     ],
     "tagline": "Clinical Serums formulation with 12% AHA Blend (Glycolic, Tartaric, Lactic, Citric) & 1% BHA (Salicylic Acid).",
     "benefits": [
@@ -8528,7 +8686,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant T.L.C. Framboos Glycolic Night Serum AHA/BHA is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 12% AHA Blend (Glycolic, Tartaric, Lactic, Citric), 1% BHA (Salicylic Acid) to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1685,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 36,
     "compareAtPrice": 60.81,
     "keyIngredients": [
@@ -8544,11 +8702,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant Virgin Marula Luxury Facial Oil Pure Antioxidant",
     "size": "30ml Dropper",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/51-LpnmnuBL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-186.jpg",
     "price": 39.45,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51-LpnmnuBL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-186.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 100% Unrefined Sclerocarya Birrea Seed Oil & Omegas 6 & 9.",
     "benefits": [
@@ -8569,7 +8727,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant Virgin Marula Luxury Facial Oil Pure Antioxidant is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 100% Unrefined Sclerocarya Birrea Seed Oil, Omegas 6 & 9 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1758,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 28.8,
     "compareAtPrice": 49.31,
     "keyIngredients": [
@@ -8585,11 +8743,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant Beste No. 9 Jelly Cleanser Gentle Surfactants",
     "size": "150ml Tube",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/71ZRtPDEpGL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-187.jpg",
     "price": 18.89,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71ZRtPDEpGL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-187.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Mild Surfactant Blend & Cantaloupe Fruit Extract.",
     "benefits": [
@@ -8610,7 +8768,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant Beste No. 9 Jelly Cleanser Gentle Surfactants is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Mild Surfactant Blend, Cantaloupe Fruit Extract, Virgin Marula Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1831,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 13.6,
     "compareAtPrice": 23.61,
     "keyIngredients": [
@@ -8627,11 +8785,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant C-Tango Multivitamin Eye Cream 5 Forms Vitamin C",
     "size": "15ml Pump",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/51ay+OmmysL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-188.jpg",
     "price": 36.06,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51ay+OmmysL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-188.jpg"
     ],
     "tagline": "Clinical Eye Cream formulation with 5 Forms of Vitamin C & 8 Peptides.",
     "benefits": [
@@ -8652,7 +8810,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant C-Tango Multivitamin Eye Cream 5 Forms Vitamin C is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 5 Forms of Vitamin C, 8 Peptides, Cucumber Extract, Ubiquinone to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1904,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 25.6,
     "compareAtPrice": 45.08,
     "keyIngredients": [
@@ -8671,11 +8829,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Tube",
     "badge": "Derm Recommended",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/51doUMCsi7L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-189.jpg",
     "price": 42.29,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51doUMCsi7L._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-189.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 1% Vegan Pure Retinol & Triple Peptide Blend.",
     "benefits": [
@@ -8696,7 +8854,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant A-Passioni Retinol Cream 1% Vegan Retinol is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 1% Vegan Pure Retinol, Triple Peptide Blend, Winter Cherry Juice to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1977,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 29.6,
     "compareAtPrice": 52.86,
     "keyIngredients": [
@@ -8714,11 +8872,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "90ml Tube",
     "badge": "Best Seller",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/51sPrVUSAAL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-190.jpg",
     "price": 20.27,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51sPrVUSAAL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-190.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Zinc Oxide 20% & Astaxanthin-rich Algae.",
     "benefits": [
@@ -8739,7 +8897,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant Umbra Sheer Physical Daily Defense SPF 30 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Zinc Oxide 20%, Astaxanthin-rich Algae, Sunflower Sprout Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2050,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 15.2,
     "compareAtPrice": 25.34,
     "keyIngredients": [
@@ -8756,11 +8914,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant F-Balm Electrolyte Waterfacial Overnight Mask",
     "size": "50ml Airless Jar",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/51IjoeOMgyL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-191.jpg",
     "price": 29.19,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51IjoeOMgyL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-191.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with 4-Electrolyte Blend & Vitamin F Beads.",
     "benefits": [
@@ -8781,7 +8939,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant F-Balm Electrolyte Waterfacial Overnight Mask is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 4-Electrolyte Blend, Vitamin F Beads, Niacinamide to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2123,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 21.6,
     "compareAtPrice": 36.49,
     "keyIngredients": [
@@ -8798,11 +8956,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Drunk Elephant Slaai Makeup-Melting Butter Cleanser Botanical",
     "size": "110g Jar",
     "brand": "Drunk Elephant",
-    "image": "https://m.media-amazon.com/images/I/619pEcUikRL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-drunkelephant-192.jpg",
     "price": 19.73,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/619pEcUikRL._AC_UL320_.jpg"
+      "/uploads/products/prod-drunkelephant-192.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with African Oil Blend & Acai Fruit Extract.",
     "benefits": [
@@ -8823,7 +8981,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Drunk Elephant Slaai Makeup-Melting Butter Cleanser Botanical is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with African Oil Blend, Acai Fruit Extract, Bamboo Charcoal Booster to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2196,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 14.4,
     "compareAtPrice": 24.66,
     "keyIngredients": [
@@ -8840,11 +8998,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Tatcha The Water Cream Oil-Free Pore-Refining Water Burst",
     "size": "50ml Jar",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-193.jpg",
     "price": 40,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51G9yTBH28L._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-193.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Japanese Wild Rose & Japanese Leopard Lily.",
     "benefits": [
@@ -8865,7 +9023,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Water Cream Oil-Free Pore-Refining Water Burst is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese Wild Rose, Japanese Leopard Lily, Hadasei-3™ Complex, 23K Gold Flakes to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2269,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 28.8,
     "compareAtPrice": 50,
     "keyIngredients": [
@@ -8884,11 +9042,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Jar",
     "badge": "Bestseller Verified",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-194.jpg",
     "price": 40.56,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51x07AqqhvL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-194.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Japanese Purple Rice & Okinawa Algae Blend.",
     "benefits": [
@@ -8909,7 +9067,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Dewy Skin Cream Rich Replenishing Plumping Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese Purple Rice, Okinawa Algae Blend, Hyaluronic Acid, Squalane to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2342,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 28.8,
     "compareAtPrice": 50.7,
     "keyIngredients": [
@@ -8928,11 +9086,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "60g Shaker",
     "badge": "Best Seller",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/41GA6oOyaNL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-195.jpg",
     "price": 38.86,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41GA6oOyaNL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-195.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Japanese Rice Bran & Papaya Enzymes.",
     "benefits": [
@@ -8953,7 +9111,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Rice Polish Classic Gentle Enzymatic Exfoliant is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese Rice Bran, Papaya Enzymes, Hadasei-3™ Trinity to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2415,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 27.2,
     "compareAtPrice": 48.58,
     "keyIngredients": [
@@ -8971,11 +9129,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "150ml Pump",
     "badge": "Derm Recommended",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/41fwz50QOYL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-196.jpg",
     "price": 26.67,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41fwz50QOYL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-196.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Japanese Camellia Seed Oil & Hadasei-3™.",
     "benefits": [
@@ -8996,7 +9154,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Camellia Cleansing Oil 2-in-1 Makeup Melting is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese Camellia Seed Oil, Hadasei-3™, Vitamins A, B, D, E to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2488,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 20,
     "compareAtPrice": 33.34,
     "keyIngredients": [
@@ -9013,11 +9171,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Tatcha The Silk Canvas Protective Primer Blur Velvet Finish",
     "size": "20g Compact",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/41rWdRBDPkL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-197.jpg",
     "price": 29.19,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41rWdRBDPkL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-197.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Silk Extracts (Fibroin, Sericin) & Hadasei-3™.",
     "benefits": [
@@ -9038,7 +9196,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Silk Canvas Protective Primer Blur Velvet Finish is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Silk Extracts (Fibroin, Sericin), Hadasei-3™, Pink & Gold Pearl to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2561,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 21.6,
     "compareAtPrice": 36.49,
     "keyIngredients": [
@@ -9055,11 +9213,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Tatcha The Essence 100% Hadasei-3 Dual Fermented Plumping Water",
     "size": "150ml Bottle",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/41pLrsp0-xL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-198.jpg",
     "price": 60.27,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41pLrsp0-xL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-198.jpg"
     ],
     "tagline": "Clinical Serums formulation with Akita Rice & Uji Green Tea.",
     "benefits": [
@@ -9080,7 +9238,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Essence 100% Hadasei-3 Dual Fermented Plumping Water is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Akita Rice, Uji Green Tea, Okinawa Mozuku Algae to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 234,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 44,
     "compareAtPrice": 75.34,
     "keyIngredients": [
@@ -9097,11 +9255,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Tatcha Luminous Dewy Skin Mist 20% Botanical Oils & Humectants",
     "size": "40ml Spray",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/41l8K+InK8L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-199.jpg",
     "price": 27.22,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41l8K+InK8L._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-199.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Hadasei-3™ & Silk Extract.",
     "benefits": [
@@ -9122,7 +9280,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha Luminous Dewy Skin Mist 20% Botanical Oils & Humectants is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hadasei-3™, Silk Extract, Red Algae Extract, Squalane to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 307,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 19.6,
     "compareAtPrice": 34.02,
     "keyIngredients": [
@@ -9141,11 +9299,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "15ml Jar",
     "badge": "Best Seller",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/411XWeOGItL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-200.jpg",
     "price": 36.62,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/411XWeOGItL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-200.jpg"
     ],
     "tagline": "Clinical Eye Cream formulation with Japanese White Peony Extract & Silk Protein.",
     "benefits": [
@@ -9166,7 +9324,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Silk Peony Melting Eye Cream Dual Action Line Minimizer is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese White Peony Extract, Silk Protein, Hadasei-3™ Complex to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 380,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 26,
     "compareAtPrice": 45.77,
     "keyIngredients": [
@@ -9183,11 +9341,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Tatcha The Indigo Calming Cream Colloidal Oatmeal Barrier Relief",
     "size": "50ml Jar",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/5114YoGORjL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-201.jpg",
     "price": 52.57,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/5114YoGORjL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-201.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Natural Japanese Indigo & Colloidal Oatmeal 3%.",
     "benefits": [
@@ -9208,7 +9366,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Indigo Calming Cream Colloidal Oatmeal Barrier Relief is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Natural Japanese Indigo, Colloidal Oatmeal 3%, Sophora Japonica to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 453,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 36.8,
     "compareAtPrice": 65.71,
     "keyIngredients": [
@@ -9225,11 +9383,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Tatcha The Deep Cleanse Exfoliating Gentle Gel Cleanser",
     "size": "150ml Tube",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/413dfN69ggL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-202.jpg",
     "price": 21.33,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/413dfN69ggL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-202.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Japanese Luffa Fruit & Wild Rose.",
     "benefits": [
@@ -9250,7 +9408,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Deep Cleanse Exfoliating Gentle Gel Cleanser is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese Luffa Fruit, Wild Rose, Amino Acid Base to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 526,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 16,
     "compareAtPrice": 26.66,
     "keyIngredients": [
@@ -9268,11 +9426,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "8g Twist Stick",
     "badge": "Derm Recommended",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/41NNh5sDsiL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-203.jpg",
     "price": 26.49,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41NNh5sDsiL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-203.jpg"
     ],
     "tagline": "Clinical Serums formulation with Japanese Lemon Balm & 80% Squalane.",
     "benefits": [
@@ -9293,7 +9451,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Serum Stick Treatment & Touch-Up 80% Squalane is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese Lemon Balm, 80% Squalane, Hadasei-3™ to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 599,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 19.6,
     "compareAtPrice": 33.11,
     "keyIngredients": [
@@ -9310,11 +9468,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Tatcha Silken Pore Perfecting Sunscreen Broad Spectrum SPF 35",
     "size": "60ml Tube",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/51lH+mSw7PL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-204.jpg",
     "price": 38.36,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51lH+mSw7PL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-204.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Zinc Oxide 15% & Japanese Wild Rose.",
     "benefits": [
@@ -9335,7 +9493,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha Silken Pore Perfecting Sunscreen Broad Spectrum SPF 35 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Zinc Oxide 15%, Japanese Wild Rose, Loquat Leaf Extract to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 672,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 28,
     "compareAtPrice": 47.95,
     "keyIngredients": [
@@ -9353,11 +9511,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "9g Jar",
     "badge": "Best Seller",
     "brand": "Tatcha",
-    "image": "https://m.media-amazon.com/images/I/51IJErLxxBL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-tatcha-205.jpg",
     "price": 16.11,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51IJErLxxBL._AC_UL320_.jpg"
+      "/uploads/products/prod-tatcha-205.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Japanese Peach Seed Extract & Camellia Oil.",
     "benefits": [
@@ -9378,7 +9536,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Tatcha The Kissu Lip Mask Japanese Peach Extract Smoothing is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Japanese Peach Seed Extract, Camellia Oil, Allantoin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 745,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 11.6,
     "compareAtPrice": 20.14,
     "keyIngredients": [
@@ -9395,11 +9553,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Hydro Boost Water Gel Hyaluronic Acid",
     "size": "50g Jar",
     "brand": "Neutrogena",
-    "image": "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-neutrogena-281.jpg",
     "price": 10.99,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/885/000/754/3336/front_en.3.400.jpg"
+      "/uploads/products/prod-neutrogena-281.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Purified Hyaluronic Acid & Olive Extract.",
     "benefits": [
@@ -9420,7 +9578,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Hydro Boost Water Gel Hyaluronic Acid is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Purified Hyaluronic Acid, Olive Extract, Dimethicone to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1493,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.8,
     "compareAtPrice": 13.74,
     "keyIngredients": [
@@ -9436,11 +9594,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Rapid Wrinkle Repair Retinol Regenerating Cream",
     "size": "48g Jar",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/71u46v1y9IL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-282.jpg",
     "price": 16,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71u46v1y9IL._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-282.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Pure Accelerated Retinol SA & Glucose Complex.",
     "benefits": [
@@ -9461,7 +9619,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Rapid Wrinkle Repair Retinol Regenerating Cream is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pure Accelerated Retinol SA, Glucose Complex, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1566,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 11.2,
     "compareAtPrice": 20,
     "keyIngredients": [
@@ -9478,11 +9636,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 70",
     "size": "88ml Tube",
     "brand": "Neutrogena",
-    "image": "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-neutrogena-283.jpg",
     "price": 6.4,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/008/680/007/8517/front_en.3.400.jpg"
+      "/uploads/products/prod-neutrogena-283.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Helioplex® Technology & Broad Spectrum UVA/UVB SPF 70.",
     "benefits": [
@@ -9503,7 +9661,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 70 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Helioplex® Technology, Broad Spectrum UVA/UVB SPF 70 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1639,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.8,
     "compareAtPrice": 8,
     "keyIngredients": [
@@ -9518,11 +9676,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Hydro Boost Hydrating Cleansing Gel",
     "size": "230ml Pump",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/712QLKOFIzL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-284.jpg",
     "price": 7.03,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/712QLKOFIzL._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-284.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Hyaluronic Acid & Gentle Barrier Cleansing Surfactants.",
     "benefits": [
@@ -9543,7 +9701,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Hydro Boost Hydrating Cleansing Gel is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hyaluronic Acid, Gentle Barrier Cleansing Surfactants to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1712,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.2,
     "compareAtPrice": 8.79,
     "keyIngredients": [
@@ -9560,11 +9718,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "56g Tube",
     "badge": "Best Seller",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/71QwjtKdWsL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-285.jpg",
     "price": 7.53,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71QwjtKdWsL._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-285.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Micronized Benzoyl Peroxide 2.5%.",
     "benefits": [
@@ -9585,7 +9743,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Stubborn Acne AM Treatment Micronized Benzoyl is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Micronized Benzoyl Peroxide 2.5% to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1785,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.5,
     "compareAtPrice": 9.41,
     "keyIngredients": [
@@ -9600,11 +9758,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Triple Age Repair Anti-Aging Night Cream SPF 25",
     "size": "48g Jar",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/71Rr+8Xs4+L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-286.jpg",
     "price": 12.22,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71Rr+8Xs4+L._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-286.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Hexinol™ Technology & Vitamin C.",
     "benefits": [
@@ -9625,7 +9783,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Triple Age Repair Anti-Aging Night Cream SPF 25 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Hexinol™ Technology, Vitamin C, Broad Spectrum SPF 25 to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1858,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 15.28,
     "keyIngredients": [
@@ -9643,11 +9801,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "15g Tube",
     "badge": "Derm Recommended",
     "brand": "Neutrogena",
-    "image": "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg",
+    "image": "/uploads/products/prod-neutrogena-287.jpg",
     "price": 10.14,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/357/466/135/2527/front_fr.3.400.jpg"
+      "/uploads/products/prod-neutrogena-287.jpg"
     ],
     "tagline": "Clinical Eye Cream formulation with Purified Hyaluronic Acid & Ophthalmologist Tested.",
     "benefits": [
@@ -9669,7 +9827,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "description": "Neutrogena Hydro Boost Eye Gel-Cream Smooth Hydration is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Purified Hyaluronic Acid, Ophthalmologist Tested to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "imageSource": "openbeautyfacts",
     "reviewCount": 1931,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12.68,
     "keyIngredients": [
@@ -9685,11 +9843,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Deep Clean Facial Cleanser Oil-Free Beta-Hydroxy",
     "size": "200ml Pump",
     "brand": "Neutrogena",
-    "image": "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg",
+    "image": "/uploads/products/prod-neutrogena-288.jpg",
     "price": 5.86,
     "rating": 4.6,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/007/050/106/0902/front_en.10.400.jpg"
+      "/uploads/products/prod-neutrogena-288.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Salicylic Acid (BHA) & Alcohol-Free Foaming Agents.",
     "benefits": [
@@ -9710,7 +9868,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Deep Clean Facial Cleanser Oil-Free Beta-Hydroxy is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Salicylic Acid (BHA), Alcohol-Free Foaming Agents to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2004,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.1,
     "compareAtPrice": 7.33,
     "keyIngredients": [
@@ -9725,11 +9883,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Norwegian Formula Hand Cream Concentrated",
     "size": "56g Tube",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/71rLbIn09VL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-289.jpg",
     "price": 4,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71rLbIn09VL._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-289.jpg"
     ],
     "tagline": "Clinical Body Care formulation with Concentrated Glycerin 40% & Stearic Acid.",
     "benefits": [
@@ -9750,7 +9908,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Norwegian Formula Hand Cream Concentrated is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Concentrated Glycerin 40%, Stearic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2077,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 3,
     "compareAtPrice": 5,
     "keyIngredients": [
@@ -9767,11 +9925,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Dropper",
     "badge": "Best Seller",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/817grWxxPVL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-290.jpg",
     "price": 9.19,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/817grWxxPVL._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-290.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Antioxidant Complex & Feverfew.",
     "benefits": [
@@ -9792,7 +9950,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Invisible Daily Defense Sunscreen Face Serum SPF 60+ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Antioxidant Complex, Feverfew, Broad Spectrum SPF 60+ to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2150,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.8,
     "compareAtPrice": 11.49,
     "keyIngredients": [
@@ -9809,11 +9967,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Skin Balancing Clay Cleanser 2% Polyhydroxy Acid",
     "size": "186ml Pump",
     "brand": "Neutrogena",
-    "image": "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg",
+    "image": "/uploads/products/prod-neutrogena-291.jpg",
     "price": 6.44,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/007/050/111/2618/front_en.3.400.jpg"
+      "/uploads/products/prod-neutrogena-291.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Polyhydroxy Acid (PHA) 2% & Kaolin Clay.",
     "benefits": [
@@ -9834,7 +9992,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Skin Balancing Clay Cleanser 2% Polyhydroxy Acid is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Polyhydroxy Acid (PHA) 2%, Kaolin Clay to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2223,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.7,
     "compareAtPrice": 8.05,
     "keyIngredients": [
@@ -9849,11 +10007,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Rapid Tone Repair Vitamin C Dark Spot Serum",
     "size": "30ml Dropper",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/71QNd-OV07L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-292.jpg",
     "price": 14.17,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71QNd-OV07L._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-292.jpg"
     ],
     "tagline": "Clinical Serums formulation with Pure Vitamin C 20% & Retinol SA.",
     "benefits": [
@@ -9874,7 +10032,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Rapid Tone Repair Vitamin C Dark Spot Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pure Vitamin C 20%, Retinol SA, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2296,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10.2,
     "compareAtPrice": 17.71,
     "keyIngredients": [
@@ -9891,11 +10049,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Neutrogena Hydro Boost Night Pressed Serum Restorative",
     "size": "48g Jar",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/81RaJNazDRL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-293.jpg",
     "price": 12.68,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/81RaJNazDRL._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-293.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Purified Hyaluronic Acid & Multi-Antioxidants.",
     "benefits": [
@@ -9916,7 +10074,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Hydro Boost Night Pressed Serum Restorative is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Purified Hyaluronic Acid, Multi-Antioxidants, Botanical Trehalose to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2369,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9,
     "compareAtPrice": 15.85,
     "keyIngredients": [
@@ -9934,11 +10092,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "88ml Tube",
     "badge": "Derm Recommended",
     "brand": "Neutrogena",
-    "image": "https://m.media-amazon.com/images/I/71R2JbsMMZL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-neutrogena-294.jpg",
     "price": 8.14,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71R2JbsMMZL._AC_UL320_.jpg"
+      "/uploads/products/prod-neutrogena-294.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Helioplex® & Non-Comedogenic Matte Finish.",
     "benefits": [
@@ -9959,7 +10117,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Clear Face Breakout-Free Sunscreen Lotion SPF 50 is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Helioplex®, Non-Comedogenic Matte Finish to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2442,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 5.7,
     "compareAtPrice": 10.18,
     "keyIngredients": [
@@ -9976,11 +10134,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "269ml Pump",
     "badge": "Best Seller",
     "brand": "Neutrogena",
-    "image": "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg",
+    "image": "/uploads/products/prod-neutrogena-295.jpg",
     "price": 6,
     "rating": 4.9,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/088/777/711/1111/front_xx.7.400.jpg"
+      "/uploads/products/prod-neutrogena-295.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Salicylic Acid 2% & Chamomile & Aloe Extracts.",
     "benefits": [
@@ -10001,7 +10159,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Neutrogena Oil-Free Daily Acne Wash MicroClear Technology is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Salicylic Acid 2%, Chamomile & Aloe Extracts to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 2515,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 4.5,
     "compareAtPrice": 7.5,
     "keyIngredients": [
@@ -10016,11 +10174,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab 1025 Dokdo Toner Gentle Exfoliating Deep Sea",
     "size": "200ml Bottle",
     "brand": "Round Lab",
-    "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg",
+    "image": "/uploads/products/prod-roundlab-296.jpg",
     "price": 10.27,
     "rating": 4.6,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/965/711/4731/front_nl.4.400.jpg"
+      "/uploads/products/prod-roundlab-296.jpg"
     ],
     "tagline": "Clinical Serums formulation with Ulleungdo Deep Sea Water & Hatching EX-07 Enzyme.",
     "benefits": [
@@ -10041,7 +10199,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab 1025 Dokdo Toner Gentle Exfoliating Deep Sea is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Ulleungdo Deep Sea Water, Hatching EX-07 Enzyme, Panthenol to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 188,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.6,
     "compareAtPrice": 12.84,
     "keyIngredients": [
@@ -10057,11 +10215,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab 1025 Dokdo Cleanser Low pH Subacid Dense Foam",
     "size": "150ml Tube",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/41UNJoN9WHL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-297.jpg",
     "price": 8.77,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41UNJoN9WHL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-297.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with 74 Deep Sea Natural Minerals & Ceramide NP.",
     "benefits": [
@@ -10082,7 +10240,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab 1025 Dokdo Cleanser Low pH Subacid Dense Foam is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 74 Deep Sea Natural Minerals, Ceramide NP, Hyaluronic Acid to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 261,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.4,
     "compareAtPrice": 10.96,
     "keyIngredients": [
@@ -10100,11 +10258,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "50ml Tube",
     "badge": "Bestseller Verified",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-298.jpg",
     "price": 11.67,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/619dBL3GnLL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-298.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Inje Silver Birch Sap & Vita Hyaluronic Acid.",
     "benefits": [
@@ -10125,7 +10283,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab Birch Juice Moisturizing Sun Cream SPF 50+ PA++++ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Inje Silver Birch Sap, Vita Hyaluronic Acid, Niacinamide to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 334,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "compareAtPrice": 14.59,
     "keyIngredients": [
@@ -10143,11 +10301,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "300ml Bottle",
     "badge": "Best Seller",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/41-idUi+vTL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-300.jpg",
     "price": 12.57,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41-idUi+vTL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-300.jpg"
     ],
     "tagline": "Clinical Serums formulation with Jeongseon Black Soybean Extract & Ceramide AP & NP.",
     "benefits": [
@@ -10168,7 +10326,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab Soybean Nourishing Toner Ceramide Milk is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Jeongseon Black Soybean Extract, Ceramide AP & NP, Adenosine to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 480,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 15.71,
     "keyIngredients": [
@@ -10186,11 +10344,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "80ml Jar",
     "badge": "Derm Recommended",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/51yKz-A3+xL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-301.jpg",
     "price": 13.33,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51yKz-A3+xL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-301.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Black Soybean Extract & Ceramide Complex.",
     "benefits": [
@@ -10212,7 +10370,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 150,
     "description": "Round Lab Soybean Nourishing Cream Elasticity Barrier is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Black Soybean Extract, Ceramide Complex, Peptides to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 553,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 10,
     "compareAtPrice": 16.66,
     "keyIngredients": [
@@ -10229,11 +10387,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab Mugwort Calming Toner Relieving Dermal Stings",
     "size": "300ml Bottle",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/61YqzMZvbOL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-302.jpg",
     "price": 10.81,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61YqzMZvbOL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-302.jpg"
     ],
     "tagline": "Clinical Serums formulation with Geomundo Sea Breeze Mugwort & Madecassoside.",
     "benefits": [
@@ -10255,7 +10413,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 150,
     "description": "Round Lab Mugwort Calming Toner Relieving Dermal Stings is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Geomundo Sea Breeze Mugwort, Madecassoside, Allantoin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 626,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8,
     "compareAtPrice": 13.51,
     "keyIngredients": [
@@ -10272,11 +10430,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab Mugwort Calming Cream Lightweight Calming Gel",
     "size": "80ml Tube",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/41vWNYhBxuL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-303.jpg",
     "price": 12.33,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41vWNYhBxuL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-303.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Artemisia Extract & 4-Cica Complex.",
     "benefits": [
@@ -10298,7 +10456,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 150,
     "description": "Round Lab Mugwort Calming Cream Lightweight Calming Gel is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Artemisia Extract, 4-Cica Complex, Panthenol to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 699,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9,
     "compareAtPrice": 15.41,
     "keyIngredients": [
@@ -10316,11 +10474,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab Pine Calming Cica Ampoule Rapid Pore Relief",
     "size": "30ml Dropper",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/51LUDhsEtbL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-304.jpg",
     "price": 12.78,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51LUDhsEtbL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-304.jpg"
     ],
     "tagline": "Clinical Serums formulation with Pine Tree Leaf Extract & Centella Asiatica.",
     "benefits": [
@@ -10342,7 +10500,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "stockLeft": 150,
     "description": "Round Lab Pine Calming Cica Ampoule Rapid Pore Relief is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Pine Tree Leaf Extract, Centella Asiatica, LHA Gentle Exfoliant to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 772,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.2,
     "compareAtPrice": 15.97,
     "keyIngredients": [
@@ -10361,11 +10519,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Tube",
     "badge": "Best Seller",
     "brand": "Round Lab",
-    "image": "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg",
+    "image": "/uploads/products/prod-roundlab-305.jpg",
     "price": 11.83,
     "rating": 4.7,
     "gallery": [
-      "https://images.openbeautyfacts.org/images/products/880/965/711/4632/front_nl.4.400.jpg"
+      "/uploads/products/prod-roundlab-305.jpg"
     ],
     "tagline": "Clinical Eye Cream formulation with Deep Sea Water & 8 Peptide Complex.",
     "benefits": [
@@ -10386,7 +10544,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab 1025 Dokdo Eye Cream Peptide Anti-Puffiness is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Deep Sea Water, 8 Peptide Complex, Adenosine to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 845,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.4,
     "compareAtPrice": 14.79,
     "keyIngredients": [
@@ -10402,11 +10560,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab Birch Juice Moisturizing Cleanser Gel to Foam",
     "size": "150ml Tube",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/51A2b2L5sqL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-306.jpg",
     "price": 9.43,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51A2b2L5sqL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-306.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Inje Birch Sap & Artemisia Annua Extract.",
     "benefits": [
@@ -10427,7 +10585,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab Birch Juice Moisturizing Cleanser Gel to Foam is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Inje Birch Sap, Artemisia Annua Extract, Anthemis Nobilis to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 918,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 6.6,
     "compareAtPrice": 11.79,
     "keyIngredients": [
@@ -10444,11 +10602,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab 1025 Dokdo Cleansing Oil Blackhead Melting",
     "size": "200ml Pump",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-307.jpg",
     "price": 11.73,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/51CsQmi89fL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-307.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Evening Primrose Oil & Avocado Oil.",
     "benefits": [
@@ -10469,7 +10627,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab 1025 Dokdo Cleansing Oil Blackhead Melting is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Evening Primrose Oil, Avocado Oil, Ulleungdo Sea Water to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 991,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 14.66,
     "keyIngredients": [
@@ -10487,11 +10645,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "19g Twist Stick",
     "badge": "Derm Recommended",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/41uBBJcLghL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-308.jpg",
     "price": 10.54,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41uBBJcLghL._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-308.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Birch Tree Sap & Peptide Glyceryl Glucoside.",
     "benefits": [
@@ -10512,7 +10670,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab Birch Juice Moisturizing Sun Stick SPF 50+ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Birch Tree Sap, Peptide Glyceryl Glucoside, Broad Spectrum SPF 50+ to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1064,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.8,
     "compareAtPrice": 13.17,
     "keyIngredients": [
@@ -10529,11 +10687,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Round Lab 1025 Dokdo Mud Pack Pore Purifying Mineral Mask",
     "size": "100ml Tub",
     "brand": "Round Lab",
-    "image": "https://m.media-amazon.com/images/I/71ab9YRL99L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-roundlab-309.jpg",
     "price": 9.86,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/71ab9YRL99L._AC_UL320_.jpg"
+      "/uploads/products/prod-roundlab-309.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with Mineral-rich Deep Sea Mud 40% & Panthenol.",
     "benefits": [
@@ -10554,7 +10712,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Round Lab 1025 Dokdo Mud Pack Pore Purifying Mineral Mask is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Mineral-rich Deep Sea Mud 40%, Panthenol, Allantoin to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1137,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.2,
     "compareAtPrice": 12.32,
     "keyIngredients": [
@@ -10571,11 +10729,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Haruharu Wonder Black Rice Moisture Deep Cleansing Oil",
     "size": "150ml Pump",
     "brand": "Haruharu Wonder",
-    "image": "https://m.media-amazon.com/images/I/415f53111DL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-haruharuwonder-312.jpg",
     "price": 10.99,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/415f53111DL._AC_UL320_.jpg"
+      "/uploads/products/prod-haruharuwonder-312.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with 100% Natural Plant Oils & Oryza Sativa Bran Oil.",
     "benefits": [
@@ -10596,7 +10754,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Haruharu Wonder Black Rice Moisture Deep Cleansing Oil is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with 100% Natural Plant Oils, Oryza Sativa Bran Oil, Jojoba Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1356,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 7.8,
     "compareAtPrice": 13.74,
     "keyIngredients": [
@@ -10613,11 +10771,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Haruharu Wonder Black Rice Pure Mineral Relief Daily Sunscreen SPF 50+",
     "size": "50ml Tube",
     "brand": "Haruharu Wonder",
-    "image": "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-haruharuwonder-313.jpg",
     "price": 11.43,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41skS51hvAL._AC_UL320_.jpg"
+      "/uploads/products/prod-haruharuwonder-313.jpg"
     ],
     "tagline": "Clinical Sunscreen formulation with Zinc Oxide Non-Nano & Fermented Black Rice.",
     "benefits": [
@@ -10638,7 +10796,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Haruharu Wonder Black Rice Pure Mineral Relief Daily Sunscreen SPF 50+ is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Zinc Oxide Non-Nano, Fermented Black Rice, Ceramide NP to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1429,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8,
     "compareAtPrice": 14.29,
     "keyIngredients": [
@@ -10655,11 +10813,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Haruharu Wonder Black Rice Facial Oil 100% Natural Nourishing",
     "size": "30ml Dropper",
     "brand": "Haruharu Wonder",
-    "image": "https://m.media-amazon.com/images/I/41XYPEJMTyL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-haruharuwonder-314.jpg",
     "price": 11.73,
     "rating": 4.8,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41XYPEJMTyL._AC_UL320_.jpg"
+      "/uploads/products/prod-haruharuwonder-314.jpg"
     ],
     "tagline": "Clinical Moisturizers formulation with Oryza Sativa (Rice) Bran Oil & Sunflower Seed Oil.",
     "benefits": [
@@ -10680,7 +10838,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Haruharu Wonder Black Rice Facial Oil 100% Natural Nourishing is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Oryza Sativa (Rice) Bran Oil, Sunflower Seed Oil, Jojoba Oil to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1502,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 8.8,
     "compareAtPrice": 14.66,
     "keyIngredients": [
@@ -10698,11 +10856,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "size": "30ml Dropper",
     "badge": "Best Seller",
     "brand": "Haruharu Wonder",
-    "image": "https://m.media-amazon.com/images/I/41yfIHRd+yL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-haruharuwonder-315.jpg",
     "price": 12.97,
     "rating": 4.9,
     "gallery": [
-      "https://m.media-amazon.com/images/I/41yfIHRd+yL._AC_UL320_.jpg"
+      "/uploads/products/prod-haruharuwonder-315.jpg"
     ],
     "tagline": "Clinical Serums formulation with Tranexamic Acid 4% & Niacinamide 4%.",
     "benefits": [
@@ -10723,7 +10881,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Haruharu Wonder Centella 4% TXA Dark Spot Go Away Serum is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Tranexamic Acid 4%, Niacinamide 4%, Centella Asiatica Complex to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1575,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.6,
     "compareAtPrice": 16.21,
     "keyIngredients": [
@@ -10740,11 +10898,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Haruharu Wonder Black Rice Probiotics Barrier Essence",
     "size": "50ml Pump",
     "brand": "Haruharu Wonder",
-    "image": "https://m.media-amazon.com/images/I/61b4pxtsZoL._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-haruharuwonder-316.jpg",
     "price": 12.6,
     "rating": 4.6,
     "gallery": [
-      "https://m.media-amazon.com/images/I/61b4pxtsZoL._AC_UL320_.jpg"
+      "/uploads/products/prod-haruharuwonder-316.jpg"
     ],
     "tagline": "Clinical Serums formulation with Black Rice Ferment & Bifida & Galactomyces Ferment.",
     "benefits": [
@@ -10765,7 +10923,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Haruharu Wonder Black Rice Probiotics Barrier Essence is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with Black Rice Ferment, Bifida & Galactomyces Ferment, Ceramides to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1648,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.2,
     "compareAtPrice": 15.75,
     "keyIngredients": [
@@ -10782,11 +10940,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     "name": "Medicube Zero Pore Pad 2.0 Dual-Textured Exfoliating Toner Pads",
     "size": "70 Pads Tub",
     "brand": "Haruharu Wonder",
-    "image": "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg",
+    "image": "/uploads/products/prod-haruharuwonder-317.jpg",
     "price": 13.33,
     "rating": 4.7,
     "gallery": [
-      "https://m.media-amazon.com/images/I/4198g8VGL5L._AC_UL320_.jpg"
+      "/uploads/products/prod-haruharuwonder-317.jpg"
     ],
     "tagline": "Clinical Cleansers formulation with AHA Fruit Complex & White Willow Bark Extract (BHA).",
     "benefits": [
@@ -10807,7 +10965,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     "description": "Medicube Zero Pore Pad 2.0 Dual-Textured Exfoliating Toner Pads is a dermatologist-audited formulation developed for targeted skin therapy. Formulated with AHA Fruit Complex, White Willow Bark Extract (BHA), Anti-Sebum P to ensure maximum dermal tolerance, hydration lock, and skin barrier resilience.",
     "reviewCount": 1721,
-    "shippingDays": "1–3 Days (Prime Dropship)",
+    "shippingDays": "2–5 Days Tracked Express Delivery",
     "supplierCost": 9.6,
     "compareAtPrice": 16.66,
     "keyIngredients": [
