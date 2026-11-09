@@ -12,6 +12,13 @@ import {
   Sparkles,
   ShieldCheck,
   KeyRound,
+  Gift,
+  Check,
+  Clock,
+  Truck,
+  Repeat,
+  HeartHandshake,
+  Tag,
 } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import {
@@ -54,11 +61,13 @@ export default function CheckoutModal() {
   const [postalCode, setPostalCode] = useState("101241");
   const [country, setCountry] = useState("Nigeria");
 
-  // Card details
-  const [cardNumber, setCardNumber] = useState("");
-  const [expiry, setExpiry] = useState("");
-  const [cvc, setCvc] = useState("");
-  const [cardPin, setCardPin] = useState("");
+  // Retention & Amazon / CeraVe conversion upgrades
+  const [selectedFreeSample, setSelectedFreeSample] = useState<string>("cerave-hydrating-cleanser");
+  const [isSubscribeAndSave, setIsSubscribeAndSave] = useState(false);
+  const [promoInput, setPromoInput] = useState("");
+  const [promoStatus, setPromoStatus] = useState<{ success: boolean; message: string } | null>(null);
+
+  const { discountCode, applyPromoCode, removePromoCode } = useCart();
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
@@ -264,6 +273,24 @@ export default function CheckoutModal() {
                 </div>
               </div>
 
+              {/* VIP Member Next-Order Reward & Repeat Loyalty Card */}
+              <div className="p-4 bg-gradient-to-r from-amber-500/10 via-amber-500/20 to-amber-500/10 border border-amber-300 rounded-2xl text-left space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-1.5">
+                    <Sparkles className="w-4 h-4 text-amber-600" />
+                    <span className="text-xs font-extrabold text-amber-950 uppercase tracking-wider">
+                      AURA VIP Club Privilege Unlocked!
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-mono font-bold bg-amber-500 text-slate-950 px-2 py-0.5 rounded-full">
+                    REWARD CODE
+                  </span>
+                </div>
+                <p className="text-xs text-slate-700 leading-relaxed">
+                  As our VIP client, your next order is automatically granted <strong>20% OFF</strong>. Use code <span className="font-mono font-bold bg-white px-2 py-0.5 rounded border border-amber-300 text-amber-900">AURA20</span> or quote your Order ID <strong>#{confirmedOrder.id}</strong> on WhatsApp for priority replenishment dispatch.
+                </p>
+              </div>
+
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
                 <Link
                   href={`/track-order?q=${confirmedOrder.id}`}
@@ -415,6 +442,125 @@ export default function CheckoutModal() {
                 </div>
               </div>
 
+              {/* Retention Upgrade 1: Amazon-style "Subscribe & Auto-Deliver" option */}
+              <div className="p-3.5 bg-gradient-to-r from-blue-50/70 via-indigo-50/50 to-blue-50/70 border border-blue-200/90 rounded-2xl">
+                <label className="flex items-start gap-3 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={isSubscribeAndSave}
+                    onChange={(e) => setIsSubscribeAndSave(e.target.checked)}
+                    className="mt-1 w-4 h-4 rounded text-[#002B7F] border-slate-300 focus:ring-blue-500"
+                  />
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <Repeat className="w-3.5 h-3.5 text-[#002B7F]" />
+                      <span className="text-xs font-bold text-slate-900">
+                        Subscribe &amp; Auto-Deliver (Save an Extra 10%)
+                      </span>
+                      <span className="bg-emerald-600 text-white text-[9px] font-extrabold px-1.5 py-0.2 rounded-full uppercase">
+                        Most Popular
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-slate-600 mt-0.5 leading-relaxed">
+                      Replenish your routine automatically every 45 days. Cancel, pause, or swap formulas anytime with 1 click from your SMS or WhatsApp delivery link.
+                    </p>
+                  </div>
+                </label>
+              </div>
+
+              {/* Retention Upgrade 2: Luxury Dermatology Complimentary Sample Selector (CeraVe & Sephora Style) */}
+              <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-2xl space-y-2.5">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-1.5">
+                    <Gift className="w-3.5 h-3.5 text-amber-500" />
+                    <span className="text-xs font-bold text-slate-900">
+                      Choose Your Free Clinical Travel Sample
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-extrabold text-amber-600 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full">
+                    Complimentary Gift
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+                  {[
+                    {
+                      id: "cerave-hydrating-cleanser",
+                      brand: "CeraVe",
+                      name: "Hydrating Facial Cleanser (15ml)",
+                    },
+                    {
+                      id: "boj-sun-sample",
+                      brand: "Beauty of Joseon",
+                      name: "Relief Sun SPF 50+ (10ml)",
+                    },
+                    {
+                      id: "lrp-cicaplast-sample",
+                      brand: "La Roche-Posay",
+                      name: "Cicaplast B5+ Soothing Balm (15ml)",
+                    },
+                  ].map((s) => (
+                    <button
+                      key={s.id}
+                      type="button"
+                      onClick={() => setSelectedFreeSample(s.id)}
+                      className={`p-2.5 rounded-xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                        selectedFreeSample === s.id
+                          ? "border-[#002B7F] bg-blue-50/70 text-slate-950 font-bold ring-2 ring-[#002B7F]/20"
+                          : "border-slate-200 bg-white text-slate-600 hover:border-slate-300"
+                      }`}
+                    >
+                      <div className="text-[10px] text-blue-600 font-extrabold uppercase">{s.brand}</div>
+                      <div className="text-[11px] text-slate-900 font-semibold mt-0.5">{s.name}</div>
+                      <div className="text-[10px] text-emerald-600 font-bold mt-1 flex items-center gap-1">
+                        <Check className="w-3 h-3" /> Included Free
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Promo Code Input Box */}
+              <div className="p-3 bg-white border border-slate-200 rounded-2xl flex items-center gap-2">
+                <Tag className="w-4 h-4 text-slate-400 shrink-0 ml-1" />
+                <input
+                  type="text"
+                  placeholder="Promo / Gift Card code (e.g. GLOW15, AURA20)"
+                  value={promoInput}
+                  onChange={(e) => setPromoInput(e.target.value)}
+                  className="flex-1 bg-transparent text-xs text-slate-900 placeholder-slate-400 focus:outline-hidden uppercase font-mono"
+                />
+                {discountCode ? (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      removePromoCode();
+                      setPromoStatus(null);
+                    }}
+                    className="text-xs font-semibold text-rose-600 hover:underline px-2"
+                  >
+                    Remove ({discountCode})
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (!promoInput.trim()) return;
+                      const res = applyPromoCode(promoInput);
+                      setPromoStatus(res);
+                    }}
+                    className="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition-colors cursor-pointer"
+                  >
+                    Apply
+                  </button>
+                )}
+              </div>
+              {promoStatus && (
+                <p className={`text-[11px] px-1 font-semibold ${promoStatus.success ? "text-emerald-600" : "text-rose-600"}`}>
+                  {promoStatus.message}
+                </p>
+              )}
+
               {/* Contact Details */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
@@ -536,6 +682,22 @@ export default function CheckoutModal() {
                     ? "Clicking Pay opens Paystack's encrypted checkout where you can authorize instantly with Apple Pay (Face ID / Touch ID) on supported Apple devices, or pay via Card / Bank Transfer."
                     : "Direct payment via Nigerian Bank Transfer (OPay, Access, Zenith, GTB, Kuda, UBA), Visa, Mastercard, Verve & USSD. Your order is verified automatically upon payment."}
                 </p>
+              </div>
+
+              {/* Trust Badges Strip (Amazon & CeraVe Style) */}
+              <div className="grid grid-cols-3 gap-2 py-2 px-3 bg-slate-50 border border-slate-200/80 rounded-2xl text-[10px] text-slate-600">
+                <div className="flex items-center gap-1.5">
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                  <span className="font-semibold">100% Genuine Clinical Guarantee</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <Truck className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                  <span className="font-semibold">Tracked 24–48H Doorstep Dispatch</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <HeartHandshake className="w-3.5 h-3.5 text-purple-600 shrink-0" />
+                  <span className="font-semibold">30-Day Barrier Satisfaction Promise</span>
+                </div>
               </div>
 
               {errorMessage && (
