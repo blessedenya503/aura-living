@@ -14,9 +14,8 @@ export async function POST(request: Request) {
       );
     }
 
-    const fallbackKey = Buffer.from("c2tfbGl2ZV8xZmI1MDZmMDI3ZDI2Mzg2NzYzNWFmZDMzZTJiNTAxMTU5ZWQ2MTFl", "base64").toString("utf-8");
     const paystackSecretKey =
-      process.env.PAYSTACK_SECRET_KEY || fallbackKey;
+      process.env.PAYSTACK_SECRET_KEY || "";
     if (!paystackSecretKey || paystackSecretKey.trim().length <= 5) {
       return NextResponse.json(
         { error: "Paystack payment verification is not configured." },
