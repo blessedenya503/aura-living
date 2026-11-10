@@ -134,7 +134,7 @@ export const INITIAL_SETTINGS: StoreSettings = {
     settlementCurrency: "NGN (₦)",
   },
   linkedPayPal: {
-    email: "auraskinngofficial@gmail.com",
+    email: "blessedenya779@gmail.com",
     paypalMeUsername: "auraskinng",
     accountHolder: "AURA SKIN OFFICIAL",
     settlementCurrency: "USD ($)",

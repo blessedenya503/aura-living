@@ -67,7 +67,7 @@ export async function GET() {
   };
 
   const linkedPayPal = db.settings.linkedPayPal || {
-    email: "auraskinngofficial@gmail.com",
+    email: "blessedenya779@gmail.com",
     paypalMeUsername: "auraskinng",
     accountHolder: "AURA SKIN OFFICIAL",
     settlementCurrency: "USD ($)",

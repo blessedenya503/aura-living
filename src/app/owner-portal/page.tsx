@@ -244,7 +244,7 @@ export default function OwnerPortalPage() {
   const [isSavingPayPal, setIsSavingPayPal] = useState(false);
   const [paypalError, setPaypalError] = useState("");
   const [paypalForm, setPaypalForm] = useState({
-    email: "auraskinngofficial@gmail.com",
+    email: "blessedenya779@gmail.com",
     paypalMeUsername: "auraskinng",
     accountHolder: "AURA SKIN OFFICIAL",
   });
@@ -2042,7 +2042,7 @@ export default function OwnerPortalPage() {
                         if (!isEditingPayPal) {
                           const lp = balanceData?.linkedPayPal;
                           setPaypalForm({
-                            email: lp?.email || "auraskinngofficial@gmail.com",
+                            email: lp?.email || "blessedenya779@gmail.com",
                             paypalMeUsername: lp?.paypalMeUsername || "auraskinng",
                             accountHolder: lp?.accountHolder || "AURA SKIN OFFICIAL",
                           });
@@ -2139,7 +2139,7 @@ export default function OwnerPortalPage() {
                       PayPal Email
                     </span>
                     <span className="text-xs font-bold text-white mt-0.5 block font-mono truncate">
-                      {balanceData?.linkedPayPal?.email || "auraskinngofficial@gmail.com"}
+                      {balanceData?.linkedPayPal?.email || "blessedenya779@gmail.com"}
                     </span>
                   </div>
 

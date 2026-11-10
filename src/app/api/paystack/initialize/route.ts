@@ -40,7 +40,7 @@ export async function POST(request: Request) {
       const paypalEmail =
         db.settings?.linkedPayPal?.email ||
         process.env.PAYPAL_MERCHANT_EMAIL ||
-        "auraskinngofficial@gmail.com";
+        "blessedenya779@gmail.com";
       const reference = `PAYPAL-${orderId}-${Date.now()}`;
       const finalCallbackUrl =
         callbackUrl ||
