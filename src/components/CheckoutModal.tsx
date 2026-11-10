@@ -368,188 +368,104 @@ export default function CheckoutModal() {
             </div>
           ) : (
             <form onSubmit={handleCheckoutSubmit} className="space-y-5">
-              {/* Payment Methods with Official Logos */}
+              {/* Payment Methods — Clean 3-Option Selector */}
               <div>
-                <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center justify-between mb-2.5">
                   <p className="text-xs font-bold text-slate-800 uppercase tracking-wider">
-                    Select Payment Option
+                    Payment Method
                   </p>
-                  <span className="text-[11px] text-slate-500">
-                    256-Bit SSL Secure
+                  <span className="text-[11px] text-slate-500 flex items-center gap-1">
+                    <Lock className="w-3 h-3 text-emerald-600" />
+                    256-Bit SSL Encrypted
                   </span>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
-                  {/* Option 1: Paystack (Cards & Bank Transfer) */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  {/* Option 1: Paystack (Bank Transfer / NGN Cards / USSD) */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("Paystack (Cards / Bank Transfer)")}
-                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                    className={`p-3.5 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer ${
                       paymentMethod === "Paystack (Cards / Bank Transfer)"
-                        ? "border-[#0BA4DB] bg-cyan-50/50 ring-2 ring-[#0BA4DB]/30 shadow-xs"
+                        ? "border-[#0BA4DB] bg-cyan-50/40 ring-2 ring-[#0BA4DB]/25"
                         : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
                   >
                     <div className="flex items-center justify-between w-full">
-                      <PaystackLogo className="h-4.5 w-auto" />
+                      <PaystackLogo className="h-5 w-auto" />
                       {paymentMethod === "Paystack (Cards / Bank Transfer)" && (
                         <span className="w-2 h-2 rounded-full bg-[#0BA4DB]" />
                       )}
                     </div>
-                    <span className="text-[10px] font-bold text-slate-900 mt-2 block truncate">
-                      Paystack Direct
-                    </span>
+                    <div className="mt-2.5">
+                      <span className="text-xs font-bold text-slate-900 block">
+                        Paystack Direct
+                      </span>
+                      <span className="text-[10px] text-slate-500 block">
+                        Bank Transfer, USSD &amp; Local Cards
+                      </span>
+                    </div>
                   </button>
 
-                  {/* Option 2: PayPal */}
+                  {/* Option 2: PayPal (USD) */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("PayPal")}
-                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
+                    className={`p-3.5 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer ${
                       paymentMethod === "PayPal"
-                        ? "border-[#003087] bg-amber-50/60 ring-2 ring-[#003087]/25 shadow-xs"
+                        ? "border-[#003087] bg-amber-50/40 ring-2 ring-[#003087]/20"
                         : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
                   >
                     <div className="flex items-center justify-between w-full">
-                      <PayPalLogo className="h-4.5 w-auto" />
+                      <PayPalLogo className="h-5 w-auto" />
                       {paymentMethod === "PayPal" && (
                         <span className="w-2 h-2 rounded-full bg-[#003087]" />
                       )}
                     </div>
-                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
-                      PayPal (USD)
-                    </span>
+                    <div className="mt-2.5">
+                      <span className="text-xs font-bold text-slate-900 block">
+                        PayPal
+                      </span>
+                      <span className="text-[10px] text-slate-500 block">
+                        PayPal Balance &amp; International USD
+                      </span>
+                    </div>
                   </button>
 
-                  {/* Option 3: Visa / Mastercard */}
+                  {/* Option 3: Debit / Credit Card & Express Wallets */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("Debit / Credit Card")}
-                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
-                      paymentMethod === "Debit / Credit Card"
-                        ? "border-[#002B7F] bg-blue-50/50 ring-2 ring-[#002B7F]/30 shadow-xs"
-                        : "border-slate-200 hover:border-slate-300 bg-white"
-                    }`}
-                  >
-                    <div className="flex items-center gap-1.5">
-                      <VisaLogo className="h-4 w-auto" />
-                      <MastercardLogo className="h-4 w-auto" />
-                    </div>
-                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
-                      Visa / Mastercard
-                    </span>
-                  </button>
-
-                  {/* Option 4: Apple Pay */}
-                  <button
-                    type="button"
-                    onClick={() => setPaymentMethod("Apple Pay")}
-                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 ${
-                      paymentMethod === "Apple Pay"
-                        ? "border-slate-950 bg-slate-100 ring-2 ring-slate-900/30 shadow-xs"
-                        : "border-slate-200 hover:border-slate-300 bg-white"
-                    }`}
-                  >
-                    <ApplePayLogo className="h-4 w-auto" />
-                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
-                      Apple Pay
-                    </span>
-                  </button>
-
-                  {/* Option 5: Google Pay */}
-                  <button
-                    type="button"
-                    onClick={() => setPaymentMethod("Google Pay")}
-                    className={`p-3 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer h-20 col-span-2 sm:col-span-1 ${
+                    className={`p-3.5 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer ${
+                      paymentMethod === "Debit / Credit Card" ||
+                      paymentMethod === "Apple Pay" ||
                       paymentMethod === "Google Pay"
-                        ? "border-blue-500 bg-blue-50/50 ring-2 ring-blue-500/30 shadow-xs"
+                        ? "border-[#002B7F] bg-blue-50/40 ring-2 ring-[#002B7F]/25"
                         : "border-slate-200 hover:border-slate-300 bg-white"
                     }`}
                   >
-                    <GooglePayLogo className="h-4 w-auto" />
-                    <span className="text-[11px] font-bold text-slate-900 mt-2 block">
-                      Google Pay
-                    </span>
-                  </button>
-                </div>
-              </div>
-
-              {/* Retention Upgrade 1: Amazon-style "Subscribe & Auto-Deliver" option */}
-              <div className="p-3.5 bg-gradient-to-r from-blue-50/70 via-indigo-50/50 to-blue-50/70 border border-blue-200/90 rounded-2xl">
-                <label className="flex items-start gap-3 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={isSubscribeAndSave}
-                    onChange={(e) => setIsSubscribeAndSave(e.target.checked)}
-                    className="mt-1 w-4 h-4 rounded text-[#002B7F] border-slate-300 focus:ring-blue-500"
-                  />
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-2">
-                      <Repeat className="w-3.5 h-3.5 text-[#002B7F]" />
-                      <span className="text-xs font-bold text-slate-900">
-                        Subscribe &amp; Auto-Deliver (Save an Extra 10%)
+                    <div className="flex items-center justify-between w-full">
+                      <div className="flex items-center gap-1.5">
+                        <VisaLogo className="h-4 w-auto" />
+                        <MastercardLogo className="h-4 w-auto" />
+                        <ApplePayLogo className="h-4 w-auto" />
+                      </div>
+                      {(paymentMethod === "Debit / Credit Card" ||
+                        paymentMethod === "Apple Pay" ||
+                        paymentMethod === "Google Pay") && (
+                        <span className="w-2 h-2 rounded-full bg-[#002B7F]" />
+                      )}
+                    </div>
+                    <div className="mt-2.5">
+                      <span className="text-xs font-bold text-slate-900 block">
+                        Debit / Credit Card
                       </span>
-                      <span className="bg-emerald-600 text-white text-[9px] font-extrabold px-1.5 py-0.2 rounded-full uppercase">
-                        Most Popular
+                      <span className="text-[10px] text-slate-500 block">
+                        Visa, Mastercard, Apple &amp; Google Pay
                       </span>
                     </div>
-                    <p className="text-[11px] text-slate-600 mt-0.5 leading-relaxed">
-                      Replenish your routine automatically every 45 days. Cancel, pause, or swap formulas anytime with 1 click from your SMS or WhatsApp delivery link.
-                    </p>
-                  </div>
-                </label>
-              </div>
-
-              {/* Retention Upgrade 2: Luxury Dermatology Complimentary Sample Selector (CeraVe & Sephora Style) */}
-              <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-2xl space-y-2.5">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-1.5">
-                    <Gift className="w-3.5 h-3.5 text-amber-500" />
-                    <span className="text-xs font-bold text-slate-900">
-                      Choose Your Free Clinical Travel Sample
-                    </span>
-                  </div>
-                  <span className="text-[10px] font-extrabold text-amber-600 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full">
-                    Complimentary Gift
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
-                  {[
-                    {
-                      id: "cerave-hydrating-cleanser",
-                      brand: "CeraVe",
-                      name: "Hydrating Facial Cleanser (15ml)",
-                    },
-                    {
-                      id: "boj-sun-sample",
-                      brand: "Beauty of Joseon",
-                      name: "Relief Sun SPF 50+ (10ml)",
-                    },
-                    {
-                      id: "lrp-cicaplast-sample",
-                      brand: "La Roche-Posay",
-                      name: "Cicaplast B5+ Soothing Balm (15ml)",
-                    },
-                  ].map((s) => (
-                    <button
-                      key={s.id}
-                      type="button"
-                      onClick={() => setSelectedFreeSample(s.id)}
-                      className={`p-2.5 rounded-xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
-                        selectedFreeSample === s.id
-                          ? "border-[#002B7F] bg-blue-50/70 text-slate-950 font-bold ring-2 ring-[#002B7F]/20"
-                          : "border-slate-200 bg-white text-slate-600 hover:border-slate-300"
-                      }`}
-                    >
-                      <div className="text-[10px] text-blue-600 font-extrabold uppercase">{s.brand}</div>
-                      <div className="text-[11px] text-slate-900 font-semibold mt-0.5">{s.name}</div>
-                      <div className="text-[10px] text-emerald-600 font-bold mt-1 flex items-center gap-1">
-                        <Check className="w-3 h-3" /> Included Free
-                      </div>
-                    </button>
-                  ))}
+                  </button>
                 </div>
               </div>
 
@@ -719,58 +635,6 @@ export default function CheckoutModal() {
                 </div>
               </div>
 
-              {/* Payment Gateway Description */}
-              <div className="p-4 bg-cyan-50/60 border border-cyan-200/80 rounded-2xl space-y-2.5 animate-fadeIn">
-                <div className="flex items-center justify-between flex-wrap gap-2">
-                  <div className="flex items-center gap-2">
-                    {paymentMethod === "PayPal" ? (
-                      <PayPalLogo className="h-4.5 w-auto" />
-                    ) : (
-                      <PaystackLogo className="h-4.5 w-auto" />
-                    )}
-                    <span className="text-xs font-bold text-slate-900">
-                      {paymentMethod === "PayPal"
-                        ? "PayPal International Checkout (USD Buyer Protection)"
-                        : paymentMethod === "Debit / Credit Card"
-                        ? "Encrypted Card Checkout (Visa / Mastercard / Verve)"
-                        : paymentMethod === "Apple Pay"
-                        ? "Apple Pay Express via Paystack"
-                        : paymentMethod === "Google Pay"
-                        ? "Google Pay Express via Paystack"
-                        : "Paystack Direct Settlement (Worldwide)"}
-                    </span>
-                  </div>
-                  <span className="text-[10px] font-bold text-[#0BA4DB] bg-white px-2.5 py-0.5 rounded-full border border-cyan-200">
-                    {paymentMethod === "PayPal"
-                      ? "PayPal Verified • USD ($)"
-                      : "3D Secure • Instant Verification"}
-                  </span>
-                </div>
-                <p className="text-[11px] text-slate-600 leading-relaxed">
-                  {paymentMethod === "PayPal"
-                    ? "Clicking Pay securely redirects you to PayPal where you can complete your order in USD ($) using your PayPal balance, linked bank account, or international debit/credit card."
-                    : paymentMethod === "Debit / Credit Card"
-                    ? "Clicking Pay securely opens Paystack's PCI-DSS Level 1 encrypted card terminal where you enter your Visa, Mastercard, or Verve card details and complete your bank's 3D Secure OTP."
-                    : paymentMethod === "Apple Pay"
-                    ? "Clicking Pay opens Paystack's encrypted checkout where you can authorize instantly with Apple Pay (Face ID / Touch ID) on supported Apple devices, or pay via Card / Bank Transfer."
-                    : "Pay securely with Visa, Mastercard, Verve, bank transfer or local payment options available in your country. Your order is verified automatically upon payment."}
-                </p>
-              </div>
-
-              {/* Trust Badges Strip */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 py-2.5 px-3 bg-slate-50 border border-slate-200/80 rounded-2xl text-[10px] text-slate-600">
-                <div className="flex items-center gap-1.5">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                  <span className="font-semibold">Sealed &amp; Tracked Packaging</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <Truck className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                  <span className="font-semibold">
-                    Lagos &amp; Abuja: 1–2 days · Other states: 2–4 days · International: 5–10 days · Tracking on every order.
-                  </span>
-                </div>
-              </div>
-
               {errorMessage && (
                 <div className="p-3.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
                   {errorMessage}
@@ -778,33 +642,31 @@ export default function CheckoutModal() {
               )}
 
               {/* Order Summary & Submit */}
-              <div className="pt-3 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
                   <span className="text-[11px] text-slate-500 block">Total Due</span>
-                  <span className="text-xl font-bold font-mono text-slate-950">
+                  <span className="text-2xl font-bold font-mono text-slate-950">
                     {formatPrice(finalTotalUsd)}
+                  </span>
+                  <span className="text-[11px] text-slate-500 block mt-0.5">
+                    Tracked door-to-door delivery included
                   </span>
                 </div>
 
-                <div className="flex flex-col sm:items-end gap-2">
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="bg-[#002B7F] hover:bg-blue-800 text-white font-bold px-6 py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] cursor-pointer disabled:opacity-70"
-                  >
-                    {isSubmitting ? (
-                      <span>Authorizing {paymentMethod}...</span>
-                    ) : (
-                      <>
-                        <span>Pay {formatPrice(finalTotalUsd)}</span>
-                        <ArrowRight className="w-4 h-4" />
-                      </>
-                    )}
-                  </button>
-
-                  {/* Payment Logos Trust Strip */}
-                  <PaymentLogosStrip className="flex items-center gap-1.5 self-center sm:self-end" />
-                </div>
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="bg-[#002B7F] hover:bg-blue-800 text-white font-bold px-7 py-3.5 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.01] cursor-pointer disabled:opacity-70"
+                >
+                  {isSubmitting ? (
+                    <span>Authorizing {paymentMethod}...</span>
+                  ) : (
+                    <>
+                      <span>Pay {formatPrice(finalTotalUsd)}</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </>
+                  )}
+                </button>
               </div>
             </form>
           )}

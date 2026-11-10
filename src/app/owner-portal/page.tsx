@@ -1829,249 +1829,241 @@ export default function OwnerPortalPage() {
               </div>
             </div>
 
-            {/* Linked Bank Account Card */}
-            <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-7 space-y-4">
-              <div className="flex items-center justify-between flex-wrap gap-2">
-                <div>
-                  <h3 className="text-base font-bold text-white flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                    Linked Nigerian Bank Account (Paystack Direct Payout)
-                  </h3>
-                  <p className="text-xs text-slate-400 mt-0.5">
-                    Your store earnings are transferred automatically to this Nigerian bank account via Paystack settlements.
-                  </p>
-                </div>
-                <div className="flex items-center gap-2">
-                  {balanceData?.linkedBank?.status === "connected" ? (
-                    <span className="text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
-                      Connected
-                    </span>
-                  ) : (
-                    <span className="text-[11px] font-semibold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full">
-                      Not connected
-                    </span>
-                  )}
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setBankError("");
-                      if (!isEditingBank) {
-                        const lb = balanceData?.linkedBank;
-                        setBankForm({
-                          bankName: lb?.bankName || "",
-                          bankCode: lb?.bankCode || "",
-                          accountNumber: lb?.accountNumber || "",
-                          accountName: lb?.accountName || "",
-                        });
-                      }
-                      setIsEditingBank(!isEditingBank);
-                    }}
-                    className="px-3.5 py-1.5 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 text-xs font-bold border border-cyan-500/30 cursor-pointer flex items-center gap-1.5"
-                  >
-                    <Settings className="w-3.5 h-3.5 text-cyan-400" />
-                    <span>{isEditingBank ? "Close Editor" : "Edit Bank Details"}</span>
-                  </button>
-                </div>
-              </div>
-
-              {isEditingBank && (
-                <form
-                  onSubmit={handleAuthorizeBank}
-                  className="bg-slate-950/90 border border-cyan-500/40 p-5 rounded-2xl space-y-4"
-                >
+            {/* Linked Bank & PayPal Accounts — Clean Side-by-Side Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              {/* Linked Bank Account Card */}
+              <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-4">
+                <div className="flex items-center justify-between gap-2">
                   <div>
-                    <label className="block text-xs font-semibold text-slate-300 mb-1">
-                      Bank or Fintech
-                    </label>
-                    <select
-                      value={bankForm.bankCode}
-                      onChange={(e) => {
-                        const b = availableBanks.find((x) => x.code === e.target.value);
-                        setBankForm({
-                          ...bankForm,
-                          bankCode: e.target.value,
-                          bankName: b?.name || "",
-                        });
-                      }}
-                      className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white cursor-pointer"
-                      required
-                    >
-                      <option value="">Select a bank…</option>
-                      <optgroup label="Fintechs">
-                        {availableBanks
-                          .filter((b) => b.isFintech)
-                          .map((b, idx) => (
-                            <option key={`fintech-${b.code}-${idx}`} value={b.code}>
-                              {b.name}
-                            </option>
-                          ))}
-                      </optgroup>
-                      <optgroup label="Commercial banks">
-                        {availableBanks
-                          .filter((b) => !b.isFintech)
-                          .map((b, idx) => (
-                            <option key={`comm-${b.code}-${idx}`} value={b.code}>
-                              {b.name}
-                            </option>
-                          ))}
-                      </optgroup>
-                    </select>
+                    <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                      Nigerian Bank Payout (Paystack)
+                    </h3>
+                    <p className="text-[11px] text-slate-400 mt-0.5">
+                      Automatic T+1 Naira settlements
+                    </p>
                   </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                    <div>
-                      <label className="block font-semibold text-slate-300 mb-1">
-                        Account Number (10 digits)
-                      </label>
-                      <input
-                        type="text"
-                        inputMode="numeric"
-                        maxLength={10}
-                        value={bankForm.accountNumber}
-                        onChange={(e) =>
-                          setBankForm({ ...bankForm, accountNumber: e.target.value.replace(/\D/g, "") })
-                        }
-                        placeholder="e.g. 7038703778"
-                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono tracking-widest"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label className="block font-semibold text-slate-300 mb-1">
-                        Account Name (filled in by Paystack if verified)
-                      </label>
-                      <input
-                        type="text"
-                        value={bankForm.accountName}
-                        onChange={(e) =>
-                          setBankForm({ ...bankForm, accountName: e.target.value.toUpperCase() })
-                        }
-                        placeholder="Account owner name"
-                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white"
-                      />
-                    </div>
-                  </div>
-
-                  {bankError && (
-                    <div className="text-xs text-rose-300 bg-rose-500/10 border border-rose-500/30 rounded-xl px-3 py-2">
-                      {bankError}
-                    </div>
-                  )}
-
-                  <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-800/80">
+                  <div className="flex items-center gap-2 shrink-0">
+                    {balanceData?.linkedBank?.status === "connected" ? (
+                      <span className="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
+                        Connected
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-semibold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-2.5 py-0.5 rounded-full">
+                        Unlinked
+                      </span>
+                    )}
                     <button
                       type="button"
-                      onClick={() => setIsEditingBank(false)}
-                      className="px-3.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-semibold cursor-pointer border border-slate-800"
+                      onClick={() => {
+                        setBankError("");
+                        if (!isEditingBank) {
+                          const lb = balanceData?.linkedBank;
+                          setBankForm({
+                            bankName: lb?.bankName || "",
+                            bankCode: lb?.bankCode || "",
+                            accountNumber: lb?.accountNumber || "",
+                            accountName: lb?.accountName || "",
+                          });
+                        }
+                        setIsEditingBank(!isEditingBank);
+                      }}
+                      className="px-3 py-1.5 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 text-xs font-bold border border-cyan-500/30 cursor-pointer flex items-center gap-1.5"
                     >
-                      Cancel
-                    </button>
-                    <button
-                      type="submit"
-                      disabled={isAuthorizingBank}
-                      className="px-4 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold cursor-pointer disabled:opacity-50 flex items-center gap-1.5"
-                    >
-                      {isAuthorizingBank ? (
-                        <>
-                          <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                          <span>Verifying with Paystack…</span>
-                        </>
-                      ) : (
-                        <>
-                          <CheckCircle2 className="w-3.5 h-3.5" />
-                          <span>Verify &amp; Connect</span>
-                        </>
-                      )}
+                      <Settings className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>{isEditingBank ? "Close" : "Edit"}</span>
                     </button>
                   </div>
-                </form>
-              )}
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 pt-2">
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    Bank Name
-                  </span>
-                  <span className="text-sm font-bold text-white mt-1 block">
-                    {balanceData?.linkedBank?.bankName || "Not set"}
-                  </span>
                 </div>
 
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    Account Number
-                  </span>
-                  <span className="text-sm font-bold text-white mt-1 block font-mono">
-                    {balanceData?.linkedBank?.accountNumber || "Not set"}
-                  </span>
-                </div>
-
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    Account Beneficiary
-                  </span>
-                  <span className="text-sm font-bold text-white mt-1 block truncate">
-                    {balanceData?.linkedBank?.accountName || "Not set"}
-                  </span>
-                </div>
-
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    Payout Currency
-                  </span>
-                  <span className="text-sm font-bold text-emerald-400 mt-1 block font-mono">
-                    NGN (₦)
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Linked PayPal Account Card */}
-            <div className="bg-slate-900/90 border border-amber-500/30 rounded-3xl p-6 sm:p-7 space-y-4">
-              <div className="flex items-center justify-between flex-wrap gap-2">
-                <div>
-                  <h3 className="text-base font-bold text-white flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-amber-400" />
-                    Linked PayPal Account (USD / International Checkout &amp; Payouts)
-                  </h3>
-                  <p className="text-xs text-slate-400 mt-0.5">
-                    International customers selecting PayPal at checkout pay directly into this PayPal account in USD ($).
-                  </p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
-                    {balanceData?.linkedPayPal?.status === "unlinked" ? "Not connected" : "Connected"}
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setPaypalError("");
-                      if (!isEditingPayPal) {
-                        const lp = balanceData?.linkedPayPal;
-                        setPaypalForm({
-                          email: lp?.email || "auraskinngofficial@gmail.com",
-                          paypalMeUsername: lp?.paypalMeUsername || "auraskinng",
-                          accountHolder: lp?.accountHolder || "AURA SKIN OFFICIAL",
-                        });
-                      }
-                      setIsEditingPayPal(!isEditingPayPal);
-                    }}
-                    className="px-3.5 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-xs font-bold border border-amber-500/30 cursor-pointer flex items-center gap-1.5"
+                {isEditingBank && (
+                  <form
+                    onSubmit={handleAuthorizeBank}
+                    className="bg-slate-950/90 border border-cyan-500/40 p-4 rounded-xl space-y-3"
                   >
-                    <Settings className="w-3.5 h-3.5 text-amber-400" />
-                    <span>{isEditingPayPal ? "Close Editor" : "Edit PayPal Account"}</span>
-                  </button>
+                    <div>
+                      <label className="block text-xs font-semibold text-slate-300 mb-1">
+                        Bank or Fintech
+                      </label>
+                      <select
+                        value={bankForm.bankCode}
+                        onChange={(e) => {
+                          const b = availableBanks.find((x) => x.code === e.target.value);
+                          setBankForm({
+                            ...bankForm,
+                            bankCode: e.target.value,
+                            bankName: b?.name || "",
+                          });
+                        }}
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white cursor-pointer"
+                        required
+                      >
+                        <option value="">Select a bank…</option>
+                        <optgroup label="Fintechs">
+                          {availableBanks
+                            .filter((b) => b.isFintech)
+                            .map((b, idx) => (
+                              <option key={`fintech-${b.code}-${idx}`} value={b.code}>
+                                {b.name}
+                              </option>
+                            ))}
+                        </optgroup>
+                        <optgroup label="Commercial banks">
+                          {availableBanks
+                            .filter((b) => !b.isFintech)
+                            .map((b, idx) => (
+                              <option key={`comm-${b.code}-${idx}`} value={b.code}>
+                                {b.name}
+                              </option>
+                            ))}
+                        </optgroup>
+                      </select>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+                      <div>
+                        <label className="block font-semibold text-slate-300 mb-1">
+                          Account Number
+                        </label>
+                        <input
+                          type="text"
+                          inputMode="numeric"
+                          maxLength={10}
+                          value={bankForm.accountNumber}
+                          onChange={(e) =>
+                            setBankForm({ ...bankForm, accountNumber: e.target.value.replace(/\D/g, "") })
+                          }
+                          placeholder="10 digits"
+                          className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <label className="block font-semibold text-slate-300 mb-1">
+                          Account Name
+                        </label>
+                        <input
+                          type="text"
+                          value={bankForm.accountName}
+                          onChange={(e) =>
+                            setBankForm({ ...bankForm, accountName: e.target.value.toUpperCase() })
+                          }
+                          placeholder="Owner name"
+                          className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white"
+                        />
+                      </div>
+                    </div>
+
+                    {bankError && (
+                      <div className="text-xs text-rose-300 bg-rose-500/10 border border-rose-500/30 rounded-xl px-3 py-2">
+                        {bankError}
+                      </div>
+                    )}
+
+                    <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-800/80">
+                      <button
+                        type="button"
+                        onClick={() => setIsEditingBank(false)}
+                        className="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-semibold cursor-pointer border border-slate-800"
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        type="submit"
+                        disabled={isAuthorizingBank}
+                        className="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold cursor-pointer disabled:opacity-50 flex items-center gap-1.5"
+                      >
+                        <CheckCircle2 className="w-3.5 h-3.5" />
+                        <span>{isAuthorizingBank ? "Verifying…" : "Verify & Connect"}</span>
+                      </button>
+                    </div>
+                  </form>
+                )}
+
+                <div className="grid grid-cols-2 gap-2.5">
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      Bank
+                    </span>
+                    <span className="text-xs font-bold text-white mt-0.5 block truncate">
+                      {balanceData?.linkedBank?.bankName || "Not set"}
+                    </span>
+                  </div>
+
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      Account No.
+                    </span>
+                    <span className="text-xs font-bold text-white mt-0.5 block font-mono">
+                      {balanceData?.linkedBank?.accountNumber || "Not set"}
+                    </span>
+                  </div>
+
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      Beneficiary
+                    </span>
+                    <span className="text-xs font-bold text-white mt-0.5 block truncate">
+                      {balanceData?.linkedBank?.accountName || "Not set"}
+                    </span>
+                  </div>
+
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      Currency
+                    </span>
+                    <span className="text-xs font-bold text-emerald-400 mt-0.5 block font-mono">
+                      NGN (₦)
+                    </span>
+                  </div>
                 </div>
               </div>
 
-              {isEditingPayPal && (
-                <form
-                  onSubmit={handleSavePayPal}
-                  className="bg-slate-950/90 border border-amber-500/40 p-5 rounded-2xl space-y-4"
-                >
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+              {/* Linked PayPal Account Card */}
+              <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-4">
+                <div className="flex items-center justify-between gap-2">
+                  <div>
+                    <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-amber-400" />
+                      PayPal International Account
+                    </h3>
+                    <p className="text-[11px] text-slate-400 mt-0.5">
+                      Direct USD ($) checkout &amp; payouts
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 shrink-0">
+                    <span className="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
+                      {balanceData?.linkedPayPal?.status === "unlinked" ? "Unlinked" : "Connected"}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setPaypalError("");
+                        if (!isEditingPayPal) {
+                          const lp = balanceData?.linkedPayPal;
+                          setPaypalForm({
+                            email: lp?.email || "auraskinngofficial@gmail.com",
+                            paypalMeUsername: lp?.paypalMeUsername || "auraskinng",
+                            accountHolder: lp?.accountHolder || "AURA SKIN OFFICIAL",
+                          });
+                        }
+                        setIsEditingPayPal(!isEditingPayPal);
+                      }}
+                      className="px-3 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-xs font-bold border border-amber-500/30 cursor-pointer flex items-center gap-1.5"
+                    >
+                      <Settings className="w-3.5 h-3.5 text-amber-400" />
+                      <span>{isEditingPayPal ? "Close" : "Edit"}</span>
+                    </button>
+                  </div>
+                </div>
+
+                {isEditingPayPal && (
+                  <form
+                    onSubmit={handleSavePayPal}
+                    className="bg-slate-950/90 border border-amber-500/40 p-4 rounded-xl space-y-3"
+                  >
                     <div>
-                      <label className="block font-semibold text-slate-300 mb-1">
+                      <label className="block text-xs font-semibold text-slate-300 mb-1">
                         PayPal Account Email
                       </label>
                       <input
@@ -2079,101 +2071,104 @@ export default function OwnerPortalPage() {
                         value={paypalForm.email}
                         onChange={(e) => setPaypalForm({ ...paypalForm, email: e.target.value })}
                         placeholder="your-paypal@email.com"
-                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono"
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white font-mono"
                         required
                       />
                     </div>
-                    <div>
-                      <label className="block font-semibold text-slate-300 mb-1">
-                        PayPal.Me Username (optional)
-                      </label>
-                      <input
-                        type="text"
-                        value={paypalForm.paypalMeUsername}
-                        onChange={(e) =>
-                          setPaypalForm({ ...paypalForm, paypalMeUsername: e.target.value })
-                        }
-                        placeholder="e.g. auraskinng"
-                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono"
-                      />
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+                      <div>
+                        <label className="block font-semibold text-slate-300 mb-1">
+                          PayPal.Me Username
+                        </label>
+                        <input
+                          type="text"
+                          value={paypalForm.paypalMeUsername}
+                          onChange={(e) =>
+                            setPaypalForm({ ...paypalForm, paypalMeUsername: e.target.value })
+                          }
+                          placeholder="e.g. auraskinng"
+                          className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white font-mono"
+                        />
+                      </div>
+                      <div>
+                        <label className="block font-semibold text-slate-300 mb-1">
+                          Account Holder
+                        </label>
+                        <input
+                          type="text"
+                          value={paypalForm.accountHolder}
+                          onChange={(e) =>
+                            setPaypalForm({ ...paypalForm, accountHolder: e.target.value })
+                          }
+                          placeholder="AURA SKIN OFFICIAL"
+                          className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white"
+                        />
+                      </div>
                     </div>
-                    <div>
-                      <label className="block font-semibold text-slate-300 mb-1">
-                        Account Holder / Business Name
-                      </label>
-                      <input
-                        type="text"
-                        value={paypalForm.accountHolder}
-                        onChange={(e) =>
-                          setPaypalForm({ ...paypalForm, accountHolder: e.target.value })
-                        }
-                        placeholder="AURA SKIN OFFICIAL"
-                        className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-white"
-                      />
+
+                    {paypalError && (
+                      <div className="text-xs text-rose-300 bg-rose-500/10 border border-rose-500/30 rounded-xl px-3 py-2">
+                        {paypalError}
+                      </div>
+                    )}
+
+                    <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-800/80">
+                      <button
+                        type="button"
+                        onClick={() => setIsEditingPayPal(false)}
+                        className="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-semibold cursor-pointer border border-slate-800"
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        type="submit"
+                        disabled={isSavingPayPal}
+                        className="px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold cursor-pointer disabled:opacity-50 flex items-center gap-1.5"
+                      >
+                        <CheckCircle2 className="w-3.5 h-3.5" />
+                        <span>{isSavingPayPal ? "Saving..." : "Save PayPal"}</span>
+                      </button>
                     </div>
+                  </form>
+                )}
+
+                <div className="grid grid-cols-2 gap-2.5">
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      PayPal Email
+                    </span>
+                    <span className="text-xs font-bold text-white mt-0.5 block font-mono truncate">
+                      {balanceData?.linkedPayPal?.email || "auraskinngofficial@gmail.com"}
+                    </span>
                   </div>
 
-                  {paypalError && (
-                    <div className="text-xs text-rose-300 bg-rose-500/10 border border-rose-500/30 rounded-xl px-3 py-2">
-                      {paypalError}
-                    </div>
-                  )}
-
-                  <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-800/80">
-                    <button
-                      type="button"
-                      onClick={() => setIsEditingPayPal(false)}
-                      className="px-3.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-semibold cursor-pointer border border-slate-800"
-                    >
-                      Cancel
-                    </button>
-                    <button
-                      type="submit"
-                      disabled={isSavingPayPal}
-                      className="px-4 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold cursor-pointer disabled:opacity-50 flex items-center gap-1.5"
-                    >
-                      <CheckCircle2 className="w-3.5 h-3.5" />
-                      <span>{isSavingPayPal ? "Saving..." : "Save PayPal Account"}</span>
-                    </button>
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      PayPal.Me
+                    </span>
+                    <span className="text-xs font-bold text-amber-400 mt-0.5 block font-mono truncate">
+                      paypal.me/{balanceData?.linkedPayPal?.paypalMeUsername || "auraskinng"}
+                    </span>
                   </div>
-                </form>
-              )}
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 pt-2">
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    PayPal Merchant Email
-                  </span>
-                  <span className="text-sm font-bold text-white mt-1 block font-mono truncate">
-                    {balanceData?.linkedPayPal?.email || "auraskinngofficial@gmail.com"}
-                  </span>
-                </div>
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      Account Holder
+                    </span>
+                    <span className="text-xs font-bold text-white mt-0.5 block truncate">
+                      {balanceData?.linkedPayPal?.accountHolder || "AURA SKIN OFFICIAL"}
+                    </span>
+                  </div>
 
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    PayPal.Me Link
-                  </span>
-                  <span className="text-sm font-bold text-amber-400 mt-1 block font-mono truncate">
-                    paypal.me/{balanceData?.linkedPayPal?.paypalMeUsername || "auraskinng"}
-                  </span>
-                </div>
-
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    Account Holder
-                  </span>
-                  <span className="text-sm font-bold text-white mt-1 block truncate">
-                    {balanceData?.linkedPayPal?.accountHolder || "AURA SKIN OFFICIAL"}
-                  </span>
-                </div>
-
-                <div className="bg-slate-950/70 border border-slate-800/80 p-3.5 rounded-2xl">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    Checkout Currency
-                  </span>
-                  <span className="text-sm font-bold text-amber-400 mt-1 block font-mono">
-                    {balanceData?.linkedPayPal?.settlementCurrency || "USD ($)"}
-                  </span>
+                  <div className="bg-slate-950/70 border border-slate-800/80 p-3 rounded-xl">
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                      Currency
+                    </span>
+                    <span className="text-xs font-bold text-amber-400 mt-0.5 block font-mono">
+                      {balanceData?.linkedPayPal?.settlementCurrency || "USD ($)"}
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
