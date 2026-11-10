@@ -380,8 +380,8 @@ export default function CheckoutModal() {
                   </span>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-                  {/* Option 1: Paystack (Bank Transfer / NGN Cards / USSD) */}
+                <div className="grid grid-cols-2 gap-2.5">
+                  {/* Option 1: Bank Transfer / USSD (Paystack) */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("Paystack (Cards / Bank Transfer)")}
@@ -399,15 +399,73 @@ export default function CheckoutModal() {
                     </div>
                     <div className="mt-2.5">
                       <span className="text-xs font-bold text-slate-900 block">
-                        Paystack Direct
+                        Bank Transfer / USSD
                       </span>
                       <span className="text-[10px] text-slate-500 block">
-                        Bank Transfer, USSD &amp; Local Cards
+                        Instant Paystack Account Transfer
                       </span>
                     </div>
                   </button>
 
-                  {/* Option 2: PayPal (USD) */}
+                  {/* Option 2: Debit / Credit Card */}
+                  <button
+                    type="button"
+                    onClick={() => setPaymentMethod("Debit / Credit Card")}
+                    className={`p-3.5 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer ${
+                      paymentMethod === "Debit / Credit Card"
+                        ? "border-[#002B7F] bg-blue-50/40 ring-2 ring-[#002B7F]/25"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
+                    }`}
+                  >
+                    <div className="flex items-center justify-between w-full">
+                      <div className="flex items-center gap-1.5">
+                        <VisaLogo className="h-4.5 w-auto" />
+                        <MastercardLogo className="h-4.5 w-auto" />
+                      </div>
+                      {paymentMethod === "Debit / Credit Card" && (
+                        <span className="w-2 h-2 rounded-full bg-[#002B7F]" />
+                      )}
+                    </div>
+                    <div className="mt-2.5">
+                      <span className="text-xs font-bold text-slate-900 block">
+                        Debit / Credit Card
+                      </span>
+                      <span className="text-[10px] text-slate-500 block">
+                        Visa, Mastercard &amp; Verve
+                      </span>
+                    </div>
+                  </button>
+
+                  {/* Option 3: Apple Pay / Google Pay */}
+                  <button
+                    type="button"
+                    onClick={() => setPaymentMethod("Apple Pay")}
+                    className={`p-3.5 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer ${
+                      paymentMethod === "Apple Pay" || paymentMethod === "Google Pay"
+                        ? "border-slate-900 bg-slate-100/80 ring-2 ring-slate-900/20"
+                        : "border-slate-200 hover:border-slate-300 bg-white"
+                    }`}
+                  >
+                    <div className="flex items-center justify-between w-full">
+                      <div className="flex items-center gap-1.5">
+                        <ApplePayLogo className="h-4.5 w-auto" />
+                        <GooglePayLogo className="h-4.5 w-auto" />
+                      </div>
+                      {(paymentMethod === "Apple Pay" || paymentMethod === "Google Pay") && (
+                        <span className="w-2 h-2 rounded-full bg-slate-900" />
+                      )}
+                    </div>
+                    <div className="mt-2.5">
+                      <span className="text-xs font-bold text-slate-900 block">
+                        Apple Pay / Google Pay
+                      </span>
+                      <span className="text-[10px] text-slate-500 block">
+                        1-Tap Face ID / Touch ID Checkout
+                      </span>
+                    </div>
+                  </button>
+
+                  {/* Option 4: PayPal (USD) */}
                   <button
                     type="button"
                     onClick={() => setPaymentMethod("PayPal")}
@@ -429,40 +487,6 @@ export default function CheckoutModal() {
                       </span>
                       <span className="text-[10px] text-slate-500 block">
                         PayPal Balance &amp; International USD
-                      </span>
-                    </div>
-                  </button>
-
-                  {/* Option 3: Debit / Credit Card & Express Wallets */}
-                  <button
-                    type="button"
-                    onClick={() => setPaymentMethod("Debit / Credit Card")}
-                    className={`p-3.5 rounded-2xl border text-left flex flex-col justify-between transition-all cursor-pointer ${
-                      paymentMethod === "Debit / Credit Card" ||
-                      paymentMethod === "Apple Pay" ||
-                      paymentMethod === "Google Pay"
-                        ? "border-[#002B7F] bg-blue-50/40 ring-2 ring-[#002B7F]/25"
-                        : "border-slate-200 hover:border-slate-300 bg-white"
-                    }`}
-                  >
-                    <div className="flex items-center justify-between w-full">
-                      <div className="flex items-center gap-1.5">
-                        <VisaLogo className="h-4 w-auto" />
-                        <MastercardLogo className="h-4 w-auto" />
-                        <ApplePayLogo className="h-4 w-auto" />
-                      </div>
-                      {(paymentMethod === "Debit / Credit Card" ||
-                        paymentMethod === "Apple Pay" ||
-                        paymentMethod === "Google Pay") && (
-                        <span className="w-2 h-2 rounded-full bg-[#002B7F]" />
-                      )}
-                    </div>
-                    <div className="mt-2.5">
-                      <span className="text-xs font-bold text-slate-900 block">
-                        Debit / Credit Card
-                      </span>
-                      <span className="text-[10px] text-slate-500 block">
-                        Visa, Mastercard, Apple &amp; Google Pay
                       </span>
                     </div>
                   </button>

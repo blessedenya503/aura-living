@@ -133,7 +133,7 @@ export async function POST(request: Request) {
           reference,
           callback_url: finalCallbackUrl,
           metadata,
-          channels: ["card", "bank", "ussd", "qr", "mobile_money", "bank_transfer"],
+          channels: ["card", "bank", "ussd", "qr", "mobile_money", "bank_transfer", "apple_pay"],
         }),
       });
 
