@@ -1,44 +1,63 @@
-# AURA — Skincare E-Commerce Platform
+# AURA SKIN — Skincare E-Commerce Platform
 
-A modern, full-stack, high-conversion direct-to-consumer (D2C) e-commerce storefront and private administration portal designed for viral beauty, health, and medical-grade skincare brands.
+A full-stack direct-to-consumer (D2C) skincare storefront with a private owner portal. It's built for Nigerian and international customers, with Naira and USD checkout, tracked courier delivery, and dropship sourcing from Amazon, CJdropshipping, and Alibaba.
+
+**Live site:** https://auraskinng.vercel.app
 
 ---
 
 ## ✨ Features Overview
 
 ### 🛍️ Customer Storefront (`/`)
-* **Hero Trends Showcase:** Dynamic viral trend spotlight with Framer Motion blend effects, TikTok branding, and real-time statistics.
-* **Animated Glitch Text:** Authentic viral TikTok chromatic glitch effect (`#FE2C55`, `#25F4EE`, `#FFFFFF`).
-* **Live Gemini AI Search (`⌘K`):** Natural language ingredient search, formula analysis, and zero-state curated bestsellers.
-* **Multi-Currency Engine:** Instant real-time conversion rates across USD, EUR, GBP, CAD, AUD, NGN, and JPY.
-* **Night Recovery Sweep:** Ambient day/night circadian theme switch.
-* **Customer Authentication Portal (`/login`):** Split-screen customer account portal with Google & X social logins.
-* **Express Order Tracking (`/track-order`):** Multi-carrier parcel timeline lookup with real-time status updates.
+* **Hero Trends Showcase:** A viral TikTok trend spotlight with Framer Motion effects. The featured product is chosen in the owner portal.
+* **Verified Product Catalog:** 180+ brand products (CeraVe, La Roche-Posay, The Ordinary, COSRX, Beauty of Joseon, Anua, Eucerin, Avène, Bioderma, Tatcha, Drunk Elephant, and more), each with a matching studio packshot in `public/uploads/products/`.
+* **Live Gemini AI Search (`⌘K`):** Search by ingredient or skin concern in plain language. Before you type, it shows curated bestsellers.
+* **Multi-Currency Engine:** Live conversion across USD, EUR, GBP, CAD, AUD, NGN, and JPY.
+* **Night Recovery Sweep:** Switches between day and night themes.
+* **Customer Authentication Portal (`/login`):** Split-screen account portal with Google & Social Media social logins (Better Auth).
+* **Express Order Tracking (`/track-order`):** Look up a parcel's timeline by order ID or waybill number.
+* **Info Pages:** `/about`, `/shipping`, `/returns`, `/privacy`, `/terms`.
+
+### 💳 Checkout & Payments
+The checkout modal shows four payment options in a 2×2 grid:
+
+| Option | Gateway | Best for |
+| --- | --- | --- |
+| **Bank Transfer / USSD** | Paystack | Nigerian customers paying from any banking app (OPay, Kuda, GTB, Zenith, Access…). Paystack shows a temporary account number to transfer to. |
+| **Debit / Credit Card** | Paystack | Visa, Mastercard, and Verve cards with 3D Secure OTP |
+| **Apple Pay / Google Pay** | Paystack | One-tap Face ID / Touch ID payment on supported devices |
+| **PayPal** | PayPal (USD) | International customers paying from a PayPal balance or card |
+
+* After a successful payment, the order is saved, a confirmation email is sent (Resend), and the customer lands on `/checkout/success`.
+* Delivery estimates: **Lagos & Abuja 1–2 days · Other states 2–4 days · International 5–10 days**, with tracking on every order.
 
 ### 🛡️ Private Owner Command Portal (`/owner-portal`)
-* **Live Revenue & Profit Dashboard:** Real-time Gross Revenue, Supplier Wholesale Costs, Net Profit, and Margin % calculations.
-* **Amazon Prime Direct Portal:** Real-time Amazon US product search powered by Rainforest API (live ASINs, Prime seller prices, customer ratings, 1-click catalog import).
-* **Alibaba Dropshipping Center:** Direct sourcing directory for Trade Assurance OEM skincare formulas and high-margin beauty tools.
-* **CJdropshipping Live Gateway:** Live API v2.0 integration with factory wholesale rates, inventory lookup, and automated warehouse fulfillment mapping.
-* **Interactive Packshot Studio:** In-browser image editor with lighting matrices, rotation, luxury badge stamping, and Gemini AI image generation.
-* **Clinical Slideshow Manager:** Dynamic Before & After slide creator with live image upload and instrument metrics tracking.
-* **Customer Order & Dispatch Management:** Real-time order fulfillment status updater (Processing, In Transit, Delivered) with tracking number generator.
+* **Live Revenue & Profit Dashboard:** Shows gross revenue, supplier wholesale costs, net profit, and margin %.
+* **Balance & Payouts:** Your Nigerian bank payout account (verified through Paystack, T+1 Naira settlements) and your **PayPal account** (email, PayPal.Me link, account holder) sit side by side. You can edit either one at any time.
+* **Brand Catalog Import:** Search verified brand catalogs and add them to the storefront one at a time or in bulk.
+* **Amazon Prime Direct Portal:** Search Amazon US live through Rainforest API and import products in one click.
+* **CJdropshipping Live Gateway:** CJ API v2.0 wholesale pricing, inventory lookup, and warehouse fulfillment.
+* **Alibaba Dropshipping Center:** A sourcing directory for Trade Assurance OEM formulas.
+* **Live Catalog Manager:** Edit prices, stock, supplier costs, and margins, with search, supplier filter, and pagination.
+* **Customer Orders & Courier Hub:** Update fulfillment status, assign a courier (GIG Logistics, DHL Express, Speedaf, Fez Delivery, Royal Mail), and generate waybills.
+* **Clinical Slideshow Manager:** Create before-and-after slides with image upload.
+* **Analytics:** Google Analytics 4 events for page views, add-to-cart, checkout, and purchase.
+* **Weekly Catalog Refresh:** A scheduled sync for supplier stock, exchange rates, and trending flags.
+* **Antigravity Studio Editor:** An in-portal code editor with Gemini assistance and a live preview.
 
 ---
 
 ## 🚀 Tech Stack
 
-* **Framework:** [Next.js 15 (App Router)](https://nextjs.org/)
-* **Library:** [React 19](https://react.dev/)
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Components & Primitives:** [shadcn/ui](https://ui.shadcn.com/)
-* **Animation:** [Framer Motion](https://www.framer.com/motion/)
-* **Icons:** [Lucide React](https://lucide.dev/)
-* **Image Processing:** [Sharp](https://sharp.pixelplumbing.com/)
-* **AI Engine:** [Google Gemini API](https://ai.google.dev/)
-* **Amazon Data:** [Rainforest API](https://www.rainforestapi.com/)
-* **Fulfillment:** [CJdropshipping API v2.0](https://developers.cjdropshipping.com/)
-* **Language:** TypeScript
+* **Framework:** [Next.js 15 (App Router)](https://nextjs.org/) + [React 19](https://react.dev/) + TypeScript
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/), [Framer Motion](https://www.framer.com/motion/), [Lucide](https://lucide.dev/)
+* **Database:** [Neon Postgres](https://neon.tech/) (`store_state` table), with `src/data/store-db.json` as a local fallback
+* **Auth:** [Better Auth](https://www.better-auth.com/) (customers) + signed admin session (owner portal)
+* **Payments:** [Paystack](https://paystack.com/) (NGN), [PayPal](https://www.paypal.com/) (USD); `flutterwave-node-v3` is installed for future use
+* **Email:** [Resend](https://resend.com/)
+* **AI:** [Google Gemini API](https://ai.google.dev/)
+* **Sourcing:** [Rainforest API](https://www.rainforestapi.com/) (Amazon), [CJdropshipping API v2.0](https://developers.cjdropshipping.com/)
+* **Hosting:** [Vercel](https://vercel.com/) + Vercel Analytics
 
 ---
 
@@ -46,8 +65,8 @@ A modern, full-stack, high-conversion direct-to-consumer (D2C) e-commerce storef
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/aura-skincare-ecommerce.git
-cd aura-skincare-ecommerce
+git clone https://github.com/blessedenya503/aura-living.git
+cd aura-living
 ```
 
 ### 2. Install Dependencies
@@ -56,70 +75,107 @@ npm install
 ```
 
 ### 3. Configure Environment Variables
-Copy the `.env.example` file to `.env.local`:
+Copy `.env.example` to `.env.local`:
 ```bash
 cp .env.example .env.local
 ```
 
-Set a unique admin email and password, and generate a random session secret of at least 32 characters. Add provider keys only for integrations you plan to use. Never commit `.env.local` or real credentials.
-
-For example, generate a session secret with:
+Generate a session secret (32+ characters):
 ```bash
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
-Configure these values in `.env.local`:
+Then fill in `.env.local`:
 ```env
-# Required for owner portal authentication
+# Owner portal authentication (required)
 ADMIN_EMAIL=your-admin-email@example.com
 ADMIN_PASSWORD=replace-with-a-unique-strong-password
 ADMIN_SESSION_SECRET=replace-with-a-random-secret-at-least-32-characters-long
 
+# Database (Neon Postgres)
+DATABASE_URL=postgresql://user:password@host/db?sslmode=require
+DATABASE_URL_UNPOOLED=postgresql://user:password@host/db?sslmode=require
+
+# Customer auth (Better Auth + Google)
+BETTER_AUTH_SECRET=replace-with-a-random-secret
+BETTER_AUTH_URL=http://localhost:3003
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+NEXT_PUBLIC_GOOGLE_AUTH=true
+
+# Payments
+PAYSTACK_SECRET_KEY=your_paystack_secret_key
+NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=your_paystack_public_key
+PAYPAL_MERCHANT_EMAIL=your-paypal@email.com   # fallback if not set in the owner portal
+
+# Email
+RESEND_API_KEY=your_resend_api_key
+RESEND_FROM_EMAIL=orders@yourdomain.com
+
 # Optional integrations
-CJ_API_KEY=your_cj_api_key_here
-RAINFOREST_API_KEY=your_rainforest_api_key_here
-GEMINI_API_KEY=your_gemini_api_key_here
-PAYSTACK_SECRET_KEY=your_paystack_secret_key_here
-NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=your_paystack_public_key_here
+GEMINI_API_KEY=your_gemini_api_key
+CJ_API_KEY=your_cj_api_key
+RAINFOREST_API_KEY=your_rainforest_api_key
+
 NEXT_PUBLIC_SITE_URL=http://localhost:3003
 ```
 
-Paystack checkout requires `PAYSTACK_SECRET_KEY`; the API returns an error when the key is missing instead of simulating a successful payment.
-
-The owner portal is available at `http://localhost:3002/owner-portal`; the storefront runs at `http://localhost:3003`. The admin login is disabled until all three admin variables are set.
+> Never commit `.env.local` or real credentials. On Vercel, add these under **Project → Settings → Environment Variables**.
 
 ### 4. Run the Development Servers
 ```bash
-npm run dev
+npm run dev            # storefront + owner portal via server.js
+# or individually:
+npm run dev:store      # storefront on :3003
+npm run dev:portal     # owner portal on :3002
 ```
 
-Open your browser:
-* **Storefront:** [http://localhost:3003](http://localhost:3003)
-* **Customer Login:** [http://localhost:3003/login](http://localhost:3003/login)
-* **Owner Portal:** [http://localhost:3002/owner-portal](http://localhost:3002/owner-portal)
+Open:
+* **Storefront:** http://localhost:3003
+* **Customer Login:** http://localhost:3003/login
+* **Owner Portal:** http://localhost:3002/owner-portal
+
+The admin login stays disabled until all three `ADMIN_*` variables are set.
 
 ---
 
 ## 📂 Project Structure
 
 ```
-├── data/                    # Persistent local uploads and media cache
+├── public/
+│   └── uploads/products/    # Product packshot images (<product-id>.jpg)
 ├── src/
-│   ├── app/                 # Next.js 15 App Router pages & API routes
-│   │   ├── api/             # Backend routes (Amazon, CJ, Store, Media, Auth)
-│   │   ├── login/           # Customer account authentication portal
+│   ├── app/
+│   │   ├── api/             # admin, paystack, checkout, orders, store, cj, ai-search, auth, media…
+│   │   ├── checkout/        # Payment success page
+│   │   ├── login/           # Customer account portal
 │   │   ├── owner-portal/    # Private store management dashboard
-│   │   ├── track-order/     # Customer courier tracking page
-│   │   └── page.tsx         # Main storefront home page
-│   ├── components/          # Composite feature components (Hero, Navbar, Studio, etc.)
-│   │   └── ui/              # shadcn atomic UI primitives (GlitchText, Typewriter, etc.)
-│   ├── context/             # React Context providers (CartContext, Currency, Theme)
-│   ├── data/                # Store catalog database & initial products
-│   └── lib/                 # Utility helpers, API clients, and auth tokens
-├── components.json          # shadcn/ui configuration
-├── tailwind.config.ts       # Tailwind CSS theme configurations
-└── tsconfig.json            # TypeScript compiler configuration
+│   │   ├── product/         # Product detail pages
+│   │   ├── track-order/     # Courier tracking page
+│   │   └── page.tsx         # Storefront home page
+│   ├── components/          # CheckoutModal, PaymentLogos, Navbar, Hero, Studio…
+│   │   └── ui/              # shadcn primitives
+│   ├── context/             # CartContext, currency, theme
+│   ├── data/                # products.ts + store-db.json (local fallback DB)
+│   └── lib/                 # store-db (Neon sync), auth, email, helpers
+├── next.config.ts           # Includes outputFileTracingExcludes to keep serverless bundles small
+└── tsconfig.json
 ```
+
+---
+
+## 🗄️ Data Persistence
+
+The live store reads and writes its state (products, orders, settings, linked bank and PayPal accounts) from Neon Postgres (`store_state`, key `current_store_db`). `src/data/store-db.json` is used only when the database can't be reached.
+
+> **Important:** Editing `store-db.json` or `products.ts` alone does **not** change the live site. Make changes through the owner portal, or sync them to Neon.
+
+---
+
+## ⚠️ Known Limitations
+
+* **PayPal payments aren't verified on the server yet.** Checkout sends customers to PayPal's standard payment page, but when they return, the order is marked *Paid* without checking with PayPal. Before relying on PayPal for real sales, add PayPal REST API / webhook (IPN) verification, or confirm each PayPal order in your PayPal dashboard before shipping.
+* **Apple Pay through Paystack** has to be enabled on your Paystack account, and your domain must be registered with Paystack. Until then, Paystack falls back to card or bank transfer.
 
 ---
 
